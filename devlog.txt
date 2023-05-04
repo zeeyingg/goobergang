@@ -1,0 +1,37 @@
+goobergang
+Ziying Jian
+Gabriel Thompson
+Jun Hong Wang
+Joshua Liu
+pd 8
+---------------------
+MIT Professor-o-meter
+
+ ______   ______   __   __   __       ______   _______
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+ziyingJ, gabrielT, junW, joshuaL -- 2023-04-03 14:00
+--------------------------------------------------------------
+ * Came up with team member roles, and target ship date
+ * Outlined list of parts of the project
+==============================================================
+
+ziyingJ, gabrielT, junW, joshuaL -- 2023-04-03 22:00
+--------------------------------------------------------------
+ * Made component map and sitemap via thoughts
+ * Came up with database organization system, and made diagram for it
+==============================================================
+
+gabrielT -- 2023-04-04 23:00
+--------------------------------------------------------------
+ * Updated the design doc with suggestions from class revisions
+ * Created & updated devlog but whoops he forgot to commit until sixth period the next day :flushed:
+==============================================================
