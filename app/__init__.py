@@ -8,6 +8,7 @@ from db import *
 app = Flask(__name__)
 app.secret_key = "temporarykey" #maybe not needed since we dont have logins
 
+
 @app.route("/", methods=["GET"])
 def home_page():
     return render_template("index.html")
