@@ -18,20 +18,25 @@ MIT Professor-o-meter
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
-ziyingJ, gabrielT, junW, joshuaL -- 2023-04-03 14:00
+ziyingJ, gabrielT, junW, joshuaL -- 2023-05-02 14:00
 --------------------------------------------------------------
  * Came up with team member roles, and target ship date
  * Outlined list of parts of the project
 ==============================================================
 
-ziyingJ, gabrielT, junW, joshuaL -- 2023-04-03 22:00
+ziyingJ, gabrielT, junW, joshuaL -- 2023-05-02 22:00
 --------------------------------------------------------------
  * Made component map and sitemap via thoughts
  * Came up with database organization system, and made diagram for it
 ==============================================================
 
-gabrielT -- 2023-04-04 23:00
+gabrielT -- 2023-05-03 23:00
 --------------------------------------------------------------
  * Updated the design doc with suggestions from class revisions
  * Created & updated devlog but whoops he forgot to commit until sixth period the next day :flushed:
+==============================================================
+
+ziyingJ, joshuaL -- 2023-05-04 13:30
+--------------------------------------------------------------
+ * Created basic working flask app template
 ==============================================================
