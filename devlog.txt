@@ -34,9 +34,30 @@ gabrielT -- 2023-05-03 23:00
 --------------------------------------------------------------
  * Updated the design doc with suggestions from class revisions
  * Created & updated devlog but whoops he forgot to commit until sixth period the next day :flushed:
+ * Wrote Python parser to extract names of courses from HTML file of course catalog
 ==============================================================
 
 ziyingJ, joshuaL -- 2023-05-04 13:30
 --------------------------------------------------------------
  * Created basic working flask app template
+==============================================================
+
+gabrielT -- 2023-05-04 13:30
+--------------------------------------------------------------
+ * Wrote Python function to get list of a lecture URLs given a course URL
+==============================================================
+
+gabrielT -- 2023-05-06 14:00
+--------------------------------------------------------------
+ * Created ID system for lectures and courses
+ * Wrote script to store courses and lectures in respective JSON files
+ * Wrote Python script to download the contents of all lectures found that my scraper found
+ * Wrote Python script to extract the names of lecturers from a given lecture URL (works about 75% of the time)
+==============================================================
+
+gabrielT -- 2023-05-07 20:00
+--------------------------------------------------------------
+ * Wrote Python script to calculate metrics about lectures and store these details in JSON file for lectures
+ * Wrote script to amalgamate all of this data into files keeping track of metrics specific to professors and departments.
+ * Expanded the number of lectures in the dataset from ~1300 to ~2100
 ==============================================================
