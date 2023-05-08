@@ -1,0 +1,684 @@
+WEBVTT
+
+00:00:10.950 --> 00:00:13.110
+PROFESSOR: So we've just
+discussed the strategies
+
+00:00:13.110 --> 00:00:15.270
+for reopening schools
+and businesses based
+
+00:00:15.270 --> 00:00:18.450
+on the indoor safety
+guideline for the given
+
+00:00:18.450 --> 00:00:22.890
+space and the various physical
+parameters in that space.
+
+00:00:22.890 --> 00:00:25.610
+And the new concept we added
+was a prevalence of infection.
+
+00:00:25.610 --> 00:00:28.170
+So we would know, on average,
+how many infected people
+
+00:00:28.170 --> 00:00:29.430
+we might expect in a room.
+
+00:00:29.430 --> 00:00:33.490
+And as that number goes to
+zero, as the pandemic subsides,
+
+00:00:33.490 --> 00:00:35.640
+we can switch from a
+more restricted situation
+
+00:00:35.640 --> 00:00:37.500
+with an occupancy
+N1, prescribed
+
+00:00:37.500 --> 00:00:40.200
+by the original guideline based
+on the indoor reproductive
+
+00:00:40.200 --> 00:00:42.630
+number, to kind of
+increasing occupancy up
+
+00:00:42.630 --> 00:00:45.510
+to N0, which is the
+normal original occupancy,
+
+00:00:45.510 --> 00:00:46.900
+initially with masks.
+
+00:00:46.900 --> 00:00:48.360
+And as the prevalence
+goes down, we
+
+00:00:48.360 --> 00:00:50.640
+switch to taking the
+masks off and really
+
+00:00:50.640 --> 00:00:53.650
+returning back to normal.
+
+00:00:53.650 --> 00:00:57.370
+So I'd like to take this a
+little further now and ask,
+
+00:00:57.370 --> 00:01:00.090
+how would we change our
+policies or this discussion
+
+00:01:00.090 --> 00:01:01.620
+here if we not only
+have information
+
+00:01:01.620 --> 00:01:03.000
+about the prevalence
+of infection
+
+00:01:03.000 --> 00:01:05.440
+but we also have an
+understanding of immunity,
+
+00:01:05.440 --> 00:01:07.710
+which could be acquired
+through vaccination
+
+00:01:07.710 --> 00:01:10.110
+or through previous exposure?
+
+00:01:10.110 --> 00:01:11.910
+And especially right
+now as I'm recording
+
+00:01:11.910 --> 00:01:15.000
+this lecture in early
+2021 and several vaccines
+
+00:01:15.000 --> 00:01:18.180
+have rolled out
+for COVID-19, this
+
+00:01:18.180 --> 00:01:22.510
+is a topic of great interest.
+
+00:01:22.510 --> 00:01:25.590
+So let's think
+about, how would we
+
+00:01:25.590 --> 00:01:27.000
+take into account
+susceptibility?
+
+00:01:27.000 --> 00:01:30.090
+So, in some sense, this
+was a conservative estimate
+
+00:01:30.090 --> 00:01:32.610
+of the true risk of
+transmission because we've
+
+00:01:32.610 --> 00:01:36.360
+assumed that everyone who's
+uninfected is susceptible.
+
+00:01:36.360 --> 00:01:39.570
+But, of course, as immunity is
+increased in the population,
+
+00:01:39.570 --> 00:01:41.620
+we're going to have
+to modify that.
+
+00:01:41.620 --> 00:01:46.289
+So instead of having
+our populations
+
+00:01:46.289 --> 00:01:48.960
+of susceptible and
+infected persons
+
+00:01:48.960 --> 00:01:54.030
+being sampled from a two-state
+or two-category process,
+
+00:01:54.030 --> 00:01:56.070
+we can think of
+three categories.
+
+00:01:56.070 --> 00:01:59.200
+There can be--
+
+00:01:59.200 --> 00:02:04.320
+PI is the probability
+that a person is infected,
+
+00:02:04.320 --> 00:02:06.410
+which means really, again,
+that they're infectious
+
+00:02:06.410 --> 00:02:07.800
+and they can affect
+other people.
+
+00:02:07.800 --> 00:02:09.840
+And this is coming from
+the local population that
+
+00:02:09.840 --> 00:02:11.780
+is entering that indoor space.
+
+00:02:11.780 --> 00:02:16.079
+And now we're going to add
+PS, which is the probability
+
+00:02:16.079 --> 00:02:18.060
+that a person is susceptible.
+
+00:02:21.490 --> 00:02:30.980
+And then the third category is
+PM, which is the probability
+
+00:02:30.980 --> 00:02:33.570
+that the person is immune.
+
+00:02:33.570 --> 00:02:36.010
+And so we have a
+three-category process,
+
+00:02:36.010 --> 00:02:37.430
+so those three
+should add up to 1.
+
+00:02:37.430 --> 00:02:42.350
+So this is 1 minus PI plus PS.
+
+00:02:42.350 --> 00:02:45.260
+And we can also
+further write this
+
+00:02:45.260 --> 00:02:49.160
+as PVAC, the probability that
+a person has been successfully
+
+00:02:49.160 --> 00:02:52.820
+vaccinated and actually
+has acquired immunity,
+
+00:02:52.820 --> 00:02:56.150
+plus the probability
+of previous exposure.
+
+00:02:56.150 --> 00:02:57.290
+We'll call that PX.
+
+00:02:57.290 --> 00:03:04.400
+So this would be
+vaccination, and this
+
+00:03:04.400 --> 00:03:10.370
+would be previous exposure
+if that previous exposure has
+
+00:03:10.370 --> 00:03:11.420
+actually led to immunity.
+
+00:03:11.420 --> 00:03:14.360
+And that's a controversial
+topic, still, under research
+
+00:03:14.360 --> 00:03:16.970
+and may depend on the
+specific population at hand.
+
+00:03:16.970 --> 00:03:18.560
+But let's imagine
+that we have subsets
+
+00:03:18.560 --> 00:03:20.870
+of what these
+numbers are and then
+
+00:03:20.870 --> 00:03:24.520
+we'd like to see how to
+adjust our thinking here.
+
+00:03:24.520 --> 00:03:28.400
+So we're still going
+to base our guideline
+
+00:03:28.400 --> 00:03:31.250
+on saying that the expected
+number of transmissions
+
+00:03:31.250 --> 00:03:34.440
+is the expected number of
+infected time susceptible,
+
+00:03:34.440 --> 00:03:39.980
+so the expected number of pairs,
+times the average transmission
+
+00:03:39.980 --> 00:03:45.050
+rate, average of beta
+times tau, the time,
+
+00:03:45.050 --> 00:03:48.200
+and that that expected
+number of transmissions
+
+00:03:48.200 --> 00:03:50.650
+should be less than
+our tolerance epsilon.
+
+00:03:50.650 --> 00:03:52.700
+So that's still our guideline.
+
+00:03:52.700 --> 00:03:55.070
+So what we're really
+trying to consider,
+
+00:03:55.070 --> 00:03:59.180
+now, are different assumptions
+about this expected number
+
+00:03:59.180 --> 00:04:02.360
+of infected susceptible
+pairs that are in the room.
+
+00:04:02.360 --> 00:04:04.730
+And we've broken that down
+into three risk scenarios.
+
+00:04:04.730 --> 00:04:09.230
+And let's revisit that, now,
+with our three-category model.
+
+00:04:09.230 --> 00:04:25.820
+So the first risk scenario
+was describing a desire
+
+00:04:25.820 --> 00:04:27.820
+to limit spreading
+of the disease
+
+00:04:27.820 --> 00:04:29.480
+through this indoor space.
+
+00:04:29.480 --> 00:04:31.950
+This is our original goal.
+
+00:04:31.950 --> 00:04:34.970
+And by that, we mean, if
+an infected person enters
+
+00:04:34.970 --> 00:04:38.330
+the room, then we would like
+to make sure that it's unlikely
+
+00:04:38.330 --> 00:04:41.000
+that a new case would
+emerge from transmission
+
+00:04:41.000 --> 00:04:42.540
+from that person.
+
+00:04:42.540 --> 00:04:50.570
+So in that case, we
+have I is equal to 1.
+
+00:04:50.570 --> 00:04:54.110
+And then, now, I is known.
+
+00:04:54.110 --> 00:04:56.360
+So this is just the
+expected value of S.
+
+00:04:56.360 --> 00:05:00.900
+And the expected value of S,
+though, in this new model,
+
+00:05:00.900 --> 00:05:06.730
+is the number of other people in
+the room, n minus 1, times PS.
+
+00:05:06.730 --> 00:05:11.730
+So you see, now, when I define
+my indoor reproductive number
+
+00:05:11.730 --> 00:05:19.460
+as N minus 1 times
+beta tau and I
+
+00:05:19.460 --> 00:05:21.860
+want to bound that to
+be less than epsilon--
+
+00:05:21.860 --> 00:05:25.760
+that's my typical guideline--
+there's this extra factor, PS,
+
+00:05:25.760 --> 00:05:27.720
+which could be moved
+to the other side.
+
+00:05:27.720 --> 00:05:30.440
+So one way to think about it
+is, since PS is less than 1,
+
+00:05:30.440 --> 00:05:33.350
+we are increasing that
+tolerance because there
+
+00:05:33.350 --> 00:05:35.380
+are fewer susceptible people.
+
+00:05:35.380 --> 00:05:37.220
+So we're allowed to
+stay in the room longer,
+
+00:05:37.220 --> 00:05:41.070
+have a higher occupancy,
+lower ventilation, et cetera.
+
+00:05:41.070 --> 00:05:45.040
+So this is one case.
+
+00:05:45.040 --> 00:05:49.150
+The next case is to
+limit transmission.
+
+00:05:54.730 --> 00:05:56.110
+So here we're not
+going to assume
+
+00:05:56.110 --> 00:05:58.040
+that an infected person
+actually is there,
+
+00:05:58.040 --> 00:06:00.340
+but we are going to consider
+the possibility that there
+
+00:06:00.340 --> 00:06:01.500
+is an infected person there.
+
+00:06:01.500 --> 00:06:06.470
+So that makes transmission
+potentially a lot less likely.
+
+00:06:06.470 --> 00:06:08.080
+And so what we'd
+like to do here is
+
+00:06:08.080 --> 00:06:11.250
+to look at the expected
+value of I times S.
+
+00:06:11.250 --> 00:06:12.710
+And I won't go
+through the details.
+
+00:06:12.710 --> 00:06:14.920
+But for the trinomial
+distribution
+
+00:06:14.920 --> 00:06:18.080
+with three independent
+possibilities,
+
+00:06:18.080 --> 00:06:19.630
+with these
+probabilities-- and you're
+
+00:06:19.630 --> 00:06:22.570
+making N samples from
+that distribution--
+
+00:06:22.570 --> 00:06:27.490
+you can show that the
+expected value of this product
+
+00:06:27.490 --> 00:06:33.490
+is actually N minus
+1 times PI times PS,
+
+00:06:33.490 --> 00:06:35.830
+by very similar
+arguments as we have
+
+00:06:35.830 --> 00:06:39.700
+done for the binomial case.
+
+00:06:39.700 --> 00:06:42.760
+One way to think about
+this is that N minus 1
+
+00:06:42.760 --> 00:06:46.090
+is the number of permutations
+of two people that
+
+00:06:46.090 --> 00:06:47.420
+can be made in that room.
+
+00:06:47.420 --> 00:06:50.470
+So if you pick one person
+to be first the infected
+
+00:06:50.470 --> 00:06:52.250
+and the other one to
+be the susceptible,
+
+00:06:52.250 --> 00:06:54.310
+this is the number
+of such pairs.
+
+00:06:54.310 --> 00:06:57.740
+And PI PS is the probability
+of each of those instances.
+
+00:06:57.740 --> 00:07:07.530
+So this is the expected
+number of I to S pairs.
+
+00:07:07.530 --> 00:07:10.740
+And I put a directionality here
+because we are distinguishing
+
+00:07:10.740 --> 00:07:11.760
+each individual person.
+
+00:07:11.760 --> 00:07:13.890
+So if I take two people,
+I am counting differently.
+
+00:07:13.890 --> 00:07:15.960
+If one is infected, the
+other one's susceptible
+
+00:07:15.960 --> 00:07:20.430
+or the reverse situation since
+everyone's a unique individual.
+
+00:07:20.430 --> 00:07:23.460
+OK, so if we then substitute
+into this formula,
+
+00:07:23.460 --> 00:07:26.690
+then, notice, now, we've
+picked up some extra factors.
+
+00:07:26.690 --> 00:07:30.240
+So now the guideline
+would read that RN
+
+00:07:30.240 --> 00:07:34.110
+will be less than epsilon over
+N times PI, which is something
+
+00:07:34.110 --> 00:07:36.600
+we already had before.
+
+00:07:36.600 --> 00:07:38.250
+But now there's also a PS.
+
+00:07:40.810 --> 00:07:42.970
+So that's modified.
+
+00:07:42.970 --> 00:07:47.050
+And then, finally, our
+third risk scenario
+
+00:07:47.050 --> 00:07:50.830
+was to limit personal risk.
+
+00:08:01.330 --> 00:08:04.290
+So this is the case
+where S is equal to 1.
+
+00:08:04.290 --> 00:08:06.240
+I'm only worried about
+one susceptible person,
+
+00:08:06.240 --> 00:08:07.380
+and that's me.
+
+00:08:07.380 --> 00:08:11.310
+And I'm then-- if
+S is known, then
+
+00:08:11.310 --> 00:08:14.580
+we just have the
+expected value of I,
+
+00:08:14.580 --> 00:08:22.090
+which is just N minus 1, all
+the other people, times PI.
+
+00:08:22.090 --> 00:08:25.620
+And if you plug that
+into the formula,
+
+00:08:25.620 --> 00:08:27.750
+then you find that
+RN is now bounded
+
+00:08:27.750 --> 00:08:33.280
+by epsilon divided by PI.
+
+00:08:33.280 --> 00:08:35.820
+So take into account both
+prevalence of infection
+
+00:08:35.820 --> 00:08:38.850
+and susceptibility, at least to
+these somewhat modified bounds.
+
+00:08:38.850 --> 00:08:41.679
+And let's focus on where
+the changes took place.
+
+00:08:41.679 --> 00:08:44.370
+So first of all, in
+the original guideline
+
+00:08:44.370 --> 00:08:47.580
+for limiting spreading, we can
+be a little bit more lenient.
+
+00:08:47.580 --> 00:08:50.760
+So as there's more
+vaccination and more immunity,
+
+00:08:50.760 --> 00:08:52.860
+we don't need to keep
+holding that guideline
+
+00:08:52.860 --> 00:08:54.570
+at the same level,
+even in the most
+
+00:08:54.570 --> 00:08:59.640
+sort of conservative stance
+of trying to limit spreading.
+
+00:08:59.640 --> 00:09:02.190
+What's more interesting for this
+plot here is the middle one.
+
+00:09:02.190 --> 00:09:04.860
+So now, we again think
+up a factor of PS.
+
+00:09:04.860 --> 00:09:06.290
+But everything else is the same.
+
+00:09:06.290 --> 00:09:08.500
+So what it means is that,
+relative to the calculation
+
+00:09:08.500 --> 00:09:10.800
+that I showed here,
+I should actually
+
+00:09:10.800 --> 00:09:12.660
+make the very same
+plot where I don't just
+
+00:09:12.660 --> 00:09:14.730
+plot PI in this
+axis, but actually
+
+00:09:14.730 --> 00:09:19.110
+plot PI times PS, where PS
+is the probability of being
+
+00:09:19.110 --> 00:09:21.780
+susceptible, which is
+related to vaccination
+
+00:09:21.780 --> 00:09:23.920
+and previous exposure rates.
+
+00:09:23.920 --> 00:09:29.100
+So that actually does bring this
+down and, hence, make it easier
+
+00:09:29.100 --> 00:09:31.500
+to make the decision to
+relax restrictions and even
+
+00:09:31.500 --> 00:09:33.840
+ultimately take off the mask,
+because as a combination
+
+00:09:33.840 --> 00:09:37.380
+of these two factors, we're
+getting even more safe.
+
+00:09:37.380 --> 00:09:39.580
+Interestingly, down
+here for personal risk,
+
+00:09:39.580 --> 00:09:42.000
+we don't really care about the
+probability of susceptibles
+
+00:09:42.000 --> 00:09:44.250
+because the only person I
+care about in that situation
+
+00:09:44.250 --> 00:09:45.030
+is myself.
+
+00:09:45.030 --> 00:09:48.570
+And so I don't have any
+effect of susceptibility,
+
+00:09:48.570 --> 00:09:51.200
+only the effect of infection.

@@ -1,0 +1,1553 @@
+WEBVTT
+
+00:00:10.430 --> 00:00:12.980
+PROFESSOR: So now, let's start
+talking about airborne disease
+
+00:00:12.980 --> 00:00:17.050
+transmission, thinking
+especially of viral diseases
+
+00:00:17.050 --> 00:00:19.330
+where we expect the
+transmission to occur
+
+00:00:19.330 --> 00:00:22.510
+through aerosol droplets or
+at least smaller droplets,
+
+00:00:22.510 --> 00:00:24.880
+which may sediment
+but are going to be
+
+00:00:24.880 --> 00:00:28.820
+suspended in the air for a
+significant amount of time.
+
+00:00:28.820 --> 00:00:31.300
+So the first approximation
+of such a situation
+
+00:00:31.300 --> 00:00:34.750
+is to assume a
+well-mixed room, meaning
+
+00:00:34.750 --> 00:00:36.910
+that the air in the
+room is well mixed.
+
+00:00:36.910 --> 00:00:42.750
+And even if there is, let's
+say, one person who's infected
+
+00:00:42.750 --> 00:00:49.010
+and that infected person is
+breathing, talking, singing,
+
+00:00:49.010 --> 00:00:54.500
+respiring, and exhaling
+infected aerosol droplets,
+
+00:00:54.500 --> 00:00:57.580
+then these droplets start
+to spread around the room.
+
+00:01:01.650 --> 00:01:04.099
+And they do so
+because the room is--
+
+00:01:04.099 --> 00:01:05.860
+and we assume that the
+room is well mixed.
+
+00:01:05.860 --> 00:01:06.990
+So even though,
+as I've sketched,
+
+00:01:06.990 --> 00:01:09.150
+there's certainly going to
+be a higher concentration
+
+00:01:09.150 --> 00:01:12.330
+of the droplets near the
+infected person, that
+
+00:01:12.330 --> 00:01:15.260
+is there are significant
+airflows in the room, which
+
+00:01:15.260 --> 00:01:16.800
+induce mixing.
+
+00:01:16.800 --> 00:01:19.620
+That is partly driven
+by the flow of fresh air
+
+00:01:19.620 --> 00:01:20.820
+through the room.
+
+00:01:20.820 --> 00:01:23.730
+Typically, we may have
+some forced ventilation
+
+00:01:23.730 --> 00:01:25.289
+coming through ducts with fans.
+
+00:01:25.289 --> 00:01:26.820
+There could be open windows.
+
+00:01:26.820 --> 00:01:32.390
+And even when a
+room is not open,
+
+00:01:32.390 --> 00:01:34.350
+meaning that the windows
+are closed, maybe even
+
+00:01:34.350 --> 00:01:35.759
+the door is closed,
+there's always
+
+00:01:35.759 --> 00:01:38.610
+some leakage and exchange of
+air with the outside, which
+
+00:01:38.610 --> 00:01:40.680
+typically happens on
+the order of hours.
+
+00:01:40.680 --> 00:01:43.200
+So there's always at least
+some kind of flow rate.
+
+00:01:43.200 --> 00:01:45.539
+Also, there's a movement
+of people in the room,
+
+00:01:45.539 --> 00:01:47.850
+and there's also breathing
+itself, which basically
+
+00:01:47.850 --> 00:01:51.120
+imparts momentum to
+the fluid and causes
+
+00:01:51.120 --> 00:01:53.289
+swirling motions of the fluid.
+
+00:01:53.289 --> 00:01:57.270
+So the situation actually
+is more like this
+
+00:01:57.270 --> 00:02:01.080
+where there's these flows
+that are generated either
+
+00:02:01.080 --> 00:02:05.820
+by the ventilation,
+by the movement
+
+00:02:05.820 --> 00:02:09.280
+and respiration of the
+people, also by thermal flows.
+
+00:02:09.280 --> 00:02:11.940
+So when you're breathing, the
+air coming out of your lungs
+
+00:02:11.940 --> 00:02:14.220
+is warmer, and
+that tends to rise.
+
+00:02:14.220 --> 00:02:17.130
+But, also, if it's very
+humid air and very warm air,
+
+00:02:17.130 --> 00:02:20.370
+then actually the weight of
+all the humidity and droplets
+
+00:02:20.370 --> 00:02:21.750
+that come with
+air could actually
+
+00:02:21.750 --> 00:02:23.530
+cause some settling as well.
+
+00:02:23.530 --> 00:02:25.950
+So you have all these
+different processes going on.
+
+00:02:25.950 --> 00:02:27.990
+And your first
+approximation, just
+
+00:02:27.990 --> 00:02:32.110
+assume that those lead to
+a well-mixed situation.
+
+00:02:32.110 --> 00:02:34.829
+And so we will proceed to
+analyze disease transmission
+
+00:02:34.829 --> 00:02:36.390
+from that assumption,
+and then we'll
+
+00:02:36.390 --> 00:02:39.570
+come back at the
+end to consider what
+
+00:02:39.570 --> 00:02:41.640
+would happen if there
+are actually fluctuations
+
+00:02:41.640 --> 00:02:44.730
+and think about the distance
+from an infected person
+
+00:02:44.730 --> 00:02:47.190
+and how that might play
+a role in departures
+
+00:02:47.190 --> 00:02:49.540
+from the predictions of
+a well mixed room.
+
+00:02:49.540 --> 00:02:50.370
+OK.
+
+00:02:50.370 --> 00:02:53.250
+So defining some
+variables, then.
+
+00:02:53.250 --> 00:02:57.270
+We'll let C of t
+be the, basically,
+
+00:02:57.270 --> 00:02:59.550
+infectiousness of
+the air, if you will.
+
+00:02:59.550 --> 00:03:01.800
+But more specifically,
+if we think of virus,
+
+00:03:01.800 --> 00:03:07.960
+it'll be the virions
+per air volume.
+
+00:03:07.960 --> 00:03:09.340
+So they're contained
+in droplets.
+
+00:03:09.340 --> 00:03:11.640
+And later we will consider
+what size droplets
+
+00:03:11.640 --> 00:03:13.480
+they may be contained
+in, but for now, let's
+
+00:03:13.480 --> 00:03:15.310
+just average over
+everything and say there's
+
+00:03:15.310 --> 00:03:18.980
+some concentration in the air.
+
+00:03:18.980 --> 00:03:24.290
+We have a production rate of
+these infectious droplets,
+
+00:03:24.290 --> 00:03:31.720
+which can be broken
+down into many terms.
+
+00:03:31.720 --> 00:03:33.510
+So this is the
+production rate, so this
+
+00:03:33.510 --> 00:03:38.500
+is the number of virions
+per time that are produced.
+
+00:03:38.500 --> 00:03:43.610
+So that would be Qb is
+our breathing flow rate.
+
+00:03:50.870 --> 00:03:54.070
+So that's basically the volume
+of exhaled air per breath
+
+00:03:54.070 --> 00:03:57.700
+cycle, so that's how much
+air is being pushed out
+
+00:03:57.700 --> 00:03:58.630
+in your breathing.
+
+00:03:58.630 --> 00:04:00.490
+And this is typically--
+
+00:04:00.490 --> 00:04:07.790
+ranges from 0.5 up to around
+3 meters cubed per hour.
+
+00:04:07.790 --> 00:04:11.980
+So 0.5 is a typical
+resting breathing rate.
+
+00:04:11.980 --> 00:04:13.990
+And, in fact, even
+if you're just
+
+00:04:13.990 --> 00:04:17.089
+kind of calmly speaking and
+sitting in a room breathing
+
+00:04:17.089 --> 00:04:19.510
+through your nose, that'll be
+your typical breathing rate.
+
+00:04:19.510 --> 00:04:22.430
+But if you start exercising
+and start exerting yourself,
+
+00:04:22.430 --> 00:04:25.020
+then that could go
+up to maybe around 3.
+
+00:04:25.020 --> 00:04:28.200
+And so that's the typical
+range of the breathing rate.
+
+00:04:28.200 --> 00:04:33.770
+The next thing we need is Nd
+is the droplet concentration,
+
+00:04:33.770 --> 00:04:39.060
+so this is the number
+of drops per air volume.
+
+00:04:39.060 --> 00:04:41.070
+So that's sort of the
+number density of drops.
+
+00:04:41.070 --> 00:04:44.200
+So if I have various
+visualization techniques,
+
+00:04:44.200 --> 00:04:46.620
+I can actually see all the
+droplets, and I can count them.
+
+00:04:46.620 --> 00:04:50.070
+I can say how many droplets
+are in a given volume.
+
+00:04:50.070 --> 00:04:51.990
+The next thing is I need
+the volume of a drop.
+
+00:04:56.270 --> 00:04:57.990
+So as I mentioned,
+of course there
+
+00:04:57.990 --> 00:04:59.540
+are different drop
+volumes, and we'll
+
+00:04:59.540 --> 00:05:03.200
+come back to assessing the
+effects of a droplet size
+
+00:05:03.200 --> 00:05:04.310
+distribution.
+
+00:05:04.310 --> 00:05:06.230
+But for simplicity,
+why don't we just take
+
+00:05:06.230 --> 00:05:09.200
+these sort of average size
+drops that we discussed
+
+00:05:09.200 --> 00:05:10.700
+coming from respiration,
+
+00:05:10.700 --> 00:05:13.970
+And that might be a number
+around 1 micron in size.
+
+00:05:13.970 --> 00:05:16.790
+And there's a volume that
+corresponds with that, which,
+
+00:05:16.790 --> 00:05:20.840
+of course, is the
+4/3 pi r cubed where
+
+00:05:20.840 --> 00:05:25.340
+we assume for now only one
+size r for all drops just
+
+00:05:25.340 --> 00:05:27.570
+for the moment.
+
+00:05:27.570 --> 00:05:29.930
+So now we have the
+volume here, so now
+
+00:05:29.930 --> 00:05:37.270
+we sort of what is the
+total amount of drops.
+
+00:05:37.270 --> 00:05:40.130
+So the next thing
+we need now is Cv.
+
+00:05:40.130 --> 00:05:47.020
+Cv will be the number of virions
+per liquid volume or per drop
+
+00:05:47.020 --> 00:05:49.650
+volume, so there's certain-- so
+if I could take the pure liquid
+
+00:05:49.650 --> 00:05:51.810
+in the drop-- let's
+say it's mucus--
+
+00:05:51.810 --> 00:05:53.730
+and it's been coming
+out of your pharynx
+
+00:05:53.730 --> 00:05:56.860
+and has sort of fragmented and
+taken some virions with it,
+
+00:05:56.860 --> 00:05:59.010
+then that would be the
+viral load, essentially.
+
+00:05:59.010 --> 00:06:03.670
+Sometimes that's
+another word for this.
+
+00:06:03.670 --> 00:06:06.800
+And the viral load
+varies with time.
+
+00:06:06.800 --> 00:06:09.820
+So when you first get infected,
+at first the viral load
+
+00:06:09.820 --> 00:06:12.550
+is very low in the fluids
+that you're breathing out.
+
+00:06:12.550 --> 00:06:14.080
+And then that raises up.
+
+00:06:14.080 --> 00:06:16.400
+And during the period when
+you're most infectious,
+
+00:06:16.400 --> 00:06:21.820
+which for COVID-19
+and SARS-CoV-2 virus,
+
+00:06:21.820 --> 00:06:25.600
+that time ends up being
+around a week or so when you--
+
+00:06:25.600 --> 00:06:31.060
+well, within a few days, you
+reach the peak infectiousness.
+
+00:06:31.060 --> 00:06:34.510
+And then when you're
+at the peak viral load,
+
+00:06:34.510 --> 00:06:39.100
+this ends up being about
+10 to the ninth virions
+
+00:06:39.100 --> 00:06:42.250
+per milliliter of
+fluid when you're
+
+00:06:42.250 --> 00:06:48.340
+at your peak infectiousness
+for SARS-CoV-2.
+
+00:06:52.110 --> 00:06:52.750
+OK.
+
+00:06:52.750 --> 00:06:54.700
+So just to give you a sense,
+but of course, a lot of times
+
+00:06:54.700 --> 00:06:55.659
+it might be less than that.
+
+00:06:55.659 --> 00:06:57.280
+But if you're very
+infected individual,
+
+00:06:57.280 --> 00:06:58.450
+that's kind of a worst case.
+
+00:06:58.450 --> 00:07:00.410
+And we're going to be
+interested in calculating
+
+00:07:00.410 --> 00:07:02.630
+safety guidelines and
+probabilities of transmission,
+
+00:07:02.630 --> 00:07:04.290
+so to be conservative,
+it's good to have
+
+00:07:04.290 --> 00:07:07.700
+an idea of how big this
+number can actually be.
+
+00:07:07.700 --> 00:07:09.370
+So what we just
+calculate here-- so,
+
+00:07:09.370 --> 00:07:12.570
+basically, this Nd, Vd
+is the amount of drop
+
+00:07:12.570 --> 00:07:15.460
+or liquid volume per air
+volume, so that's essentially
+
+00:07:15.460 --> 00:07:18.070
+the volume fraction of liquid.
+
+00:07:18.070 --> 00:07:20.530
+When we go times Cv,
+we're essentially
+
+00:07:20.530 --> 00:07:26.140
+getting the number of virions
+in the air per volume of air.
+
+00:07:26.140 --> 00:07:28.580
+And then Qv is the
+volume per time,
+
+00:07:28.580 --> 00:07:30.730
+so this is basically
+virions per time.
+
+00:07:35.590 --> 00:07:37.510
+And then one other factor
+that we should also
+
+00:07:37.510 --> 00:07:40.120
+consider is what
+if we're actually
+
+00:07:40.120 --> 00:07:42.930
+filtering those droplets
+right at the source?
+
+00:07:42.930 --> 00:07:44.980
+And that'll be the case
+if you're wearing a mask.
+
+00:07:44.980 --> 00:07:48.340
+So this is an important
+quantity we'll come back to.
+
+00:07:48.340 --> 00:07:55.380
+This will be the mask
+penetration probability
+
+00:07:55.380 --> 00:07:56.100
+for a droplet.
+
+00:07:56.100 --> 00:07:59.080
+So this is-- of course
+is size dependent,
+
+00:07:59.080 --> 00:08:00.250
+but we'll come back to that.
+
+00:08:00.250 --> 00:08:01.930
+But for the moment, we're just
+saying it's one drop size.
+
+00:08:01.930 --> 00:08:04.220
+And so for the size of drops
+of interest, we're asking,
+
+00:08:04.220 --> 00:08:05.670
+do they go through the mask?
+
+00:08:05.670 --> 00:08:12.030
+So 1 minus Pm is also called
+the filtration efficiency.
+
+00:08:17.230 --> 00:08:18.520
+Yes.
+
+00:08:18.520 --> 00:08:21.590
+So a very good mask might be
+99% of droplets are filtered.
+
+00:08:21.590 --> 00:08:24.190
+A very poor cloth
+covering might be
+
+00:08:24.190 --> 00:08:26.440
+10% of droplets are
+filtered, and we'll come back
+
+00:08:26.440 --> 00:08:28.190
+to that in just a moment.
+
+00:08:28.190 --> 00:08:31.630
+So this here is our
+production rate capital P.
+
+00:08:31.630 --> 00:08:34.390
+And already with the variables
+that we've written down here,
+
+00:08:34.390 --> 00:08:42.510
+we can write down a mass
+balance for the virions.
+
+00:08:42.510 --> 00:08:44.200
+So virions are being produced.
+
+00:08:44.200 --> 00:08:45.450
+They end up in these droplets.
+
+00:08:45.450 --> 00:08:49.200
+The droplets are being swept out
+of the room at a flow rate Q,
+
+00:08:49.200 --> 00:08:52.120
+and the room has a volume
+V. So if I write down
+
+00:08:52.120 --> 00:08:54.420
+just the conservation of
+mass, making sure that I'm not
+
+00:08:54.420 --> 00:08:56.370
+losing any virus yet--
+
+00:08:56.370 --> 00:08:58.200
+I'm not allowing them
+to stick to the walls
+
+00:08:58.200 --> 00:08:59.880
+or do anything else
+just yet but just
+
+00:08:59.880 --> 00:09:03.400
+looking at the mass balance of
+one infected person breathing
+
+00:09:03.400 --> 00:09:03.900
+out.
+
+00:09:03.900 --> 00:09:08.040
+This is, I should say,
+production rate per infector,
+
+00:09:08.040 --> 00:09:09.520
+or an infected person.
+
+00:09:09.520 --> 00:09:11.610
+So if there are more
+infected people,
+
+00:09:11.610 --> 00:09:14.420
+then you'll have this
+production rate for each person.
+
+00:09:14.420 --> 00:09:16.630
+They also might be at
+different stage of the disease,
+
+00:09:16.630 --> 00:09:18.290
+so maybe the viral
+load will be a little
+
+00:09:18.290 --> 00:09:19.650
+different for each person.
+
+00:09:19.650 --> 00:09:21.720
+But let's not worry about
+such details right now.
+
+00:09:21.720 --> 00:09:24.030
+We want to keep things general.
+
+00:09:24.030 --> 00:09:25.620
+So for the mass
+balance, we write down
+
+00:09:25.620 --> 00:09:29.790
+the total number of
+virions in the room
+
+00:09:29.790 --> 00:09:31.180
+and how that changes in time.
+
+00:09:31.180 --> 00:09:34.250
+So that'll be the concentration
+per room air volume, which
+
+00:09:34.250 --> 00:09:36.420
+is well-mixed times the
+volume of the room per time.
+
+00:09:36.420 --> 00:09:40.250
+So this is the change in the
+number of virions per time,
+
+00:09:40.250 --> 00:09:42.220
+and that can change in two ways.
+
+00:09:42.220 --> 00:09:45.090
+One, we have the production P.
+So for every infected person,
+
+00:09:45.090 --> 00:09:47.650
+we have production
+P, but this will be--
+
+00:09:47.650 --> 00:09:50.940
+I should say virions per
+air volume per infector.
+
+00:09:50.940 --> 00:09:53.780
+So if we want to think about
+having multiple infected people
+
+00:09:53.780 --> 00:09:56.040
+in the room, we can always
+just basically increase
+
+00:09:56.040 --> 00:09:56.880
+this concentration.
+
+00:09:56.880 --> 00:09:59.370
+A well-mixed room, it doesn't
+matter where people are placed.
+
+00:09:59.370 --> 00:10:01.160
+You're just getting
+more and more droplets,
+
+00:10:01.160 --> 00:10:03.030
+and it's assumed to be mixed.
+
+00:10:03.030 --> 00:10:06.600
+So we produce at a rate P,
+but then the outdoor flow
+
+00:10:06.600 --> 00:10:08.940
+is taking away
+droplets and, hence,
+
+00:10:08.940 --> 00:10:14.520
+removing virions at a rate
+Q. So we have a Q times
+
+00:10:14.520 --> 00:10:17.910
+C removal rate.
+
+00:10:17.910 --> 00:10:19.330
+So this is our equation.
+
+00:10:19.330 --> 00:10:20.970
+So let's divide through by V.
+
+00:10:20.970 --> 00:10:28.420
+So we can write this
+as dC dt is P/V minus,
+
+00:10:28.420 --> 00:10:32.260
+and then Q/V I'll
+write as lambda a C.
+
+00:10:32.260 --> 00:10:44.140
+So lambda a, which is Q/V,
+this is the outdoor air change
+
+00:10:44.140 --> 00:10:46.670
+or exchange rate.
+
+00:10:46.670 --> 00:10:49.540
+So that is the rate at which
+the entire volume of the room
+
+00:10:49.540 --> 00:10:51.510
+is replaced with outdoor air.
+
+00:10:51.510 --> 00:10:53.320
+So the outdoor air
+is refreshing the air
+
+00:10:53.320 --> 00:10:57.330
+in the room at
+this rate Q/V. OK.
+
+00:10:57.330 --> 00:10:58.670
+And so that's what appears here.
+
+00:10:58.670 --> 00:11:01.210
+And if you compare these two,
+you can see that this is dC dt.
+
+00:11:01.210 --> 00:11:04.630
+This is C times lambda, so
+lambda is units of 1 over time.
+
+00:11:04.630 --> 00:11:05.620
+It's a t.
+
+00:11:05.620 --> 00:11:07.450
+This is also sometimes called--
+
+00:11:07.450 --> 00:11:17.100
+the ACH is air changes per hour
+if you write it in per hour.
+
+00:11:17.100 --> 00:11:19.970
+So that's a typical way
+that this is written.
+
+00:11:19.970 --> 00:11:21.850
+And, in fact, while
+we're just talking about,
+
+00:11:21.850 --> 00:11:23.510
+this is a very
+important concept.
+
+00:11:23.510 --> 00:11:33.020
+So lambda a is around 0.3 per
+hour, so roughly every 3 hours
+
+00:11:33.020 --> 00:11:34.580
+for a closed room.
+
+00:11:34.580 --> 00:11:41.760
+So closed room or what you might
+call natural ventilation where
+
+00:11:41.760 --> 00:11:45.770
+there's no attempt to
+deliver air to that room.
+
+00:11:45.770 --> 00:11:47.730
+Of course, this number
+depends on the tightness
+
+00:11:47.730 --> 00:11:51.610
+of the construction and whether
+there is cracks in the windows,
+
+00:11:51.610 --> 00:11:53.530
+whether doors are being
+opened to the hallway.
+
+00:11:53.530 --> 00:11:55.320
+So, of course, that's
+not a perfect number,
+
+00:11:55.320 --> 00:11:58.140
+but that's a rough estimate
+how quickly air is escaping
+
+00:11:58.140 --> 00:12:00.640
+from typical construction.
+
+00:12:00.640 --> 00:12:02.620
+But then it can be, also,
+in a different range.
+
+00:12:02.620 --> 00:12:04.760
+And this a very important
+parameter for the theory,
+
+00:12:04.760 --> 00:12:08.230
+so let's pause just to look
+at some of the numbers.
+
+00:12:08.230 --> 00:12:11.440
+So it's in the range--
+it's typically 3 to 8
+
+00:12:11.440 --> 00:12:13.900
+per hour for
+mechanical ventilation.
+
+00:12:22.500 --> 00:12:25.020
+So this could be--
+
+00:12:25.020 --> 00:12:27.690
+it could be open windows
+with fans blowing in and out,
+
+00:12:27.690 --> 00:12:30.840
+which might give you 3
+or even 6 on this number.
+
+00:12:30.840 --> 00:12:32.520
+It could also be a
+ventilation system,
+
+00:12:32.520 --> 00:12:34.380
+which is delivering
+fresh air to the space.
+
+00:12:34.380 --> 00:12:38.920
+And for typical classrooms,
+offices, and even homes,
+
+00:12:38.920 --> 00:12:41.530
+this is a typical range.
+
+00:12:41.530 --> 00:12:44.160
+So for example, if
+it's 3, then that
+
+00:12:44.160 --> 00:12:47.100
+would be every 20 minutes
+the room gets its air
+
+00:12:47.100 --> 00:12:49.110
+to be fully exchanged.
+
+00:12:49.110 --> 00:12:51.630
+But of course, if
+you have situations
+
+00:12:51.630 --> 00:12:53.670
+where you need to have
+better air quality
+
+00:12:53.670 --> 00:12:55.920
+and you have more risk
+of, say, transmission
+
+00:12:55.920 --> 00:13:00.030
+of disease or passage of
+pollutants or contaminants,
+
+00:13:00.030 --> 00:13:02.010
+then we need higher values.
+
+00:13:02.010 --> 00:13:04.890
+A typical number in the
+United States for hospitals
+
+00:13:04.890 --> 00:13:06.810
+is 18 air changes per hour.
+
+00:13:10.730 --> 00:13:12.030
+And then it can be even larger.
+
+00:13:12.030 --> 00:13:13.440
+So if you have a
+laboratory, which
+
+00:13:13.440 --> 00:13:16.100
+is dealing with toxic
+chemicals or even,
+
+00:13:16.100 --> 00:13:19.790
+let's say, virus and
+pathogens, then you
+
+00:13:19.790 --> 00:13:21.830
+need even higher air changes.
+
+00:13:21.830 --> 00:13:26.600
+And typical rates, then,
+can be as high as 20 to 30
+
+00:13:26.600 --> 00:13:33.180
+for labs that are dealing
+with toxins of various types
+
+00:13:33.180 --> 00:13:33.680
+because--
+
+00:13:33.680 --> 00:13:36.390
+and any airborne toxins
+have to be quickly removed
+
+00:13:36.390 --> 00:13:37.850
+so that if they
+happen to be leaked
+
+00:13:37.850 --> 00:13:41.620
+into the air from your
+experiment or from your hood,
+
+00:13:41.620 --> 00:13:43.970
+they need to be
+quickly sucked out.
+
+00:13:43.970 --> 00:13:45.500
+Also, even parking
+lots where you
+
+00:13:45.500 --> 00:13:47.980
+have cars in an enclosed space
+that are generating carbon
+
+00:13:47.980 --> 00:13:50.570
+monoxide and other fumes, which
+have to be quickly rushed out,
+
+00:13:50.570 --> 00:13:52.640
+parking lots tend to have
+this number around 30.
+
+00:13:52.640 --> 00:13:56.690
+So that's a full air change of
+the entire room in 2 minutes.
+
+00:13:56.690 --> 00:13:58.020
+That's a very fast flow rate.
+
+00:13:58.020 --> 00:14:00.350
+So this is kind of the
+range of this lambda a.
+
+00:14:00.350 --> 00:14:03.420
+That's, obviously, a
+very important parameter.
+
+00:14:03.420 --> 00:14:06.300
+So let's now solve
+this equation here.
+
+00:14:06.300 --> 00:14:09.450
+So, first of all, you
+can see when dC dt is 0,
+
+00:14:09.450 --> 00:14:13.190
+then the steady state is
+just P over lambda a V.
+
+00:14:13.190 --> 00:14:16.400
+But if I write Q
+equals lambda a V,
+
+00:14:16.400 --> 00:14:20.350
+I can see the steady
+state is just P/Q.
+
+00:14:20.350 --> 00:14:22.320
+So I can write the
+solution like this--
+
+00:14:22.320 --> 00:14:27.740
+that if we're given time
+dependence, that the P/Q is
+
+00:14:27.740 --> 00:14:29.230
+the steady state.
+
+00:14:29.230 --> 00:14:32.270
+And if I started out with
+my initial condition,
+
+00:14:32.270 --> 00:14:36.260
+was that C of 0 equals 0.
+
+00:14:36.260 --> 00:14:39.710
+So let's say time equals 0 is
+when the infected person enters
+
+00:14:39.710 --> 00:14:42.110
+the room and starts breathing.
+
+00:14:42.110 --> 00:14:43.720
+And then there's
+a mixing process
+
+00:14:43.720 --> 00:14:45.350
+and there's a build-up
+of concentration
+
+00:14:45.350 --> 00:14:49.700
+until there's a balance between
+the production of virus,
+
+00:14:49.700 --> 00:14:53.660
+virions, or infectious air and
+the removal of infectious air
+
+00:14:53.660 --> 00:14:55.310
+by the ventilation.
+
+00:14:55.310 --> 00:14:58.580
+And that gives you this ratio
+P/Q. But the way the relaxation
+
+00:14:58.580 --> 00:14:59.720
+happens, though--
+
+00:14:59.720 --> 00:15:01.700
+if you balance these
+two terms here,
+
+00:15:01.700 --> 00:15:06.500
+that's just an exponential
+decay with a decay rate lambda
+
+00:15:06.500 --> 00:15:10.180
+a, so e to the minus lambda a t.
+
+00:15:10.180 --> 00:15:12.560
+So this is basically the way
+the concentration builds up.
+
+00:15:12.560 --> 00:15:17.150
+If I plot this, then at a
+certain time here, which
+
+00:15:17.150 --> 00:15:18.590
+is sometimes called Tres--
+
+00:15:18.590 --> 00:15:21.320
+in chemical engineering,
+these kinds of models
+
+00:15:21.320 --> 00:15:23.480
+are commonly used to
+design chemical reactors.
+
+00:15:23.480 --> 00:15:26.150
+In fact, this kind of model
+is in chemical engineering
+
+00:15:26.150 --> 00:15:29.200
+called a continuous
+stirred-tank reactor.
+
+00:15:29.200 --> 00:15:30.750
+We don't worry
+about the details,
+
+00:15:30.750 --> 00:15:33.110
+but we have a flow
+of some reactants
+
+00:15:33.110 --> 00:15:35.700
+and various chemical
+species going into a tank.
+
+00:15:35.700 --> 00:15:37.880
+We assume it's well
+mixed and then it leaves,
+
+00:15:37.880 --> 00:15:40.690
+and this is the mass
+balance that we use.
+
+00:15:40.690 --> 00:15:45.500
+And the residence time,
+Tres, is the inverse
+
+00:15:45.500 --> 00:15:47.040
+of lambda a in this case.
+
+00:15:47.040 --> 00:15:48.270
+So that is the--
+
+00:15:48.270 --> 00:15:50.830
+as soon as you know the volume
+and the ventilation flow rate,
+
+00:15:50.830 --> 00:15:52.640
+there's a typical speed
+going through here.
+
+00:15:52.640 --> 00:15:55.070
+And the time that
+fresh air spends
+
+00:15:55.070 --> 00:15:57.560
+in the room interacting with
+all the droplets and people
+
+00:15:57.560 --> 00:16:01.070
+and then leaving, carrying some
+of those droplets, is this.
+
+00:16:01.070 --> 00:16:03.200
+And in a simple model
+like this, it's just
+
+00:16:03.200 --> 00:16:10.070
+an exponential relaxation at
+that time scale approaching
+
+00:16:10.070 --> 00:16:17.720
+the steady state, which is P/Q.
+So there's always that kind
+
+00:16:17.720 --> 00:16:21.030
+of balance which is reached.
+
+00:16:21.030 --> 00:16:23.720
+Now let's also ask
+ourselves, briefly at
+
+00:16:23.720 --> 00:16:27.320
+this point, how reasonable is
+the well-mixed approximation?
+
+00:16:27.320 --> 00:16:29.870
+We will come back to this and
+analyze it much more carefully,
+
+00:16:29.870 --> 00:16:32.320
+taking into account all the
+different processes I described
+
+00:16:32.320 --> 00:16:35.330
+at the beginning, including
+breathing, motion of people.
+
+00:16:35.330 --> 00:16:39.350
+But let's just think about the
+motion caused by the airflow
+
+00:16:39.350 --> 00:16:39.930
+itself.
+
+00:16:39.930 --> 00:16:42.830
+So in the case of
+mechanical ventilation
+
+00:16:42.830 --> 00:16:46.280
+where that flow rate can
+be sometimes rather high,
+
+00:16:46.280 --> 00:16:49.150
+that can be a significant
+source of mixing in the system.
+
+00:16:49.150 --> 00:16:50.570
+And the way we'll
+think about that
+
+00:16:50.570 --> 00:16:53.360
+is by writing down the
+typical velocity of the air
+
+00:16:53.360 --> 00:16:57.080
+due to the outdoor air flow.
+
+00:16:57.080 --> 00:17:01.230
+That is Q. We can write it as
+either Q divided by the area,
+
+00:17:01.230 --> 00:17:03.260
+so some kind of representative
+area of the room.
+
+00:17:03.260 --> 00:17:04.960
+It could be, let's
+say, the floor area,
+
+00:17:04.960 --> 00:17:06.589
+but depending on the
+shape of the room,
+
+00:17:06.589 --> 00:17:09.810
+it might be a little bit
+different value than that.
+
+00:17:09.810 --> 00:17:14.030
+We can also write this as
+Q times H over V, where
+
+00:17:14.030 --> 00:17:15.680
+V is the volume
+of the room and H
+
+00:17:15.680 --> 00:17:18.140
+is some characteristic height,
+like, for example, a ceiling
+
+00:17:18.140 --> 00:17:19.470
+height of the room.
+
+00:17:19.470 --> 00:17:20.240
+OK.
+
+00:17:20.240 --> 00:17:26.900
+So this is the mean
+airspeed due to ventilation.
+
+00:17:32.070 --> 00:17:34.530
+And we'll come back to a
+more deeper investigation
+
+00:17:34.530 --> 00:17:37.770
+of these fluid
+mechanics of the room.
+
+00:17:37.770 --> 00:17:40.950
+But as a first example of what
+we'll be interested in is we'd
+
+00:17:40.950 --> 00:17:44.870
+like to calculate the Reynolds
+number due to the airflow.
+
+00:17:44.870 --> 00:17:47.490
+So I'll put a subscript a there.
+
+00:17:47.490 --> 00:17:52.380
+And that is the typical velocity
+times a length scale, which
+
+00:17:52.380 --> 00:17:54.270
+could be, let's say,
+the height of the room
+
+00:17:54.270 --> 00:17:56.130
+or some linear length
+scale of the room,
+
+00:17:56.130 --> 00:17:58.290
+depending on the
+direction of the airflow.
+
+00:17:58.290 --> 00:18:02.250
+And then the kinematic
+viscosity of air,
+
+00:18:02.250 --> 00:18:04.500
+so I'll write that as new a.
+
+00:18:04.500 --> 00:18:06.000
+So this here is the
+Reynolds number.
+
+00:18:12.540 --> 00:18:17.020
+This is basically telling us how
+important inertia of the fluid
+
+00:18:17.020 --> 00:18:21.760
+is compared to viscous stresses
+that slow the fluid down.
+
+00:18:21.760 --> 00:18:24.540
+So, basically, it
+tells us how quickly--
+
+00:18:24.540 --> 00:18:26.380
+how much of a tendency
+there is for momentum
+
+00:18:26.380 --> 00:18:27.960
+to be carried in the
+fluid, which then
+
+00:18:27.960 --> 00:18:30.610
+leads to sort of swirling
+motions and complex flows,
+
+00:18:30.610 --> 00:18:32.260
+as I've sketched here.
+
+00:18:32.260 --> 00:18:35.650
+And this new a is the
+viscosity of the air
+
+00:18:35.650 --> 00:18:38.560
+that we've already talked about
+when looking at Stokes flow
+
+00:18:38.560 --> 00:18:41.390
+but divided by the
+density of the air.
+
+00:18:41.390 --> 00:18:41.890
+OK.
+
+00:18:41.890 --> 00:18:43.660
+So that's the
+kinematic viscosity.
+
+00:18:43.660 --> 00:18:46.840
+And for air, the
+kinematic viscosity
+
+00:18:46.840 --> 00:18:54.360
+is 1.5 times 10 to the minus
+5 meters squared per second.
+
+00:18:54.360 --> 00:18:57.710
+And so if I plug these
+numbers in and I pick,
+
+00:18:57.710 --> 00:19:03.700
+let's say, a typical ceiling
+height of maybe a few--
+
+00:19:04.960 --> 00:19:09.070
+I think this-- if the H
+is of order 3 meters--
+
+00:19:09.070 --> 00:19:12.160
+or 2 meters might
+be a typical scale.
+
+00:19:12.160 --> 00:19:16.120
+Just to get an approximate
+sense of the scale here,
+
+00:19:16.120 --> 00:19:21.670
+the Reynolds number will be
+varying from around 50 or tens,
+
+00:19:21.670 --> 00:19:25.420
+up to 5,000, which would
+be in the case of very fast
+
+00:19:25.420 --> 00:19:28.300
+ventilation like the 30 ACH.
+
+00:19:28.300 --> 00:19:37.340
+So this would be if we have
+0.3 ACH up to around 30 ACH.
+
+00:19:37.340 --> 00:19:39.640
+That's just a rough number.
+
+00:19:39.640 --> 00:19:41.740
+And from fluid
+mechanics, we know
+
+00:19:41.740 --> 00:19:44.200
+the significance of these
+large Reynolds numbers
+
+00:19:44.200 --> 00:19:47.940
+is that the flows really do
+look a bit like I've shown here.
+
+00:19:47.940 --> 00:19:50.110
+So, basically, when the air
+is sitting in the room--
+
+00:19:50.110 --> 00:19:51.730
+you know this from
+looking at the smoke
+
+00:19:51.730 --> 00:19:54.460
+from a candle or other flows
+that you can visualize--
+
+00:19:54.460 --> 00:19:58.270
+it's not just a sort
+of uniform flow.
+
+00:19:58.270 --> 00:20:00.910
+But instead there are all
+these sort of plumes and swirls
+
+00:20:00.910 --> 00:20:02.260
+and vortices.
+
+00:20:02.260 --> 00:20:04.900
+And when the Reynolds number
+is on the order of tens,
+
+00:20:04.900 --> 00:20:07.570
+when there is a motion,
+it tends to lead
+
+00:20:07.570 --> 00:20:11.460
+to a shedding of a vortex and
+to some kind of swirling flows.
+
+00:20:11.460 --> 00:20:13.300
+And when the Reynolds
+number gets up as high
+
+00:20:13.300 --> 00:20:15.940
+as several thousand,
+then in most geometries
+
+00:20:15.940 --> 00:20:18.190
+that starts to lead to a
+transition to turbulent flow.
+
+00:20:18.190 --> 00:20:19.640
+And that's when
+the flow is getting
+
+00:20:19.640 --> 00:20:21.910
+so complicated there are
+eddies of different sizes
+
+00:20:21.910 --> 00:20:23.980
+and very rapid mixing.
+
+00:20:23.980 --> 00:20:25.780
+So I just wanted
+to show this right
+
+00:20:25.780 --> 00:20:27.430
+at the beginning
+of the discussion
+
+00:20:27.430 --> 00:20:29.260
+to point out that
+for typical flows
+
+00:20:29.260 --> 00:20:31.120
+we would expect
+that there is going
+
+00:20:31.120 --> 00:20:33.160
+to be a decent amount
+of mixing occurring just
+
+00:20:33.160 --> 00:20:34.680
+because of the ventilation.
+
+00:20:34.680 --> 00:20:37.060
+And now if you add to the fact
+that people are breathing,
+
+00:20:37.060 --> 00:20:38.860
+imparting momentum
+to the fluid, we
+
+00:20:38.860 --> 00:20:42.970
+have people moving and other
+kinds of activities in a room,
+
+00:20:42.970 --> 00:20:45.940
+that all of those
+processes lead to giving us
+
+00:20:45.940 --> 00:20:50.400
+a reasonable assumption
+of a well-mixed room.

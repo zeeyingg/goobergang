@@ -1,0 +1,1116 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:14.410
+PROFESSOR: So another important
+source of convection in an air
+
+00:00:14.410 --> 00:00:19.180
+filled room is buoyancy
+due to differences
+
+00:00:19.180 --> 00:00:22.510
+in the density of the air
+as the temperature varies.
+
+00:00:22.510 --> 00:00:25.120
+Even relatively small
+variations in temperature
+
+00:00:25.120 --> 00:00:28.960
+can lead to significant flows.
+
+00:00:28.960 --> 00:00:30.510
+There's another
+dimensionless number,
+
+00:00:30.510 --> 00:00:33.290
+which controls the
+appearance and strength
+
+00:00:33.290 --> 00:00:45.010
+of such flows, which is the
+Rayleigh number, written Ra.
+
+00:00:45.010 --> 00:00:47.150
+And this is also a
+physical property
+
+00:00:47.150 --> 00:00:49.640
+of the-- it's a combination
+of physical properties
+
+00:00:49.640 --> 00:00:53.280
+of the fluid plus the geometry.
+
+00:00:53.280 --> 00:00:56.270
+So in this case, the
+relevant geometrical scale
+
+00:00:56.270 --> 00:01:02.180
+is the height, because this is
+a gravitational instability.
+
+00:01:02.180 --> 00:01:06.880
+So in the Rayleigh
+number, we have gravity.
+
+00:01:06.880 --> 00:01:16.600
+I'll just define all these--
+a gravitational acceleration,
+
+00:01:16.600 --> 00:01:19.500
+which is 9.8 meters
+per second squared.
+
+00:01:22.820 --> 00:01:27.620
+We have-- well, if we define
+the change in air density
+
+00:01:27.620 --> 00:01:30.080
+relative to the initial
+air density that's
+
+00:01:30.080 --> 00:01:32.310
+caused by changes
+in temperature,
+
+00:01:32.310 --> 00:01:34.060
+if the temperature
+changes aren't too big,
+
+00:01:34.060 --> 00:01:36.110
+there is a linear
+response, which
+
+00:01:36.110 --> 00:01:41.240
+is defined by the thermal
+expansion coefficient beta, so
+
+00:01:41.240 --> 00:01:43.100
+beta delta T.
+
+00:01:43.100 --> 00:01:53.360
+So beta is the thermal
+expansion coefficient.
+
+00:01:53.360 --> 00:01:58.310
+And this, for air, is
+something like 3.1 times 10
+
+00:01:58.310 --> 00:02:01.370
+to the minus 3 inverse Kelvins.
+
+00:02:04.960 --> 00:02:08.400
+OK, so basically we have gravity
+times the change in density.
+
+00:02:08.400 --> 00:02:10.350
+That's the buoyancy
+force per volume.
+
+00:02:10.350 --> 00:02:14.370
+And so we can write that as
+beta delta T. Or I should say,
+
+00:02:14.370 --> 00:02:19.880
+delta T is T maximum
+minus T minimum.
+
+00:02:19.880 --> 00:02:21.660
+So there's some
+temperature change.
+
+00:02:21.660 --> 00:02:23.250
+So the example we're
+going to consider
+
+00:02:23.250 --> 00:02:28.290
+is a cold plate above a hot
+plate with a fluid in between.
+
+00:02:28.290 --> 00:02:31.750
+And then we have also
+some other parameters.
+
+00:02:31.750 --> 00:02:35.660
+So we have-- the length
+comes in cubed now.
+
+00:02:35.660 --> 00:02:39.310
+So it's very sensitive to
+the size of the system.
+
+00:02:39.310 --> 00:02:41.250
+And then we also have
+the kinetic viscosity
+
+00:02:41.250 --> 00:02:45.370
+of air, which I'll
+write again here.
+
+00:02:45.370 --> 00:02:47.350
+This also appeared in
+the Reynolds number.
+
+00:02:49.950 --> 00:03:02.620
+And for air, this is 1.5
+times 10 to the minus 5 meters
+
+00:03:02.620 --> 00:03:08.180
+squared per second, roughly.
+
+00:03:08.180 --> 00:03:13.600
+And then finally, we
+have alpha T, which
+
+00:03:13.600 --> 00:03:15.580
+is the thermal diffusivity.
+
+00:03:20.310 --> 00:03:25.100
+So this parameter gives a sense
+of how quickly heat energy is
+
+00:03:25.100 --> 00:03:29.770
+transmitted by conduction and
+diffusion through the fluid.
+
+00:03:29.770 --> 00:03:32.900
+And thermal
+diffusivity, turns out,
+
+00:03:32.900 --> 00:03:37.370
+is pretty close to the kinematic
+viscosity for a gas, like air.
+
+00:03:37.370 --> 00:03:42.070
+And the reason is that
+the ratio of thermal--
+
+00:03:42.070 --> 00:03:46.640
+well, in other words, the ratio
+of the kinematic viscosity
+
+00:03:46.640 --> 00:03:54.050
+to the thermal diffusivity
+for air is around 0.7.
+
+00:03:54.050 --> 00:03:56.930
+And this ratio, by the
+way, is called Pr--
+
+00:03:56.930 --> 00:03:58.640
+the Prandtl number--
+which is also
+
+00:03:58.640 --> 00:04:02.590
+very important in
+these sorts of flows.
+
+00:04:02.590 --> 00:04:07.330
+And for gases, basically
+kinematic viscosity
+
+00:04:07.330 --> 00:04:10.060
+refers to the diffusion
+and momentum in the air,
+
+00:04:10.060 --> 00:04:12.640
+whereas the thermal
+diffusivity alpha is
+
+00:04:12.640 --> 00:04:14.550
+the diffusion of heat energy.
+
+00:04:14.550 --> 00:04:16.120
+And in a gas, both
+those processes
+
+00:04:16.120 --> 00:04:17.690
+occur by collisions
+of molecules.
+
+00:04:17.690 --> 00:04:19.450
+And since it's the
+same mechanism,
+
+00:04:19.450 --> 00:04:21.279
+you have roughly the
+same order of magnitude
+
+00:04:21.279 --> 00:04:22.520
+of those quantities.
+
+00:04:22.520 --> 00:04:24.190
+So basically, all
+these quantities
+
+00:04:24.190 --> 00:04:26.020
+enter the Rayleigh number.
+
+00:04:26.020 --> 00:04:29.080
+And the way to think
+about, qualitatively,
+
+00:04:29.080 --> 00:04:30.670
+what the Rayleigh
+number is telling us
+
+00:04:30.670 --> 00:04:42.180
+is the ratio of buoyancy
+force to viscous stress, which
+
+00:04:42.180 --> 00:04:44.340
+is trying to fight that
+motion as we talked
+
+00:04:44.340 --> 00:04:52.050
+about before, but also heat
+diffusion or thermal diffusion,
+
+00:04:52.050 --> 00:04:53.470
+which is also kind
+of fighting it,
+
+00:04:53.470 --> 00:04:56.110
+because it spreads
+out the temperature
+
+00:04:56.110 --> 00:04:58.960
+gradient because this is
+a motion that is naturally
+
+00:04:58.960 --> 00:05:01.090
+driven whenever a temperature
+gradient exists which
+
+00:05:01.090 --> 00:05:02.500
+is unstable.
+
+00:05:02.500 --> 00:05:06.670
+So because this beta
+is typically positive--
+
+00:05:06.670 --> 00:05:09.550
+so when you heat the
+fluid, it expands.
+
+00:05:09.550 --> 00:05:12.400
+That's certainly the
+case for most gases
+
+00:05:12.400 --> 00:05:14.020
+and even for many liquids.
+
+00:05:14.020 --> 00:05:17.740
+Then what I've sketched here is
+an unstable density gradient,
+
+00:05:17.740 --> 00:05:19.330
+where if the cold
+is above the hot,
+
+00:05:19.330 --> 00:05:22.180
+there's a heavy fluid
+above a light fluid.
+
+00:05:22.180 --> 00:05:26.500
+And at conditions of
+low Rayleigh number,
+
+00:05:26.500 --> 00:05:27.220
+this is stable.
+
+00:05:27.220 --> 00:05:29.230
+And in particular, if
+the Rayleigh number
+
+00:05:29.230 --> 00:05:31.840
+is less-- for this
+particular case of two fixed
+
+00:05:31.840 --> 00:05:35.090
+plates and an infinite
+layer of fluid,
+
+00:05:35.090 --> 00:05:38.150
+if the Rayleigh number
+is less than 1708,
+
+00:05:38.150 --> 00:05:41.880
+then we have a stable situation.
+
+00:05:41.880 --> 00:05:43.300
+Or it can be at
+least meta-stable.
+
+00:05:43.300 --> 00:05:49.450
+It won't go spontaneously
+unstable, so at least local--
+
+00:05:49.450 --> 00:05:52.450
+stable to small perturbations.
+
+00:05:52.450 --> 00:05:58.170
+But then at this critical
+Rayleigh number of 1708,
+
+00:05:58.170 --> 00:06:01.350
+we start to get some spontaneous
+flows, because what's happening
+
+00:06:01.350 --> 00:06:02.940
+is that the heavy
+fluid above, which
+
+00:06:02.940 --> 00:06:05.580
+I've sketched in blue--
+the cold fluid-- it wants
+
+00:06:05.580 --> 00:06:09.360
+to sink to the bottom,
+whereas the red, warmer
+
+00:06:09.360 --> 00:06:12.220
+fluid is lighter and
+wants to rise to the top.
+
+00:06:12.220 --> 00:06:13.840
+And so it has to find
+a way to do that.
+
+00:06:13.840 --> 00:06:15.630
+And eventually, it
+breaks symmetry and just
+
+00:06:15.630 --> 00:06:16.830
+starts forming convection.
+
+00:06:16.830 --> 00:06:19.080
+And that is so-called
+natural convection.
+
+00:06:19.080 --> 00:06:23.790
+So you have plumes of hot fluid
+rising and cold fluid sinking,
+
+00:06:23.790 --> 00:06:27.540
+driven at first by
+fairly regular arrays.
+
+00:06:27.540 --> 00:06:31.010
+But as you increase the
+Rayleigh number even further,
+
+00:06:31.010 --> 00:06:34.560
+and if you increase it a
+lot, then you eventually
+
+00:06:34.560 --> 00:06:36.700
+get to a complicated
+turbulent flow.
+
+00:06:36.700 --> 00:06:40.290
+So if you increase the Rayleigh
+number on the order of 10
+
+00:06:40.290 --> 00:06:42.840
+to the 4, you may have
+some unsteady situations
+
+00:06:42.840 --> 00:06:45.150
+as we saw with the
+vortex shedding.
+
+00:06:45.150 --> 00:06:47.520
+But here, if you go to a
+very high Reynolds number--
+
+00:06:47.520 --> 00:06:49.290
+Rayleigh number, I should say--
+
+00:06:49.290 --> 00:06:55.860
+greater than about 10 to the 9,
+then you again get turbulence.
+
+00:06:55.860 --> 00:06:59.090
+So simply these temperature
+variations are strong enough--
+
+00:06:59.090 --> 00:07:02.010
+those buoyancy forces--
+to completely destabilize
+
+00:07:02.010 --> 00:07:05.340
+the fluid and generate
+a turbulent mixture
+
+00:07:05.340 --> 00:07:07.370
+where the hot and cold
+are very quickly mixing.
+
+00:07:07.370 --> 00:07:09.000
+And I've sketched
+here the hot and cold
+
+00:07:09.000 --> 00:07:10.060
+as still being separate.
+
+00:07:10.060 --> 00:07:13.200
+But in fact, due to diffusion,
+they will kind of also
+
+00:07:13.200 --> 00:07:15.720
+be re-equilibrating
+all the time as well,
+
+00:07:15.720 --> 00:07:17.700
+although the temperature
+gradient is needed
+
+00:07:17.700 --> 00:07:20.820
+to kind of maintain that flow.
+
+00:07:20.820 --> 00:07:23.340
+So let's see how big
+the Rayleigh number
+
+00:07:23.340 --> 00:07:27.030
+is in different situations of
+interest for indoor air now,
+
+00:07:27.030 --> 00:07:27.700
+as well.
+
+00:07:27.700 --> 00:07:31.540
+So if we look, let's
+say, in a room--
+
+00:07:34.780 --> 00:07:39.670
+so let's have-- this
+is another room.
+
+00:07:39.670 --> 00:07:43.980
+And let's imagine again, we have
+our heating and ventilation air
+
+00:07:43.980 --> 00:07:44.530
+conditioning.
+
+00:07:44.530 --> 00:07:46.190
+Let's say, it's an
+air conditioning unit
+
+00:07:46.190 --> 00:07:49.990
+on the top, which is
+dumping in some cold air.
+
+00:07:49.990 --> 00:07:52.760
+And it's giving
+it some velocity.
+
+00:07:52.760 --> 00:07:55.659
+So the velocity is associated
+with the Reynolds number.
+
+00:07:55.659 --> 00:08:00.220
+That inertia will lead to
+destabilization and vortices
+
+00:08:00.220 --> 00:08:01.790
+and mixing by itself.
+
+00:08:01.790 --> 00:08:04.880
+But let's see what the effect is
+of the temperature difference,
+
+00:08:04.880 --> 00:08:05.380
+OK?
+
+00:08:05.380 --> 00:08:06.540
+So we're injecting cold air.
+
+00:08:06.540 --> 00:08:08.590
+And we usually put it on
+top, because we actually
+
+00:08:08.590 --> 00:08:09.880
+want good mixing in the room.
+
+00:08:09.880 --> 00:08:11.460
+That's how these
+systems are designed.
+
+00:08:11.460 --> 00:08:14.590
+We also inject heat normally
+from below, for example,
+
+00:08:14.590 --> 00:08:18.520
+from the lower sections of
+the wall or from the floor.
+
+00:08:18.520 --> 00:08:22.430
+And so if we were-- and in
+fact, I could just mention,
+
+00:08:22.430 --> 00:08:26.290
+if we were to heat,
+we would do that.
+
+00:08:26.290 --> 00:08:28.450
+And if we're doing air
+conditioning or cooling,
+
+00:08:28.450 --> 00:08:29.960
+we would do it from above.
+
+00:08:29.960 --> 00:08:33.730
+And so basically, there is an
+unstable gradient like this.
+
+00:08:33.730 --> 00:08:35.600
+And let's actually put
+some numbers in here.
+
+00:08:35.600 --> 00:08:38.260
+So what if we say that
+the temperature difference
+
+00:08:38.260 --> 00:08:40.539
+between the fluid we're
+injecting, whether it's
+
+00:08:40.539 --> 00:08:44.020
+heating or cooling, relative
+to the sort of background
+
+00:08:44.020 --> 00:08:46.600
+air in the room, which
+is, let's say, closer
+
+00:08:46.600 --> 00:08:48.790
+to the target temperature--
+
+00:08:48.790 --> 00:08:50.710
+is approaching target
+temperature-- let's say,
+
+00:08:50.710 --> 00:08:52.990
+it's only 10 degrees
+C. So that seems
+
+00:08:52.990 --> 00:08:55.790
+like not a very big difference.
+
+00:08:55.790 --> 00:08:57.830
+But then we go
+back to our height,
+
+00:08:57.830 --> 00:08:59.440
+which is our length scale.
+
+00:08:59.440 --> 00:09:04.240
+And we say it's 2.7 meters, just
+as sort of a standard ceiling
+
+00:09:04.240 --> 00:09:05.500
+height.
+
+00:09:05.500 --> 00:09:09.850
+If you plug in the properties
+of air with these numbers,
+
+00:09:09.850 --> 00:09:14.590
+the Rayleigh number is
+actually 10 to the 10.
+
+00:09:14.590 --> 00:09:16.450
+It's enormous.
+
+00:09:16.450 --> 00:09:18.390
+So that tells you that if you--
+
+00:09:18.390 --> 00:09:20.730
+and that's partly because of
+the huge scale here, right?
+
+00:09:20.730 --> 00:09:22.020
+So H comes in cubed.
+
+00:09:22.020 --> 00:09:25.680
+So if you have 2 or 3 meters of
+height, that's a lot of height.
+
+00:09:25.680 --> 00:09:27.990
+And so if you are maintaining
+that kind of temperature
+
+00:09:27.990 --> 00:09:29.670
+difference across
+such a height, you're
+
+00:09:29.670 --> 00:09:31.700
+going to be generating
+very serious convection
+
+00:09:31.700 --> 00:09:32.370
+in that system.
+
+00:09:32.370 --> 00:09:34.710
+So what's happening is that
+besides the fact that you're
+
+00:09:34.710 --> 00:09:37.650
+blowing and generating
+flows by inertia,
+
+00:09:37.650 --> 00:09:43.380
+you also have these
+thermal flows going on,
+
+00:09:43.380 --> 00:09:48.000
+which can be very,
+very strong in a system
+
+00:09:48.000 --> 00:09:50.400
+when there's even just a
+few degrees of temperature
+
+00:09:50.400 --> 00:09:51.990
+difference.
+
+00:09:51.990 --> 00:09:54.840
+You've probably
+seen dust in the air
+
+00:09:54.840 --> 00:09:56.460
+near a sunny
+window, which allows
+
+00:09:56.460 --> 00:09:57.560
+you to visualize the flow.
+
+00:09:57.560 --> 00:09:59.110
+And even if nobody's
+moving-- the air
+
+00:09:59.110 --> 00:10:01.200
+is fairly still--
+you might see plumes
+
+00:10:01.200 --> 00:10:03.940
+of rising air in one location
+or sinking in another air.
+
+00:10:03.940 --> 00:10:05.490
+And if you look
+closely, those plumes
+
+00:10:05.490 --> 00:10:10.890
+may actually have very complex
+convective instabilities
+
+00:10:10.890 --> 00:10:15.150
+and turbulence even, even when
+the temperature differences are
+
+00:10:15.150 --> 00:10:16.320
+not so great.
+
+00:10:16.320 --> 00:10:18.100
+And in fact, we can
+see such things.
+
+00:10:18.100 --> 00:10:21.300
+For example, if we have,
+let's say, a window--
+
+00:10:21.300 --> 00:10:26.880
+and let's say that
+it's cold outside.
+
+00:10:26.880 --> 00:10:28.680
+And it's warm inside.
+
+00:10:28.680 --> 00:10:30.480
+Then just simply that
+temperature gradient
+
+00:10:30.480 --> 00:10:33.210
+means that there's a colder
+air near the surface that
+
+00:10:33.210 --> 00:10:34.770
+wants to sink.
+
+00:10:34.770 --> 00:10:37.500
+And so the flow rate
+is going to look--
+
+00:10:37.500 --> 00:10:40.860
+or the flow is going to look
+something like a boundary layer
+
+00:10:40.860 --> 00:10:45.730
+flow of fluid that is sort
+of falling near the surface.
+
+00:10:45.730 --> 00:10:47.910
+And if the Reynolds
+number gets high enough,
+
+00:10:47.910 --> 00:10:51.270
+this flow can actually
+become itself unstable
+
+00:10:51.270 --> 00:10:53.050
+as it kind of goes
+down the surface.
+
+00:10:53.050 --> 00:10:56.010
+So you can see that
+these rising or falling
+
+00:10:56.010 --> 00:11:00.360
+plumes of natural convection
+near vertical services
+
+00:11:00.360 --> 00:11:03.090
+that are heated or cooled
+relative to the environment
+
+00:11:03.090 --> 00:11:06.650
+can also lead to complex flows.
+
+00:11:06.650 --> 00:11:08.700
+And actually, a
+good example of that
+
+00:11:08.700 --> 00:11:11.850
+is the flow that
+occurs around a person
+
+00:11:11.850 --> 00:11:14.650
+just simply due to
+the temperature.
+
+00:11:14.650 --> 00:11:18.860
+So if you look very
+closely at a person--
+
+00:11:18.860 --> 00:11:20.530
+I'm not going to draw
+it very well here.
+
+00:11:20.530 --> 00:11:22.710
+But let's just say,
+we have a person.
+
+00:11:22.710 --> 00:11:26.340
+And that's supposed
+to be a head, OK?
+
+00:11:26.340 --> 00:11:28.650
+If you look very
+closely, the body
+
+00:11:28.650 --> 00:11:30.540
+has a temperature
+which is usually higher
+
+00:11:30.540 --> 00:11:34.800
+than the ambient by at least
+10 degrees if not more.
+
+00:11:34.800 --> 00:11:37.920
+And if you now plug in a little
+bit smaller size-- let's say,
+
+00:11:37.920 --> 00:11:42.270
+we plug in 30 or 40 centimeters.
+
+00:11:42.270 --> 00:11:45.840
+And we-- so let's
+do that actually.
+
+00:11:45.840 --> 00:11:50.100
+So if we say that here, maybe,
+H would be on the order of--
+
+00:11:50.100 --> 00:11:54.010
+well, since this was 3 meters,
+we'll go down to 0.3 meters.
+
+00:11:54.010 --> 00:12:00.000
+So we'll drop the size
+roughly by a factor of 10.
+
+00:12:00.000 --> 00:12:01.200
+But it comes in cubed .
+
+00:12:01.200 --> 00:12:04.040
+So that drops the Rayleigh
+number by a factor of 1,000.
+
+00:12:04.040 --> 00:12:06.360
+So if we still keep our
+delta T at 10 degrees--
+
+00:12:06.360 --> 00:12:08.430
+and it might actually
+be much more than that--
+
+00:12:08.430 --> 00:12:11.670
+the Rayleigh number
+around this person's head,
+
+00:12:11.670 --> 00:12:16.740
+just simply by virtue of the
+heat generated by the body,
+
+00:12:16.740 --> 00:12:18.220
+can be of order 10 to the 7.
+
+00:12:18.220 --> 00:12:20.610
+So it may not be quite
+into the turbulent regime.
+
+00:12:20.610 --> 00:12:22.560
+But it's certainly in
+the regime where there'll
+
+00:12:22.560 --> 00:12:25.260
+be some unsteady
+complicated flows due only
+
+00:12:25.260 --> 00:12:26.200
+to natural convection.
+
+00:12:26.200 --> 00:12:28.410
+And we're not even talking
+about the person moving,
+
+00:12:28.410 --> 00:12:31.030
+which gives you even more flow.
+
+00:12:31.030 --> 00:12:33.370
+And so what it actually looks
+like if you look closely--
+
+00:12:33.370 --> 00:12:35.220
+the air around a
+person is actually
+
+00:12:35.220 --> 00:12:41.090
+rising almost like a chimney,
+driven by these thermal flows.
+
+00:12:41.090 --> 00:12:43.970
+And those flows even can go
+turbulent or at least generate
+
+00:12:43.970 --> 00:12:46.670
+some vortical structures.
+
+00:12:46.670 --> 00:12:48.320
+And of course,
+these kinds of flows
+
+00:12:48.320 --> 00:12:49.490
+are just due to temperature.
+
+00:12:49.490 --> 00:12:51.350
+In all these cases
+due to the HVAC
+
+00:12:51.350 --> 00:12:52.730
+and also due to
+the person, there
+
+00:12:52.730 --> 00:12:54.560
+are these convective
+flows that we've
+
+00:12:54.560 --> 00:12:57.590
+talked about from inertia,
+which also contribute to mixing.
+
+00:12:57.590 --> 00:13:00.050
+So as we'll talk
+about shortly, we also
+
+00:13:00.050 --> 00:13:01.940
+know that this
+person is breathing.
+
+00:13:01.940 --> 00:13:04.070
+Let's say, they're just
+breathing through the nose,
+
+00:13:04.070 --> 00:13:04.570
+even.
+
+00:13:04.570 --> 00:13:10.170
+Then there's some puffs
+that are generated.
+
+00:13:10.170 --> 00:13:11.920
+And you've got the
+thermal stuff going on.
+
+00:13:11.920 --> 00:13:14.210
+Also, the air that
+you're breathing out
+
+00:13:14.210 --> 00:13:15.410
+is warmer than the ambient.
+
+00:13:15.410 --> 00:13:19.170
+So it tends to want
+to rise as well.
+
+00:13:19.170 --> 00:13:23.180
+So I hope I've convinced
+you here that--
+
+00:13:23.180 --> 00:13:28.540
+I'll write this as, these could
+be buoyant respiratory jets
+
+00:13:28.540 --> 00:13:29.040
+and puffs.
+
+00:13:33.410 --> 00:13:35.360
+So I guess the first
+part of this section
+
+00:13:35.360 --> 00:13:38.090
+is just to convince you that
+the conditions in a room
+
+00:13:38.090 --> 00:13:40.610
+are such that we
+have good reason
+
+00:13:40.610 --> 00:13:44.030
+to believe that there is
+significant mixing of the air,
+
+00:13:44.030 --> 00:13:46.610
+either due to inertial
+effects from movement,
+
+00:13:46.610 --> 00:13:51.860
+from ventilation air flows,
+or from thermal effects,
+
+00:13:51.860 --> 00:13:53.410
+as we have sketched here.
+
+00:13:53.410 --> 00:13:55.160
+And so at least, that
+gives us a beginning
+
+00:13:55.160 --> 00:13:58.490
+of a justification
+for our assumption
+
+00:13:58.490 --> 00:14:01.170
+of a well-mixed room.
+
+00:14:01.170 --> 00:14:05.850
+So in this video from Linden's
+group at the University
+
+00:14:05.850 --> 00:14:10.590
+of Cambridge, we can see a
+visualization of the airflow
+
+00:14:10.590 --> 00:14:15.090
+around a person who is
+speaking or just breathing.
+
+00:14:15.090 --> 00:14:17.940
+And the videos are taken
+by a differential synthetic
+
+00:14:17.940 --> 00:14:20.730
+schlieren imaging
+method, which allows
+
+00:14:20.730 --> 00:14:25.890
+you to see basically the
+changes in density in the flow.
+
+00:14:25.890 --> 00:14:28.830
+And what we see are
+these thermal plumes
+
+00:14:28.830 --> 00:14:33.480
+of warm air rising past the
+body due to the difference
+
+00:14:33.480 --> 00:14:36.390
+in the body temperature and
+the ambient air temperature.
+
+00:14:36.390 --> 00:14:39.780
+And we also see, on top
+of that, repeated puffs
+
+00:14:39.780 --> 00:14:42.960
+coming from the breathing,
+which interact with those plumes
+
+00:14:42.960 --> 00:14:48.850
+and also themselves have buoyant
+and turbulent flows therein.
+
+00:14:48.850 --> 00:14:52.280
+In the next video, we see
+how different the flows
+
+00:14:52.280 --> 00:14:54.050
+are when masks are worn.
+
+00:14:54.050 --> 00:14:57.830
+So we can still see the thermal
+body plume rising vertically
+
+00:14:57.830 --> 00:14:59.480
+past the person's face.
+
+00:14:59.480 --> 00:15:02.060
+But now the mask is preventing
+the transfer of momentum
+
+00:15:02.060 --> 00:15:04.550
+to the fluid to push
+forward these puffs.
+
+00:15:04.550 --> 00:15:06.920
+And instead, we see
+the leaking of some
+
+00:15:06.920 --> 00:15:11.450
+of the breathed, exhaled
+air rising, almost
+
+00:15:11.450 --> 00:15:15.620
+entrained in the turbulent
+thermal plume rising upwards
+
+00:15:15.620 --> 00:15:17.970
+rather than being
+ejected forward.
+
+00:15:17.970 --> 00:15:21.950
+And so this helps to eliminate
+short-range transmission
+
+00:15:21.950 --> 00:15:24.470
+due to those puffs and
+really brings us closer
+
+00:15:24.470 --> 00:15:29.840
+to an airborne model
+of a well-mixed room.

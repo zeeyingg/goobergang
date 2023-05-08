@@ -1,0 +1,225 @@
+WEBVTT
+
+00:00:10.980 --> 00:00:12.810
+PROFESSOR: So now we're
+ready to synthesize
+
+00:00:12.810 --> 00:00:14.940
+our knowledge of
+airborne transmission
+
+00:00:14.940 --> 00:00:18.570
+in a well-mixed room and
+epidemiological models
+
+00:00:18.570 --> 00:00:21.060
+to arrive at a safety
+guideline to limit
+
+00:00:21.060 --> 00:00:24.240
+the indoor airborne
+spread of COVID-19,
+
+00:00:24.240 --> 00:00:28.120
+or, more generally, other
+respiratory pathogens.
+
+00:00:28.120 --> 00:00:32.409
+Existing guidelines
+limit one parameter
+
+00:00:32.409 --> 00:00:33.700
+that might be important.
+
+00:00:33.700 --> 00:00:37.300
+For example, social
+distancing limits the spacing
+
+00:00:37.300 --> 00:00:39.670
+between people,
+which can be defined
+
+00:00:39.670 --> 00:00:45.070
+by the average area per occupant
+for example, to a minimum
+
+00:00:45.070 --> 00:00:49.350
+of, say, 6 feet or 1 meter.
+
+00:00:49.350 --> 00:00:52.350
+Other rules, for
+example, adopted here
+
+00:00:52.350 --> 00:00:56.070
+in the state of Massachusetts,
+limit all gatherings
+
+00:00:56.070 --> 00:01:00.000
+to be no larger than
+25 persons indoors.
+
+00:01:00.000 --> 00:01:03.960
+There also are recommendations
+from heating and ventilation
+
+00:01:03.960 --> 00:01:07.440
+societies that may recommend
+we increase the fresh air
+
+00:01:07.440 --> 00:01:11.730
+change rate to six or higher.
+
+00:01:11.730 --> 00:01:15.260
+In the UK, for example,
+the fresh air flow rate
+
+00:01:15.260 --> 00:01:18.480
+might be prescribed to 10
+liters per second per person
+
+00:01:18.480 --> 00:01:19.770
+or other such numbers.
+
+00:01:19.770 --> 00:01:22.560
+Also the time that
+an infected person
+
+00:01:22.560 --> 00:01:24.480
+is in the presence
+of susceptible people
+
+00:01:24.480 --> 00:01:27.150
+might be limited
+to say, 15 minutes.
+
+00:01:27.150 --> 00:01:30.270
+That's involved in the
+definition of a contact
+
+00:01:30.270 --> 00:01:32.070
+here in the United States.
+
+00:01:32.070 --> 00:01:34.770
+So what we will see is
+that it's really not
+
+00:01:34.770 --> 00:01:37.259
+possible to write down a
+realistic guideline that
+
+00:01:37.259 --> 00:01:40.770
+bounds any one quantity, because
+there will always be situations
+
+00:01:40.770 --> 00:01:43.530
+where you either
+are too conservative
+
+00:01:43.530 --> 00:01:47.729
+or are not careful enough
+in bounding that quantity,
+
+00:01:47.729 --> 00:01:49.690
+because these qualities
+are all related.
+
+00:01:49.690 --> 00:01:52.080
+So, for example,
+25 persons might
+
+00:01:52.080 --> 00:01:54.360
+be perfectly safe in
+a very large space
+
+00:01:54.360 --> 00:01:57.270
+for a very short amount of time
+with very high ventilation.
+
+00:01:57.270 --> 00:02:01.170
+But take those 25 persons and
+seal them into a small tent,
+
+00:02:01.170 --> 00:02:04.590
+breathing each other's
+air for 24 hours with very
+
+00:02:04.590 --> 00:02:07.500
+little ventilation, it's a
+completely different situation.
+
+00:02:07.500 --> 00:02:09.240
+And the same holds
+for the distance,
+
+00:02:09.240 --> 00:02:12.100
+or the time, or the flow
+rates, everything is mixed.
+
+00:02:12.100 --> 00:02:13.560
+And then what about
+other variables
+
+00:02:13.560 --> 00:02:15.210
+that we don't
+explicitly control?
+
+00:02:15.210 --> 00:02:18.960
+Like relative humidity
+or filtration efficiency,
+
+00:02:18.960 --> 00:02:21.570
+if you're using filters
+to filter the air.
+
+00:02:21.570 --> 00:02:23.100
+Or if you're wearing masks.
+
+00:02:23.100 --> 00:02:26.910
+The quality of the masks,
+how well does that come in?
+
+00:02:26.910 --> 00:02:28.820
+How about the
+volume of the space?
+
+00:02:28.820 --> 00:02:30.570
+It's not just the flow
+rate, but it's also
+
+00:02:30.570 --> 00:02:34.270
+the geometry, even the area,
+or the length of the space.
+
+00:02:34.270 --> 00:02:37.020
+So somehow all these
+variables must be related,
+
+00:02:37.020 --> 00:02:40.360
+and the goal of this chapter
+is to derive that relationship
+
+00:02:40.360 --> 00:02:42.240
+for the case of a
+well-mixed room, where it's
+
+00:02:42.240 --> 00:02:44.700
+a unique universal guideline.
+
+00:02:44.700 --> 00:02:47.700
+And to parameterize this
+specifically for COVID-19,
+
+00:02:47.700 --> 00:02:50.700
+by looking at a variety of
+superspreading events for which
+
+00:02:50.700 --> 00:02:52.980
+enough data is available
+that we can make
+
+00:02:52.980 --> 00:02:57.660
+a reasonable and consistent
+inference of the infectiousness
+
+00:02:57.660 --> 00:03:00.020
+of exhaled breath.

@@ -1,0 +1,978 @@
+WEBVTT
+
+00:00:10.940 --> 00:00:13.730
+PROFESSOR: So let's build
+on this concept of diffusion
+
+00:00:13.730 --> 00:00:17.060
+of virions in
+droplets to understand
+
+00:00:17.060 --> 00:00:21.890
+how we would expect a
+size dependent infectivity
+
+00:00:21.890 --> 00:00:24.920
+of virions in different
+sized droplets.
+
+00:00:24.920 --> 00:00:27.350
+So an important
+concept in epidemiology
+
+00:00:27.350 --> 00:00:30.890
+that we will come to
+later is the infectivity,
+
+00:00:30.890 --> 00:00:34.540
+which is the probability
+that if a virion is transferred
+
+00:00:34.540 --> 00:00:37.550
+that it actually causes
+an infection in the host.
+
+00:00:37.550 --> 00:00:40.490
+That can be further
+broken down into a product
+
+00:00:40.490 --> 00:00:41.390
+of two probabilities.
+
+00:00:41.390 --> 00:00:44.810
+The first is that if the virus
+has escaped from the droplet,
+
+00:00:44.810 --> 00:00:47.000
+it actually causes an infection.
+
+00:00:47.000 --> 00:00:49.300
+And that's perhaps something
+which is roughly constant.
+
+00:00:49.300 --> 00:00:54.380
+It has to do with the
+physiology of the host.
+
+00:00:54.380 --> 00:00:58.490
+But then there is the escape
+of the virion from the droplet.
+
+00:00:58.490 --> 00:01:00.080
+And as we've already
+discussed, that's
+
+00:01:00.080 --> 00:01:01.970
+a strongly size
+dependent quantity.
+
+00:01:01.970 --> 00:01:03.680
+And from very large
+droplets, it's
+
+00:01:03.680 --> 00:01:06.290
+very difficult in a mucus
+droplet, especially,
+
+00:01:06.290 --> 00:01:10.280
+for the virion to diffuse out
+in a reasonable amount of time.
+
+00:01:10.280 --> 00:01:13.970
+And in fact, virions
+are typically
+
+00:01:13.970 --> 00:01:16.710
+found to have a
+period of deactivation
+
+00:01:16.710 --> 00:01:18.260
+where after a certain
+amount of time,
+
+00:01:18.260 --> 00:01:23.240
+they are no longer viable
+and able to basically cause
+
+00:01:23.240 --> 00:01:24.420
+further infection.
+
+00:01:24.420 --> 00:01:26.870
+And so if we assume
+there's a certain time
+
+00:01:26.870 --> 00:01:29.870
+t, or tau v for the
+virus deactivation,
+
+00:01:29.870 --> 00:01:31.730
+then we can ask
+ourselves if the virus
+
+00:01:31.730 --> 00:01:35.060
+has had a chance to escape
+or not as a function of size.
+
+00:01:35.060 --> 00:01:37.400
+So basically, to
+solve this problem,
+
+00:01:37.400 --> 00:01:39.500
+we think of the droplet here.
+
+00:01:39.500 --> 00:01:43.789
+And we actually want to
+solve a diffusion problem
+
+00:01:43.789 --> 00:01:48.080
+where C here is the
+concentration of viruses
+
+00:01:48.080 --> 00:01:49.560
+in the domain.
+
+00:01:49.560 --> 00:01:51.950
+D is the diffusivity
+of the viruses.
+
+00:01:51.950 --> 00:01:55.670
+And this is the
+[INAUDIBLE] equation
+
+00:01:55.670 --> 00:01:58.800
+in the sphere, which is
+the diffusion equation.
+
+00:01:58.800 --> 00:02:02.600
+And our boundary
+conditions are that C of R
+
+00:02:02.600 --> 00:02:05.210
+and 0, the initial
+condition is 0.
+
+00:02:05.210 --> 00:02:11.130
+And then at R and t,
+it's going to be one.
+
+00:02:11.130 --> 00:02:13.670
+So basically what
+we're imagining here
+
+00:02:13.670 --> 00:02:15.230
+is that we're
+trying to figure out
+
+00:02:15.230 --> 00:02:17.329
+the C will be the
+concentration viruses that
+
+00:02:17.329 --> 00:02:18.940
+has left the system actually.
+
+00:02:18.940 --> 00:02:24.380
+So what we have is if we look
+as a function of the radius,
+
+00:02:24.380 --> 00:02:29.570
+of the radius of this
+thing is R, capital R. So
+
+00:02:29.570 --> 00:02:32.600
+in that distance, we
+have this constant--
+
+00:02:32.600 --> 00:02:34.670
+what I'm calling
+concentration here is just
+
+00:02:34.670 --> 00:02:37.550
+going to jump up to one.
+
+00:02:37.550 --> 00:02:41.810
+And then it's going to
+diffuse inward like this.
+
+00:02:41.810 --> 00:02:45.290
+OK, and then eventually
+the final state
+
+00:02:45.290 --> 00:02:49.460
+is that it's entirely
+basically one everywhere.
+
+00:02:49.460 --> 00:02:51.920
+And that's when basically
+the probability of removal
+
+00:02:51.920 --> 00:02:55.270
+has hit every part of the
+drop and all of the virus
+
+00:02:55.270 --> 00:02:55.980
+has been removed.
+
+00:02:55.980 --> 00:03:00.450
+So the C is a time
+dependent fraction
+
+00:03:00.450 --> 00:03:04.580
+of the virus, the virions
+in the droplet, which
+
+00:03:04.580 --> 00:03:07.430
+had been removed at time t.
+
+00:03:07.430 --> 00:03:09.470
+So this spherical
+diffusion equation
+
+00:03:09.470 --> 00:03:12.170
+can be solved analytically
+in various ways.
+
+00:03:12.170 --> 00:03:15.270
+But there's not a simple closed
+form solution to this problem.
+
+00:03:15.270 --> 00:03:16.940
+And what we're really
+interested in here
+
+00:03:16.940 --> 00:03:19.130
+is just a rough
+approximation of what
+
+00:03:19.130 --> 00:03:21.270
+the solution might look like.
+
+00:03:21.270 --> 00:03:23.960
+So let's pull out an
+approximation for this.
+
+00:03:23.960 --> 00:03:28.430
+So I'll sketch the
+droplet again here.
+
+00:03:28.430 --> 00:03:31.760
+Now at early times,
+when there hasn't
+
+00:03:31.760 --> 00:03:34.100
+been a chance for the
+viruses, the virions
+
+00:03:34.100 --> 00:03:35.630
+to diffuse very far.
+
+00:03:35.630 --> 00:03:37.640
+Then only those which
+are close to the boundary
+
+00:03:37.640 --> 00:03:38.780
+actually have a
+chance of leaving.
+
+00:03:38.780 --> 00:03:41.400
+That's this initial boundary
+earlier that I sketched here,
+
+00:03:41.400 --> 00:03:43.280
+which is working its way in.
+
+00:03:43.280 --> 00:03:47.079
+So why don't we
+sketch the central region
+
+00:03:47.079 --> 00:03:51.130
+and give that a distance delta,
+which is the boundary layer
+
+00:03:51.130 --> 00:03:51.740
+thickness.
+
+00:03:51.740 --> 00:03:54.980
+So basically this outer
+annulus has been--
+
+00:03:54.980 --> 00:03:57.760
+is really where virions
+had a chance to leave.
+
+00:03:57.760 --> 00:04:01.870
+And that's where c
+is jumping to one.
+
+00:04:01.870 --> 00:04:05.620
+And from-- if this
+were just a plane
+
+00:04:05.620 --> 00:04:08.460
+with a semi-infinite diffusion
+towards the center, so
+
+00:04:08.460 --> 00:04:12.160
+in other words, this
+delta is much less than R,
+
+00:04:12.160 --> 00:04:15.010
+capital R, the radius, then
+it's almost like diffusion
+
+00:04:15.010 --> 00:04:16.120
+from a planar source.
+
+00:04:16.120 --> 00:04:21.190
+And then we actually know
+that this distance as well
+
+00:04:21.190 --> 00:04:24.730
+approximated by
+square root of 2 DT.
+
+00:04:24.730 --> 00:04:27.490
+So that just comes from solving
+the diffusion equation in one
+
+00:04:27.490 --> 00:04:30.250
+dimension leads to that
+scaling of the diffusion layer
+
+00:04:30.250 --> 00:04:30.760
+thickness.
+
+00:04:30.760 --> 00:04:34.190
+So that's this thickness
+of this blue region
+
+00:04:34.190 --> 00:04:36.400
+as it goes that way is delta.
+
+00:04:36.400 --> 00:04:39.340
+And it scales as
+it's approximated
+
+00:04:39.340 --> 00:04:41.360
+by square root of 2DT.
+
+00:04:41.360 --> 00:04:43.180
+And now let's ask
+ourselves then what
+
+00:04:43.180 --> 00:04:47.480
+is this concentration here?
+
+00:04:47.480 --> 00:04:49.870
+Well, what I'm really
+interested in actually
+
+00:04:49.870 --> 00:04:53.440
+is this escape probability PE.
+
+00:04:53.440 --> 00:04:55.600
+And that's going
+to be the integral
+
+00:04:55.600 --> 00:04:58.670
+of CDV over the volume.
+
+00:04:58.670 --> 00:05:01.600
+So this is the integral
+over all the R's that
+
+00:05:01.600 --> 00:05:03.310
+are less than capital
+R. So basically
+
+00:05:03.310 --> 00:05:06.320
+inside the drop of this
+concentration field.
+
+00:05:06.320 --> 00:05:10.390
+So that contrary field starts
+at 0 and eventually goes to 1.
+
+00:05:10.390 --> 00:05:15.800
+And that base is giving me
+this total escape probability.
+
+00:05:15.800 --> 00:05:18.160
+So to calculate this integral
+of the concertation field,
+
+00:05:18.160 --> 00:05:20.170
+I basically have a
+domain at the outside
+
+00:05:20.170 --> 00:05:22.420
+here with the concept of
+this concentration variable
+
+00:05:22.420 --> 00:05:25.180
+is near one and a
+central region where
+
+00:05:25.180 --> 00:05:27.820
+it's C approximately zero.
+
+00:05:27.820 --> 00:05:30.370
+And here C is equal to
+one on the boundary.
+
+00:05:30.370 --> 00:05:32.600
+This variable I've defined here.
+
+00:05:32.600 --> 00:05:39.920
+So therefore, I can write that
+this PE is, roughly speaking,
+
+00:05:39.920 --> 00:05:41.680
+if we think of just
+what is the volume
+
+00:05:41.680 --> 00:05:46.030
+of that spherical
+annulus, that would be--
+
+00:05:46.030 --> 00:05:48.130
+and relative to
+the total volume--
+
+00:05:48.130 --> 00:05:54.820
+that would be r-cube minus
+R minus delta cube divided
+
+00:05:54.820 --> 00:05:55.570
+by r-cube.
+
+00:05:55.570 --> 00:05:59.320
+So each of the volumes has a
+4/3 pi, which I've canceled off.
+
+00:05:59.320 --> 00:06:01.450
+So this is basically the
+volume of the total sphere
+
+00:06:01.450 --> 00:06:03.200
+minus the volume in
+the inner sphere.
+
+00:06:03.200 --> 00:06:04.970
+So that's just the
+volume of the shell.
+
+00:06:04.970 --> 00:06:07.070
+Then I normalize
+it properly here.
+
+00:06:07.070 --> 00:06:16.690
+So this is one minus delta
+over r parentheses cubed.
+
+00:06:16.690 --> 00:06:18.290
+And if I now--
+
+00:06:18.290 --> 00:06:19.840
+and I have this expression here.
+
+00:06:19.840 --> 00:06:21.810
+So now I have at
+least an approximation
+
+00:06:21.810 --> 00:06:24.690
+for what this might look like.
+
+00:06:24.690 --> 00:06:28.080
+We can also further say
+that this approximation here
+
+00:06:28.080 --> 00:06:31.800
+was valid for the delta
+B much less than r.
+
+00:06:31.800 --> 00:06:34.950
+And when that's the
+case, then I also
+
+00:06:34.950 --> 00:06:36.600
+can say that this
+quantity is small.
+
+00:06:36.600 --> 00:06:38.640
+So at early times that's small.
+
+00:06:38.640 --> 00:06:39.870
+And I can expand.
+
+00:06:39.870 --> 00:06:41.760
+All right, this is 1 minus.
+
+00:06:41.760 --> 00:06:43.590
+And then 1 minus
+something cubed,
+
+00:06:43.590 --> 00:06:46.920
+where that something is
+small, is 1 minus 3 times
+
+00:06:46.920 --> 00:06:50.100
+that something.
+
+00:06:50.100 --> 00:06:52.060
+That's basically a
+tailor expansion.
+
+00:06:52.060 --> 00:06:55.020
+So that when I work this
+out, the ones cancel.
+
+00:06:55.020 --> 00:07:01.490
+And I get three delta
+over R. So what we find
+
+00:07:01.490 --> 00:07:08.300
+is that this PE, which
+we're trying to calculate,
+
+00:07:08.300 --> 00:07:12.080
+has two limits that
+are easy to calculate.
+
+00:07:12.080 --> 00:07:15.380
+One of them is this 3 delta
+over R. And if that's our delta,
+
+00:07:15.380 --> 00:07:20.940
+then we get 3 square
+root of 2 DT times R.
+
+00:07:20.940 --> 00:07:24.060
+And specifically, the p is
+defined up to a certain time
+
+00:07:24.060 --> 00:07:27.840
+tau v. So I'll now
+replace t with tau v
+
+00:07:27.840 --> 00:07:32.190
+because that is my timescale
+for virus deactivation.
+
+00:07:32.190 --> 00:07:38.730
+And so this would be in the
+case where this quantity is--
+
+00:07:38.730 --> 00:07:43.030
+basically, this ratio here
+is much less than one.
+
+00:07:43.030 --> 00:07:45.480
+And then in the
+opposite limit where
+
+00:07:45.480 --> 00:07:47.870
+this diffusion has completely
+spanned the particle
+
+00:07:47.870 --> 00:07:49.290
+and is getting
+much bigger than R,
+
+00:07:49.290 --> 00:07:52.120
+then this obviously
+has to tend to 1.
+
+00:07:52.120 --> 00:07:57.300
+OK, now, I can write
+down a function
+
+00:07:57.300 --> 00:08:00.090
+that makes this transition
+right about when
+
+00:08:00.090 --> 00:08:03.820
+this thing is of order
+one in a variety of ways.
+
+00:08:03.820 --> 00:08:05.310
+One way we could
+do that would be
+
+00:08:05.310 --> 00:08:07.050
+to write that PE
+is approximately
+
+00:08:07.050 --> 00:08:11.850
+given by 1 minus the exponential
+of minus this quantity.
+
+00:08:11.850 --> 00:08:21.220
+So minus 3 square root of
+2 d tau v divided by R.
+
+00:08:21.220 --> 00:08:26.150
+And you can see there we
+have a-- there's sort of--
+
+00:08:26.150 --> 00:08:29.630
+you could either write
+this in terms of a time
+
+00:08:29.630 --> 00:08:32.840
+where the critical time is--
+
+00:08:32.840 --> 00:08:34.640
+so we could write this--
+
+00:08:34.640 --> 00:08:36.169
+just to get more
+insight into it,
+
+00:08:36.169 --> 00:08:40.190
+we could write PE is
+approximately 1 minus e
+
+00:08:40.190 --> 00:08:46.340
+to the minus tau v
+over some timescale--
+
+00:08:46.340 --> 00:08:48.650
+I'll call it tau
+d for diffusion--
+
+00:08:48.650 --> 00:08:57.170
+where we see here that
+tau d is R squared over--
+
+00:08:57.170 --> 00:08:58.950
+and then it's--
+
+00:08:58.950 --> 00:09:01.430
+To bring inside the square
+root, this 3 becomes 9.
+
+00:09:01.430 --> 00:09:02.660
+And then times 2 is 18.
+
+00:09:02.660 --> 00:09:05.240
+So 18D.
+
+00:09:05.240 --> 00:09:07.280
+Now, you may recall from
+our last calculation,
+
+00:09:07.280 --> 00:09:10.310
+the average first passage
+time in the sphere calculated
+
+00:09:10.310 --> 00:09:13.910
+exactly was R squared over 15D.
+
+00:09:13.910 --> 00:09:16.100
+So this very simple
+calculation is clearly
+
+00:09:16.100 --> 00:09:18.110
+giving us roughly the
+right order of magnitude
+
+00:09:18.110 --> 00:09:19.430
+for that time.
+
+00:09:19.430 --> 00:09:21.140
+But we're actually
+not interested so much
+
+00:09:21.140 --> 00:09:22.510
+in writing this
+in terms of time.
+
+00:09:22.510 --> 00:09:24.630
+We'd actually like to
+write in terms of radius.
+
+00:09:24.630 --> 00:09:30.500
+So I can also write PE is
+1 minus E to the minus R.
+
+00:09:30.500 --> 00:09:34.250
+I'll call it maybe Rd
+for diffusion over R
+
+00:09:34.250 --> 00:09:43.970
+where Rd is basically all this
+stuff, 3 root 2 d tau v. OK,
+
+00:09:43.970 --> 00:09:47.590
+so this is maybe another
+useful way to write that.
+
+00:09:47.590 --> 00:09:51.200
+And what does this function
+look like as a function of R,
+
+00:09:51.200 --> 00:09:52.040
+this one right here?
+
+00:09:52.040 --> 00:09:55.090
+So maybe if I sketch
+that out, I'll
+
+00:09:55.090 --> 00:09:57.390
+look at this a little
+bit more carefully.
+
+00:09:57.390 --> 00:09:58.920
+Let's plot this.
+
+00:09:58.920 --> 00:10:07.660
+So as a function of R, here is
+this Rd, this critical size.
+
+00:10:07.660 --> 00:10:12.850
+When we are smaller than that
+critical size, then basically
+
+00:10:12.850 --> 00:10:14.650
+we have that PE.
+
+00:10:14.650 --> 00:10:16.840
+The escape probability,
+essentially,
+
+00:10:16.840 --> 00:10:19.940
+is very close to 1, OK,
+because then we have--
+
+00:10:19.940 --> 00:10:21.940
+that's basically just
+what we were just arguing.
+
+00:10:21.940 --> 00:10:24.200
+It's this limit right here.
+
+00:10:24.200 --> 00:10:25.620
+But then it's a
+function that when
+
+00:10:25.620 --> 00:10:27.990
+it gets much larger
+than our d, then it
+
+00:10:27.990 --> 00:10:30.780
+decays as we suggested
+here as sort of 1 over R.
+
+00:10:30.780 --> 00:10:37.060
+So it's actually a fairly
+slow decay in the long run.
+
+00:10:37.060 --> 00:10:39.300
+So basically, there's
+this limit here.
+
+00:10:39.300 --> 00:10:41.790
+And I just wanted to
+get to this picture.
+
+00:10:41.790 --> 00:10:44.160
+Just to point out that even
+though there are obviously
+
+00:10:44.160 --> 00:10:48.630
+physiological characteristics
+having to do with the way
+
+00:10:48.630 --> 00:10:51.090
+the a virion would actually
+get into a host cell
+
+00:10:51.090 --> 00:10:52.910
+and whether they
+would get infected,
+
+00:10:52.910 --> 00:10:55.380
+but a lot of those
+properties should
+
+00:10:55.380 --> 00:10:59.160
+be independent of the delivery
+of the virion in a droplet.
+
+00:10:59.160 --> 00:11:02.880
+It's really more once the virion
+gets out, there's some process.
+
+00:11:02.880 --> 00:11:04.860
+But what this
+calculation shows is
+
+00:11:04.860 --> 00:11:08.070
+that we would expect a
+fairly strong dependence
+
+00:11:08.070 --> 00:11:10.200
+of the infectivity on
+the size of the drop.
+
+00:11:10.200 --> 00:11:12.070
+Well, in particular, if
+we calculate this Rd.
+
+00:11:12.070 --> 00:11:14.280
+We'll have some
+idea that droplets
+
+00:11:14.280 --> 00:11:16.410
+that are smaller
+than that are highly
+
+00:11:16.410 --> 00:11:19.440
+infectious because every
+virion in those droplets
+
+00:11:19.440 --> 00:11:22.290
+can get out and
+infect the host cell.
+
+00:11:22.290 --> 00:11:24.500
+Whereas if the virus is--
+
+00:11:24.500 --> 00:11:26.100
+the droplet is much
+bigger than that,
+
+00:11:26.100 --> 00:11:29.220
+then you have this problem where
+this dead region in the middle.
+
+00:11:29.220 --> 00:11:30.990
+And those virions
+are not going to be
+
+00:11:30.990 --> 00:11:33.550
+able to get out in a
+reasonable amount of time,
+
+00:11:33.550 --> 00:11:35.340
+which is set by this tau v.
+
+00:11:35.340 --> 00:11:41.160
+So for example, a tau v for
+SARS COV-2, the coronavirus,
+
+00:11:41.160 --> 00:11:44.100
+is estimated to be
+anywhere from one hour.
+
+00:11:44.100 --> 00:11:46.350
+There was one study
+in aerosol droplets
+
+00:11:46.350 --> 00:11:47.850
+finding that kind of decay.
+
+00:11:47.850 --> 00:11:50.130
+But another study found
+that after 16 hours,
+
+00:11:50.130 --> 00:11:51.030
+it was still viable.
+
+00:11:51.030 --> 00:11:53.680
+So there's not quite a
+consensus forming yet.
+
+00:11:53.680 --> 00:11:57.780
+But it may be a time on the
+order of hours, certainly
+
+00:11:57.780 --> 00:12:02.250
+days, over which the virion
+needs to get out of the droplet
+
+00:12:02.250 --> 00:12:05.550
+in order to be able
+to cause infection.
+
+00:12:05.550 --> 00:12:07.690
+And this calculation shows
+you that as a result,
+
+00:12:07.690 --> 00:12:12.180
+you would expect a size
+dependent diffusivity--
+
+00:12:12.180 --> 00:12:14.220
+or excuse me, a size
+dependent infectivity.
+
+00:12:14.220 --> 00:12:17.860
+And roughly speaking, if
+we plug-in the numbers,
+
+00:12:17.860 --> 00:12:19.830
+these are the aerosol droplets.
+
+00:12:19.830 --> 00:12:22.900
+And these are the large drops.
+
+00:12:22.900 --> 00:12:23.900
+We've already done that.
+
+00:12:23.900 --> 00:12:27.140
+That was our previous
+calculation based on this time
+
+00:12:27.140 --> 00:12:29.540
+here, which is what
+I'm calling tau
+
+00:12:29.540 --> 00:12:31.310
+d here, which
+corresponds to this,
+
+00:12:31.310 --> 00:12:34.400
+is also pretty close
+to what we call tau 0.
+
+00:12:34.400 --> 00:12:39.720
+That was the-- well, that
+was the longest escape time,
+
+00:12:39.720 --> 00:12:41.720
+actually what I call, I
+think, tau bar actually,
+
+00:12:41.720 --> 00:12:46.520
+which was R squared over 15d.
+
+00:12:46.520 --> 00:12:48.240
+That was the
+average escape time.
+
+00:12:48.240 --> 00:12:50.660
+So basically, we've already
+shown that that average escape
+
+00:12:50.660 --> 00:12:54.350
+time starts to become
+days or even months when
+
+00:12:54.350 --> 00:12:55.320
+we get to large drops.
+
+00:12:55.320 --> 00:12:58.500
+But for the aerosol
+droplets in mucus
+
+00:12:58.500 --> 00:13:02.960
+anyway, this timescale
+is of order minutes
+
+00:13:02.960 --> 00:13:04.370
+to hours, which is reasonable.
+
+00:13:04.370 --> 00:13:07.690
+And you would expect those to
+be very infectious droplets.

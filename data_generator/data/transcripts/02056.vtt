@@ -1,0 +1,1437 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:13.960
+PROFESSOR: So when we start
+considering short-range effects
+
+00:00:13.960 --> 00:00:16.750
+of respiratory
+jets and plumes, it
+
+00:00:16.750 --> 00:00:18.580
+raises the interesting
+question of what
+
+00:00:18.580 --> 00:00:20.860
+is the role of social
+distancing, which
+
+00:00:20.860 --> 00:00:22.480
+is our primary
+means for fighting
+
+00:00:22.480 --> 00:00:24.940
+the pandemic at the moment.
+
+00:00:24.940 --> 00:00:28.480
+So as we've discussed, this
+is especially important
+
+00:00:28.480 --> 00:00:30.550
+when masks or face
+shields are not worn,
+
+00:00:30.550 --> 00:00:35.050
+so that the jets and plumes
+that come from breathing
+
+00:00:35.050 --> 00:00:37.840
+and speaking and singing and
+other respiratory activities
+
+00:00:37.840 --> 00:00:40.180
+are not blocked, in the sense
+that the momentum is not
+
+00:00:40.180 --> 00:00:40.960
+blocked.
+
+00:00:40.960 --> 00:00:43.250
+And furthermore, there's
+no filtering going on.
+
+00:00:43.250 --> 00:00:45.790
+So then we have our
+long-range airborne risk
+
+00:00:45.790 --> 00:00:48.460
+coming from respiratory
+aerosols that have become well
+
+00:00:48.460 --> 00:00:50.380
+mixed into the background air.
+
+00:00:50.380 --> 00:00:51.850
+But we have a new
+term that comes
+
+00:00:51.850 --> 00:00:53.590
+from short-range transmission.
+
+00:00:53.590 --> 00:00:56.470
+And in a worst case
+scenario, we can imagine that
+
+00:00:56.470 --> 00:01:00.520
+as a wedge-like or
+cone-like plume,
+
+00:01:00.520 --> 00:01:01.900
+which we have just described.
+
+00:01:01.900 --> 00:01:06.160
+In reality, there is going
+to be some background
+
+00:01:06.160 --> 00:01:07.650
+flows in the room,
+which will sweep
+
+00:01:07.650 --> 00:01:09.700
+that jet in different
+directions and break it up.
+
+00:01:09.700 --> 00:01:12.220
+There'll be motion of
+people, turning of heads.
+
+00:01:12.220 --> 00:01:13.840
+So it'll never be this simple.
+
+00:01:13.840 --> 00:01:15.940
+But the worst case
+scenario is really
+
+00:01:15.940 --> 00:01:18.940
+a well-formed respiratory
+jet and somebody
+
+00:01:18.940 --> 00:01:22.940
+essentially standing right in
+it at a certain distance, X bar,
+
+00:01:22.940 --> 00:01:25.510
+which is our sort of
+average social distance.
+
+00:01:25.510 --> 00:01:27.970
+As we've discussed, we can also
+take the ratio of these two
+
+00:01:27.970 --> 00:01:31.180
+terms and speak of fs,
+which we define here
+
+00:01:31.180 --> 00:01:34.360
+as the short-range risk
+enhancement factor.
+
+00:01:34.360 --> 00:01:36.300
+So that comes down
+to two new parameters
+
+00:01:36.300 --> 00:01:37.509
+which we've been discussing--
+
+00:01:37.509 --> 00:01:40.660
+P jet, the probability
+that a susceptible person
+
+00:01:40.660 --> 00:01:43.870
+is in the respiratory jet
+of an infected person,
+
+00:01:43.870 --> 00:01:47.400
+and X bar, the typical distance
+over which that occurs.
+
+00:01:47.400 --> 00:01:51.640
+Xc is this transition distance,
+where the respiratory jet
+
+00:01:51.640 --> 00:01:55.300
+concentration starts to match
+that of the background ambient
+
+00:01:55.300 --> 00:01:58.870
+air, which we substitute and
+form this expression shown
+
+00:01:58.870 --> 00:02:00.540
+here.
+
+00:02:00.540 --> 00:02:02.600
+So there are a
+number of situations
+
+00:02:02.600 --> 00:02:07.420
+we can think of to estimate
+what would be these parameters.
+
+00:02:07.420 --> 00:02:13.310
+So the first would be just
+to consider random occupant
+
+00:02:13.310 --> 00:02:14.350
+placement.
+
+00:02:20.570 --> 00:02:26.030
+So in this situation, if we view
+from above, we have, let's say,
+
+00:02:26.030 --> 00:02:27.000
+a person.
+
+00:02:27.000 --> 00:02:28.880
+This is now viewing from above.
+
+00:02:28.880 --> 00:02:32.540
+And they have a respiratory
+jet, which is going off
+
+00:02:32.540 --> 00:02:37.850
+like this in one direction.
+
+00:02:41.280 --> 00:02:44.590
+And then at any
+given distance, we
+
+00:02:44.590 --> 00:02:48.460
+can imagine there's sort of a
+typical social distance here.
+
+00:02:48.460 --> 00:02:51.010
+Now, I'm kind of exaggerating
+how far that is compared
+
+00:02:51.010 --> 00:02:52.720
+to the size of the head.
+
+00:02:52.720 --> 00:02:57.860
+But if this distance here is
+X bar, then at that distance,
+
+00:02:57.860 --> 00:02:59.690
+we'd like to say, what
+is the probability
+
+00:02:59.690 --> 00:03:03.440
+that the susceptible
+person is in the jet?
+
+00:03:03.440 --> 00:03:05.300
+And that would simply
+be formed by taking
+
+00:03:05.300 --> 00:03:09.720
+the angle of the jet
+relative to the full circle.
+
+00:03:09.720 --> 00:03:11.560
+So we could imagine,
+what is the probability
+
+00:03:11.560 --> 00:03:16.520
+of putting a person right here
+versus over here or over here
+
+00:03:16.520 --> 00:03:18.440
+where they're not
+going to be in the jet?
+
+00:03:18.440 --> 00:03:21.790
+So in that situation,
+we could write
+
+00:03:21.790 --> 00:03:28.280
+that P jet is approximately
+the inverse tangent of alpha.
+
+00:03:28.280 --> 00:03:32.970
+So alpha, remember,
+is the ratio--
+
+00:03:32.970 --> 00:03:34.160
+is the entrainment factor.
+
+00:03:34.160 --> 00:03:42.170
+And it's sort of the slope of
+this line defining the cone
+
+00:03:42.170 --> 00:03:44.060
+of the respiratory jet.
+
+00:03:44.060 --> 00:03:46.540
+And then we can
+divide that by pi.
+
+00:03:46.540 --> 00:03:48.290
+So that basically tells
+us the probability
+
+00:03:48.290 --> 00:03:50.240
+of being in this yellow
+region versus somewhere
+
+00:03:50.240 --> 00:03:52.130
+else at a given distance.
+
+00:03:52.130 --> 00:03:55.490
+And then, now, if we think
+about the distance factor--
+
+00:03:55.490 --> 00:03:58.790
+if it's completely
+random, then if we just
+
+00:03:58.790 --> 00:04:01.620
+imagine lots of people
+scattered throughout a room--
+
+00:04:01.620 --> 00:04:04.310
+imagine a busy
+space, for example,
+
+00:04:04.310 --> 00:04:07.400
+in a bar or a nightclub, a place
+where it's somewhat crowded
+
+00:04:07.400 --> 00:04:10.040
+but people are kind
+of moving around.
+
+00:04:10.040 --> 00:04:13.220
+Then we might have an average
+social distance, which
+
+00:04:13.220 --> 00:04:15.700
+is the area of the
+room divided by N.
+
+00:04:15.700 --> 00:04:17.060
+So that's the area per person.
+
+00:04:17.060 --> 00:04:18.230
+And then take a square root.
+
+00:04:18.230 --> 00:04:20.480
+That's an estimate
+of the distance.
+
+00:04:20.480 --> 00:04:23.580
+And the square root of area
+is the length L of the room.
+
+00:04:23.580 --> 00:04:26.180
+So it's divided by
+square root of N.
+
+00:04:26.180 --> 00:04:28.820
+And so with these
+two assumptions,
+
+00:04:28.820 --> 00:04:34.070
+we would then find that this
+short-range risk enhancement
+
+00:04:34.070 --> 00:04:34.990
+factor--
+
+00:04:34.990 --> 00:04:37.060
+well, what does it look like?
+
+00:04:37.060 --> 00:04:45.940
+It then is this factor P
+jet times Xc over L times--
+
+00:04:45.940 --> 00:04:49.240
+and then we have this
+N minus 1 factor.
+
+00:04:49.240 --> 00:04:54.220
+So if N is larger than 1,
+we could just estimate that
+
+00:04:54.220 --> 00:04:57.670
+as a square root of N. So what
+that shows is as more and more
+
+00:04:57.670 --> 00:05:00.280
+people pack into the
+room, we have an increase
+
+00:05:00.280 --> 00:05:05.020
+in the importance of long-range
+versus short-range transmission.
+
+00:05:05.020 --> 00:05:09.250
+And this pre-factor here is
+something which typically
+
+00:05:09.250 --> 00:05:12.400
+will be much less than 1,
+because the probability
+
+00:05:12.400 --> 00:05:17.380
+of being in a jet-- if
+alpha is around 0.1, 0.15,
+
+00:05:17.380 --> 00:05:20.720
+this turns out to be around 3%.
+
+00:05:20.720 --> 00:05:23.410
+OK, so that's-- it's not quite
+as wide as I've sketched here.
+
+00:05:23.410 --> 00:05:26.500
+The jet is a little
+bit more narrow.
+
+00:05:26.500 --> 00:05:29.680
+And we've already discussed
+that Xc-- the distance where
+
+00:05:29.680 --> 00:05:31.300
+the concentration
+in the jet starts
+
+00:05:31.300 --> 00:05:32.890
+to match that of the
+ambient-- it does
+
+00:05:32.890 --> 00:05:34.450
+depend on the
+conditions of the room
+
+00:05:34.450 --> 00:05:36.770
+and the ventilation
+and other factors.
+
+00:05:36.770 --> 00:05:39.580
+But roughly speaking,
+Xc is typically smaller
+
+00:05:39.580 --> 00:05:41.210
+than the size of the room.
+
+00:05:41.210 --> 00:05:43.780
+And so this factor here is
+quite a bit less than 1.
+
+00:05:43.780 --> 00:05:47.230
+So you see that in
+a random situation,
+
+00:05:47.230 --> 00:05:52.120
+the short-range transmission
+starts to become important only
+
+00:05:52.120 --> 00:05:54.230
+when the number of
+people becomes large.
+
+00:05:54.230 --> 00:05:55.690
+And it grows like
+square root of N.
+
+00:05:55.690 --> 00:05:58.720
+And there's a certain point,
+which might be at N equals 20
+
+00:05:58.720 --> 00:06:00.940
+or N equals 50 or N
+equals 100, depending
+
+00:06:00.940 --> 00:06:04.330
+on the space, where
+the short-range risk is
+
+00:06:04.330 --> 00:06:06.670
+larger than the risk
+of the background
+
+00:06:06.670 --> 00:06:08.950
+airborne transmission.
+
+00:06:08.950 --> 00:06:11.290
+And that's, again, just
+coming from random placement.
+
+00:06:11.290 --> 00:06:14.440
+So on the other hand, the
+random placement situation
+
+00:06:14.440 --> 00:06:16.930
+is not quite the
+best case scenario.
+
+00:06:16.930 --> 00:06:19.150
+But it's sort of a fairly
+optimistic scenario.
+
+00:06:19.150 --> 00:06:21.100
+The best case scenario
+is if people are always
+
+00:06:21.100 --> 00:06:22.480
+kind of having their
+backs to each other,
+
+00:06:22.480 --> 00:06:23.770
+never breathing on each other.
+
+00:06:23.770 --> 00:06:24.850
+That never really happens.
+
+00:06:24.850 --> 00:06:27.700
+In fact, it's more typical in
+human interactions for people
+
+00:06:27.700 --> 00:06:28.610
+to face each other.
+
+00:06:28.610 --> 00:06:31.340
+They may be talking to each
+other, looking at each other.
+
+00:06:31.340 --> 00:06:35.050
+And so hence, we tend to
+find ourselves more typically
+
+00:06:35.050 --> 00:06:37.630
+in the way of breathing.
+
+00:06:37.630 --> 00:06:40.690
+And so it might be better
+to think about this estimate
+
+00:06:40.690 --> 00:06:42.040
+in other ways.
+
+00:06:42.040 --> 00:06:43.420
+So a second way
+that we can think
+
+00:06:43.420 --> 00:06:46.659
+about it is by using
+a social distance
+
+00:06:46.659 --> 00:06:51.800
+guideline, or a social
+distancing rule, let's
+
+00:06:51.800 --> 00:06:52.300
+just say.
+
+00:06:52.300 --> 00:06:55.510
+So let's say that instead
+of a random situation
+
+00:06:55.510 --> 00:06:58.270
+where people are keeping
+sort of the average distance
+
+00:06:58.270 --> 00:07:00.250
+between each other,
+that no matter
+
+00:07:00.250 --> 00:07:03.430
+how many people in the room up
+to a certain maximum occupancy,
+
+00:07:03.430 --> 00:07:05.410
+they're not going to
+come within, let's
+
+00:07:05.410 --> 00:07:09.340
+say, a 6-foot radius or a
+3-foot radius, 1-meter radius.
+
+00:07:09.340 --> 00:07:12.490
+Depending on what the
+social distancing guideline
+
+00:07:12.490 --> 00:07:14.170
+is in that region,
+there's going to be
+
+00:07:14.170 --> 00:07:16.390
+a certain sort of minimum X.
+
+00:07:16.390 --> 00:07:18.730
+And let's just think of that
+as the worst case scenario.
+
+00:07:18.730 --> 00:07:21.060
+For the people that are that
+close to each other, that's
+
+00:07:21.060 --> 00:07:22.450
+the distance we'll choose.
+
+00:07:22.450 --> 00:07:27.340
+And so this might be something
+like 6 feet, 1 meter.
+
+00:07:27.340 --> 00:07:28.950
+You can pick.
+
+00:07:28.950 --> 00:07:37.060
+And in that case, the
+fs is P jet over N
+
+00:07:37.060 --> 00:07:41.620
+minus 1 times Xc over
+X. And we've already
+
+00:07:41.620 --> 00:07:44.110
+estimated that at
+6 feet, Xc over X,
+
+00:07:44.110 --> 00:07:47.260
+it does depend on the
+ventilation and the size
+
+00:07:47.260 --> 00:07:49.250
+of the room and other factors.
+
+00:07:49.250 --> 00:07:51.610
+But we've already said
+that this factor here
+
+00:07:51.610 --> 00:07:54.940
+might be something like 6 to 600
+for a certain set of examples
+
+00:07:54.940 --> 00:07:57.409
+that we've just considered.
+
+00:07:57.409 --> 00:07:58.810
+So when we put
+all this together,
+
+00:07:58.810 --> 00:08:01.150
+if we take into account
+also that P jet is around,
+
+00:08:01.150 --> 00:08:02.410
+let's say, 3%--
+
+00:08:02.410 --> 00:08:06.670
+if we imagine having
+random placement of people
+
+00:08:06.670 --> 00:08:11.320
+but at a fixed distance,
+minimum distance, of 6 feet,
+
+00:08:11.320 --> 00:08:12.820
+then what we'll
+find is this ends up
+
+00:08:12.820 --> 00:08:18.110
+being something like 0.2
+over N ranging up to,
+
+00:08:18.110 --> 00:08:23.300
+let's say, 20 over N. And
+again, this is just very rough.
+
+00:08:23.300 --> 00:08:27.970
+So this is with random angle.
+
+00:08:27.970 --> 00:08:29.770
+So in other words,
+we're still thinking now
+
+00:08:29.770 --> 00:08:33.100
+of just this kind of random
+orientation of somebody's head,
+
+00:08:33.100 --> 00:08:35.960
+not necessarily facing
+one person all the time.
+
+00:08:35.960 --> 00:08:40.470
+And so you can see
+here that if N is--
+
+00:08:40.470 --> 00:08:43.870
+if we're in the situation of
+the 20, which is-- by the way,
+
+00:08:43.870 --> 00:08:45.750
+that's the case where
+this is getting large.
+
+00:08:45.750 --> 00:08:50.550
+So that would be a
+case of a large room.
+
+00:08:50.550 --> 00:08:56.540
+Or it would be of low
+breathing rates, et cetera.
+
+00:08:56.540 --> 00:08:59.830
+Then we-- you can see
+that when N gets--
+
+00:08:59.830 --> 00:09:06.900
+if N is small, then this number
+can actually be quite large.
+
+00:09:06.900 --> 00:09:09.610
+So in other words, if we just
+have a few people in the room,
+
+00:09:09.610 --> 00:09:11.400
+and they can get this
+close to each other--
+
+00:09:11.400 --> 00:09:14.140
+like one minimum social
+distance, like 6 feet--
+
+00:09:14.140 --> 00:09:17.990
+then the primary risk is coming
+from airborne transmission,
+
+00:09:17.990 --> 00:09:19.630
+especially if the
+room is very big.
+
+00:09:19.630 --> 00:09:23.470
+If two people are by
+themselves in an enormous room,
+
+00:09:23.470 --> 00:09:26.410
+then the risk from background
+airborne transmission
+
+00:09:26.410 --> 00:09:29.800
+is minimal compared to the
+risk of direct short-range
+
+00:09:29.800 --> 00:09:30.700
+transmission.
+
+00:09:30.700 --> 00:09:32.290
+So that kind of
+makes sense, right?
+
+00:09:32.290 --> 00:09:35.020
+On the other hand,
+notice the effect of N.
+
+00:09:35.020 --> 00:09:36.970
+If you have more and
+more people in the room,
+
+00:09:36.970 --> 00:09:39.520
+then even though most of those
+people are a lot farther away,
+
+00:09:39.520 --> 00:09:42.010
+there's so many of them
+that are potentially
+
+00:09:42.010 --> 00:09:46.210
+going to get infected
+that it becomes worse,
+
+00:09:46.210 --> 00:09:47.690
+even in the case
+of 20 here, which
+
+00:09:47.690 --> 00:09:48.860
+is sort of the more conser--
+
+00:09:48.860 --> 00:09:51.440
+the case where short-range
+is more important.
+
+00:09:51.440 --> 00:09:55.720
+It starts to switch to where the
+long-range transmission becomes
+
+00:09:55.720 --> 00:09:57.400
+more important when
+N is larger than 20
+
+00:09:57.400 --> 00:09:58.610
+in this particular example.
+
+00:09:58.610 --> 00:10:07.310
+So basically, so
+significant for small N
+
+00:10:07.310 --> 00:10:12.320
+and basically large V. So
+basically, low-occupant
+
+00:10:12.320 --> 00:10:14.700
+densities-- if people are
+to come close to each other,
+
+00:10:14.700 --> 00:10:16.570
+then it makes sense
+short-range is important.
+
+00:10:16.570 --> 00:10:18.680
+In fact, a limit that we
+haven't talked about yet
+
+00:10:18.680 --> 00:10:19.910
+is, what if we're outside?
+
+00:10:19.910 --> 00:10:21.290
+What if we don't
+even have-- what
+
+00:10:21.290 --> 00:10:24.060
+if the V goes to infinity
+or V is very large,
+
+00:10:24.060 --> 00:10:25.490
+so effectively it's infinity?
+
+00:10:25.490 --> 00:10:27.020
+What this is telling
+us is that we
+
+00:10:27.020 --> 00:10:29.720
+have to stop worrying about
+the long-range background
+
+00:10:29.720 --> 00:10:32.320
+well-mixed concentration
+of infectious aerosols.
+
+00:10:32.320 --> 00:10:34.370
+And instead, we have to
+focus on the short range.
+
+00:10:34.370 --> 00:10:36.210
+Just whenever people are
+coming close to each other,
+
+00:10:36.210 --> 00:10:37.870
+make sure they're not
+breathing directly
+
+00:10:37.870 --> 00:10:39.780
+on each other for
+long periods of time.
+
+00:10:39.780 --> 00:10:40.790
+That's the key.
+
+00:10:40.790 --> 00:10:42.290
+Now, the last thing
+we can think of,
+
+00:10:42.290 --> 00:10:45.000
+which is really kind of
+like a worst case scenario--
+
+00:10:48.860 --> 00:10:52.250
+that would be where a person is
+at the closest distance that's
+
+00:10:52.250 --> 00:10:53.990
+allowed or expected--
+
+00:10:53.990 --> 00:10:57.200
+let's say, 6 feet, maybe
+even 3 feet, 1 meter.
+
+00:10:57.200 --> 00:10:59.630
+And also, they're not
+randomly placed and angled.
+
+00:10:59.630 --> 00:11:01.340
+But they're really
+just constantly
+
+00:11:01.340 --> 00:11:03.300
+in the jet of the other person.
+
+00:11:03.300 --> 00:11:07.100
+So let's say, for
+example, P jet is 90%.
+
+00:11:07.100 --> 00:11:09.290
+That's a pretty high
+number, keeping in mind
+
+00:11:09.290 --> 00:11:12.480
+that there's also turbulent
+and chaotic flows in the room,
+
+00:11:12.480 --> 00:11:15.140
+such that even if you're
+facing somebody all the time,
+
+00:11:15.140 --> 00:11:18.020
+the stable respiratory
+jet and puff
+
+00:11:18.020 --> 00:11:20.640
+train is going to be swept
+away by other currents.
+
+00:11:20.640 --> 00:11:23.270
+And so it's really not as though
+the other person is constantly
+
+00:11:23.270 --> 00:11:24.530
+going to be in--
+
+00:11:24.530 --> 00:11:25.280
+fully exposed.
+
+00:11:25.280 --> 00:11:27.830
+But let's just say, we pick a
+number like 90%, which is kind
+
+00:11:27.830 --> 00:11:29.850
+of like a worst case scenario.
+
+00:11:29.850 --> 00:11:32.270
+And we're always
+facing each other.
+
+00:11:32.270 --> 00:11:33.710
+So let's, again, pick--
+
+00:11:33.710 --> 00:11:36.410
+X bar is, let's
+just say, 6 feet.
+
+00:11:36.410 --> 00:11:38.540
+Let's just say,
+maybe we're sitting
+
+00:11:38.540 --> 00:11:41.540
+across a table at
+a distance which
+
+00:11:41.540 --> 00:11:43.280
+is sort of an acceptable
+social distance
+
+00:11:43.280 --> 00:11:46.130
+according to the 6-foot rule.
+
+00:11:46.130 --> 00:11:49.640
+Then we're going to find that
+this enhancement factor is
+
+00:11:49.640 --> 00:11:56.900
+around 6 over N to
+600 over N. So we
+
+00:11:56.900 --> 00:12:05.720
+can see that the short-range
+effect can be a lot larger.
+
+00:12:05.720 --> 00:12:07.770
+So notice, even if N
+gets to be really large,
+
+00:12:07.770 --> 00:12:09.650
+like a lot of people in
+the room-- let's say,
+
+00:12:09.650 --> 00:12:12.200
+it's a restaurant with
+100 people in the room--
+
+00:12:12.200 --> 00:12:15.230
+still, it's 6 times worse
+to be in a single person's
+
+00:12:15.230 --> 00:12:19.590
+respiratory jet 90% of the
+time at 6-foot distance.
+
+00:12:19.590 --> 00:12:21.570
+So that's actually
+fairly alarming
+
+00:12:21.570 --> 00:12:26.360
+if you think about situations
+such as restaurants or office
+
+00:12:26.360 --> 00:12:28.450
+meetings or any
+other normal activity
+
+00:12:28.450 --> 00:12:29.870
+where people are
+facing each other
+
+00:12:29.870 --> 00:12:33.230
+and breathing on each
+other continuously
+
+00:12:33.230 --> 00:12:35.420
+without wearing masks
+or face shields.
+
+00:12:35.420 --> 00:12:36.570
+So this would be--
+
+00:12:36.570 --> 00:12:40.560
+I'll just mention
+here, short-range
+
+00:12:40.560 --> 00:12:45.900
+dominates in this situation.
+
+00:12:45.900 --> 00:12:48.050
+So then, how do we
+mitigate against
+
+00:12:48.050 --> 00:12:50.000
+this short-range
+transmission risk, which
+
+00:12:50.000 --> 00:12:53.120
+is going to be worse, again,
+when we have people that
+
+00:12:53.120 --> 00:12:54.830
+are not wearing
+masks or face shields
+
+00:12:54.830 --> 00:12:57.440
+and are in close
+proximity and facing
+
+00:12:57.440 --> 00:12:59.890
+each other for long
+periods of time,
+
+00:12:59.890 --> 00:13:03.050
+and especially in a larger room
+and a lower occupant density
+
+00:13:03.050 --> 00:13:05.540
+where the N is maybe
+not so big, and we
+
+00:13:05.540 --> 00:13:08.150
+don't have to worry as much
+about long-range transmission?
+
+00:13:08.150 --> 00:13:10.800
+Well, one way to
+proceed is to continue
+
+00:13:10.800 --> 00:13:12.470
+using the universal
+guideline that we've
+
+00:13:12.470 --> 00:13:14.150
+derived right here
+for long range,
+
+00:13:14.150 --> 00:13:18.630
+and simply choose a small
+epsilon, much less than 1.
+
+00:13:18.630 --> 00:13:20.880
+And you can see here, it
+doesn't have to be that tiny.
+
+00:13:20.880 --> 00:13:26.220
+From this simple estimate
+here, maybe an epsilon of 0.01
+
+00:13:26.220 --> 00:13:29.130
+might not be so bad because,
+see, this number 600 is there.
+
+00:13:29.130 --> 00:13:32.010
+And if N is maybe 5
+or 10 in the room,
+
+00:13:32.010 --> 00:13:33.940
+then that might be
+already helping you.
+
+00:13:33.940 --> 00:13:36.900
+So remember, we use the
+guideline with a fudge factor,
+
+00:13:36.900 --> 00:13:38.760
+or a tolerance, epsilon.
+
+00:13:38.760 --> 00:13:41.560
+And some of the uncertainties in
+different modes of transmission
+
+00:13:41.560 --> 00:13:44.120
+are already kind of
+included in there.
+
+00:13:44.120 --> 00:13:45.870
+But certainly, if we're
+not wearing masks,
+
+00:13:45.870 --> 00:13:47.410
+the risk is pretty high.
+
+00:13:47.410 --> 00:13:49.150
+And so that may not be enough.
+
+00:13:49.150 --> 00:13:54.760
+And that's why social
+distancing can help.
+
+00:13:54.760 --> 00:13:56.800
+But I want to emphasize
+from our discussion
+
+00:13:56.800 --> 00:13:58.960
+of these respiratory
+plumes, there's
+
+00:13:58.960 --> 00:14:01.840
+nothing really that
+special about 6 feet.
+
+00:14:01.840 --> 00:14:05.460
+There's unfortunately today a
+feeling in the general public
+
+00:14:05.460 --> 00:14:06.880
+that if you're
+closer than 6 feet,
+
+00:14:06.880 --> 00:14:08.130
+you're at extremely high risk.
+
+00:14:08.130 --> 00:14:09.670
+You've penetrated
+somebody's bubble.
+
+00:14:09.670 --> 00:14:11.590
+But when you're a little
+bit more than 6 feet,
+
+00:14:11.590 --> 00:14:13.340
+you can breathe easy,
+because you're safe.
+
+00:14:13.340 --> 00:14:15.380
+And you can see that's
+really not true.
+
+00:14:15.380 --> 00:14:18.280
+If you are not wearing
+masks, these respiratory jets
+
+00:14:18.280 --> 00:14:20.410
+and plumes can travel
+very long distances.
+
+00:14:20.410 --> 00:14:22.540
+Of course, airborne
+transmission is everywhere
+
+00:14:22.540 --> 00:14:24.100
+in the room at any distance.
+
+00:14:24.100 --> 00:14:27.040
+But even the elevated risk
+of short-range transmission
+
+00:14:27.040 --> 00:14:29.110
+can extend further than 6 feet.
+
+00:14:29.110 --> 00:14:31.570
+On the other hand, when people
+are turning their heads,
+
+00:14:31.570 --> 00:14:33.970
+and there's sort of
+convection in the room
+
+00:14:33.970 --> 00:14:37.000
+and thermal convection as
+we've been discussing, in fact,
+
+00:14:37.000 --> 00:14:38.080
+6 feet might be overkill.
+
+00:14:38.080 --> 00:14:40.330
+Maybe being even a little
+bit closer might be OK.
+
+00:14:40.330 --> 00:14:43.510
+But the important thing is that
+distance is not so special.
+
+00:14:43.510 --> 00:14:45.430
+And also, the details matter.
+
+00:14:45.430 --> 00:14:47.890
+So as you can see here, we can
+get very different estimates
+
+00:14:47.890 --> 00:14:50.150
+based on where the
+occupants are placed,
+
+00:14:50.150 --> 00:14:52.400
+how they're facing each
+other, what kind of activities
+
+00:14:52.400 --> 00:14:54.620
+they're engaging in,
+what kind of movements.
+
+00:14:54.620 --> 00:14:57.220
+So there's really no
+universal guideline.
+
+00:14:57.220 --> 00:14:59.560
+It makes more sense to start
+from a universal guideline
+
+00:14:59.560 --> 00:15:03.010
+for long-range transmission
+and then enforce
+
+00:15:03.010 --> 00:15:08.470
+mask use in situations where we
+are worried about transmission,
+
+00:15:08.470 --> 00:15:10.930
+rather than trying to guess
+how people are going to behave
+
+00:15:10.930 --> 00:15:12.550
+and what kind of
+distance they're going
+
+00:15:12.550 --> 00:15:14.090
+to keep not wearing masks.
+
+00:15:14.090 --> 00:15:15.520
+So the safest
+thing is, if you're
+
+00:15:15.520 --> 00:15:18.010
+worried about
+coronavirus transmission,
+
+00:15:18.010 --> 00:15:21.510
+just wear a mask,
+indoors especially.
+
+00:15:21.510 --> 00:15:25.230
+So that brings us now to
+thinking about summarizing
+
+00:15:25.230 --> 00:15:27.900
+this entire chapter, going
+beyond the well-mixed room,
+
+00:15:27.900 --> 00:15:30.450
+where we've been discussing
+the fluid mechanics
+
+00:15:30.450 --> 00:15:35.280
+of indoor spaces and of human
+occupants and respiration
+
+00:15:35.280 --> 00:15:37.360
+within those spaces.
+
+00:15:37.360 --> 00:15:42.240
+So I think I'd like to leave
+you with the picture of people
+
+00:15:42.240 --> 00:15:44.200
+who are smoking in the room.
+
+00:15:44.200 --> 00:15:47.190
+So we're all familiar
+with the situation
+
+00:15:47.190 --> 00:15:49.860
+where you have a
+room-- let's say,
+
+00:15:49.860 --> 00:15:52.890
+could be a restaurant
+or some other space
+
+00:15:52.890 --> 00:15:55.380
+where there is,
+let's say, a table
+
+00:15:55.380 --> 00:15:56.880
+or a few tables,
+where there's maybe
+
+00:15:56.880 --> 00:15:58.860
+5 or 10 people in the room.
+
+00:15:58.860 --> 00:16:01.830
+And there's one person or
+two people that are smoking.
+
+00:16:01.830 --> 00:16:04.230
+Now, we know that when
+the person who's smoking
+
+00:16:04.230 --> 00:16:06.360
+breathes in on the
+cigarette and exhales,
+
+00:16:06.360 --> 00:16:09.300
+there's a very dense plume
+of smoke that comes out.
+
+00:16:09.300 --> 00:16:12.630
+It gets carried by thermal
+currents and rises.
+
+00:16:12.630 --> 00:16:15.720
+And you know that if you
+stand right in that space,
+
+00:16:15.720 --> 00:16:17.890
+it will be a very significant
+amount of smoke you're
+
+00:16:17.890 --> 00:16:18.930
+going to have to breathe.
+
+00:16:18.930 --> 00:16:20.940
+In fact, it's courteous
+for the person who's
+
+00:16:20.940 --> 00:16:24.520
+smoking to [EXHALES] breathe
+away and not breathe directly
+
+00:16:24.520 --> 00:16:25.520
+in other people's faces.
+
+00:16:25.520 --> 00:16:26.970
+That would be sort of rude.
+
+00:16:26.970 --> 00:16:30.240
+And maybe, as we're thinking
+about respiratory transmission
+
+00:16:30.240 --> 00:16:32.730
+of viral disease, we should
+think in the same way.
+
+00:16:32.730 --> 00:16:34.230
+Each person should
+be worried about,
+
+00:16:34.230 --> 00:16:36.660
+am I really breathing
+directly on another person?
+
+00:16:36.660 --> 00:16:39.690
+If I'm not wearing a mask, why
+don't I breathe somewhere else?
+
+00:16:39.690 --> 00:16:42.240
+But we also know
+from our experience
+
+00:16:42.240 --> 00:16:44.700
+with smoke-filled rooms
+that there may only
+
+00:16:44.700 --> 00:16:46.020
+be one or two people smoking.
+
+00:16:46.020 --> 00:16:49.500
+And you can occasionally see
+these puffs or burst of smoke
+
+00:16:49.500 --> 00:16:52.530
+when they're exhaling after
+drawing on a cigarette.
+
+00:16:52.530 --> 00:16:54.870
+But if you look around
+the rest of the time,
+
+00:16:54.870 --> 00:16:56.480
+the smoke is kind
+of swirling around.
+
+00:16:56.480 --> 00:16:58.440
+It's a little more
+concentrated in some places.
+
+00:16:58.440 --> 00:17:00.060
+But you can see
+very quickly, it's
+
+00:17:00.060 --> 00:17:02.010
+uniformly spread
+throughout the room.
+
+00:17:02.010 --> 00:17:04.200
+And somebody who is on
+the far side of the room
+
+00:17:04.200 --> 00:17:07.380
+is at essentially the same risk
+as somebody who's very close--
+
+00:17:07.380 --> 00:17:10.050
+even 6 feet or 3
+feet away, whatever
+
+00:17:10.050 --> 00:17:12.060
+that special distance may be--
+
+00:17:12.060 --> 00:17:14.599
+because the air is
+typically well mixed.
+
+00:17:14.599 --> 00:17:17.700
+And those smoke particles
+end up throughout the room.
+
+00:17:17.700 --> 00:17:20.310
+And you're just as
+much risk at 60 feet
+
+00:17:20.310 --> 00:17:23.500
+as you are at 6 feet
+under those circumstances.
+
+00:17:23.500 --> 00:17:28.900
+And so that's really the
+main message of this course,
+
+00:17:28.900 --> 00:17:31.920
+while we also keep in mind that
+there are these sort of details
+
+00:17:31.920 --> 00:17:33.420
+of short-range
+transmission that I'd
+
+00:17:33.420 --> 00:17:36.700
+like you to be aware
+of when applying
+
+00:17:36.700 --> 00:17:40.820
+the guideline for long-range
+aerosol transmission.

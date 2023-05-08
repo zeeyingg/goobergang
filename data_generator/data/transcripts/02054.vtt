@@ -1,0 +1,1162 @@
+WEBVTT
+
+00:00:10.700 --> 00:00:14.650
+PROFESSOR: So the next important
+part of turbulent plume theory
+
+00:00:14.650 --> 00:00:19.270
+that we need is the distribution
+of concentration of particles
+
+00:00:19.270 --> 00:00:21.760
+or droplets, in this
+case, that are injected
+
+00:00:21.760 --> 00:00:24.280
+with the fluid at the source.
+
+00:00:24.280 --> 00:00:28.160
+So as we've just arrived, the
+concentration C in this case,
+
+00:00:28.160 --> 00:00:30.400
+we could have referred
+to infection quanta
+
+00:00:30.400 --> 00:00:33.220
+and infectious aerosols
+relative to that leaving
+
+00:00:33.220 --> 00:00:37.450
+the mouth, which is
+we've called C_q, scales
+
+00:00:37.450 --> 00:00:40.750
+as square root of area of the
+mouth divided by alpha x where
+
+00:00:40.750 --> 00:00:42.520
+alpha is the turbulent
+entrainment
+
+00:00:42.520 --> 00:00:46.200
+coefficient, around 0.1 or 0.15.
+
+00:00:46.200 --> 00:00:49.050
+And that leads to a
+jet which grows in size
+
+00:00:49.050 --> 00:00:53.040
+and grows in fluctuations as
+you see more and more eddies,
+
+00:00:53.040 --> 00:00:55.770
+and eventually might
+even bend due to flows
+
+00:00:55.770 --> 00:00:59.580
+in the room or thermal
+buoyancy effects.
+
+00:00:59.580 --> 00:01:02.400
+And I'd like to talk about the
+difference between short range
+
+00:01:02.400 --> 00:01:05.580
+transmission due to really
+placing yourself in this jet
+
+00:01:05.580 --> 00:01:07.590
+and breathing that
+air directly, which
+
+00:01:07.590 --> 00:01:10.080
+is more concentrated
+than the background,
+
+00:01:10.080 --> 00:01:12.990
+and then compare that
+with the transmission
+
+00:01:12.990 --> 00:01:14.370
+in the well-mixed
+room that we've
+
+00:01:14.370 --> 00:01:16.920
+been talking about all along.
+
+00:01:16.920 --> 00:01:20.010
+So obviously if
+we're at position 0
+
+00:01:20.010 --> 00:01:22.930
+here right at the mouth, this
+is the worst case scenario.
+
+00:01:22.930 --> 00:01:26.610
+So if we're here, let's
+say we're only 1 inch
+
+00:01:26.610 --> 00:01:27.870
+or 1 centimeter away.
+
+00:01:27.870 --> 00:01:30.420
+And we put our mouth on top of
+the other person's mouth, that
+
+00:01:30.420 --> 00:01:35.770
+is the worst case scenario
+of short range transmission.
+
+00:01:35.770 --> 00:01:37.780
+That is, relative to
+the background room,
+
+00:01:37.780 --> 00:01:41.780
+we're getting a much
+worse situation there.
+
+00:01:41.780 --> 00:01:44.870
+But if we ask ourselves,
+how much worse is it,
+
+00:01:44.870 --> 00:01:48.880
+so we know that fd is
+the dilution factor, that
+
+00:01:48.880 --> 00:01:57.130
+is the concentration kind of
+at the source relative to C
+
+00:01:57.130 --> 00:01:59.259
+sort of at infinity and
+the well-mixed room,
+
+00:01:59.259 --> 00:02:01.510
+so let's just say far away.
+
+00:02:01.510 --> 00:02:05.290
+Actually instead of C infinity,
+I should call that C average.
+
+00:02:05.290 --> 00:02:09.770
+Because it is the average
+concentration in the room.
+
+00:02:09.770 --> 00:02:12.710
+And we've seen that
+the dilution factor
+
+00:02:12.710 --> 00:02:17.840
+can be written as the flow
+rate of the breath divided
+
+00:02:17.840 --> 00:02:24.440
+by the sort of decay rate
+of the concentration field
+
+00:02:24.440 --> 00:02:26.670
+at the average--
+
+00:02:26.670 --> 00:02:28.970
+at the appropriately
+defined mean radius
+
+00:02:28.970 --> 00:02:30.920
+divided by the
+volume of the room.
+
+00:02:30.920 --> 00:02:34.520
+So that is telling us how
+much more concentrated
+
+00:02:34.520 --> 00:02:39.530
+the infection quanta
+or viruses are here
+
+00:02:39.530 --> 00:02:44.110
+versus the well-mixed room
+where they're really spread out.
+
+00:02:53.650 --> 00:02:55.160
+How big is this factor?
+
+00:02:55.160 --> 00:03:01.000
+So this factor for the Skagit
+choir, which we've analyzed,
+
+00:03:01.000 --> 00:03:04.340
+the Skagit Valley Chorale.
+
+00:03:04.340 --> 00:03:08.130
+So that was a fairly large
+room, 4.5 meter ceiling.
+
+00:03:08.130 --> 00:03:09.980
+But it didn't have
+very good ventilation.
+
+00:03:09.980 --> 00:03:13.580
+So that's sort of
+similar to smaller rooms
+
+00:03:13.580 --> 00:03:14.580
+with better ventilation.
+
+00:03:14.580 --> 00:03:19.250
+And in that case, this
+number was 10 to the minus 3.
+
+00:03:19.250 --> 00:03:23.750
+And in general, fd for
+typical indoor spaces--
+
+00:03:23.750 --> 00:03:26.480
+for offices,
+classrooms, and homes--
+
+00:03:26.480 --> 00:03:29.480
+is on the order of 10
+to the minus 2 to the 10
+
+00:03:29.480 --> 00:03:30.230
+to the minus 4.
+
+00:03:30.230 --> 00:03:31.980
+So there's quite a
+significant difference.
+
+00:03:31.980 --> 00:03:34.340
+If you are right at the
+point of somebody's mouth
+
+00:03:34.340 --> 00:03:37.610
+and breathing in their
+air versus being far away,
+
+00:03:37.610 --> 00:03:40.200
+there really is
+a big difference.
+
+00:03:40.200 --> 00:03:43.990
+To put it in perspective,
+we can ask ourselves, well,
+
+00:03:43.990 --> 00:03:46.690
+how long would you have to
+stay in the well-mixed room,
+
+00:03:46.690 --> 00:03:51.190
+far away, breathing the air
+to have the same exposure
+
+00:03:51.190 --> 00:03:54.960
+and dose of infection quanta
+as if you put your mouth on top
+
+00:03:54.960 --> 00:03:58.829
+of somebody else and breathed
+in one lung-full of air.
+
+00:03:58.829 --> 00:04:05.410
+So if we just say that if we
+calculate it as a timescale,
+
+00:04:05.410 --> 00:04:08.590
+taking in the volume
+of a single breath
+
+00:04:08.590 --> 00:04:13.330
+and then dividing that by Q
+breath and the dilution factor,
+
+00:04:13.330 --> 00:04:15.640
+that is the time you
+would have to spend
+
+00:04:15.640 --> 00:04:23.710
+breathing the background air in
+order to achieve the same dose.
+
+00:04:23.710 --> 00:04:26.820
+And this quantity ends up being
+for the Skagit choir that we
+
+00:04:26.820 --> 00:04:32.190
+calculated around one hour.
+
+00:04:32.190 --> 00:04:37.010
+So if 63 people were in
+the room and 53 or so
+
+00:04:37.010 --> 00:04:40.700
+were infected, then
+that most likely
+
+00:04:40.700 --> 00:04:43.040
+happened through the airborne
+route, as we've discussed.
+
+00:04:43.040 --> 00:04:46.880
+Because 53 people were mostly
+breathing the background air
+
+00:04:46.880 --> 00:04:50.130
+that was, perhaps, well-mixed.
+
+00:04:50.130 --> 00:04:52.220
+On the other hand, you
+also could infect 53 people
+
+00:04:52.220 --> 00:04:54.409
+by taking turns one
+at a time putting
+
+00:04:54.409 --> 00:04:56.630
+their lips against the
+other person who's infected
+
+00:04:56.630 --> 00:04:59.870
+and just breathing in one
+full lung-full of air.
+
+00:04:59.870 --> 00:05:02.840
+Then you would get
+a similar number
+
+00:05:02.840 --> 00:05:05.750
+of people infected on the
+order of an hour or two,
+
+00:05:05.750 --> 00:05:08.780
+which is the length of time
+of that choir practice.
+
+00:05:08.780 --> 00:05:10.460
+But we know that didn't happen.
+
+00:05:10.460 --> 00:05:13.910
+So that already tells us that
+short range transmission really
+
+00:05:13.910 --> 00:05:16.790
+can't explain what happened
+in the Skagit choir.
+
+00:05:16.790 --> 00:05:20.450
+And as we've discussed,
+it has to be longer range
+
+00:05:20.450 --> 00:05:22.210
+airborne aerosol transmission.
+
+00:05:22.210 --> 00:05:23.300
+But how much longer range?
+
+00:05:23.300 --> 00:05:25.910
+We can also sample at
+different positions here.
+
+00:05:25.910 --> 00:05:29.430
+So that's the absolute
+worst case scenario.
+
+00:05:29.430 --> 00:05:32.900
+So let's consider as important
+numbers 3 feet and 6 feet.
+
+00:05:32.900 --> 00:05:37.520
+So 3 feet corresponds
+to 1 meter,
+
+00:05:37.520 --> 00:05:40.490
+which is the social distancing
+guideline of the World Health
+
+00:05:40.490 --> 00:05:42.570
+Organization today.
+
+00:05:42.570 --> 00:05:45.590
+I would also argue
+that 3 or maybe 2 feet
+
+00:05:45.590 --> 00:05:47.240
+is kind of close
+to what you might
+
+00:05:47.240 --> 00:05:50.450
+call natural social distancing.
+
+00:05:50.450 --> 00:05:54.430
+So if you don't impose
+social distancing,
+
+00:05:54.430 --> 00:05:57.060
+most people prefer to
+have a little space
+
+00:05:57.060 --> 00:05:58.090
+bubble around them.
+
+00:05:58.090 --> 00:05:59.610
+They don't want to be
+right up against somebody
+
+00:05:59.610 --> 00:06:00.520
+if they don't have to.
+
+00:06:00.520 --> 00:06:03.310
+And they tend to stand
+2 or 3 feet apart.
+
+00:06:03.310 --> 00:06:05.190
+So somewhere in
+here is what I would
+
+00:06:05.190 --> 00:06:08.100
+call natural social
+distancing except in cases
+
+00:06:08.100 --> 00:06:09.460
+where you're in a crowd.
+
+00:06:09.460 --> 00:06:11.550
+So if you're in a
+nightclub or a bar
+
+00:06:11.550 --> 00:06:13.080
+or some crowded
+space where you're
+
+00:06:13.080 --> 00:06:14.450
+starting to press
+against people,
+
+00:06:14.450 --> 00:06:17.040
+then you come closer you
+might be 1 foot or 1/2 foot,
+
+00:06:17.040 --> 00:06:19.500
+and you might start to get
+closer to this worst case.
+
+00:06:19.500 --> 00:06:22.690
+But people tend to be
+about 3 feet apart.
+
+00:06:22.690 --> 00:06:25.260
+So we can ask ourselves
+what happens there.
+
+00:06:25.260 --> 00:06:26.730
+We can also look
+a little further.
+
+00:06:26.730 --> 00:06:29.610
+The Center for Disease
+Control the United States
+
+00:06:29.610 --> 00:06:32.640
+has imposed a 6 foot rule
+as we have discussed.
+
+00:06:32.640 --> 00:06:35.790
+In fact, it's been interpreted
+so strictly in the United
+
+00:06:35.790 --> 00:06:39.430
+States that you can find floor
+stickers exactly 6 feet apart
+
+00:06:39.430 --> 00:06:41.700
+in all sorts of indoor
+spaces even when
+
+00:06:41.700 --> 00:06:44.310
+people are wearing
+masks and when
+
+00:06:44.310 --> 00:06:46.970
+we aren't sure exactly
+what the flows are like.
+
+00:06:46.970 --> 00:06:50.220
+And we can ask ourselves,
+what is the sort of level
+
+00:06:50.220 --> 00:06:53.430
+of concentration there.
+
+00:06:53.430 --> 00:06:56.370
+It's also worth noting
+that we can also
+
+00:06:56.370 --> 00:06:58.030
+look at a negative value.
+
+00:06:58.030 --> 00:07:01.280
+How about minus 3 feet?
+
+00:07:01.280 --> 00:07:04.660
+Because it's important to note
+that respiratory jets do not
+
+00:07:04.660 --> 00:07:09.610
+only increase your risk relative
+to the well-mixed ambient,
+
+00:07:09.610 --> 00:07:12.520
+there must be regions where
+the risk is actually lower
+
+00:07:12.520 --> 00:07:13.690
+than the well-mixed ambient.
+
+00:07:13.690 --> 00:07:15.520
+Because in the end,
+the well-mixed solution
+
+00:07:15.520 --> 00:07:17.260
+was obtained by mass balance.
+
+00:07:17.260 --> 00:07:20.860
+So that means we've essentially
+counted all the infection
+
+00:07:20.860 --> 00:07:22.810
+quanta or virions in the room.
+
+00:07:22.810 --> 00:07:24.910
+And if there is a higher
+concentration here,
+
+00:07:24.910 --> 00:07:27.040
+there must be a lower
+concentration somewhere else
+
+00:07:27.040 --> 00:07:28.130
+to account for that.
+
+00:07:28.130 --> 00:07:30.520
+So perhaps if you're
+standing behind somebody
+
+00:07:30.520 --> 00:07:32.110
+at a reasonable
+distance, you actually
+
+00:07:32.110 --> 00:07:34.450
+have a lower concentration,
+although there is still
+
+00:07:34.450 --> 00:07:35.440
+mixing going on.
+
+00:07:35.440 --> 00:07:38.390
+And you will be exposed
+to the well-mixed room.
+
+00:07:38.390 --> 00:07:40.600
+Which then brings me to the
+way that we should really
+
+00:07:40.600 --> 00:07:44.260
+think about the role of
+short range transmission
+
+00:07:44.260 --> 00:07:45.610
+versus long range transmission.
+
+00:07:45.610 --> 00:07:47.950
+And that is to compare
+the concentration
+
+00:07:47.950 --> 00:07:52.090
+of the respiratory jet to
+that of the well-mixed ambient
+
+00:07:52.090 --> 00:07:53.320
+that we calculated.
+
+00:07:53.320 --> 00:07:55.210
+That's essentially
+the definition
+
+00:07:55.210 --> 00:07:59.880
+of when there's a transition
+from short range to long range
+
+00:07:59.880 --> 00:08:01.000
+behavior.
+
+00:08:01.000 --> 00:08:02.050
+So where will that occur?
+
+00:08:02.050 --> 00:08:05.250
+It will typically
+be somewhere here.
+
+00:08:05.250 --> 00:08:10.040
+So there's a certain
+position, which we'll call xC,
+
+00:08:10.040 --> 00:08:11.690
+and this will be
+defined by saying
+
+00:08:11.690 --> 00:08:17.070
+that C over the initial value
+is equal to the dilution factor.
+
+00:08:17.070 --> 00:08:20.330
+So this is the point where if
+I follow this orange curve,
+
+00:08:20.330 --> 00:08:22.010
+I've just hit the
+concentration that
+
+00:08:22.010 --> 00:08:25.430
+is predicted for the background
+well-mixed room, which we've
+
+00:08:25.430 --> 00:08:28.630
+already calculated before.
+
+00:08:28.630 --> 00:08:30.660
+So if you use our
+formula for C there,
+
+00:08:30.660 --> 00:08:34.650
+you then get a formula
+for this xC, which
+
+00:08:34.650 --> 00:08:43.110
+is the square root of the mouth
+area times lambda C of r bar,
+
+00:08:43.110 --> 00:08:45.330
+so the decay rate of
+the concentration field,
+
+00:08:45.330 --> 00:08:49.750
+the volume of the room,
+and then alpha QB.
+
+00:08:53.600 --> 00:08:56.300
+So I would argue
+that this is really
+
+00:08:56.300 --> 00:08:59.810
+the boundary which
+separates long range
+
+00:08:59.810 --> 00:09:08.810
+airborne transmission by
+aerosols with short range
+
+00:09:08.810 --> 00:09:13.140
+transmission, which also
+includes aerosols by the way.
+
+00:09:13.140 --> 00:09:14.560
+So some of these
+aerosol droplets,
+
+00:09:14.560 --> 00:09:17.270
+you definitely could be
+inhaling anywhere in here.
+
+00:09:17.270 --> 00:09:18.820
+But if you go long
+range, you're only
+
+00:09:18.820 --> 00:09:21.010
+talking about aerosol droplets.
+
+00:09:21.010 --> 00:09:23.320
+So this is really where
+the dividing line is.
+
+00:09:23.320 --> 00:09:25.690
+And if you plug in numbers
+for different settings,
+
+00:09:25.690 --> 00:09:28.010
+you'll find this is
+often larger than 6 feet.
+
+00:09:28.010 --> 00:09:29.820
+In fact, in some
+cases, many cases,
+
+00:09:29.820 --> 00:09:31.280
+it's actually larger
+than the room.
+
+00:09:31.280 --> 00:09:35.230
+It could be tens of meters even,
+because this dilution factor
+
+00:09:35.230 --> 00:09:39.490
+can be of order a
+factor 100 or even
+
+00:09:39.490 --> 00:09:42.970
+10,000 lower concentration
+in the well-mixed room
+
+00:09:42.970 --> 00:09:44.320
+than at the person's mouth.
+
+00:09:44.320 --> 00:09:46.480
+So you have to go pretty
+far away to see it actually
+
+00:09:46.480 --> 00:09:47.800
+drop back down.
+
+00:09:47.800 --> 00:09:50.410
+What that means is that when
+people are breathing in a room
+
+00:09:50.410 --> 00:09:52.580
+these breaths are crossing
+all over the place.
+
+00:09:52.580 --> 00:09:53.650
+They're mixing.
+
+00:09:53.650 --> 00:09:57.310
+And you really can't think about
+a turbulent plume lasting out
+
+00:09:57.310 --> 00:10:00.470
+to infinity because there is
+another person standing here,
+
+00:10:00.470 --> 00:10:03.580
+there's ventilation flow,
+there are thermal flows.
+
+00:10:03.580 --> 00:10:06.670
+All of the mechanisms we talked
+about mixing will take this jet
+
+00:10:06.670 --> 00:10:08.230
+and start to mix
+it around the room
+
+00:10:08.230 --> 00:10:10.360
+so it won't look like a
+perfect jet all the way.
+
+00:10:10.360 --> 00:10:11.940
+But at least this
+gives us an estimate
+
+00:10:11.940 --> 00:10:13.900
+for these closer
+spaces here that's
+
+00:10:13.900 --> 00:10:16.060
+sort of what our risk might be.
+
+00:10:16.060 --> 00:10:20.140
+So using this concept, I'll
+just mention this is typically
+
+00:10:20.140 --> 00:10:25.330
+much bigger than 6 feet, we
+could estimate how much worse
+
+00:10:25.330 --> 00:10:27.190
+is it to be 6 feet
+or 3 feet away
+
+00:10:27.190 --> 00:10:29.980
+with yourself in a worst
+case scenario perfectly
+
+00:10:29.980 --> 00:10:32.110
+placed in a respiratory jet.
+
+00:10:32.110 --> 00:10:34.360
+So what we're
+asking here is what
+
+00:10:34.360 --> 00:10:40.690
+if we were unlucky enough to
+be right here and breathing
+
+00:10:40.690 --> 00:10:43.770
+in for a long period of time.
+
+00:10:43.770 --> 00:10:45.610
+So not just for a
+fleeting second but you're
+
+00:10:45.610 --> 00:10:47.200
+sitting there and
+just over and over
+
+00:10:47.200 --> 00:10:48.610
+you're just sitting
+here breathing
+
+00:10:48.610 --> 00:10:49.900
+in that person's breath.
+
+00:10:49.900 --> 00:10:51.520
+It's not an
+unreasonable situation.
+
+00:10:51.520 --> 00:10:53.170
+You could imagine
+at a meeting when
+
+00:10:53.170 --> 00:10:54.550
+two people are
+sitting at a table
+
+00:10:54.550 --> 00:10:56.260
+or maybe they're having dinner.
+
+00:10:56.260 --> 00:10:58.660
+Masks are off, they
+are facing each other,
+
+00:10:58.660 --> 00:10:59.690
+talking to each other.
+
+00:10:59.690 --> 00:11:01.720
+And in fact that is
+a high risk situation
+
+00:11:01.720 --> 00:11:03.490
+in terms of this
+kind of transmission.
+
+00:11:03.490 --> 00:11:06.400
+So let's see how much
+worse it actually could be.
+
+00:11:06.400 --> 00:11:13.270
+Well, if you plug in the numbers
+then using a typical mouth
+
+00:11:13.270 --> 00:11:18.480
+area, in this case
+the concentration
+
+00:11:18.480 --> 00:11:21.550
+drops to about 6%.
+
+00:11:21.550 --> 00:11:26.050
+In this case, the concentration
+since it's what goes as 1
+
+00:11:26.050 --> 00:11:28.530
+over distance, is more like 3%.
+
+00:11:28.530 --> 00:11:31.030
+So it's a very
+rough calculation.
+
+00:11:31.030 --> 00:11:34.360
+But relative, and I should
+say, so relative to the highest
+
+00:11:34.360 --> 00:11:36.310
+concentration of
+reaching the mouth,
+
+00:11:36.310 --> 00:11:40.170
+the plume has been
+diluted down to 6% or 3%
+
+00:11:40.170 --> 00:11:41.260
+as you go these distances.
+
+00:11:41.260 --> 00:11:47.500
+Notice there's not a massive
+difference between 3 and 6.
+
+00:11:47.500 --> 00:11:49.570
+And it does make a
+very big difference
+
+00:11:49.570 --> 00:11:51.650
+in terms of decisions
+to reopen spaces
+
+00:11:51.650 --> 00:11:53.650
+and how people interact,
+whether you're strictly
+
+00:11:53.650 --> 00:11:56.500
+6 feet apart or
+perhaps you can be 3.
+
+00:11:56.500 --> 00:11:59.980
+So keep in mind that
+3% to 6% dilution.
+
+00:11:59.980 --> 00:12:02.680
+But what we're really
+interested in here
+
+00:12:02.680 --> 00:12:05.500
+is now, how do these
+fractions compare
+
+00:12:05.500 --> 00:12:07.460
+with the well-mixed room.
+
+00:12:07.460 --> 00:12:09.010
+And so for that I
+actually would like
+
+00:12:09.010 --> 00:12:13.300
+to do a different comparison
+as I'd like to do C over fd.
+
+00:12:13.300 --> 00:12:17.690
+Because fd, relative to here,
+is the concentration far away.
+
+00:12:17.690 --> 00:12:24.190
+So I want C over C_q,
+I should say, over fd.
+
+00:12:24.190 --> 00:12:30.160
+And so this also can be
+written as xC over x.
+
+00:12:30.160 --> 00:12:33.060
+So it's basically how much
+farther is that crossover point
+
+00:12:33.060 --> 00:12:34.480
+relative to where
+you're standing.
+
+00:12:34.480 --> 00:12:37.160
+That's another way
+to think about it.
+
+00:12:37.160 --> 00:12:42.240
+And this is then six to 600.
+
+00:12:42.240 --> 00:12:48.490
+So this is the excess risk.
+
+00:12:48.490 --> 00:12:52.750
+If you were to
+stand 3 feet away,
+
+00:12:52.750 --> 00:12:55.540
+that's the excess risk you face
+from short range transmission
+
+00:12:55.540 --> 00:12:57.730
+if you are 100% of
+the time breathing
+
+00:12:57.730 --> 00:13:02.020
+in the jet of the infected
+person pointing right at you
+
+00:13:02.020 --> 00:13:03.730
+all the time.
+
+00:13:03.730 --> 00:13:07.750
+If you take this 6 foot rule,
+it's a little bit less strong.
+
+00:13:07.750 --> 00:13:10.870
+You have a C over
+C_q divided by fd.
+
+00:13:10.870 --> 00:13:13.540
+It is more like three to 300.
+
+00:13:13.540 --> 00:13:16.220
+It, again, depends on
+the details of the room.
+
+00:13:16.220 --> 00:13:18.800
+But it still can be
+a significant factor.
+
+00:13:18.800 --> 00:13:22.330
+So we will come back
+to thinking about how
+
+00:13:22.330 --> 00:13:25.720
+to handle short transmission
+in light of its interaction
+
+00:13:25.720 --> 00:13:27.820
+with long range.
+
+00:13:27.820 --> 00:13:29.680
+But let me make
+one final comment
+
+00:13:29.680 --> 00:13:34.280
+on this discussion, which is
+where is this crossover point.
+
+00:13:34.280 --> 00:13:37.580
+So notice it scales with volume.
+
+00:13:37.580 --> 00:13:39.770
+So something you
+may be wondering
+
+00:13:39.770 --> 00:13:42.050
+is, don't we have
+airborne transmission
+
+00:13:42.050 --> 00:13:46.350
+and shortwave transmission
+outdoors also.
+
+00:13:46.350 --> 00:13:46.850
+Yes.
+
+00:13:46.850 --> 00:13:49.340
+And that is actually covered
+by the theoretic arguments
+
+00:13:49.340 --> 00:13:50.300
+that we're making here.
+
+00:13:50.300 --> 00:13:53.810
+Although, as I said, these
+jets really can't last forever.
+
+00:13:53.810 --> 00:13:55.850
+But we can at least
+say to ourselves, what
+
+00:13:55.850 --> 00:13:58.380
+happens as v goes to infinity.
+
+00:13:58.380 --> 00:14:01.890
+So I like to call this
+the outdoor limit.
+
+00:14:01.890 --> 00:14:05.130
+If you apply our safety
+criterion for a well-mixed room
+
+00:14:05.130 --> 00:14:08.280
+to very big room, think of,
+for example, a gymnasium
+
+00:14:08.280 --> 00:14:12.780
+or a sports stadium,
+very, very big room, then
+
+00:14:12.780 --> 00:14:14.880
+if there's only one
+infected person,
+
+00:14:14.880 --> 00:14:18.900
+then the dilution of those
+droplets in a massive space
+
+00:14:18.900 --> 00:14:20.650
+is like being outside.
+
+00:14:20.650 --> 00:14:22.140
+You might as well be outside.
+
+00:14:22.140 --> 00:14:23.790
+And what you find
+that is the crossover
+
+00:14:23.790 --> 00:14:27.270
+is very far away, which means
+the long range analysis is not
+
+00:14:27.270 --> 00:14:27.900
+even helpful.
+
+00:14:27.900 --> 00:14:29.460
+It's not even valid.
+
+00:14:29.460 --> 00:14:31.170
+Really, it's the
+short range analysis
+
+00:14:31.170 --> 00:14:32.760
+you'd be thinking about.
+
+00:14:32.760 --> 00:14:34.560
+Now unfortunately, the
+short range analysis
+
+00:14:34.560 --> 00:14:36.180
+depends on many
+assumptions about how
+
+00:14:36.180 --> 00:14:38.130
+people are positioned,
+how they're interacting,
+
+00:14:38.130 --> 00:14:39.600
+what are the local flow fields.
+
+00:14:39.600 --> 00:14:41.720
+But you have to deal with
+short range transmission.
+
+00:14:41.720 --> 00:14:43.530
+And social distancing
+can play a role
+
+00:14:43.530 --> 00:14:45.420
+in how you address that threat.
+
+00:14:45.420 --> 00:14:48.480
+But once you get to smaller
+rooms and longer periods
+
+00:14:48.480 --> 00:14:53.220
+of time then you actually
+find that this xC is
+
+00:14:53.220 --> 00:14:54.480
+on the order of the room size.
+
+00:14:54.480 --> 00:14:58.260
+And then you really are going
+to be having significant effects
+
+00:14:58.260 --> 00:14:59.910
+of long range transmission.
+
+00:14:59.910 --> 00:15:03.810
+And I will argue that
+for most typical rooms
+
+00:15:03.810 --> 00:15:09.060
+that we inhabit indoors, that
+the long range airborne risk is
+
+00:15:09.060 --> 00:15:12.180
+the leading order first
+approximation and best
+
+00:15:12.180 --> 00:15:13.350
+approximation.
+
+00:15:13.350 --> 00:15:16.380
+And the short range
+risk must be considered,
+
+00:15:16.380 --> 00:15:19.070
+but it's a correction to that.

@@ -1,0 +1,3912 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.520
+The following content is
+provided under a Creative
+
+00:00:02.520 --> 00:00:03.970
+Commons license.
+
+00:00:03.970 --> 00:00:06.360
+Your support will help
+MIT OpenCourseWare
+
+00:00:06.360 --> 00:00:10.660
+continue to offer high-quality
+educational resources for free.
+
+00:00:10.660 --> 00:00:13.350
+To make a donation or
+view additional materials
+
+00:00:13.350 --> 00:00:17.190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+00:00:17.190 --> 00:00:18.320
+at ocw.mit.edu.
+
+00:00:25.410 --> 00:00:27.390
+JULIAN BEINART: I've
+handed out a guide
+
+00:00:27.390 --> 00:00:30.130
+to what we're going
+to cover today.
+
+00:00:30.130 --> 00:00:34.080
+Now, I don't know how familiar
+you are with the material.
+
+00:00:38.400 --> 00:00:43.230
+Does anybody, for instance,
+have any familiarity
+
+00:00:43.230 --> 00:00:47.430
+with what is called
+space syntax?
+
+00:00:47.430 --> 00:00:50.190
+How much familiarity?
+
+00:00:50.190 --> 00:00:53.280
+STUDENT: I saw a
+presentation that someone
+
+00:00:53.280 --> 00:00:55.570
+who is working in
+England on space syntax
+
+00:00:55.570 --> 00:00:59.400
+gave to the National Capital
+Park and Planning Commission
+
+00:00:59.400 --> 00:01:00.547
+in DC.
+
+00:01:00.547 --> 00:01:01.380
+JULIAN BEINART: And?
+
+00:01:01.380 --> 00:01:04.003
+STUDENT: It was
+pretty interesting.
+
+00:01:04.003 --> 00:01:05.670
+JULIAN BEINART: When
+was this, recently?
+
+00:01:05.670 --> 00:01:06.170
+Or--
+
+00:01:06.170 --> 00:01:11.160
+STUDENT: Yeah, 2011 I think.
+
+00:01:11.160 --> 00:01:14.200
+JULIAN BEINART: Do the
+book Space is a Machine?
+
+00:01:14.200 --> 00:01:14.700
+STUDENT: No.
+
+00:01:14.700 --> 00:01:17.070
+Is that what the
+reading was from?
+
+00:01:17.070 --> 00:01:20.750
+JULIAN BEINART: No, this
+is a voluminous document.
+
+00:01:20.750 --> 00:01:23.712
+It costs a lot of money to buy.
+
+00:01:23.712 --> 00:01:24.838
+STUDENT: [LAUGHS]
+
+00:01:24.838 --> 00:01:25.630
+JULIAN BEINART: Ah.
+
+00:01:28.830 --> 00:01:35.220
+It really is more of an
+expansion of the space syntax
+
+00:01:35.220 --> 00:01:42.340
+methodology and the idea than
+we have time for in this class.
+
+00:01:42.340 --> 00:01:45.360
+That's why I ask if anybody
+is familiar with it.
+
+00:01:49.290 --> 00:01:50.670
+OK.
+
+00:01:50.670 --> 00:01:53.025
+This is the last class
+in the first section.
+
+00:01:57.030 --> 00:02:03.990
+And we're concentrated
+again, very, very briefly,
+
+00:02:03.990 --> 00:02:11.610
+as we did on Tuesday,
+with theories
+
+00:02:11.610 --> 00:02:19.200
+which seem to be determined by
+the logic from social science.
+
+00:02:25.050 --> 00:02:27.570
+There are microtheories
+within each
+
+00:02:27.570 --> 00:02:32.970
+of these, lots of rules of
+thumb, lots of understanding
+
+00:02:32.970 --> 00:02:36.440
+which is not externalized
+theoretically.
+
+00:02:36.440 --> 00:02:40.050
+For instance, one
+of my favorites
+
+00:02:40.050 --> 00:02:52.430
+is Fifth Avenue and Park Avenue.
+
+00:02:55.390 --> 00:03:16.120
+A section through a building
+on Fifth Avenue, a section
+
+00:03:16.120 --> 00:03:17.530
+of a building on Park Avenue.
+
+00:03:33.460 --> 00:03:37.920
+On Fifth Avenue, the
+ground is significant.
+
+00:03:40.460 --> 00:03:46.610
+Everything that is
+built is connected
+
+00:03:46.610 --> 00:03:49.070
+to the ground by
+mechanical systems,
+
+00:03:49.070 --> 00:03:52.385
+generally an escalator
+for five or six floors.
+
+00:03:54.950 --> 00:03:57.410
+The basement is
+important because it's
+
+00:03:57.410 --> 00:04:03.425
+linked to a surface only
+one floor from the ground.
+
+00:04:08.270 --> 00:04:12.050
+Two buildings on Park
+Avenue which you know,
+
+00:04:12.050 --> 00:04:16.670
+Lever Brothers and
+Seagram's building.
+
+00:04:16.670 --> 00:04:26.256
+Lever Brothers gives up
+the ground for nothing.
+
+00:04:26.256 --> 00:04:27.970
+The ground is worthless.
+
+00:04:31.080 --> 00:04:37.440
+Seagram's building
+extends a plaza,
+
+00:04:37.440 --> 00:04:41.895
+in return for which it gets
+more bulk to build taller.
+
+00:04:45.560 --> 00:04:51.620
+The role of the ground
+in these two cases
+
+00:04:51.620 --> 00:04:55.970
+are the subject of an
+economic theory, which
+
+00:04:55.970 --> 00:04:58.520
+is just the rule of thumb.
+
+00:04:58.520 --> 00:05:00.470
+It's observed.
+
+00:05:00.470 --> 00:05:03.470
+I don't know of a rule of--
+
+00:05:03.470 --> 00:05:10.110
+it's much like, well, other
+rules of thumb in our business.
+
+00:05:10.110 --> 00:05:14.520
+In fact, it's curious.
+
+00:05:14.520 --> 00:05:16.680
+In a discipline such
+as architecture,
+
+00:05:16.680 --> 00:05:19.620
+there are very few
+theoretical texts.
+
+00:05:19.620 --> 00:05:21.495
+There used to be
+theoretical texts.
+
+00:05:24.290 --> 00:05:25.710
+How do you learn architecture?
+
+00:05:25.710 --> 00:05:26.710
+Have you got a textbook?
+
+00:05:30.450 --> 00:05:33.700
+You can't learn science
+without a textbook.
+
+00:05:33.700 --> 00:05:39.270
+A textbook is the agreed-upon
+synthesized material
+
+00:05:39.270 --> 00:05:40.520
+which you need to know.
+
+00:05:46.400 --> 00:05:51.710
+I make this preface because some
+of the theoretical propositions
+
+00:05:51.710 --> 00:05:57.410
+we will look at today suffer
+from the same difficulty.
+
+00:06:00.350 --> 00:06:12.020
+But they, unlike the series
+which we looked at on Tuesday,
+
+00:06:12.020 --> 00:06:16.640
+where space was either
+neutral, or costly,
+
+00:06:16.640 --> 00:06:20.570
+or friction-producing, or
+a measure for recording
+
+00:06:20.570 --> 00:06:24.350
+a distribution of some process--
+
+00:06:24.350 --> 00:06:29.450
+most of what we feel to be true
+and experience with the city
+
+00:06:29.450 --> 00:06:30.185
+is lost.
+
+00:06:33.200 --> 00:06:35.840
+None of the social
+science theories--
+
+00:06:35.840 --> 00:06:38.560
+with the exception,
+perhaps, of the first one,
+
+00:06:38.560 --> 00:06:41.510
+which we discussed--
+
+00:06:41.510 --> 00:06:45.530
+has any connection to
+valuing the built environment
+
+00:06:45.530 --> 00:06:49.580
+as something in itself.
+
+00:06:49.580 --> 00:06:54.830
+Kevin Lynch is the first of the
+protagonists of a theory which
+
+00:06:54.830 --> 00:07:00.380
+deals with equality of
+the built environment
+
+00:07:00.380 --> 00:07:05.960
+en masse, not a single building,
+but a system of buildings.
+
+00:07:09.210 --> 00:07:12.525
+Lynch starts his work--
+
+00:07:15.230 --> 00:07:21.050
+there's an of Lynch's work at
+MIT just down the corridor.
+
+00:07:21.050 --> 00:07:24.890
+If you have time one day and
+you have nothing else to do,
+
+00:07:24.890 --> 00:07:30.950
+look at his notebook on
+his first visit to Italy
+
+00:07:30.950 --> 00:07:35.630
+when he was a young
+professor here at MIT.
+
+00:07:35.630 --> 00:07:39.770
+He does a detailed drawing
+of the path system linking
+
+00:07:39.770 --> 00:07:45.890
+the major squares and piazza,
+the piazza and churches,
+
+00:07:45.890 --> 00:07:48.620
+beautifully drawn.
+
+00:07:48.620 --> 00:07:54.860
+At the end of his four
+or five days in Florence,
+
+00:07:54.860 --> 00:07:56.390
+he writes a note.
+
+00:07:56.390 --> 00:07:58.610
+Why did I not ask
+the people what
+
+00:07:58.610 --> 00:08:00.740
+they do on Saturday nights?
+
+00:08:00.740 --> 00:08:05.390
+What about the
+activity in this town?
+
+00:08:05.390 --> 00:08:08.280
+Why don't I take
+that into account?
+
+00:08:08.280 --> 00:08:11.120
+Then he leaves Florence.
+
+00:08:11.120 --> 00:08:20.360
+His preoccupation with trying to
+understand the spatial pattern
+
+00:08:20.360 --> 00:08:26.030
+of cities through
+asking people is
+
+00:08:26.030 --> 00:08:31.340
+evident in his first book,
+The Image of the City.
+
+00:08:31.340 --> 00:08:34.039
+What is the image of the city?
+
+00:08:34.039 --> 00:08:37.010
+The image of the city is
+made up of three items.
+
+00:08:37.010 --> 00:08:39.169
+What are the three?
+
+00:08:39.169 --> 00:08:42.160
+You've read the book, I presume.
+
+00:08:42.160 --> 00:08:44.698
+What are the three?
+
+00:08:44.698 --> 00:08:46.240
+STUDENT: There's
+the experiment where
+
+00:08:46.240 --> 00:08:48.070
+they ask people on the street.
+
+00:08:48.070 --> 00:08:49.778
+JULIAN BEINART: Yes,
+and I didn't ask you
+
+00:08:49.778 --> 00:08:53.240
+for ho the study was done.
+
+00:08:53.240 --> 00:08:59.090
+I asked you, what are the
+three abstract components?
+
+00:08:59.090 --> 00:09:04.430
+I'll tell you-- identity,
+structure, and meaning.
+
+00:09:04.430 --> 00:09:07.520
+That equals image.
+
+00:09:07.520 --> 00:09:10.430
+And you find this out
+by cognitive mapping,
+
+00:09:10.430 --> 00:09:14.420
+by asking people how they
+find their way around cities--
+
+00:09:14.420 --> 00:09:18.590
+Los Angeles, New York,
+Boston, and so on.
+
+00:09:22.090 --> 00:09:25.765
+What Lynch could not do in that
+study was deal with meaning.
+
+00:09:28.550 --> 00:09:35.540
+It's significant that the power
+that The Image of the City book
+
+00:09:35.540 --> 00:09:41.750
+had escapes the one
+component which bedevils us
+
+00:09:41.750 --> 00:09:45.293
+in our valuation of much
+of the built environment,
+
+00:09:45.293 --> 00:09:46.085
+and that's meaning.
+
+00:09:49.860 --> 00:09:53.460
+Kevin apologized twice
+in different publications
+
+00:09:53.460 --> 00:09:56.430
+for his inability to
+deal with meaning.
+
+00:09:59.610 --> 00:10:06.930
+I say that as a beginning
+to a discussion of his work.
+
+00:10:11.050 --> 00:10:15.880
+When, in this class,
+we asked people,
+
+00:10:15.880 --> 00:10:21.010
+when he was teaching here
+with me, what they remembered
+
+00:10:21.010 --> 00:10:27.450
+of the book, they would
+say landmarks, Z, Z, Z,
+
+00:10:27.450 --> 00:10:30.430
+a set of alphabetical items.
+
+00:10:30.430 --> 00:10:34.570
+And then says, that's not
+what I wrote the book for.
+
+00:10:34.570 --> 00:10:36.520
+I wrote the book
+to make it clear
+
+00:10:36.520 --> 00:10:39.080
+that if you want to know
+something about a city,
+
+00:10:39.080 --> 00:10:43.360
+you have to ask the
+people who live in it,
+
+00:10:43.360 --> 00:10:49.240
+not take formulaic
+generalizations.
+
+00:10:49.240 --> 00:10:53.570
+Of course, he was being
+a bit harsh on himself.
+
+00:10:53.570 --> 00:10:59.470
+But his last book--
+
+00:10:59.470 --> 00:11:02.065
+I must say, one of the
+things about all the theories
+
+00:11:02.065 --> 00:11:05.170
+that I'll be discussing
+today is that they've
+
+00:11:05.170 --> 00:11:08.590
+published the ideas.
+
+00:11:08.590 --> 00:11:11.010
+They're not hermeneutic.
+
+00:11:11.010 --> 00:11:12.740
+They're not hermetic.
+
+00:11:12.740 --> 00:11:16.940
+They're not sealed
+off from examination.
+
+00:11:23.130 --> 00:11:28.020
+In architecture, so much of
+knowledge is internalized.
+
+00:11:31.340 --> 00:11:34.910
+Your sensibility to
+patterns is built up
+
+00:11:34.910 --> 00:11:39.530
+through much of the
+practice of priesthood.
+
+00:11:44.630 --> 00:11:48.230
+Lynch and the others today--
+
+00:11:48.230 --> 00:11:51.500
+by the way, the others
+today will be in order--
+
+00:11:51.500 --> 00:11:59.280
+Kevin Lynch, Christopher
+Alexander, John Habraken,
+
+00:11:59.280 --> 00:12:01.170
+space syntax.
+
+00:12:01.170 --> 00:12:07.170
+And then last, we'll look at
+the work of the British Land Use
+
+00:12:07.170 --> 00:12:11.910
+and Built Form group in
+Cambridge, England, Lionel
+
+00:12:11.910 --> 00:12:12.450
+March.
+
+00:12:12.450 --> 00:12:14.430
+Sir Lionel March.
+
+00:12:14.430 --> 00:12:16.830
+Oh, no, and he wasn't knighted.
+
+00:12:16.830 --> 00:12:18.525
+Sorry just Lionel March.
+
+00:12:23.420 --> 00:12:27.950
+For Lynch, the
+problem remains that--
+
+00:12:31.540 --> 00:12:33.350
+let me see if I
+can find a phrase.
+
+00:12:43.370 --> 00:12:46.160
+No, there isn't one
+phrase that I can
+
+00:12:46.160 --> 00:12:48.380
+find which sums up his search.
+
+00:12:48.380 --> 00:12:56.750
+What I'll do with him is
+go through the performance
+
+00:12:56.750 --> 00:13:07.310
+of dimension theory, which is
+the last one, which he built up
+
+00:13:07.310 --> 00:13:11.750
+in this class and which is
+published in a book which
+
+00:13:11.750 --> 00:13:13.700
+was called A Theory
+of Good City Form
+
+00:13:13.700 --> 00:13:21.300
+and then appeared late as Good
+City Form, and use that as--
+
+00:13:21.300 --> 00:13:26.660
+and then I will compare
+that with his writings
+
+00:13:26.660 --> 00:13:32.210
+on a utopian speculation
+that he made, just to give
+
+00:13:32.210 --> 00:13:34.790
+some embodiment to his ideas.
+
+00:13:39.350 --> 00:13:48.830
+Some generalizations--
+unlike Christopher Alexander
+
+00:13:48.830 --> 00:13:52.580
+and John Habraken, Lynch's
+work is not a critique
+
+00:13:52.580 --> 00:13:53.945
+of contemporary urbanism.
+
+00:14:00.370 --> 00:14:10.985
+His philosophy is in relation
+to present-day city and time.
+
+00:14:10.985 --> 00:14:17.610
+He is completely interested in
+the complexity and difficulty
+
+00:14:17.610 --> 00:14:24.130
+we have understanding
+of the form of a city.
+
+00:14:24.130 --> 00:14:32.292
+He believes there are ranges of
+understanding, not standards.
+
+00:14:32.292 --> 00:14:34.690
+His theory,
+performance dimension,
+
+00:14:34.690 --> 00:14:38.980
+set up ranges within which
+different cultures could
+
+00:14:38.980 --> 00:14:46.060
+construct their own standards
+and which the dimensions could
+
+00:14:46.060 --> 00:14:50.890
+be compared one to
+another and then balanced
+
+00:14:50.890 --> 00:15:00.910
+again two meta-criteria,
+justice and application.
+
+00:15:26.730 --> 00:15:30.960
+Lynch's humanism comes
+from his appreciation
+
+00:15:30.960 --> 00:15:35.820
+of one of the major dimensions
+of the human system,
+
+00:15:35.820 --> 00:15:37.620
+and that's its
+capacity to learn.
+
+00:15:45.820 --> 00:15:56.600
+And therefore, his
+ideal utopia is
+
+00:15:56.600 --> 00:16:02.420
+a manifestation of
+human beings' ability
+
+00:16:02.420 --> 00:16:05.180
+to change culture
+and aspirations
+
+00:16:05.180 --> 00:16:09.620
+rather than the manifestation
+of some iron law.
+
+00:16:09.620 --> 00:16:13.880
+There's no drawing
+in his utopia.
+
+00:16:13.880 --> 00:16:19.730
+It's partly because
+of his decision
+
+00:16:19.730 --> 00:16:24.440
+that architecture
+doesn't help much
+
+00:16:24.440 --> 00:16:27.980
+in understanding urban form.
+
+00:16:27.980 --> 00:16:34.520
+I recall a disagreement I
+had in this class with him
+
+00:16:34.520 --> 00:16:38.540
+when I introduced Aldo
+Rossi's book, which
+
+00:16:38.540 --> 00:16:40.880
+was new at the time.
+
+00:16:40.880 --> 00:16:45.710
+And Lynch was very angry.
+
+00:16:45.710 --> 00:16:52.220
+And he writes about the
+denouncement of Aldo Rossi.
+
+00:16:52.220 --> 00:16:55.850
+I tried to argue that there
+was some merit in Rossi's
+
+00:16:55.850 --> 00:17:02.600
+speculation as an
+architect and so on.
+
+00:17:02.600 --> 00:17:08.440
+I don't understand why Lynch
+disparaged architecture
+
+00:17:08.440 --> 00:17:10.099
+as such.
+
+00:17:10.099 --> 00:17:13.579
+He didn't disparage
+architecture as a discipline.
+
+00:17:13.579 --> 00:17:16.940
+He disparaged the method
+in which architects
+
+00:17:16.940 --> 00:17:21.740
+took upon themselves
+the right to invent
+
+00:17:21.740 --> 00:17:25.490
+spatial ideas on their own--
+
+00:17:25.490 --> 00:17:27.630
+again, without consultation.
+
+00:17:30.590 --> 00:17:37.840
+Lynch was so aghast at the
+idea of an imperial rulership
+
+00:17:37.840 --> 00:17:43.230
+of knowledge and
+hesitated every time
+
+00:17:43.230 --> 00:17:49.680
+to embrace something unless
+it had been acknowledged
+
+00:17:49.680 --> 00:17:54.000
+by human experience.
+
+00:17:54.000 --> 00:17:59.520
+Many of these people whose
+theories I talking about today
+
+00:17:59.520 --> 00:18:05.700
+are very much rooted in
+observing existing patterns
+
+00:18:05.700 --> 00:18:06.900
+and building on them.
+
+00:18:09.530 --> 00:18:12.110
+They differ in
+respect to the way
+
+00:18:12.110 --> 00:18:15.650
+in which they observe
+these patterns, what
+
+00:18:15.650 --> 00:18:17.570
+they make of them.
+
+00:18:17.570 --> 00:18:21.380
+I will show you that in
+Christopher Alexander's pattern
+
+00:18:21.380 --> 00:18:28.160
+language, he makes
+absolutely derivations
+
+00:18:28.160 --> 00:18:32.330
+from his observation
+of human behavior.
+
+00:18:32.330 --> 00:18:37.760
+John Habraken never makes
+a categorical, good or bad.
+
+00:18:37.760 --> 00:18:40.340
+John Habraken believes
+that all agreements
+
+00:18:40.340 --> 00:18:45.410
+are good because they are
+saturated with information
+
+00:18:45.410 --> 00:18:48.610
+from culture and so on.
+
+00:18:48.610 --> 00:18:58.690
+Lynch wishes to build
+a model for the world
+
+00:18:58.690 --> 00:19:07.390
+as if urbanism was at the
+beginning of its trajectory.
+
+00:19:07.390 --> 00:19:12.310
+He believes that, in
+the model of science,
+
+00:19:12.310 --> 00:19:17.005
+that science started
+from nowhere.
+
+00:19:17.005 --> 00:19:21.100
+It kept on repeating
+experiments, developing
+
+00:19:21.100 --> 00:19:24.940
+new and new identity,
+and new and new ideology,
+
+00:19:24.940 --> 00:19:32.170
+and reaching a point where it
+was much more sophisticated
+
+00:19:32.170 --> 00:19:35.440
+than where it began.
+
+00:19:35.440 --> 00:19:40.030
+So he starts off by
+setting out the dimensions
+
+00:19:40.030 --> 00:19:41.380
+that you had to take.
+
+00:19:41.380 --> 00:19:45.850
+This is Kepler looking
+at this, trying
+
+00:19:45.850 --> 00:19:51.740
+to derive a theory of
+the Earth's movement.
+
+00:19:51.740 --> 00:19:55.630
+Lynch is trying to set forth,
+what are the things that you
+
+00:19:55.630 --> 00:19:59.290
+have to take into
+account and measure
+
+00:19:59.290 --> 00:20:03.820
+in order to have a
+comprehensive view of a city
+
+00:20:03.820 --> 00:20:07.030
+independent of which
+place in the world it is,
+
+00:20:07.030 --> 00:20:10.420
+independent of which culture?
+
+00:20:10.420 --> 00:20:25.800
+He experiments
+with these and has
+
+00:20:25.800 --> 00:20:39.190
+a set of ideas which he
+writes about which set up
+
+00:20:39.190 --> 00:20:46.930
+the prologue to these ideas.
+
+00:20:46.930 --> 00:20:52.240
+I gave you, in the handout
+today, one of these subideas.
+
+00:20:52.240 --> 00:20:55.300
+It was the notion
+of adaptability.
+
+00:20:55.300 --> 00:20:58.450
+Again, adaptability
+would interest Lynch
+
+00:20:58.450 --> 00:21:02.440
+because it is the capacity
+of the human being
+
+00:21:02.440 --> 00:21:06.460
+to change patterns
+after learning.
+
+00:21:06.460 --> 00:21:13.570
+Adaptability in our class
+discussion was a separate item.
+
+00:21:13.570 --> 00:21:19.060
+It became, in the book,
+a subset of the item fit.
+
+00:21:19.060 --> 00:21:24.610
+I gave you this
+piece on adaptability
+
+00:21:24.610 --> 00:21:30.760
+as an example of how he
+would ask you to develop it.
+
+00:21:30.760 --> 00:21:37.000
+He said-- let me find an example
+of what I gave to you today.
+
+00:21:49.050 --> 00:21:51.520
+He tries to break
+down adaptability
+
+00:21:51.520 --> 00:21:54.900
+into subcategories.
+
+00:21:54.900 --> 00:21:59.490
+Manipulability, which is
+different from reversibility.
+
+00:21:59.490 --> 00:22:00.750
+What is resilience?
+
+00:22:00.750 --> 00:22:03.510
+What is the innovativeness?
+
+00:22:03.510 --> 00:22:09.630
+I then added-- in
+your thing, I've
+
+00:22:09.630 --> 00:22:15.120
+given you some handwritten
+response from Lynch,
+
+00:22:15.120 --> 00:22:22.140
+not because that you should
+read it, but here is an idea.
+
+00:22:22.140 --> 00:22:26.066
+He writes this piece
+on adaptability.
+
+00:22:26.066 --> 00:22:28.800
+See, it's circulated.
+
+00:22:28.800 --> 00:22:37.140
+Somebody, an economist, sends
+back a review of his ideas.
+
+00:22:37.140 --> 00:22:41.290
+And then he replies
+to the economist.
+
+00:22:41.290 --> 00:22:45.990
+This is a handwritten
+reply to a colleague.
+
+00:22:45.990 --> 00:22:51.870
+His imagination is that if
+we each, all the students
+
+00:22:51.870 --> 00:22:56.910
+of urbanism, took on
+the task of identifying
+
+00:22:56.910 --> 00:23:02.430
+in specific terms what these
+categories of inevitability,
+
+00:23:02.430 --> 00:23:09.960
+we would have a basis for
+a specific culture settling
+
+00:23:09.960 --> 00:23:15.105
+an item of reversibility
+in specific terms.
+
+00:23:17.760 --> 00:23:20.670
+Standards would imply
+that all of them
+
+00:23:20.670 --> 00:23:23.260
+are equal for all cultures.
+
+00:23:23.260 --> 00:23:25.090
+Of course, that's not true.
+
+00:23:25.090 --> 00:23:27.240
+You could have
+varying standards.
+
+00:23:27.240 --> 00:23:33.900
+But for Lynch, the idea was that
+we were in such a rough state,
+
+00:23:33.900 --> 00:23:41.370
+theoretically, that you had
+to set out these items more
+
+00:23:41.370 --> 00:23:42.510
+systematically.
+
+00:23:46.930 --> 00:23:48.640
+He didn't get very far.
+
+00:23:48.640 --> 00:23:51.850
+He died too young.
+
+00:23:51.850 --> 00:23:55.660
+And if he were here
+today, he'd add
+
+00:23:55.660 --> 00:23:58.375
+more than I'm able to
+explain on his behalf.
+
+00:24:02.870 --> 00:24:06.250
+In his collected works,
+there's a chapter
+
+00:24:06.250 --> 00:24:09.070
+called "A Place, Utopia".
+
+00:24:09.070 --> 00:24:12.490
+Now, it's interesting
+that this place, utopia,
+
+00:24:12.490 --> 00:24:16.510
+which is his speculation about
+what an ideal urban world would
+
+00:24:16.510 --> 00:24:17.353
+look like--
+
+00:24:17.353 --> 00:24:18.145
+there's no drawing.
+
+00:24:22.490 --> 00:24:26.450
+In The Image of the City,
+he uses little drawings
+
+00:24:26.450 --> 00:24:33.720
+on the side of the text to
+add information visually.
+
+00:24:33.720 --> 00:24:35.030
+Here, there's no drawing.
+
+00:24:38.370 --> 00:24:42.990
+I'll just pick out a couple of
+items from "The Place, Utopia".
+
+00:24:42.990 --> 00:24:46.260
+Has anybody read
+"A Place, Utopia"?
+
+00:24:46.260 --> 00:24:49.380
+We're not wasting my
+time, then, or your time.
+
+00:25:03.270 --> 00:25:10.150
+I propose, he says, to leave--
+
+00:25:10.150 --> 00:25:13.110
+I attempt something more
+modest here without losing
+
+00:25:13.110 --> 00:25:15.180
+track of society.
+
+00:25:15.180 --> 00:25:19.990
+I propose to leave it
+unaccounted for except where
+
+00:25:19.990 --> 00:25:24.750
+it springs from some
+feature of place.
+
+00:25:24.750 --> 00:25:31.500
+Everything about what I'm
+going to say, he says,
+
+00:25:31.500 --> 00:25:35.280
+is about how people relate
+to their surroundings,
+
+00:25:35.280 --> 00:25:40.350
+rather than out of a
+self-absorbed technical fantasy
+
+00:25:40.350 --> 00:25:43.650
+or mechanical consequence
+of social prescription
+
+00:25:43.650 --> 00:25:44.850
+on the other.
+
+00:25:44.850 --> 00:25:48.270
+In other words, what he's saying
+is that there are items which
+
+00:25:48.270 --> 00:25:51.250
+we can learn from
+simply from the way
+
+00:25:51.250 --> 00:25:56.490
+space is used and manipulated.
+
+00:25:56.490 --> 00:26:00.250
+Imagine an urban countryside,
+a highly varied but humanized
+
+00:26:00.250 --> 00:26:00.750
+landscape.
+
+00:26:00.750 --> 00:26:04.980
+It is neither urban nor rural
+in the old sense since houses,
+
+00:26:04.980 --> 00:26:09.660
+workplaces are set among
+trees, farms, and streams.
+
+00:26:09.660 --> 00:26:12.960
+Within this extensive
+countryside,
+
+00:26:12.960 --> 00:26:16.500
+there's a network of small,
+intensive urban centers.
+
+00:26:16.500 --> 00:26:18.450
+The countryside
+is as functionally
+
+00:26:18.450 --> 00:26:22.320
+intricate and interdependent
+as any contemporary city.
+
+00:26:25.020 --> 00:26:36.090
+The land, the space is
+not allocated to owners.
+
+00:26:38.910 --> 00:26:43.980
+The use of land is brief
+in the history of cities,
+
+00:26:43.980 --> 00:26:50.370
+so much like we've picked
+up from other sources.
+
+00:26:50.370 --> 00:26:54.255
+It is better for the land to
+be in the hands of a trust.
+
+00:26:54.255 --> 00:26:58.740
+He calls them a
+regional land trust.
+
+00:27:03.040 --> 00:27:06.895
+These tasks grant leases for
+the present enjoyment of space.
+
+00:27:11.850 --> 00:27:15.120
+Everyone is trained to read
+a place just as everyone
+
+00:27:15.120 --> 00:27:18.360
+is trained to read a good book.
+
+00:27:18.360 --> 00:27:20.735
+There are slow places
+and fast places.
+
+00:27:25.960 --> 00:27:28.190
+I can go through
+this in some detail.
+
+00:27:28.190 --> 00:27:30.880
+But you can read it yourself.
+
+00:27:30.880 --> 00:27:37.930
+What is significant about it is
+that he doesn't start off with
+
+00:27:37.930 --> 00:27:43.660
+a definition that a city
+is anything that cannot be
+
+00:27:43.660 --> 00:27:50.680
+replicated through a mixture
+of landscape and building.
+
+00:27:50.680 --> 00:27:52.280
+He doesn't depict the building.
+
+00:27:52.280 --> 00:27:55.180
+He sees, in a trained
+society, people
+
+00:27:55.180 --> 00:27:58.240
+will pick good buildings.
+
+00:27:58.240 --> 00:28:01.780
+They will make them
+from good materials.
+
+00:28:01.780 --> 00:28:08.440
+His emphasis is on depicting
+those spaces in buildings
+
+00:28:08.440 --> 00:28:11.950
+or infrastructure of
+a city which derive
+
+00:28:11.950 --> 00:28:15.370
+from the goodness of people.
+
+00:28:15.370 --> 00:28:22.040
+Now, people are not good.
+
+00:28:22.040 --> 00:28:23.950
+They're good and bad.
+
+00:28:23.950 --> 00:28:26.020
+Sometimes they are both.
+
+00:28:26.020 --> 00:28:29.320
+We are all good and
+bad in our life.
+
+00:28:29.320 --> 00:28:33.220
+There's an element in many of
+these theorists in depicting
+
+00:28:33.220 --> 00:28:37.720
+a society without
+political friction,
+
+00:28:37.720 --> 00:28:40.240
+without individual competition.
+
+00:28:40.240 --> 00:28:45.670
+John Habraken's agreements--
+he says good agreements
+
+00:28:45.670 --> 00:28:47.800
+will be made independent
+of whether you're
+
+00:28:47.800 --> 00:28:49.990
+a Marxist or Capitalist.
+
+00:28:49.990 --> 00:28:53.695
+You will have to come to some
+agreement about where you enter
+
+00:28:53.695 --> 00:28:57.730
+a building, whether there
+is parking underground,
+
+00:28:57.730 --> 00:29:02.125
+or how many floors of building
+there are above ground.
+
+00:29:05.550 --> 00:29:12.060
+Christopher Alexander also
+bypasses the political impact
+
+00:29:12.060 --> 00:29:15.360
+on his work.
+
+00:29:15.360 --> 00:29:17.370
+He makes decisions
+about patterns
+
+00:29:17.370 --> 00:29:21.150
+which are not subject
+to intercourse
+
+00:29:21.150 --> 00:29:23.850
+for producing agreements.
+
+00:29:23.850 --> 00:29:29.520
+These patterns are decided
+upon through his examination
+
+00:29:29.520 --> 00:29:31.530
+of the nature of order.
+
+00:29:35.300 --> 00:29:39.340
+Alexander has an interesting
+trajectory in his work.
+
+00:29:45.050 --> 00:29:47.720
+His first book, Notes
+on the Synthesis of--
+
+00:29:47.720 --> 00:29:51.260
+I don't know if any of you
+have paid particular attention
+
+00:29:51.260 --> 00:29:53.570
+to Alexander's work.
+
+00:29:53.570 --> 00:29:58.460
+Has anybody been an
+Alexander student?
+
+00:29:58.460 --> 00:30:00.710
+No.
+
+00:30:00.710 --> 00:30:06.410
+Christopher Alexander,
+when I first ran into him
+
+00:30:06.410 --> 00:30:08.510
+was at Harvard.
+
+00:30:08.510 --> 00:30:15.140
+And he had written Notes on
+the Synthesis of Form, which
+
+00:30:15.140 --> 00:30:18.665
+was an admiration and an
+attempt to understand how
+
+00:30:18.665 --> 00:30:22.400
+a culture, such as that
+in the Middle East,
+
+00:30:22.400 --> 00:30:27.410
+could make carpets without
+any explicit instruction
+
+00:30:27.410 --> 00:30:33.980
+as to how to do them, only an
+oral tradition, handed down,
+
+00:30:33.980 --> 00:30:38.390
+but allowing within that
+tradition enormous variation
+
+00:30:38.390 --> 00:30:39.950
+in the maintenance of quality.
+
+00:30:43.560 --> 00:30:51.750
+He looked to computation
+to enable us to,
+
+00:30:51.750 --> 00:30:53.820
+perhaps, do the
+same kind of thing.
+
+00:30:53.820 --> 00:31:01.170
+Let's maintain quality,
+although explicitly unclear
+
+00:31:01.170 --> 00:31:02.760
+about how we were doing it.
+
+00:31:08.410 --> 00:31:13.630
+He's moved through a number
+of phases in his work.
+
+00:31:13.630 --> 00:31:14.665
+No sooner did he--
+
+00:31:18.760 --> 00:31:26.560
+been interested in
+optimization, then he
+
+00:31:26.560 --> 00:31:32.510
+wrote a piece about how
+to maximize communication,
+
+00:31:32.510 --> 00:31:36.970
+a silly piece in which he
+argues that in the zoning
+
+00:31:36.970 --> 00:31:43.480
+of suburban housing, the
+living room should be exposed
+
+00:31:43.480 --> 00:31:50.800
+to the street and curtains would
+be unnecessary, that people
+
+00:31:50.800 --> 00:31:55.330
+would enjoy partaking in
+the experience of being
+
+00:31:55.330 --> 00:32:01.810
+a community, a remark which
+might well apply to New York
+
+00:32:01.810 --> 00:32:05.260
+City but not to an
+American suburb.
+
+00:32:05.260 --> 00:32:08.030
+He then published a
+significant paper called--
+
+00:32:12.090 --> 00:32:15.200
+"The Structure of a
+City is Not a Tree."
+
+00:32:15.200 --> 00:32:17.340
+It was more complicated
+than a tree,
+
+00:32:17.340 --> 00:32:22.980
+didn't have a central
+trunk with all its branches
+
+00:32:22.980 --> 00:32:25.960
+regularly sprouting
+from the trunk.
+
+00:32:25.960 --> 00:32:29.550
+But geometrically, he
+couldn't explain what it was.
+
+00:32:29.550 --> 00:32:33.570
+But he knew it wasn't a tree.
+
+00:32:33.570 --> 00:32:39.870
+And then-- partly, I think,
+because of his living
+
+00:32:39.870 --> 00:32:46.380
+on the west coast
+[CHUCKLES] where, perhaps,
+
+00:32:46.380 --> 00:32:52.700
+the counterculture has spread
+more ideas in American thought
+
+00:32:52.700 --> 00:32:55.800
+than anywhere else
+in the world--
+
+00:32:55.800 --> 00:33:04.530
+he started arguing that
+there was a microunit which
+
+00:33:04.530 --> 00:33:07.800
+had spatial and social
+characteristics, what
+
+00:33:07.800 --> 00:33:08.690
+he calls patterns.
+
+00:33:12.750 --> 00:33:15.720
+Each microunit has a pattern.
+
+00:33:15.720 --> 00:33:18.150
+There are good patterns,
+and there are bad patterns.
+
+00:33:24.581 --> 00:33:29.990
+He studies a field of
+spatial and social relations.
+
+00:33:29.990 --> 00:33:32.695
+There are good, living
+patterns; bad, dead ones.
+
+00:33:37.130 --> 00:33:42.230
+We do not need grand planning
+or design for the whole town
+
+00:33:42.230 --> 00:33:45.350
+if each thing is made
+in a context which
+
+00:33:45.350 --> 00:33:47.270
+the other understands.
+
+00:33:47.270 --> 00:33:51.425
+The town emerges by itself
+and is continually repaired.
+
+00:34:01.730 --> 00:34:05.010
+He believes that society has--
+
+00:34:05.010 --> 00:34:07.340
+it's a romantic notion--
+
+00:34:07.340 --> 00:34:10.940
+has a history of patterns
+which are good patterns.
+
+00:34:10.940 --> 00:34:14.030
+They're good patterns
+because they're lived in,
+
+00:34:14.030 --> 00:34:15.920
+they're understood.
+
+00:34:15.920 --> 00:34:19.520
+Like Patrick Geddes, he tries--
+
+00:34:19.520 --> 00:34:26.580
+remember, Patrick Geddes
+is the plane diagram
+
+00:34:26.580 --> 00:34:34.199
+which emotional, objective,
+experienced items all
+
+00:34:34.199 --> 00:34:36.980
+can fold into each other.
+
+00:34:36.980 --> 00:34:45.480
+Here, Alexander is very much
+again trying to link feeling
+
+00:34:45.480 --> 00:34:46.650
+and thought.
+
+00:34:52.100 --> 00:34:57.030
+A good pattern is one which
+is objectively correct
+
+00:34:57.030 --> 00:35:00.670
+but is also felt by
+you to be correct.
+
+00:35:03.910 --> 00:35:07.990
+A good example is
+in a piece in which
+
+00:35:07.990 --> 00:35:11.650
+he tries to explain to
+a young architecture
+
+00:35:11.650 --> 00:35:17.200
+student at Berkeley
+what he's all about.
+
+00:35:17.200 --> 00:35:19.070
+He says, look at this table.
+
+00:35:19.070 --> 00:35:22.930
+They're sitting in a cafe.
+
+00:35:22.930 --> 00:35:24.700
+He says, look at this table.
+
+00:35:24.700 --> 00:35:27.010
+It's made of wood.
+
+00:35:27.010 --> 00:35:30.200
+There's the difference
+between making the edge
+
+00:35:30.200 --> 00:35:33.910
+and finishing the edge of
+the wood with sandpaper,
+
+00:35:33.910 --> 00:35:38.390
+making the minimal transition
+from one service to another,
+
+00:35:38.390 --> 00:35:42.300
+versus the machine-like
+one, which our table is,
+
+00:35:42.300 --> 00:35:49.690
+which has just rounded it off
+in a very blunt, crude way.
+
+00:35:49.690 --> 00:35:53.440
+He asked the student,
+which of these two
+
+00:35:53.440 --> 00:35:56.930
+is a representation
+of your good self?
+
+00:35:56.930 --> 00:36:00.610
+The student doesn't understand
+what he's talking about.
+
+00:36:00.610 --> 00:36:06.040
+Why should the edge
+of a table represent
+
+00:36:06.040 --> 00:36:10.570
+your psychological whole?
+
+00:36:10.570 --> 00:36:14.440
+I quote, "but what if
+I ask you to tell me
+
+00:36:14.440 --> 00:36:17.530
+which of these two tables
+you're more willing to take
+
+00:36:17.530 --> 00:36:20.830
+as a picture of your own self?
+
+00:36:20.830 --> 00:36:23.680
+Which of the two would you
+consider a better candidate
+
+00:36:23.680 --> 00:36:26.600
+to picture of your own soul?"
+
+00:36:26.600 --> 00:36:29.230
+And so on-- everything.
+
+00:36:32.800 --> 00:36:35.410
+The trouble is that
+it's difficult to write
+
+00:36:35.410 --> 00:36:38.470
+such patterns.
+
+00:36:38.470 --> 00:36:44.500
+We don't have the tools yet.
+
+00:36:44.500 --> 00:36:49.780
+We may one day have
+them to do that.
+
+00:36:49.780 --> 00:36:53.500
+These patterns which are
+printed in the book, A Pattern
+
+00:36:53.500 --> 00:37:02.410
+Language, on biblical paper is
+almost a giveaway of a kind.
+
+00:37:05.410 --> 00:37:11.140
+For instance,
+Pattern on page 115--
+
+00:37:11.140 --> 00:37:14.230
+there's abundant evidence to
+show that high buildings make
+
+00:37:14.230 --> 00:37:14.980
+people crazy.
+
+00:37:18.350 --> 00:37:20.300
+Now, objectively,
+this is not true.
+
+00:37:23.230 --> 00:37:31.550
+There may be reasons why
+tall buildings are harmful.
+
+00:37:31.550 --> 00:37:38.000
+But it is an abstract pattern
+or is a theoretical pattern
+
+00:37:38.000 --> 00:37:40.320
+derived from observation.
+
+00:37:40.320 --> 00:37:42.880
+It's not true.
+
+00:37:42.880 --> 00:37:46.730
+I can quote you
+from Herbert Gans,
+
+00:37:46.730 --> 00:37:51.890
+a well-known urban sociologist
+who once taught here at MIT.
+
+00:37:51.890 --> 00:37:56.000
+I quote, "thus, whether housing
+is high- or low-rise does not,
+
+00:37:56.000 --> 00:38:00.650
+by itself, make
+much difference."
+
+00:38:00.650 --> 00:38:02.660
+The luxury apartment
+house has been
+
+00:38:02.660 --> 00:38:10.690
+built in New York City for
+well over a century now,
+
+00:38:10.690 --> 00:38:13.460
+and no one has yet discovered
+that the buildings jammed
+
+00:38:13.460 --> 00:38:18.830
+on Park and Fifth Avenues and
+so forth generate pathology.
+
+00:38:18.830 --> 00:38:20.930
+Conversely, when
+poor people live
+
+00:38:20.930 --> 00:38:24.500
+in even the best-designed
+low-rise projects,
+
+00:38:24.500 --> 00:38:27.240
+they still do not escape
+the problems of poverty.
+
+00:38:30.890 --> 00:38:33.260
+Gans is correct.
+
+00:38:33.260 --> 00:38:36.950
+Why does Alexander
+make such a statement?
+
+00:38:36.950 --> 00:38:41.030
+He's too intelligent to
+know that his statement is
+
+00:38:41.030 --> 00:38:42.620
+incorrect.
+
+00:38:42.620 --> 00:38:45.020
+I don't know.
+
+00:38:45.020 --> 00:38:48.140
+I don't know.
+
+00:38:48.140 --> 00:38:58.310
+There's a kind of insistence
+that either you, in--
+
+00:38:58.310 --> 00:39:03.260
+when I learned debating, I
+was taught that sometimes it's
+
+00:39:03.260 --> 00:39:07.910
+a good idea to throw out a
+statement, an assumption,
+
+00:39:07.910 --> 00:39:14.570
+a hypothesis just to make the
+argument more interesting.
+
+00:39:14.570 --> 00:39:16.640
+And if your opponent
+didn't catch up
+
+00:39:16.640 --> 00:39:20.830
+on the weakness of your
+argument, you would win.
+
+00:39:20.830 --> 00:39:24.200
+I don't think Alexander's
+into debating games.
+
+00:39:24.200 --> 00:39:28.250
+But it's often puzzled me
+why he took the trouble
+
+00:39:28.250 --> 00:39:32.180
+to assemble often
+very good ideas, very
+
+00:39:32.180 --> 00:39:34.085
+down-to-earth ideas.
+
+00:39:34.085 --> 00:39:41.030
+He, for instance, says
+single designers don't really
+
+00:39:41.030 --> 00:39:44.960
+produce comprehensive results.
+
+00:39:44.960 --> 00:39:48.500
+He says, I work in the College
+of Environmental Design
+
+00:39:48.500 --> 00:39:54.380
+at Berkeley, which was designed
+by a team of the best highly
+
+00:39:54.380 --> 00:39:56.735
+trained architects
+in our college.
+
+00:39:59.270 --> 00:40:02.270
+I can't put plants on
+the sill in my window
+
+00:40:02.270 --> 00:40:05.090
+because nobody ever
+thought about what
+
+00:40:05.090 --> 00:40:07.700
+the best position
+of the window would
+
+00:40:07.700 --> 00:40:11.540
+be in the section of the wall.
+
+00:40:11.540 --> 00:40:15.560
+They pushed the
+window to the inside
+
+00:40:15.560 --> 00:40:19.220
+to allow a maximum of
+use on the outside where
+
+00:40:19.220 --> 00:40:22.760
+there's no need for any use.
+
+00:40:22.760 --> 00:40:27.650
+Why do intelligent people
+make such stupid assumptions?
+
+00:40:27.650 --> 00:40:30.920
+They never consulted us.
+
+00:40:30.920 --> 00:40:35.030
+Well, if an architect
+were redesigning
+
+00:40:35.030 --> 00:40:39.290
+MIT's School of Architecture
+and asked me about my office,
+
+00:40:39.290 --> 00:40:42.680
+I don't know if I would
+remember to specify
+
+00:40:42.680 --> 00:40:46.220
+that the window needs to be
+on the outside of the wall
+
+00:40:46.220 --> 00:40:51.500
+to allow me the space on
+the inside for my plants
+
+00:40:51.500 --> 00:40:52.685
+or for whatever.
+
+00:40:56.050 --> 00:40:59.950
+So his observation is
+that somehow, the system
+
+00:40:59.950 --> 00:41:01.330
+isn't working.
+
+00:41:01.330 --> 00:41:05.690
+Modern urbanism is a mess.
+
+00:41:05.690 --> 00:41:08.720
+So he proposes a
+number of rules.
+
+00:41:08.720 --> 00:41:11.000
+I won't go through the rules.
+
+00:41:11.000 --> 00:41:18.570
+You can see them
+in his later book,
+
+00:41:18.570 --> 00:41:21.640
+A New Theory of Urban Design.
+
+00:41:21.640 --> 00:41:27.470
+There are rules about growing
+a whole, about piecemeal,
+
+00:41:27.470 --> 00:41:32.740
+unpredictable coherence, full
+of feeling, no single artist.
+
+00:41:32.740 --> 00:41:39.770
+There are many people involved,
+the whole idea of a thing
+
+00:41:39.770 --> 00:41:40.870
+having to have feeling.
+
+00:41:45.620 --> 00:41:52.570
+The seven rules-- let
+me find the one about--
+
+00:41:58.680 --> 00:42:02.170
+rule number three, visions.
+
+00:42:02.170 --> 00:42:06.300
+Every project must first be
+experienced and then expressed
+
+00:42:06.300 --> 00:42:10.482
+as a vision which can be
+seen in the inner eye.
+
+00:42:10.482 --> 00:42:14.870
+I don't know where my inner
+eye is and how to use it.
+
+00:42:14.870 --> 00:42:15.840
+AUDIENCE: [LAUGHS]
+
+00:42:15.840 --> 00:42:17.550
+JULIAN BEINART: It
+must have this quality
+
+00:42:17.550 --> 00:42:24.540
+so strongly that it can also
+be communicated to others
+
+00:42:24.540 --> 00:42:27.855
+and felt by others as a vision.
+
+00:42:38.290 --> 00:42:46.810
+At least Alexander is attempting
+to be explicit about his ideas.
+
+00:42:46.810 --> 00:42:51.490
+Explicitness is an
+advantage in debate.
+
+00:42:51.490 --> 00:42:55.690
+And explicitness, even
+if you make mistakes,
+
+00:42:55.690 --> 00:43:01.090
+is better than dull hermiticism.
+
+00:43:03.970 --> 00:43:08.080
+And all of these people
+are generating explicitness
+
+00:43:08.080 --> 00:43:11.905
+as one of the aspects
+of their work.
+
+00:43:25.200 --> 00:43:40.110
+In the handout I
+gave to you, there's
+
+00:43:40.110 --> 00:43:45.000
+a piece from A New Theory
+of Urban Design, this.
+
+00:43:51.990 --> 00:43:56.940
+On the left is a piece
+of Rome, a plan of Rome
+
+00:43:56.940 --> 00:44:01.110
+around the Pantheon,
+medieval Rome, as opposed
+
+00:44:01.110 --> 00:44:05.190
+to an American suburb.
+
+00:44:05.190 --> 00:44:08.190
+What are the
+characteristics of the world
+
+00:44:08.190 --> 00:44:12.330
+depicted on the left-- a good
+world, according to Alexander?
+
+00:44:17.450 --> 00:44:23.750
+The whole is made up of parts
+which are unique but belong
+
+00:44:23.750 --> 00:44:27.440
+to families of shape.
+
+00:44:27.440 --> 00:44:31.820
+There are churches, which
+all have open space in front
+
+00:44:31.820 --> 00:44:39.980
+of them-- the Pantheon, and so
+on, Sant'Ignazio, Sant'GesÃº.
+
+00:44:39.980 --> 00:44:45.350
+There are patterns of
+housing which repeat.
+
+00:44:45.350 --> 00:44:52.850
+There are decisions which are
+made through piecemeal addition
+
+00:44:52.850 --> 00:44:55.820
+rather than through a ramp
+in the industrial production.
+
+00:44:58.870 --> 00:45:02.770
+There's a family of
+belongingness of all the parts.
+
+00:45:11.940 --> 00:45:17.970
+In a sense-- although I don't
+know who had the vision which
+
+00:45:17.970 --> 00:45:21.090
+produced this plan, I don't
+think there was one person,
+
+00:45:21.090 --> 00:45:25.810
+one pope who said Rome
+would be this way--
+
+00:45:25.810 --> 00:45:30.420
+but there were
+patterns, presumably,
+
+00:45:30.420 --> 00:45:38.580
+which people learned
+from other patterns
+
+00:45:38.580 --> 00:45:43.590
+and decided to reproduce
+them in a piecemeal way.
+
+00:45:43.590 --> 00:45:46.830
+So building up from
+experience, building up
+
+00:45:46.830 --> 00:45:53.340
+from categories of knowledge
+which had already been tested,
+
+00:45:53.340 --> 00:45:57.728
+as opposed to this
+machine-like production.
+
+00:46:06.040 --> 00:46:09.241
+Alexander is tough medicine.
+
+00:46:09.241 --> 00:46:15.775
+He can come across
+as an arrogant fool.
+
+00:46:19.530 --> 00:46:22.710
+He recently produced
+four volumes
+
+00:46:22.710 --> 00:46:26.280
+called The Nature of Order.
+
+00:46:26.280 --> 00:46:27.570
+He's even more explicit.
+
+00:46:30.310 --> 00:46:32.770
+In The Nature of
+Order, I have tried
+
+00:46:32.770 --> 00:46:35.260
+to construct a coherent
+picture of life
+
+00:46:35.260 --> 00:46:39.940
+on Earth which makes sense of
+these matters, that gives us
+
+00:46:39.940 --> 00:46:43.840
+something to live for
+and worth living for.
+
+00:46:43.840 --> 00:46:48.100
+Yes, like Geddes, I am
+trying, at the same time,
+
+00:46:48.100 --> 00:46:52.900
+to deal with the emotional world
+and the objective, ordinary
+
+00:46:52.900 --> 00:46:54.010
+world around us.
+
+00:46:56.960 --> 00:47:01.040
+What is extraordinary
+is he writes
+
+00:47:01.040 --> 00:47:05.030
+about A Pattern Language.
+
+00:47:05.030 --> 00:47:08.810
+By about 1975, these
+investigations,
+
+00:47:08.810 --> 00:47:12.500
+which I undertook with five
+colleagues, gave us gold.
+
+00:47:12.500 --> 00:47:17.630
+We discovered about 250
+invariant spatial patterns.
+
+00:47:17.630 --> 00:47:20.180
+Each one was associated
+with the stability
+
+00:47:20.180 --> 00:47:23.090
+of human environmental studies.
+
+00:47:23.090 --> 00:47:25.430
+They were published
+in A Pattern Language.
+
+00:47:25.430 --> 00:47:28.790
+They have become a standard
+part of what is known and used
+
+00:47:28.790 --> 00:47:29.720
+by architects.
+
+00:47:32.480 --> 00:47:38.520
+Well, what's this all about?
+
+00:47:38.520 --> 00:47:40.890
+It's not true.
+
+00:47:40.890 --> 00:47:43.760
+So why does a man say
+something which is not true?
+
+00:47:48.610 --> 00:47:51.430
+It can only be provocative.
+
+00:47:51.430 --> 00:47:56.020
+And perhaps like
+John McEnroe shouting
+
+00:47:56.020 --> 00:47:59.380
+at an umpire in
+a tennis game, he
+
+00:47:59.380 --> 00:48:06.680
+had a reason for provoking
+response, dealing
+
+00:48:06.680 --> 00:48:12.200
+with satisfaction of his
+inner grief publicly.
+
+00:48:12.200 --> 00:48:17.040
+I can only, without doing
+a psychoanalysis of this,
+
+00:48:17.040 --> 00:48:19.700
+be surprised by it.
+
+00:48:19.700 --> 00:48:28.220
+The fact is that architects
+seldom read a book
+
+00:48:28.220 --> 00:48:30.170
+like Pattern Language.
+
+00:48:30.170 --> 00:48:35.430
+And they're not in the
+habit of taking a statement
+
+00:48:35.430 --> 00:48:40.980
+like "tall buildings are
+a danger to human health"
+
+00:48:40.980 --> 00:48:43.680
+seriously.
+
+00:48:43.680 --> 00:48:45.810
+One last thing
+before we move on--
+
+00:48:49.800 --> 00:48:56.260
+in his latest work,
+he claims that there
+
+00:48:56.260 --> 00:49:01.380
+are a body of patterns.
+
+00:49:04.150 --> 00:49:05.470
+I'll use his words.
+
+00:49:09.637 --> 00:49:12.340
+The idea of how much
+life is in things
+
+00:49:12.340 --> 00:49:16.000
+is subjective in the
+sense of observation.
+
+00:49:16.000 --> 00:49:18.640
+This quality of life
+seems to be correlated
+
+00:49:18.640 --> 00:49:22.840
+with the repeated appearance
+of 15 geometric properties.
+
+00:49:28.000 --> 00:49:30.430
+The appearance of living
+structure in things
+
+00:49:30.430 --> 00:49:32.110
+is also correlated--
+
+00:49:32.110 --> 00:49:35.260
+so on, and so on.
+
+00:49:35.260 --> 00:49:40.120
+He's now reduced the
+complexity to the repetition
+
+00:49:40.120 --> 00:49:43.330
+of 15 patterns.
+
+00:49:43.330 --> 00:49:45.490
+I haven't seen these patterns.
+
+00:49:45.490 --> 00:49:48.100
+I don't know what they are.
+
+00:49:48.100 --> 00:49:52.640
+But the observation that
+complexity can be reduced to 15
+
+00:49:52.640 --> 00:49:54.250
+repeated patterns--
+
+00:49:54.250 --> 00:49:58.420
+they are probably
+centrally focused.
+
+00:49:58.420 --> 00:49:59.640
+I don't know what they are.
+
+00:49:59.640 --> 00:50:04.180
+He says they are true
+in art, in urbanism,
+
+00:50:04.180 --> 00:50:08.200
+in everything that
+speaks of life.
+
+00:50:08.200 --> 00:50:11.770
+What is it that speaks of life?
+
+00:50:11.770 --> 00:50:17.260
+I understand that walking
+down the street in Italy,
+
+00:50:17.260 --> 00:50:21.250
+in almost any
+small Italian town,
+
+00:50:21.250 --> 00:50:28.600
+will resonate a certain quality
+which evokes being alive.
+
+00:50:28.600 --> 00:50:29.620
+There's energy.
+
+00:50:29.620 --> 00:50:32.410
+There's organization.
+
+00:50:32.410 --> 00:50:34.720
+There's all of the
+elements that you
+
+00:50:34.720 --> 00:50:39.490
+might encounter,
+actually or subliminally,
+
+00:50:39.490 --> 00:50:41.920
+which would say this is lively.
+
+00:50:41.920 --> 00:50:48.740
+Versus a shopping center
+parking lot on Sunday afternoon,
+
+00:50:48.740 --> 00:50:54.220
+at any time of the week,
+would not evoke that.
+
+00:50:54.220 --> 00:50:59.770
+We can spend a couple of
+hours starting to write down,
+
+00:50:59.770 --> 00:51:04.630
+what would cause you to
+experience something as being
+
+00:51:04.630 --> 00:51:07.100
+alive and something
+which wasn't?
+
+00:51:10.840 --> 00:51:16.390
+I don't know what to say about
+the body of work of Alexander.
+
+00:51:16.390 --> 00:51:21.220
+It's going to be a pity that
+he has spent so much energy
+
+00:51:21.220 --> 00:51:34.300
+and will have such a little
+observable impact on the way we
+
+00:51:34.300 --> 00:51:36.025
+make buildings and make cities.
+
+00:51:40.570 --> 00:51:43.690
+You are a good test group.
+
+00:51:43.690 --> 00:51:46.750
+Have you been influenced by
+Christopher Alexander's work?
+
+00:51:50.930 --> 00:51:52.970
+A little bit?
+
+00:51:52.970 --> 00:51:54.680
+A little bit, yeah.
+
+00:51:54.680 --> 00:51:56.950
+I would say the same thing.
+
+00:52:00.680 --> 00:52:03.910
+John Habraken was head of the
+Department of Architecture
+
+00:52:03.910 --> 00:52:08.750
+here at MIT for a
+number of years.
+
+00:52:11.270 --> 00:52:33.690
+When he was in Holland, he wrote
+a little book called Supports
+
+00:52:33.690 --> 00:52:37.710
+in which he argued that there
+was a distinction between two
+
+00:52:37.710 --> 00:52:41.595
+aspects of building.
+
+00:52:41.595 --> 00:52:47.760
+The one which he called supports
+was the infrastructure which
+
+00:52:47.760 --> 00:52:50.340
+allowed habitation
+to take place--
+
+00:52:50.340 --> 00:52:55.680
+all the pipes, all the
+structure, all the material.
+
+00:52:55.680 --> 00:53:00.370
+And he separated that
+from a human capacity--
+
+00:53:00.370 --> 00:53:02.010
+which, for want
+of a better word,
+
+00:53:02.010 --> 00:53:04.500
+I think his word
+was indwelling--
+
+00:53:04.500 --> 00:53:07.320
+that was the creative
+capacity that all people
+
+00:53:07.320 --> 00:53:11.220
+had to determine their
+own microenvironment.
+
+00:53:17.660 --> 00:53:25.610
+Supports were basic items which
+enabled individual creativity.
+
+00:53:30.850 --> 00:53:49.160
+When he decided to engage
+these ideas in a larger world,
+
+00:53:49.160 --> 00:53:52.700
+he came upon the
+idea that the best
+
+00:53:52.700 --> 00:53:56.630
+way to understand
+the actions of a city
+
+00:53:56.630 --> 00:53:59.930
+were to understand it
+is a set of agreements.
+
+00:54:03.150 --> 00:54:10.220
+Agreements are required
+for the production
+
+00:54:10.220 --> 00:54:12.550
+of any pieces of city.
+
+00:54:16.800 --> 00:54:20.220
+It's, of course,
+not actually true.
+
+00:54:20.220 --> 00:54:33.370
+But in his view, the agreements
+between differing parties,
+
+00:54:33.370 --> 00:54:39.190
+surprisingly, could
+produce environments
+
+00:54:39.190 --> 00:54:42.625
+in which certain
+aspects were agreed upon
+
+00:54:42.625 --> 00:54:47.035
+and certain aspects
+were not agreed upon.
+
+00:54:50.020 --> 00:54:54.340
+It's difficult to understand
+some of his material.
+
+00:54:54.340 --> 00:55:00.550
+He's written quite widely.
+
+00:55:00.550 --> 00:55:04.960
+His writings include pieces
+like The Control of Complexity,
+
+00:55:04.960 --> 00:55:08.725
+which is in your reading,
+a number of others.
+
+00:55:13.280 --> 00:55:21.630
+Essentially, his work is best
+explicated in a piece of work
+
+00:55:21.630 --> 00:55:27.030
+he did here at MIT called
+The Grunsfeld Variations.
+
+00:55:27.030 --> 00:55:32.720
+There's a publication of
+it available in the MIT
+
+00:55:32.720 --> 00:55:33.815
+publication list--
+
+00:55:33.815 --> 00:55:35.150
+I don't know where that is--
+
+00:55:37.790 --> 00:55:41.370
+a piece of work which
+he did with students.
+
+00:55:41.370 --> 00:55:47.580
+I will use it to
+explain, perhaps better,
+
+00:55:47.580 --> 00:55:50.460
+what his larger ideas are.
+
+00:55:58.320 --> 00:56:01.470
+The two diagrams you
+have in your handout--
+
+00:56:01.470 --> 00:56:10.650
+the one is a plan of
+the Grunsfeld variation,
+
+00:56:10.650 --> 00:56:11.579
+which is this.
+
+00:56:15.491 --> 00:56:18.020
+This is a set of
+redesigned blocks
+
+00:56:18.020 --> 00:56:21.260
+in the Back Bay of Boston.
+
+00:56:21.260 --> 00:56:24.590
+Agreements are
+reached that there
+
+00:56:24.590 --> 00:56:29.390
+will be high-density
+but low-rise buildings.
+
+00:56:29.390 --> 00:56:33.740
+Agreement is reached that there
+will be parking underground.
+
+00:56:33.740 --> 00:56:37.250
+But halfway, there are streets.
+
+00:56:37.250 --> 00:56:43.820
+And the parking will
+be set in such a way
+
+00:56:43.820 --> 00:56:47.240
+that you can have two
+kinds of conditions--
+
+00:56:47.240 --> 00:56:52.760
+a half-parking level,
+a full-parking level,
+
+00:56:52.760 --> 00:56:55.100
+and variations of
+the street height.
+
+00:56:57.690 --> 00:56:59.520
+I'm not sure that
+I remember what
+
+00:56:59.520 --> 00:57:03.060
+all the other agreements were.
+
+00:57:03.060 --> 00:57:15.030
+He then says we can learn
+from the tissue of this area.
+
+00:57:15.030 --> 00:57:18.420
+Exactly what he's
+learned, I don't know.
+
+00:57:18.420 --> 00:57:22.140
+It's not-- you have to look
+at each of these projects
+
+00:57:22.140 --> 00:57:25.170
+to understand what.
+
+00:57:25.170 --> 00:57:28.230
+But you can see in
+the diagrams, there
+
+00:57:28.230 --> 00:57:37.650
+are tendencies to reproduce the
+length of facades and so on.
+
+00:57:37.650 --> 00:57:42.000
+What he argues is
+that here are a set
+
+00:57:42.000 --> 00:57:48.180
+of different interpretations of
+a similar set of instructions.
+
+00:57:51.430 --> 00:58:05.470
+They all describe a
+variety of outcomes
+
+00:58:05.470 --> 00:58:09.940
+based on the same
+agreements, meta-agreements.
+
+00:58:13.540 --> 00:58:20.470
+In the little diagram, which I
+handed out to you by student,
+
+00:58:20.470 --> 00:58:26.200
+extending the physical
+structure of a small town
+
+00:58:26.200 --> 00:58:33.340
+in Ladakh, in northern India,
+he does these exercises
+
+00:58:33.340 --> 00:58:38.425
+with students, in which you
+start off with a basic theme.
+
+00:58:42.090 --> 00:58:46.650
+The theme is what the culture
+is already reproducing.
+
+00:58:50.120 --> 00:58:52.640
+You understand the
+variations that
+
+00:58:52.640 --> 00:58:57.320
+are possible on that
+theme, what agreements have
+
+00:58:57.320 --> 00:59:02.930
+to be made to extend the items
+in different ways, what becomes
+
+00:59:02.930 --> 00:59:08.510
+private, what becomes public,
+what is negotiated, and so on.
+
+00:59:08.510 --> 00:59:14.330
+And it sets up a pattern
+which can grow over time
+
+00:59:14.330 --> 00:59:17.330
+with new agreements made
+for the use of roofs
+
+00:59:17.330 --> 00:59:19.550
+as the density grows and so on.
+
+00:59:26.410 --> 00:59:29.500
+There are two problems
+with Habraken's work.
+
+00:59:29.500 --> 00:59:33.670
+One, again, it is
+essentially apolitical.
+
+00:59:33.670 --> 00:59:40.090
+I don't mean politics
+in the Democratic Party
+
+00:59:40.090 --> 00:59:42.640
+versus Republican Party sense.
+
+00:59:42.640 --> 00:59:49.600
+I meant in the notion that
+all agreements turn out
+
+00:59:49.600 --> 00:59:56.110
+to be responsible outcomes.
+
+00:59:56.110 --> 00:59:57.310
+I don't know what--
+
+00:59:57.310 --> 01:00:01.510
+Habraken is using
+a methodology which
+
+01:00:01.510 --> 01:00:06.190
+distinguishes the
+existing form of Amsterdam
+
+01:00:06.190 --> 01:00:12.050
+from the new extension of
+Amsterdam by modern architects.
+
+01:00:12.050 --> 01:00:16.525
+Habraken claims that it's
+the modern architects who
+
+01:00:16.525 --> 01:00:20.290
+have lost all of the
+understanding of what
+
+01:00:20.290 --> 01:00:22.870
+agreements are.
+
+01:00:22.870 --> 01:00:28.330
+He doesn't specify what
+bad agreements are.
+
+01:00:28.330 --> 01:00:32.230
+Habraken doesn't do this
+on Long Island, where
+
+01:00:32.230 --> 01:00:35.650
+there may be waste
+space, buildings
+
+01:00:35.650 --> 01:00:40.790
+in the middle of sites with
+open space around them.
+
+01:00:40.790 --> 01:00:46.330
+These are all dense,
+built-together systems,
+
+01:00:46.330 --> 01:00:54.280
+much like the original plans
+and the early expansions
+
+01:00:54.280 --> 01:00:55.900
+of the city of Amsterdam.
+
+01:00:59.720 --> 01:01:02.360
+So I don't know what--
+
+01:01:02.360 --> 01:01:08.870
+I can't explain the strategy.
+
+01:01:08.870 --> 01:01:13.670
+The strategy is that,
+again, like Alexander, you
+
+01:01:13.670 --> 01:01:17.000
+learn from what exists.
+
+01:01:17.000 --> 01:01:22.430
+You use your discerning capacity
+to build on what exists.
+
+01:01:26.070 --> 01:01:32.610
+You don't-- in Alexander's case,
+when he did Oregon experiment,
+
+01:01:32.610 --> 01:01:37.080
+he said, we will not build
+individual large buildings all
+
+01:01:37.080 --> 01:01:39.370
+by themselves.
+
+01:01:39.370 --> 01:01:46.420
+In the program, for every
+large building of classrooms,
+
+01:01:46.420 --> 01:01:48.820
+you need 10% of shops.
+
+01:01:48.820 --> 01:01:51.580
+You need 5% of open space.
+
+01:01:51.580 --> 01:01:57.430
+You need 20% of housing.
+
+01:01:57.430 --> 01:02:03.400
+All of these patterns
+are breaking down
+
+01:02:03.400 --> 01:02:07.120
+programs, which are
+large and mononuclear,
+
+01:02:07.120 --> 01:02:15.040
+into complex patterns and
+repeated in small parts,
+
+01:02:15.040 --> 01:02:17.470
+in small spatial entities.
+
+01:02:21.140 --> 01:02:22.620
+These people have--
+
+01:02:22.620 --> 01:02:28.730
+John Habraken has gone quite
+far in developing technologies
+
+01:02:28.730 --> 01:02:37.580
+for user situations
+in support systems.
+
+01:02:37.580 --> 01:02:46.730
+But both Alexander
+and Habraken's notions
+
+01:02:46.730 --> 01:02:51.560
+are intellectually
+very responsible.
+
+01:02:51.560 --> 01:02:52.970
+They are conservative.
+
+01:02:55.530 --> 01:02:59.510
+I don't know what you do
+when you build a new town.
+
+01:02:59.510 --> 01:03:01.320
+You don't have
+any infrastructure
+
+01:03:01.320 --> 01:03:09.210
+to build a contrapuntal
+system around.
+
+01:03:09.210 --> 01:03:11.850
+And I'm sure that
+that can be resolved
+
+01:03:11.850 --> 01:03:15.420
+by assuming a set of
+agreements early on,
+
+01:03:15.420 --> 01:03:20.490
+based on some ingredients
+from the broader
+
+01:03:20.490 --> 01:03:23.310
+culture of the place and so on.
+
+01:03:28.200 --> 01:03:34.515
+We've got a few minutes to touch
+on a different set of stories.
+
+01:03:40.090 --> 01:03:42.400
+Billy Hillier and
+Julienne Hanson
+
+01:03:42.400 --> 01:03:51.900
+wrote a book called The Social
+Logic of Space in which they
+
+01:03:51.900 --> 01:04:04.990
+argued, essentially, that
+the spatial pattern which
+
+01:04:04.990 --> 01:04:11.930
+surrounds us affects us.
+
+01:04:11.930 --> 01:04:14.330
+They argued a lot
+against the notion
+
+01:04:14.330 --> 01:04:19.670
+of architectural determinism,
+which argues that architecture
+
+01:04:19.670 --> 01:04:22.340
+determines our lives.
+
+01:04:22.340 --> 01:04:28.430
+They showed that only
+under certain conditions
+
+01:04:28.430 --> 01:04:32.780
+does the spatial pattern
+really have effects.
+
+01:04:32.780 --> 01:04:37.610
+The space syntax-- syntax
+is a word from linguistics.
+
+01:04:37.610 --> 01:04:44.480
+It refers to the proper order
+of words in a sentence in order
+
+01:04:44.480 --> 01:04:46.910
+for it to make sense.
+
+01:04:46.910 --> 01:04:51.140
+In some languages, the
+verb precedes the noun--
+
+01:04:51.140 --> 01:04:54.500
+I eat a fish.
+
+01:04:54.500 --> 01:04:56.090
+In other languages--
+
+01:04:56.090 --> 01:04:57.560
+I, the fish, eat.
+
+01:05:00.230 --> 01:05:06.420
+Each has a syntax
+which makes sense.
+
+01:05:06.420 --> 01:05:09.050
+And linguists can probably
+explain the reasons
+
+01:05:09.050 --> 01:05:14.440
+why one system works and
+the other doesn't work.
+
+01:05:19.300 --> 01:05:22.930
+The work that has been
+known as space syntax
+
+01:05:22.930 --> 01:05:26.410
+really is more recent.
+
+01:05:26.410 --> 01:05:29.380
+It's the work which is
+published in this book,
+
+01:05:29.380 --> 01:05:35.740
+Space is the Machine, which
+is an extensive document.
+
+01:05:35.740 --> 01:05:40.870
+And if any of you are
+interested in this idea,
+
+01:05:40.870 --> 01:05:43.510
+you should probably try
+to read parts of it.
+
+01:05:46.480 --> 01:05:51.040
+Essentially, the argument
+is that behavior--
+
+01:05:57.990 --> 01:06:00.710
+that you need to understand
+the space of the city
+
+01:06:00.710 --> 01:06:04.370
+before you can understand
+any of its elements.
+
+01:06:04.370 --> 01:06:08.570
+The space of the city,
+in the application
+
+01:06:08.570 --> 01:06:15.590
+of this space syntax
+model, is a theory
+
+01:06:15.590 --> 01:06:19.310
+based upon movement patterns.
+
+01:06:19.310 --> 01:06:25.460
+Crudely speaking, they say that
+the movement pattern in a city
+
+01:06:25.460 --> 01:06:31.160
+is a function of the pattern
+that is shaped in order
+
+01:06:31.160 --> 01:06:35.330
+to cause the movement or
+that allows the movement
+
+01:06:35.330 --> 01:06:38.100
+to take place.
+
+01:06:38.100 --> 01:06:52.460
+So in a town which has
+space for movement,
+
+01:06:52.460 --> 01:06:56.030
+they can distinguish
+in what they
+
+01:06:56.030 --> 01:07:03.200
+call high correlation, which
+is the number of connections
+
+01:07:03.200 --> 01:07:08.360
+that are possible with a minimum
+number of separate moves.
+
+01:07:08.360 --> 01:07:17.540
+And low correlation
+represents a change of pattern
+
+01:07:17.540 --> 01:07:20.375
+which involves the
+maximum number of moves.
+
+01:07:24.010 --> 01:07:25.330
+I'm putting it rather crudely.
+
+01:07:29.360 --> 01:07:33.650
+By this, you can
+characterize the layout
+
+01:07:33.650 --> 01:07:41.465
+of a town in terms of this
+capacity of movement to flow.
+
+01:07:45.900 --> 01:07:52.680
+They were correlating encounter
+rates with a space syntax
+
+01:07:52.680 --> 01:07:53.760
+methodology.
+
+01:07:53.760 --> 01:07:58.510
+In other words, if you wish to
+create a system in which there
+
+01:07:58.510 --> 01:08:02.250
+are random encounter
+acts, it was not only
+
+01:08:02.250 --> 01:08:04.330
+a function of density.
+
+01:08:04.330 --> 01:08:05.905
+It's a function,
+also, of pattern.
+
+01:08:08.810 --> 01:08:12.810
+And it's also-- although they're
+a little unclear about this,
+
+01:08:12.810 --> 01:08:20.010
+it's not so clearly a result of
+a particular land use pattern.
+
+01:08:20.010 --> 01:08:24.930
+If Marlene Dietrich was
+singing tonight in east Boston,
+
+01:08:24.930 --> 01:08:27.960
+I might go to east Boston.
+
+01:08:27.960 --> 01:08:30.359
+I wouldn't normally
+go to east Boston.
+
+01:08:30.359 --> 01:08:32.748
+AUDIENCE: [LAUGHS]
+
+01:08:32.748 --> 01:08:34.290
+JULIAN BEINART: But
+then the argument
+
+01:08:34.290 --> 01:08:39.000
+would be that Marlene Dietrich
+would sing in a space which
+
+01:08:39.000 --> 01:08:42.569
+is easily available to me.
+
+01:08:42.569 --> 01:08:47.010
+Andres Sevtsuk, who did
+his PhD here two years ago,
+
+01:08:47.010 --> 01:08:51.300
+has taken some elements
+of the space syntax model
+
+01:08:51.300 --> 01:08:56.910
+and correlated it with
+patterns of movement
+
+01:08:56.910 --> 01:09:01.390
+and commercial
+location in Cambridge.
+
+01:09:01.390 --> 01:09:07.359
+It's a branching
+off of space syntax.
+
+01:09:07.359 --> 01:09:10.140
+It's not really space
+syntax because it doesn't
+
+01:09:10.140 --> 01:09:12.105
+develop theoretical models.
+
+01:09:15.149 --> 01:09:21.060
+He just bases it on
+observation, a very fine,
+
+01:09:21.060 --> 01:09:22.560
+detailed observation.
+
+01:09:28.819 --> 01:09:34.729
+The value of space
+syntax, presumably,
+
+01:09:34.729 --> 01:09:40.770
+is in its correlation with
+social good dimensions.
+
+01:09:40.770 --> 01:09:46.130
+So for instance, the
+analysis of spatial patterns
+
+01:09:46.130 --> 01:09:51.590
+would suggest that crime rates
+are much lower where there
+
+01:09:51.590 --> 01:10:01.100
+is a high encounter rate, so
+that housing estates which
+
+01:10:01.100 --> 01:10:05.960
+turn their backs on to
+conventional streets
+
+01:10:05.960 --> 01:10:10.580
+and have their access from
+private, unguarded domains
+
+01:10:10.580 --> 01:10:15.380
+in the center, are
+much more likely to be
+
+01:10:15.380 --> 01:10:20.810
+available for
+burglary and others.
+
+01:10:20.810 --> 01:10:23.060
+And this correlates.
+
+01:10:23.060 --> 01:10:25.410
+Their work is
+expanded enormously.
+
+01:10:25.410 --> 01:10:28.280
+They have now have
+computer programs which
+
+01:10:28.280 --> 01:10:31.985
+you can buy and play yourself.
+
+01:10:34.590 --> 01:10:38.940
+They consult all over the world.
+
+01:10:38.940 --> 01:10:45.770
+I have shown you one of the
+little projects in one drawing.
+
+01:10:45.770 --> 01:10:50.455
+That's the Trafalgar
+Square problem.
+
+01:10:53.030 --> 01:10:59.570
+Now, you can say that
+everything that they've
+
+01:10:59.570 --> 01:11:05.300
+built as a theoretical model
+and what they've actually
+
+01:11:05.300 --> 01:11:08.245
+found on the ground
+is something that you,
+
+01:11:08.245 --> 01:11:11.930
+as an intelligent
+observer, could have told.
+
+01:11:11.930 --> 01:11:17.120
+There's something obvious about
+what this enormous investment
+
+01:11:17.120 --> 01:11:21.710
+of energy and mind produces.
+
+01:11:21.710 --> 01:11:24.860
+I was always told
+when I studied--
+
+01:11:24.860 --> 01:11:29.540
+there's an class in
+urban sociology at Yale--
+
+01:11:29.540 --> 01:11:32.390
+that I should understand
+that sociology
+
+01:11:32.390 --> 01:11:37.040
+is about everyday things and
+that you shouldn't be surprised
+
+01:11:37.040 --> 01:11:45.408
+if sociological conclusions
+accompany everyday observation.
+
+01:11:45.408 --> 01:11:45.950
+I don't know.
+
+01:11:45.950 --> 01:11:52.730
+It's a question which
+critics of space syntax
+
+01:11:52.730 --> 01:11:56.480
+have been very
+frequent to say, why
+
+01:11:56.480 --> 01:12:01.490
+waste the money on something
+which produces nothing new
+
+01:12:01.490 --> 01:12:05.720
+and just confirms what
+you can intuitively know?
+
+01:12:05.720 --> 01:12:08.630
+If there are obstacles
+to where people can walk,
+
+01:12:08.630 --> 01:12:09.950
+people won't walk there--
+
+01:12:12.470 --> 01:12:15.890
+to reduce it to a rather,
+sort of base level.
+
+01:12:20.490 --> 01:12:26.970
+It had a-- what do you think
+of the presentation you heard?
+
+01:12:26.970 --> 01:12:29.640
+STUDENT: The one thing that I
+thought was interesting was,
+
+01:12:29.640 --> 01:12:34.500
+towards the end, he was
+proposing they were going to--
+
+01:12:34.500 --> 01:12:37.590
+if you were to redevelop over
+the train yards in London.
+
+01:12:37.590 --> 01:12:42.080
+And he showed if you
+just put a grid down
+
+01:12:42.080 --> 01:12:44.610
+where the potential
+commercial streets would be,
+
+01:12:44.610 --> 01:12:46.068
+because they
+color-map the streets.
+
+01:12:46.068 --> 01:12:47.193
+JULIAN BEINART: Sure, sure.
+
+01:12:47.193 --> 01:12:49.560
+STUDENT: And he said, but
+if you did this pattern,
+
+01:12:49.560 --> 01:12:51.750
+then you can see, oh,
+this, according to him,
+
+01:12:51.750 --> 01:12:57.240
+would probably make a really
+good commercial street.
+
+01:12:57.240 --> 01:12:59.370
+And these would be residential.
+
+01:12:59.370 --> 01:13:04.500
+It's sort of a way to
+quantitatively understand
+
+01:13:04.500 --> 01:13:10.860
+non-grid patterns in a way that
+you could present to a planning
+
+01:13:10.860 --> 01:13:11.820
+board or a government.
+
+01:13:11.820 --> 01:13:12.695
+JULIAN BEINART: Yeah.
+
+01:13:12.695 --> 01:13:15.330
+STUDENT: It was interesting.
+
+01:13:15.330 --> 01:13:22.740
+JULIAN BEINART: Yeah, the
+adjustments to the King's Cross
+
+01:13:22.740 --> 01:13:25.800
+site plan were interesting.
+
+01:13:25.800 --> 01:13:30.100
+I think a couple of things.
+
+01:13:30.100 --> 01:13:37.140
+Number one, it satisfies me when
+somebody methodologically shows
+
+01:13:37.140 --> 01:13:41.955
+that the form of things
+has meaning, has value.
+
+01:13:46.070 --> 01:13:49.970
+If you think that high encounter
+rates are a good thing,
+
+01:13:49.970 --> 01:13:52.480
+at least they will tell
+you how to accomplish it.
+
+01:13:55.250 --> 01:14:00.010
+And that's not a bad
+set of propositions.
+
+01:14:03.800 --> 01:14:09.380
+We understand, actually, very
+little about high encounter
+
+01:14:09.380 --> 01:14:10.670
+rates.
+
+01:14:10.670 --> 01:14:12.605
+We assume them to be good.
+
+01:14:12.605 --> 01:14:17.960
+And Manhattan has had a history
+of, since its early days,
+
+01:14:17.960 --> 01:14:21.470
+making sure that sidewalks
+on its major avenues
+
+01:14:21.470 --> 01:14:25.040
+are wide enough to
+take a lot of people.
+
+01:14:25.040 --> 01:14:25.965
+Tokyo hasn't.
+
+01:14:29.090 --> 01:14:34.190
+The sidewalks are too narrow
+for the pedestrian volume.
+
+01:14:34.190 --> 01:14:38.120
+And one could imagine
+that the encounter rates--
+
+01:14:41.910 --> 01:14:43.770
+the difficulty about
+encounter rates
+
+01:14:43.770 --> 01:14:49.140
+is that, often, people use them
+to believe that that is good.
+
+01:14:49.140 --> 01:14:51.900
+Richard Sennett, I
+think, naively believes
+
+01:14:51.900 --> 01:14:57.600
+that it's good for
+public relations.
+
+01:14:57.600 --> 01:15:01.800
+When I walk down Fifth Avenue,
+I don't stop and talk to a woman
+
+01:15:01.800 --> 01:15:07.200
+with a fur and a dog.
+
+01:15:07.200 --> 01:15:11.540
+I'd probably be shot
+or be accused of--
+
+01:15:11.540 --> 01:15:14.550
+you know.
+
+01:15:14.550 --> 01:15:20.340
+Crowds are not naturally
+places which enable--
+
+01:15:20.340 --> 01:15:23.610
+often, they don't enable
+human communication.
+
+01:15:23.610 --> 01:15:26.940
+So encounter rates
+are, in themselves,
+
+01:15:26.940 --> 01:15:30.120
+not absolute good
+or absolute bad.
+
+01:15:30.120 --> 01:15:34.980
+But certainly, the
+notion that you feel--
+
+01:15:34.980 --> 01:15:36.540
+when do you feel safer?
+
+01:15:36.540 --> 01:15:39.540
+In all cultures, when
+you are on streets
+
+01:15:39.540 --> 01:15:41.430
+with a lot of other people--
+
+01:15:41.430 --> 01:15:42.450
+I can imagine.
+
+01:15:42.450 --> 01:15:44.160
+I've been in places
+where I've been
+
+01:15:44.160 --> 01:15:47.640
+shit-scared of
+being on the street
+
+01:15:47.640 --> 01:15:49.710
+with a lot of other
+people because they all
+
+01:15:49.710 --> 01:15:54.450
+look like criminals to
+me, because I couldn't
+
+01:15:54.450 --> 01:15:58.170
+read the situation well enough.
+
+01:15:58.170 --> 01:16:03.300
+The last set of stuff
+has a body of literature.
+
+01:16:03.300 --> 01:16:08.220
+And I've only chosen one page
+from one of the documents.
+
+01:16:08.220 --> 01:16:11.790
+There's a good book called Urban
+Space and Structures, which
+
+01:16:11.790 --> 01:16:15.870
+those of you serious about
+becoming urban designers
+
+01:16:15.870 --> 01:16:18.240
+need to read.
+
+01:16:18.240 --> 01:16:26.370
+It's edited by Leslie Martin
+and Lionel March, Cambridge
+
+01:16:26.370 --> 01:16:33.190
+University Press, 1972.
+
+01:16:33.190 --> 01:16:35.890
+The British have been
+interested in understanding
+
+01:16:35.890 --> 01:16:38.485
+spatial patterns largely
+through geometry.
+
+01:16:43.180 --> 01:16:46.910
+In the piece that I've
+given to you today,
+
+01:16:46.910 --> 01:16:50.230
+on the right-hand
+side is a section
+
+01:16:50.230 --> 01:16:56.560
+of the grid of New York from
+42nd to 52nd and from Eighth
+
+01:16:56.560 --> 01:16:57.855
+Avenue to Park Avenue.
+
+01:17:00.970 --> 01:17:05.650
+The argument is
+relatively simple.
+
+01:17:05.650 --> 01:17:10.810
+If you took the amount
+of gross square footage
+
+01:17:10.810 --> 01:17:18.760
+built on this parcel in
+the black areas today,
+
+01:17:18.760 --> 01:17:21.880
+and you took away a
+number of the streets--
+
+01:17:21.880 --> 01:17:26.770
+he took away every second
+street, more or less--
+
+01:17:26.770 --> 01:17:31.480
+you could rebuild the same
+amount of square footage
+
+01:17:31.480 --> 01:17:35.470
+in the pattern on the right
+with only a maximum height
+
+01:17:35.470 --> 01:17:39.715
+of seven floors and large
+amounts of open space inside.
+
+01:17:42.670 --> 01:17:46.630
+Now, no architecture
+student I know of
+
+01:17:46.630 --> 01:17:51.190
+would come to that
+conclusion automatically.
+
+01:17:51.190 --> 01:17:57.580
+It's much like the use
+of the Fresnel lens
+
+01:17:57.580 --> 01:18:02.485
+in arguing population in a city.
+
+01:18:20.830 --> 01:18:28.450
+As you go outwards, if you
+want the same area of land,
+
+01:18:28.450 --> 01:18:31.000
+as you get further
+out, these bands
+
+01:18:31.000 --> 01:18:36.040
+need to become thinner because
+the area they cover is larger.
+
+01:18:36.040 --> 01:18:38.950
+So the total population
+in the center of the city
+
+01:18:38.950 --> 01:18:44.710
+can be housed in a thin
+band on the outside.
+
+01:18:44.710 --> 01:18:53.480
+This is not-- there's a
+diminishing amount of width
+
+01:18:53.480 --> 01:18:58.070
+required in each band as you
+go further out because the band
+
+01:18:58.070 --> 01:18:59.570
+becomes larger.
+
+01:18:59.570 --> 01:19:01.910
+It's a simple
+geometric observation
+
+01:19:01.910 --> 01:19:05.890
+which they apply
+to some estimates
+
+01:19:05.890 --> 01:19:07.490
+about urban population.
+
+01:19:12.800 --> 01:19:16.190
+The number of books published--
+
+01:19:16.190 --> 01:19:18.500
+I will come back to
+the work of this group
+
+01:19:18.500 --> 01:19:25.250
+when we talk about prediction
+of growth and flexibility
+
+01:19:25.250 --> 01:19:27.526
+of building apparatus.
+
+01:19:31.040 --> 01:19:37.030
+A lot of this work came from
+a set of investigations that
+
+01:19:37.030 --> 01:19:44.540
+the British did at the
+end of the '39-'46 war
+
+01:19:44.540 --> 01:19:48.810
+in the rebuilding of British
+infrastructure-- hospitals,
+
+01:19:48.810 --> 01:19:50.840
+universities, and so on.
+
+01:19:50.840 --> 01:19:52.670
+I will do a series
+of case studies
+
+01:19:52.670 --> 01:20:00.530
+of a number of university
+plans showing two factors--
+
+01:20:00.530 --> 01:20:10.490
+one, the idea that new groups of
+knowledge disciplines cohered--
+
+01:20:10.490 --> 01:20:16.680
+microbiology as opposed
+to microphysics, biology
+
+01:20:16.680 --> 01:20:22.020
+and chemistry mixing
+together, and so on--
+
+01:20:22.020 --> 01:20:26.780
+how these patterns
+could be accommodated
+
+01:20:26.780 --> 01:20:34.190
+in physical form which required
+the least adjustment over time.
+
+01:20:34.190 --> 01:20:37.760
+We will look at the Technical
+University in Berlin.
+
+01:20:37.760 --> 01:20:45.050
+We will look at MIT as examples
+of these patterns which
+
+01:20:45.050 --> 01:20:49.070
+maintain-- which promote
+high degrees of flexibility.
+
+01:20:49.070 --> 01:20:51.660
+Also, in the British
+writing about hospitals,
+
+01:20:51.660 --> 01:20:53.930
+the research done in hospitals.
+
+01:20:53.930 --> 01:20:58.160
+Knowing that hospitals
+change hospital science
+
+01:20:58.160 --> 01:21:01.460
+and the administration
+changes rapidly,
+
+01:21:01.460 --> 01:21:04.910
+how would you choose
+patterns which
+
+01:21:04.910 --> 01:21:13.470
+enabled the minimum disruption
+in the trajectory of change?
+
+01:21:13.470 --> 01:21:18.180
+So if any of you are interested
+in this kind of work,
+
+01:21:18.180 --> 01:21:20.060
+this is not the class to take.
+
+01:21:20.060 --> 01:21:22.010
+I can just tell you.
+
+01:21:22.010 --> 01:21:24.990
+We'll touch on some
+of this later on.
+
+01:21:24.990 --> 01:21:29.280
+But I can just read you
+some of the list of books
+
+01:21:29.280 --> 01:21:30.780
+this comes from.
+
+01:21:30.780 --> 01:21:32.660
+There's Philip
+Steadman's book called
+
+01:21:32.660 --> 01:21:35.390
+Architectural Morphology.
+
+01:21:35.390 --> 01:21:40.280
+There's Philip Steadman's
+book The Evolution of Design.
+
+01:21:40.280 --> 01:21:46.370
+There's Lionel March and Philip
+Steadman's book The Geometry
+
+01:21:46.370 --> 01:21:52.250
+of Environment, MIT Press, 1974.
+
+01:21:52.250 --> 01:21:56.540
+There's a couple of the
+more generally applied
+
+01:21:56.540 --> 01:21:58.610
+outcomes of much of this work.
+
+01:22:02.580 --> 01:22:05.700
+We've finished the
+first part of the three
+
+01:22:05.700 --> 01:22:08.170
+sections of this class.
+
+01:22:08.170 --> 01:22:10.860
+This first part
+was just an attempt
+
+01:22:10.860 --> 01:22:15.300
+to bring you up to speed on
+some things which you might not
+
+01:22:15.300 --> 01:22:17.100
+have known about.
+
+01:22:17.100 --> 01:22:19.530
+We start the serious work on--
+
+01:22:19.530 --> 01:22:20.340
+what is today?
+
+01:22:20.340 --> 01:22:21.990
+Tuesday.
+
+01:22:21.990 --> 01:22:24.990
+We start the serious
+work on Thursday.
+
+01:22:24.990 --> 01:22:32.190
+We will start excavating the
+spatial pattern of existing
+
+01:22:32.190 --> 01:22:36.750
+cities after the
+Industrial Revolution.
+
+01:22:36.750 --> 01:22:42.480
+We'll, on Thursday,
+try to make sense
+
+01:22:42.480 --> 01:22:47.790
+of what industrialism
+meant, what
+
+01:22:47.790 --> 01:22:51.510
+it meant to spatial patterns
+in cities, what it meant
+
+01:22:51.510 --> 01:22:55.770
+to the invention of
+new instruments--
+
+01:22:55.770 --> 01:23:00.390
+the mortgage system,
+deficit spending, and so
+
+01:23:00.390 --> 01:23:08.700
+on, the advent of poverty
+in accumulated situations
+
+01:23:08.700 --> 01:23:12.370
+in the West, and so on.
+
+01:23:12.370 --> 01:23:14.910
+And from that, we
+will make case studies
+
+01:23:14.910 --> 01:23:17.040
+of the major reactions--
+
+01:23:17.040 --> 01:23:22.200
+London, Paris, Vienna,
+Barcelona, and Chicago.
+
+01:23:22.200 --> 01:23:27.630
+This is a comprehensive look
+at some very detailed aspects
+
+01:23:27.630 --> 01:23:31.500
+of existing transformations.
+
+01:23:31.500 --> 01:23:34.260
+Hopefully, by the time we
+get to the end of the class,
+
+01:23:34.260 --> 01:23:38.970
+we'll be able to make
+theoretical generalizations
+
+01:23:38.970 --> 01:23:46.690
+better than the ones I've
+explained to you so far.
+
+01:23:46.690 --> 01:23:49.570
+Don't be too depressed.
+
+01:23:49.570 --> 01:23:53.200
+The remarkable thing is
+that we are building cities.
+
+01:23:53.200 --> 01:24:01.180
+We build them, perhaps, not
+as well spatially as we did
+
+01:24:01.180 --> 01:24:04.380
+150 years ago or 300 years ago.
+
+01:24:06.910 --> 01:24:15.200
+But there's no more cholera
+because of the great invention
+
+01:24:15.200 --> 01:24:23.300
+in 1854 in London, causing
+the biggest transformation
+
+01:24:23.300 --> 01:24:29.810
+of London by siphoning
+off wastewater
+
+01:24:29.810 --> 01:24:37.630
+on the east and west sides,
+north and south of London.
+
+01:24:37.630 --> 01:24:41.160
+All of this will
+build up a story
+
+01:24:41.160 --> 01:24:49.110
+about the complexity of
+actual urban situations, which
+
+01:24:49.110 --> 01:24:52.740
+I believe is better
+than too much time
+
+01:24:52.740 --> 01:24:56.790
+spending on abstract models.
+
+01:24:56.790 --> 01:25:00.480
+I don't know if we'll ever
+have a theory of city form
+
+01:25:00.480 --> 01:25:08.700
+which is universally agreed
+upon, able to be systematized.
+
+01:25:08.700 --> 01:25:12.570
+Some aspects of the performance
+of this field, which
+
+01:25:12.570 --> 01:25:15.590
+are moving more and
+more in this direction--
+
+01:25:15.590 --> 01:25:19.020
+we certainly know more
+about public transportation
+
+01:25:19.020 --> 01:25:24.120
+and its engineering and
+science than ever before.
+
+01:25:24.120 --> 01:25:29.400
+We know very little
+about meaning.
+
+01:25:29.400 --> 01:25:34.950
+We build pickle-shaped
+tall buildings in London
+
+01:25:34.950 --> 01:25:39.630
+without even being able
+to measure the effect.
+
+01:25:39.630 --> 01:25:41.250
+And there are parts
+of the world which
+
+01:25:41.250 --> 01:25:48.210
+are looking to manifest urban
+identity without building
+
+01:25:48.210 --> 01:25:51.480
+the tallest building
+in the world,
+
+01:25:51.480 --> 01:25:54.330
+and a number of issues of
+that kind which are currently
+
+01:25:54.330 --> 01:25:57.060
+on the plate of urban designers.
+
+01:25:57.060 --> 01:25:57.570
+OK.
+
+01:25:57.570 --> 01:25:59.410
+I'll see you on Thursday.
+
+01:25:59.410 --> 01:26:01.970
+Have a good holiday.

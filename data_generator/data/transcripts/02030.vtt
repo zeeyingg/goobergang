@@ -1,0 +1,68 @@
+WEBVTT
+
+00:00:10.940 --> 00:00:14.540
+PROFESSOR: In Chapter 3, we will
+study epidemiological models,
+
+00:00:14.540 --> 00:00:17.720
+which describe the
+spread of an infection
+
+00:00:17.720 --> 00:00:23.150
+and then the recovery from
+that infection in a population.
+
+00:00:23.150 --> 00:00:26.140
+And the traditional
+epidemiological models
+
+00:00:26.140 --> 00:00:27.920
+that we will study
+for populations,
+
+00:00:27.920 --> 00:00:32.090
+and also adapt to
+indoor spaces, involve
+
+00:00:32.090 --> 00:00:35.940
+keeping track of compartments
+or subgroups of populations,
+
+00:00:35.940 --> 00:00:38.290
+such as the number of
+susceptible people,
+
+00:00:38.290 --> 00:00:41.990
+the number of infected,
+exposed, and recovered.
+
+00:00:41.990 --> 00:00:44.690
+So for example,
+an infected person
+
+00:00:44.690 --> 00:00:48.170
+can expose a
+susceptible, and then
+
+00:00:48.170 --> 00:00:51.320
+the exposed person can
+themselves become infected,
+
+00:00:51.320 --> 00:00:53.150
+or they may eventually recover.
+
+00:00:53.150 --> 00:00:55.840
+And there are various rates
+for these different processes.
+
+00:00:55.840 --> 00:00:57.890
+And this leads to a set
+of nonlinear differential
+
+00:00:57.890 --> 00:01:01.700
+equations that describe the
+evolution and growth, and then
+
+00:01:01.700 --> 00:01:05.620
+ultimately decay,
+of an epidemic.

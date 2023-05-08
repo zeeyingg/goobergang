@@ -1,0 +1,1559 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:13.030
+PROFESSOR: And so now let's
+consider the spreading
+
+00:00:13.030 --> 00:00:16.329
+of infections, disease indoors.
+
+00:00:16.329 --> 00:00:19.960
+So the McKendrick-Kermack models
+and various compartment models
+
+00:00:19.960 --> 00:00:23.710
+that we just described start
+from the assumption essentially
+
+00:00:23.710 --> 00:00:25.660
+of a well-mixed
+population, where there's
+
+00:00:25.660 --> 00:00:27.580
+no spatial
+dependence, no network
+
+00:00:27.580 --> 00:00:30.460
+dependence of connectivity
+of people with each other
+
+00:00:30.460 --> 00:00:32.890
+but rather sort of everyone
+is interacting with everyone
+
+00:00:32.890 --> 00:00:35.050
+in some sort of average sense.
+
+00:00:35.050 --> 00:00:36.940
+So that philosophy
+has also been brought
+
+00:00:36.940 --> 00:00:39.820
+to bear on spreading
+events indoors
+
+00:00:39.820 --> 00:00:42.720
+where a little bit
+stronger assumption is made
+
+00:00:42.720 --> 00:00:45.940
+is that the transmission is
+occurring through the air
+
+00:00:45.940 --> 00:00:47.360
+and the air is well-mixed.
+
+00:00:47.360 --> 00:00:49.600
+So not only are the people
+well-mixed in the sense
+
+00:00:49.600 --> 00:00:52.180
+that they can interact
+with each other regardless
+
+00:00:52.180 --> 00:00:55.150
+of their distance apart or
+anywhere placed in the room,
+
+00:00:55.150 --> 00:00:56.860
+but the reason it's
+a valid approximation
+
+00:00:56.860 --> 00:00:58.540
+is because the air
+itself is well-mixed.
+
+00:00:58.540 --> 00:00:59.920
+And so we've
+already been talking
+
+00:00:59.920 --> 00:01:01.570
+about the air, the
+well-mixed air,
+
+00:01:01.570 --> 00:01:03.940
+and we've calculated
+transmission rate.
+
+00:01:03.940 --> 00:01:07.990
+Now let's start to connect
+that to disease-spreading.
+
+00:01:07.990 --> 00:01:13.710
+So one concept there
+would be to consider
+
+00:01:13.710 --> 00:01:17.950
+that the initial number
+of infected people, i0,
+
+00:01:17.950 --> 00:01:26.410
+enters a room or an indoor
+space with n persons,
+
+00:01:26.410 --> 00:01:34.229
+including the infectors,
+for a time, tau.
+
+00:01:34.229 --> 00:01:36.360
+So we now have introduced
+a finite timescale, which
+
+00:01:36.360 --> 00:01:37.610
+is the time spent in the room.
+
+00:01:37.610 --> 00:01:38.410
+So you have a room.
+
+00:01:38.410 --> 00:01:41.160
+Some people are in it, and we're
+imagining an infected person
+
+00:01:41.160 --> 00:01:43.320
+comes in, and they spend
+a certain amount of time,
+
+00:01:43.320 --> 00:01:44.340
+and then they leave.
+
+00:01:44.340 --> 00:01:47.420
+And during that time we'd like
+to ask ourselves what happened
+
+00:01:47.420 --> 00:01:48.509
+with all the other people.
+
+00:01:48.509 --> 00:01:50.180
+How many people were infected?
+
+00:01:50.180 --> 00:01:51.150
+OK?
+
+00:01:51.150 --> 00:01:57.150
+So this tau kind of acts like
+the inverse of the removal
+
+00:01:57.150 --> 00:02:04.530
+rate, but we also will
+assume that gamma tau is
+
+00:02:04.530 --> 00:02:05.460
+much less than 1.
+
+00:02:05.460 --> 00:02:09.240
+So if we think of gamma as the
+recovery rate or the death rate
+
+00:02:09.240 --> 00:02:12.330
+from the disease, so
+that's the removal quantity
+
+00:02:12.330 --> 00:02:14.910
+at the population
+level, then we're
+
+00:02:14.910 --> 00:02:17.510
+assuming the time spent in the
+room is small compared to that.
+
+00:02:17.510 --> 00:02:19.350
+So in other words, while
+you're in the room,
+
+00:02:19.350 --> 00:02:21.660
+nobody is going to be
+recovering or dying.
+
+00:02:21.660 --> 00:02:23.910
+We're just simply going to
+be transmitting the disease
+
+00:02:23.910 --> 00:02:25.110
+for a certain amount of time.
+
+00:02:25.110 --> 00:02:28.079
+So the r is gone.
+
+00:02:28.079 --> 00:02:40.420
+On the other hand, we can also
+consider an exposed compartment
+
+00:02:40.420 --> 00:02:42.579
+of the population,
+the group in the room.
+
+00:02:45.520 --> 00:02:48.100
+So the exposed group is
+one which has essentially
+
+00:02:48.100 --> 00:02:50.560
+been exposed to the
+pathogen, so let's say
+
+00:02:50.560 --> 00:02:54.910
+they've inhaled a critical
+quantity of the virus,
+
+00:02:54.910 --> 00:02:57.520
+but they have not yet become
+themselves infectious.
+
+00:02:57.520 --> 00:02:59.020
+So they are already exposed.
+
+00:02:59.020 --> 00:03:01.370
+They are going to come
+down with the disease.
+
+00:03:01.370 --> 00:03:05.290
+So they are going to be
+eventually symptomatic
+
+00:03:05.290 --> 00:03:09.160
+and potentially infectious, but
+they may not be infectious yet.
+
+00:03:09.160 --> 00:03:22.610
+So the exposed group basically
+has received the disease.
+
+00:03:22.610 --> 00:03:28.360
+So it's been transmitted
+to them but is not yet
+
+00:03:28.360 --> 00:03:29.900
+themselves infectious.
+
+00:03:32.650 --> 00:03:36.610
+So that's another sort of group
+that we want to think about.
+
+00:03:36.610 --> 00:03:41.140
+So another way to say it,
+they're not yet contagious.
+
+00:03:41.140 --> 00:03:43.690
+So they're going to get sick,
+but they're not contagious yet.
+
+00:03:43.690 --> 00:03:47.470
+So I should put here
+contagious is another word you
+
+00:03:47.470 --> 00:03:50.020
+could think about using.
+
+00:03:50.020 --> 00:03:53.130
+So we've gotten rid of r,
+the recovered compartment,
+
+00:03:53.130 --> 00:03:54.610
+but we've added e.
+
+00:03:54.610 --> 00:04:00.670
+So instead of the SEIR
+model, we have the SEI model.
+
+00:04:00.670 --> 00:04:03.880
+Now, where we can write
+down the same kinds
+
+00:04:03.880 --> 00:04:05.020
+of equations as before.
+
+00:04:05.020 --> 00:04:10.770
+ds dt is minus beta, and
+I'll write beta of t,
+
+00:04:10.770 --> 00:04:12.580
+si, because another
+complexity here
+
+00:04:12.580 --> 00:04:15.220
+is we know is that as soon as
+the infected person comes in
+
+00:04:15.220 --> 00:04:17.779
+if it's airborne
+transmission, it takes time
+
+00:04:17.779 --> 00:04:19.660
+through the fluid
+mechanics that we were just
+
+00:04:19.660 --> 00:04:22.450
+describing for the
+concentration to build up.
+
+00:04:22.450 --> 00:04:24.280
+So the transmission
+rate is not constant.
+
+00:04:24.280 --> 00:04:25.300
+We've actually
+already calculated
+
+00:04:25.300 --> 00:04:27.850
+that transmission rate, but
+it now enters this equation.
+
+00:04:30.620 --> 00:04:37.490
+So this is now the susceptible
+people are getting exposed.
+
+00:04:37.490 --> 00:04:40.540
+And so when that sort of
+reaction happens, if you will,
+
+00:04:40.540 --> 00:04:46.090
+the exposed
+population then grows,
+
+00:04:46.090 --> 00:04:48.460
+and then there's a
+certain rate with which
+
+00:04:48.460 --> 00:04:51.580
+exposed people can become
+themselves infectious
+
+00:04:51.580 --> 00:04:53.170
+to others.
+
+00:04:53.170 --> 00:04:54.920
+And that rate we'll call alpha.
+
+00:04:54.920 --> 00:04:58.060
+So we can remove exposed
+people at a rate alpha,
+
+00:04:58.060 --> 00:05:02.800
+and when they're removed
+they become infected people.
+
+00:05:02.800 --> 00:05:06.220
+And so then the number
+of infections grows.
+
+00:05:06.220 --> 00:05:09.490
+So this is a very
+closely-related model
+
+00:05:09.490 --> 00:05:11.740
+that we could solve.
+
+00:05:11.740 --> 00:05:16.810
+And in order to couple this
+to airborne disease-spreading,
+
+00:05:16.810 --> 00:05:20.560
+we need to go back to our
+model of the airborne pathogen.
+
+00:05:20.560 --> 00:05:24.540
+So, for example, the virions per
+air volume which we called c,
+
+00:05:24.540 --> 00:05:26.860
+and, in fact, I'll even
+write this as a dc dt
+
+00:05:26.860 --> 00:05:30.820
+with a partial derivative,
+which is p, which depends
+
+00:05:30.820 --> 00:05:34.720
+on the size, r, divided by--
+
+00:05:34.720 --> 00:05:38.740
+actually this should be v--
+
+00:05:38.740 --> 00:05:42.460
+minus lambda c of
+rc, so that was
+
+00:05:42.460 --> 00:05:46.030
+the model we just talked
+about, which we have to solve.
+
+00:05:46.030 --> 00:05:52.510
+And then the beta of t
+is the breathing rate
+
+00:05:52.510 --> 00:06:00.220
+times the integral over all
+these sizes of c of r and t
+
+00:06:00.220 --> 00:06:01.840
+and then ci, and of
+course there could
+
+00:06:01.840 --> 00:06:09.280
+be masks, which might also
+be size dependent, dr.
+
+00:06:09.280 --> 00:06:12.940
+So we tie it together this way.
+
+00:06:12.940 --> 00:06:15.640
+This kind of model,
+which is typically
+
+00:06:15.640 --> 00:06:17.830
+run without accounting
+for the size dependents,
+
+00:06:17.830 --> 00:06:20.930
+but that has been done
+by some authors as well,
+
+00:06:20.930 --> 00:06:23.650
+generally falls under the
+category of Wells-Riley models.
+
+00:06:28.480 --> 00:06:31.430
+And I mentioned here
+that Wells actually
+
+00:06:31.430 --> 00:06:34.550
+was a real pioneer here,
+already starting in the 1930s.
+
+00:06:34.550 --> 00:06:38.520
+Did careful studies of
+disease transmission,
+
+00:06:38.520 --> 00:06:41.240
+including for flu and
+other viral diseases,
+
+00:06:41.240 --> 00:06:44.150
+and really was one of
+the initial proponents
+
+00:06:44.150 --> 00:06:47.780
+of the idea of infectious
+air, that there are particles
+
+00:06:47.780 --> 00:06:50.120
+suspended in the air which
+can become infectious.
+
+00:06:50.120 --> 00:06:51.800
+He also was the
+one who pioneered
+
+00:06:51.800 --> 00:06:57.440
+the Wells curve, which explored
+evaporation versus settling.
+
+00:06:57.440 --> 00:07:02.170
+And in 1955, he introduced
+this kind of a model
+
+00:07:02.170 --> 00:07:04.760
+where he was taking into account
+the balance of the production
+
+00:07:04.760 --> 00:07:07.310
+rate, p, and then the
+ventilation rate in order
+
+00:07:07.310 --> 00:07:12.110
+to describe the buildup of the
+infectious droplets in the air.
+
+00:07:12.110 --> 00:07:17.270
+And then the transmission is
+connected in this way here.
+
+00:07:17.270 --> 00:07:20.330
+And I should say that
+in Wells-Riley modeling,
+
+00:07:20.330 --> 00:07:27.710
+usually e is ignored,
+and so we normally just
+
+00:07:27.710 --> 00:07:32.480
+go straight from s to i.
+
+00:07:32.480 --> 00:07:36.190
+So I'll say e is neglected,
+and what that really
+
+00:07:36.190 --> 00:07:41.470
+means is that the incubation
+rate here, this alpha,
+
+00:07:41.470 --> 00:07:44.930
+is the incubation rate.
+
+00:07:44.930 --> 00:07:49.310
+So it's the rate at which
+an exposed person becomes
+
+00:07:49.310 --> 00:07:52.190
+infectious or contagious.
+
+00:07:52.190 --> 00:07:56.700
+That alpha t is
+much less than 1.
+
+00:07:56.700 --> 00:07:59.040
+So it's essentially
+the Wells-Riley model,
+
+00:07:59.040 --> 00:08:01.440
+it's the slow incubation limit.
+
+00:08:04.200 --> 00:08:06.550
+But we've written down
+something more general here,
+
+00:08:06.550 --> 00:08:10.680
+which does also allow for
+the possibility of exposed
+
+00:08:10.680 --> 00:08:12.340
+people that have not yet--
+
+00:08:12.340 --> 00:08:14.340
+that could become infectious,
+so we'll come back
+
+00:08:14.340 --> 00:08:16.360
+to that in just a moment.
+
+00:08:16.360 --> 00:08:18.870
+So let's kind of
+summarize the results
+
+00:08:18.870 --> 00:08:21.490
+of the Wells-Riley approach.
+
+00:08:21.490 --> 00:08:30.780
+So we'll consider the slow
+incubation limit, which
+
+00:08:30.780 --> 00:08:35.340
+is alpha tau much less than 1.
+
+00:08:35.340 --> 00:08:39.750
+And so in that case, if
+there's slow incubation,
+
+00:08:39.750 --> 00:08:43.820
+during the time of the infected
+person being in the room,
+
+00:08:43.820 --> 00:08:48.650
+there is no time for new
+people to become infectious.
+
+00:08:48.650 --> 00:08:51.290
+So it's really just
+like a fixed source.
+
+00:08:51.290 --> 00:08:53.460
+So it's essentially
+saying that i
+
+00:08:53.460 --> 00:08:57.490
+is equal to i0,
+which is a constant.
+
+00:08:57.490 --> 00:08:59.790
+So even though the disease
+is being transmitted,
+
+00:08:59.790 --> 00:09:02.050
+there is no kind of
+amplification effect
+
+00:09:02.050 --> 00:09:03.790
+because the people
+who have been exposed
+
+00:09:03.790 --> 00:09:07.600
+are not able to
+themselves infect others
+
+00:09:07.600 --> 00:09:10.570
+because the incubation
+is too slow.
+
+00:09:10.570 --> 00:09:13.870
+And this model
+here, where you sort
+
+00:09:13.870 --> 00:09:20.880
+of couple these equations with
+the si equations basically,
+
+00:09:20.880 --> 00:09:33.160
+that was done by Gammaitoni
+and Nucci in 1997.
+
+00:09:33.160 --> 00:09:34.990
+So you can see
+starting from Wells,
+
+00:09:34.990 --> 00:09:37.450
+we start to move towards this
+picture of actually coupling
+
+00:09:37.450 --> 00:09:41.170
+the dynamics of the pathogen
+to the transmission.
+
+00:09:41.170 --> 00:09:44.170
+And there have been a
+number of models since then
+
+00:09:44.170 --> 00:09:45.880
+which have even taken
+into account some
+
+00:09:45.880 --> 00:09:47.470
+of these aspects of
+the different drop
+
+00:09:47.470 --> 00:09:49.540
+sizes and other
+effects that we've
+
+00:09:49.540 --> 00:09:54.130
+been discussing that were not
+initially considered by Wells.
+
+00:09:54.130 --> 00:09:56.930
+So that's this.
+
+00:09:56.930 --> 00:10:00.200
+So the first thing to do
+is to deal with beta of t.
+
+00:10:00.200 --> 00:10:02.150
+So how are we going to do that?
+
+00:10:02.150 --> 00:10:04.770
+So if I put beta t
+on the other side
+
+00:10:04.770 --> 00:10:06.190
+here, if I kind
+of divide it down,
+
+00:10:06.190 --> 00:10:07.780
+you can see that I
+really would like
+
+00:10:07.780 --> 00:10:13.840
+to define a new differential
+of a variable t hat, which
+
+00:10:13.840 --> 00:10:17.980
+is beta of t times dt.
+
+00:10:17.980 --> 00:10:21.370
+That would be my definition
+of a new variable.
+
+00:10:21.370 --> 00:10:23.080
+And so when i integrate
+this, it tells me
+
+00:10:23.080 --> 00:10:25.180
+that I should really
+switch to a new time
+
+00:10:25.180 --> 00:10:28.390
+variable, which is
+not just t, but it's
+
+00:10:28.390 --> 00:10:31.900
+the integral of beta dt.
+
+00:10:31.900 --> 00:10:33.480
+So it's a time-like variable.
+
+00:10:33.480 --> 00:10:36.310
+And once I do that I'm
+essentially sweeping this guy
+
+00:10:36.310 --> 00:10:38.690
+into the derivative there.
+
+00:10:38.690 --> 00:10:41.700
+And if I also assume that
+i is roughly equal to i0,
+
+00:10:41.700 --> 00:10:43.910
+then what I have now is a
+much simpler equation here.
+
+00:10:43.910 --> 00:10:46.030
+I go from this
+non-linear equation
+
+00:10:46.030 --> 00:10:48.790
+with time-dependent
+coefficients to something
+
+00:10:48.790 --> 00:10:51.920
+which is now linear.
+
+00:10:51.920 --> 00:11:01.120
+And we have ds dt hat is
+approximately equal to beta--
+
+00:11:05.480 --> 00:11:16.770
+sorry-- which is minus i0s.
+
+00:11:21.610 --> 00:11:23.540
+So, again, our i is
+roughly constant.
+
+00:11:23.540 --> 00:11:25.940
+Our beta got swept
+into the time.
+
+00:11:25.940 --> 00:11:29.650
+So this is just kind of a
+simple exponential relaxation.
+
+00:11:29.650 --> 00:11:34.060
+And the initial value is that s
+at time equals 0 is n minus i0.
+
+00:11:34.060 --> 00:11:35.800
+So there are n people.
+
+00:11:35.800 --> 00:11:38.920
+i0 of them are the
+initial infected ones.
+
+00:11:38.920 --> 00:11:41.290
+And so this a pretty
+easy equation to solve.
+
+00:11:41.290 --> 00:11:43.630
+It's just an exponential
+relaxation, which we've already
+
+00:11:43.630 --> 00:11:45.440
+seen a few times before.
+
+00:11:45.440 --> 00:11:50.080
+And so the solution
+is that s is n
+
+00:11:50.080 --> 00:11:53.710
+minus i0, the
+initial value of s,
+
+00:11:53.710 --> 00:11:58.030
+times e to the minus i0t hat.
+
+00:11:58.030 --> 00:12:03.560
+So it's i0, integral
+0 to t of beta dt.
+
+00:12:07.070 --> 00:12:08.660
+And then we can also write--
+
+00:12:08.660 --> 00:12:11.090
+so that's the s,
+and the e is just
+
+00:12:11.090 --> 00:12:13.720
+if we have fast incubation--
+
+00:12:13.720 --> 00:12:15.770
+or sorry, slow incubation,
+this term is gone,
+
+00:12:15.770 --> 00:12:18.710
+and we basically just
+have e as sort of just--
+
+00:12:18.710 --> 00:12:21.500
+s and e have to add
+up to n basically.
+
+00:12:21.500 --> 00:12:29.720
+And so we're left with e of t
+is n minus i and then 1 minus,
+
+00:12:29.720 --> 00:12:33.020
+and let me actually write
+this quantity up here
+
+00:12:33.020 --> 00:12:45.340
+as little q of t, where
+little q of t is i0 times
+
+00:12:45.340 --> 00:12:48.010
+the time integral of beta dt.
+
+00:12:56.610 --> 00:12:59.020
+And what is this q here?
+
+00:12:59.020 --> 00:13:04.630
+This q can be thought of as
+the number of infection quanta
+
+00:13:04.630 --> 00:13:07.570
+per time that are
+released by the infectors
+
+00:13:07.570 --> 00:13:09.970
+because their i's are infectors.
+
+00:13:09.970 --> 00:13:13.490
+Each one of them is infecting
+another individual person
+
+00:13:13.490 --> 00:13:15.920
+at a rate beta, and that
+beta is time-dependent,
+
+00:13:15.920 --> 00:13:18.260
+so you have to
+integrate in time.
+
+00:13:18.260 --> 00:13:20.980
+And so this is telling
+me the total number
+
+00:13:20.980 --> 00:13:26.860
+of people that would be infected
+by those infected people
+
+00:13:26.860 --> 00:13:29.720
+if you weren't running
+into all of the limits that
+
+00:13:29.720 --> 00:13:30.890
+are described by this model.
+
+00:13:30.890 --> 00:13:33.670
+So what is happening is that
+if someone gets exposed,
+
+00:13:33.670 --> 00:13:35.680
+they can't be exposed
+again, so there's
+
+00:13:35.680 --> 00:13:37.270
+some numbers there
+that are changing,
+
+00:13:37.270 --> 00:13:41.220
+so you can't keep passing an
+infection quantum to somebody
+
+00:13:41.220 --> 00:13:42.930
+and have them get
+infected over and over.
+
+00:13:42.930 --> 00:13:44.500
+So that doesn't happen.
+
+00:13:44.500 --> 00:13:47.500
+But what this is measuring is
+somehow the number of times
+
+00:13:47.500 --> 00:13:49.420
+that somehow there's
+been an attempted
+
+00:13:49.420 --> 00:13:52.000
+infection or an
+expected infection
+
+00:13:52.000 --> 00:13:54.640
+if a person were susceptible.
+
+00:13:54.640 --> 00:14:02.010
+So this q of t here is
+the infection quanta
+
+00:14:02.010 --> 00:14:12.260
+as defined by Wells
+transmitted in time t.
+
+00:14:12.260 --> 00:14:14.750
+So up to time t, there
+are i0 infectors--
+
+00:14:14.750 --> 00:14:16.610
+that number's not
+changing-- and the way
+
+00:14:16.610 --> 00:14:18.860
+you can think about this
+kind of airborne transmission
+
+00:14:18.860 --> 00:14:22.520
+is they're essentially
+spewing out infection quanta.
+
+00:14:22.520 --> 00:14:26.030
+Each one of them if it hits a
+potentially susceptible person
+
+00:14:26.030 --> 00:14:28.820
+will infect them, but the
+number of susceptible people
+
+00:14:28.820 --> 00:14:29.580
+is changing.
+
+00:14:29.580 --> 00:14:31.340
+So it's not like you keep
+getting more infections.
+
+00:14:31.340 --> 00:14:32.450
+Eventually you
+run out of people,
+
+00:14:32.450 --> 00:14:33.860
+and you can't keep
+infecting them,
+
+00:14:33.860 --> 00:14:35.810
+but that's one way
+to think about this.
+
+00:14:35.810 --> 00:14:39.240
+And we've already
+calculated this concept
+
+00:14:39.240 --> 00:14:41.870
+of infection quanta in the
+context of the breathing.
+
+00:14:41.870 --> 00:14:44.360
+We've defined a
+quantity, which is
+
+00:14:44.360 --> 00:14:48.080
+the number of infection quanta
+per volume of exhaled breath.
+
+00:14:48.080 --> 00:14:49.880
+We've also talked about
+the quanta emission
+
+00:14:49.880 --> 00:14:52.830
+rates for people and connected
+that back to the droplets.
+
+00:14:52.830 --> 00:14:55.100
+And so here's how you see
+how that quantity enters
+
+00:14:55.100 --> 00:14:59.490
+into the
+disease-spreading models.
+
+00:14:59.490 --> 00:15:03.060
+And in fact, we can sketch
+what happens with s and i here.
+
+00:15:03.060 --> 00:15:06.680
+So basically if we start
+with s, for example, starts
+
+00:15:06.680 --> 00:15:12.690
+at the value n minus i0 and
+as you go in time it decays--
+
+00:15:12.690 --> 00:15:15.440
+well, the decay
+rate is basically
+
+00:15:15.440 --> 00:15:17.910
+set by sort of the average beta.
+
+00:15:17.910 --> 00:15:19.910
+So this is kind of
+like some kind of maybe
+
+00:15:19.910 --> 00:15:21.720
+if you're getting
+close to steady state,
+
+00:15:21.720 --> 00:15:24.860
+then beta inverse is sort
+of what this timescale is.
+
+00:15:24.860 --> 00:15:28.100
+But what's actually
+happening is you cut it off
+
+00:15:28.100 --> 00:15:30.110
+at a certain time, tau.
+
+00:15:30.110 --> 00:15:32.060
+So that's the time that
+you're in the room.
+
+00:15:32.060 --> 00:15:34.130
+In that time, the number
+of susceptible people
+
+00:15:34.130 --> 00:15:41.860
+has gone down, and the number
+of exposed people goes up.
+
+00:15:41.860 --> 00:15:43.780
+But then because the
+incubation rate is slow,
+
+00:15:43.780 --> 00:15:46.640
+the exposed people never become
+infectious in this model.
+
+00:15:46.640 --> 00:15:51.130
+So the number of
+infectors is fixed.
+
+00:15:51.130 --> 00:15:55.160
+And so since we
+have slow incubation
+
+00:15:55.160 --> 00:15:56.960
+and since the number
+of infectors is fixed,
+
+00:15:56.960 --> 00:15:58.500
+another way to look
+at this is notice
+
+00:15:58.500 --> 00:16:00.530
+this non-linear equation,
+which had s times i,
+
+00:16:00.530 --> 00:16:02.210
+it became i0 times s.
+
+00:16:02.210 --> 00:16:04.640
+So it became a linear response.
+
+00:16:04.640 --> 00:16:06.860
+And so another way to
+think about this limit
+
+00:16:06.860 --> 00:16:11.340
+is this is the limit
+of linear response.
+
+00:16:15.190 --> 00:16:18.570
+So the Wells-Riley
+models are basically
+
+00:16:18.570 --> 00:16:21.540
+linear response models,
+which are typically
+
+00:16:21.540 --> 00:16:25.160
+not taking into account a growth
+in the number of infectors,
+
+00:16:25.160 --> 00:16:27.000
+which would lead to
+kind of an amplification
+
+00:16:27.000 --> 00:16:29.010
+of disease-spreading in a room.
+
+00:16:29.010 --> 00:16:32.130
+And that's often justified
+because the time someone
+
+00:16:32.130 --> 00:16:35.460
+spends in a room is often times
+a lot less than the incubation
+
+00:16:35.460 --> 00:16:37.560
+time, which could be
+on the order of days.
+
+00:16:37.560 --> 00:16:40.290
+People might only spend
+a few hours in the room.
+
+00:16:40.290 --> 00:16:43.170
+On the other hand, there are
+situations such as classrooms,
+
+00:16:43.170 --> 00:16:48.360
+long-term care facilities and
+homes, prisons, workplaces,
+
+00:16:48.360 --> 00:16:50.460
+where people are exposed
+to each other for days
+
+00:16:50.460 --> 00:16:52.020
+or weeks or months actually.
+
+00:16:52.020 --> 00:16:55.300
+They may go home in between,
+but there's a constant exposure.
+
+00:16:55.300 --> 00:16:59.370
+And so you may need to worry
+about these other sorts
+
+00:16:59.370 --> 00:17:03.030
+of dynamics, even in an
+indoor setting actually.
+
+00:17:03.030 --> 00:17:05.410
+So we'll come back to that.
+
+00:17:05.410 --> 00:17:07.500
+Now another important
+concept I'd like to get here
+
+00:17:07.500 --> 00:17:10.400
+is what is the early
+rate of infection.
+
+00:17:10.400 --> 00:17:15.210
+So this quantity here is q.
+
+00:17:15.210 --> 00:17:16.290
+I wrote n minus 1 here.
+
+00:17:16.290 --> 00:17:17.040
+That was the case.
+
+00:17:17.040 --> 00:17:18.490
+Actually more
+generally this should
+
+00:17:18.490 --> 00:17:20.190
+be n minus i0 because
+often times we're
+
+00:17:20.190 --> 00:17:22.740
+thinking of one infector,
+so I kind of jumped to that,
+
+00:17:22.740 --> 00:17:25.339
+but more generally
+it'd be n minus i0,
+
+00:17:25.339 --> 00:17:28.050
+And this quantity
+here is also s0.
+
+00:17:28.050 --> 00:17:30.660
+That's the initial number
+of susceptible people.
+
+00:17:30.660 --> 00:17:33.060
+So basically you take the
+initial number of susceptible,
+
+00:17:33.060 --> 00:17:35.400
+and they slowly
+become exposed based
+
+00:17:35.400 --> 00:17:39.670
+on how many quanta
+they've consumed.
+
+00:17:39.670 --> 00:17:44.400
+Now, the definition
+of quanta of infection
+
+00:17:44.400 --> 00:17:46.110
+often is tied to this equation.
+
+00:17:46.110 --> 00:17:53.920
+This essentially is the Wells
+equation, derived in 1955.
+
+00:17:53.920 --> 00:17:56.240
+And Wells actually
+defined quanta from this.
+
+00:17:56.240 --> 00:18:00.520
+He said that one quantum
+infection corresponds
+
+00:18:00.520 --> 00:18:05.590
+to a probability of
+transmission of 63%
+
+00:18:05.590 --> 00:18:10.960
+because if you put q
+equals minus 1, 1 minus e
+
+00:18:10.960 --> 00:18:13.930
+to the minus 1 is 63%.
+
+00:18:13.930 --> 00:18:16.270
+So basically he said a quantum--
+
+00:18:16.270 --> 00:18:19.480
+so if someone asks you what
+is a quantum infection--
+
+00:18:19.480 --> 00:18:26.760
+a quantum is basically
+63% chance of infection.
+
+00:18:26.760 --> 00:18:28.180
+But the problem
+with that thinking
+
+00:18:28.180 --> 00:18:32.620
+though is that in some other
+situation where there is maybe
+
+00:18:32.620 --> 00:18:34.960
+incubation going on, I might
+get more infected people.
+
+00:18:34.960 --> 00:18:37.090
+So I can't just count the
+infected people in a room
+
+00:18:37.090 --> 00:18:41.560
+and assume that I'm getting a
+measure of infection quanta.
+
+00:18:41.560 --> 00:18:44.680
+Infection quanta actually
+are defined by beta.
+
+00:18:44.680 --> 00:18:46.300
+That's an important thing.
+
+00:18:46.300 --> 00:18:47.530
+So really what is beta?
+
+00:18:47.530 --> 00:18:51.460
+It's actually the rate of
+infection quantum transfer
+
+00:18:51.460 --> 00:18:53.850
+from infectious to susceptible.
+
+00:18:53.850 --> 00:18:54.670
+Sorry.
+
+00:18:54.670 --> 00:18:56.080
+It's si basically.
+
+00:18:56.080 --> 00:18:58.120
+Oh actually did I--
+
+00:18:58.120 --> 00:18:59.230
+no, that's correct, yeah.
+
+00:18:59.230 --> 00:19:01.700
+So it's the rate of
+basically becoming exposed.
+
+00:19:01.700 --> 00:19:02.200
+Excuse me.
+
+00:19:02.200 --> 00:19:03.700
+So it's from
+susceptible to exposed.
+
+00:19:03.700 --> 00:19:05.890
+So that rate basically
+defines beta,
+
+00:19:05.890 --> 00:19:09.790
+and that is giving you the rate
+of infection quanta transfer.
+
+00:19:09.790 --> 00:19:12.460
+How many people actually
+get infected or exposed
+
+00:19:12.460 --> 00:19:14.140
+involves solving
+some set of equations
+
+00:19:14.140 --> 00:19:15.730
+like this, which
+might not be the same
+
+00:19:15.730 --> 00:19:17.170
+as the Wells-Riley model.
+
+00:19:17.170 --> 00:19:18.640
+So that's an important
+thing to keep in mind,
+
+00:19:18.640 --> 00:19:19.800
+and we'll come back to that.
+
+00:19:19.800 --> 00:19:26.930
+So this is basically Wells'
+definition of a quantum
+
+00:19:26.930 --> 00:19:29.270
+is that basically there's
+a 63% chance that it's
+
+00:19:29.270 --> 00:19:30.770
+going to infect
+somebody, but that's
+
+00:19:30.770 --> 00:19:33.110
+completely tied to this
+linear response exponential
+
+00:19:33.110 --> 00:19:33.840
+relaxation.
+
+00:19:33.840 --> 00:19:38.000
+It's not really, I don't think,
+is the appropriate definition.
+
+00:19:38.000 --> 00:19:41.240
+Now, another thing we can ask
+is, what about at early times.
+
+00:19:47.530 --> 00:19:50.380
+And that would be the case where
+the expected number of quanta
+
+00:19:50.380 --> 00:19:52.810
+transferred is less than 1.
+
+00:19:52.810 --> 00:19:56.380
+So at early times you haven't
+really seen a lot of infection
+
+00:19:56.380 --> 00:19:57.710
+take place.
+
+00:19:57.710 --> 00:19:59.230
+This will be very
+important for us
+
+00:19:59.230 --> 00:20:01.700
+because we're going to
+come to safety guidelines,
+
+00:20:01.700 --> 00:20:04.000
+and in my opinion the right
+way to think about a safety
+
+00:20:04.000 --> 00:20:07.630
+guideline is you don't
+want one person to cause
+
+00:20:07.630 --> 00:20:08.980
+one or more infections.
+
+00:20:08.980 --> 00:20:13.120
+You'd like the expectation to be
+that less than one person will
+
+00:20:13.120 --> 00:20:14.200
+get infected.
+
+00:20:14.200 --> 00:20:16.570
+So this, what I'm
+calling early times here,
+
+00:20:16.570 --> 00:20:18.790
+in the epidemiological
+model is actually
+
+00:20:18.790 --> 00:20:20.950
+very relevant for,
+like, safety guidelines.
+
+00:20:20.950 --> 00:20:22.450
+You don't want to
+deal with the case
+
+00:20:22.450 --> 00:20:23.740
+where there's rampant infection.
+
+00:20:23.740 --> 00:20:25.780
+You just want to say if
+an infected person comes
+
+00:20:25.780 --> 00:20:28.140
+in the room, are they going
+to infect anybody else.
+
+00:20:28.140 --> 00:20:29.890
+And you want that to
+be a low probability.
+
+00:20:29.890 --> 00:20:32.080
+So this is a very
+relevant limit.
+
+00:20:32.080 --> 00:20:35.170
+Now, if I take that limit here,
+I can expand this exponential,
+
+00:20:35.170 --> 00:20:38.920
+and I find that e
+of t at early times
+
+00:20:38.920 --> 00:20:42.720
+behaves like s0
+times q of t if s0
+
+00:20:42.720 --> 00:20:44.530
+is the number of susceptibles.
+
+00:20:44.530 --> 00:20:47.680
+And if I plug in
+what we have here,
+
+00:20:47.680 --> 00:20:54.620
+that's n minus i0 times i0 times
+the integral in time of beta.
+
+00:20:57.310 --> 00:21:00.250
+And so this is the
+expected number
+
+00:21:00.250 --> 00:21:04.630
+of people that will be
+infected by i0 infected people.
+
+00:21:04.630 --> 00:21:07.970
+So the ratio of these two
+things is very important.
+
+00:21:07.970 --> 00:21:12.530
+So if I look at e in time tau.
+
+00:21:12.530 --> 00:21:14.740
+I should say we do this
+integral-- typically
+
+00:21:14.740 --> 00:21:17.560
+we want to go up to dd which is
+the time that the person spends
+
+00:21:17.560 --> 00:21:21.460
+in the room, and we divide
+by the initial number,
+
+00:21:21.460 --> 00:21:23.380
+then that's basically
+telling us sort
+
+00:21:23.380 --> 00:21:26.280
+of what's the reproductive
+number of the room.
+
+00:21:26.280 --> 00:21:28.600
+i0 people come in,
+and the question
+
+00:21:28.600 --> 00:21:31.810
+is do more than i0 people
+come out that are infected.
+
+00:21:31.810 --> 00:21:33.160
+So have you infected others?
+
+00:21:33.160 --> 00:21:35.600
+So that's the ratio that
+you really care about.
+
+00:21:35.600 --> 00:21:40.460
+And so I would call this the
+indoor reproductive number.
+
+00:21:40.460 --> 00:21:46.570
+And in this case, if
+we pick i0 equal to 1,
+
+00:21:46.570 --> 00:21:55.060
+then this is n minus
+1, 0 to tau beta dt.
+
+00:21:55.060 --> 00:21:57.270
+So that's going to be an
+important thing, which we'll
+
+00:21:57.270 --> 00:22:00.630
+come back to later, which is
+the definition of kind of what
+
+00:22:00.630 --> 00:22:03.030
+makes a room actually safe.
+
+00:22:03.030 --> 00:22:06.390
+Well, what we'd like to do
+is have this quantity be
+
+00:22:06.390 --> 00:22:09.420
+much less than 1 because I want
+to say if one infector comes
+
+00:22:09.420 --> 00:22:11.520
+in the room and
+everybody is currently
+
+00:22:11.520 --> 00:22:14.280
+susceptible and healthy,
+I want to make sure
+
+00:22:14.280 --> 00:22:17.580
+that less than one person
+actually gets infected
+
+00:22:17.580 --> 00:22:19.110
+And there'll be
+some tolerance maybe
+
+00:22:19.110 --> 00:22:21.690
+on how low I'd like
+that to be, but that's
+
+00:22:21.690 --> 00:22:23.040
+a very important concept.
+
+00:22:23.040 --> 00:22:26.400
+And here you see it comes out
+of the slow incubation limit.
+
+00:22:26.400 --> 00:22:28.320
+What I'd like to
+show you next is
+
+00:22:28.320 --> 00:22:31.710
+that the very same indoor
+reproductive number actually
+
+00:22:31.710 --> 00:22:35.070
+occurs for any model
+including the opposite limit
+
+00:22:35.070 --> 00:22:37.820
+of fast incubation.

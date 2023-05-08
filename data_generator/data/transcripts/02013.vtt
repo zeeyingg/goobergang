@@ -1,0 +1,847 @@
+WEBVTT
+
+00:00:11.040 --> 00:00:13.080
+PROFESSOR: So now,
+let me make the first
+
+00:00:13.080 --> 00:00:17.040
+of our technical asides, which
+you can skip over if you're not
+
+00:00:17.040 --> 00:00:18.630
+interested in the
+mathematical details
+
+00:00:18.630 --> 00:00:21.570
+or for those of you that
+have a higher-level,
+
+00:00:21.570 --> 00:00:25.500
+say, upper-level-undergraduate
+or even graduate-level
+
+00:00:25.500 --> 00:00:29.160
+understanding of transport
+phenomena and fluid mechanics.
+
+00:00:29.160 --> 00:00:31.350
+I'd like to show you some
+of the equations that
+
+00:00:31.350 --> 00:00:33.000
+are behind the
+results that I've been
+
+00:00:33.000 --> 00:00:35.430
+quoting in all the lectures.
+
+00:00:35.430 --> 00:00:38.830
+So in particular, let's
+derive the Wells curve.
+
+00:00:38.830 --> 00:00:45.280
+So part of that was a
+theory of drop settling.
+
+00:00:45.280 --> 00:00:47.950
+Here, I will quote
+a certain result,
+
+00:00:47.950 --> 00:00:50.620
+because the derivation
+would be a lot longer.
+
+00:00:50.620 --> 00:00:55.240
+Actually, for that, you could
+refer to my online class 10.50x,
+
+00:00:55.240 --> 00:00:59.320
+which is that if you have
+a droplet or a particle
+
+00:00:59.320 --> 00:01:06.710
+of a radius R and it is
+settling under gravity--
+
+00:01:06.710 --> 00:01:10.870
+so it has a mass m, and the
+gravitational force is m g,
+
+00:01:10.870 --> 00:01:13.600
+where g is the
+gravitational acceleration--
+
+00:01:13.600 --> 00:01:20.310
+then there is a flow of
+fluid around this object.
+
+00:01:20.310 --> 00:01:21.730
+And relative to
+the moving object,
+
+00:01:21.730 --> 00:01:24.280
+the flow is going the other way.
+
+00:01:24.280 --> 00:01:26.620
+And if you solve
+for the viscous flow
+
+00:01:26.620 --> 00:01:29.800
+around an object being
+dragged through a fluid,
+
+00:01:29.800 --> 00:01:33.400
+then you arrive at the
+result of Stokes, which
+
+00:01:33.400 --> 00:01:35.390
+is the drag on that fluid.
+
+00:01:35.390 --> 00:01:38.200
+So if you're falling
+at a velocity v,
+
+00:01:38.200 --> 00:01:48.259
+then the drag
+force is -- f_d is -- 6*pi
+
+00:01:48.259 --> 00:01:51.590
+times the radius of the
+drop times the viscosity
+
+00:01:51.590 --> 00:01:55.410
+of the fluid times the
+velocity of the drop.
+
+00:01:55.410 --> 00:01:57.140
+So we're falling
+at a velocity v,
+
+00:01:57.140 --> 00:01:59.720
+which is the settling velocity.
+
+00:01:59.720 --> 00:02:03.240
+And this here is the
+Stokes drag coefficient,
+
+00:02:03.240 --> 00:02:05.990
+which comes from solving the
+fluid mechanics of viscous flow
+
+00:02:05.990 --> 00:02:10.330
+around a sphere translating
+at a constant speed.
+
+00:02:10.330 --> 00:02:18.500
+We can, furthermore, say that the
+mass of the droplet, of course,
+
+00:02:18.500 --> 00:02:25.990
+is 4*pi/3 times the density
+of the droplet liquid, times
+
+00:02:25.990 --> 00:02:28.060
+the radius cubed.
+
+00:02:28.060 --> 00:02:30.180
+And so given the
+mass of the droplet,
+
+00:02:30.180 --> 00:02:33.340
+there's a force balance
+between the gravitational force
+
+00:02:33.340 --> 00:02:37.740
+m g and the drag force when the
+particle reaches a terminal
+
+00:02:37.740 --> 00:02:38.410
+velocity.
+
+00:02:38.410 --> 00:02:40.800
+So if we think of this v_s as
+the terminal velocity where
+
+00:02:40.800 --> 00:02:43.510
+it's accelerating until there's
+a balance between the forces
+
+00:02:43.510 --> 00:02:47.040
+and is moving at a speed, it's
+given by this force balance.
+
+00:02:47.040 --> 00:02:48.660
+And from that
+equation, we can solve
+
+00:02:48.660 --> 00:02:54.900
+for the settling velocity, which
+is energy divided by 6*pi*R.
+
+00:02:54.900 --> 00:02:57.110
+And to use the same
+notation as before,
+
+00:02:57.110 --> 00:02:59.460
+I'll call this mu_a -- the
+air -- but generally, it's
+
+00:02:59.460 --> 00:03:02.550
+the viscosity of
+the ambient fluid
+
+00:03:02.550 --> 00:03:05.370
+around the particle
+as it's settling.
+
+00:03:05.370 --> 00:03:15.150
+And if we plug in the value
+for m g, so that's 4/3*pi*rho*g*
+
+00:03:15.150 --> 00:03:19.940
+R^3 over 6*pi*R*rho_a.
+
+00:03:19.940 --> 00:03:22.740
+And so we simplify
+that, we end up
+
+00:03:22.740 --> 00:03:32.310
+with (2/9)*rho*g*r^2/mu_a.
+
+00:03:32.310 --> 00:03:34.570
+So that's the settling speed.
+
+00:03:34.570 --> 00:03:36.190
+And this is a pretty
+important concept,
+
+00:03:36.190 --> 00:03:39.010
+so I'll just sketch it here.
+
+00:03:39.010 --> 00:03:40.740
+So if we want to know
+what's the settling
+
+00:03:40.740 --> 00:03:44.870
+speed as a function of
+the radius of the drop,
+
+00:03:44.870 --> 00:03:48.000
+then you see it
+grows like R^2.
+
+00:03:48.000 --> 00:03:48.890
+So it's like this.
+
+00:03:52.660 --> 00:03:57.060
+And then to put a scale on
+that, if we have a particle that
+
+00:03:57.060 --> 00:04:02.430
+is 3 microns -- so that's
+really an aerosol particle --
+
+00:04:02.430 --> 00:04:06.730
+then the settling speed
+is around 1 millimeter
+
+00:04:06.730 --> 00:04:11.430
+a second if we use
+the density of water
+
+00:04:11.430 --> 00:04:15.150
+and the viscosity of
+air for this formula.
+
+00:04:15.150 --> 00:04:17.310
+And so that's already a
+fairly slow settling speed,
+
+00:04:17.310 --> 00:04:18.430
+millimeter per second.
+
+00:04:18.430 --> 00:04:19.620
+So you can already
+see the particles that
+
+00:04:19.620 --> 00:04:21.630
+are in the micron
+range will be suspended
+
+00:04:21.630 --> 00:04:23.190
+in the air for a
+long period of time,
+
+00:04:23.190 --> 00:04:25.800
+as long as they
+don't evaporate away.
+
+00:04:25.800 --> 00:04:29.020
+And so that is now the second
+part of the calculation.
+
+00:04:29.020 --> 00:04:31.620
+Oh, and I should the
+finish the first part here.
+
+00:04:31.620 --> 00:04:38.460
+What we're left with is that
+the settling time is L over v_s.
+
+00:04:38.460 --> 00:04:41.500
+And that's the formula
+that we had before,
+
+00:04:41.500 --> 00:04:50.010
+which is 9*mu_a*L divided
+by 2*rho*g*r^2.
+
+00:04:50.010 --> 00:04:53.670
+So this is our first
+part of the Wells curve.
+
+00:04:53.670 --> 00:04:58.930
+So if I draw the
+Wells curve over here
+
+00:04:58.930 --> 00:05:02.030
+in the traditional way, where
+I plot on the horizontal
+
+00:05:02.030 --> 00:05:05.540
+axis the size of the particle,
+and in a downward axis,
+
+00:05:05.540 --> 00:05:13.030
+we draw the time, then we have
+a curve like this for settling.
+
+00:05:13.030 --> 00:05:15.410
+And the reason it's drawn
+down, I guess maybe the feeling
+
+00:05:15.410 --> 00:05:18.190
+that as you're sort of falling
+down a particle a certain size,
+
+00:05:18.190 --> 00:05:20.690
+you hit this curve and that's
+when you've settled a distance
+
+00:05:20.690 --> 00:05:23.480
+L and fallen out of the air.
+
+00:05:23.480 --> 00:05:26.640
+So now, let's look
+at evaporation,
+
+00:05:26.640 --> 00:05:29.160
+which is our second topic.
+
+00:05:29.160 --> 00:05:30.460
+I've lost my blue [marker] -- here it is.
+
+00:05:37.780 --> 00:05:40.240
+So these droplets are
+getting very small
+
+00:05:40.240 --> 00:05:41.200
+as they're evaporating,
+
+00:05:41.200 --> 00:05:44.930
+and it's happening very quickly,
+as we shall show in a moment.
+
+00:05:44.930 --> 00:05:49.510
+And so a natural assumption
+is that the process
+
+00:05:49.510 --> 00:05:56.110
+is limited by the
+diffusion of water vapor
+
+00:05:56.110 --> 00:06:01.540
+away from the droplet,
+because essentially we
+
+00:06:01.540 --> 00:06:04.730
+have this little droplet
+here with a certain size
+
+00:06:04.730 --> 00:06:07.580
+R, which is now going
+to be varying with time.
+
+00:06:07.580 --> 00:06:09.850
+So it has a radius R(t).
+
+00:06:09.850 --> 00:06:13.660
+And it's really
+close to the surface.
+
+00:06:13.660 --> 00:06:15.700
+There is an equilibrium
+concentration --
+
+00:06:15.700 --> 00:06:17.950
+we'll call it c_w --
+
+00:06:17.950 --> 00:06:19.750
+of water, which depends
+on the temperature.
+
+00:06:19.750 --> 00:06:22.720
+So that's kind of the
+saturation concentration
+
+00:06:22.720 --> 00:06:26.020
+of water vapor in the air.
+
+00:06:26.020 --> 00:06:28.360
+But then, if the water is
+going to evaporate more,
+
+00:06:28.360 --> 00:06:30.760
+it would create more
+concentration, which would then
+
+00:06:30.760 --> 00:06:32.080
+re-condense on the particle.
+
+00:06:32.080 --> 00:06:35.800
+So in order for it to
+continue evaporating,
+
+00:06:35.800 --> 00:06:39.230
+that water vapor that is
+produced has to diffuse away.
+
+00:06:39.230 --> 00:06:43.210
+So there's going to be a
+gradient of water vapor going
+
+00:06:43.210 --> 00:06:50.130
+outwards from c_w -- [it] is the
+concentration at position R.
+
+00:06:50.130 --> 00:06:55.170
+And then far away, there is
+a sort of diffusion layer
+
+00:06:55.170 --> 00:06:57.810
+thickness, delta.
+
+00:06:57.810 --> 00:07:00.210
+And far beyond the
+diffusion layer thickness,
+
+00:07:00.210 --> 00:07:03.540
+the concentration is going
+to approach the equilibrium
+
+00:07:03.540 --> 00:07:05.640
+concentration in
+the ambient air.
+
+00:07:05.640 --> 00:07:11.150
+c at infinity is going to be
+c_w times the relative humidity.
+
+00:07:11.150 --> 00:07:13.200
+So that's the ratio of
+the concentration of water
+
+00:07:13.200 --> 00:07:16.590
+vapor in the air to the
+saturation concentration,
+
+00:07:16.590 --> 00:07:19.790
+c_w, by definition.
+
+00:07:19.790 --> 00:07:21.210
+Now, the math
+problem that we have
+
+00:07:21.210 --> 00:07:24.720
+to solve for this diffusion
+problem -- with a moving boundary
+
+00:07:24.720 --> 00:07:28.110
+in this case, though we'll
+assume it's pseudosteady --
+
+00:07:28.110 --> 00:07:31.620
+is dc/dt is the diffusion
+coefficient of water
+
+00:07:31.620 --> 00:07:33.300
+times the Laplacian
+of c, so just
+
+00:07:33.300 --> 00:07:36.520
+the diffusion equation with
+these two boundary conditions.
+
+00:07:36.520 --> 00:07:39.600
+Now, an interesting aspect a
+three-dimensional spherical
+
+00:07:39.600 --> 00:07:42.030
+diffusion is that at first
+the diffusion layer grows,
+
+00:07:42.030 --> 00:07:44.620
+but it very quickly
+reaches a steady state.
+
+00:07:44.620 --> 00:07:47.220
+And if we assume that
+that diffusion time
+
+00:07:47.220 --> 00:07:51.100
+to reach this distance
+delta is fast,
+
+00:07:51.100 --> 00:07:52.650
+so they reach a
+steady state, so it's
+
+00:07:52.650 --> 00:07:55.750
+a kind of quasisteady or
+pseudosteady shrinking
+
+00:07:55.750 --> 00:07:58.050
+of the droplet with sort of
+a diffusion layer around it
+
+00:07:58.050 --> 00:08:01.510
+that's always kind of
+at the steady value,
+
+00:08:01.510 --> 00:08:03.900
+then it turns out that
+this diffusion layer
+
+00:08:03.900 --> 00:08:05.400
+is on the order of the
+particle size.
+
+00:08:05.400 --> 00:08:07.950
+So as the particle shrinks, the
+diffusion layer also shrinks.
+
+00:08:07.950 --> 00:08:09.840
+But it has a
+well-defined thickness,
+
+00:08:09.840 --> 00:08:11.480
+as opposed to
+diffusion in one or two
+
+00:08:11.480 --> 00:08:13.230
+dimensions, where the
+diffusion layer just
+
+00:08:13.230 --> 00:08:14.680
+keeps growing out to infinity.
+
+00:08:14.680 --> 00:08:16.130
+For example, like
+square root of time --
+
+00:08:16.130 --> 00:08:19.050
+you don't reach a steady
+state in an infinite domain.
+
+00:08:19.050 --> 00:08:21.310
+So the bottom line
+of this calculation,
+
+00:08:21.310 --> 00:08:23.280
+which I will not go
+through right now,
+
+00:08:23.280 --> 00:08:27.010
+is that the flux of
+water on the surface
+
+00:08:27.010 --> 00:08:31.330
+is the area of the surface at a
+given moment, where the size is
+
+00:08:31.330 --> 00:08:37.600
+R, times essentially
+Fick's law, where
+
+00:08:37.600 --> 00:08:40.120
+the driving force, the
+change in concentration
+
+00:08:40.120 --> 00:08:43.390
+from the surface to
+the bulk, is c_w times
+
+00:08:43.390 --> 00:08:46.900
+one minus relative humidity,
+the diffusivity of water,
+
+00:08:46.900 --> 00:08:49.800
+and then divided by delta,
+the diffusion layer thickness.
+
+00:08:49.800 --> 00:08:52.320
+And it turns out that with
+these coefficients here,
+
+00:08:52.320 --> 00:08:53.750
+it turns out to be exactly R.
+
+00:08:53.750 --> 00:08:55.630
+So this is not a scaling
+result, but actually
+
+00:08:55.630 --> 00:08:59.470
+an exact result for pseudo
+steady spherical diffusion
+
+00:08:59.470 --> 00:09:01.400
+of water vapor.
+
+00:09:01.400 --> 00:09:03.070
+So now, we have the
+flux on the surface.
+
+00:09:03.070 --> 00:09:04.540
+It's uniform on the surface.
+
+00:09:04.540 --> 00:09:07.360
+And it's [assumed]
+to be pseudosteady.
+
+00:09:07.360 --> 00:09:10.060
+And so then I can write
+down that the change
+
+00:09:10.060 --> 00:09:13.120
+in the size of the water
+droplet volume, which
+
+00:09:13.120 --> 00:09:20.170
+is (4*pi/3)*R^3
+is equal to minus
+
+00:09:20.170 --> 00:09:25.820
+the volume of a water molecule
+times the flux of water.
+
+00:09:25.820 --> 00:09:31.520
+So that's basically my volume
+or mass balance of water.
+
+00:09:31.520 --> 00:09:38.690
+So if I plug this in here,
+then I get dR/dt is equal to --
+
+00:09:38.690 --> 00:09:40.750
+let's see, collecting
+all the terms here --
+
+00:09:40.750 --> 00:09:44.590
+so derivative of R^3
+is 3*R^2.
+
+00:09:44.590 --> 00:09:46.490
+So the 3's cancel.
+
+00:09:46.490 --> 00:09:48.380
+And then I have
+a 4*pi*R^2,
+
+00:09:48.380 --> 00:09:50.370
+which cancels this
+4*pi*R^2.
+
+00:09:50.370 --> 00:10:00.930
+So I just have dR/dt is
+-v_w*D_w*c_w*(1-RH)/R.
+
+00:10:00.930 --> 00:10:06.200
+If I put this R on the other
+side here, then I have --
+
+00:10:06.200 --> 00:10:10.510
+I'll just continue
+the derivation here --
+
+00:10:10.510 --> 00:10:17.320
+I have R dR/dt is equal
+to all this stuff.
+
+00:10:17.320 --> 00:10:25.010
+So -v_w*D_w*c_w*(1-RH).
+
+00:10:25.010 --> 00:10:26.960
+And then this
+expression here can
+
+00:10:26.960 --> 00:10:34.800
+be written as 1/2 the
+derivative of R^2.
+
+00:10:34.800 --> 00:10:39.890
+So what we find is that R^2
+is linear in time.
+
+00:10:39.890 --> 00:10:44.000
+And then using the boundary
+condition that we start out
+
+00:10:44.000 --> 00:10:47.840
+at a certain initial
+value, R_0, then I'm
+
+00:10:47.840 --> 00:10:54.910
+going to get the R(t) is
+the initial value R_0 times
+
+00:10:54.910 --> 00:10:59.560
+the square root of 1 minus
+t over a certain evaporation
+
+00:10:59.560 --> 00:11:01.240
+time.
+
+00:11:01.240 --> 00:11:07.160
+And that evaporation
+time is given here
+
+00:11:07.160 --> 00:11:17.500
+by (R_0)^2 times basically
+all these coefficients here,
+
+00:11:17.500 --> 00:11:21.340
+where I'll separate out
+the effective humidity,
+
+00:11:21.340 --> 00:11:23.720
+and then a bunch of other
+coefficients, which you can see
+
+00:11:23.720 --> 00:11:26.630
+have units of length
+squared over time,
+
+00:11:26.630 --> 00:11:28.180
+because R_0 is a length squared.
+
+00:11:28.180 --> 00:11:30.920
+So it's effectively some
+kind of diffusivity.
+
+00:11:30.920 --> 00:11:33.080
+And what we get from
+this calculation
+
+00:11:33.080 --> 00:11:34.910
+is that this
+effective diffusivity
+
+00:11:34.910 --> 00:11:37.700
+that goes into this
+expression is -- there's
+
+00:11:37.700 --> 00:11:39.050
+a factor 2 from this guy --
+
+00:11:39.050 --> 00:11:44.380
+there's a 2*v_w*D_w*c_w.
+
+00:11:44.380 --> 00:11:47.240
+And if you plug in
+values for water vapor,
+
+00:11:47.240 --> 00:11:49.670
+for the saturation pressure,
+and the diffusivity,
+
+00:11:49.670 --> 00:11:53.030
+and the volume of water in
+air, then this coefficient
+
+00:11:53.030 --> 00:11:58.190
+turns out to be 1.2e-9
+meters squared
+
+00:11:58.190 --> 00:12:02.200
+for second for pure water.
+
+00:12:02.200 --> 00:12:05.420
+And that's where you get now
+the second part of the Wells
+
+00:12:05.420 --> 00:12:08.000
+theory, which is the
+evaporation, which gives you
+
+00:12:08.000 --> 00:12:10.230
+a curve looking like this.
+
+00:12:15.590 --> 00:12:18.270
+So that there's this
+sort of in this theory
+
+00:12:18.270 --> 00:12:25.820
+a natural crossover between
+large drops, which in this case
+
+00:12:25.820 --> 00:12:28.070
+here are ones that are
+large enough to settle out
+
+00:12:28.070 --> 00:12:30.260
+of the fluid before
+they evaporate,
+
+00:12:30.260 --> 00:12:38.400
+and small drops,
+which evaporate.
+
+00:12:38.400 --> 00:12:41.070
+On the other hand, for
+true biological fluids
+
+00:12:41.070 --> 00:12:44.420
+that appear in
+respiratory droplets,
+
+00:12:44.420 --> 00:12:49.170
+the evaporation is limited
+by solutes and salts, which
+
+00:12:49.170 --> 00:12:51.240
+stop the evaporation
+and, in fact,
+
+00:12:51.240 --> 00:12:53.740
+can attract even more
+water in some cases.
+
+00:12:53.740 --> 00:12:57.060
+So that the evaporation part
+of it is not as accurate,
+
+00:12:57.060 --> 00:13:00.030
+and we tend to see that
+the settling part is more
+
+00:13:00.030 --> 00:13:03.510
+important to consider, given
+an equilibrium distribution
+
+00:13:03.510 --> 00:13:05.100
+of droplets that
+has been measured
+
+00:13:05.100 --> 00:13:10.520
+and is understood to come from
+different types of respiration.

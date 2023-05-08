@@ -1,0 +1,552 @@
+WEBVTT
+
+00:00:10.520 --> 00:00:12.150
+PROFESSOR: So,
+as an aside for more
+
+00:00:12.150 --> 00:00:15.000
+advanced students,
+let's try to fill
+
+00:00:15.000 --> 00:00:17.700
+in some mathematical
+details to provide a theory
+
+00:00:17.700 --> 00:00:21.360
+to support or interpret
+the Lin-Marr hypothesis
+
+00:00:21.360 --> 00:00:23.760
+of disinfection
+kinetics having to do
+
+00:00:23.760 --> 00:00:27.450
+with the concentration
+of solutes during drying
+
+00:00:27.450 --> 00:00:31.830
+and their effect on
+deactivating viruses.
+
+00:00:31.830 --> 00:00:33.700
+So, to put it in
+mathematical terms,
+
+00:00:33.700 --> 00:00:36.870
+if we have a certain number
+of viruses Nv in a droplet,
+
+00:00:36.870 --> 00:00:40.140
+then we'll postulate
+that d Nv dt is
+
+00:00:40.140 --> 00:00:43.410
+minus lambda v0,
+the deactivation
+
+00:00:43.410 --> 00:00:46.680
+rate per solute
+virion collision,
+
+00:00:46.680 --> 00:00:50.790
+times the volume fraction
+of disinfecting solutes
+
+00:00:50.790 --> 00:00:52.950
+we'll call phi d, which
+is time dependent,
+
+00:00:52.950 --> 00:00:57.270
+having to do with the size
+of the droplet, times Nv.
+
+00:00:57.270 --> 00:01:00.450
+The volume fraction
+of disinfecting
+
+00:01:00.450 --> 00:01:04.319
+solutes we'll write as alpha
+D, a constant, times phi
+
+00:01:04.319 --> 00:01:08.430
+s, which is the total volume
+fraction of solutes present.
+
+00:01:08.430 --> 00:01:11.070
+And that might be, for example,
+the fraction of solutes
+
+00:01:11.070 --> 00:01:14.060
+that are sodium chloride
+or some other salt that
+
+00:01:14.060 --> 00:01:16.950
+might be causing the damage
+to the virus, as opposed
+
+00:01:16.950 --> 00:01:20.430
+to the mucins or other
+macromolecules that
+
+00:01:20.430 --> 00:01:22.380
+may be present.
+
+00:01:22.380 --> 00:01:27.990
+Then we can-- as the droplet is
+shrinking with a radius R of t,
+
+00:01:27.990 --> 00:01:30.440
+then it's simply
+the volume of phi s
+
+00:01:30.440 --> 00:01:32.880
+that is getting re-scaled
+relative to the initial value,
+
+00:01:32.880 --> 00:01:35.910
+phi 0, as R0, the
+initial radius,
+
+00:01:35.910 --> 00:01:37.259
+divided by R of t cubed.
+
+00:01:37.259 --> 00:01:40.690
+So that's just simply the
+changing of the volume.
+
+00:01:40.690 --> 00:01:42.750
+Now let's recall
+some of our results
+
+00:01:42.750 --> 00:01:47.190
+from the past earlier
+part of this chapter
+
+00:01:47.190 --> 00:01:49.650
+having to do with Wells'
+theory of evaporation.
+
+00:01:49.650 --> 00:01:51.570
+So, if we consider
+diffusion-limited droplets,
+
+00:01:51.570 --> 00:01:56.550
+we've shown that the radius
+of the droplet versus time
+
+00:01:56.550 --> 00:01:58.860
+relative to the
+initial radius R0
+
+00:01:58.860 --> 00:02:02.070
+is square root of 1
+minus t over tau e, where
+
+00:02:02.070 --> 00:02:05.640
+tau e is the evaporation
+time, R0 squared divided
+
+00:02:05.640 --> 00:02:09.539
+by d bar, a constant with
+units of diffusivity, times 1
+
+00:02:09.539 --> 00:02:12.630
+minus RH, the relative humidity.
+
+00:02:12.630 --> 00:02:15.120
+Now that predicts
+pure liquid droplets
+
+00:02:15.120 --> 00:02:17.940
+that shrink all the way to
+nothing and evaporate away,
+
+00:02:17.940 --> 00:02:19.650
+but, when there's
+solute present, there's
+
+00:02:19.650 --> 00:02:21.770
+a cutoff, which we've also
+discussed that gives you
+
+00:02:21.770 --> 00:02:25.260
+an equilibrium stable
+size of the drop,
+
+00:02:25.260 --> 00:02:30.360
+R equilibrium, relative to
+R0, which is given by phi s0,
+
+00:02:30.360 --> 00:02:32.730
+the solid volume fraction--
+or solute volume fraction
+
+00:02:32.730 --> 00:02:37.980
+initially divided by 1 minus
+RH raised to the 1/3 power.
+
+00:02:37.980 --> 00:02:41.700
+By writing that as square root
+of 1 minus tau over tau e,
+
+00:02:41.700 --> 00:02:45.210
+we can also define the time tau
+when you reach the equilibrium
+
+00:02:45.210 --> 00:02:48.250
+size by a diffusion-limited
+evaporation process.
+
+00:02:48.250 --> 00:02:52.420
+So that's sort of the time to
+form a stable droplet nucleus.
+
+00:02:52.420 --> 00:02:54.750
+Now let's start combining
+all these equations,
+
+00:02:54.750 --> 00:02:58.590
+and we can write what is the
+volume fraction of disinfecting
+
+00:02:58.590 --> 00:03:01.380
+solutes, phi d of t.
+
+00:03:01.380 --> 00:03:04.650
+Well, from this equation
+here, it'll be alpha d times
+
+00:03:04.650 --> 00:03:10.050
+phi s of t, which
+is phi s0, times
+
+00:03:10.050 --> 00:03:13.230
+this ratio, R0 over R cubed.
+
+00:03:13.230 --> 00:03:16.560
+So, using this expression for
+diffusion-limited kinetics,
+
+00:03:16.560 --> 00:03:24.220
+this would give me a 1 minus
+t over tau e to the 3/2.
+
+00:03:24.220 --> 00:03:27.700
+And, if we look at
+the ultimate limit
+
+00:03:27.700 --> 00:03:33.390
+here that they'll get from when
+it's a solute, when tau goes--
+
+00:03:33.390 --> 00:03:35.550
+or when t goes to tau,
+the evaporation time,
+
+00:03:35.550 --> 00:03:37.600
+so when you've reached
+the droplet nucleus stage,
+
+00:03:37.600 --> 00:03:43.340
+we're left with just
+alpha d times 1 minus RH.
+
+00:03:43.340 --> 00:03:47.150
+So that tells us sort of the
+fraction of solutes which
+
+00:03:47.150 --> 00:03:50.510
+are present as a function
+of relative humidity,
+
+00:03:50.510 --> 00:03:54.750
+but, also, as a function of
+time, as drying is going on.
+
+00:03:54.750 --> 00:03:57.770
+So now let's go back to
+this dynamical equation.
+
+00:03:57.770 --> 00:03:59.250
+And let's go ahead and solve it.
+
+00:03:59.250 --> 00:04:02.810
+So this is a first-order,
+separable-order differential
+
+00:04:02.810 --> 00:04:03.930
+equation.
+
+00:04:03.930 --> 00:04:11.090
+So what we can do is write this
+as minus d Nv over lambda v0.
+
+00:04:11.090 --> 00:04:16.440
+Nv is equal to phi d of t dt.
+
+00:04:16.440 --> 00:04:18.410
+So we've put all
+the N's on one side
+
+00:04:18.410 --> 00:04:20.200
+and the t's on the other side.
+
+00:04:20.200 --> 00:04:23.110
+And so we can actually then
+integrate this equation.
+
+00:04:23.110 --> 00:04:27.750
+And so the integral of dN over
+N is the natural log of N.
+
+00:04:27.750 --> 00:04:31.560
+So we can write this as
+minus 1 over lambda v0
+
+00:04:31.560 --> 00:04:35.909
+natural log of Nv
+over Nv0, which
+
+00:04:35.909 --> 00:04:37.990
+is the initial value of Nv.
+
+00:04:37.990 --> 00:04:40.200
+And, in time, we're integrating
+from the initial time
+
+00:04:40.200 --> 00:04:51.030
+0 up to the droplet nucleus
+time tau of phi d of t dt.
+
+00:04:51.030 --> 00:04:54.120
+So, substituting our
+expression right here,
+
+00:04:54.120 --> 00:04:58.830
+we then see that we have
+alpha d phi s0 times
+
+00:04:58.830 --> 00:05:07.890
+the integral from 0 to tau
+dt over 1 minus t over tau e
+
+00:05:07.890 --> 00:05:10.650
+to the 3/2.
+
+00:05:10.650 --> 00:05:16.340
+And we can do that integral
+and get alpha d phi s0.
+
+00:05:16.340 --> 00:05:17.140
+And then let's see.
+
+00:05:17.140 --> 00:05:19.580
+To get the integration
+variable, we
+
+00:05:19.580 --> 00:05:24.230
+need to have a tau e here and
+write that as dt over tau e.
+
+00:05:24.230 --> 00:05:28.580
+And, doing the integral,
+we would get 2 times 1
+
+00:05:28.580 --> 00:05:34.440
+over square root of 1 minus
+tau over tau e minus 1,
+
+00:05:34.440 --> 00:05:37.220
+evaluating at the two
+limits of integration,
+
+00:05:37.220 --> 00:05:39.560
+taking into account the
+integral of the-- antiderivative
+
+00:05:39.560 --> 00:05:45.320
+of integrand there is 1
+over 1 minus t over tau e
+
+00:05:45.320 --> 00:05:49.490
+to the 1/2 power times 2.
+
+00:05:49.490 --> 00:05:51.290
+So, putting all
+this together then,
+
+00:05:51.290 --> 00:05:55.020
+we can write the viability.
+
+00:05:55.020 --> 00:06:05.140
+So we can write the log
+of Nv over Nv0 as minus--
+
+00:06:05.140 --> 00:06:06.350
+we have all this stuff here--
+
+00:06:06.350 --> 00:06:13.510
+2 alpha d phi s0 lambda
+v0, putting the lambda
+
+00:06:13.510 --> 00:06:16.340
+v0 back on the other
+side with the minus sign.
+
+00:06:16.340 --> 00:06:21.330
+And then we have
+times two factors.
+
+00:06:21.330 --> 00:06:24.140
+So, first, there's
+the factor, which
+
+00:06:24.140 --> 00:06:30.620
+we know has units of time,
+which is R0 squared over d bar.
+
+00:06:30.620 --> 00:06:35.180
+So that's, essentially, kind
+of a water vapor diffusion time
+
+00:06:35.180 --> 00:06:38.210
+that comes into the
+evaporation time, tau e.
+
+00:06:38.210 --> 00:06:40.409
+So that sets the timescale here.
+
+00:06:40.409 --> 00:06:42.080
+But then what we're
+really interested in
+
+00:06:42.080 --> 00:06:44.490
+is the relative humidity effect.
+
+00:06:44.490 --> 00:06:47.370
+So that would be--
+
+00:06:47.370 --> 00:06:48.000
+let's see here.
+
+00:06:48.000 --> 00:06:56.520
+So we have this factor,
+and then we also have the--
+
+00:06:56.520 --> 00:06:57.020
+let's see.
+
+00:06:57.020 --> 00:07:00.980
+The 1 minus RH is
+coming in where?
+
+00:07:00.980 --> 00:07:03.110
+Sorry, so, 1 over square
+root of tau, this one
+
+00:07:03.110 --> 00:07:04.640
+is from right here.
+
+00:07:04.640 --> 00:07:08.640
+That's R over R of tau.
+
+00:07:08.640 --> 00:07:12.120
+And R of tau is, by
+definition, R equilibrium.
+
+00:07:12.120 --> 00:07:13.770
+So it's this factor here.
+
+00:07:13.770 --> 00:07:25.010
+So we get 1 minus RH over
+phi s0 to the 1/3 minus 1.
+
+00:07:25.010 --> 00:07:31.130
+And then we also
+have this factor
+
+00:07:31.130 --> 00:07:40.080
+of 1 minus RH that comes,
+yes, from the tau e
+
+00:07:40.080 --> 00:07:42.890
+because the tau e has this
+sort of basic timescale,
+
+00:07:42.890 --> 00:07:45.920
+but there's also a factor of
+1 minus RH that I've included.
+
+00:07:45.920 --> 00:07:47.600
+So the point of
+all this theory was
+
+00:07:47.600 --> 00:07:50.090
+to try to understand
+what is the dependence
+
+00:07:50.090 --> 00:07:53.060
+on relative humidity, which is
+what I've shown here in white.
+
+00:07:53.060 --> 00:07:57.550
+And, if you plot this
+function, then what you find
+
+00:07:57.550 --> 00:07:59.330
+is a function of
+relative humidity.
+
+00:08:06.590 --> 00:08:12.320
+Then, if you do here
+log of Nv over Nv0--
+
+00:08:12.320 --> 00:08:18.640
+so this is our relative
+viability of the virus,
+
+00:08:18.640 --> 00:08:22.870
+and the 0 here corresponds
+to Nv0, the initial--
+
+00:08:22.870 --> 00:08:24.910
+then, this white function,
+what this looks like
+
+00:08:24.910 --> 00:08:27.580
+is something, which
+decays like this.
+
+00:08:27.580 --> 00:08:29.500
+It kind of reaches
+a minimum around 80
+
+00:08:29.500 --> 00:08:31.960
+or in this range from
+sort of 60 to 80,
+
+00:08:31.960 --> 00:08:36.010
+depending on what the values
+of this parameter phi s0
+
+00:08:36.010 --> 00:08:37.270
+is in fact.
+
+00:08:37.270 --> 00:08:39.650
+And then it goes back up again.
+
+00:08:39.650 --> 00:08:41.650
+So, basically, we get a
+shape for the dependence
+
+00:08:41.650 --> 00:08:44.070
+of the relative humanity
+that nicely matches
+
+00:08:44.070 --> 00:08:48.690
+the experimental data and is
+consistent with the hypothesis
+
+00:08:48.690 --> 00:08:53.050
+of disinfection kinetics that
+was postulated by Lin and Marr.

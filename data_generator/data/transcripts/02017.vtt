@@ -1,0 +1,871 @@
+WEBVTT
+
+00:00:11.000 --> 00:00:13.280
+PROFESSOR: So let's think
+of a specific virus,
+
+00:00:13.280 --> 00:00:17.670
+the coronavirus, including
+the case of interest today,
+
+00:00:17.670 --> 00:00:21.920
+which is the SARS-CoV-2
+novel coronavirus.
+
+00:00:21.920 --> 00:00:26.210
+So this virus comes
+in the form of virion,
+
+00:00:26.210 --> 00:00:29.390
+which is the capsid
+containing RNA, which
+
+00:00:29.390 --> 00:00:31.940
+is then going to infect a cell.
+
+00:00:31.940 --> 00:00:37.700
+And the size of that virion is
+around 120 nanometer diameter,
+
+00:00:37.700 --> 00:00:40.980
+and it's nearly
+a perfect sphere.
+
+00:00:40.980 --> 00:00:46.320
+Now, the size here of 120
+nanometers compared to bacteria
+
+00:00:46.320 --> 00:00:55.550
+is about 1,000 times
+smaller than [some] bacteria.
+
+00:00:55.550 --> 00:00:58.720
+So this actually has
+a very big implication
+
+00:00:58.720 --> 00:01:03.790
+in terms of how a virion can
+be spread from one organism
+
+00:01:03.790 --> 00:01:04.370
+to another.
+
+00:01:04.370 --> 00:01:05.890
+So the bacteria,
+if you recall, are
+
+00:01:05.890 --> 00:01:07.480
+the size of several microns.
+
+00:01:07.480 --> 00:01:10.690
+That's the scale of large
+droplets, which sediment --
+
+00:01:10.690 --> 00:01:12.250
+or larger than that,
+they would begin
+
+00:01:12.250 --> 00:01:13.700
+to sediment out of the air.
+
+00:01:13.700 --> 00:01:16.600
+And we can think about
+transmission through coughing.
+
+00:01:16.600 --> 00:01:19.510
+Also, besides the fact that
+the virus is much smaller,
+
+00:01:19.510 --> 00:01:20.380
+it cannot swim.
+
+00:01:24.970 --> 00:01:28.060
+So bacteria have various
+means of locomotion -- cilia,
+
+00:01:28.060 --> 00:01:32.380
+flagella, et cetera, whereas
+the virion essentially
+
+00:01:32.380 --> 00:01:34.060
+is a little hard sphere.
+
+00:01:34.060 --> 00:01:37.430
+So how can a virion
+actually transmit itself?
+
+00:01:37.430 --> 00:01:41.789
+Well, if we draw
+a droplet, which
+
+00:01:41.789 --> 00:01:47.250
+is released by
+respiration, then the virus
+
+00:01:47.250 --> 00:01:51.780
+is actually extremely small, at
+the scale of typical droplets
+
+00:01:51.780 --> 00:01:55.509
+that come from respiration,
+which, as we've discussed,
+
+00:01:55.509 --> 00:01:58.770
+have a typical, most
+probable size around half
+
+00:01:58.770 --> 00:02:01.740
+a micron, and then
+have mostly droplets
+
+00:02:01.740 --> 00:02:03.610
+that are larger than that.
+
+00:02:03.610 --> 00:02:07.440
+So at that scale, if we think of
+this as a micron scale droplet,
+
+00:02:07.440 --> 00:02:10.470
+this little virus
+is extremely small.
+
+00:02:10.470 --> 00:02:13.270
+It's like a little
+point, essentially.
+
+00:02:13.270 --> 00:02:17.230
+And so a single droplet may
+contain a couple viruses,
+
+00:02:17.230 --> 00:02:19.860
+a couple virions.
+
+00:02:19.860 --> 00:02:24.060
+And so in order for the
+virion to escape the droplet
+
+00:02:24.060 --> 00:02:27.930
+and make connection
+with a cell in a host,
+
+00:02:27.930 --> 00:02:30.670
+let's say it's been breathed
+in, and in the lungs,
+
+00:02:30.670 --> 00:02:32.340
+it's going to try to
+meet with some cell
+
+00:02:32.340 --> 00:02:33.900
+and begin to infect it.
+
+00:02:33.900 --> 00:02:38.040
+Or conversely, if the virion
+is being shed and released
+
+00:02:38.040 --> 00:02:40.440
+from an infected
+cell and then needs
+
+00:02:40.440 --> 00:02:43.200
+to go into a droplet to
+then be exhaled and spread
+
+00:02:43.200 --> 00:02:46.170
+to somebody else,
+either way, the virion
+
+00:02:46.170 --> 00:02:48.220
+has to get in and
+out of this droplet.
+
+00:02:48.220 --> 00:02:51.240
+And since it cannot swim,
+the only way can do it is
+
+00:02:51.240 --> 00:02:54.780
+by essentially a random
+walk or a diffusion process,
+
+00:02:54.780 --> 00:02:57.360
+where it's just bouncing around
+due to thermal fluctuations.
+
+00:02:57.360 --> 00:03:02.040
+And eventually, at some
+point, it gets out.
+
+00:03:02.040 --> 00:03:09.640
+So the diffusion process -- we
+can estimate the typical time
+
+00:03:09.640 --> 00:03:10.140
+to escape.
+
+00:03:13.500 --> 00:03:16.650
+I'll write it this way --
+
+00:03:16.650 --> 00:03:20.730
+[it] can be shown if the
+radius of the droplet
+
+00:03:20.730 --> 00:03:25.710
+is R, the average
+time for a randomly
+
+00:03:25.710 --> 00:03:28.680
+distributed and selected virion
+anywhere in this droplet,
+
+00:03:28.680 --> 00:03:32.280
+the time for it to escape is
+of order R squared over D,
+
+00:03:32.280 --> 00:03:34.260
+where D if the diffusivity.
+
+00:03:34.260 --> 00:03:37.350
+And if you do a precise
+calculation for a sphere,
+
+00:03:37.350 --> 00:03:41.030
+then there's a
+factor of 15 here.
+
+00:03:41.030 --> 00:03:52.470
+And so that is basically average
+escape time by diffusion.
+
+00:03:57.320 --> 00:03:59.680
+So that gives you a sense
+of how quickly the virion is
+
+00:03:59.680 --> 00:04:01.390
+able to get out of the cell --
+
+00:04:04.660 --> 00:04:07.060
+or out of the
+droplet, excuse me.
+
+00:04:07.060 --> 00:04:10.000
+Now, how big is the diffusivity?
+
+00:04:10.000 --> 00:04:14.680
+Well, the diffusivity
+of the virus,
+
+00:04:14.680 --> 00:04:16.810
+if you think of it just
+as a fluctuating sphere
+
+00:04:16.810 --> 00:04:21.899
+in a viscous medium, then we can
+use the Stokes-Einstein formula
+
+00:04:21.899 --> 00:04:25.940
+for the diffusivity,
+which is k_B*T,
+
+00:04:25.940 --> 00:04:28.950
+where k is Boltzmann constant
+and T is the temperature.
+
+00:04:28.950 --> 00:04:32.100
+So k*T is the thermal
+energy of the fluctuations.
+
+00:04:32.100 --> 00:04:38.940
+And that's divided by 6*pi
+times the radius of the virus,
+
+00:04:38.940 --> 00:04:43.950
+and then the viscosity
+of the liquid or fluid
+
+00:04:43.950 --> 00:04:45.480
+containing the droplet.
+
+00:04:45.480 --> 00:04:47.340
+So essentially, this
+denominator here
+
+00:04:47.340 --> 00:04:50.580
+is the Stokes drag coefficient
+for a sphere fluctuating
+
+00:04:50.580 --> 00:04:52.650
+in a viscous medium.
+
+00:04:52.650 --> 00:04:54.030
+So that's the diffusivity.
+
+00:04:54.030 --> 00:04:58.470
+And if you figure out for the
+size of 120 nanometers, if we
+
+00:04:58.470 --> 00:05:02.040
+use the viscosity of water, if
+we assume the droplets are just
+
+00:05:02.040 --> 00:05:08.280
+water, then this is
+3.6e-8 centimeters
+
+00:05:08.280 --> 00:05:12.270
+squared per second
+in water, where
+
+00:05:12.270 --> 00:05:15.920
+we use the viscosity of water.
+
+00:05:15.920 --> 00:05:18.500
+But the droplets
+are not just water.
+
+00:05:18.500 --> 00:05:19.610
+In fact, they cannot be.
+
+00:05:19.610 --> 00:05:22.460
+As we've already discussed,
+water droplets at this size
+
+00:05:22.460 --> 00:05:26.120
+range would very quickly
+evaporate and disappear,
+
+00:05:26.120 --> 00:05:28.400
+or they would leave
+the virus essentially,
+
+00:05:28.400 --> 00:05:32.990
+a virion no longer
+contained in such a droplet.
+
+00:05:32.990 --> 00:05:38.150
+So what's more typical is
+that the droplet in fact
+
+00:05:38.150 --> 00:05:40.670
+contains many
+macromolecules and is
+
+00:05:40.670 --> 00:05:46.280
+coming from mucus in the
+pharynx, in the vocal cords,
+
+00:05:46.280 --> 00:05:48.680
+coming from the lungs directly.
+
+00:05:48.680 --> 00:05:51.590
+And mucus has a much
+higher viscosity.
+
+00:05:51.590 --> 00:05:54.260
+So notice, here, we
+have the viscosity
+
+00:05:54.260 --> 00:05:55.790
+of the liquid coming in.
+
+00:05:55.790 --> 00:05:57.710
+And if we take into
+account the fact
+
+00:05:57.710 --> 00:06:03.260
+that the viscosity of mucus
+relative to the viscosity
+
+00:06:03.260 --> 00:06:07.220
+of water is roughly --
+
+00:06:07.220 --> 00:06:09.890
+it depends where the
+samples are taken
+
+00:06:09.890 --> 00:06:11.180
+and also what's the shear rate.
+
+00:06:11.180 --> 00:06:12.770
+So we're talking
+about low shear rate.
+
+00:06:12.770 --> 00:06:14.120
+These are sort of moving slowly.
+
+00:06:14.120 --> 00:06:16.100
+The viscosity of
+mucus is dependent
+
+00:06:16.100 --> 00:06:18.060
+how quickly you're shearing it.
+
+00:06:18.060 --> 00:06:23.240
+But if it's a low shear rate,
+then this is on the order of
+
+00:06:23.240 --> 00:06:28.340
+1e3 to 1e5 at low shear rates.
+
+00:06:34.900 --> 00:06:40.330
+And because the viscosity
+has that factor,
+
+00:06:40.330 --> 00:06:43.730
+the diffusivity is then
+divided by that factor.
+
+00:06:43.730 --> 00:06:46.030
+So what that's telling us is
+instead of being around
+
+00:06:46.030 --> 00:06:48.730
+1e-8 centimeters
+squared per second,
+
+00:06:48.730 --> 00:06:51.670
+we're really looking at
+more like 1e-11
+
+00:06:51.670 --> 00:06:54.430
+1e-13 centimeters
+
+00:06:54.430 --> 00:06:58.190
+squared per second in mucus.
+
+00:06:58.190 --> 00:07:00.400
+So we assume these are
+actually mucus droplets, which
+
+00:07:00.400 --> 00:07:05.500
+are not fully evaporating and
+are contained in aerosol form,
+
+00:07:05.500 --> 00:07:07.390
+then this is the
+kind of diffusivity.
+
+00:07:07.390 --> 00:07:09.310
+And if we plug into
+this formula here,
+
+00:07:09.310 --> 00:07:12.990
+we can get a sense of what is
+the average time for the virion
+
+00:07:12.990 --> 00:07:14.740
+to actually escape.
+
+00:07:14.740 --> 00:07:32.680
+So why don't we make a
+little table of that result.
+
+00:07:32.680 --> 00:07:37.050
+So let's look at the radius.
+
+00:07:37.050 --> 00:07:41.880
+First, let's consider here 0.5
+microns, or 500 nanometers.
+
+00:07:41.880 --> 00:07:45.180
+So that would be a
+1-micron diameter droplet.
+
+00:07:45.180 --> 00:07:48.090
+So that would be kind of a
+typical aerosol droplet coming
+
+00:07:48.090 --> 00:07:49.320
+from breathing.
+
+00:07:49.320 --> 00:07:51.500
+Let's also consider
+larger droplets.
+
+00:07:51.500 --> 00:07:52.980
+So let's look at
+5 microns, which
+
+00:07:52.980 --> 00:07:55.740
+is kind of on the upper
+end of the aerosol range.
+
+00:07:55.740 --> 00:07:59.159
+And then we could
+look at 50 microns.
+
+00:07:59.159 --> 00:08:01.740
+And I should say this
+is R of the drop.
+
+00:08:01.740 --> 00:08:04.530
+So the R here, just to be
+careful, is they R of the drop,
+
+00:08:04.530 --> 00:08:09.330
+as opposed to the R of
+the virus, which is R_v
+
+00:08:09.330 --> 00:08:17.270
+is half d, so that's
+60 nanometers.
+
+00:08:17.270 --> 00:08:19.670
+OK, so that's the diameter.
+
+00:08:19.670 --> 00:08:21.800
+So this is the different
+size of the drops.
+
+00:08:21.800 --> 00:08:26.870
+And just for comparison, let's
+look at water versus mucus.
+
+00:08:26.870 --> 00:08:28.680
+And from mucus,
+why don't we take
+
+00:08:28.680 --> 00:08:35.520
+that the viscosity of the
+mucus is 1e4 times
+
+00:08:35.520 --> 00:08:37.169
+the viscosity of water?
+
+00:08:37.169 --> 00:08:40.480
+So we just pick something kind
+of in the middle of this range.
+
+00:08:40.480 --> 00:08:43.000
+OK, well, if we plug
+in then the numbers
+
+00:08:43.000 --> 00:08:47.530
+and we try to plot the average
+escape time that I've just
+
+00:08:47.530 --> 00:08:51.250
+written here, R^2/(15*D),
+then in water,
+
+00:08:51.250 --> 00:08:54.820
+this turns out to be
+about 5 milliseconds
+
+00:08:54.820 --> 00:08:56.290
+for an aerosol droplet.
+
+00:08:56.290 --> 00:08:58.960
+So we know the aerosol droplets
+are evaporating quickly
+
+00:08:58.960 --> 00:09:00.850
+and also that a
+virus can diffuse out
+
+00:09:00.850 --> 00:09:03.280
+of it relatively quickly,
+because the water is not
+
+00:09:03.280 --> 00:09:04.510
+really that this.
+
+00:09:04.510 --> 00:09:06.820
+Now, if we move
+in this direction,
+
+00:09:06.820 --> 00:09:09.400
+we're multiplying R by 10.
+
+00:09:09.400 --> 00:09:12.230
+And notice, the time scale
+goes like R^2.
+
+00:09:12.230 --> 00:09:14.350
+So there is a pretty
+strong size dependence.
+
+00:09:14.350 --> 00:09:17.380
+So as we think of a 10
+times larger droplet,
+
+00:09:17.380 --> 00:09:19.610
+it's 100 times longer time.
+
+00:09:19.610 --> 00:09:25.750
+So that would be 500
+milliseconds, or 0.5 seconds.
+
+00:09:25.750 --> 00:09:27.610
+And if we go another
+factor of 10,
+
+00:09:27.610 --> 00:09:29.410
+that's another factor
+of 100 in time.
+
+00:09:29.410 --> 00:09:32.410
+And if we convert
+seconds to minutes,
+
+00:09:32.410 --> 00:09:34.960
+it turns out to be
+around 8 minutes
+
+00:09:34.960 --> 00:09:37.150
+for a fairly large drop.
+
+00:09:37.150 --> 00:09:39.010
+Now, what if we're in a mucus?
+
+00:09:39.010 --> 00:09:41.500
+So now, we go in this direction.
+
+00:09:41.500 --> 00:09:46.940
+The timescale goes like 1/D, and
+D goes like 1 over viscosity.
+
+00:09:46.940 --> 00:09:49.590
+So the timescale is
+proportional to viscosity.
+
+00:09:49.590 --> 00:09:52.390
+So we're getting this
+factor of 1e4.
+
+00:09:52.390 --> 00:09:55.800
+That's a pretty big factor.
+
+00:09:55.800 --> 00:09:59.290
+And so, for example, this
+5 milliseconds for mucus
+
+00:09:59.290 --> 00:10:01.390
+can turn into 1 minute.
+
+00:10:01.390 --> 00:10:03.550
+So from an aerosol
+droplet, which
+
+00:10:03.550 --> 00:10:08.200
+is sort of at the most probable
+size from respiration, which
+
+00:10:08.200 --> 00:10:11.300
+is on the order of a
+little bit below 1 micron,
+
+00:10:11.300 --> 00:10:14.170
+a typical virion would
+take about a minute
+
+00:10:14.170 --> 00:10:18.910
+to diffuse out of that droplet
+and infect a nearby cell
+
+00:10:18.910 --> 00:10:20.900
+or tissue.
+
+00:10:20.900 --> 00:10:24.010
+Now, if we look at a little bit
+bigger droplets, this 1 minute,
+
+00:10:24.010 --> 00:10:26.170
+we multiply by 100,
+it's 100 minutes, which
+
+00:10:26.170 --> 00:10:30.150
+is on the order of 1.5 hours.
+
+00:10:30.150 --> 00:10:33.180
+And what if we keep going
+another factor of 100?
+
+00:10:33.180 --> 00:10:37.110
+That turns into around 7 days.
+
+00:10:37.110 --> 00:10:40.220
+So if the virion is contained
+in one of the larger droplets
+
+00:10:40.220 --> 00:10:42.350
+that comes from
+coughing or sneezing,
+
+00:10:42.350 --> 00:10:46.850
+it could take it hours to days
+to escape from that droplet
+
+00:10:46.850 --> 00:10:50.760
+and have any chance of
+infecting a host cell.
+
+00:10:50.760 --> 00:10:53.150
+So you can immediately see
+the problem for a virus
+
+00:10:53.150 --> 00:10:55.880
+in terms of transmitting
+is it can't swim.
+
+00:10:55.880 --> 00:10:57.560
+It's extremely small.
+
+00:10:57.560 --> 00:11:00.320
+And so it's not a good
+way to transmit itself
+
+00:11:00.320 --> 00:11:03.740
+to be sitting in a large
+droplet or a pool of liquid,
+
+00:11:03.740 --> 00:11:06.770
+imagine a pool of
+saliva or some phlegm
+
+00:11:06.770 --> 00:11:08.600
+that you've just
+coughed up, which
+
+00:11:08.600 --> 00:11:10.970
+is very common for
+bacterial transmission.
+
+00:11:10.970 --> 00:11:12.790
+For a virus, it's
+much more difficult
+
+00:11:12.790 --> 00:11:16.520
+for a significant amount of
+virus to actually get out.
+
+00:11:16.520 --> 00:11:19.070
+So if the virus is going
+to transmit itself,
+
+00:11:19.070 --> 00:11:22.440
+it makes a lot more sense
+to be in aerosol droplets.
+
+00:11:22.440 --> 00:11:28.480
+And so it's really here,
+the aerosol droplets
+
+00:11:28.480 --> 00:11:35.970
+are the most infectious,
+because basically,
+
+00:11:35.970 --> 00:11:37.060
+the virus able to get out.
+
+00:11:37.060 --> 00:11:40.190
+And based on this
+calculation, roughly speaking,
+
+00:11:40.190 --> 00:11:45.790
+if R of the droplet, which
+we're just calling R,
+
+00:11:45.790 --> 00:11:48.850
+if R is less than
+around 5 microns,
+
+00:11:48.850 --> 00:11:50.590
+those are the ones
+we would expect
+
+00:11:50.590 --> 00:11:52.900
+to be the most infectious.
+
+00:11:52.900 --> 00:11:54.760
+And interestingly
+for SARS-CoV-2,
+
+00:11:54.760 --> 00:11:58.540
+recent experiments have sampled
+droplets from sick patients
+
+00:11:58.540 --> 00:12:01.570
+with COVID-19 at
+different sizes.
+
+00:12:01.570 --> 00:12:04.390
+And it was found that
+the droplets that
+
+00:12:04.390 --> 00:12:09.160
+had a diameter less
+than about 4 microns
+
+00:12:09.160 --> 00:12:11.260
+were the most infectious
+and clearly you
+
+00:12:11.260 --> 00:12:15.880
+could see replication
+of the viral RNA
+
+00:12:15.880 --> 00:12:18.430
+in samples of those
+droplets, whereas larger
+
+00:12:18.430 --> 00:12:20.740
+droplets in this
+range here, kind
+
+00:12:20.740 --> 00:12:25.660
+of larger than a few microns,
+were less infectious.
+
+00:12:25.660 --> 00:12:28.420
+And in fact, the virus was
+less able to replicate.
+
+00:12:28.420 --> 00:12:32.570
+So it's kind of consistent
+with this physical argument.
+
+00:12:32.570 --> 00:12:36.350
+So basically what we
+would probably say
+
+00:12:36.350 --> 00:12:44.150
+is that in this range, the
+virions are mostly trapped.
+
+00:12:44.150 --> 00:12:47.570
+They have a hard time
+getting out of those droplets
+
+00:12:47.570 --> 00:12:53.180
+and can deactivate over time,
+because that's also happening.
+
+00:12:53.180 --> 00:12:56.730
+They are believed to have
+a certain finite lifetime.
+
+00:12:56.730 --> 00:12:59.570
+And so this is the
+case that the virions
+
+00:12:59.570 --> 00:13:06.670
+are trapped and deactivate in
+large drops or the fomites,
+
+00:13:06.670 --> 00:13:10.030
+which are infectious residues
+on surfaces that are left over
+
+00:13:10.030 --> 00:13:11.860
+from those droplets.
+
+00:13:11.860 --> 00:13:13.840
+So this really shows
+us that our focus
+
+00:13:13.840 --> 00:13:16.480
+should be on looking
+at aerosol droplets
+
+00:13:16.480 --> 00:13:19.200
+for viral transmission.

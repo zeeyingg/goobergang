@@ -1,0 +1,1142 @@
+WEBVTT
+
+00:00:10.890 --> 00:00:12.330
+PROFESSOR: So now
+let's synthesize
+
+00:00:12.330 --> 00:00:17.670
+all of our models of aerosol
+generation and dynamics
+
+00:00:17.670 --> 00:00:22.170
+in a well-mixed indoor space
+and epidemiological models
+
+00:00:22.170 --> 00:00:25.920
+of spreading and transfer
+of disease in that space
+
+00:00:25.920 --> 00:00:29.970
+and formulate a safety
+guideline for COVID-19
+
+00:00:29.970 --> 00:00:32.610
+assuming indoor
+airborne transmission
+
+00:00:32.610 --> 00:00:34.630
+in a well-mixed room.
+
+00:00:34.630 --> 00:00:37.620
+And so there's a number of
+ways we could go about this.
+
+00:00:37.620 --> 00:00:39.960
+And the approach that
+I would like to propose
+
+00:00:39.960 --> 00:00:44.010
+is that we require that the
+indoor reproductive number is
+
+00:00:44.010 --> 00:00:45.540
+less than some tolerance.
+
+00:00:45.540 --> 00:00:49.640
+So this epsilon here
+is the tolerance.
+
+00:00:49.640 --> 00:00:52.970
+So typically something
+might be a lot less
+
+00:00:52.970 --> 00:00:56.270
+than 1 or maybe you get to
+allow it to be closer to 1.
+
+00:00:56.270 --> 00:00:58.700
+And so that is essentially
+the probability
+
+00:00:58.700 --> 00:01:04.069
+of a transmission
+from one infector that
+
+00:01:04.069 --> 00:01:16.010
+enters the room at t equals
+0 and stays for a time
+
+00:01:16.010 --> 00:01:20.830
+tau in the presence of a
+total number of n people
+
+00:01:20.830 --> 00:01:23.530
+in the room, which is the
+occupancy of the room.
+
+00:01:23.530 --> 00:01:25.360
+So obviously, this
+doesn't handle
+
+00:01:25.360 --> 00:01:26.770
+every possible situation.
+
+00:01:26.770 --> 00:01:29.590
+It is possible, if there is
+a very prevalent infection
+
+00:01:29.590 --> 00:01:32.170
+rate in the community
+that the room may
+
+00:01:32.170 --> 00:01:35.330
+find several infectors entering
+at once, in which case,
+
+00:01:35.330 --> 00:01:37.270
+we could certainly
+increase this number.
+
+00:01:37.270 --> 00:01:40.750
+And then the 1 here
+would be replaced by i0
+
+00:01:40.750 --> 00:01:42.940
+as we've seen before.
+
+00:01:42.940 --> 00:01:46.090
+On the other hand, if you're
+interested in controlling
+
+00:01:46.090 --> 00:01:48.250
+the spread of the
+disease and you're not
+
+00:01:48.250 --> 00:01:50.800
+worried about a specific person,
+but you just want to say,
+
+00:01:50.800 --> 00:01:53.729
+I would like to make
+this room not contribute
+
+00:01:53.729 --> 00:01:54.940
+to spreading of the disease--
+
+00:01:54.940 --> 00:01:57.100
+and imagine if
+everybody did that,
+
+00:01:57.100 --> 00:01:59.479
+then no rooms would contribute
+to spreading the disease--
+
+00:01:59.479 --> 00:02:03.070
+so then this criteria would
+say that if two infectors came,
+
+00:02:03.070 --> 00:02:05.660
+they might infect two
+people, or three infectors,
+
+00:02:05.660 --> 00:02:07.080
+you're worried
+about three people.
+
+00:02:07.080 --> 00:02:09.880
+Well we want to make sure is
+that the number of infectors
+
+00:02:09.880 --> 00:02:10.930
+is not growing.
+
+00:02:10.930 --> 00:02:12.730
+So in other words, if
+there's one infector,
+
+00:02:12.730 --> 00:02:15.250
+they don't infect another one.
+
+00:02:15.250 --> 00:02:16.960
+So the fact that there
+are more infectors
+
+00:02:16.960 --> 00:02:19.150
+gives a chance of at
+least some infection,
+
+00:02:19.150 --> 00:02:24.700
+but this seems like a more
+general and simpler criterion.
+
+00:02:24.700 --> 00:02:28.600
+It's also a little bit like
+when the fire department
+
+00:02:28.600 --> 00:02:30.790
+looks at a room and
+decides on occupancy
+
+00:02:30.790 --> 00:02:33.070
+limit for an indoor space.
+
+00:02:33.070 --> 00:02:34.730
+There's no fire going on.
+
+00:02:34.730 --> 00:02:38.110
+They're not estimating what's
+the probability of a fire.
+
+00:02:38.110 --> 00:02:40.060
+It's a conditional probability.
+
+00:02:40.060 --> 00:02:42.010
+They're saying,
+if there's a fire,
+
+00:02:42.010 --> 00:02:44.360
+we want to make sure
+these people can get out.
+
+00:02:44.360 --> 00:02:46.540
+And so they think about
+where the fire might start,
+
+00:02:46.540 --> 00:02:48.670
+where the smoke is,
+where are exits,
+
+00:02:48.670 --> 00:02:50.410
+and how many people
+can realistically
+
+00:02:50.410 --> 00:02:53.140
+get out of that room before
+the fire and the smoke
+
+00:02:53.140 --> 00:02:55.160
+reach a dangerous level.
+
+00:02:55.160 --> 00:02:58.450
+So this indoor safety
+guideline has a similar flavor,
+
+00:02:58.450 --> 00:03:01.780
+where we're essentially defining
+here the number of people
+
+00:03:01.780 --> 00:03:05.690
+and also the amount of occupancy
+time that would be allowable.
+
+00:03:05.690 --> 00:03:07.870
+So that it'd be unlikely
+for one infector
+
+00:03:07.870 --> 00:03:12.260
+to create a new infection
+and hence spread the disease.
+
+00:03:12.260 --> 00:03:13.850
+So that is the basic thinking.
+
+00:03:13.850 --> 00:03:25.100
+So this it's basically the
+conditional probability
+
+00:03:25.100 --> 00:03:34.760
+of spreading given this, that
+an infector enters at times 0
+
+00:03:34.760 --> 00:03:36.630
+and stays for a time t.
+
+00:03:36.630 --> 00:03:42.010
+So that's basically how we
+formulate the guideline.
+
+00:03:42.010 --> 00:03:43.700
+And now let's think about--
+
+00:03:43.700 --> 00:03:45.250
+already at this
+level without getting
+
+00:03:45.250 --> 00:03:49.150
+into the details of what goes
+into beta, which we've already
+
+00:03:49.150 --> 00:03:52.310
+talked about, there's a
+very important concept here,
+
+00:03:52.310 --> 00:03:57.940
+which is that if I define
+beta with brackets here to be
+
+00:03:57.940 --> 00:04:01.730
+the average transmission rate.
+
+00:04:01.730 --> 00:04:04.570
+So the transmission rate
+may be changing in time,
+
+00:04:04.570 --> 00:04:06.760
+for example, as droplets
+are building up in the room
+
+00:04:06.760 --> 00:04:07.970
+as we've discussed.
+
+00:04:07.970 --> 00:04:11.240
+But let's just think of kind of
+an average transmission rate.
+
+00:04:11.240 --> 00:04:14.430
+Then this integral in time
+is just beta brackets,
+
+00:04:14.430 --> 00:04:17.529
+beta average times tau.
+
+00:04:17.529 --> 00:04:19.750
+So if I put the beta
+bracket on the other side,
+
+00:04:19.750 --> 00:04:22.010
+I arrive at a very
+fundamental result,
+
+00:04:22.010 --> 00:04:24.740
+which is that the number of
+susceptibles in the room,
+
+00:04:24.740 --> 00:04:26.730
+which is roughly the occupancy--
+
+00:04:26.730 --> 00:04:28.360
+although, if you're
+very low occupancy,
+
+00:04:28.360 --> 00:04:31.690
+it's everybody but the infected
+person, so it's n minus 1--
+
+00:04:31.690 --> 00:04:36.490
+times the typical time spent in
+the room by the infected person
+
+00:04:36.490 --> 00:04:38.590
+is less than the
+tolerance divided
+
+00:04:38.590 --> 00:04:40.090
+by the average
+transmission rate.
+
+00:04:44.330 --> 00:04:45.980
+This is very simple
+and very general
+
+00:04:45.980 --> 00:04:50.300
+relationship, which does not
+depend on the details of beta.
+
+00:04:50.300 --> 00:04:52.640
+But what it's telling you is
+something which already you
+
+00:04:52.640 --> 00:04:55.610
+may recognize is very
+different than any
+
+00:04:55.610 --> 00:04:58.270
+of the existing official
+safety guidelines.
+
+00:04:58.270 --> 00:05:02.460
+Official safety guidelines
+always limit one quantity.
+
+00:05:02.460 --> 00:05:07.620
+For example, they might limit
+the number of people in a room.
+
+00:05:07.620 --> 00:05:11.710
+They also can get a limit such
+as that from social distancing.
+
+00:05:11.710 --> 00:05:13.700
+So you could take the
+area of the room, divide
+
+00:05:13.700 --> 00:05:16.550
+by a little six foot
+radius around each person--
+
+00:05:16.550 --> 00:05:19.550
+or a three foot
+radius or a six foot
+
+00:05:19.550 --> 00:05:21.740
+separation-- and
+get at an occupancy.
+
+00:05:21.740 --> 00:05:23.720
+So you fix n.
+
+00:05:23.720 --> 00:05:26.690
+The problem with that is
+that time has to play a role.
+
+00:05:26.690 --> 00:05:28.070
+If a certain number
+of people are
+
+00:05:28.070 --> 00:05:31.370
+in a room for a very short
+time, it's really unlikely
+
+00:05:31.370 --> 00:05:32.600
+to have any transmission.
+
+00:05:32.600 --> 00:05:34.970
+But if the same number
+stays for a very long time,
+
+00:05:34.970 --> 00:05:37.050
+eventually some transmission
+must take place.
+
+00:05:37.050 --> 00:05:38.860
+So time has to be important.
+
+00:05:38.860 --> 00:05:41.930
+You will also find
+limits on time.
+
+00:05:41.930 --> 00:05:44.659
+The CDC defines a contact
+where transmission
+
+00:05:44.659 --> 00:05:48.170
+is possible as being within six
+feet of an infectious person
+
+00:05:48.170 --> 00:05:49.550
+for more than 15 minutes.
+
+00:05:49.550 --> 00:05:51.050
+So there is a time
+constraint there.
+
+00:05:51.050 --> 00:05:52.890
+So it says that
+after 15 minutes,
+
+00:05:52.890 --> 00:05:56.090
+you should expect to be
+potentially infected.
+
+00:05:56.090 --> 00:05:57.680
+But the problem
+is that that's not
+
+00:05:57.680 --> 00:06:02.000
+accounting for transmission rate
+factors, such as ventilation
+
+00:06:02.000 --> 00:06:03.920
+and all the things
+that we've discussed,
+
+00:06:03.920 --> 00:06:05.240
+and also the occupancy.
+
+00:06:05.240 --> 00:06:06.680
+So how many people could
+you transmit it to?
+
+00:06:06.680 --> 00:06:08.210
+If you're by yourself
+in a room or there's
+
+00:06:08.210 --> 00:06:10.160
+only two or three people
+in a very large space,
+
+00:06:10.160 --> 00:06:12.170
+are you really going to
+transmit in 15 minutes?
+
+00:06:12.170 --> 00:06:14.090
+Not necessarily.
+
+00:06:14.090 --> 00:06:16.040
+And anyway, so
+that is the problem
+
+00:06:16.040 --> 00:06:20.040
+with those kinds of criteria.
+
+00:06:20.040 --> 00:06:22.370
+And it can be easily seen by
+plotting this relationship
+
+00:06:22.370 --> 00:06:22.870
+here.
+
+00:06:26.520 --> 00:06:30.870
+So by the way,
+this quantity here,
+
+00:06:30.870 --> 00:06:34.680
+which is the product of n
+and t, or n minus one and t,
+
+00:06:34.680 --> 00:06:42.500
+is what I like to call the
+cumulative you exposure time.
+
+00:06:46.470 --> 00:06:49.190
+So the time that you're exposed
+to the infected individual,
+
+00:06:49.190 --> 00:06:53.659
+tau, is multiplied by how many
+other people are in the room
+
+00:06:53.659 --> 00:06:56.760
+because that's how many
+people could get infected.
+
+00:06:56.760 --> 00:06:59.990
+So the more people that there
+are, the more chance that one
+
+00:06:59.990 --> 00:07:02.800
+of them could be infected
+in a well-mixed room.
+
+00:07:02.800 --> 00:07:04.760
+And so you really don't have
+a bound just on time.
+
+00:07:04.760 --> 00:07:07.020
+It's really this product
+that's important.
+
+00:07:07.020 --> 00:07:09.210
+And so let's plot what
+this looks like now.
+
+00:07:09.210 --> 00:07:14.900
+So if we have here the time
+and here the occupancy,
+
+00:07:14.900 --> 00:07:20.770
+then this guideline is a
+bound that looks like this.
+
+00:07:20.770 --> 00:07:22.770
+It saturates at one.
+
+00:07:26.920 --> 00:07:30.280
+So basically, if you're
+below this guideline here,
+
+00:07:30.280 --> 00:07:31.330
+you're considered safe.
+
+00:07:37.440 --> 00:07:40.070
+And up here is
+potentially unsafe.
+
+00:07:40.070 --> 00:07:42.770
+Meaning that given the
+tolerance that you've chosen,
+
+00:07:42.770 --> 00:07:44.150
+you would expect
+that there could
+
+00:07:44.150 --> 00:07:47.460
+be a transmission with
+greater than that probability.
+
+00:07:47.460 --> 00:07:48.850
+OK.
+
+00:07:48.850 --> 00:07:51.470
+It saturates at one because
+it will never go below one.
+
+00:07:51.470 --> 00:07:53.350
+Because only one
+person, you're not
+
+00:07:53.350 --> 00:07:54.760
+going to transmit to anybody.
+
+00:07:54.760 --> 00:07:56.140
+So it's OK.
+
+00:07:56.140 --> 00:07:58.760
+So an occupancy of one is
+OK, except in a building
+
+00:07:58.760 --> 00:08:00.640
+where perhaps other
+people have come and gone
+
+00:08:00.640 --> 00:08:02.800
+from that room or ventilation
+is bringing particles
+
+00:08:02.800 --> 00:08:03.510
+from other rooms.
+
+00:08:03.510 --> 00:08:04.670
+And we'll come back to that.
+
+00:08:04.670 --> 00:08:06.850
+But just at the simple
+level of analyzing one room,
+
+00:08:06.850 --> 00:08:09.130
+obviously one is fine.
+
+00:08:09.130 --> 00:08:11.500
+And here you see a very
+fundamental problem
+
+00:08:11.500 --> 00:08:13.930
+that I was just
+alluding to, which
+
+00:08:13.930 --> 00:08:18.250
+is that if I put the standard
+guidelines on-- for example,
+
+00:08:18.250 --> 00:08:21.740
+a limit on number of people.
+
+00:08:21.740 --> 00:08:26.100
+So this could be
+fixed occupancy.
+
+00:08:28.760 --> 00:08:36.179
+And in fact, in Massachusetts,
+for example, right now
+
+00:08:36.179 --> 00:08:39.350
+there is a guideline which
+says n is less than 25.
+
+00:08:39.350 --> 00:08:42.870
+No more than 25 persons
+can congregate in a room.
+
+00:08:42.870 --> 00:08:45.020
+In fact, I'm teaching
+class right now which
+
+00:08:45.020 --> 00:08:48.420
+we have 51 people, and I was
+able to split into two rooms.
+
+00:08:48.420 --> 00:08:50.170
+And then this rule
+came along, and then we
+
+00:08:50.170 --> 00:08:53.000
+had to start doing three,
+remotely broadcasting
+
+00:08:53.000 --> 00:08:56.150
+between those rooms because
+we have a 25 person rule.
+
+00:08:56.150 --> 00:08:58.820
+The problem with that rule is it
+doesn't take into account time.
+
+00:08:58.820 --> 00:09:00.920
+What if my class is
+only five minutes long?
+
+00:09:00.920 --> 00:09:03.290
+Or let's say it's
+one-hour long, OK.
+
+00:09:03.290 --> 00:09:06.680
+In that time, if I don't have
+an expectation transmission,
+
+00:09:06.680 --> 00:09:07.370
+I should be OK.
+
+00:09:07.370 --> 00:09:08.910
+On the other hand,
+if those 20 people
+
+00:09:08.910 --> 00:09:11.050
+sit in the classroom
+for several weeks,
+
+00:09:11.050 --> 00:09:13.550
+it's pretty likely that if an
+infected person is among them,
+
+00:09:13.550 --> 00:09:14.750
+there will be a transmission.
+
+00:09:14.750 --> 00:09:16.280
+So time has to come in.
+
+00:09:16.280 --> 00:09:17.840
+And that you see
+very clearly here
+
+00:09:17.840 --> 00:09:21.780
+from the crossing of the fixed
+occupancy with the safety
+
+00:09:21.780 --> 00:09:22.660
+guideline.
+
+00:09:29.490 --> 00:09:33.790
+So for a short amount of
+time, the fixed occupancy,
+
+00:09:33.790 --> 00:09:36.030
+which is telling you
+should be under this--
+
+00:09:36.030 --> 00:09:38.790
+so basically you should
+only have a lower occupancy.
+
+00:09:38.790 --> 00:09:41.790
+So this is a fixed
+occupancy bound.
+
+00:09:41.790 --> 00:09:44.400
+For example, the one
+in Massachusetts.
+
+00:09:44.400 --> 00:09:47.250
+At first, this is
+too conservative.
+
+00:09:50.990 --> 00:09:53.600
+So you are telling people
+they cannot be in the space,
+
+00:09:53.600 --> 00:09:55.310
+but until this amount
+of time has passed,
+
+00:09:55.310 --> 00:09:57.950
+it's very unlikely that
+anybody would transmit.
+
+00:09:57.950 --> 00:09:59.290
+Imagine this time as one minute.
+
+00:09:59.290 --> 00:10:01.880
+It's pretty unlikely that you're
+going to have a transmission.
+
+00:10:01.880 --> 00:10:03.500
+On the other hand,
+if you keep waiting,
+
+00:10:03.500 --> 00:10:05.780
+you always cross
+the yellow line.
+
+00:10:05.780 --> 00:10:12.550
+And over here it's too risky
+and too dangerous, basically.
+
+00:10:12.550 --> 00:10:14.390
+Because you're allowing
+people to think that
+
+00:10:14.390 --> 00:10:16.250
+they're safe because
+there's only 25.
+
+00:10:16.250 --> 00:10:19.280
+But let's say this crossover
+happens after one hour,
+
+00:10:19.280 --> 00:10:21.200
+and the people are in
+the room for five hours,
+
+00:10:21.200 --> 00:10:23.570
+there's a very high
+risk of transmission.
+
+00:10:23.570 --> 00:10:25.910
+So just putting out
+a number like 25
+
+00:10:25.910 --> 00:10:28.370
+doesn't really protect you
+because these lines always
+
+00:10:28.370 --> 00:10:29.360
+cross.
+
+00:10:29.360 --> 00:10:33.120
+You will always cross the safety
+guideline at a certain time.
+
+00:10:33.120 --> 00:10:34.660
+That's the safe time.
+
+00:10:34.660 --> 00:10:35.510
+OK.
+
+00:10:35.510 --> 00:10:38.030
+Similarly, so basically-- so
+let me just kind of stress that
+
+00:10:38.030 --> 00:10:38.530
+here.
+
+00:10:38.530 --> 00:10:42.360
+So this is basically, what
+we're really concerned is this.
+
+00:10:42.360 --> 00:10:44.370
+We're very concerned
+about situations
+
+00:10:44.370 --> 00:10:47.460
+where a guideline is giving
+people the sense of protection,
+
+00:10:47.460 --> 00:10:50.290
+and in fact they're
+at high-risk.
+
+00:10:50.290 --> 00:10:52.510
+We're also concerned
+about this case here.
+
+00:10:52.510 --> 00:10:55.070
+Because for example, as
+in the case of my class,
+
+00:10:55.070 --> 00:10:57.670
+we might be causing some
+damage to people's education
+
+00:10:57.670 --> 00:10:59.890
+or to their businesses
+or to the economy
+
+00:10:59.890 --> 00:11:03.160
+by shutting down a certain
+space or imposing a limit that
+
+00:11:03.160 --> 00:11:05.500
+doesn't have really a strong
+scientific basis because we
+
+00:11:05.500 --> 00:11:06.950
+don't expect
+transmission to happen
+
+00:11:06.950 --> 00:11:08.180
+under those circumstances.
+
+00:11:08.180 --> 00:11:09.430
+So we're concerned about both.
+
+00:11:09.430 --> 00:11:12.010
+But I'm particularly concerned
+about the overly risky case
+
+00:11:12.010 --> 00:11:14.740
+because that is contributing
+to transmission of the disease,
+
+00:11:14.740 --> 00:11:18.120
+and potentially loss of life.
+
+00:11:18.120 --> 00:11:19.750
+Now, if we look in
+the other direction,
+
+00:11:19.750 --> 00:11:22.150
+we have the same kind of issue.
+
+00:11:22.150 --> 00:11:25.250
+So if we have a time limit--
+for example, let's say here.
+
+00:11:25.250 --> 00:11:29.940
+You know, this
+could be like this.
+
+00:11:29.940 --> 00:11:34.390
+So this would be a fixed time.
+
+00:11:34.390 --> 00:11:39.630
+For example, 15
+minutes from the CDC
+
+00:11:39.630 --> 00:11:41.260
+is the time they
+recommend for contact.
+
+00:11:41.260 --> 00:11:43.020
+So that's a pretty short time.
+
+00:11:43.020 --> 00:11:45.360
+OK, and what a
+guideline like that says
+
+00:11:45.360 --> 00:11:47.430
+is that if you're
+in the presence
+
+00:11:47.430 --> 00:11:48.600
+of an infected person--
+
+00:11:48.600 --> 00:11:54.780
+sufficiently close-- for 15
+minutes, then here you're safe,
+
+00:11:54.780 --> 00:11:56.210
+but over here you're unsafe.
+
+00:11:56.210 --> 00:11:57.840
+But again, you have
+the same phenomena.
+
+00:11:57.840 --> 00:11:59.830
+Now, 15 minutes is
+a pretty short time,
+
+00:11:59.830 --> 00:12:02.490
+so that's typically
+going to be safe.
+
+00:12:02.490 --> 00:12:05.250
+But again, in this region
+it's too conservative.
+
+00:12:05.250 --> 00:12:08.520
+So the blue here is
+still too conservative.
+
+00:12:08.520 --> 00:12:12.060
+But now, when you get up
+here, even the 15-minute rule
+
+00:12:12.060 --> 00:12:14.080
+eventually becomes unsafe.
+
+00:12:14.080 --> 00:12:16.380
+Because if there's a very
+large amount people in a room
+
+00:12:16.380 --> 00:12:18.480
+and they also can interact with
+each other through well-mixed
+
+00:12:18.480 --> 00:12:19.360
+space--
+
+00:12:19.360 --> 00:12:21.660
+so I'm not talking about
+a really, really big room.
+
+00:12:21.660 --> 00:12:23.520
+I'm talking about
+a small enough room
+
+00:12:23.520 --> 00:12:26.910
+that you could expect air to be
+transmitted between the people
+
+00:12:26.910 --> 00:12:28.020
+in that space--
+
+00:12:28.020 --> 00:12:29.670
+then if I keep
+increasing occupancy,
+
+00:12:29.670 --> 00:12:30.920
+again I cross that line.
+
+00:12:30.920 --> 00:12:32.850
+There's always a crossing.
+
+00:12:32.850 --> 00:12:36.360
+So you cannot have a guideline
+only based on time or only
+
+00:12:36.360 --> 00:12:37.680
+based on occupancy.
+
+00:12:37.680 --> 00:12:39.480
+If you think of this
+limit-- for example,
+
+00:12:39.480 --> 00:12:44.500
+how about we take for
+the 15-minute rule,
+
+00:12:44.500 --> 00:12:48.630
+what if I put 15 people or maybe
+20 people into a small tent--
+
+00:12:48.630 --> 00:12:50.070
+just let's say a
+little bit bigger
+
+00:12:50.070 --> 00:12:51.480
+in the size of this board--
+
+00:12:51.480 --> 00:12:53.580
+and everybody's
+standing close together.
+
+00:12:53.580 --> 00:12:56.190
+We might pass the infection in
+much less time than 15 minutes
+
+00:12:56.190 --> 00:12:57.940
+because we have a chance
+to infect each other,
+
+00:12:57.940 --> 00:13:00.140
+and if I keep going up, I'm
+going to cross that line.
+
+00:13:00.140 --> 00:13:03.280
+And the tent also has a very
+small volume, poor ventilation,
+
+00:13:03.280 --> 00:13:05.520
+and this yellow
+curve is very low.
+
+00:13:05.520 --> 00:13:08.820
+OK, so this concept
+of the cumulative exposure time
+
+00:13:08.820 --> 00:13:11.010
+is really important
+to understand
+
+00:13:11.010 --> 00:13:12.240
+because it's very general.
+
+00:13:12.240 --> 00:13:15.320
+It really isn't so tied to
+the details of the model.
+
+00:13:15.320 --> 00:13:16.830
+And it just shows
+you that any bound
+
+00:13:16.830 --> 00:13:19.980
+on one parameter such
+as occupancy, time,
+
+00:13:19.980 --> 00:13:22.680
+and I should mention
+also social distance.
+
+00:13:22.680 --> 00:13:28.280
+Because that's the big one
+which is happening right now.
+
+00:13:28.280 --> 00:13:30.380
+Social distance
+guidelines-- so this
+
+00:13:30.380 --> 00:13:35.860
+would be that the distance,
+d, is greater than six feet.
+
+00:13:35.860 --> 00:13:38.540
+And that's a CDC guideline
+in the United States.
+
+00:13:38.540 --> 00:13:43.360
+It can be greater than one
+meter, which is 3 feet,
+
+00:13:43.360 --> 00:13:45.770
+and that's from the World
+Health Organization.
+
+00:13:45.770 --> 00:13:47.780
+So about half the distance.
+
+00:13:47.780 --> 00:13:49.820
+That leads to a guideline
+where there's still
+
+00:13:49.820 --> 00:13:57.680
+a maximum occupancy, which is
+the area of the room divided
+
+00:13:57.680 --> 00:14:00.920
+by d squared, or by some
+other factor depending
+
+00:14:00.920 --> 00:14:02.840
+how you think people are
+going to be arranged.
+
+00:14:02.840 --> 00:14:07.550
+But basically, you go into the
+room, you map out that spacing,
+
+00:14:07.550 --> 00:14:09.320
+and you arrive at
+a fixed occupancy.
+
+00:14:09.320 --> 00:14:11.090
+This is being done
+everywhere, including
+
+00:14:11.090 --> 00:14:12.890
+here at MIT right now.
+
+00:14:12.890 --> 00:14:15.860
+And that still leads
+to fixed occupancy.
+
+00:14:15.860 --> 00:14:17.420
+So regardless of
+how it was derived,
+
+00:14:17.420 --> 00:14:18.810
+you still have a
+fixed occupancy,
+
+00:14:18.810 --> 00:14:20.690
+which is too
+conservative at first,
+
+00:14:20.690 --> 00:14:23.160
+and eventually is too risky.
+
+00:14:23.160 --> 00:14:25.070
+And you must know
+where is that crossover
+
+00:14:25.070 --> 00:14:28.900
+point because occupancy
+and time are linked.

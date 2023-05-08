@@ -1,0 +1,1233 @@
+WEBVTT
+
+00:00:10.700 --> 00:00:12.340
+PROFESSOR: So let's
+go through, now,
+
+00:00:12.340 --> 00:00:14.980
+how we can parameterize
+our guideline specifically
+
+00:00:14.980 --> 00:00:21.750
+for COVID-19 by looking at
+specific superspreading events.
+
+00:00:21.750 --> 00:00:26.100
+So the event that was analyzed
+in great detail first,
+
+00:00:26.100 --> 00:00:30.060
+and which is going to
+be of most use for us
+
+00:00:30.060 --> 00:00:31.980
+initially for parameterizing
+the guideline,
+
+00:00:31.980 --> 00:00:36.240
+is the Skajit Valley Chorale
+superspreading incident.
+
+00:00:36.240 --> 00:00:40.260
+So this was, again, a 2
+and 1/2 hour choir practice
+
+00:00:40.260 --> 00:00:44.700
+involving 61 people, one of
+whom was known to be infected.
+
+00:00:44.700 --> 00:00:46.650
+The practice lasted
+2 and 1/2 hours.
+
+00:00:46.650 --> 00:00:50.430
+And in the end, there were 53
+infected people, two of whom
+
+00:00:50.430 --> 00:00:52.140
+later died.
+
+00:00:52.140 --> 00:00:56.280
+So this was a large room with
+a height of 4 and 1/2 meters
+
+00:00:56.280 --> 00:01:00.150
+and an area of 180
+meters squared.
+
+00:01:00.150 --> 00:01:01.520
+It was poorly ventilated.
+
+00:01:01.520 --> 00:01:03.360
+The heat was on for a
+certain amount of time
+
+00:01:03.360 --> 00:01:04.530
+and then taken off.
+
+00:01:04.530 --> 00:01:11.220
+And the average air change rate
+was estimated at 0.65 per hour.
+
+00:01:11.220 --> 00:01:16.030
+And of course, the people were
+singing for much of the time,
+
+00:01:16.030 --> 00:01:19.500
+leading to much higher
+rates of droplet emission.
+
+00:01:19.500 --> 00:01:22.620
+And in fact, I think we can
+assume for this event, given
+
+00:01:22.620 --> 00:01:25.050
+the huge number
+of infections that
+
+00:01:25.050 --> 00:01:29.930
+occurred in such a short
+time, that the index patient--
+
+00:01:29.930 --> 00:01:35.130
+the index case-- was at
+near the peak viral load,
+
+00:01:35.130 --> 00:01:36.990
+peak of infection.
+
+00:01:36.990 --> 00:01:41.700
+And also, that allows us to
+make a conservative estimate
+
+00:01:41.700 --> 00:01:45.630
+of using that for
+calibrating our guideline.
+
+00:01:45.630 --> 00:01:49.289
+So if we look at
+the figure here,
+
+00:01:49.289 --> 00:01:52.170
+we can see the
+droplet distributions
+
+00:01:52.170 --> 00:01:54.720
+taken from experimental
+measurements
+
+00:01:54.720 --> 00:01:58.500
+of Morawska et al in 2009.
+
+00:01:58.500 --> 00:02:01.620
+And those droplet distributions
+have been fed into the model
+
+00:02:01.620 --> 00:02:04.770
+that we just described
+and evolved in time
+
+00:02:04.770 --> 00:02:08.610
+in such a way that corresponds
+to the conditions of the Skajit
+
+00:02:08.610 --> 00:02:10.600
+Valley Choir itself.
+
+00:02:10.600 --> 00:02:13.860
+And so what we can see is
+that the droplet distribution
+
+00:02:13.860 --> 00:02:15.960
+corresponding to singing--
+
+00:02:15.960 --> 00:02:18.430
+or the closest
+approximation of singing,
+
+00:02:18.430 --> 00:02:22.860
+which are measurements
+of voiced aahs
+
+00:02:22.860 --> 00:02:25.079
+from the original experiment--
+
+00:02:25.079 --> 00:02:28.100
+that distribution is much
+bigger than all the others.
+
+00:02:28.100 --> 00:02:32.430
+It has a very broad tail
+to somewhat larger sizes.
+
+00:02:32.430 --> 00:02:36.240
+But it has a peak
+just below 1 micron.
+
+00:02:36.240 --> 00:02:38.940
+Similarly, the other
+types of activities
+
+00:02:38.940 --> 00:02:41.760
+measured in the
+original study, which
+
+00:02:41.760 --> 00:02:47.140
+correspond to, for example,
+whispered ahh or speaking
+
+00:02:47.140 --> 00:02:49.680
+or in counting of
+numbers, for example,
+
+00:02:49.680 --> 00:02:52.710
+or various forms of breathing
+through the nose and the mouth
+
+00:02:52.710 --> 00:02:54.450
+or only through the nose--
+
+00:02:54.450 --> 00:02:58.590
+all those distributions have
+much lower sort of magnitude
+
+00:02:58.590 --> 00:03:00.300
+or number of drops.
+
+00:03:00.300 --> 00:03:02.320
+And this is also drop volume.
+
+00:03:02.320 --> 00:03:04.860
+We have accounted for the
+size of the drops as well.
+
+00:03:04.860 --> 00:03:08.310
+So it's the total droplet volume
+per total volume or volume
+
+00:03:08.310 --> 00:03:09.430
+fraction.
+
+00:03:09.430 --> 00:03:10.980
+And the peak of all
+the distributions
+
+00:03:10.980 --> 00:03:14.520
+is in a similar place,
+just below 1 micron,
+
+00:03:14.520 --> 00:03:17.130
+so again, corresponding
+to the aerosol range.
+
+00:03:17.130 --> 00:03:19.680
+And it's important that we take
+those droplet distributions
+
+00:03:19.680 --> 00:03:22.630
+and evolve them in the
+Skajit Valley Choir space.
+
+00:03:22.630 --> 00:03:25.410
+So then, we can figure out
+which of those droplets
+
+00:03:25.410 --> 00:03:29.370
+survived and would be in the air
+and would be then corresponding
+
+00:03:29.370 --> 00:03:33.060
+to the airborne
+transmission and can
+
+00:03:33.060 --> 00:03:36.420
+be compared with the actual
+spreading events that occurred
+
+00:03:36.420 --> 00:03:38.490
+using the Wells-Riley model.
+
+00:03:38.490 --> 00:03:40.240
+So is it a short amount of time?
+
+00:03:40.240 --> 00:03:43.950
+We're going to assume there was
+no delay caused by incubation.
+
+00:03:43.950 --> 00:03:46.620
+But rather, people were getting
+infected but not passing it
+
+00:03:46.620 --> 00:03:47.650
+on to anybody else.
+
+00:03:47.650 --> 00:03:51.430
+And so we will use
+the Wells-Riley model.
+
+00:03:51.430 --> 00:03:53.730
+So when we do that
+fitting, we come out
+
+00:03:53.730 --> 00:03:59.820
+with a value of Cq, the number
+of infection quanta per volume
+
+00:03:59.820 --> 00:04:02.520
+in the exhaled breath
+of the infected person,
+
+00:04:02.520 --> 00:04:05.480
+around 900 quanta
+per meter cubed.
+
+00:04:05.480 --> 00:04:08.430
+A published study
+of Miller et al
+
+00:04:08.430 --> 00:04:14.290
+came to a similar conclusion
+of 870 quanta per meters cubed.
+
+00:04:14.290 --> 00:04:19.170
+And so we can take that to be
+a reasonable value for singing.
+
+00:04:19.170 --> 00:04:21.550
+Now, if we go to
+the next figure,
+
+00:04:21.550 --> 00:04:27.000
+we can include all of these
+estimated total quanta
+
+00:04:27.000 --> 00:04:30.570
+concentrations corresponding
+to different hypothetical forms
+
+00:04:30.570 --> 00:04:33.180
+of respiration in the
+Skajit Valley Choir
+
+00:04:33.180 --> 00:04:34.800
+and use that for rescaling.
+
+00:04:34.800 --> 00:04:39.390
+So we can say, the choir was
+actually involving singing.
+
+00:04:39.390 --> 00:04:41.909
+And that gave us a
+number around 900.
+
+00:04:41.909 --> 00:04:44.760
+And then if we rescale,
+the other amounts
+
+00:04:44.760 --> 00:04:46.500
+of respiratory
+droplets corresponding
+
+00:04:46.500 --> 00:04:50.010
+to different activities would
+have correspondingly scaled
+
+00:04:50.010 --> 00:04:51.960
+values of Cq.
+
+00:04:51.960 --> 00:04:55.140
+And as a further calibration,
+we can compare it
+
+00:04:55.140 --> 00:04:59.550
+with another recent study
+of Asadi and Ristenpart,
+
+00:04:59.550 --> 00:05:04.650
+where again, different types
+of respiratory activities
+
+00:05:04.650 --> 00:05:08.970
+were measured for their
+aerosol size distributions,
+
+00:05:08.970 --> 00:05:12.180
+including speaking at
+different levels of volume
+
+00:05:12.180 --> 00:05:15.010
+and also breathing
+in different ways.
+
+00:05:15.010 --> 00:05:17.910
+And if we line up
+two values that
+
+00:05:17.910 --> 00:05:21.120
+correspond to sort of
+intermediate speech
+
+00:05:21.120 --> 00:05:25.240
+as a calibration, then
+we find that the quanta
+
+00:05:25.240 --> 00:05:26.880
+values that we infer--
+
+00:05:26.880 --> 00:05:30.870
+the Cq values-- for both of
+those independent studies
+
+00:05:30.870 --> 00:05:34.320
+of respiratory droplets
+really correlate nicely
+
+00:05:34.320 --> 00:05:36.990
+across different
+types of activities
+
+00:05:36.990 --> 00:05:40.920
+from breathing to
+speaking to singing,
+
+00:05:40.920 --> 00:05:45.420
+allowing us a consistent
+definition of Cq,
+
+00:05:45.420 --> 00:05:47.850
+again, for a situation
+corresponding
+
+00:05:47.850 --> 00:05:50.370
+to most likely peak infectivity.
+
+00:05:50.370 --> 00:05:54.240
+So we are talking about
+sort of the worst case
+
+00:05:54.240 --> 00:05:57.300
+scenario in order to derive
+a conservative guideline.
+
+00:05:57.300 --> 00:06:01.290
+It should also be noted that the
+median age of the choir members
+
+00:06:01.290 --> 00:06:03.000
+was 69.
+
+00:06:03.000 --> 00:06:05.790
+And by using this
+spreading incident,
+
+00:06:05.790 --> 00:06:09.270
+we are again being conservative,
+because it is well established
+
+00:06:09.270 --> 00:06:14.610
+that elderly persons have an
+elevated risk of complications
+
+00:06:14.610 --> 00:06:17.430
+and even death from
+COVID-19, and perhaps also
+
+00:06:17.430 --> 00:06:20.970
+some evidence showing
+increased risk of transmission.
+
+00:06:20.970 --> 00:06:22.680
+So therefore, when we
+apply the guideline
+
+00:06:22.680 --> 00:06:24.900
+to a general
+population, including
+
+00:06:24.900 --> 00:06:27.180
+younger and healthy
+people, that we
+
+00:06:27.180 --> 00:06:30.090
+will find that we are making
+a conservative estimate,
+
+00:06:30.090 --> 00:06:32.470
+which is our goal.
+
+00:06:32.470 --> 00:06:35.190
+So at this point, we have a
+fully parameterized guideline.
+
+00:06:35.190 --> 00:06:38.040
+And we have consistent
+values of Cq
+
+00:06:38.040 --> 00:06:40.770
+across a range of
+respiratory activities
+
+00:06:40.770 --> 00:06:44.909
+involving two different studies
+of respiratory aerosols,
+
+00:06:44.909 --> 00:06:48.010
+all coming from the
+Skajit Choir incident.
+
+00:06:48.010 --> 00:06:50.280
+So now, let's look at some
+other spreading incidents
+
+00:06:50.280 --> 00:06:53.490
+to see if we can get
+consistent values of Cq
+
+00:06:53.490 --> 00:06:55.710
+in cases where people
+were not singing
+
+00:06:55.710 --> 00:06:57.930
+and where the size of
+the room was different,
+
+00:06:57.930 --> 00:06:59.310
+and sort of see
+if we really have
+
+00:06:59.310 --> 00:07:01.990
+a transferable inference here.
+
+00:07:01.990 --> 00:07:03.570
+And if we do find
+consistent numbers,
+
+00:07:03.570 --> 00:07:05.820
+it provides further
+evidence to support
+
+00:07:05.820 --> 00:07:08.400
+the hypothesis of
+airborne transmission
+
+00:07:08.400 --> 00:07:10.930
+in all of these cases.
+
+00:07:10.930 --> 00:07:12.600
+So the next example
+we'll look at
+
+00:07:12.600 --> 00:07:17.470
+is the incident of the Tiantong
+Temple religious ceremony
+
+00:07:17.470 --> 00:07:20.460
+and, in particular, the buses
+that went back and forth
+
+00:07:20.460 --> 00:07:21.990
+from that ceremony.
+
+00:07:21.990 --> 00:07:27.120
+One bus, in particular, was
+similar to this Dongfeng tour
+
+00:07:27.120 --> 00:07:34.590
+bus luxury liner,
+which underwent
+
+00:07:34.590 --> 00:07:41.370
+a 100-minute trip to Ningbo and
+then back in the same seating.
+
+00:07:41.370 --> 00:07:46.020
+The bus had seating for 68,
+or had 68 persons in it.
+
+00:07:46.020 --> 00:07:48.390
+The total time was 1.7 hours.
+
+00:07:48.390 --> 00:07:50.310
+And the one infected
+person managed
+
+00:07:50.310 --> 00:07:54.300
+to infect around 21
+others, when we account
+
+00:07:54.300 --> 00:07:58.560
+for some that may have been
+infected at the event, given
+
+00:07:58.560 --> 00:08:02.670
+the low rate of infection to
+people outside of the bus.
+
+00:08:02.670 --> 00:08:06.030
+Using those numbers
+and taking into
+
+00:08:06.030 --> 00:08:08.160
+account the size of
+the bus and the fact
+
+00:08:08.160 --> 00:08:10.110
+that there was no
+forced ventilation--
+
+00:08:10.110 --> 00:08:11.220
+this was a winter ride.
+
+00:08:11.220 --> 00:08:12.930
+And there was only
+natural ventilation--
+
+00:08:12.930 --> 00:08:15.000
+and if we use a value
+that's been measured
+
+00:08:15.000 --> 00:08:17.550
+for other types of
+public transit buses
+
+00:08:17.550 --> 00:08:20.730
+where no forced
+ventilation is occurring,
+
+00:08:20.730 --> 00:08:23.640
+then we conclude that
+the Cq for this event
+
+00:08:23.640 --> 00:08:26.910
+is around 72 quanta
+per meter cubed, which
+
+00:08:26.910 --> 00:08:30.240
+is a very consistent estimate
+with what we obtained before
+
+00:08:30.240 --> 00:08:33.990
+for a situation where
+people are perhaps speaking
+
+00:08:33.990 --> 00:08:38.340
+in an intermediate tone on
+a noisy bus over that period
+
+00:08:38.340 --> 00:08:40.270
+of time.
+
+00:08:40.270 --> 00:08:43.590
+It's also important to
+note that a recent analysis
+
+00:08:43.590 --> 00:08:47.070
+of the incident
+involving interviews
+
+00:08:47.070 --> 00:08:51.270
+of all the people involved
+established that there
+
+00:08:51.270 --> 00:08:54.720
+was no correlation between
+the position of a person
+
+00:08:54.720 --> 00:08:57.180
+with respect to the infected
+person in the seating
+
+00:08:57.180 --> 00:09:01.620
+chart of the bus relative
+to whether they got infected
+
+00:09:01.620 --> 00:09:02.380
+or not.
+
+00:09:02.380 --> 00:09:06.240
+So in other words, it was
+not short-range transmission
+
+00:09:06.240 --> 00:09:08.670
+through puffs or
+respiratory jets.
+
+00:09:08.670 --> 00:09:11.430
+But instead somehow,
+there was a circulation
+
+00:09:11.430 --> 00:09:14.730
+throughout the bus of
+infected air as the most
+
+00:09:14.730 --> 00:09:18.700
+plausible explanation.
+
+00:09:18.700 --> 00:09:21.910
+Our third example is
+the Diamond Princess.
+
+00:09:21.910 --> 00:09:26.350
+So this was the
+quarantined cruise ship
+
+00:09:26.350 --> 00:09:28.930
+in Yokohama Port, Japan.
+
+00:09:28.930 --> 00:09:33.340
+There were 3,011 passengers
+and crew onboard.
+
+00:09:33.340 --> 00:09:36.730
+And the quarantine
+lasted for 12 days,
+
+00:09:36.730 --> 00:09:41.110
+or around 288 hours, at which
+point people began to leave.
+
+00:09:41.110 --> 00:09:43.690
+And we won't use any
+data from that point.
+
+00:09:43.690 --> 00:09:45.280
+The quarantine is a
+good chance for us
+
+00:09:45.280 --> 00:09:48.430
+to study airborne transmission,
+because people were largely
+
+00:09:48.430 --> 00:09:49.630
+confined to their room.
+
+00:09:49.630 --> 00:09:52.240
+So of course, some of the crew
+were going back and forth,
+
+00:09:52.240 --> 00:09:55.450
+bringing food and checking
+on the passengers.
+
+00:09:55.450 --> 00:09:58.090
+But the vast majority of
+people were essentially
+
+00:09:58.090 --> 00:10:02.260
+cooped up in their room
+with their fellow travelers
+
+00:10:02.260 --> 00:10:04.930
+or family members
+in small groups,
+
+00:10:04.930 --> 00:10:07.330
+typically with the windows
+closed because this
+
+00:10:07.330 --> 00:10:10.330
+was in the winter,
+and with ventilation
+
+00:10:10.330 --> 00:10:13.360
+which was doing a significant
+amount of recirculation
+
+00:10:13.360 --> 00:10:15.010
+between the rooms.
+
+00:10:15.010 --> 00:10:17.050
+And in fact,
+transmission occurred
+
+00:10:17.050 --> 00:10:19.360
+across different
+rooms, where people
+
+00:10:19.360 --> 00:10:22.630
+did not have direct contact
+with a known infected person
+
+00:10:22.630 --> 00:10:25.330
+and yet still managed
+to get infected.
+
+00:10:25.330 --> 00:10:29.630
+In those 12 days, the number
+of infections grew very rapidly
+
+00:10:29.630 --> 00:10:33.320
+and, in fact, had sort of
+an exponential increase.
+
+00:10:33.320 --> 00:10:37.840
+So in the end, there
+were 354 infected persons
+
+00:10:37.840 --> 00:10:41.470
+when they began releasing
+passengers after 12 days.
+
+00:10:41.470 --> 00:10:45.250
+And the fact that the shape of
+the infections versus time is
+
+00:10:45.250 --> 00:10:49.620
+an increasing exponential-like
+curve suggests that this cannot
+
+00:10:49.620 --> 00:10:52.720
+be modeled by the Wells-Riley
+equation, where instead,
+
+00:10:52.720 --> 00:10:56.110
+the number of infected people
+has to saturate as you run out
+
+00:10:56.110 --> 00:10:57.460
+of susceptibles.
+
+00:10:57.460 --> 00:11:01.060
+So this acceleration
+of the number
+
+00:11:01.060 --> 00:11:05.680
+of infected people with time is
+best attributed to incubation.
+
+00:11:05.680 --> 00:11:08.650
+And it is known that the
+incubation time for COVID-19
+
+00:11:08.650 --> 00:11:10.330
+is around 5.5 days.
+
+00:11:10.330 --> 00:11:11.830
+Some people may
+have been infected,
+
+00:11:11.830 --> 00:11:14.500
+and likely were infected, before
+the start of the quarantine.
+
+00:11:14.500 --> 00:11:16.390
+So there definitely
+were infected people
+
+00:11:16.390 --> 00:11:19.540
+generating newly infectious
+people during the time
+
+00:11:19.540 --> 00:11:21.280
+of the quarantine.
+
+00:11:21.280 --> 00:11:27.160
+So as a simple analysis of
+this incident, we can use--
+
+00:11:27.160 --> 00:11:28.330
+or let us use--
+
+00:11:28.330 --> 00:11:31.510
+our model for fast incubation.
+
+00:11:31.510 --> 00:11:35.140
+We have an analytical solution
+for the trend in the number
+
+00:11:35.140 --> 00:11:36.470
+of cases versus time.
+
+00:11:36.470 --> 00:11:38.530
+And as you can
+see in the figure,
+
+00:11:38.530 --> 00:11:42.340
+this model has a pretty
+good fit to the growth
+
+00:11:42.340 --> 00:11:44.150
+in the number of cases.
+
+00:11:44.150 --> 00:11:49.360
+And if we fit that model and
+infer what is the value of Cq,
+
+00:11:49.360 --> 00:11:52.270
+then we come out with a
+number around 30 quanta
+
+00:11:52.270 --> 00:11:55.360
+per meter cubed, again,
+very consistent with all
+
+00:11:55.360 --> 00:11:59.350
+the other inferences and
+basically consistent with light
+
+00:11:59.350 --> 00:12:05.560
+activity, light normal speech,
+and sort of resting breathing
+
+00:12:05.560 --> 00:12:07.820
+that was going on in the ship.
+
+00:12:07.820 --> 00:12:14.140
+Now, there definitely could
+be some debate over the way
+
+00:12:14.140 --> 00:12:17.140
+that we've just analyzed the
+ship, in the sense that we
+
+00:12:17.140 --> 00:12:18.730
+had analyzed it
+from the perspective
+
+00:12:18.730 --> 00:12:20.320
+of a well-mixed ship.
+
+00:12:20.320 --> 00:12:23.980
+So we're assuming that the
+infectious aerosols were spread
+
+00:12:23.980 --> 00:12:26.350
+throughout the ship uniformly.
+
+00:12:26.350 --> 00:12:30.790
+So that is obviously a
+gross estimate, very crude.
+
+00:12:30.790 --> 00:12:33.280
+On the other hand, we get
+a very reasonable result.
+
+00:12:33.280 --> 00:12:36.850
+And there is evidence that
+transmission was occurring
+
+00:12:36.850 --> 00:12:40.360
+through the vents, through the
+hallways, and through the air
+
+00:12:40.360 --> 00:12:42.260
+to large numbers of people.
+
+00:12:42.260 --> 00:12:46.840
+And so the fact that we get a
+reasonably consistent number
+
+00:12:46.840 --> 00:12:48.790
+of 30 quanta per
+meter cubed compared
+
+00:12:48.790 --> 00:12:50.770
+to all of our other
+estimates does
+
+00:12:50.770 --> 00:12:54.070
+support the idea of airborne
+transmission occurring
+
+00:12:54.070 --> 00:12:56.560
+in a somewhat uniform
+and well-mixed fashion
+
+00:12:56.560 --> 00:13:00.470
+across the ship.
+
+00:13:00.470 --> 00:13:02.270
+Yet another inference
+we could make
+
+00:13:02.270 --> 00:13:04.280
+would be to look at
+the initial spreading
+
+00:13:04.280 --> 00:13:09.150
+of the epidemic in Wuhan, China,
+where it first originated.
+
+00:13:09.150 --> 00:13:11.090
+So there have been
+a number of studies
+
+00:13:11.090 --> 00:13:12.710
+of the initial spreading.
+
+00:13:12.710 --> 00:13:15.500
+And the reproductive
+number of the spreading
+
+00:13:15.500 --> 00:13:20.160
+of the disease, R0, has been
+estimated to be around 3.5.
+
+00:13:20.160 --> 00:13:21.710
+In fact, there's a
+range of estimates
+
+00:13:21.710 --> 00:13:24.710
+from that time period, given the
+sort of somewhat limited data.
+
+00:13:24.710 --> 00:13:28.700
+But that's the agreed
+upon average number.
+
+00:13:28.700 --> 00:13:31.610
+Now, there is an
+interesting thought exercise
+
+00:13:31.610 --> 00:13:35.750
+we can do looking at that
+number if we make the assumption
+
+00:13:35.750 --> 00:13:38.000
+that the majority
+of transmissions
+
+00:13:38.000 --> 00:13:43.340
+occurred indoors, in people's
+family homes or apartments.
+
+00:13:43.340 --> 00:13:47.210
+So if we take the time
+period for the spreading
+
+00:13:47.210 --> 00:13:51.110
+of the infection in our
+analysis to be 5.5 days, which
+
+00:13:51.110 --> 00:13:53.240
+is the average
+incubation time, and we
+
+00:13:53.240 --> 00:13:56.480
+use the average size
+of a Chinese household
+
+00:13:56.480 --> 00:14:00.650
+in that region of
+3.03 people, and we
+
+00:14:00.650 --> 00:14:03.920
+assume an average size of a
+Chinese apartment for that size
+
+00:14:03.920 --> 00:14:07.010
+family of 90 meters
+cubed, and we also
+
+00:14:07.010 --> 00:14:10.910
+assume measured typical
+natural ventilation
+
+00:14:10.910 --> 00:14:17.020
+rates for this time of winter
+of around 0.3 per hour,
+
+00:14:17.020 --> 00:14:21.020
+or a 3-hour air change
+time roughly, then
+
+00:14:21.020 --> 00:14:23.900
+interestingly enough,
+from that analysis,
+
+00:14:23.900 --> 00:14:27.600
+we find Cq again is
+30 quanta per meter
+
+00:14:27.600 --> 00:14:29.150
+cubed, the same as
+the number that we
+
+00:14:29.150 --> 00:14:31.850
+got for the Diamond Princess.
+
+00:14:31.850 --> 00:14:34.190
+So again, this is a
+very crude estimate.
+
+00:14:34.190 --> 00:14:37.130
+This analysis is even more crude
+than the analysis of the ship.
+
+00:14:37.130 --> 00:14:40.380
+We're looking at the entire
+population of a city.
+
+00:14:40.380 --> 00:14:42.470
+And we're assuming that
+the spreading is happening
+
+00:14:42.470 --> 00:14:44.750
+in people's homes when
+they spend time together
+
+00:14:44.750 --> 00:14:47.840
+for long periods of time,
+sharing indoor air which
+
+00:14:47.840 --> 00:14:50.720
+is typically not
+very well ventilated,
+
+00:14:50.720 --> 00:14:52.700
+and not wearing
+masks, importantly.
+
+00:14:52.700 --> 00:14:55.820
+So at that time,
+people were absolutely
+
+00:14:55.820 --> 00:14:57.190
+wearing masks outside the house.
+
+00:14:57.190 --> 00:14:58.650
+And in fact, for
+much of that time,
+
+00:14:58.650 --> 00:15:01.470
+people were confined
+to their apartments
+
+00:15:01.470 --> 00:15:03.470
+even under threat of force
+from the authorities.
+
+00:15:03.470 --> 00:15:05.990
+So people were definitely
+spending a lot of time
+
+00:15:05.990 --> 00:15:07.760
+in their homes with
+their families.
+
+00:15:07.760 --> 00:15:11.060
+And it's interesting to observe
+that despite that quarantine
+
+00:15:11.060 --> 00:15:13.850
+that the spreading still
+occurred fairly rapidly.
+
+00:15:13.850 --> 00:15:15.230
+And it occurred
+in a way which is
+
+00:15:15.230 --> 00:15:19.640
+consistent with indoor
+transmission in people's homes.
+
+00:15:19.640 --> 00:15:21.590
+So if we take all
+of this analysis
+
+00:15:21.590 --> 00:15:25.520
+and come back to our
+figure of Cq values--
+
+00:15:25.520 --> 00:15:28.790
+again, that's the number
+of infection quanta
+
+00:15:28.790 --> 00:15:30.620
+per meter cubed
+of exhaled breath
+
+00:15:30.620 --> 00:15:32.630
+for an infected individual--
+
+00:15:32.630 --> 00:15:36.620
+then we can put our inferences
+for the Ningbo bus, the Diamond
+
+00:15:36.620 --> 00:15:39.410
+Princess, and the Wuhan
+outbreak on the same plot
+
+00:15:39.410 --> 00:15:45.590
+as the values we inferred by
+rescaling the value of 900
+
+00:15:45.590 --> 00:15:48.500
+for the Skajit Valley Chorale.
+
+00:15:48.500 --> 00:15:50.780
+And what we find, again,
+is a very consistent set
+
+00:15:50.780 --> 00:15:54.440
+of estimates over a range of
+respiratory activities, which
+
+00:15:54.440 --> 00:16:01.790
+tells us that the Cq is around
+on the order of 10 or so,
+
+00:16:01.790 --> 00:16:06.020
+or tens, for light activity
+and resting breathing.
+
+00:16:06.020 --> 00:16:09.250
+It's in the range of 10 to
+100, or maybe several hundred,
+
+00:16:09.250 --> 00:16:11.900
+for speech at different
+levels of volume,
+
+00:16:11.900 --> 00:16:13.910
+which roughly-- the
+number of droplets
+
+00:16:13.910 --> 00:16:17.480
+is known to increase roughly
+linearly with the decibel level
+
+00:16:17.480 --> 00:16:18.470
+of speech.
+
+00:16:18.470 --> 00:16:21.620
+And then singing has a more--
+
+00:16:21.620 --> 00:16:24.950
+obviously a much, much
+greater release of
+
+00:16:24.950 --> 00:16:26.870
+particles and aerosols.
+
+00:16:26.870 --> 00:16:30.770
+And that's at a much higher
+level, in the many hundreds.
+
+00:16:30.770 --> 00:16:34.790
+So I think those are fairly
+consistent numbers, which
+
+00:16:34.790 --> 00:16:38.210
+again, looking at most of
+these cases, are conservative
+
+00:16:38.210 --> 00:16:40.460
+and could be applied
+in the guideline
+
+00:16:40.460 --> 00:16:43.970
+to a wide range of
+examples involving
+
+00:16:43.970 --> 00:16:46.790
+other types of populations,
+which may be healthier,
+
+00:16:46.790 --> 00:16:49.460
+younger, less
+likely to transmit,
+
+00:16:49.460 --> 00:16:53.440
+compared to all of these
+super spreading incidents.

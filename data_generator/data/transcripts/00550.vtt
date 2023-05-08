@@ -1,0 +1,3574 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.520
+The following content is
+provided under a Creative
+
+00:00:02.520 --> 00:00:03.970
+Commons license.
+
+00:00:03.970 --> 00:00:06.360
+Your support will help
+MIT OpenCourseWare
+
+00:00:06.360 --> 00:00:10.660
+continue to offer high quality
+educational resources for free.
+
+00:00:10.660 --> 00:00:13.350
+To make a donation or
+view additional materials
+
+00:00:13.350 --> 00:00:17.190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+00:00:17.190 --> 00:00:18.326
+at ocw.mit.edu.
+
+00:00:22.430 --> 00:00:27.350
+JULIAN BEINART: This class
+has been taught continuously
+
+00:00:27.350 --> 00:00:28.940
+since 19--
+
+00:00:28.940 --> 00:00:30.890
+the earliest record
+I have of it is
+
+00:00:30.890 --> 00:00:38.510
+1956, when Kevin Lynch probably
+taught it for the first time.
+
+00:00:38.510 --> 00:00:42.650
+Now this is the 34th year in
+which I'm teaching the class.
+
+00:00:42.650 --> 00:00:46.550
+I overlapped with
+Lynch for two years,
+
+00:00:46.550 --> 00:00:51.540
+and this is the last time
+I'm teaching this class.
+
+00:00:51.540 --> 00:00:57.590
+So I'm going to go through a
+lot of small things, details,
+
+00:00:57.590 --> 00:00:59.860
+plus some general idea about.
+
+00:01:03.970 --> 00:01:08.830
+In 1956, Kevin Lynch
+called this class
+
+00:01:08.830 --> 00:01:12.100
+The Visual Form of the City.
+
+00:01:12.100 --> 00:01:17.500
+Between '56 and '76,
+he changed the title
+
+00:01:17.500 --> 00:01:20.320
+to Theory of City Form.
+
+00:01:20.320 --> 00:01:28.060
+I have kept the title the same
+as it was originally, well,
+
+00:01:28.060 --> 00:01:32.530
+the 1976 title.
+
+00:01:32.530 --> 00:01:35.410
+I think the "theory,"
+it gives the impression
+
+00:01:35.410 --> 00:01:38.140
+that we have
+significant theories,
+
+00:01:38.140 --> 00:01:41.620
+as in post-Darwinian science.
+
+00:01:41.620 --> 00:01:44.290
+We don't.
+
+00:01:44.290 --> 00:01:49.570
+Our basis, our theological
+basis is somewhat vague.
+
+00:01:49.570 --> 00:01:52.930
+We are somewhere between
+a science and an art.
+
+00:01:52.930 --> 00:01:56.690
+In the Media Lab, they now have
+a group called City Science.
+
+00:01:56.690 --> 00:01:59.920
+I want to know what
+City Science is.
+
+00:01:59.920 --> 00:02:02.170
+We certainly know
+what City Art is.
+
+00:02:05.050 --> 00:02:10.539
+If numerical consequence is
+the basis of City Science,
+
+00:02:10.539 --> 00:02:14.150
+we will deal with that in
+the appropriate manner.
+
+00:02:14.150 --> 00:02:17.110
+We will also deal with
+very difficult things,
+
+00:02:17.110 --> 00:02:21.520
+such as the human
+experience of built form,
+
+00:02:21.520 --> 00:02:25.820
+which is not a scientific
+phenomenon at all.
+
+00:02:25.820 --> 00:02:27.500
+In fact, for those
+of you interested
+
+00:02:27.500 --> 00:02:30.250
+to have a background
+in philosophy,
+
+00:02:30.250 --> 00:02:33.670
+there's a new book
+called Cosmos and Mind,
+
+00:02:33.670 --> 00:02:36.790
+by Thomas Nagel, who's
+a professor at New York
+
+00:02:36.790 --> 00:02:43.030
+University, who argues that
+Darwinian science has lead us
+
+00:02:43.030 --> 00:02:46.670
+in the wrong direction,
+that Darwinian science,
+
+00:02:46.670 --> 00:02:51.910
+we can't explain concepts
+such as consciousness or mind,
+
+00:02:51.910 --> 00:02:56.470
+that we need a new teleological
+approach to science
+
+00:02:56.470 --> 00:03:03.200
+which would embrace these now
+difficult to achieve responses.
+
+00:03:03.200 --> 00:03:06.580
+I'm not a philosopher
+nor a historian.
+
+00:03:06.580 --> 00:03:08.860
+This is not a class in
+history, although we
+
+00:03:08.860 --> 00:03:12.640
+will use a lot of
+information from the past
+
+00:03:12.640 --> 00:03:20.470
+as examples to give us a
+better idea of the present,
+
+00:03:20.470 --> 00:03:23.260
+not that you shouldn't
+know history.
+
+00:03:23.260 --> 00:03:24.800
+If you're going to
+take this class,
+
+00:03:24.800 --> 00:03:27.670
+I would recommend
+a couple of books.
+
+00:03:27.670 --> 00:03:30.595
+There is no superb
+urban history.
+
+00:03:33.730 --> 00:03:37.060
+If there were, Harvard
+or MIT would teach it.
+
+00:03:39.630 --> 00:03:42.600
+It is bizarre that these
+two great universities
+
+00:03:42.600 --> 00:03:43.845
+don't teach urban history.
+
+00:03:46.580 --> 00:03:49.660
+It's difficult to explain.
+
+00:03:49.660 --> 00:03:52.810
+Partly, it's explained
+by the traditions
+
+00:03:52.810 --> 00:03:56.500
+of history and architecture.
+
+00:03:56.500 --> 00:04:00.670
+Architecture, you cannot study
+in the arts without knowing
+
+00:04:00.670 --> 00:04:02.810
+history.
+
+00:04:02.810 --> 00:04:04.960
+It's difficult to
+achieve a degree in music
+
+00:04:04.960 --> 00:04:09.280
+without knowing who Mozart
+was, but it's very difficult
+
+00:04:09.280 --> 00:04:11.950
+to achieve a good
+degree in architecture
+
+00:04:11.950 --> 00:04:14.830
+without knowing
+who Palladio was.
+
+00:04:14.830 --> 00:04:17.260
+But you can achieve
+a degree in science
+
+00:04:17.260 --> 00:04:23.080
+without knowing
+who Copernicus was.
+
+00:04:23.080 --> 00:04:26.710
+It's difficult to
+avoid Copernicus,
+
+00:04:26.710 --> 00:04:29.170
+but you may be able to.
+
+00:04:29.170 --> 00:04:33.290
+There's no teaching
+here at MIT in--
+
+00:04:33.290 --> 00:04:37.750
+there's no required teaching,
+in achieving an engineering
+
+00:04:37.750 --> 00:04:41.990
+or science degree, in
+the history of science.
+
+00:04:41.990 --> 00:04:44.560
+There's no architecture
+program that I know anywhere
+
+00:04:44.560 --> 00:04:48.100
+in the world that doesn't
+have a requirement that you
+
+00:04:48.100 --> 00:04:50.500
+study the history
+of architecture,
+
+00:04:50.500 --> 00:04:53.890
+some poorly taught, of course.
+
+00:04:53.890 --> 00:04:58.060
+I assume many of you are
+architects by background.
+
+00:04:58.060 --> 00:05:01.420
+Has anybody done urban history?
+
+00:05:01.420 --> 00:05:04.570
+Has anybody in this class
+taken a formal subject
+
+00:05:04.570 --> 00:05:07.780
+in urban history?
+
+00:05:07.780 --> 00:05:11.720
+OK, if you have, answer
+the following question.
+
+00:05:11.720 --> 00:05:16.000
+What theory would you assume
+for the genesis of cities?
+
+00:05:16.000 --> 00:05:18.610
+Why do cities exist?
+
+00:05:18.610 --> 00:05:21.620
+AUDIENCE: We studied
+Chinese urban history.
+
+00:05:21.620 --> 00:05:22.960
+JULIAN BEINART: Oh, no, no.
+
+00:05:22.960 --> 00:05:24.430
+You haven't answered
+my question.
+
+00:05:24.430 --> 00:05:27.160
+You've told me what
+you've studied.
+
+00:05:27.160 --> 00:05:30.820
+All right, we'll return
+to this question.
+
+00:05:30.820 --> 00:05:35.470
+Because we'll talk about
+the conflicting theories
+
+00:05:35.470 --> 00:05:37.390
+about the genesis of cities.
+
+00:05:37.390 --> 00:05:41.380
+When did cities first
+occur, time-wise?
+
+00:05:41.380 --> 00:05:46.350
+AUDIENCE: As in the poor city?
+
+00:05:46.350 --> 00:05:53.020
+JULIAN BEINART: I asked
+you, give me a time, a date.
+
+00:05:53.020 --> 00:05:57.570
+AUDIENCE: About 5,000 ago, AD.
+
+00:05:57.570 --> 00:06:01.140
+JULIAN BEINART:
+Yeah, I would now
+
+00:06:01.140 --> 00:06:07.320
+claim Jericho to be the oldest
+city, probably about 10,000 BC.
+
+00:06:07.320 --> 00:06:10.470
+But if you say it's
+[? South Alleyouk ?]
+
+00:06:10.470 --> 00:06:16.350
+or someplace else,
+paleontology is very vague.
+
+00:06:16.350 --> 00:06:23.110
+Most of our understanding of
+cities comes from archaeology.
+
+00:06:23.110 --> 00:06:27.930
+There's no theory which
+explains the origin of language.
+
+00:06:27.930 --> 00:06:29.325
+There are multiple theories.
+
+00:06:34.170 --> 00:06:40.860
+Cities occur very late in
+the humanoid evolution.
+
+00:06:40.860 --> 00:06:47.160
+The first tool is dated
+at 2.6 million years
+
+00:06:47.160 --> 00:06:52.155
+ago in the Olduvai Gorge in
+Kenya, found by Louis Leakey.
+
+00:06:55.920 --> 00:07:00.870
+So if cities date
+from 10,000 years BC,
+
+00:07:00.870 --> 00:07:06.420
+we have an anomalous period of
+time from four million years
+
+00:07:06.420 --> 00:07:11.310
+before Christ to 10,000 BC.
+
+00:07:11.310 --> 00:07:15.150
+During that period of time,
+a great deal of paleontology
+
+00:07:15.150 --> 00:07:17.640
+has been--
+
+00:07:17.640 --> 00:07:22.060
+one of the transformations
+of the humanoid
+
+00:07:22.060 --> 00:07:27.210
+to the human erectus
+deals with nutrition.
+
+00:07:30.570 --> 00:07:38.550
+Until you have a tool which
+can make food possible other
+
+00:07:38.550 --> 00:07:44.790
+than vegetables, you'll
+have the capacity
+
+00:07:44.790 --> 00:07:47.250
+to take in
+nutritional substances
+
+00:07:47.250 --> 00:07:51.270
+into the body, which
+theoretically include
+
+00:07:51.270 --> 00:07:53.160
+the creation of a larger brain.
+
+00:07:57.240 --> 00:07:59.960
+So the brain size
+of Australopithecus,
+
+00:07:59.960 --> 00:08:07.790
+which is about four million
+years old, a post-ape animal,
+
+00:08:07.790 --> 00:08:11.210
+has a brain of about
+400 cubic centimeters.
+
+00:08:11.210 --> 00:08:15.890
+You have brains of about 1,200
+to 1,400 cubic centimeters,
+
+00:08:15.890 --> 00:08:19.560
+depending how big you are
+and how smart you are.
+
+00:08:19.560 --> 00:08:24.440
+I don't think smartness has any
+connection to size of brain.
+
+00:08:24.440 --> 00:08:27.710
+But I'm throwing in just
+one other thought here
+
+00:08:27.710 --> 00:08:29.690
+around the idea of the genesis.
+
+00:08:29.690 --> 00:08:35.450
+I'll go into this more
+carefully with you on Thursday.
+
+00:08:35.450 --> 00:08:38.240
+There's a British
+paleontologist-psychologist
+
+00:08:38.240 --> 00:08:46.670
+called Robin Dunbar who studied
+the increase in human brain
+
+00:08:46.670 --> 00:08:52.100
+size and argues that human
+brains increased more
+
+00:08:52.100 --> 00:08:57.590
+significantly in
+communities of 150 people
+
+00:08:57.590 --> 00:09:02.000
+than when people
+stayed on their own
+
+00:09:02.000 --> 00:09:05.420
+or didn't partake in
+rituals of 150 people.
+
+00:09:08.140 --> 00:09:11.830
+This theory is called
+the gossip theory
+
+00:09:11.830 --> 00:09:16.570
+and argues that people
+and children need
+
+00:09:16.570 --> 00:09:22.330
+to be indoctrinated into the
+rules of this settlement,
+
+00:09:22.330 --> 00:09:26.440
+and it takes about 150
+people to make sure
+
+00:09:26.440 --> 00:09:29.380
+that these rules are
+properly disseminated.
+
+00:09:33.010 --> 00:09:35.940
+How this was done, nobody knows.
+
+00:09:40.740 --> 00:09:44.410
+If you believe Chomsky's
+theory of language acquisition,
+
+00:09:44.410 --> 00:09:48.280
+you'll believe that human
+beings have an innate capacity
+
+00:09:48.280 --> 00:09:50.650
+for language, and
+at a certain point,
+
+00:09:50.650 --> 00:09:54.070
+almost like the strike
+of a piece of lightning,
+
+00:09:54.070 --> 00:09:56.640
+it was activated
+in the human brain.
+
+00:09:59.170 --> 00:10:00.880
+There are many,
+many other theories.
+
+00:10:00.880 --> 00:10:03.850
+I'm not a linguist
+nor a philosopher,
+
+00:10:03.850 --> 00:10:13.420
+but I'm just trying to explain
+to you in a very primitive way
+
+00:10:13.420 --> 00:10:19.720
+how the advent of cities is
+late, how the advent of cities
+
+00:10:19.720 --> 00:10:22.930
+is difficult to explain.
+
+00:10:22.930 --> 00:10:26.680
+I will deal on Thursday with
+two contrasting theories,
+
+00:10:26.680 --> 00:10:32.590
+the theory of surplus, and the
+theory of cosmic knowledge.
+
+00:10:43.700 --> 00:10:46.010
+Let me go through some
+of the practical things
+
+00:10:46.010 --> 00:10:49.400
+that you need to know.
+
+00:10:49.400 --> 00:10:53.900
+You're going to be
+overwhelmed with reading.
+
+00:10:53.900 --> 00:10:58.190
+You have to develop a mature
+understanding of what to read
+
+00:10:58.190 --> 00:11:00.170
+and what not to read.
+
+00:11:00.170 --> 00:11:02.510
+I'm giving you an exercise.
+
+00:11:02.510 --> 00:11:06.890
+The required reading is about
+1,500 pages for the semester.
+
+00:11:06.890 --> 00:11:10.670
+That's about four
+books, four books
+
+00:11:10.670 --> 00:11:13.700
+for graduate student
+learning about cities,
+
+00:11:13.700 --> 00:11:16.010
+the form of cities,
+is not very much.
+
+00:11:19.540 --> 00:11:22.030
+By the way, one of the
+reasons for the increase
+
+00:11:22.030 --> 00:11:26.740
+for the size of the reading
+list is the enormous expansion
+
+00:11:26.740 --> 00:11:29.860
+of material in this field.
+
+00:11:29.860 --> 00:11:38.830
+I have in front of me the 1956
+references from Kevin Lynch.
+
+00:11:38.830 --> 00:11:43.060
+He totals 50 books, 51 books.
+
+00:11:45.940 --> 00:11:51.070
+My expanded reading
+list is 500 books.
+
+00:11:56.850 --> 00:11:58.065
+Let me give you an example.
+
+00:12:01.270 --> 00:12:16.420
+in 1964-- that's eight years
+after Kevin Lynch started
+
+00:12:16.420 --> 00:12:18.530
+teaching this class--
+
+00:12:18.530 --> 00:12:21.340
+the first book that dealt
+with third world cities,
+
+00:12:21.340 --> 00:12:23.980
+or developing country
+cities appeared.
+
+00:12:23.980 --> 00:12:28.750
+1964, MIT published Man's
+Struggle for Shelter
+
+00:12:28.750 --> 00:12:33.640
+in an Urbanizing World, a book
+by Charlie Abrams, still one
+
+00:12:33.640 --> 00:12:37.570
+of the best books published.
+
+00:12:37.570 --> 00:12:40.750
+Can you imagine
+that the literature
+
+00:12:40.750 --> 00:12:46.090
+on what now constitutes
+the majority of the world
+
+00:12:46.090 --> 00:12:55.520
+was not available in
+English until 1964?
+
+00:12:55.520 --> 00:12:59.270
+When I first started
+teaching this class,
+
+00:12:59.270 --> 00:13:02.270
+students wanted to
+do papers on cities
+
+00:13:02.270 --> 00:13:05.180
+where they came from, Nairobi.
+
+00:13:05.180 --> 00:13:07.730
+There's no urban
+geography on Nairobi.
+
+00:13:07.730 --> 00:13:11.300
+Now there's an urban
+geography on almost every city
+
+00:13:11.300 --> 00:13:14.150
+that exists in the world.
+
+00:13:14.150 --> 00:13:17.765
+When we did a studio
+in Chandigarh 19--
+
+00:13:17.765 --> 00:13:19.643
+god only knows when--
+
+00:13:19.643 --> 00:13:26.330
+in the 1980's, I
+think, you couldn't
+
+00:13:26.330 --> 00:13:27.840
+get a plan of Chandigarh.
+
+00:13:27.840 --> 00:13:31.070
+It was prohibited by
+the Indian government
+
+00:13:31.070 --> 00:13:33.090
+for security reasons.
+
+00:13:33.090 --> 00:13:36.950
+The only one that you could
+buy was through Russian sources
+
+00:13:36.950 --> 00:13:40.610
+via Houston for $2,000.
+
+00:13:40.610 --> 00:13:43.520
+So we did this study
+of Chandigarh, which we
+
+00:13:43.520 --> 00:13:46.280
+had to make our own base map.
+
+00:13:46.280 --> 00:13:49.610
+Today, that would be ridiculous.
+
+00:13:49.610 --> 00:13:54.140
+So if this class
+has a bit of a lag,
+
+00:13:54.140 --> 00:14:00.080
+it was built at a time
+when there were few books,
+
+00:14:00.080 --> 00:14:03.710
+and material on
+cities was scarce.
+
+00:14:06.850 --> 00:14:11.170
+I'm not here to teach for
+history or for posterity.
+
+00:14:11.170 --> 00:14:17.780
+I'm here to teach you as human
+beings in the best way I can.
+
+00:14:17.780 --> 00:14:21.790
+But I will talk, I
+will cover the material
+
+00:14:21.790 --> 00:14:26.540
+as best I can in about
+40 to 45 minutes,
+
+00:14:26.540 --> 00:14:29.350
+then I will show
+illustrated material
+
+00:14:29.350 --> 00:14:34.420
+in almost all the classes
+for about 15 to 20 minutes.
+
+00:14:34.420 --> 00:14:37.210
+And then there will be
+a period of 10 minutes
+
+00:14:37.210 --> 00:14:40.420
+for general observation.
+
+00:14:40.420 --> 00:14:44.920
+If we cannot, as in the case
+of case studies like Paris
+
+00:14:44.920 --> 00:14:48.460
+and London, finish with--
+
+00:14:48.460 --> 00:14:54.640
+there may be no time for asking
+questions or deliberating
+
+00:14:54.640 --> 00:14:56.440
+on the subject.
+
+00:14:56.440 --> 00:15:01.810
+We may start the next class with
+me asking your questions about,
+
+00:15:01.810 --> 00:15:06.280
+what questions you have
+about what I presented,
+
+00:15:06.280 --> 00:15:11.045
+such as, why is Paris
+twice as dense as London?
+
+00:15:11.045 --> 00:15:11.545
+Why?
+
+00:15:17.530 --> 00:15:24.340
+Both developed significantly
+from 1750 onwards.
+
+00:15:24.340 --> 00:15:29.980
+Why did London develop
+less densely than Paris?
+
+00:15:29.980 --> 00:15:31.654
+You should know these things.
+
+00:15:31.654 --> 00:15:34.320
+AUDIENCE: The wall?
+
+00:15:34.320 --> 00:15:37.830
+JULIAN BEINART: You're
+right in some ways.
+
+00:15:37.830 --> 00:15:44.280
+The wall, the last wall of the
+five Parisian walls was built
+
+00:15:44.280 --> 00:15:49.770
+as late as the 1820's.
+
+00:15:49.770 --> 00:15:54.780
+London, there's a rule you
+can, if you don't know European
+
+00:15:54.780 --> 00:15:57.420
+history, and you don't
+know European cities--
+
+00:15:57.420 --> 00:16:01.540
+and some of you who come
+from the Orient may not--
+
+00:16:01.540 --> 00:16:05.970
+the fortification of
+cities is more extreme
+
+00:16:05.970 --> 00:16:09.870
+as you go eastwards
+from England.
+
+00:16:09.870 --> 00:16:14.130
+The wall of London was a pretty
+miserable wall, a little bit
+
+00:16:14.130 --> 00:16:17.700
+of it left in the gates,
+like Ludgate and so on,
+
+00:16:17.700 --> 00:16:19.860
+but basically, it
+wasn't very much.
+
+00:16:23.190 --> 00:16:30.480
+Vienna's walls were never
+penetrated except in 1683
+
+00:16:30.480 --> 00:16:33.900
+by the Ottoman Empire.
+
+00:16:33.900 --> 00:16:36.100
+You don't need to know
+all of these details,
+
+00:16:36.100 --> 00:16:40.110
+but you have to understand
+the conceptual structure.
+
+00:16:40.110 --> 00:16:44.250
+Why would you build a city?
+
+00:16:44.250 --> 00:16:51.110
+One of my favorite quotations
+is from Marx talking
+
+00:16:51.110 --> 00:16:53.870
+about the origin of cities.
+
+00:16:53.870 --> 00:17:00.590
+He says "the antagonism
+between town and country
+
+00:17:00.590 --> 00:17:04.280
+begins with the
+transition from barbarism
+
+00:17:04.280 --> 00:17:09.920
+to civilization, from tribe to
+state, from locality to nation,
+
+00:17:09.920 --> 00:17:13.220
+and runs through the whole
+history of civilization
+
+00:17:13.220 --> 00:17:15.170
+to the present day."
+
+00:17:15.170 --> 00:17:17.290
+The first antagonism
+he talks about
+
+00:17:17.290 --> 00:17:21.319
+is between town and country.
+
+00:17:21.319 --> 00:17:23.810
+Cities were always
+clearly demarcated
+
+00:17:23.810 --> 00:17:26.180
+between town and country.
+
+00:17:26.180 --> 00:17:30.770
+It took until
+renaissance for nature
+
+00:17:30.770 --> 00:17:37.460
+to be introduced in the walls,
+within the womb of the city.
+
+00:17:37.460 --> 00:17:46.730
+The Romans used to say, I
+think, [LATIN],, they are lions.
+
+00:17:46.730 --> 00:17:54.530
+The world outside the walls
+was a world of treachery
+
+00:17:54.530 --> 00:17:57.095
+and difficulty and fantasy.
+
+00:18:02.210 --> 00:18:04.260
+There are many
+ideas about cities
+
+00:18:04.260 --> 00:18:08.040
+which are complex as that
+idea, but the antagonism
+
+00:18:08.040 --> 00:18:11.040
+between country and
+city still lasts today.
+
+00:18:14.560 --> 00:18:17.830
+President Obama was elected
+because of the majority
+
+00:18:17.830 --> 00:18:19.610
+that he had in cities.
+
+00:18:19.610 --> 00:18:22.570
+The Democratic Party
+is an urban party,
+
+00:18:22.570 --> 00:18:27.010
+by and large, although this
+has changed significantly
+
+00:18:27.010 --> 00:18:29.460
+as the size of
+cities has changed,
+
+00:18:29.460 --> 00:18:35.260
+and as the demarcation of
+polling districts has changed.
+
+00:18:39.130 --> 00:18:42.130
+But we'll talk about this
+distinction between country
+
+00:18:42.130 --> 00:18:45.400
+and city, and in
+the third class,
+
+00:18:45.400 --> 00:18:47.020
+we'll deal with
+the organic model.
+
+00:18:49.570 --> 00:18:52.000
+But you could see
+somebody like Marx,
+
+00:18:52.000 --> 00:18:54.580
+who really tried
+to do everything,
+
+00:18:54.580 --> 00:19:01.090
+and was right about 50% and
+wrong about 50%, judgment
+
+00:19:01.090 --> 00:19:03.655
+about the significance
+of the advent of cities.
+
+00:19:08.353 --> 00:19:13.010
+We know relatively little
+about these things,
+
+00:19:13.010 --> 00:19:21.630
+and I tend to prefer histories
+which deal with examples.
+
+00:19:21.630 --> 00:19:25.130
+So Morris's book The
+History of Urban Form,
+
+00:19:25.130 --> 00:19:27.770
+or Braudel's book on
+the Mediterranean,
+
+00:19:27.770 --> 00:19:33.530
+or on the structure of
+everyday life are better than--
+
+00:19:33.530 --> 00:19:36.230
+although Lewis Mumford,
+The Culture of Cities,
+
+00:19:36.230 --> 00:19:38.800
+is still the standard.
+
+00:19:38.800 --> 00:19:43.385
+He's wrong on many things,
+but he's full of ideas.
+
+00:19:47.920 --> 00:19:52.870
+It's a Mumfordism to claim--
+
+00:19:52.870 --> 00:19:55.050
+anyway, forget about Mumford.
+
+00:19:55.050 --> 00:19:57.820
+We'll talk about
+him sufficiently.
+
+00:20:06.390 --> 00:20:11.780
+Let's see in these
+generalized notes.
+
+00:20:19.080 --> 00:20:20.610
+By the way, there
+are other reasons
+
+00:20:20.610 --> 00:20:24.900
+why Paris is more
+dense than London.
+
+00:20:24.900 --> 00:20:26.310
+There's not one simple reason.
+
+00:20:35.510 --> 00:20:38.000
+What kind of houses
+did Englishmen live in?
+
+00:20:42.430 --> 00:20:45.670
+As opposed to what
+kind of houses did,
+
+00:20:45.670 --> 00:20:49.622
+during the time of Haussmann,
+did the French live in?
+
+00:20:54.680 --> 00:20:57.950
+We'll go into some of those.
+
+00:20:57.950 --> 00:21:04.580
+Look, I'm not a historian, and
+this is not a class in history.
+
+00:21:04.580 --> 00:21:09.590
+It's a class in deriving
+ideas from a number of sources
+
+00:21:09.590 --> 00:21:12.440
+and arguing them with you.
+
+00:21:12.440 --> 00:21:17.030
+I have no, other
+than a lot of time
+
+00:21:17.030 --> 00:21:19.910
+spent teaching and
+preparing for this class,
+
+00:21:19.910 --> 00:21:24.410
+and a lot of external
+experience practicing in cities
+
+00:21:24.410 --> 00:21:30.650
+all over the world, I have no
+golden formula for the truth.
+
+00:21:30.650 --> 00:21:32.870
+I don't claim to have that.
+
+00:21:32.870 --> 00:21:36.140
+I'm not sure that I believe
+anybody who says they do.
+
+00:21:43.310 --> 00:21:47.210
+I'm not a theist, and I'll
+come across quite often
+
+00:21:47.210 --> 00:21:51.380
+as an agnostic, if not
+an atheist, with regard
+
+00:21:51.380 --> 00:21:52.495
+to truths of religion.
+
+00:21:56.870 --> 00:22:05.220
+Jerusalem has only been the
+capital of a city, of a country
+
+00:22:05.220 --> 00:22:09.540
+twice, once during the
+period of the 10th century,
+
+00:22:09.540 --> 00:22:14.220
+during the crusader
+occupation, and after 1948
+
+00:22:14.220 --> 00:22:17.400
+with the advent of Israel.
+
+00:22:17.400 --> 00:22:23.430
+Jerusalem, which we will do in
+great detail in one case study,
+
+00:22:23.430 --> 00:22:30.540
+is subject to an enormous
+number of philosophical
+
+00:22:30.540 --> 00:22:33.810
+interpretations of history.
+
+00:22:33.810 --> 00:22:36.360
+There is no single
+truth about Jerusalem
+
+00:22:36.360 --> 00:22:42.600
+that is outside the truth of
+geopolitics at the moment.
+
+00:22:42.600 --> 00:22:45.690
+This is true for much of--
+
+00:22:48.520 --> 00:22:52.420
+so if I, to use
+the term "theory,"
+
+00:22:52.420 --> 00:22:54.180
+which Kevin Lynch started--
+
+00:22:57.160 --> 00:22:58.690
+I will use the term--
+
+00:22:58.690 --> 00:23:02.860
+I would have not called this
+class Theory of City Form.
+
+00:23:02.860 --> 00:23:07.780
+We live in a predominantly
+scientific age, in which theory
+
+00:23:07.780 --> 00:23:16.630
+is theory in physics, and it's
+about as precise as it can be.
+
+00:23:16.630 --> 00:23:20.320
+Theory in the social
+sciences is much looser,
+
+00:23:20.320 --> 00:23:25.040
+in theory in city form
+is even looser than that.
+
+00:23:25.040 --> 00:23:27.580
+So I would have
+called it, this class,
+
+00:23:27.580 --> 00:23:31.270
+really, more preoccupied
+with normative ideas,
+
+00:23:31.270 --> 00:23:35.950
+normative and functional ideas
+about the former cities, rather
+
+00:23:35.950 --> 00:23:37.660
+than theory.
+
+00:23:37.660 --> 00:23:40.330
+If I taught this
+class in Paris, I
+
+00:23:40.330 --> 00:23:44.530
+would be deriving
+theory from theory.
+
+00:23:44.530 --> 00:23:48.340
+This class follows
+the Chicago style,
+
+00:23:48.340 --> 00:23:51.250
+and I only will
+discuss a theory if I
+
+00:23:51.250 --> 00:23:55.870
+can attribute an example
+in association with it.
+
+00:23:58.920 --> 00:24:05.130
+So I will be making propositions
+and choosing an example
+
+00:24:05.130 --> 00:24:07.200
+to adumbrate that proposition.
+
+00:24:07.200 --> 00:24:12.540
+The example will come from
+architecture very much.
+
+00:24:12.540 --> 00:24:16.800
+Amongst the social
+sciences or disciplines
+
+00:24:16.800 --> 00:24:21.370
+other than urbanism, if there is
+such a thing as the discipline
+
+00:24:21.370 --> 00:24:27.000
+of urbanism, much of my material
+will come from the built world.
+
+00:24:27.000 --> 00:24:30.900
+It's a bias, which I accept,
+and it's the only one
+
+00:24:30.900 --> 00:24:32.545
+that I know a little bit about.
+
+00:24:39.710 --> 00:24:44.200
+So for instance, if I want to
+talk about the problem of how
+
+00:24:44.200 --> 00:24:49.540
+you deal with the future
+expansion of a city,
+
+00:24:49.540 --> 00:24:55.600
+I will look at the plans of
+university buildings designed
+
+00:24:55.600 --> 00:25:03.970
+in competition from
+1955 and 1960 to 1990,
+
+00:25:03.970 --> 00:25:10.720
+where an attempt to design for
+a system which could accept
+
+00:25:10.720 --> 00:25:13.990
+change is much easier to see.
+
+00:25:13.990 --> 00:25:16.990
+I'll also refer to
+a thesis done here
+
+00:25:16.990 --> 00:25:21.670
+on MIT, which looks at
+the way MIT has been
+
+00:25:21.670 --> 00:25:26.830
+able to expand using the
+same trajectory of expansion,
+
+00:25:26.830 --> 00:25:28.120
+formal expansion.
+
+00:25:30.730 --> 00:25:31.270
+What else?
+
+00:25:38.330 --> 00:25:41.210
+As for the definition
+of a city, I'm
+
+00:25:41.210 --> 00:25:48.485
+going to use any definition
+that you wish to bring forward.
+
+00:25:51.010 --> 00:25:56.480
+Cities are, by and large,
+denser than non-cities.
+
+00:25:56.480 --> 00:25:59.420
+And that's about
+all you can say.
+
+00:25:59.420 --> 00:26:03.470
+The SMSA definition
+of a metropolitan area
+
+00:26:03.470 --> 00:26:06.950
+is useful for
+statistical purposes,
+
+00:26:06.950 --> 00:26:11.360
+but god alone knows
+what Mexico City,
+
+00:26:11.360 --> 00:26:14.330
+what are the boundaries
+of Mexico City?
+
+00:26:14.330 --> 00:26:16.850
+There's more investment
+outside of the city
+
+00:26:16.850 --> 00:26:20.300
+of Mexico City in
+the metropolitan area
+
+00:26:20.300 --> 00:26:21.920
+than there is in
+the city itself.
+
+00:26:28.810 --> 00:26:33.220
+Is Foxborough, where the
+Patriots play football
+
+00:26:33.220 --> 00:26:37.595
+every Sunday during the winter,
+part of the metropolitan area
+
+00:26:37.595 --> 00:26:38.095
+of Boston?
+
+00:26:41.020 --> 00:26:44.500
+The city of Boston had nothing
+to do with the decision
+
+00:26:44.500 --> 00:26:48.220
+to locate it in Foxborough.
+
+00:26:48.220 --> 00:26:50.780
+As cities have
+expanded horizontally,
+
+00:26:50.780 --> 00:26:53.800
+so the issue of what the
+boundary of a city is
+
+00:26:53.800 --> 00:26:58.930
+becomes more complex
+and more interesting.
+
+00:26:58.930 --> 00:27:02.800
+There are more new prototypes
+of urbanism created
+
+00:27:02.800 --> 00:27:07.060
+by the expansion, or horizontal
+expansions, and more anger
+
+00:27:07.060 --> 00:27:10.750
+by architects who believe
+that cities should still be
+
+00:27:10.750 --> 00:27:14.710
+framed as if they were walled.
+
+00:27:14.710 --> 00:27:19.450
+Both of these arguments
+are pretty viable,
+
+00:27:19.450 --> 00:27:22.480
+and will be worth
+discussing them.
+
+00:27:22.480 --> 00:27:25.510
+OK, I'm going on and on and on.
+
+00:27:25.510 --> 00:27:30.940
+Any questions about procedure?
+
+00:27:30.940 --> 00:27:34.210
+You're all very silent.
+
+00:27:34.210 --> 00:27:36.895
+Has anything I've
+said been wrong?
+
+00:27:40.730 --> 00:27:42.720
+That's amazing.
+
+00:27:42.720 --> 00:27:43.820
+You're much too gullible.
+
+00:27:52.010 --> 00:27:54.920
+Look, I will, at
+times, say things
+
+00:27:54.920 --> 00:28:00.680
+which I feel more strongly
+than I feel about other things.
+
+00:28:00.680 --> 00:28:03.560
+That's my privilege,
+because I teach this class.
+
+00:28:03.560 --> 00:28:07.950
+If you taught the class, you
+would have that privilege.
+
+00:28:07.950 --> 00:28:11.870
+You are absolutely free to
+question everything I say.
+
+00:28:16.460 --> 00:28:21.650
+Let me just say something,
+which I hope you'll remember.
+
+00:28:21.650 --> 00:28:25.490
+In one of the evaluations
+of this class, which
+
+00:28:25.490 --> 00:28:31.250
+is done every year, there was
+a question from the students
+
+00:28:31.250 --> 00:28:35.750
+as to why they didn't
+ask more questions.
+
+00:28:35.750 --> 00:28:38.510
+And one of the number of
+answers here, the professor
+
+00:28:38.510 --> 00:28:39.590
+knows too much.
+
+00:28:42.110 --> 00:28:45.710
+My response is, would you prefer
+to be taught by a professor who
+
+00:28:45.710 --> 00:28:49.080
+knows too little?
+
+00:28:49.080 --> 00:28:50.555
+That's a stupid response.
+
+00:28:53.700 --> 00:28:59.130
+Please just don't feel because I
+have had 34 years of experience
+
+00:28:59.130 --> 00:29:02.430
+teaching this class, that
+you should understand it
+
+00:29:02.430 --> 00:29:05.670
+all without question.
+
+00:29:05.670 --> 00:29:11.190
+I feel free to diverge
+and choose opportunities
+
+00:29:11.190 --> 00:29:15.330
+to say things which come
+to me for the first time.
+
+00:29:15.330 --> 00:29:18.900
+That's the way I think.
+
+00:29:18.900 --> 00:29:21.210
+I would like you to
+think in the same way,
+
+00:29:21.210 --> 00:29:26.412
+even if you might get
+irritated by my presumption.
+
+00:29:26.412 --> 00:29:32.070
+There is no single theory
+of city form that exists.
+
+00:29:32.070 --> 00:29:35.700
+There is no absolute theory.
+
+00:29:35.700 --> 00:29:40.320
+There are many theories, and
+there are preferred theories,
+
+00:29:40.320 --> 00:29:43.650
+as opposed to silly theories.
+
+00:29:43.650 --> 00:29:45.135
+There are many, many problems.
+
+00:29:49.020 --> 00:29:54.570
+Robin Dunbar's theory of 150
+people has been taken up,
+
+00:29:54.570 --> 00:29:58.620
+and firms, corporate firms,
+have divided their manpower
+
+00:29:58.620 --> 00:30:04.680
+into groups of 150 people
+based on Dunbar's studies.
+
+00:30:04.680 --> 00:30:07.040
+We're not going to do
+something as silly as that.
+
+00:30:10.170 --> 00:30:15.390
+Reading, there's two pieces
+by Kevin Lynch generated
+
+00:30:15.390 --> 00:30:20.310
+in this class
+through discussion.
+
+00:30:20.310 --> 00:30:25.440
+And I think they ask questions
+which are interesting,
+
+00:30:25.440 --> 00:30:29.250
+and answers which
+are interesting.
+
+00:30:29.250 --> 00:30:33.780
+The first three classes,
+starting on Thursday, deal--
+
+00:30:33.780 --> 00:30:36.810
+well, let me generalize first.
+
+00:30:36.810 --> 00:30:40.470
+There are three major
+sections in this class.
+
+00:30:40.470 --> 00:30:44.910
+Section one deals with the
+nature of city form theory
+
+00:30:44.910 --> 00:30:51.270
+and goes on till the fourth,
+goes on till the sixth class.
+
+00:30:51.270 --> 00:30:56.220
+The first six classes deal
+with examples and ideas
+
+00:30:56.220 --> 00:30:59.595
+about the form of cities.
+
+00:30:59.595 --> 00:31:02.260
+There are three
+analogical examples.
+
+00:31:02.260 --> 00:31:05.250
+The first one, which I'll
+deal with on Thursday,
+
+00:31:05.250 --> 00:31:09.990
+posits a metaphysical
+relationship
+
+00:31:09.990 --> 00:31:14.400
+between the form of
+the city and the cosmos
+
+00:31:14.400 --> 00:31:17.670
+that will deal with
+all of the material
+
+00:31:17.670 --> 00:31:20.760
+from paleontologists
+and philosophers,
+
+00:31:20.760 --> 00:31:27.000
+like Mircea Eliade,
+who will argue
+
+00:31:27.000 --> 00:31:33.210
+that the archaic
+cities had connections
+
+00:31:33.210 --> 00:31:35.010
+to celestial systems.
+
+00:31:35.010 --> 00:31:38.560
+We want to ask why.
+
+00:31:38.560 --> 00:31:42.030
+What are the
+implications of survival,
+
+00:31:42.030 --> 00:31:45.450
+in terms of practical
+methods of dealing
+
+00:31:45.450 --> 00:31:48.750
+with survival in the
+form of the city,
+
+00:31:48.750 --> 00:31:52.920
+as opposed to metaphysical?
+
+00:31:52.920 --> 00:31:59.850
+Why is the temple of Marduk,
+the city god of Babylon,
+
+00:31:59.850 --> 00:32:03.345
+on top of the Tower of Babel?
+
+00:32:03.345 --> 00:32:07.020
+Estimates of the Tower of
+Babel are about 300 feet
+
+00:32:07.020 --> 00:32:09.060
+in brick and stone.
+
+00:32:09.060 --> 00:32:11.430
+You can't build much
+taller than that,
+
+00:32:11.430 --> 00:32:15.660
+although the pyramids of Giza
+are about 300 meters, I think.
+
+00:32:19.210 --> 00:32:25.870
+Why place a temple
+on top of a tower?
+
+00:32:25.870 --> 00:32:28.900
+We will ask questions
+of this kind.
+
+00:32:28.900 --> 00:32:33.650
+We will ask why, this
+is one of the earlier--
+
+00:32:33.650 --> 00:32:35.380
+and you can help us here--
+
+00:32:35.380 --> 00:32:39.430
+one of the earliest
+cities of dynastic China
+
+00:32:39.430 --> 00:32:43.810
+has a pattern which resembles
+the star system of the dipper.
+
+00:32:48.610 --> 00:32:54.815
+Essentially, Lynch,
+Mumford, Adams,
+
+00:32:54.815 --> 00:32:58.270
+are amongst the
+major protagonists
+
+00:32:58.270 --> 00:33:03.280
+of the cosmic theory
+of archaic city form.
+
+00:33:03.280 --> 00:33:08.030
+By this theory, it means we know
+where a city should be located.
+
+00:33:08.030 --> 00:33:10.030
+We have techniques
+for finding the place
+
+00:33:10.030 --> 00:33:13.060
+where it should
+be best built. It
+
+00:33:13.060 --> 00:33:16.070
+has a relationship
+with survival.
+
+00:33:16.070 --> 00:33:19.060
+It has three-tiered systems.
+
+00:33:19.060 --> 00:33:20.710
+One of the things
+I will do, is I
+
+00:33:20.710 --> 00:33:25.465
+will give you a piece, a series
+of pieces of paper every class.
+
+00:33:27.990 --> 00:33:29.910
+So for instance,
+instead of me having
+
+00:33:29.910 --> 00:33:32.790
+to make a list of
+all of the reasons
+
+00:33:32.790 --> 00:33:36.570
+for why the cosmic, or what
+the cosmic form can do,
+
+00:33:36.570 --> 00:33:40.740
+I will hand it out to
+you on a sheet of paper.
+
+00:33:40.740 --> 00:33:42.270
+This is a gift.
+
+00:33:42.270 --> 00:33:47.430
+You would have 26 gifts
+at the end of the semester
+
+00:33:47.430 --> 00:33:52.950
+to add to your numerous
+amounts of paper.
+
+00:33:52.950 --> 00:33:55.080
+I will often show
+a diagram which
+
+00:33:55.080 --> 00:34:03.210
+I can't show in slide form to
+help us manipulate the class.
+
+00:34:03.210 --> 00:34:06.600
+I will sometimes try
+to bring the class up
+
+00:34:06.600 --> 00:34:10.230
+to date by giving you a
+piece from the New York
+
+00:34:10.230 --> 00:34:11.400
+Times that day.
+
+00:34:16.040 --> 00:34:20.960
+The New York Times will
+come up in some of these.
+
+00:34:20.960 --> 00:34:23.989
+One of the problems with
+teaching a class for 34 years
+
+00:34:23.989 --> 00:34:25.065
+is that you get bored.
+
+00:34:27.590 --> 00:34:31.400
+Most of you who graduate from
+MIT with advanced degrees
+
+00:34:31.400 --> 00:34:34.199
+teach.
+
+00:34:34.199 --> 00:34:38.389
+I don't know how you teach
+the calculus for 34 years
+
+00:34:38.389 --> 00:34:41.420
+without going around the bend.
+
+00:34:41.420 --> 00:34:45.830
+So what I try to do is to
+teach the class differently
+
+00:34:45.830 --> 00:34:48.270
+every time I teach it.
+
+00:34:48.270 --> 00:34:51.560
+So I will start off taking
+a piece from this morning's
+
+00:34:51.560 --> 00:35:00.440
+paper on Hurricane Sandy and
+what Mayor Bloomberg proposes
+
+00:35:00.440 --> 00:35:04.010
+to do, and tie it
+into the theory
+
+00:35:04.010 --> 00:35:06.890
+that we're examining that day.
+
+00:35:06.890 --> 00:35:09.770
+And I will give you that piece
+of paper, or those sheets
+
+00:35:09.770 --> 00:35:12.230
+of paper, sometimes three.
+
+00:35:12.230 --> 00:35:15.080
+Sometimes I'll give
+you a series of plans
+
+00:35:15.080 --> 00:35:17.570
+which will take five pages.
+
+00:35:17.570 --> 00:35:22.280
+For instance, when we talk about
+the Grand Paris competition,
+
+00:35:22.280 --> 00:35:28.010
+I will give you excerpts
+from the competition.
+
+00:35:28.010 --> 00:35:29.420
+So I'll give you a paper.
+
+00:35:29.420 --> 00:35:30.830
+You can throw it away.
+
+00:35:30.830 --> 00:35:32.770
+You can use it during the class.
+
+00:35:32.770 --> 00:35:34.250
+It's an adjunct.
+
+00:35:34.250 --> 00:35:35.900
+You can give me gifts in return.
+
+00:35:38.980 --> 00:35:40.440
+Don't take that seriously.
+
+00:35:43.310 --> 00:35:48.100
+The second of the analogical
+propositions we look at
+
+00:35:48.100 --> 00:35:51.370
+will be the machine model.
+
+00:35:51.370 --> 00:35:56.260
+These three models were derived
+in this class with Kevin Lynch
+
+00:35:56.260 --> 00:36:02.320
+a number of years ago, and
+I've adapted them for this
+
+00:36:02.320 --> 00:36:04.420
+and modernized them.
+
+00:36:04.420 --> 00:36:09.970
+The machine model
+deals with everything
+
+00:36:09.970 --> 00:36:17.980
+from the first grid city
+to the laws of the Indies
+
+00:36:17.980 --> 00:36:23.980
+to contemporary attempts
+at machine interpretation.
+
+00:36:23.980 --> 00:36:27.040
+The fourth class looks
+with the tradition
+
+00:36:27.040 --> 00:36:31.330
+of regarding the city
+as a function of nature
+
+00:36:31.330 --> 00:36:34.150
+and looks to organic analogies.
+
+00:36:34.150 --> 00:36:37.270
+We will look at a
+number of theorists
+
+00:36:37.270 --> 00:36:42.190
+of this kind, Patrick Geddes,
+Ebenezer Howard, and so on.
+
+00:36:42.190 --> 00:36:44.290
+But I will be
+skeptical about this.
+
+00:36:44.290 --> 00:36:52.400
+I'm skeptical about biomorphism,
+and I will say I'm skeptical.
+
+00:36:52.400 --> 00:36:56.080
+I will go through
+very briefly with you
+
+00:36:56.080 --> 00:37:01.030
+the history from 1933
+of the greatest planning
+
+00:37:01.030 --> 00:37:06.100
+effort in this country, the
+Tennessee Valley Authority.
+
+00:37:06.100 --> 00:37:12.700
+I will show you how in
+1933, I will tell you
+
+00:37:12.700 --> 00:37:17.860
+about Roosevelt's theoretical
+understanding of nature.
+
+00:37:17.860 --> 00:37:24.220
+I will talk to you about the
+Southern urbanists' reaction
+
+00:37:24.220 --> 00:37:29.280
+to that, viewing nature in
+a completely different way.
+
+00:37:29.280 --> 00:37:31.810
+I will talk to you about
+Henry Ford's proposition
+
+00:37:31.810 --> 00:37:37.000
+to build Muscle Shoals as an
+industrial-agricultural city
+
+00:37:37.000 --> 00:37:39.610
+instead of the new.
+
+00:37:39.610 --> 00:37:44.050
+Henry Ford proposed to
+the United States Congress
+
+00:37:44.050 --> 00:37:47.860
+to buy the first
+dam for $1 million,
+
+00:37:47.860 --> 00:37:53.020
+and the Senator Norris,
+great man, turned it down.
+
+00:37:53.020 --> 00:37:58.740
+Instead, we'll go on to
+new images of nature,
+
+00:37:58.740 --> 00:38:02.460
+and we'll talk about
+the establishment
+
+00:38:02.460 --> 00:38:09.510
+of the controversy about the
+small fish in one of the dams.
+
+00:38:09.510 --> 00:38:14.760
+We'll go on to the fact
+that the 28 dams are now,
+
+00:38:14.760 --> 00:38:18.690
+the 28 dams that are
+built no longer provide
+
+00:38:18.690 --> 00:38:22.860
+sufficient hydroelectric
+energy, and 60%
+
+00:38:22.860 --> 00:38:27.990
+of the industry supported by
+electricity comes from coal.
+
+00:38:27.990 --> 00:38:32.010
+The worst coal disaster, the
+worst environmental disaster
+
+00:38:32.010 --> 00:38:36.930
+in history took place in the
+Tennessee Valley Authority.
+
+00:38:36.930 --> 00:38:38.800
+You see what I'm trying to do?
+
+00:38:38.800 --> 00:38:43.200
+I'm trying to say nature
+is not a fixed commodity.
+
+00:38:43.200 --> 00:38:48.490
+In one project, there are annual
+protests against the-- where
+
+00:38:48.490 --> 00:38:50.100
+did the Manhattan Project--
+
+00:38:50.100 --> 00:38:52.920
+where was the Manhattan Project?
+
+00:38:52.920 --> 00:38:56.230
+It was in the Tennessee
+Valley Authority.
+
+00:38:56.230 --> 00:38:59.065
+There are anti-nuclear
+protests every year.
+
+00:39:03.760 --> 00:39:05.970
+Nature is a difficult subject.
+
+00:39:05.970 --> 00:39:09.000
+Forget about nature.
+
+00:39:09.000 --> 00:39:10.600
+You're a human being.
+
+00:39:10.600 --> 00:39:11.860
+You have an animal.
+
+00:39:11.860 --> 00:39:15.670
+You have a brain many,
+many times the size
+
+00:39:15.670 --> 00:39:18.100
+of any other living creature.
+
+00:39:18.100 --> 00:39:22.210
+Your decisions are not bad ones.
+
+00:39:22.210 --> 00:39:23.860
+At least that's
+my point of view.
+
+00:39:23.860 --> 00:39:25.030
+I'm a humanist.
+
+00:39:25.030 --> 00:39:26.410
+Forgive me.
+
+00:39:26.410 --> 00:39:30.250
+I'm not a naturalist.
+
+00:39:30.250 --> 00:39:33.970
+We'll debate that proposition.
+
+00:39:33.970 --> 00:39:36.280
+I then will spend
+two classes looking
+
+00:39:36.280 --> 00:39:40.390
+at theoretical
+propositions, one largely
+
+00:39:40.390 --> 00:39:45.410
+from the social sciences,
+economics, political science,
+
+00:39:45.410 --> 00:39:47.140
+history, and so on.
+
+00:39:47.140 --> 00:39:54.760
+And then I will look at four
+attempts to create reasonable
+
+00:39:54.760 --> 00:40:00.400
+theory, Lynch,
+Martin, Alexander,
+
+00:40:00.400 --> 00:40:05.510
+[? Brockin ?] and
+[? Helia ?] as examples.
+
+00:40:05.510 --> 00:40:07.810
+We will stop there
+with the introduction.
+
+00:40:07.810 --> 00:40:11.980
+That is a large
+introduction to the class.
+
+00:40:11.980 --> 00:40:15.370
+I will start Section 2
+with the first early cities
+
+00:40:15.370 --> 00:40:16.420
+of capitalism.
+
+00:40:22.130 --> 00:40:26.420
+Nothing that preceded
+in human history,
+
+00:40:26.420 --> 00:40:29.210
+as far as urbanization
+is concerned,
+
+00:40:29.210 --> 00:40:35.550
+is as important as what
+happened from 1750 onwards.
+
+00:40:35.550 --> 00:40:40.140
+I will try to convince you
+not to ignore urban history--
+
+00:40:43.030 --> 00:40:44.120
+it's not taught anyway--
+
+00:40:47.440 --> 00:40:54.130
+but to really concentrate on
+the period from 1750 onwards.
+
+00:40:54.130 --> 00:40:56.440
+The greatest event
+in human history
+
+00:40:56.440 --> 00:40:57.745
+is the Industrial Revolution.
+
+00:40:57.745 --> 00:41:01.960
+Why it took place in
+England, why it took place
+
+00:41:01.960 --> 00:41:07.180
+in the first place, we will look
+at a number of theories which
+
+00:41:07.180 --> 00:41:14.080
+explain that, including a
+recent theoretical exploration
+
+00:41:14.080 --> 00:41:18.050
+by a man from
+California called Clark.
+
+00:41:18.050 --> 00:41:23.020
+His book A Farewell to Alms
+is an interesting biogenetic
+
+00:41:23.020 --> 00:41:33.430
+attempt to explain the
+change in human behavior
+
+00:41:33.430 --> 00:41:35.455
+in the 19th century in England.
+
+00:41:39.460 --> 00:41:45.400
+In 1850, London was the
+largest city in the world.
+
+00:41:45.400 --> 00:41:47.650
+It was the first city
+in the world since Rome
+
+00:41:47.650 --> 00:41:52.000
+to have achieve 1 million
+population, more or less.
+
+00:41:52.000 --> 00:41:55.450
+We don't measure these
+things very accurately.
+
+00:41:55.450 --> 00:41:58.720
+At the same time,
+the first rules
+
+00:41:58.720 --> 00:42:03.350
+were introduced into boxing.
+
+00:42:03.350 --> 00:42:05.510
+Why?
+
+00:42:05.510 --> 00:42:12.140
+Medieval boxing was dealt
+with cruelty to animals.
+
+00:42:12.140 --> 00:42:15.230
+I would treat you to the
+story about the burning
+
+00:42:15.230 --> 00:42:19.460
+of a cat in front of
+royalty in the population
+
+00:42:19.460 --> 00:42:22.010
+in Paris in the 18th century.
+
+00:42:25.890 --> 00:42:29.100
+Boxing in a medieval
+sporting event was--
+
+00:42:29.100 --> 00:42:32.850
+didn't separate big
+giants from small men.
+
+00:42:32.850 --> 00:42:33.795
+Women didn't box.
+
+00:42:36.640 --> 00:42:43.000
+Cockfighting, Hemingway
+says that bullfighting
+
+00:42:43.000 --> 00:42:45.820
+is the last vestige of sport.
+
+00:42:45.820 --> 00:42:49.030
+What he's saying is
+that the transformation
+
+00:42:49.030 --> 00:42:56.530
+from free-ranging animal-human
+interaction in medieval sport
+
+00:42:56.530 --> 00:43:01.300
+changed dramatically
+with industrialization.
+
+00:43:01.300 --> 00:43:06.610
+1855, the Marquis of
+Queensbury rules in boxing
+
+00:43:06.610 --> 00:43:10.930
+limited the length of boxing
+around to two minutes, I think,
+
+00:43:10.930 --> 00:43:14.380
+or five minutes, whatever it is.
+
+00:43:14.380 --> 00:43:17.900
+That's when Manchester
+United was formed.
+
+00:43:17.900 --> 00:43:23.440
+So we look at sport as an
+analogy to culture in relation
+
+00:43:23.440 --> 00:43:24.580
+to--
+
+00:43:24.580 --> 00:43:27.100
+we'll deal with Marx.
+
+00:43:27.100 --> 00:43:29.020
+Not Marx, Marx, yes.
+
+00:43:29.020 --> 00:43:31.330
+We'll always deal with Marx.
+
+00:43:31.330 --> 00:43:34.750
+You can't avoid him.
+
+00:43:34.750 --> 00:43:40.090
+We'll deal with Engels' period
+in Manchester and his book
+
+00:43:40.090 --> 00:43:43.960
+The Condition of the
+Working Class in England.
+
+00:43:43.960 --> 00:43:48.220
+We'll deal with a
+number of things
+
+00:43:48.220 --> 00:43:50.870
+when we do the case
+study of London.
+
+00:43:50.870 --> 00:43:54.160
+We'll deal with a number
+of economic and social
+
+00:43:54.160 --> 00:43:59.950
+transformation, which I
+consider fundamental to any
+
+00:43:59.950 --> 00:44:02.440
+consideration of a modern city.
+
+00:44:02.440 --> 00:44:06.190
+The first is the invention
+of the mortgage system.
+
+00:44:06.190 --> 00:44:09.070
+None of you know anything
+about the mortgage system.
+
+00:44:09.070 --> 00:44:11.740
+Nobody knows very much.
+
+00:44:11.740 --> 00:44:13.750
+Do you realize that
+one of the great causes
+
+00:44:13.750 --> 00:44:16.450
+for the American depression
+was that you couldn't
+
+00:44:16.450 --> 00:44:20.800
+engage in a domestic
+mortgage to borrow money
+
+00:44:20.800 --> 00:44:23.830
+for buying a house?
+
+00:44:23.830 --> 00:44:29.080
+That was invented as part of
+the feudal system in Manchester
+
+00:44:29.080 --> 00:44:33.790
+and Birmingham in
+the 1830's onwards.
+
+00:44:33.790 --> 00:44:38.650
+I'll talk about the
+conquest of cholera
+
+00:44:38.650 --> 00:44:44.140
+in London, in the
+building and the--
+
+00:44:44.140 --> 00:44:46.780
+London in 1850 with
+a million people
+
+00:44:46.780 --> 00:44:51.730
+with the most filthy
+city in world history.
+
+00:44:51.730 --> 00:44:54.280
+There were a number of
+people who made livings
+
+00:44:54.280 --> 00:45:00.370
+just scavenging the dirt in
+London, in the Thames, digging
+
+00:45:00.370 --> 00:45:02.845
+out bodies, old waste.
+
+00:45:06.240 --> 00:45:14.220
+Cholera was considered to be
+a disease through the air.
+
+00:45:14.220 --> 00:45:18.330
+A wonderful doctor,
+there's this great book
+
+00:45:18.330 --> 00:45:20.860
+which I refer to in reading.
+
+00:45:27.140 --> 00:45:32.510
+The Ghost Map is
+the book which goes
+
+00:45:32.510 --> 00:45:36.300
+into detail about how this man
+discovered that cholera was
+
+00:45:36.300 --> 00:45:40.610
+a waterborne disease, which led
+to the greatest public building
+
+00:45:40.610 --> 00:45:49.310
+works in the history of London,
+the redistribution of water
+
+00:45:49.310 --> 00:45:55.370
+from the North and the South
+into bypasses which takes
+
+00:45:55.370 --> 00:45:59.555
+the polluted water horizontally
+away from the center of London.
+
+00:46:02.360 --> 00:46:03.920
+We'll do the same with Paris.
+
+00:46:03.920 --> 00:46:07.310
+Here I will deal with another
+fundamental innovation,
+
+00:46:07.310 --> 00:46:09.710
+and that's deficit spending.
+
+00:46:09.710 --> 00:46:14.090
+You cannot do major works in a
+city without borrowing money.
+
+00:46:17.940 --> 00:46:21.450
+The great conflict amongst
+the prefects of the Seine
+
+00:46:21.450 --> 00:46:27.990
+until Haussmann about building
+as much as the purse would
+
+00:46:27.990 --> 00:46:31.440
+allow, which was very little.
+
+00:46:31.440 --> 00:46:34.680
+Haussmann benefited
+from the great work
+
+00:46:34.680 --> 00:46:38.460
+of Saint-Simon and
+other economists
+
+00:46:38.460 --> 00:46:41.550
+which showed that if
+you borrowed money,
+
+00:46:41.550 --> 00:46:46.500
+you could pay it back
+at enormous benefit.
+
+00:46:46.500 --> 00:46:52.050
+Haussmann borrowed enough
+money in the years between 1850
+
+00:46:52.050 --> 00:46:55.740
+and 1870 to rebuild Paris.
+
+00:46:55.740 --> 00:47:01.350
+That loan, those loans
+were only repaid in 1928.
+
+00:47:01.350 --> 00:47:03.137
+Deficit spending has become--
+
+00:47:05.760 --> 00:47:10.170
+if you're interested, we can
+talk about deficit spending,
+
+00:47:10.170 --> 00:47:13.060
+national deficit spending.
+
+00:47:13.060 --> 00:47:19.530
+The great trauma, economically,
+in United States politics
+
+00:47:19.530 --> 00:47:24.290
+is an extension of
+deficit spending.
+
+00:47:24.290 --> 00:47:28.850
+Most of the Democrats
+believe that a large deficit
+
+00:47:28.850 --> 00:47:33.180
+isn't a fundamental flaw
+in the economic system.
+
+00:47:33.180 --> 00:47:37.580
+Republicans, by and large,
+have the opposite position.
+
+00:47:37.580 --> 00:47:40.160
+They believe that
+a national economy
+
+00:47:40.160 --> 00:47:44.120
+is much like
+developing a mortgage.
+
+00:47:44.120 --> 00:47:46.310
+You can't have too
+large a mortgage,
+
+00:47:46.310 --> 00:47:50.490
+as opposed to how much
+economic growth you have.
+
+00:47:50.490 --> 00:47:55.040
+We will touch on this
+economic distinction,
+
+00:47:55.040 --> 00:47:59.000
+and I'll refer you to reading a
+book by the Nobel Prize winner
+
+00:47:59.000 --> 00:48:07.040
+Joseph Stiglitz, who talks
+about the fundamental problem
+
+00:48:07.040 --> 00:48:11.690
+of disparity, large disparities
+of income as measured
+
+00:48:11.690 --> 00:48:17.310
+by the Gini coefficient,
+and economic growth.
+
+00:48:17.310 --> 00:48:21.920
+But this starts in
+Paris in the years,
+
+00:48:21.920 --> 00:48:26.570
+in the 20-year period
+from 1850 to 1870.
+
+00:48:26.570 --> 00:48:28.940
+Now, architects look
+at Haussmann and say,
+
+00:48:28.940 --> 00:48:29.795
+he built avenues.
+
+00:48:32.810 --> 00:48:36.350
+If you don't like avenues,
+you say he's a horrible man.
+
+00:48:36.350 --> 00:48:38.475
+If you like avenues, then
+you think he was a saint.
+
+00:48:41.550 --> 00:48:43.970
+He did lots of other
+things than build avenues.
+
+00:48:43.970 --> 00:48:48.420
+He built the avenues according
+to an economic relationship
+
+00:48:48.420 --> 00:48:52.970
+with the banks, which
+allowed him to borrow
+
+00:48:52.970 --> 00:48:54.470
+enormous amounts of money.
+
+00:48:58.910 --> 00:49:03.660
+So we'll move on from the case
+studies of Paris and London,
+
+00:49:03.660 --> 00:49:05.390
+which are classic--
+
+00:49:05.390 --> 00:49:06.500
+I should hurry up--
+
+00:49:09.770 --> 00:49:13.820
+to looking at one of the
+conventional 19th century
+
+00:49:13.820 --> 00:49:17.420
+responses to the first
+cities of capitalism,
+
+00:49:17.420 --> 00:49:20.580
+and that's Barcelona.
+
+00:49:23.910 --> 00:49:28.380
+We'll look at the genius
+of Ildefons Cerda's
+
+00:49:28.380 --> 00:49:34.200
+plan for Barcelona, the
+largest housing plan in Europe,
+
+00:49:34.200 --> 00:49:35.040
+a number of issues.
+
+00:49:39.210 --> 00:49:43.830
+I presume some of you have
+been to Barcelona and know
+
+00:49:43.830 --> 00:49:45.570
+the Ensanche.
+
+00:49:45.570 --> 00:49:48.000
+Almost every theorist
+from Barcelona,
+
+00:49:48.000 --> 00:49:53.040
+including my friend
+Morales, who died last year,
+
+00:49:53.040 --> 00:49:56.430
+claims there's something
+significant in the Ensanche.
+
+00:49:56.430 --> 00:49:58.020
+I want to know what you think.
+
+00:49:58.020 --> 00:50:01.650
+Has anybody-- who's
+been to Barcelona?
+
+00:50:01.650 --> 00:50:05.820
+You all better go
+before the class.
+
+00:50:05.820 --> 00:50:08.820
+There are number of intriguing
+things about the competition
+
+00:50:08.820 --> 00:50:15.690
+which set one against a modern
+proposition for modular growth,
+
+00:50:15.690 --> 00:50:19.590
+as opposed to the neoclassical
+proposition of the man
+
+00:50:19.590 --> 00:50:20.415
+who he defeated.
+
+00:50:25.830 --> 00:50:30.750
+We'll look at it Ildefons
+Cerda in a way which
+
+00:50:30.750 --> 00:50:33.690
+very few people
+tend to look at him,
+
+00:50:33.690 --> 00:50:38.280
+and that's part of
+a neo-Marxian notion
+
+00:50:38.280 --> 00:50:40.500
+of what urbanism should be.
+
+00:50:43.490 --> 00:50:48.370
+We'll look at a man from
+Paris who came to this country
+
+00:50:48.370 --> 00:50:50.840
+with the new Icarian system.
+
+00:50:50.840 --> 00:50:55.520
+Anyway, we'll look
+at Vienna, again,
+
+00:50:55.520 --> 00:50:57.770
+as the reuse of infrastructure.
+
+00:51:00.680 --> 00:51:04.400
+Vienna is interesting
+for a number of ways,
+
+00:51:04.400 --> 00:51:11.230
+not only the building
+of the Ringstrasse,
+
+00:51:11.230 --> 00:51:16.790
+but for the 1683 attempt by the
+Ottoman Empire to take Vienna.
+
+00:51:16.790 --> 00:51:20.390
+Vienna was within one
+morning of being taken over
+
+00:51:20.390 --> 00:51:22.280
+by the Ottomans.
+
+00:51:22.280 --> 00:51:28.940
+The Ottomans succeeded in
+defeating Christianity in 1453
+
+00:51:28.940 --> 00:51:34.820
+by using a German
+cannon which had
+
+00:51:34.820 --> 00:51:42.560
+to be schlepped across Europe
+to Istanbul by 30 oxen.
+
+00:51:42.560 --> 00:51:45.230
+They had to build bridges
+on the way over there
+
+00:51:45.230 --> 00:51:47.060
+to cross a waterway.
+
+00:51:47.060 --> 00:51:49.800
+When they brought
+it to Istanbul,
+
+00:51:49.800 --> 00:51:53.420
+it destroyed the Christian
+double wall and moat
+
+00:51:53.420 --> 00:52:02.150
+by sending rocks
+1,300 meters away.
+
+00:52:02.150 --> 00:52:09.650
+The attempt to defeat Vienna
+after crossing all the way
+
+00:52:09.650 --> 00:52:14.330
+from Istanbul is very
+well-documented in a very good
+
+00:52:14.330 --> 00:52:15.260
+book.
+
+00:52:15.260 --> 00:52:18.440
+But the savior of
+Vienna for Christianity
+
+00:52:18.440 --> 00:52:23.960
+by the intervention of the
+King of Poland's cavalry
+
+00:52:23.960 --> 00:52:26.780
+is one of these extraordinary
+events in history
+
+00:52:26.780 --> 00:52:29.180
+which, had it not
+happened, Vienna
+
+00:52:29.180 --> 00:52:35.450
+would have been an Islamic
+city, and Europe's future
+
+00:52:35.450 --> 00:52:44.510
+would have been without Sigmund
+Freud, Beethoven, Mozart, et
+
+00:52:44.510 --> 00:52:46.530
+cetera, et cetera.
+
+00:52:46.530 --> 00:52:48.320
+Now, that may be
+better for Europe.
+
+00:52:48.320 --> 00:52:51.420
+I'm not arguing that I know.
+
+00:52:51.420 --> 00:52:54.140
+But it's one of the cardinal--
+
+00:52:57.460 --> 00:52:59.170
+it's in connection
+with the wall,
+
+00:52:59.170 --> 00:53:05.140
+because the Islamic
+engineers dug under the Earth
+
+00:53:05.140 --> 00:53:11.050
+and built a tunnel under the
+southern wall into the center.
+
+00:53:11.050 --> 00:53:15.700
+So walls didn't pay
+off, altogether.
+
+00:53:15.700 --> 00:53:17.350
+After these case studies--
+
+00:53:17.350 --> 00:53:20.550
+well, the last of the case
+studies will be Chicago.
+
+00:53:20.550 --> 00:53:25.720
+Chicago has no aristocracy,
+only a middle class
+
+00:53:25.720 --> 00:53:31.930
+and immigrant population,
+and is one of the few great
+
+00:53:31.930 --> 00:53:34.180
+19th century cities.
+
+00:53:34.180 --> 00:53:36.910
+Which other cities were
+developed in the 19th century?
+
+00:53:41.980 --> 00:53:43.150
+Can you name me one?
+
+00:53:46.270 --> 00:53:48.203
+AUDIENCE: San Francisco.
+
+00:53:48.203 --> 00:53:49.870
+JULIAN BEINART: Yeah,
+it's a bit dubious
+
+00:53:49.870 --> 00:53:51.800
+about what its origins are.
+
+00:53:51.800 --> 00:53:53.020
+But you are maybe right.
+
+00:53:53.020 --> 00:53:56.710
+Johannesburg is certainly one.
+
+00:53:56.710 --> 00:54:00.940
+Chicago is unusual in
+really only having been
+
+00:54:00.940 --> 00:54:06.010
+developed from 1830 onwards.
+
+00:54:06.010 --> 00:54:10.840
+Chicago is also unbelievably
+interesting in relation
+
+00:54:10.840 --> 00:54:18.230
+to the role of
+the private sector
+
+00:54:18.230 --> 00:54:20.880
+in the development of a city.
+
+00:54:20.880 --> 00:54:25.520
+The European examples
+really deal with governance.
+
+00:54:25.520 --> 00:54:28.850
+The private sector
+in Chicago built
+
+00:54:28.850 --> 00:54:32.030
+an illegal underground
+subway system
+
+00:54:32.030 --> 00:54:35.650
+without the city knowing it.
+
+00:54:35.650 --> 00:54:39.635
+Now, if you have a city
+which has enough hubris
+
+00:54:39.635 --> 00:54:46.100
+to allow a private subway
+system to be built,
+
+00:54:46.100 --> 00:54:50.570
+it also deals with the
+Chicago World's Fair
+
+00:54:50.570 --> 00:54:53.450
+and the various
+episodes leading to it.
+
+00:54:53.450 --> 00:54:56.690
+We'll spend some time going
+through the Chicago World's
+
+00:54:56.690 --> 00:55:01.400
+Fair, and we'll contrast it with
+The Devil in the White City,
+
+00:55:01.400 --> 00:55:06.410
+the book which many
+of you probably know,
+
+00:55:06.410 --> 00:55:11.330
+and the incredible lack
+of public governance
+
+00:55:11.330 --> 00:55:14.270
+in a city which
+was being developed
+
+00:55:14.270 --> 00:55:15.365
+by the private sector.
+
+00:55:19.470 --> 00:55:24.920
+Section 2 will end with two
+classes, one on utopianism,
+
+00:55:24.920 --> 00:55:27.920
+which I dislike as an idea.
+
+00:55:27.920 --> 00:55:30.440
+But we'll do the class anyway.
+
+00:55:30.440 --> 00:55:33.390
+You may enjoy it more than I do.
+
+00:55:33.390 --> 00:55:38.730
+But the interesting--
+we'll realize
+
+00:55:38.730 --> 00:55:46.860
+the link between
+English and the Shakers.
+
+00:55:46.860 --> 00:55:48.920
+Do you realize
+that the woman who
+
+00:55:48.920 --> 00:55:55.650
+started the Shaker movement
+came from Manchester,
+
+00:55:55.650 --> 00:55:59.480
+and after having, I think,
+her fifth stillborn baby,
+
+00:55:59.480 --> 00:56:03.110
+she reviled against six,
+left to the United States,
+
+00:56:03.110 --> 00:56:06.110
+and came to start
+the Shaker utopian
+
+00:56:06.110 --> 00:56:07.785
+movement in this country.
+
+00:56:07.785 --> 00:56:10.160
+There's a relationship
+between the evils
+
+00:56:10.160 --> 00:56:17.960
+of capitalism, pre-hygiene
+and the utopian movement.
+
+00:56:17.960 --> 00:56:22.250
+Utopianism has many
+interesting followers.
+
+00:56:22.250 --> 00:56:26.870
+And then we'll do a brief
+look at some 20th century
+
+00:56:26.870 --> 00:56:30.380
+organizations in England,
+the British Town Planning
+
+00:56:30.380 --> 00:56:42.380
+Movement after 1946, and the
+socialist city in Russia.
+
+00:56:42.380 --> 00:56:45.260
+Look, all of these
+are enormous topics,
+
+00:56:45.260 --> 00:56:48.080
+and I'm just going to
+select a couple of ideas
+
+00:56:48.080 --> 00:56:50.540
+and go with those ideas.
+
+00:56:50.540 --> 00:56:53.865
+This is an enormous
+attic of stuff.
+
+00:56:53.865 --> 00:57:00.300
+This class is over-fat
+and tries to do too much.
+
+00:57:00.300 --> 00:57:05.165
+It's the accumulation of 34
+years of not being on a diet.
+
+00:57:07.880 --> 00:57:12.020
+So you have thoughts of
+the fragments of stuff.
+
+00:57:12.020 --> 00:57:18.830
+The last half of the class
+deals with current theory
+
+00:57:18.830 --> 00:57:21.240
+and practice.
+
+00:57:21.240 --> 00:57:25.010
+The first section deals
+with the question,
+
+00:57:25.010 --> 00:57:27.170
+is there a
+relationship, or what is
+
+00:57:27.170 --> 00:57:31.610
+the relationship between the
+way a city is made and its form?
+
+00:57:35.330 --> 00:57:39.890
+The second group deal with,
+what is the relationship
+
+00:57:39.890 --> 00:57:43.790
+between social structure
+and spatial structure?
+
+00:57:43.790 --> 00:57:50.240
+And here we do case studies
+of Jerusalem, Johannesburg,
+
+00:57:50.240 --> 00:57:58.040
+the border between Mexico and
+the United States, and colonial
+
+00:57:58.040 --> 00:57:59.180
+Delhi in India.
+
+00:58:05.030 --> 00:58:09.920
+That takes us to the
+third week of April,
+
+00:58:09.920 --> 00:58:12.020
+and it's spring already, I hope.
+
+00:58:15.080 --> 00:58:21.020
+And we can keep these windows
+open for the sun to come in.
+
+00:58:21.020 --> 00:58:23.870
+I deal with a number
+of propositions,
+
+00:58:23.870 --> 00:58:27.635
+formal propositions,
+number 20, four models--
+
+00:58:31.370 --> 00:58:34.130
+sorry, number 19, four models.
+
+00:58:34.130 --> 00:58:38.780
+One deals with modern
+and postmodern urbanism,
+
+00:58:38.780 --> 00:58:40.790
+deals with the
+origin of modernism,
+
+00:58:40.790 --> 00:58:46.400
+and mainly the CIM
+discourse on urbanism
+
+00:58:46.400 --> 00:58:50.540
+and some reactions to it.
+
+00:58:50.540 --> 00:58:52.880
+Number 20 deals
+with the proposition
+
+00:58:52.880 --> 00:58:56.480
+about the city as an
+opportunity for building
+
+00:58:56.480 --> 00:59:01.970
+in an open-ended fashion,
+questions of prophecy,
+
+00:59:01.970 --> 00:59:05.300
+questions of
+imagining the future,
+
+00:59:05.300 --> 00:59:09.770
+questions of finding
+formal structures which
+
+00:59:09.770 --> 00:59:17.310
+can accommodate change with the
+minimum cost are part of this.
+
+00:59:17.310 --> 00:59:19.940
+I will look at the
+previous research done
+
+00:59:19.940 --> 00:59:25.310
+at the Cambridge University
+Build Form and Land Use Studies
+
+00:59:25.310 --> 00:59:30.170
+Group, Leslie Martin
+for six weeks.
+
+00:59:32.900 --> 00:59:35.820
+I will look at the opposite
+notion in the work,
+
+00:59:35.820 --> 00:59:39.890
+in the theories of Leon
+Krier and Aldo Rossi, two
+
+00:59:39.890 --> 00:59:43.960
+European theorists,
+which those of you
+
+00:59:43.960 --> 00:59:50.630
+will know from
+architecture, postulating
+
+00:59:50.630 --> 00:59:55.280
+that it is the past that
+should govern any preoccupation
+
+00:59:55.280 --> 00:59:57.980
+with the form of a city.
+
+00:59:57.980 --> 01:00:02.930
+Rossi has a theory
+of monumentality
+
+01:00:02.930 --> 01:00:05.120
+which we need to examine.
+
+01:00:05.120 --> 01:00:11.810
+Krier has some intelligent
+but really remarkably stupid
+
+01:00:11.810 --> 01:00:19.730
+notions about classicism, and
+the revival of classicism,
+
+01:00:19.730 --> 01:00:23.330
+and that cities were great
+during classical times.
+
+01:00:23.330 --> 01:00:29.330
+And this is the derivation
+from neoclassicism which
+
+01:00:29.330 --> 01:00:33.180
+we need to look at carefully.
+
+01:00:33.180 --> 01:00:39.350
+We need to take a careful
+look at the way in which we
+
+01:00:39.350 --> 01:00:42.300
+derive notions from history.
+
+01:00:42.300 --> 01:00:48.635
+The next class
+deals with memory.
+
+01:00:51.590 --> 01:00:56.216
+Memory and history are two
+different things in urbanism.
+
+01:00:56.216 --> 01:01:00.350
+I will try to explain it through
+the attempt, to which all of us
+
+01:01:00.350 --> 01:01:04.670
+have, for maintaining
+continuity.
+
+01:01:04.670 --> 01:01:15.200
+We'll deal with the work, the
+writing of Maurice Halbwachs,
+
+01:01:15.200 --> 01:01:22.070
+the book Collective Memory, and
+other examples of the conflict
+
+01:01:22.070 --> 01:01:24.230
+between history and memory.
+
+01:01:24.230 --> 01:01:28.580
+Pierre Nora is writing
+about the French,
+
+01:01:28.580 --> 01:01:32.930
+about the loss of living
+memory through history,
+
+01:01:32.930 --> 01:01:39.930
+that history displaces
+living memory, and so on.
+
+01:01:39.930 --> 01:01:46.040
+But the fact that we
+now have more stuff
+
+01:01:46.040 --> 01:01:53.670
+in cities than ever before,
+and are building less and less
+
+01:01:53.670 --> 01:01:58.950
+and reusing more
+and more material
+
+01:01:58.950 --> 01:02:03.180
+argues for look at memory.
+
+01:02:03.180 --> 01:02:08.070
+The last few classes
+deal with the difference,
+
+01:02:08.070 --> 01:02:10.770
+the contemporary difference
+between the public and private
+
+01:02:10.770 --> 01:02:17.160
+domain, the relationship
+between the external,
+
+01:02:17.160 --> 01:02:19.780
+the [NON-ENGLISH] and
+the [NON-ENGLISH],,
+
+01:02:19.780 --> 01:02:26.730
+the suburbs and the center
+city in the United States.
+
+01:02:26.730 --> 01:02:29.190
+The last few classes
+will take a brief look
+
+01:02:29.190 --> 01:02:39.070
+at splintering urbanism,
+the effective modern virtual
+
+01:02:39.070 --> 01:02:41.260
+communication
+systems on the form,
+
+01:02:41.260 --> 01:02:49.180
+of the predicted form of
+cities, take a brief look
+
+01:02:49.180 --> 01:02:57.490
+at the effective issues
+of climate change
+
+01:02:57.490 --> 01:03:00.220
+and sustainability.
+
+01:03:00.220 --> 01:03:06.540
+On the last day of
+class, I will deal
+
+01:03:06.540 --> 01:03:12.825
+with a major issue of the
+Gini coefficient and poverty.
+
+01:03:16.740 --> 01:03:20.760
+In my view, one
+issue which urbanism
+
+01:03:20.760 --> 01:03:24.450
+is doing less about
+than any other,
+
+01:03:24.450 --> 01:03:29.710
+and is theoretically seemingly
+incapable of doing that,
+
+01:03:29.710 --> 01:03:32.280
+that is reducing
+the level of poverty
+
+01:03:32.280 --> 01:03:37.920
+in the non-European,
+non-American world.
+
+01:03:37.920 --> 01:03:41.640
+That's an animal, a
+nasty animal which
+
+01:03:41.640 --> 01:03:47.310
+we bypass, as we do any serious
+attempt at universal climate
+
+01:03:47.310 --> 01:03:48.780
+change theory.
+
+01:03:56.500 --> 01:04:02.650
+It's what I think the
+nasty future holds for us,
+
+01:04:02.650 --> 01:04:07.790
+and we'll end with that
+rather dismal proposition.
+
+01:04:07.790 --> 01:04:10.150
+On the other hand,
+I'll at the same time
+
+01:04:10.150 --> 01:04:12.820
+be talking about the
+wonderful successes
+
+01:04:12.820 --> 01:04:22.270
+that we've achieved
+over 10,000 years,
+
+01:04:22.270 --> 01:04:24.355
+well, a little more
+than 10,000 years,
+
+01:04:24.355 --> 01:04:27.220
+but 10,000 of
+human history, just
+
+01:04:27.220 --> 01:04:32.830
+to be able to teach this
+class with all of this stuff.
+
+01:04:32.830 --> 01:04:34.730
+Whether it's a good
+class or a bad class
+
+01:04:34.730 --> 01:04:37.770
+is only due to the
+fact that we've
+
+01:04:37.770 --> 01:04:40.140
+accumulated enough experience.
+
+01:04:40.140 --> 01:04:44.400
+We've had enough human minds
+thinking about urbanism
+
+01:04:44.400 --> 01:04:46.600
+for this period of time.
+
+01:04:46.600 --> 01:04:49.200
+It's a major, major achievement.
+
+01:04:49.200 --> 01:04:50.250
+Marx is right.
+
+01:04:50.250 --> 01:04:55.070
+Without cities, there'd
+be no civilization.
+
+01:04:55.070 --> 01:05:00.150
+And without civilization, we
+wouldn't be sitting here today.
+
+01:05:00.150 --> 01:05:03.200
+But the two gaps, one
+of which, of course,
+
+01:05:03.200 --> 01:05:05.725
+Marx and Engels
+made a living off
+
+01:05:05.725 --> 01:05:11.150
+was picking up on the
+notion of the inability
+
+01:05:11.150 --> 01:05:16.370
+to deal with the unnatural
+distinction between wealth
+
+01:05:16.370 --> 01:05:24.170
+and poverty, and what that
+means in the latest attempts
+
+01:05:24.170 --> 01:05:28.520
+by groups such as Slum
+Dwellers International.
+
+01:05:28.520 --> 01:05:31.250
+I don't know if any of you saw
+the exhibition at the United
+
+01:05:31.250 --> 01:05:37.460
+Nations last year or
+the year before produced
+
+01:05:37.460 --> 01:05:43.180
+by the Cooper Hewitt museum
+on third world cities.
+
+01:05:43.180 --> 01:05:47.750
+OK, so you don't know.
+
+01:05:47.750 --> 01:05:49.040
+What else?
+
+01:05:49.040 --> 01:05:50.595
+Is that enough for one semester?
+
+01:05:53.600 --> 01:05:56.090
+We're going to go
+quickly, and I am not
+
+01:05:56.090 --> 01:06:00.680
+going to be able to explain
+second order, third order
+
+01:06:00.680 --> 01:06:02.220
+issues.
+
+01:06:02.220 --> 01:06:05.000
+This is an open-ended system.
+
+01:06:05.000 --> 01:06:07.490
+It's got infinite dimensions.
+
+01:06:07.490 --> 01:06:10.850
+We're going to look at
+the core dimensions.
+
+01:06:10.850 --> 01:06:14.510
+And if they lead
+us outward, great.
+
+01:06:14.510 --> 01:06:17.420
+Maybe you'll have a
+universal theory of urbanism
+
+01:06:17.420 --> 01:06:19.010
+by the end of this class.
+
+01:06:19.010 --> 01:06:21.410
+I haven't got one.
+
+01:06:21.410 --> 01:06:23.651
+Any questions?
+
+01:06:23.651 --> 01:06:27.200
+You're all very silent.
+
+01:06:27.200 --> 01:06:39.380
+If you find a piece of reading
+in this class schedule,
+
+01:06:39.380 --> 01:06:42.810
+you will find the reference in
+the thicker bibliography I've
+
+01:06:42.810 --> 01:06:47.710
+given you, if it's up to date.
+
+01:06:47.710 --> 01:06:50.000
+And I hope it is.
+
+01:06:50.000 --> 01:06:53.380
+I check it every year and
+try to keep it up to date.
+
+01:06:53.380 --> 01:06:57.100
+If you have any trouble
+with a book or a reference,
+
+01:06:57.100 --> 01:06:58.990
+just send me an email.
+
+01:06:58.990 --> 01:07:02.350
+I like the email system,
+because it allows
+
+01:07:02.350 --> 01:07:06.380
+me to do things in my own time.
+
+01:07:06.380 --> 01:07:09.200
+But if you need to
+talk, let's talk.
+
+01:07:09.200 --> 01:07:12.290
+That's an open invitation.
+
+01:07:12.290 --> 01:07:13.940
+We are all very busy people.
+
+01:07:17.470 --> 01:07:19.210
+So for instance,
+when I mentioned
+
+01:07:19.210 --> 01:07:26.440
+Halbwachs and his book, The
+Collective Memory, it's not--
+
+01:07:26.440 --> 01:07:29.420
+I will quote a bit
+from it in the class.
+
+01:07:29.420 --> 01:07:33.820
+But I purposely didn't put
+it as required reading,
+
+01:07:33.820 --> 01:07:35.670
+because you'd have to
+read the whole book.
+
+01:07:42.120 --> 01:07:44.260
+There's a part of me
+which had an upbringing
+
+01:07:44.260 --> 01:07:47.530
+that I had to read whole books.
+
+01:07:47.530 --> 01:07:50.800
+You couldn't read a
+piece of Shakespeare.
+
+01:07:50.800 --> 01:07:55.570
+We were beaten over our heads.
+
+01:07:55.570 --> 01:07:57.040
+We've got five minutes.
+
+01:07:57.040 --> 01:08:00.790
+We were beaten over
+our heads if we
+
+01:08:00.790 --> 01:08:08.560
+came in and read only a piece
+of Henry V, famous speech.
+
+01:08:08.560 --> 01:08:13.030
+I am understanding of the
+amount of energy and time
+
+01:08:13.030 --> 01:08:16.270
+it takes to read.
+
+01:08:16.270 --> 01:08:19.120
+So I've tried to
+give the required
+
+01:08:19.120 --> 01:08:21.410
+readings as parts of books.
+
+01:08:21.410 --> 01:08:24.430
+There's not one whole book
+that I've referred to.
+
+01:08:24.430 --> 01:08:26.920
+In the case of Halbwachs,
+it's very difficult
+
+01:08:26.920 --> 01:08:30.550
+to extract a chapter.
+
+01:08:30.550 --> 01:08:32.460
+There's a wonderful
+chapter on memory
+
+01:08:32.460 --> 01:08:35.350
+in music, which fascinates me.
+
+01:08:35.350 --> 01:08:39.250
+I mean, whenever I hear somebody
+conducting Mahler's Ninth
+
+01:08:39.250 --> 01:08:44.120
+Symphony without a
+score, I'm amazed
+
+01:08:44.120 --> 01:08:49.210
+at how it is humanly possible
+to understand such complex music
+
+01:08:49.210 --> 01:08:56.569
+and direct it for two hours, an
+hour and 40 minutes, perhaps.
+
+01:08:56.569 --> 01:09:00.229
+He tries to explain that
+individual memory is
+
+01:09:00.229 --> 01:09:03.649
+impossible, that
+the social memory is
+
+01:09:03.649 --> 01:09:05.424
+what creates individual memory.
+
+01:09:10.310 --> 01:09:13.910
+He was a collectivist
+sociologist
+
+01:09:13.910 --> 01:09:18.109
+and wrote some brilliant
+things about memory.
+
+01:09:18.109 --> 01:09:20.930
+But there's a case,
+if you read the book,
+
+01:09:20.930 --> 01:09:24.200
+it'll be worth reading.
+
+01:09:24.200 --> 01:09:27.510
+Maybe I'll excite
+you about the book.
+
+01:09:27.510 --> 01:09:31.250
+OK, I'll see you next
+Thursday, if you continue.
+
+01:09:31.250 --> 01:09:34.869
+If you don't, good luck
+with the rest of your life.

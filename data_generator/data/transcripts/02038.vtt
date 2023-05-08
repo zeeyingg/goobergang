@@ -1,0 +1,638 @@
+WEBVTT
+
+00:00:10.630 --> 00:00:13.330
+PROFESSOR: So now let's focus
+on the steady-state transmission
+
+00:00:13.330 --> 00:00:16.610
+rate, which is really the most
+useful in designing a safety
+
+00:00:16.610 --> 00:00:17.110
+guideline.
+
+00:00:17.110 --> 00:00:18.940
+It's also the most
+conservative because
+
+00:00:18.940 --> 00:00:21.340
+the transient transmission
+rate is always
+
+00:00:21.340 --> 00:00:23.750
+smaller than a steady state.
+
+00:00:23.750 --> 00:00:26.050
+So, our formula for the
+steady state transmission rate
+
+00:00:26.050 --> 00:00:30.220
+is shown here, in
+terms of the relaxation
+
+00:00:30.220 --> 00:00:33.610
+rate, lambda_c(r), of
+the aerosol concentration
+
+00:00:33.610 --> 00:00:36.490
+in the air, and
+also n_q(r), which
+
+00:00:36.490 --> 00:00:40.820
+is the density of infection
+quanta in the air, per radius.
+
+00:00:40.820 --> 00:00:43.780
+So let's sketch some of
+the important functions
+
+00:00:43.780 --> 00:00:46.570
+here as a function
+of radius and try
+
+00:00:46.570 --> 00:00:50.710
+to get a sense of how we can
+maybe simplify this expression.
+
+00:00:50.710 --> 00:00:52.690
+First of all, we've
+already defined
+
+00:00:52.690 --> 00:00:58.650
+C_q, which is the
+integral of n_q(r),
+
+00:00:58.650 --> 00:01:02.710
+dr. This is the critical
+disease parameter, which
+
+00:01:02.710 --> 00:01:15.289
+is the infection quanta
+per exhaled air volume.
+
+00:01:15.289 --> 00:01:19.110
+I don't mean to cross that out
+but rather just to do this.
+
+00:01:19.110 --> 00:01:21.960
+So C_q is a very
+important quantity for us
+
+00:01:21.960 --> 00:01:23.090
+and we will return to that.
+
+00:01:23.090 --> 00:01:24.539
+That's the quality
+that we're going
+
+00:01:24.539 --> 00:01:31.500
+to want to fit to disease data
+for COVID-19, specifically.
+
+00:01:31.500 --> 00:01:34.570
+And this will be the exhaled
+infection quanta per air volume
+
+00:01:34.570 --> 00:01:36.810
+and we'll typically
+want to measure
+
+00:01:36.810 --> 00:01:39.750
+that sort of peak
+infectivity of an individual
+
+00:01:39.750 --> 00:01:43.240
+in order to design the
+conservative criteria.
+
+00:01:43.240 --> 00:01:44.190
+So what is C_q?
+
+00:01:44.190 --> 00:01:46.960
+If I plot this n_q, it has
+a bunch of factors in it.
+
+00:01:46.960 --> 00:01:50.729
+So it has the roughly
+constant assumed viral load
+
+00:01:50.729 --> 00:01:53.190
+per liquid volume, it
+has the infectivity,
+
+00:01:53.190 --> 00:01:55.590
+which we've already
+argued should be smaller
+
+00:01:55.590 --> 00:01:58.289
+in larger droplets because it's
+more difficult for the variant
+
+00:01:58.289 --> 00:02:02.310
+to diffuse out of those droplets
+once you get above, say, 5,
+
+00:02:02.310 --> 00:02:05.350
+10 microns, if not less.
+
+00:02:05.350 --> 00:02:07.780
+There's the droplet
+distribution itself,
+
+00:02:07.780 --> 00:02:09.960
+which depends on the
+type of respiration
+
+00:02:09.960 --> 00:02:12.450
+but often has a peak
+which is submicron
+
+00:02:12.450 --> 00:02:15.420
+and then sort of a fairly
+broad tail at the higher end,
+
+00:02:15.420 --> 00:02:17.760
+with smaller amounts
+of larger droplets,
+
+00:02:17.760 --> 00:02:21.900
+and then V_d is 4
+pi r^3, which
+
+00:02:21.900 --> 00:02:24.390
+is just the volume of a drop.
+
+00:02:24.390 --> 00:02:27.300
+So this net quantity,
+n_q has some kind
+
+00:02:27.300 --> 00:02:31.829
+of peak around 1 micron
+or less and then a tail.
+
+00:02:31.829 --> 00:02:34.320
+And then in the
+integral here, we
+
+00:02:34.320 --> 00:02:38.710
+have the integral of n_q over r
+is c_q, so that's very important.
+
+00:02:38.710 --> 00:02:41.250
+But there is these other
+factors, p_m and lambda_c,
+
+00:02:41.250 --> 00:02:43.800
+or 1/lambda_c.
+
+00:02:43.800 --> 00:02:45.960
+Each of those
+quantities gives us
+
+00:02:45.960 --> 00:02:49.079
+a cutoff which makes
+the larger droplets less
+
+00:02:49.079 --> 00:02:52.690
+important for this problem
+of airborne transmission
+
+00:02:52.690 --> 00:02:54.280
+in a well-mixed room.
+
+00:02:54.280 --> 00:02:56.820
+So lambda_c, as you
+can see, is a bunch
+
+00:02:56.820 --> 00:03:00.420
+of constant factors except
+for the sedimentation rate.
+
+00:03:00.420 --> 00:03:03.060
+So this lambda_a times
+(r/rc)^2,
+
+00:03:03.060 --> 00:03:05.910
+that is the sort of
+radius-dependent change
+
+00:03:05.910 --> 00:03:09.720
+of the sedimentation rate
+relative to the ventilation
+
+00:03:09.720 --> 00:03:11.340
+rate, lambda_a.
+
+00:03:11.340 --> 00:03:14.490
+So as you can see, this goes
+like 1 plus a constant plus,
+
+00:03:14.490 --> 00:03:15.370
+r^2.
+
+00:03:15.370 --> 00:03:17.340
+So as you go to large
+r, the inverse of that
+
+00:03:17.340 --> 00:03:21.720
+is 1 over a constant plus
+r^2, so it goes to 0.
+
+00:03:21.720 --> 00:03:24.780
+So it provides a cutoff and
+the scale for that cutoff
+
+00:03:24.780 --> 00:03:28.720
+is what we called r_c, that's
+the critical size of a droplet,
+
+00:03:28.720 --> 00:03:30.870
+which is just
+sedimentary at a rate
+
+00:03:30.870 --> 00:03:32.650
+comparable to the
+ventilation rate
+
+00:03:32.650 --> 00:03:34.150
+because, really,
+this is ventilation
+
+00:03:34.150 --> 00:03:38.010
+and sedimentation which are
+compared when you define r_c.
+
+00:03:38.010 --> 00:03:40.320
+In addition to that,
+we have (p_m)^2,
+
+00:03:40.320 --> 00:03:44.430
+which is the max penetration,
+or transmission factor.
+
+00:03:44.430 --> 00:03:50.820
+So while masks are
+100%, or very efficient,
+
+00:03:50.820 --> 00:03:53.130
+filtering large
+droplets which don't
+
+00:03:53.130 --> 00:03:55.200
+fit through the
+fabric or the mesh,
+
+00:03:55.200 --> 00:03:56.790
+they're not as good
+as filtering
+
+00:03:56.790 --> 00:03:57.930
+smaller droplets.
+
+00:03:57.930 --> 00:04:00.210
+So if you look at the
+transmission probability
+
+00:04:00.210 --> 00:04:02.550
+when you're down
+well below micron,
+
+00:04:02.550 --> 00:04:04.740
+most masks are not doing
+a great job filtering,
+
+00:04:04.740 --> 00:04:08.940
+they may get 5%,
+10% if you're lucky,
+
+00:04:08.940 --> 00:04:10.830
+depending the
+quality of the mask.
+
+00:04:10.830 --> 00:04:12.960
+But then it comes
+down because you
+
+00:04:12.960 --> 00:04:15.630
+start to have better and
+better blockage of particles
+
+00:04:15.630 --> 00:04:17.399
+by the masks.
+
+00:04:17.399 --> 00:04:22.320
+All these factors serve to
+cut off this distribution so
+
+00:04:22.320 --> 00:04:24.270
+that we're not worried
+about the large drops,
+
+00:04:24.270 --> 00:04:25.800
+and we're interested
+in aerosols.
+
+00:04:25.800 --> 00:04:29.510
+But it does so, here, in a
+way which is quantitative.
+
+00:04:29.510 --> 00:04:31.520
+So we're not just
+arbitrarily saying,
+
+00:04:31.520 --> 00:04:34.200
+as it's sometimes said
+in the field, that
+
+00:04:34.200 --> 00:04:37.980
+say 10 microns or 5 microns
+is the limit of the aerosols,
+
+00:04:37.980 --> 00:04:41.250
+but rather, we actually have
+a well-defined characteristic
+
+00:04:41.250 --> 00:04:43.600
+size that can emerge here.
+
+00:04:43.600 --> 00:04:47.820
+And the way we can define
+that is by taking the full
+
+00:04:47.820 --> 00:04:50.370
+expression for the steady
+state transmission that is has
+
+00:04:50.370 --> 00:04:59.900
+the radius-dependent terms in it
+and write this as (Q_b)^2/V
+
+00:04:59.900 --> 00:05:01.040
+times--
+
+00:05:01.040 --> 00:05:07.690
+and then we'll keep the C_q from
+the integral of n_r-- C_q times--
+
+00:05:07.690 --> 00:05:10.110
+and then we'll imagine that
+the remaining radius-dependent
+
+00:05:10.110 --> 00:05:13.030
+factors, p_m and
+lambda_c, are sampled
+
+00:05:13.030 --> 00:05:14.750
+at a certain value, r-bar.
+
+00:05:18.820 --> 00:05:21.280
+So what is r-bar?
+
+00:05:21.280 --> 00:05:23.650
+Well if you know the
+function is p_m and lambda_c
+
+00:05:23.650 --> 00:05:26.020
+is a function of
+r, there is a value
+
+00:05:26.020 --> 00:05:28.960
+of r, which we call r-bar,
+which is when you actually
+
+00:05:28.960 --> 00:05:32.970
+do this full integral,
+you would get that value.
+
+00:05:32.970 --> 00:05:34.180
+So that has to be determined.
+
+00:05:34.180 --> 00:05:36.940
+It can be done numerically but
+you can kind of see graphically
+
+00:05:36.940 --> 00:05:38.280
+where it ends up.
+
+00:05:38.280 --> 00:05:40.330
+What we're asking
+here is what is
+
+00:05:40.330 --> 00:05:42.730
+the typical value of
+the mask penetration
+
+00:05:42.730 --> 00:05:44.830
+factor and the relaxation time?
+
+00:05:44.830 --> 00:05:48.100
+Well, it's going to be where
+the most weight is here,
+
+00:05:48.100 --> 00:05:51.040
+keeping in mind,
+also, that there's
+
+00:05:51.040 --> 00:05:53.650
+more volume at the higher
+side than at the lower side.
+
+00:05:53.650 --> 00:05:56.180
+So if we look at how
+much activity there is,
+
+00:05:56.180 --> 00:05:57.700
+we might want to emphasize that.
+
+00:05:57.700 --> 00:06:02.090
+So depending on the details
+here, somewhere over here
+
+00:06:02.090 --> 00:06:04.690
+is going to be r-bar.
+
+00:06:04.690 --> 00:06:07.190
+What we're saying here is that
+even though our theory has
+
+00:06:07.190 --> 00:06:08.650
+all of the radius
+dependents in it,
+
+00:06:08.650 --> 00:06:10.360
+so if you know exactly
+the type of masks
+
+00:06:10.360 --> 00:06:13.660
+you have and you know p_m(r)
+from experimental measurements,
+
+00:06:13.660 --> 00:06:17.910
+maybe a lot about the
+virion and how infectious
+
+00:06:17.910 --> 00:06:19.330
+it is in different-sized
+droplets,
+
+00:06:19.330 --> 00:06:23.370
+or you studied sedimentation--
+you have all these functions.
+
+00:06:23.370 --> 00:06:26.110
+There's a well-defined r-bar
+at which you can just
+
+00:06:26.110 --> 00:06:30.760
+use this simple expression
+in place of actually doing
+
+00:06:30.760 --> 00:06:32.270
+those integrals.
+
+00:06:32.270 --> 00:06:35.500
+So that's actually
+useful simplification.
+
+00:06:35.500 --> 00:06:37.980
+And in addition to
+that, we can also
+
+00:06:37.980 --> 00:06:39.820
+write this another way,
+which can be useful,
+
+00:06:39.820 --> 00:06:45.590
+is to take the mask
+factor out and write it
+
+00:06:45.590 --> 00:06:49.550
+as a quanta emission
+rate, lambda_q, where
+
+00:06:49.550 --> 00:06:54.440
+lambda_q is Q_b*C_q.
+
+00:06:54.440 --> 00:07:04.490
+This is the quanta emission
+rate by an infector.
+
+00:07:04.490 --> 00:07:07.410
+So if you don't like this notion
+infection quanta per volume,
+
+00:07:07.410 --> 00:07:09.480
+when you multiply by
+the breathing flow rate,
+
+00:07:09.480 --> 00:07:11.580
+you're actually getting
+how many quanta per time
+
+00:07:11.580 --> 00:07:15.300
+are being emitted
+by the infector.
+
+00:07:15.300 --> 00:07:17.850
+And then what's leftover
+is another factor,
+
+00:07:17.850 --> 00:07:20.550
+which I'll call f_d,
+which is something
+
+00:07:20.550 --> 00:07:24.810
+we'll come back to later, which
+is what I call the dilution
+
+00:07:24.810 --> 00:07:25.340
+factors.
+
+00:07:25.340 --> 00:07:28.080
+If we take the breath of
+an infected individual
+
+00:07:28.080 --> 00:07:29.760
+and then it ends
+up being diluted
+
+00:07:29.760 --> 00:07:33.630
+into the room, the ratio of
+the concentration of infection
+
+00:07:33.630 --> 00:07:36.510
+quanta, or virions in
+the breath compared
+
+00:07:36.510 --> 00:07:39.540
+to that which emerges
+in the well-mixed room,
+
+00:07:39.540 --> 00:07:41.070
+that's the dilution factor.
+
+00:07:50.070 --> 00:07:53.159
+This will become important
+later when we look more closely
+
+00:07:53.159 --> 00:07:55.409
+at respiratory fluid
+mechanics and we
+
+00:07:55.409 --> 00:07:58.800
+look at the plumes,
+or clouds, of droplets
+
+00:07:58.800 --> 00:08:01.650
+that are being emitted by a
+person when they're breathing,
+
+00:08:01.650 --> 00:08:03.510
+very close to the
+person's mouth it's
+
+00:08:03.510 --> 00:08:06.660
+a much higher concentration
+and eventually it
+
+00:08:06.660 --> 00:08:09.270
+gets sort of swirled around
+and mixed in the room,
+
+00:08:09.270 --> 00:08:12.480
+and it reaches the steady
+state values that we calculate.
+
+00:08:12.480 --> 00:08:16.230
+This f_d gives you that
+ratio in some sense
+
+00:08:16.230 --> 00:08:18.870
+and gives you a sense
+of how bad the risk is
+
+00:08:18.870 --> 00:08:22.230
+from short-range transmission
+versus the well-mixed room,
+
+00:08:22.230 --> 00:08:23.670
+so we'll come back to that.
+
+00:08:23.670 --> 00:08:25.410
+But this is a nice
+simplification
+
+00:08:25.410 --> 00:08:27.570
+for how we can think about
+the steady transmission
+
+00:08:27.570 --> 00:08:31.110
+rate in terms of several
+key variables, which
+
+00:08:31.110 --> 00:08:32.679
+I've boxed here.
+
+00:08:32.679 --> 00:08:37.580
+And so we will now move on
+to applying this to COVID-19.

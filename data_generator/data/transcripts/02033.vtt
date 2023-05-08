@@ -1,0 +1,1282 @@
+WEBVTT
+
+00:00:10.950 --> 00:00:14.580
+PROFESSOR: So in the majority
+of cases of indoor spreading
+
+00:00:14.580 --> 00:00:18.540
+that occur over the space
+of hours or even a few days,
+
+00:00:18.540 --> 00:00:21.750
+the Wells-Riley model
+of slow incubation
+
+00:00:21.750 --> 00:00:24.000
+where the number of
+infectors is held constant
+
+00:00:24.000 --> 00:00:27.690
+at the initial value, is a
+reasonable approximation.
+
+00:00:27.690 --> 00:00:31.560
+For COVID-19, the
+incubation period
+
+00:00:31.560 --> 00:00:35.440
+is estimated to be on the
+order of several days.
+
+00:00:35.440 --> 00:00:38.010
+For example, a
+number of 5.5 days
+
+00:00:38.010 --> 00:00:42.400
+is often quoted as an estimated
+mean incubation period.
+
+00:00:42.400 --> 00:00:44.190
+On the other hand,
+in some cases there
+
+00:00:44.190 --> 00:00:46.980
+are spreading events that
+involve people interacting over
+
+00:00:46.980 --> 00:00:49.190
+much longer periods
+of time than that.
+
+00:00:49.190 --> 00:00:52.680
+A famous example, which
+is a little bit longer
+
+00:00:52.680 --> 00:00:55.470
+than the time of
+incubation, is the case
+
+00:00:55.470 --> 00:00:58.740
+of the Diamond Princess
+cruise ship, which
+
+00:00:58.740 --> 00:01:05.340
+was quarantined in Yokohama
+Port, Japan in early 2020
+
+00:01:05.340 --> 00:01:08.300
+when it was detected that there
+were a number of cases onboard.
+
+00:01:08.300 --> 00:01:10.050
+The exact number wasn't
+known because they
+
+00:01:10.050 --> 00:01:12.590
+hadn't tested the
+entire population,
+
+00:01:12.590 --> 00:01:13.800
+but there were several cases.
+
+00:01:13.800 --> 00:01:15.180
+And so they decided
+to quarantine
+
+00:01:15.180 --> 00:01:17.950
+the ship for 12 days.
+
+00:01:17.950 --> 00:01:20.280
+And if you look at the number
+of infections versus time
+
+00:01:20.280 --> 00:01:22.050
+once they started
+testing and felt
+
+00:01:22.050 --> 00:01:25.440
+they had a good
+sense of the numbers,
+
+00:01:25.440 --> 00:01:27.400
+you can see that
+it rose from value,
+
+00:01:27.400 --> 00:01:32.850
+which we may estimate to be on
+the order of 20 possible cases
+
+00:01:32.850 --> 00:01:34.050
+initially.
+
+00:01:34.050 --> 00:01:36.479
+And it rises, but in a
+very non-linear fashion.
+
+00:01:36.479 --> 00:01:40.070
+In fact, it starts to accelerate
+and go steeper and steeper.
+
+00:01:40.070 --> 00:01:43.860
+Now recall, the Wells-Riley
+model cannot possibly predict
+
+00:01:43.860 --> 00:01:47.729
+this behavior because if you
+have a fixed number infectors,
+
+00:01:47.729 --> 00:01:51.120
+then at first you have a certain
+rate of transmission but it
+
+00:01:51.120 --> 00:01:54.600
+always has to slow down because
+if there's no new infections,
+
+00:01:54.600 --> 00:01:57.240
+the same factors are running
+out of susceptible people
+
+00:01:57.240 --> 00:01:57.750
+to infect.
+
+00:01:57.750 --> 00:01:59.610
+The number of susceptible
+is going down,
+
+00:01:59.610 --> 00:02:01.230
+and so you kind
+of slowly saturate
+
+00:02:01.230 --> 00:02:03.080
+until eventually you've
+infected everybody,
+
+00:02:03.080 --> 00:02:05.460
+when it's just one person or
+a fixed number of people who
+
+00:02:05.460 --> 00:02:09.720
+are basically transmitting at
+a constant rate of infection
+
+00:02:09.720 --> 00:02:12.510
+quanta to everybody else.
+
+00:02:12.510 --> 00:02:13.720
+But that's not what happened.
+
+00:02:13.720 --> 00:02:15.240
+In fact, it's a very steep rise.
+
+00:02:15.240 --> 00:02:16.740
+It went-- just in
+the last few days,
+
+00:02:16.740 --> 00:02:18.790
+it jumped by several
+hundred people.
+
+00:02:18.790 --> 00:02:20.250
+And in fact, if
+they hadn't stopped
+
+00:02:20.250 --> 00:02:21.780
+the quarantine in 12 days--
+
+00:02:21.780 --> 00:02:24.210
+there were 4,000
+people on that ship.
+
+00:02:24.210 --> 00:02:26.760
+I think 3,711.
+
+00:02:26.760 --> 00:02:30.240
+I'll just mention I think
+that was the number.
+
+00:02:30.240 --> 00:02:31.060
+So way higher.
+
+00:02:31.060 --> 00:02:32.610
+And you see how this
+is accelerating.
+
+00:02:32.610 --> 00:02:34.860
+If they'd gone with the
+quarantine a couple more days,
+
+00:02:34.860 --> 00:02:38.480
+they might have had
+thousands of people infected.
+
+00:02:38.480 --> 00:02:40.230
+So in fact, this is
+an interesting warning
+
+00:02:40.230 --> 00:02:42.960
+for quarantines,
+that just cooping up
+
+00:02:42.960 --> 00:02:45.690
+some people for 14 days
+doesn't make everybody safe.
+
+00:02:45.690 --> 00:02:48.240
+If many of those people are
+susceptible and are not yet
+
+00:02:48.240 --> 00:02:50.550
+infected, they can
+become infected.
+
+00:02:50.550 --> 00:02:53.820
+And many interesting
+things about this incident
+
+00:02:53.820 --> 00:02:56.430
+is that the people were not
+in direct contact, obviously.
+
+00:02:56.430 --> 00:02:59.470
+Thousands of people were not
+six feet apart from each other.
+
+00:02:59.470 --> 00:03:00.990
+They were often in
+different rooms,
+
+00:03:00.990 --> 00:03:02.490
+different floors of the ship.
+
+00:03:02.490 --> 00:03:04.230
+And yet, very large
+numbers became
+
+00:03:04.230 --> 00:03:06.010
+infected in a short time.
+
+00:03:06.010 --> 00:03:08.940
+So the important thing I'd like
+to emphasize now coming back
+
+00:03:08.940 --> 00:03:13.650
+to our SEI model is that this
+sort of non-linear increase
+
+00:03:13.650 --> 00:03:18.329
+can only be explained if you
+have some accelerated spreading
+
+00:03:18.329 --> 00:03:20.220
+due to new infected people.
+
+00:03:20.220 --> 00:03:22.780
+And it makes sense
+after about five days.
+
+00:03:22.780 --> 00:03:24.880
+And we also don't know
+when people got infected.
+
+00:03:24.880 --> 00:03:26.880
+So those initially infected
+people may have been
+
+00:03:26.880 --> 00:03:28.170
+infected five days earlier.
+
+00:03:28.170 --> 00:03:30.600
+So there may have been already
+an increase in the number
+
+00:03:30.600 --> 00:03:35.310
+infected people already at time
+equals zero of the quarantine.
+
+00:03:35.310 --> 00:03:40.050
+And so we should now account
+also for the exposed people.
+
+00:03:40.050 --> 00:03:42.600
+Those are people that may
+not be showing symptoms yet,
+
+00:03:42.600 --> 00:03:45.540
+but have been exposed enough
+that they can then pass it on.
+
+00:03:45.540 --> 00:03:48.450
+And so the rate of an
+exposed person becoming
+
+00:03:48.450 --> 00:03:51.090
+an infectious person is alpha.
+
+00:03:51.090 --> 00:03:53.700
+And inverse of alpha
+is that 5.5 days.
+
+00:03:53.700 --> 00:03:56.550
+So that's the incubation time.
+
+00:04:01.240 --> 00:04:05.700
+And this might be something
+like 5.5 days for COVID-19.
+
+00:04:05.700 --> 00:04:08.460
+But of course it can vary.
+
+00:04:08.460 --> 00:04:10.300
+But it's roughly in that order.
+
+00:04:10.300 --> 00:04:13.070
+And so it makes sense to
+look at the Diamond Princess
+
+00:04:13.070 --> 00:04:15.190
+and consider what would be
+the effect of accounting
+
+00:04:15.190 --> 00:04:16.860
+for incubation.
+
+00:04:16.860 --> 00:04:18.480
+So these are
+non-linear equations
+
+00:04:18.480 --> 00:04:22.140
+that don't have a simple
+solution to the full model.
+
+00:04:22.140 --> 00:04:24.630
+But in the same way
+the Wells-Riley model
+
+00:04:24.630 --> 00:04:29.130
+is the limit of slow incubation,
+where basically E stays zero
+
+00:04:29.130 --> 00:04:34.690
+and basically you only
+have infected people.
+
+00:04:34.690 --> 00:04:37.650
+Now, we can consider
+the opposite limit
+
+00:04:37.650 --> 00:04:39.850
+of fast incubation.
+
+00:04:39.850 --> 00:04:45.620
+So let's consider the opposite
+limit of fast incubation.
+
+00:04:48.350 --> 00:04:52.400
+And this would be alpha
+t much greater than one.
+
+00:04:52.400 --> 00:04:53.840
+So basically, we
+want to make sure
+
+00:04:53.840 --> 00:04:56.920
+that the t is much bigger
+than the incubation time.
+
+00:04:56.920 --> 00:04:58.340
+And as I said, the
+incubation time
+
+00:04:58.340 --> 00:05:00.020
+doesn't necessarily
+start at time zero.
+
+00:05:00.020 --> 00:05:01.970
+The infected people in
+this case may have already
+
+00:05:01.970 --> 00:05:03.140
+been infected five days earlier.
+
+00:05:03.140 --> 00:05:04.520
+In fact, the cruise
+ship had been going
+
+00:05:04.520 --> 00:05:05.900
+for actually weeks before that.
+
+00:05:05.900 --> 00:05:09.410
+So no one knows exactly
+when the infection began.
+
+00:05:09.410 --> 00:05:12.270
+So it may be even likely
+that that was happening.
+
+00:05:12.270 --> 00:05:15.090
+So let's consider the
+fast incubation limit.
+
+00:05:15.090 --> 00:05:20.120
+So what this then tells us is
+that now the exposed portion
+
+00:05:20.120 --> 00:05:20.960
+is roughly zero.
+
+00:05:20.960 --> 00:05:23.450
+So if alpha is very quick,
+then you pretty much quickly
+
+00:05:23.450 --> 00:05:25.040
+go through the
+exposed, and you end up
+
+00:05:25.040 --> 00:05:26.690
+immediately being infected.
+
+00:05:26.690 --> 00:05:29.300
+And so this is actually
+a much simpler model
+
+00:05:29.300 --> 00:05:32.030
+where the number of
+susceptibles is just n minus I.
+
+00:05:32.030 --> 00:05:35.580
+So there's no exposed
+compartment anymore.
+
+00:05:35.580 --> 00:05:37.290
+So the Wells-Riley
+model in some sense
+
+00:05:37.290 --> 00:05:42.000
+is the SE model, where there
+are only exposed people
+
+00:05:42.000 --> 00:05:46.110
+and susceptible, but the
+number infected doesn't change.
+
+00:05:46.110 --> 00:05:49.710
+This is really the
+SI model, where
+
+00:05:49.710 --> 00:05:53.520
+we don't worry about the
+exposed compartment, OK?
+
+00:05:53.520 --> 00:05:55.290
+So the equation we
+want to solve then,
+
+00:05:55.290 --> 00:05:59.280
+if we realize that
+S is n minus I
+
+00:05:59.280 --> 00:06:05.820
+is that dS dt is
+minus beta of t SI.
+
+00:06:05.820 --> 00:06:07.870
+So that's the same equation
+I wrote down earlier.
+
+00:06:07.870 --> 00:06:08.940
+But now let's substitute.
+
+00:06:08.940 --> 00:06:12.780
+Let's derive an equation
+for the number of infected.
+
+00:06:12.780 --> 00:06:27.110
+So that will be from here, dI
+dt will be beta of t times I.
+
+00:06:27.110 --> 00:06:32.260
+And then S is n minus
+I. Because again,
+
+00:06:32.260 --> 00:06:34.570
+if we go straight through
+the exposed fraction,
+
+00:06:34.570 --> 00:06:37.470
+then basically this rate
+of losing susceptibles
+
+00:06:37.470 --> 00:06:42.909
+is equal to the rate of
+creating new infected people.
+
+00:06:42.909 --> 00:06:44.110
+Again, because n is fixed.
+
+00:06:44.110 --> 00:06:45.360
+The number of people is fixed.
+
+00:06:45.360 --> 00:06:49.430
+So dS dt is minus the dI dt.
+
+00:06:49.430 --> 00:06:52.370
+So this is the equation
+now that we can solve
+
+00:06:52.370 --> 00:06:54.620
+for this limit of the model.
+
+00:06:54.620 --> 00:06:57.110
+And fortunately, this is a
+simple equation to solve.
+
+00:06:57.110 --> 00:07:01.440
+It's a first order separable
+differential equation.
+
+00:07:01.440 --> 00:07:05.630
+So we can write
+this as dI over I
+
+00:07:05.630 --> 00:07:13.670
+times n minus I is
+equal to beta of t dt.
+
+00:07:13.670 --> 00:07:16.790
+On this side, I
+can write this as--
+
+00:07:16.790 --> 00:07:23.000
+I can factor out a one over n,
+and write this as one over I
+
+00:07:23.000 --> 00:07:27.000
+plus one over n minus I. So
+when I combine these two,
+
+00:07:27.000 --> 00:07:28.950
+I get In minus nine
+in the denominator.
+
+00:07:28.950 --> 00:07:31.650
+And the numerator, I get n
+minus I plus I. So just get n.
+
+00:07:31.650 --> 00:07:33.650
+But then it divides by
+that n, so I do come back
+
+00:07:33.650 --> 00:07:35.480
+to what I started with.
+
+00:07:35.480 --> 00:07:39.200
+And this times dI.
+
+00:07:39.200 --> 00:07:42.540
+And so now I can integrate
+both sides this equation.
+
+00:07:42.540 --> 00:07:44.520
+Take into account
+the initial condition
+
+00:07:44.520 --> 00:07:48.720
+is that at t equals zero, the
+number of infectors is I0.
+
+00:07:48.720 --> 00:07:53.960
+So basically, I can integrate
+by going from zero to time, t.
+
+00:07:53.960 --> 00:07:55.800
+And on this side, in
+terms of the infectors,
+
+00:07:55.800 --> 00:08:01.300
+I'm going from I0 to the
+current number of infectors, I.
+
+00:08:01.300 --> 00:08:04.300
+OK, so now we're ready to
+integrate this equation.
+
+00:08:04.300 --> 00:08:08.520
+So let's multiply the
+n to the other side
+
+00:08:08.520 --> 00:08:09.460
+and do the integrals.
+
+00:08:09.460 --> 00:08:12.780
+So basically, the integral
+of one over I is log I.
+
+00:08:12.780 --> 00:08:17.790
+So we have log I minus
+log of n minus I.
+
+00:08:17.790 --> 00:08:20.180
+And that's because
+there's a minus I there,
+
+00:08:20.180 --> 00:08:22.530
+so that leads to a
+minus sign out front.
+
+00:08:22.530 --> 00:08:25.290
+On the other side, if I
+multiply through by n,
+
+00:08:25.290 --> 00:08:29.280
+I have n integral
+from zero to t of beta
+
+00:08:29.280 --> 00:08:34.770
+of t dt plus a constant
+of integration.
+
+00:08:34.770 --> 00:08:38.780
+The boundary condition that I
+need is that I of zero is I0.
+
+00:08:38.780 --> 00:08:42.330
+So a t equals zero,
+this term vanishes,
+
+00:08:42.330 --> 00:08:46.740
+and this expression must be
+evaluated with I equal to I0.
+
+00:08:46.740 --> 00:08:48.800
+So therefore, there
+must be on this side
+
+00:08:48.800 --> 00:08:51.290
+of the equation,
+some constants log
+
+00:08:51.290 --> 00:08:55.260
+of I0 minus log of n minus I0.
+
+00:08:55.260 --> 00:08:58.440
+So now we satisfy the boundary
+condition or initial condition
+
+00:08:58.440 --> 00:09:00.600
+of t equals zero.
+
+00:09:00.600 --> 00:09:05.370
+Now, I can also write this in
+terms of the quanta emission
+
+00:09:05.370 --> 00:09:09.210
+rate for the initial infectors,
+which we defined earlier.
+
+00:09:09.210 --> 00:09:14.280
+So for the Wells-Riley model,
+we talked about writing q of t
+
+00:09:14.280 --> 00:09:17.530
+is the number of quanta emitted
+by the initial infector.
+
+00:09:17.530 --> 00:09:21.750
+So if we just define it as
+I zero times the integral
+
+00:09:21.750 --> 00:09:25.890
+over time of beta
+of t dt, this is
+
+00:09:25.890 --> 00:09:33.590
+the sort of infection
+quanta emitted
+
+00:09:33.590 --> 00:09:37.980
+by the I0 initial infectors.
+
+00:09:37.980 --> 00:09:43.190
+So if we take that here,
+we can express the solution
+
+00:09:43.190 --> 00:09:44.240
+a somewhat different way.
+
+00:09:44.240 --> 00:09:47.120
+If I take an exponential
+on both sides,
+
+00:09:47.120 --> 00:09:50.060
+the difference of two logs
+is the log of the ratio.
+
+00:09:50.060 --> 00:09:53.310
+And when I exponentiate,
+I get rid of the log.
+
+00:09:53.310 --> 00:09:58.700
+So this side turns into I over
+n minus I. And the other side,
+
+00:09:58.700 --> 00:10:04.760
+we have from the similar
+expression, I0 over n minus I0.
+
+00:10:04.760 --> 00:10:08.750
+But times, now, the
+exponential of--
+
+00:10:08.750 --> 00:10:15.260
+well, if we want to express it
+in terms of q0, it would be n.
+
+00:10:15.260 --> 00:10:23.230
+And then this d beta dt
+has a one over I0 q of t.
+
+00:10:26.420 --> 00:10:29.720
+So this is the
+solution in this case.
+
+00:10:29.720 --> 00:10:34.260
+Now, if we look at early times--
+
+00:10:38.470 --> 00:10:42.200
+and so then that would be
+less than incubation time.
+
+00:10:42.200 --> 00:10:47.110
+So if basically our alpha
+t is much less than one--
+
+00:10:47.110 --> 00:10:49.210
+so not much incubation
+is occurred.
+
+00:10:49.210 --> 00:10:52.810
+And basically during that time
+I is approximately still equal
+
+00:10:52.810 --> 00:10:53.470
+to I0.
+
+00:10:53.470 --> 00:10:55.840
+So that would be kind of in
+the early, early stages here
+
+00:10:55.840 --> 00:10:59.070
+of this dynamics--
+
+00:10:59.070 --> 00:11:07.770
+then we could write that
+I of t is, well, from this
+
+00:11:07.770 --> 00:11:12.480
+we could write it as n minus I0.
+
+00:11:12.480 --> 00:11:21.130
+And then I0 times the time
+interval of beta, or n minus I0
+
+00:11:21.130 --> 00:11:26.090
+times q, or it's the number
+of susceptibles times q of t.
+
+00:11:26.090 --> 00:11:31.400
+So this is a result
+that can come directly
+
+00:11:31.400 --> 00:11:34.080
+from analyzing this expression.
+
+00:11:34.080 --> 00:11:39.860
+We can also see it here,
+that if I is not changing,
+
+00:11:39.860 --> 00:11:46.130
+then we have I, n minus
+I. And we can also
+
+00:11:46.130 --> 00:11:47.720
+see this expression
+here where we just
+
+00:11:47.720 --> 00:11:50.730
+integrate both sides in time
+to get to this equation here.
+
+00:11:50.730 --> 00:11:53.480
+So it's basically the
+same as the Wells-Riley
+
+00:11:53.480 --> 00:11:55.380
+in an early time.
+
+00:11:55.380 --> 00:11:57.480
+And that's an
+interesting observation,
+
+00:11:57.480 --> 00:12:03.880
+which is that there
+is a universal sort
+
+00:12:03.880 --> 00:12:09.600
+of small transmission limit
+in both limits of this model.
+
+00:12:14.490 --> 00:12:18.180
+And what that is,
+if we take this--
+
+00:12:18.180 --> 00:12:21.180
+at least for the
+SEI model, if we
+
+00:12:21.180 --> 00:12:25.740
+write how many exposed
+plus infected relative
+
+00:12:25.740 --> 00:12:28.710
+to the initial number
+of infectors, OK?
+
+00:12:28.710 --> 00:12:33.240
+So that is telling us how
+many transmissions there
+
+00:12:33.240 --> 00:12:34.890
+are, either to make
+someone exposed
+
+00:12:34.890 --> 00:12:38.130
+or to make them infectious
+from the initial number
+
+00:12:38.130 --> 00:12:39.960
+of infectors.
+
+00:12:39.960 --> 00:12:43.830
+That at early times,
+we get this same result
+
+00:12:43.830 --> 00:12:45.920
+that we had before
+because we got
+
+00:12:45.920 --> 00:12:47.880
+the same thing for the
+Wells-Riley model for E,
+
+00:12:47.880 --> 00:12:51.180
+here it's for I. And
+we find that this
+
+00:12:51.180 --> 00:12:55.860
+is this what we call Rn, the
+indoor transmission number.
+
+00:12:55.860 --> 00:13:00.030
+Which is the initial number of
+susceptibles times the number
+
+00:13:00.030 --> 00:13:03.180
+of quanta transferred.
+
+00:13:03.180 --> 00:13:08.700
+And in the case where if S0 were
+equal to n minus one, and I0
+
+00:13:08.700 --> 00:13:13.290
+were equal to one, this
+would be n minus one integral
+
+00:13:13.290 --> 00:13:15.960
+over t of beta dt.
+
+00:13:15.960 --> 00:13:19.560
+That would be that case
+that we talked about before
+
+00:13:19.560 --> 00:13:21.630
+for the indoor
+transmission number.
+
+00:13:21.630 --> 00:13:24.370
+But more generally, it
+would look like this.
+
+00:13:24.370 --> 00:13:27.210
+So that is at early times,
+before many transmissions
+
+00:13:27.210 --> 00:13:28.200
+have happened.
+
+00:13:28.200 --> 00:13:30.130
+It really doesn't matter
+what's the details
+
+00:13:30.130 --> 00:13:32.890
+of the model in terms of
+the non-linear response.
+
+00:13:32.890 --> 00:13:34.860
+So even if after a
+longer amount of time
+
+00:13:34.860 --> 00:13:36.930
+more and more
+people get infected,
+
+00:13:36.930 --> 00:13:39.840
+the initial moments are always
+universal and are really
+
+00:13:39.840 --> 00:13:41.770
+just governed by this
+transmission rate
+
+00:13:41.770 --> 00:13:44.100
+beta and the number of
+susceptible people and number
+
+00:13:44.100 --> 00:13:46.210
+of infectious people
+initially in the room.
+
+00:13:46.210 --> 00:13:49.450
+So it's kind of independent
+of all these details here.
+
+00:13:49.450 --> 00:13:53.370
+And so then to kind of
+summarize that picture,
+
+00:13:53.370 --> 00:14:03.580
+we could plot versus time here
+what happens in terms of the--
+
+00:14:03.580 --> 00:14:06.650
+so we have a rate
+of transmission
+
+00:14:06.650 --> 00:14:10.130
+where if I look at
+the total number of
+
+00:14:10.130 --> 00:14:13.340
+exposed plus
+infected people, OK.
+
+00:14:13.340 --> 00:14:16.040
+And then here's the total
+number of people in the room, n.
+
+00:14:16.040 --> 00:14:24.360
+So in the Wells-Riley
+model, everyone's exposed,
+
+00:14:24.360 --> 00:14:26.490
+but nobody becomes infectious.
+
+00:14:26.490 --> 00:14:30.900
+And we know that we get this
+kind of exponential relaxation
+
+00:14:30.900 --> 00:14:33.480
+as we eventually run out
+of susceptible people.
+
+00:14:33.480 --> 00:14:39.560
+And the timescale for
+that is beta inverse, OK.
+
+00:14:39.560 --> 00:14:41.610
+And that gives you
+the transmission time
+
+00:14:41.610 --> 00:14:43.920
+for just a fixed
+number of infectors
+
+00:14:43.920 --> 00:14:47.110
+to slowly infect everybody else.
+
+00:14:47.110 --> 00:14:49.500
+But in the case like
+we described here
+
+00:14:49.500 --> 00:14:51.690
+where we have some
+non-linear acceleration,
+
+00:14:51.690 --> 00:14:52.980
+that has to start out the same.
+
+00:14:52.980 --> 00:14:54.440
+That's what I'm
+trying to say here,
+
+00:14:54.440 --> 00:14:56.550
+is the initial transmission
+rate doesn't matter
+
+00:14:56.550 --> 00:14:59.250
+if there is an incubation rate
+until you reach the incubation
+
+00:14:59.250 --> 00:14:59.860
+time.
+
+00:14:59.860 --> 00:15:01.320
+So there's kind of
+an alpha inverse
+
+00:15:01.320 --> 00:15:02.770
+here, which is the
+incubation time.
+
+00:15:07.360 --> 00:15:09.400
+This one here is the
+transmission time.
+
+00:15:14.220 --> 00:15:15.680
+And at this time
+scale, you start
+
+00:15:15.680 --> 00:15:21.010
+to see an exponential increase
+until it saturates basically
+
+00:15:21.010 --> 00:15:23.430
+once all the transmission has
+occurred because now there's
+
+00:15:23.430 --> 00:15:25.520
+more and more infectious people.
+
+00:15:25.520 --> 00:15:33.850
+And so this is the fast
+incubation and slow incubation.
+
+00:15:36.970 --> 00:15:43.990
+And this one is the Wells-Riley
+model, which is widely used.
+
+00:15:43.990 --> 00:15:46.750
+But if you're fitting spreading
+data where there may actually
+
+00:15:46.750 --> 00:15:50.470
+be some incubation going on,
+and also potentially removal--
+
+00:15:50.470 --> 00:15:53.240
+we could add another equation
+for the removal of people.
+
+00:15:53.240 --> 00:15:55.290
+We need to be careful on
+how we fit data in order
+
+00:15:55.290 --> 00:15:57.670
+to extract information about
+the transmission rate, which
+
+00:15:57.670 --> 00:15:59.290
+is what we're
+interested in what we're
+
+00:15:59.290 --> 00:16:01.300
+trying to interpret the data.
+
+00:16:01.300 --> 00:16:06.310
+So maybe an important
+conclusion from this
+
+00:16:06.310 --> 00:16:11.870
+is that infection
+quanta, this notion--
+
+00:16:11.870 --> 00:16:14.860
+or the infection quantum, I
+guess you can say, one of them.
+
+00:16:14.860 --> 00:16:17.680
+Which is a quantity that
+was introduced by Wells,
+
+00:16:17.680 --> 00:16:19.830
+really based on this
+Wells-Riley model,
+
+00:16:19.830 --> 00:16:22.000
+is basically-- think of
+this exponential relaxation,
+
+00:16:22.000 --> 00:16:27.250
+and saying when let's say 63%
+of people become infected,
+
+00:16:27.250 --> 00:16:29.650
+that's what you say is
+one infection quantum
+
+00:16:29.650 --> 00:16:33.910
+has been transmitted to
+each of those people.
+
+00:16:33.910 --> 00:16:37.300
+Then really, it's
+better defined--
+
+00:16:37.300 --> 00:16:40.930
+I'll just write here it's
+defined by the transmission
+
+00:16:40.930 --> 00:16:47.180
+rate and not by the
+number of people
+
+00:16:47.180 --> 00:16:48.310
+that actually get infected.
+
+00:16:48.310 --> 00:16:49.730
+So if you look at some
+data like the Diamond
+
+00:16:49.730 --> 00:16:52.420
+Princess or other data that
+we're going to look at later,
+
+00:16:52.420 --> 00:16:54.650
+you are seeing
+spreading happening
+
+00:16:54.650 --> 00:16:56.330
+and there could be
+lots of contributions
+
+00:16:56.330 --> 00:16:57.950
+to the number of people
+that actually get sick.
+
+00:16:57.950 --> 00:17:00.270
+For example, there could
+be incubation going on.
+
+00:17:00.270 --> 00:17:02.630
+So what's sometimes called
+the secondary attack
+
+00:17:02.630 --> 00:17:09.470
+rate is E plus I divided by S0.
+
+00:17:09.470 --> 00:17:11.770
+So the secondary
+attack rate is sort
+
+00:17:11.770 --> 00:17:13.190
+of the fraction
+of people that are
+
+00:17:13.190 --> 00:17:15.170
+susceptible that got infected.
+
+00:17:15.170 --> 00:17:18.500
+And the Wells-Riley would
+say, when that 63% then you've
+
+00:17:18.500 --> 00:17:21.530
+transmitted a quantum
+to each of those people.
+
+00:17:21.530 --> 00:17:24.599
+Whereas, as we see in the case
+of the fast incubation model,
+
+00:17:24.599 --> 00:17:26.480
+that's not how you would
+interpret that data.
+
+00:17:26.480 --> 00:17:28.490
+But on the other hand,
+beta is well-defined.
+
+00:17:28.490 --> 00:17:30.980
+It's just each person
+is transferring quanta
+
+00:17:30.980 --> 00:17:32.690
+at a certain rate
+and has the potential
+
+00:17:32.690 --> 00:17:34.280
+to infect other people.
+
+00:17:34.280 --> 00:17:37.040
+Now, I don't want to
+overstate the relevance
+
+00:17:37.040 --> 00:17:39.680
+of this model for a particular
+case like the Diamond Princess
+
+00:17:39.680 --> 00:17:40.220
+cruise ship.
+
+00:17:40.220 --> 00:17:41.940
+We'll come back to this later.
+
+00:17:41.940 --> 00:17:43.490
+But just simply to
+illustrate that it
+
+00:17:43.490 --> 00:17:45.470
+has this kind of
+non-linear feature
+
+00:17:45.470 --> 00:17:47.570
+which is suggestive
+of incubation
+
+00:17:47.570 --> 00:17:50.810
+occurring and an increase in
+the number of infected people.
+
+00:17:50.810 --> 00:17:54.620
+And just to point out that
+this sort of simple modeling
+
+00:17:54.620 --> 00:17:56.990
+leads us to kind of a
+universal expression
+
+00:17:56.990 --> 00:18:00.860
+for the initial transmission
+from the initial in factors
+
+00:18:00.860 --> 00:18:04.190
+for each of them to transfer
+to sort of one other,
+
+00:18:04.190 --> 00:18:07.700
+which is this indoor
+reproductive number.
+
+00:18:07.700 --> 00:18:11.580
+And that's really what's
+valid at the early times here.
+
+00:18:11.580 --> 00:18:15.620
+And that's where we have
+kind of a universal behavior.
+
+00:18:15.620 --> 00:18:18.290
+And that's useful in
+formulating safety guidelines,
+
+00:18:18.290 --> 00:18:20.380
+which we will do next.

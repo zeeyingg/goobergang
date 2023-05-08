@@ -1,0 +1,523 @@
+WEBVTT
+
+00:00:11.030 --> 00:00:12.980
+PROFESSOR: So as a
+more technical aside,
+
+00:00:12.980 --> 00:00:15.200
+let's analyze more
+carefully the problem
+
+00:00:15.200 --> 00:00:20.970
+of release of viral load from
+a drop by process of diffusion.
+
+00:00:20.970 --> 00:00:23.250
+So here, again, I
+sketch a droplet,
+
+00:00:23.250 --> 00:00:25.970
+which would typically be an
+aerosol droplet in the size
+
+00:00:25.970 --> 00:00:27.890
+range of, let's say, microns.
+
+00:00:27.890 --> 00:00:30.650
+And the virion of
+interest has a size
+
+00:00:30.650 --> 00:00:33.680
+that is much smaller than that
+on the order of, let's say,
+
+00:00:33.680 --> 00:00:35.480
+100 nanometers.
+
+00:00:35.480 --> 00:00:38.870
+And this white path is showing
+how such a virion would
+
+00:00:38.870 --> 00:00:43.430
+go from its initial position R,
+let's say, as a radio position,
+
+00:00:43.430 --> 00:00:45.380
+to the boundary.
+
+00:00:45.380 --> 00:00:48.800
+Now, the general
+problem of finding
+
+00:00:48.800 --> 00:00:53.510
+the expected first passage time
+from the point inside a domain
+
+00:00:53.510 --> 00:00:56.240
+to a boundary is a
+classical problem
+
+00:00:56.240 --> 00:00:59.480
+in the theory of stochastic
+processes and random walks.
+
+00:00:59.480 --> 00:01:01.830
+And it has the following
+representation.
+
+00:01:01.830 --> 00:01:04.340
+So the mean are
+expected first passage
+
+00:01:04.340 --> 00:01:14.120
+time from a point to
+an absorbing surface
+
+00:01:14.120 --> 00:01:16.120
+solves the following problem.
+
+00:01:16.120 --> 00:01:20.150
+Is the Laplacian of that
+time with a minus sign
+
+00:01:20.150 --> 00:01:22.870
+is 1 over D where D
+is the diffusivity.
+
+00:01:22.870 --> 00:01:25.010
+And so this is the DV
+that I described before,
+
+00:01:25.010 --> 00:01:26.780
+the diffusivity of the virion.
+
+00:01:26.780 --> 00:01:29.780
+And the boundary condition
+for this equation
+
+00:01:29.780 --> 00:01:33.530
+is that it's an absorbing
+boundary, basically.
+
+00:01:33.530 --> 00:01:35.810
+So when the virion gets
+to the surface it's gone.
+
+00:01:35.810 --> 00:01:40.430
+And that's when the
+stochastic process finishes.
+
+00:01:40.430 --> 00:01:46.030
+So it's tau equals 0 on
+radius capital R, which
+
+00:01:46.030 --> 00:01:47.280
+is the radius of the droplets.
+
+00:01:47.280 --> 00:01:49.440
+So that's on the boundary.
+
+00:01:49.440 --> 00:01:57.320
+So in the case of a
+spherical drop, then
+
+00:01:57.320 --> 00:02:01.980
+we can write this equation
+in spherical coordinates.
+
+00:02:01.980 --> 00:02:07.070
+So that's minus 1 over
+r-squared, r derivative
+
+00:02:07.070 --> 00:02:11.030
+of r-squared D
+tau DR. And that's
+
+00:02:11.030 --> 00:02:12.860
+equal to 1 over capital D.
+
+00:02:12.860 --> 00:02:14.450
+And then again, our
+boundary condition
+
+00:02:14.450 --> 00:02:17.850
+is the tau of capital
+R is equal to zero.
+
+00:02:17.850 --> 00:02:24.590
+Another boundary condition we might
+mention is that D tau DR at R
+
+00:02:24.590 --> 00:02:26.780
+equals 0 is zero.
+
+00:02:26.780 --> 00:02:28.329
+That's a symmetry
+boundary condition.
+
+00:02:28.329 --> 00:02:30.380
+So when you're right in
+the middle, basically,
+
+00:02:30.380 --> 00:02:31.700
+there should be no--
+
+00:02:31.700 --> 00:02:36.350
+there's no favorite direction
+for the diffusion process.
+
+00:02:36.350 --> 00:02:38.150
+And so, therefore, the
+derivative this time
+
+00:02:38.150 --> 00:02:40.090
+with respect to R must
+be 0 at the center
+
+00:02:40.090 --> 00:02:42.200
+because it's a symmetry
+boundary condition.
+
+00:02:42.200 --> 00:02:45.260
+OK, so we can now go ahead
+and solve this problem.
+
+00:02:45.260 --> 00:02:47.740
+Let me put the r-squared on
+their side and use primes
+
+00:02:47.740 --> 00:02:49.380
+with no derivatives.
+
+00:02:49.380 --> 00:02:53.790
+So let's write this
+as r-squared tau
+
+00:02:53.790 --> 00:03:00.410
+prime, prime equals
+minus r-squared over d.
+
+00:03:00.410 --> 00:03:03.780
+And if I now
+integrate both sides,
+
+00:03:03.780 --> 00:03:07.970
+I get r-squared
+tau prime equals--
+
+00:03:07.970 --> 00:03:11.810
+and then here we
+get a minus r-cubed
+
+00:03:11.810 --> 00:03:15.030
+over 3D plus a constant.
+
+00:03:17.579 --> 00:03:20.000
+And that constant immigration
+according to the symmetry
+
+00:03:20.000 --> 00:03:23.240
+boundary condition has to
+be 0, because tau prime is
+
+00:03:23.240 --> 00:03:25.910
+0 at r equals 0.
+
+00:03:25.910 --> 00:03:27.950
+So we can simplify
+this and write
+
+00:03:27.950 --> 00:03:34.150
+tau prime is minus r over 3D.
+
+00:03:34.150 --> 00:03:36.360
+And so then I can
+integrate again.
+
+00:03:36.360 --> 00:03:41.680
+And I found that tau of r is--
+
+00:03:41.680 --> 00:03:44.260
+well, I integrate this,
+I get r squared over 2
+
+00:03:44.260 --> 00:03:45.040
+is integral of r.
+
+00:03:45.040 --> 00:03:47.680
+So that gives that
+an r-squared over 6.
+
+00:03:47.680 --> 00:03:52.210
+So there will be a 6
+D and minus r-squared.
+
+00:03:52.210 --> 00:03:54.280
+And there'll be a
+constant integration.
+
+00:03:54.280 --> 00:03:57.370
+And in order to satisfy this
+boundary condition of vanishing
+
+00:03:57.370 --> 00:03:59.290
+a capital R, you
+can see that I can
+
+00:03:59.290 --> 00:04:00.910
+write the constant this way.
+
+00:04:00.910 --> 00:04:03.490
+And I'll write it as
+capital R squared over 6D
+
+00:04:03.490 --> 00:04:05.780
+is a constant of integration.
+
+00:04:05.780 --> 00:04:10.360
+So basically, the profile of
+the main first passage time
+
+00:04:10.360 --> 00:04:12.560
+is essentially a parabola.
+
+00:04:12.560 --> 00:04:19.269
+So as a function of distance R
+from the center of the droplet,
+
+00:04:19.269 --> 00:04:24.640
+you have this shape to the
+mean transmission time.
+
+00:04:24.640 --> 00:04:27.910
+And the maximum here,
+the maximum value
+
+00:04:27.910 --> 00:04:32.260
+is tau 0 is the maximum value.
+
+00:04:32.260 --> 00:04:36.720
+And that is r-squared over 60.
+
+00:04:36.720 --> 00:04:38.950
+So that's if you happen
+to be unlucky and right
+
+00:04:38.950 --> 00:04:39.540
+in the middle.
+
+00:04:39.540 --> 00:04:41.090
+That's the longest
+you would expect
+
+00:04:41.090 --> 00:04:44.040
+to take from a particular part.
+
+00:04:44.040 --> 00:04:45.920
+Now on the other hand,
+as I've sketched here,
+
+00:04:45.920 --> 00:04:48.320
+in a typical droplet, if
+the virions are randomly
+
+00:04:48.320 --> 00:04:51.409
+distributed, some of them,
+like this guy over here,
+
+00:04:51.409 --> 00:04:53.030
+happen to be very
+close to the surface.
+
+00:04:53.030 --> 00:04:55.280
+So you're not going to have
+to wait this long for them
+
+00:04:55.280 --> 00:04:55.790
+to escape.
+
+00:04:55.790 --> 00:04:58.340
+So now we can ask the question,
+what is the average escape
+
+00:04:58.340 --> 00:05:01.340
+time over all the initial
+positions of the virus,
+
+00:05:01.340 --> 00:05:04.100
+or virion, assuming that
+the virions are uniformly
+
+00:05:04.100 --> 00:05:08.130
+distributed at random in
+the initial condition.
+
+00:05:08.130 --> 00:05:12.090
+So if we do that, then
+we're solving for the--
+
+00:05:12.090 --> 00:05:14.180
+that's all [INAUDIBLE],,
+so I'll put it over here.
+
+00:05:17.670 --> 00:05:24.600
+The average escape time or
+first passage time for the virus
+
+00:05:24.600 --> 00:05:27.150
+will be tau bar.
+
+00:05:27.150 --> 00:05:29.210
+Well, what I'll do is
+I'll integrate over
+
+00:05:29.210 --> 00:05:31.770
+all the positions and
+then divide by the volume
+
+00:05:31.770 --> 00:05:33.550
+because a uniform distribution.
+
+00:05:33.550 --> 00:05:35.909
+So I'll write the
+integral over the volume
+
+00:05:35.909 --> 00:05:39.840
+as 4 pi, the solid angle times
+integral from 0 to capital
+
+00:05:39.840 --> 00:05:47.340
+R of tau of r r-squared DR. And
+I'll divide by the total volume
+
+00:05:47.340 --> 00:05:51.720
+4/3 pi capital r-cubed.
+
+00:05:51.720 --> 00:05:55.900
+OK, so if we do
+this integral here,
+
+00:05:55.900 --> 00:05:57.820
+so when we plug-in
+this, first of all,
+
+00:05:57.820 --> 00:06:01.470
+we can see that
+we get, obviously,
+
+00:06:01.470 --> 00:06:03.540
+for the constant term,
+r-squared over 60,
+
+00:06:03.540 --> 00:06:06.810
+we just have a ratio of volume
+over volume, which is one.
+
+00:06:06.810 --> 00:06:10.380
+So we get r squared
+over 6D is the first term,
+
+00:06:10.380 --> 00:06:12.850
+just integrating that constant.
+
+00:06:12.850 --> 00:06:15.040
+But then it's 1 minus.
+
+00:06:15.040 --> 00:06:16.980
+And then instead
+of r-squared, you
+
+00:06:16.980 --> 00:06:18.940
+have r-squared times
+this r-squared.
+
+00:06:18.940 --> 00:06:20.440
+It says r to fourth.
+
+00:06:20.440 --> 00:06:21.600
+So you integrate that.
+
+00:06:21.600 --> 00:06:23.780
+You get r to the fifth over 5.
+
+00:06:23.780 --> 00:06:26.800
+And so then you get
+1/5 over this 1/3 here.
+
+00:06:26.800 --> 00:06:28.460
+And that gives you 3/5.
+
+00:06:31.000 --> 00:06:33.490
+And so that gives, when
+I subtract one minus 3/5,
+
+00:06:33.490 --> 00:06:34.750
+I get 2/5.
+
+00:06:34.750 --> 00:06:37.120
+And 2 over 6 is 1/3.
+
+00:06:37.120 --> 00:06:42.940
+And so this ends up
+being r-squared over 15D
+
+00:06:42.940 --> 00:06:45.490
+as we had previously quoted.
+
+00:06:45.490 --> 00:06:47.830
+So it's worth going through
+the calculation just to see.
+
+00:06:47.830 --> 00:06:49.659
+This number 15 is an
+order of magnitude.
+
+00:06:49.659 --> 00:06:51.530
+It's larger than 10.
+
+00:06:51.530 --> 00:06:54.070
+So while we normally
+estimate diffusion times
+
+00:06:54.070 --> 00:06:57.640
+to be of order length
+squared divided by D,
+
+00:06:57.640 --> 00:07:00.010
+so r-squared over
+d, this calculation
+
+00:07:00.010 --> 00:07:03.130
+shows that the actual
+average time is much smaller
+
+00:07:03.130 --> 00:07:05.110
+than that by a factor of 15.
+
+00:07:05.110 --> 00:07:07.870
+And that's precisely because
+the virus virions sometimes
+
+00:07:07.870 --> 00:07:09.700
+find themselves initially
+near the surface.
+
+00:07:09.700 --> 00:07:10.870
+So they get out more easily.
+
+00:07:10.870 --> 00:07:12.490
+So you don't have to
+wait for diffusion
+
+00:07:12.490 --> 00:07:13.690
+across the entire drop.
+
+00:07:13.690 --> 00:07:15.370
+That sets the overall scale.
+
+00:07:15.370 --> 00:07:18.340
+But the average
+drop diffusion time
+
+00:07:18.340 --> 00:07:20.760
+is actually less than that.

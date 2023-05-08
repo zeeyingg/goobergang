@@ -1,0 +1,1261 @@
+WEBVTT
+
+00:00:10.880 --> 00:00:13.400
+PROFESSOR: So now that we've
+discussed prevalence and risk
+
+00:00:13.400 --> 00:00:16.650
+scenarios, we come to
+a very important topic,
+
+00:00:16.650 --> 00:00:20.060
+which is, when should
+you impose the guideline?
+
+00:00:20.060 --> 00:00:25.490
+Obviously, when the epidemic
+is raging at a very high rate,
+
+00:00:25.490 --> 00:00:27.830
+it feels out of
+control, it's spreading,
+
+00:00:27.830 --> 00:00:30.660
+we want to impose the
+guideline that we've discussed,
+
+00:00:30.660 --> 00:00:32.630
+which limits the indoor
+reproductive number
+
+00:00:32.630 --> 00:00:34.800
+for each space within
+some tolerance.
+
+00:00:34.800 --> 00:00:37.580
+And that would, for example,
+give us some number N1
+
+00:00:37.580 --> 00:00:39.860
+from the safety
+guideline, R N less than
+
+00:00:39.860 --> 00:00:42.250
+epsilon, which is
+going to be smaller
+
+00:00:42.250 --> 00:00:44.420
+than the normal occupancy
+of that room for a given
+
+00:00:44.420 --> 00:00:47.640
+time and all the other factors
+that we've been discussing.
+
+00:00:47.640 --> 00:00:49.600
+But what happens as the
+prevalence of infection
+
+00:00:49.600 --> 00:00:50.140
+goes down.
+
+00:00:50.140 --> 00:00:52.840
+Generically, there must
+be some curve like this.
+
+00:00:52.840 --> 00:00:55.330
+And we'd like to understand
+what is the simplest
+
+00:00:55.330 --> 00:00:58.330
+reasonable model we can come
+up with that can tell us
+
+00:00:58.330 --> 00:01:00.220
+how to relax the approximation?
+
+00:01:00.220 --> 00:01:02.590
+So for example, let's think
+of a school or a business,
+
+00:01:02.590 --> 00:01:05.140
+where we typically have a
+lot of the same people there
+
+00:01:05.140 --> 00:01:08.120
+every day, but some others
+are coming and going,
+
+00:01:08.120 --> 00:01:10.420
+or maybe going home and
+getting infected and coming in.
+
+00:01:10.420 --> 00:01:12.520
+So the rate of infection is low.
+
+00:01:12.520 --> 00:01:15.060
+So we expect typically the
+number of infected people
+
+00:01:15.060 --> 00:01:16.940
+is zero or occasionally one.
+
+00:01:16.940 --> 00:01:19.960
+And as the prevalence
+goes down, then we
+
+00:01:19.960 --> 00:01:24.200
+start to see that the situation
+is getting safer and safer.
+
+00:01:24.200 --> 00:01:26.890
+So that at a certain point
+P1, where we start to say,
+
+00:01:26.890 --> 00:01:28.480
+you know what we can
+actually increase
+
+00:01:28.480 --> 00:01:30.640
+the occupancy of the space
+with everything else held
+
+00:01:30.640 --> 00:01:32.840
+fixed while still wearing masks.
+
+00:01:32.840 --> 00:01:34.390
+And then we hit the
+normal occupancy.
+
+00:01:34.390 --> 00:01:36.650
+And you might call that
+the new normal, where
+
+00:01:36.650 --> 00:01:38.320
+we're going about our
+business, the room
+
+00:01:38.320 --> 00:01:40.030
+is filled with the
+typical number of people.
+
+00:01:40.030 --> 00:01:42.100
+Let's say, the classroom
+is back to its normal size.
+
+00:01:42.100 --> 00:01:43.900
+We don't have any remote
+teaching going on.
+
+00:01:43.900 --> 00:01:48.380
+But we're wearing masks
+or taking other factors
+
+00:01:48.380 --> 00:01:50.800
+into account, such as higher
+ventilation rates, let's say,
+
+00:01:50.800 --> 00:01:52.300
+open windows.
+
+00:01:52.300 --> 00:01:54.710
+But then we continue
+lowering the prevalence.
+
+00:01:54.710 --> 00:01:56.380
+There's a certain
+point where we get rid
+
+00:01:56.380 --> 00:01:57.670
+of those other precautions.
+
+00:01:57.670 --> 00:01:59.360
+So extra open your windows.
+
+00:01:59.360 --> 00:02:01.030
+Or more importantly,
+the dominant effect
+
+00:02:01.030 --> 00:02:03.100
+is the removal of the
+mask because we know
+
+00:02:03.100 --> 00:02:04.780
+that's a significant factor.
+
+00:02:04.780 --> 00:02:07.210
+And then you might call that
+back to the real normal,
+
+00:02:07.210 --> 00:02:08.750
+actually, not the new normal.
+
+00:02:08.750 --> 00:02:11.890
+Where we are back to full
+occupancy and really not
+
+00:02:11.890 --> 00:02:13.160
+taking any precautions.
+
+00:02:13.160 --> 00:02:15.250
+That's going to happen at
+a rather low prevalence.
+
+00:02:15.250 --> 00:02:17.350
+But we hope that that
+time will eventually come
+
+00:02:17.350 --> 00:02:19.120
+and hopefully not so
+far in the future.
+
+00:02:19.120 --> 00:02:20.829
+And I mention here a
+very important point
+
+00:02:20.829 --> 00:02:23.110
+we've not talked about
+yet in this class
+
+00:02:23.110 --> 00:02:25.870
+but we should keep in
+the back of our minds.
+
+00:02:25.870 --> 00:02:27.810
+When I talk about
+occupancy I'm really
+
+00:02:27.810 --> 00:02:29.770
+talking about the number
+of susceptible people.
+
+00:02:29.770 --> 00:02:31.810
+We just saw that in the
+last couple of boards.
+
+00:02:31.810 --> 00:02:33.850
+But the number of
+susceptible people
+
+00:02:33.850 --> 00:02:38.050
+are really only those that
+are not immune to the disease,
+
+00:02:38.050 --> 00:02:40.480
+for example, by vaccination.
+
+00:02:40.480 --> 00:02:44.110
+So as more and more
+people become vaccinated,
+
+00:02:44.110 --> 00:02:46.190
+then this occupancy number
+might-- for example,
+
+00:02:46.190 --> 00:02:47.570
+let's say, as a
+typical occupancy
+
+00:02:47.570 --> 00:02:49.930
+will be at 25 people in a class.
+
+00:02:49.930 --> 00:02:51.970
+As more and more
+people are vaccinated,
+
+00:02:51.970 --> 00:02:53.650
+the number that we
+plug in this formula
+
+00:02:53.650 --> 00:02:57.740
+here might actually be lower
+when we just make decisions
+
+00:02:57.740 --> 00:02:59.620
+because there are fewer
+and fewer susceptible
+
+00:02:59.620 --> 00:03:00.490
+people that are left.
+
+00:03:00.490 --> 00:03:03.110
+So that's another very important
+factor to keep in mind.
+
+00:03:03.110 --> 00:03:05.770
+Of course, also, vaccination
+has the indirect effect
+
+00:03:05.770 --> 00:03:08.440
+of lowering the prevalence
+that is seen in the population
+
+00:03:08.440 --> 00:03:10.120
+as we start to stamp
+out the epidemics.
+
+00:03:10.120 --> 00:03:11.710
+So we also have that effect.
+
+00:03:11.710 --> 00:03:14.080
+So I won't talk about
+that any further now
+
+00:03:14.080 --> 00:03:17.410
+but come back to this
+calculation based on the risk
+
+00:03:17.410 --> 00:03:19.960
+scenario, the second one that
+I talked about last time, where
+
+00:03:19.960 --> 00:03:22.450
+we take into account prevalence
+
+00:03:22.450 --> 00:03:24.530
+So let's look at the three
+different cases here.
+
+00:03:24.530 --> 00:03:27.850
+So the first one is where we
+have restricted occupancy.
+
+00:03:34.920 --> 00:03:36.870
+This is where we've
+decided there's
+
+00:03:36.870 --> 00:03:42.180
+an N1, which is epsilon
+over average beta tau.
+
+00:03:42.180 --> 00:03:45.000
+So all the physical parameters
+are buried in there.
+
+00:03:45.000 --> 00:03:46.380
+And this is going
+to be something
+
+00:03:46.380 --> 00:03:49.500
+less than the normal
+occupancy, N0.
+
+00:03:49.500 --> 00:03:51.430
+Now what is the tau we
+want to think about?
+
+00:03:51.430 --> 00:03:53.250
+Well, if we have a
+school or a business,
+
+00:03:53.250 --> 00:03:54.780
+this would be the
+cumulative time
+
+00:03:54.780 --> 00:03:57.060
+that people spend
+together to the point
+
+00:03:57.060 --> 00:03:59.520
+where the number of days they
+spend together is, let's say,
+
+00:03:59.520 --> 00:04:02.100
+on the order of a week
+would be a reasonable number
+
+00:04:02.100 --> 00:04:03.900
+to think about.
+
+00:04:03.900 --> 00:04:10.670
+Because if we write tau is
+the typical hours per day.
+
+00:04:10.670 --> 00:04:14.810
+Time is some kind of
+maximum number of days.
+
+00:04:14.810 --> 00:04:17.420
+This maximum number
+of days could
+
+00:04:17.420 --> 00:04:20.350
+be set by, for example,
+the testing frequency.
+
+00:04:23.650 --> 00:04:28.080
+For example, here at MIT, we are
+testing our entire population
+
+00:04:28.080 --> 00:04:30.520
+at least once a week
+in order for anyone,
+
+00:04:30.520 --> 00:04:33.260
+including myself, to be
+admitted to the campus.
+
+00:04:33.260 --> 00:04:35.260
+And so we are definitely
+testing within a week
+
+00:04:35.260 --> 00:04:37.900
+and catching new
+infections at that rate.
+
+00:04:37.900 --> 00:04:42.100
+It could also be motivated
+by the incubation time, which
+
+00:04:42.100 --> 00:04:43.330
+is the time to show symptoms.
+
+00:04:43.330 --> 00:04:45.800
+And most people will
+remove themselves.
+
+00:04:45.800 --> 00:04:49.650
+And we know that's around 5.5
+days, a typically reported
+
+00:04:49.650 --> 00:04:50.150
+value.
+
+00:04:50.150 --> 00:04:52.280
+So again, on the
+order of a week.
+
+00:04:52.280 --> 00:04:54.520
+And there's also, of
+course, other ways
+
+00:04:54.520 --> 00:04:58.180
+that people are removed
+or they recover.
+
+00:04:58.180 --> 00:05:00.310
+So there's removal
+and recovery, which
+
+00:05:00.310 --> 00:05:03.030
+is another way that if
+you start to go more than,
+
+00:05:03.030 --> 00:05:04.660
+let's say, two weeks,
+we start to think
+
+00:05:04.660 --> 00:05:06.190
+an infected person
+that didn't get
+
+00:05:06.190 --> 00:05:08.190
+removed then end up in
+the hospital has probably
+
+00:05:08.190 --> 00:05:08.950
+recovered.
+
+00:05:08.950 --> 00:05:12.040
+So if we think of a certain
+number of days and hours
+
+00:05:12.040 --> 00:05:13.900
+per day, that
+gives a tau that is
+
+00:05:13.900 --> 00:05:15.560
+going to go into this formula.
+
+00:05:15.560 --> 00:05:17.860
+And actually, I should also
+mention that for simplicity
+
+00:05:17.860 --> 00:05:23.080
+here, technically this
+should be N1 minus 1.
+
+00:05:23.080 --> 00:05:25.750
+And I can either include that or
+not when I do this calculation.
+
+00:05:25.750 --> 00:05:29.230
+But I'm generally
+thinking of N1, which
+
+00:05:29.230 --> 00:05:30.790
+is going to be bigger than 1.
+
+00:05:30.790 --> 00:05:32.860
+So think of an
+occupancy of 10 people
+
+00:05:32.860 --> 00:05:35.260
+in a classroom, or
+something, might be a limit
+
+00:05:35.260 --> 00:05:37.659
+that we would be
+interested in considering.
+
+00:05:37.659 --> 00:05:40.930
+But certainly we can put the
+1 in there if we want to.
+
+00:05:40.930 --> 00:05:43.600
+So now let's ask
+ourselves, how would we
+
+00:05:43.600 --> 00:05:45.730
+start to reopen the
+space once we've
+
+00:05:45.730 --> 00:05:50.680
+decided on a safe occupancy
+during the greatest
+
+00:05:50.680 --> 00:05:53.430
+level of restrictions?
+
+00:05:53.430 --> 00:05:55.230
+So that would then
+lead us into a phase
+
+00:05:55.230 --> 00:05:56.540
+of relaxing restrictions.
+
+00:06:02.590 --> 00:06:05.800
+And this would
+still be with masks.
+
+00:06:08.840 --> 00:06:11.750
+So keeping in mind that
+masks are an essential part
+
+00:06:11.750 --> 00:06:14.750
+of achieving a
+reasonable occupancy when
+
+00:06:14.750 --> 00:06:17.850
+the pandemic is high and
+there's a lot of prevalence.
+
+00:06:17.850 --> 00:06:21.380
+And that we would only start
+to relax occupancy first
+
+00:06:21.380 --> 00:06:24.590
+before we take away the
+suggestion to wear masks.
+
+00:06:24.590 --> 00:06:26.570
+And that would be
+then the last step.
+
+00:06:26.570 --> 00:06:29.300
+So for relaxing
+restrictions, we're
+
+00:06:29.300 --> 00:06:32.540
+then going to be interested in
+the indoor reproductive number
+
+00:06:32.540 --> 00:06:35.540
+being less than now a
+rescaled value, which
+
+00:06:35.540 --> 00:06:41.960
+would be epsilon over P i Q i
+N. And the indoor reproductive
+
+00:06:41.960 --> 00:06:43.700
+number, remember, is N minus 1.
+
+00:06:43.700 --> 00:06:49.050
+But it's approximately
+N times beta tau.
+
+00:06:49.050 --> 00:06:52.130
+So I've replaced
+again N minus 1 with N
+
+00:06:52.130 --> 00:06:54.930
+just to get a simpler formula.
+
+00:06:54.930 --> 00:06:57.690
+And so notice now here, N is
+in both sides of the equation.
+
+00:06:57.690 --> 00:07:00.590
+If I want to solve for
+the value N2, which
+
+00:07:00.590 --> 00:07:03.170
+is this yellow curve
+here, I'm actually
+
+00:07:03.170 --> 00:07:05.780
+going to have to put
+the N's on one side
+
+00:07:05.780 --> 00:07:08.130
+and take a square root.
+
+00:07:08.130 --> 00:07:15.050
+So my N2 then would
+be the square root
+
+00:07:15.050 --> 00:07:23.120
+of epsilon over beta
+tau times P i times Q i.
+
+00:07:23.120 --> 00:07:24.980
+And remember also,
+another approximation
+
+00:07:24.980 --> 00:07:27.590
+here is that P i is
+definitely much less than 1.
+
+00:07:27.590 --> 00:07:29.880
+We're looking to limit
+a very low prevalence.
+
+00:07:29.880 --> 00:07:33.530
+And so also therefore, Q i
+is basically tending to 1
+
+00:07:33.530 --> 00:07:35.330
+because it's 1 minus P i.
+
+00:07:35.330 --> 00:07:37.580
+And so that factor is
+really not that important.
+
+00:07:37.580 --> 00:07:41.659
+And notice also, epsilon
+over beta tau, that's N1.
+
+00:07:41.659 --> 00:07:47.780
+So N3 is approximately related
+to N1 by the square root of N1
+
+00:07:47.780 --> 00:07:49.610
+divided by P i.
+
+00:07:55.450 --> 00:07:56.770
+That's this number here.
+
+00:07:56.770 --> 00:07:59.140
+So the function prevalence,
+this yellow curve,
+
+00:07:59.140 --> 00:08:02.880
+is 1 over square
+root of prevalence.
+
+00:08:02.880 --> 00:08:05.780
+And one nice thing about
+writing it this way
+
+00:08:05.780 --> 00:08:08.780
+is that I can decide
+on a reopening protocol
+
+00:08:08.780 --> 00:08:10.940
+without actually
+redoing my calculation
+
+00:08:10.940 --> 00:08:13.280
+with all those complicated
+variables, including the risk
+
+00:08:13.280 --> 00:08:15.290
+tolerance epsilon, and
+all the factors that
+
+00:08:15.290 --> 00:08:17.330
+go into beta because
+I've lumped them into N1.
+
+00:08:17.330 --> 00:08:19.760
+What I'm saying here
+is that we've already
+
+00:08:19.760 --> 00:08:23.060
+done a calculation and decided
+to impose a certain occupancy
+
+00:08:23.060 --> 00:08:25.340
+restriction on certain
+space based on principles
+
+00:08:25.340 --> 00:08:28.220
+that we've been
+discussing in this course.
+
+00:08:28.220 --> 00:08:30.220
+But now as prevalence
+goes down, according
+
+00:08:30.220 --> 00:08:33.799
+to the simple formula,
+whenever N2 is bigger than 1--
+
+00:08:33.799 --> 00:08:37.070
+we would use this if
+N2 is bigger than N1.
+
+00:08:37.070 --> 00:08:39.260
+So basically, when
+these two curves cross,
+
+00:08:39.260 --> 00:08:41.900
+as you get a lower prevalence,
+you now switch to two
+
+00:08:41.900 --> 00:08:43.940
+and you'll start increasing.
+
+00:08:43.940 --> 00:08:48.580
+And you will do that
+until you get to N0.
+
+00:08:48.580 --> 00:08:50.410
+This is the relaxing
+restrictions.
+
+00:08:54.150 --> 00:09:01.880
+So basically, when N2 is bigger,
+than we allow this until N2
+
+00:09:01.880 --> 00:09:03.500
+equals N1.
+
+00:09:03.500 --> 00:09:06.650
+And that's this
+time here, P, P2.
+
+00:09:06.650 --> 00:09:10.380
+So basically, we start
+imposing restrictions at P1.
+
+00:09:13.460 --> 00:09:17.360
+So basically, we start
+relaxing restrictions
+
+00:09:17.360 --> 00:09:20.180
+when the prevalence equals P1.
+
+00:09:20.180 --> 00:09:26.700
+That would be when
+N2 is equal to N1.
+
+00:09:26.700 --> 00:09:35.020
+And so that would be
+when P1 is 1 over N1.
+
+00:09:35.020 --> 00:09:36.880
+So essentially,
+that's when you expect
+
+00:09:36.880 --> 00:09:39.560
+to find one infected person.
+
+00:09:39.560 --> 00:09:44.350
+So this is
+approximately 1 over N1.
+
+00:09:44.350 --> 00:09:47.590
+Up here, when you go
+below this, you're saying,
+
+00:09:47.590 --> 00:09:49.930
+well, it's actually unlikely
+that during the time tau
+
+00:09:49.930 --> 00:09:51.650
+we'll even get one
+infected person.
+
+00:09:51.650 --> 00:09:54.550
+And that's when
+we start to relax.
+
+00:09:54.550 --> 00:09:57.910
+So that's the first
+crossover point.
+
+00:09:57.910 --> 00:09:59.410
+And there's a second
+crossover point
+
+00:09:59.410 --> 00:10:03.130
+when this is equal to P2--
+
+00:10:03.130 --> 00:10:04.480
+sorry, is equal to N0.
+
+00:10:04.480 --> 00:10:06.070
+That's [INAUDIBLE] P2 is.
+
+00:10:06.070 --> 00:10:09.130
+And so basically,
+P2, which is when
+
+00:10:09.130 --> 00:10:11.560
+we would hit the
+saturation point and that's
+
+00:10:11.560 --> 00:10:13.720
+when we've reopened
+in some sense
+
+00:10:13.720 --> 00:10:17.410
+to the full normal
+situation, that would
+
+00:10:17.410 --> 00:10:21.930
+be when N2 is equal to N0.
+
+00:10:21.930 --> 00:10:22.430
+Wait, sorry.
+
+00:10:22.430 --> 00:10:24.390
+I wrote here N2 equals N1.
+
+00:10:24.390 --> 00:10:26.210
+Sorry, I meant
+when N2 equals N0.
+
+00:10:26.210 --> 00:10:27.590
+Sorry.
+
+00:10:27.590 --> 00:10:30.140
+That's the time P2 here,
+when N2 is equal to N0,
+
+00:10:30.140 --> 00:10:31.340
+that's when we cut off.
+
+00:10:31.340 --> 00:10:33.140
+So this is N0.
+
+00:10:33.140 --> 00:10:34.910
+And we solve for P i.
+
+00:10:34.910 --> 00:10:40.440
+You can see that we
+get N1 over N0 squared.
+
+00:10:43.330 --> 00:10:45.510
+So that is the place
+where I then switch.
+
+00:10:45.510 --> 00:10:49.140
+And now I'm going to
+cap the occupancy at N0.
+
+00:10:49.140 --> 00:10:52.680
+So maybe to summarize
+here, what I would say
+
+00:10:52.680 --> 00:10:57.570
+is that the occupancy
+should be less
+
+00:10:57.570 --> 00:11:05.940
+than or equal to N1 for
+P i greater than P1.
+
+00:11:05.940 --> 00:11:16.500
+It'll be N2, which depends
+on P i for P i between P1
+
+00:11:16.500 --> 00:11:20.580
+or P2 and P1.
+
+00:11:20.580 --> 00:11:22.170
+And then as the
+prevalence gets lower,
+
+00:11:22.170 --> 00:11:29.180
+we go to full occupancy, N0,
+when P i is less than P2.
+
+00:11:29.180 --> 00:11:34.010
+So this is basically this
+full curve of reopening.
+
+00:11:34.010 --> 00:11:36.350
+And then the final
+decision to make
+
+00:11:36.350 --> 00:11:38.310
+is, when do we return
+completely to normal
+
+00:11:38.310 --> 00:11:40.230
+and take away certain
+restrictions we've done?
+
+00:11:40.230 --> 00:11:41.730
+So here I mentioned masks.
+
+00:11:41.730 --> 00:11:44.660
+We could also include in
+this calculation relaxing
+
+00:11:44.660 --> 00:11:47.000
+other restrictions,
+such as maybe not having
+
+00:11:47.000 --> 00:11:49.160
+the ventilation
+on quite so high.
+
+00:11:49.160 --> 00:11:51.740
+So that would be when
+we finally go back
+
+00:11:51.740 --> 00:11:54.350
+to no restrictions of any kind.
+
+00:11:54.350 --> 00:11:57.030
+We're back to normal.
+
+00:11:57.030 --> 00:12:03.800
+So this means no masks, no other
+precautions, full occupancy.
+
+00:12:03.800 --> 00:12:10.880
+So in this case, R N is going
+to be less than epsilon over--
+
+00:12:14.030 --> 00:12:14.910
+well, let's see here.
+
+00:12:14.910 --> 00:12:16.330
+It's the same as before.
+
+00:12:16.330 --> 00:12:20.670
+We have this P i, N
+that we just looked at.
+
+00:12:20.670 --> 00:12:22.920
+Or technically. times Q i.
+
+00:12:22.920 --> 00:12:26.730
+But now we have another
+factor, P M squared.
+
+00:12:26.730 --> 00:12:28.720
+Because compared to
+the case with no masks,
+
+00:12:28.720 --> 00:12:30.220
+we know the bound
+in the guidelines.
+
+00:12:30.220 --> 00:12:34.750
+So the effect of beta just
+gets rescaled by P M squared.
+
+00:12:34.750 --> 00:12:38.490
+So technically
+that's in R N here.
+
+00:12:38.490 --> 00:12:40.470
+But now we have
+this extra factor.
+
+00:12:40.470 --> 00:12:43.770
+You think of it like a
+rescaling of epsilon.
+
+00:12:43.770 --> 00:12:46.710
+And so what that's
+going to do for us then
+
+00:12:46.710 --> 00:12:57.980
+is that there's another curve
+that goes like this, which
+
+00:12:57.980 --> 00:13:02.000
+is just like this one but it's
+shifted by a factor P M cubed--
+
+00:13:02.000 --> 00:13:03.110
+or P M squared, sorry.
+
+00:13:03.110 --> 00:13:09.790
+Which is like the case where you
+had-- so this is like no masks.
+
+00:13:09.790 --> 00:13:11.710
+It's like the N2 with no masks.
+
+00:13:11.710 --> 00:13:17.600
+And the other curve
+is with masks.
+
+00:13:17.600 --> 00:13:19.160
+And there's a
+rescaling factor, which
+
+00:13:19.160 --> 00:13:22.650
+really has to do with the
+remediation that you've done.
+
+00:13:22.650 --> 00:13:30.110
+And in this case, P3 would then
+just be P M squared times P2.
+
+00:13:30.110 --> 00:13:32.480
+So if our P M is
+a factor of 10%,
+
+00:13:32.480 --> 00:13:37.100
+let's say, masks are letting
+10% of infectious droplets
+
+00:13:37.100 --> 00:13:39.740
+get through, the P M squared
+might be a factor of 100.
+
+00:13:39.740 --> 00:13:41.510
+So then we would wait
+to the prevalence
+
+00:13:41.510 --> 00:13:45.290
+is 100 times smaller before we
+finally allow people to remove
+
+00:13:45.290 --> 00:13:47.510
+masks and be at full occupancy.
+
+00:13:47.510 --> 00:13:49.370
+And you could make a
+similar calculation
+
+00:13:49.370 --> 00:13:51.460
+for other types of restrictions.
+
+00:13:51.460 --> 00:13:54.590
+And in fact, you can
+calculate such a curve
+
+00:13:54.590 --> 00:13:59.000
+for a given room, given
+scenario of human behavior
+
+00:13:59.000 --> 00:14:03.590
+and interventions, such as
+filtration or ventilation.
+
+00:14:03.590 --> 00:14:06.290
+And what the theory allows
+you to do is to, of course,
+
+00:14:06.290 --> 00:14:07.790
+recalculate N1.
+
+00:14:07.790 --> 00:14:10.950
+And then you can
+recalculate N2 as well.
+
+00:14:10.950 --> 00:14:13.550
+And so you can say, well,
+I don't like this curve.
+
+00:14:13.550 --> 00:14:16.610
+I would like to try to
+reopen my school sooner.
+
+00:14:16.610 --> 00:14:18.210
+How would I do that?
+
+00:14:18.210 --> 00:14:21.650
+Well, I know that if I
+make various interventions,
+
+00:14:21.650 --> 00:14:23.060
+I can raise the pink curve.
+
+00:14:23.060 --> 00:14:26.120
+So I could end up somewhere
+here, let's just say.
+
+00:14:26.120 --> 00:14:32.190
+This might be with
+safety interventions.
+
+00:14:35.660 --> 00:14:37.860
+Actually, one such
+intervention, by the way,
+
+00:14:37.860 --> 00:14:38.870
+is masks themselves.
+
+00:14:38.870 --> 00:14:40.670
+Because if I follow this
+curve all the way down here,
+
+00:14:40.670 --> 00:14:42.120
+there's some curve
+down here, which
+
+00:14:42.120 --> 00:14:45.780
+is no masks, which is the
+safety guideline with no masks.
+
+00:14:45.780 --> 00:14:48.720
+And if I turn on masks, I go up.
+
+00:14:48.720 --> 00:14:52.020
+But when I make that
+intervention, also P2, notice,
+
+00:14:52.020 --> 00:14:55.200
+scales also like N1.
+
+00:14:55.200 --> 00:14:57.550
+And so that's actually
+moving in this direction.
+
+00:14:57.550 --> 00:15:00.160
+And so I essentially
+move this yellow curve.
+
+00:15:00.160 --> 00:15:02.880
+And so I'm now
+going to say, well,
+
+00:15:02.880 --> 00:15:07.020
+with a different
+set of interventions
+
+00:15:07.020 --> 00:15:08.920
+I can make the room safer.
+
+00:15:08.920 --> 00:15:11.920
+And what that does, it gives
+me more people in the room.
+
+00:15:11.920 --> 00:15:15.220
+But it also means
+that I change when
+
+00:15:15.220 --> 00:15:16.470
+I make the decision to reopen.
+
+00:15:16.470 --> 00:15:18.210
+And in particular,
+I can get myself
+
+00:15:18.210 --> 00:15:21.030
+to full occupancy at
+a higher prevalence
+
+00:15:21.030 --> 00:15:24.200
+because the room is
+actually now made safer.
+
+00:15:24.200 --> 00:15:26.760
+So I note it.
+
+00:15:26.760 --> 00:15:29.630
+But on the other hand, this
+switch here was at 1 over N1.
+
+00:15:29.630 --> 00:15:31.910
+So this part
+shrinks a little bit
+
+00:15:31.910 --> 00:15:35.520
+as this ultimately goes
+up to full occupancy.
+
+00:15:35.520 --> 00:15:40.520
+So basically, I think compared
+to the current situation
+
+00:15:40.520 --> 00:15:43.520
+or the typical situation
+where policymakers are making
+
+00:15:43.520 --> 00:15:46.640
+decisions based on something
+like the six-foot rule
+
+00:15:46.640 --> 00:15:49.910
+and a somewhat arbitrary
+feeling about what is a high
+
+00:15:49.910 --> 00:15:52.760
+prevalence-- is it 1%, is 0.1%--
+
+00:15:52.760 --> 00:15:55.460
+and we decide, OK, now
+we can close our schools
+
+00:15:55.460 --> 00:15:58.610
+or reopen our schools or
+set the occupancy at half,
+
+00:15:58.610 --> 00:16:01.220
+the guideline tells you
+how to set occupancy
+
+00:16:01.220 --> 00:16:06.530
+for of the worst case
+scenario, when the pandemic is
+
+00:16:06.530 --> 00:16:09.200
+very prevalent in society.
+
+00:16:09.200 --> 00:16:11.420
+But now also, through these
+kinds of calculations,
+
+00:16:11.420 --> 00:16:14.240
+we can make rational
+decisions about how to reopen.
+
+00:16:14.240 --> 00:16:17.050
+I'm not advocating necessarily
+for the exact formulas
+
+00:16:17.050 --> 00:16:18.310
+we find on the board here.
+
+00:16:18.310 --> 00:16:19.730
+But the principles
+I'm showing you
+
+00:16:19.730 --> 00:16:23.630
+could lead to quantitative
+and scientifically justifiable
+
+00:16:23.630 --> 00:16:27.650
+ways of taking a specific
+space and a specific usage
+
+00:16:27.650 --> 00:16:30.680
+of that space and deciding how
+to close, as prevalence goes
+
+00:16:30.680 --> 00:16:33.320
+up, and reopen, as
+prevalence goes down,
+
+00:16:33.320 --> 00:16:35.510
+including ultimately
+returning to normal
+
+00:16:35.510 --> 00:16:39.110
+and removing masks and all
+other forms of precaution
+
+00:16:39.110 --> 00:16:42.400
+as the epidemic disappears.

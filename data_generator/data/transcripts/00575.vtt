@@ -1,0 +1,5690 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.520
+The following content is
+provided under a Creative
+
+00:00:02.520 --> 00:00:03.970
+Commons license.
+
+00:00:03.970 --> 00:00:06.360
+Your support will help
+MIT OpenCourseWare
+
+00:00:06.360 --> 00:00:10.660
+continue to offer high-quality
+educational resources for free.
+
+00:00:10.660 --> 00:00:13.350
+To make a donation or
+view additional materials
+
+00:00:13.350 --> 00:00:17.190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+00:00:17.190 --> 00:00:18.320
+at ocw.mit.edu.
+
+00:00:22.830 --> 00:00:24.735
+JULIAN BEINART: I should
+thank Kevin Lynch.
+
+00:00:27.790 --> 00:00:31.760
+37 years ago, he stopped
+me in the corridor.
+
+00:00:31.760 --> 00:00:35.490
+I was teaching in
+the design program,
+
+00:00:35.490 --> 00:00:40.200
+and that was before we
+had a separate section
+
+00:00:40.200 --> 00:00:42.810
+for architecture and urbanism.
+
+00:00:42.810 --> 00:00:46.770
+And he said, you know, I'm going
+to stop teaching this class.
+
+00:00:46.770 --> 00:00:51.750
+He had already
+taught it since 1956.
+
+00:00:51.750 --> 00:00:52.620
+I said, why?
+
+00:00:52.620 --> 00:00:54.580
+It's an important class.
+
+00:00:54.580 --> 00:00:57.780
+It's the only place where people
+learn about the form of cities
+
+00:00:57.780 --> 00:01:00.310
+in a systematic way.
+
+00:01:00.310 --> 00:01:05.675
+And he said, no, the
+students are bored by it.
+
+00:01:05.675 --> 00:01:09.670
+There's just a
+lapse in interest.
+
+00:01:09.670 --> 00:01:11.040
+So I said, are you crazy.
+
+00:01:11.040 --> 00:01:13.600
+He said, OK, well, you're
+interested in theory,
+
+00:01:13.600 --> 00:01:14.100
+aren't you?
+
+00:01:14.100 --> 00:01:16.710
+And I said, well, I am not sure.
+
+00:01:16.710 --> 00:01:17.340
+He said--
+
+00:01:17.340 --> 00:01:19.350
+[LAUGHTER]
+
+00:01:19.350 --> 00:01:21.060
+--I'll make a deal with you.
+
+00:01:21.060 --> 00:01:28.190
+If you teach it with me for
+the next period, I'll continue.
+
+00:01:28.190 --> 00:01:30.140
+So we taught it
+together for two years,
+
+00:01:30.140 --> 00:01:33.110
+and he just announced
+that he's retiring,
+
+00:01:33.110 --> 00:01:35.960
+leaving the whole
+damn thing to me.
+
+00:01:35.960 --> 00:01:38.900
+That was 34 years ago.
+
+00:01:38.900 --> 00:01:47.580
+I have to thank him for
+giving me the opportunity.
+
+00:01:47.580 --> 00:01:50.090
+Curiously enough,
+Kevin and I have now
+
+00:01:50.090 --> 00:01:58.340
+taught this class from 1956 to
+2013, which is a long stretch.
+
+00:01:58.340 --> 00:02:01.340
+Neither of us will have
+any formal education
+
+00:02:01.340 --> 00:02:04.370
+in urban history.
+
+00:02:04.370 --> 00:02:08.919
+We don't teach urban
+history formally.
+
+00:02:08.919 --> 00:02:11.020
+You can do a degree
+in city planning
+
+00:02:11.020 --> 00:02:15.220
+without knowing
+where Priene was.
+
+00:02:17.830 --> 00:02:20.920
+It said neither
+Harvard nor MIT have
+
+00:02:20.920 --> 00:02:25.100
+treated urban history with
+the dignity that it deserves.
+
+00:02:25.100 --> 00:02:29.850
+We had an alphabet,
+but I suppose
+
+00:02:29.850 --> 00:02:31.770
+seeing that Lynch and I--
+
+00:02:31.770 --> 00:02:35.340
+you will see here as I
+go through this class--
+
+00:02:35.340 --> 00:02:38.650
+how much history there is in it.
+
+00:02:38.650 --> 00:02:41.740
+It's not history for
+the sake of history.
+
+00:02:41.740 --> 00:02:48.320
+It's based on a fundamental
+idea that accumulated knowledge
+
+00:02:48.320 --> 00:02:52.340
+makes sense critically.
+
+00:02:52.340 --> 00:02:54.770
+The modern movement
+in architecture
+
+00:02:54.770 --> 00:02:59.670
+abjured the notion of
+looking at the past.
+
+00:02:59.670 --> 00:03:01.650
+They were so
+existentially bound up
+
+00:03:01.650 --> 00:03:05.610
+with the present, nor the
+future, for that matter--
+
+00:03:05.610 --> 00:03:07.320
+I'll be covering some of this.
+
+00:03:07.320 --> 00:03:09.957
+I'm just digressing warming up.
+
+00:03:09.957 --> 00:03:11.388
+[LAUGHTER]
+
+00:03:15.210 --> 00:03:18.430
+It's a class tradition
+to do the last class.
+
+00:03:18.430 --> 00:03:20.580
+I'm not doing the last
+class because it's
+
+00:03:20.580 --> 00:03:22.750
+the last class for me.
+
+00:03:22.750 --> 00:03:29.130
+I'm doing the last class as I've
+always done it for 34 years.
+
+00:03:29.130 --> 00:03:31.560
+That is, it's an
+attempt to summarize
+
+00:03:31.560 --> 00:03:33.810
+the material we've done.
+
+00:03:33.810 --> 00:03:37.590
+And as difficult as
+that is, I'm going
+
+00:03:37.590 --> 00:03:40.710
+to go through it tediously.
+
+00:03:40.710 --> 00:03:44.910
+I hope those of you who've
+taken this class will forgive me
+
+00:03:44.910 --> 00:03:47.280
+for going over what
+you already know.
+
+00:03:49.790 --> 00:03:53.480
+There are two things that
+I learned from Lynch.
+
+00:03:53.480 --> 00:03:58.250
+The one is that when you
+posit an idea or theory,
+
+00:03:58.250 --> 00:04:01.590
+theory is perhaps
+an overblown word.
+
+00:04:01.590 --> 00:04:04.200
+I inherited the title
+of this class from him
+
+00:04:04.200 --> 00:04:07.320
+and never changed it.
+
+00:04:07.320 --> 00:04:13.240
+You have to, where possible,
+supplement it with a fact.
+
+00:04:13.240 --> 00:04:16.649
+If you go down the corridor
+to Lynch's archives,
+
+00:04:16.649 --> 00:04:20.970
+you'll find his high school
+notes on Kant and philosophers.
+
+00:04:25.800 --> 00:04:27.600
+We always thought that
+if we were teaching
+
+00:04:27.600 --> 00:04:31.230
+this class in France,
+we would never
+
+00:04:31.230 --> 00:04:33.840
+provide any evidence
+for the theory
+
+00:04:33.840 --> 00:04:37.050
+and just produce more theories
+based on the theories that
+
+00:04:37.050 --> 00:04:39.950
+preceded us.
+
+00:04:39.950 --> 00:04:43.040
+So I have the Chicago
+tradition to follow,
+
+00:04:43.040 --> 00:04:46.310
+which says that you
+have facts to supplement
+
+00:04:46.310 --> 00:04:52.620
+theory-- a very American
+idea, if I might say so.
+
+00:04:52.620 --> 00:04:58.210
+The second thing is that
+details are important.
+
+00:04:58.210 --> 00:05:02.000
+So when I tell you that
+Joseph Bazalgette used
+
+00:05:02.000 --> 00:05:08.280
+300 million bricks to build
+the three cross London sewage
+
+00:05:08.280 --> 00:05:12.450
+tunnels because of
+cholera in the Thames,
+
+00:05:12.450 --> 00:05:17.790
+you will understand 300
+million is a useful figure--
+
+00:05:17.790 --> 00:05:19.140
+for some people anyway.
+
+00:05:21.660 --> 00:05:28.260
+The last thing that
+Lynch tried to argue
+
+00:05:28.260 --> 00:05:32.330
+was that, difficult though
+it is to find evidence,
+
+00:05:32.330 --> 00:05:36.350
+the easy relationship
+between space and society,
+
+00:05:36.350 --> 00:05:40.310
+and even if you had
+to make blind cases,
+
+00:05:40.310 --> 00:05:43.440
+it was better than
+nothing at all.
+
+00:05:43.440 --> 00:05:48.440
+So, for instance, I argue that
+the invention in Birmingham
+
+00:05:48.440 --> 00:05:52.760
+in 1830 of the mortgage
+system had profound effects
+
+00:05:52.760 --> 00:05:54.290
+on British home ownership.
+
+00:05:57.600 --> 00:06:00.330
+The United States
+lagged behind, and there
+
+00:06:00.330 --> 00:06:02.010
+are reasons to
+believe that the Great
+
+00:06:02.010 --> 00:06:05.770
+Depression in this country was
+the cause of there only being
+
+00:06:05.770 --> 00:06:07.305
+balloon or standard loans.
+
+00:06:10.510 --> 00:06:12.880
+The mortgage system
+provides security,
+
+00:06:12.880 --> 00:06:18.280
+and in the absence of
+curious crooked landlords,
+
+00:06:18.280 --> 00:06:22.420
+you dealt with a bank,
+which provided security,
+
+00:06:22.420 --> 00:06:25.240
+as microfinancing
+in the Third World
+
+00:06:25.240 --> 00:06:28.300
+is now providing security
+for home ownership
+
+00:06:28.300 --> 00:06:32.920
+to people who've lived
+in insecure situations
+
+00:06:32.920 --> 00:06:35.750
+all their life.
+
+00:06:35.750 --> 00:06:42.910
+But I can't argue that whilst I
+guess that the mortgage system
+
+00:06:42.910 --> 00:06:47.530
+reduced the density of London
+by spreading it out as opposed
+
+00:06:47.530 --> 00:06:49.420
+to Paris, which didn't--
+
+00:06:49.420 --> 00:06:52.060
+the density of Paris
+is about twice as much
+
+00:06:52.060 --> 00:06:53.770
+as that of London--
+
+00:06:53.770 --> 00:06:57.250
+but I have to guess that
+the mortgage system has
+
+00:06:57.250 --> 00:06:59.410
+something to do with it.
+
+00:06:59.410 --> 00:07:03.510
+There are not many
+people who attempt
+
+00:07:03.510 --> 00:07:07.860
+the steering business of
+connecting space and society.
+
+00:07:07.860 --> 00:07:11.760
+I one edited an Italian
+version of a magazine
+
+00:07:11.760 --> 00:07:14.980
+by their name
+[SPEAKING ITALIAN],,
+
+00:07:14.980 --> 00:07:17.970
+so I guess I've
+spent my life trying
+
+00:07:17.970 --> 00:07:20.200
+to understand the relationship.
+
+00:07:20.200 --> 00:07:24.690
+And I'm not sure after 34 years
+of slogging away in this room
+
+00:07:24.690 --> 00:07:27.860
+that I'm any clearer.
+
+00:07:27.860 --> 00:07:31.880
+So what I'm going to do
+is go through the material
+
+00:07:31.880 --> 00:07:33.590
+we've done in this class.
+
+00:07:33.590 --> 00:07:35.630
+I'll try to be as
+brief as possible.
+
+00:07:35.630 --> 00:07:40.220
+If you get bored, I
+can't offer you a drink.
+
+00:07:40.220 --> 00:07:41.180
+You have to wait.
+
+00:07:48.150 --> 00:07:50.070
+I'll try to make
+as many connections
+
+00:07:50.070 --> 00:07:53.040
+as I can in the
+material, but I'm
+
+00:07:53.040 --> 00:07:57.000
+going to go through it as if
+I'm talking to this class, some
+
+00:07:57.000 --> 00:08:02.220
+of whom are here, and
+they are the only ones who
+
+00:08:02.220 --> 00:08:05.070
+are allowed to ask questions.
+
+00:08:05.070 --> 00:08:07.766
+The rest of you
+are in a time warp.
+
+00:08:07.766 --> 00:08:09.550
+[LAUGHTER]
+
+00:08:11.340 --> 00:08:12.600
+Remind me of that movie--
+
+00:08:12.600 --> 00:08:14.170
+I can't remember
+the title-- where
+
+00:08:14.170 --> 00:08:19.680
+the time was changed, where
+the past became the present.
+
+00:08:19.680 --> 00:08:21.960
+It's very strange
+to see all of you.
+
+00:08:28.280 --> 00:08:29.780
+We start at the beginning.
+
+00:08:32.520 --> 00:08:37.080
+About 1,000 miles from where
+I was born, archaeologists,
+
+00:08:37.080 --> 00:08:39.240
+such as [? Broome, ?]
+Dart, and Tobias,
+
+00:08:39.240 --> 00:08:42.760
+discovered a
+3-million-year-old skull,
+
+00:08:42.760 --> 00:08:46.200
+which they called
+Australopithecus africanus,
+
+00:08:46.200 --> 00:08:50.310
+a fundamental link
+between animal and man.
+
+00:08:50.310 --> 00:08:52.470
+The brain size of
+Australopithecus
+
+00:08:52.470 --> 00:08:56.550
+was about 400 cubic
+centimeters, about 35%
+
+00:08:56.550 --> 00:08:58.185
+of our contemporary brain size.
+
+00:09:00.870 --> 00:09:03.390
+The argument is that the
+increase of brain size
+
+00:09:03.390 --> 00:09:08.160
+is largely due to nutritional
+change, such as Leakey's
+
+00:09:08.160 --> 00:09:11.010
+first discovery of
+the first [? index ?]
+
+00:09:11.010 --> 00:09:14.520
+in the Olduvai Gorge in
+Kenya, which dates back
+
+00:09:14.520 --> 00:09:16.560
+to about 2.6 million years.
+
+00:09:19.260 --> 00:09:23.700
+Nutrition, and a little change,
+is argued as fundamental
+
+00:09:23.700 --> 00:09:26.100
+to brain increase.
+
+00:09:26.100 --> 00:09:29.130
+I don't know how much larger
+the human brain can become
+
+00:09:29.130 --> 00:09:31.140
+seeing we still
+reproduce children
+
+00:09:31.140 --> 00:09:37.371
+through female organs, which
+are not infinite in size,
+
+00:09:37.371 --> 00:09:39.440
+though some people
+would wish they were.
+
+00:09:45.640 --> 00:09:52.580
+I've often wondered when the
+first item for storage of food
+
+00:09:52.580 --> 00:09:53.080
+occurred.
+
+00:09:53.080 --> 00:09:57.530
+I think potter's wheels
+must come very early.
+
+00:09:57.530 --> 00:10:02.680
+I can't imagine any other
+permanent form of change
+
+00:10:02.680 --> 00:10:03.520
+in nutrition.
+
+00:10:06.620 --> 00:10:10.040
+But the British
+anthropologist Robin Dunbar
+
+00:10:10.040 --> 00:10:12.980
+hypothesizes that human
+brains grew faster
+
+00:10:12.980 --> 00:10:17.390
+when surrounded by 150
+others, a number he still
+
+00:10:17.390 --> 00:10:21.770
+holds true for modern societies,
+even in social media groups.
+
+00:10:21.770 --> 00:10:26.490
+You're supposed to
+know only 150 people.
+
+00:10:26.490 --> 00:10:29.340
+His argument is that
+brain size increases
+
+00:10:29.340 --> 00:10:31.230
+when you're in a society.
+
+00:10:31.230 --> 00:10:33.840
+It's fundamental to the
+premise of the city.
+
+00:10:37.210 --> 00:10:42.130
+He goes on to even insinuate
+that gossip or grooming
+
+00:10:42.130 --> 00:10:45.850
+of newcomers requires
+language, and language
+
+00:10:45.850 --> 00:10:49.930
+comes from that need
+rather than any other.
+
+00:10:49.930 --> 00:10:52.420
+It's often been assumed
+the language derives
+
+00:10:52.420 --> 00:10:53.375
+from men hunting.
+
+00:10:59.170 --> 00:11:03.760
+I use this beginning to
+indicate the importance
+
+00:11:03.760 --> 00:11:07.880
+of the educative potential
+of the social city.
+
+00:11:07.880 --> 00:11:11.720
+And secondly, despite all
+the talk about the city,
+
+00:11:11.720 --> 00:11:14.570
+it's still in its
+relative infancy,
+
+00:11:14.570 --> 00:11:17.810
+at most 10,000 years in
+about 3 million years
+
+00:11:17.810 --> 00:11:20.630
+of human development.
+
+00:11:20.630 --> 00:11:24.836
+We've only been going
+for 10,000 years at most.
+
+00:11:24.836 --> 00:11:27.050
+It's nothing.
+
+00:11:27.050 --> 00:11:30.230
+It took us 3 million
+years to get a big brain,
+
+00:11:30.230 --> 00:11:36.540
+and we've wasted it over
+the last 10,000 years.
+
+00:11:36.540 --> 00:11:39.120
+It says that those of you who
+are going to be graduating
+
+00:11:39.120 --> 00:11:41.610
+still have a chance to improve.
+
+00:11:41.610 --> 00:11:43.740
+Your brain's not going
+to get any larger,
+
+00:11:43.740 --> 00:11:48.300
+but your capacity in
+the use will increase.
+
+00:11:51.240 --> 00:11:55.650
+From there, we switch to Kevin's
+three theories of city form.
+
+00:11:55.650 --> 00:11:59.640
+The first is the so-called
+cosmic view of the city.
+
+00:11:59.640 --> 00:12:02.020
+According to
+[INAUDIBLE],, archaic city
+
+00:12:02.020 --> 00:12:04.470
+form had to do
+with centeredness,
+
+00:12:04.470 --> 00:12:09.120
+the celestial system,
+ritual, and circular time.
+
+00:12:09.120 --> 00:12:13.740
+The earliest cities were
+religious in nature and form,
+
+00:12:13.740 --> 00:12:17.040
+superintended over be
+omnipotent priests,
+
+00:12:17.040 --> 00:12:19.290
+who secluded their
+treasure in secret
+
+00:12:19.290 --> 00:12:23.810
+in remote holy of holies,
+such as the Temple of Marduk
+
+00:12:23.810 --> 00:12:28.550
+on the 200-foot high
+tower of Babel in Babylon.
+
+00:12:28.550 --> 00:12:32.540
+The Tower of Babel is
+at its extreme height
+
+00:12:32.540 --> 00:12:37.800
+for a compression structure
+without independent support.
+
+00:12:37.800 --> 00:12:41.520
+And you put the temple of
+the city at the top of it,
+
+00:12:41.520 --> 00:12:45.600
+as you do in--
+
+00:12:45.600 --> 00:12:50.490
+I did a small case of Jerusalem
+to make an important point.
+
+00:12:54.920 --> 00:12:59.970
+I was fortunate to
+work in Jerusalem,
+
+00:12:59.970 --> 00:13:03.090
+both for the Palestinians
+and the Israelis,
+
+00:13:03.090 --> 00:13:08.100
+and had the chance to
+autodidact a lot of its history.
+
+00:13:13.820 --> 00:13:19.070
+Solomon built the first temple
+in Jerusalem in 1,000 BC,
+
+00:13:19.070 --> 00:13:28.020
+a typical compression
+fortress with remote sanctuary
+
+00:13:28.020 --> 00:13:30.420
+and no public access.
+
+00:13:30.420 --> 00:13:33.870
+Sacrifice is part of the ritual.
+
+00:13:33.870 --> 00:13:36.960
+In the 7th, 6th
+century BC, the temple
+
+00:13:36.960 --> 00:13:39.990
+is destroyed by
+Nebuchadnezzar, and the Jews
+
+00:13:39.990 --> 00:13:44.160
+are taken into exile in Babylon,
+the greatest city on Earth.
+
+00:13:44.160 --> 00:13:47.880
+There they, deprived
+of a temple,
+
+00:13:47.880 --> 00:13:51.630
+turn to pray in homes,
+schools, et cetera.
+
+00:13:51.630 --> 00:13:53.760
+Despite having the
+prophet Ezekiel
+
+00:13:53.760 --> 00:13:57.300
+with them, which covers six
+chapters in the Old Testament
+
+00:13:57.300 --> 00:14:01.860
+detailing measures of
+an envisioned temple,
+
+00:14:01.860 --> 00:14:05.470
+they learn not to miss
+the temple any longer.
+
+00:14:05.470 --> 00:14:08.145
+They invent a new form
+of democratic religion.
+
+00:14:12.840 --> 00:14:16.890
+What the relationship is
+between deprival and innovation
+
+00:14:16.890 --> 00:14:20.390
+in cities is an
+interesting idea.
+
+00:14:20.390 --> 00:14:23.130
+It's sometimes justifies,
+in theorists' minds,
+
+00:14:23.130 --> 00:14:26.520
+the notion that people
+should be deprived.
+
+00:14:26.520 --> 00:14:32.560
+When I showed my work in
+Johannesburg in London
+
+00:14:32.560 --> 00:14:39.310
+at the ICA one day
+a long time ago,
+
+00:14:39.310 --> 00:14:43.620
+I showed the [INAUDIBLE]
+Township wall paintings.
+
+00:14:43.620 --> 00:14:46.380
+And a man in the audience
+stood up and said,
+
+00:14:46.380 --> 00:14:51.330
+if I were in Germany, would I
+be collecting Jewish scribbles
+
+00:14:51.330 --> 00:14:53.280
+on walls?
+
+00:14:53.280 --> 00:14:59.160
+I'd always seen the anarchistic
+reaction to survival
+
+00:14:59.160 --> 00:15:03.250
+as an important fundamental
+human condition.
+
+00:15:03.250 --> 00:15:05.880
+He was turning it
+around and saying,
+
+00:15:05.880 --> 00:15:08.550
+one shouldn't
+record the blemishes
+
+00:15:08.550 --> 00:15:11.970
+of the past which have
+succeeded in providing
+
+00:15:11.970 --> 00:15:14.820
+an avenue for improvement.
+
+00:15:14.820 --> 00:15:17.460
+Anyway, back to Johannesburg.
+
+00:15:17.460 --> 00:15:20.940
+The Jews returned from Babylon
+to Jerusalem, and Ezra--
+
+00:15:20.940 --> 00:15:25.890
+the same name of my
+grandson, not he--
+
+00:15:25.890 --> 00:15:27.975
+read the Bible, and
+the people wept.
+
+00:15:30.540 --> 00:15:32.130
+Towards the end
+of the millennium,
+
+00:15:32.130 --> 00:15:34.440
+Herod rebuilds the temple.
+
+00:15:34.440 --> 00:15:37.080
+Now priests, under the
+embodiment of the threat
+
+00:15:37.080 --> 00:15:40.260
+to the priests in Germany
+because the synagogue
+
+00:15:40.260 --> 00:15:44.070
+is appearing and democratic
+religion is becoming
+
+00:15:44.070 --> 00:15:46.350
+an argument--
+
+00:15:46.350 --> 00:15:51.630
+before he dies, Christ
+appears as a radical threat.
+
+00:15:51.630 --> 00:15:53.400
+He is the embodiment
+of the threat
+
+00:15:53.400 --> 00:15:54.720
+to the priests in Germany.
+
+00:15:57.470 --> 00:16:04.560
+In his famous statement in the
+forecourt of Herod's Temple,
+
+00:16:04.560 --> 00:16:08.120
+after years harassed
+the merchants,
+
+00:16:08.120 --> 00:16:11.810
+he says, "Soon the
+temple will be destroyed.
+
+00:16:11.810 --> 00:16:12.770
+Don't despair.
+
+00:16:12.770 --> 00:16:17.030
+From then on, my body
+will be your temple."
+
+00:16:17.030 --> 00:16:23.060
+Here is a form of substitution,
+from autocracy to democracy.
+
+00:16:26.640 --> 00:16:29.130
+This is the origin
+of the church,
+
+00:16:29.130 --> 00:16:32.760
+the origin of the mosque,
+the origin of the synagogue,
+
+00:16:32.760 --> 00:16:36.090
+the origin of any form
+of communal prayer--
+
+00:16:36.090 --> 00:16:38.790
+at least in my view it is.
+
+00:16:38.790 --> 00:16:42.360
+I, therefore, not
+as a Christian,
+
+00:16:42.360 --> 00:16:46.900
+do not think Christ's death
+is terribly important.
+
+00:16:46.900 --> 00:16:50.350
+It's only important
+as a major transition
+
+00:16:50.350 --> 00:16:54.730
+from the archaic
+state of the world
+
+00:16:54.730 --> 00:16:58.960
+to a beginning of a
+new communal democracy,
+
+00:16:58.960 --> 00:17:01.190
+at least in religion,
+not in society.
+
+00:17:05.790 --> 00:17:08.730
+70 years later, the Romans
+destroyed the temple,
+
+00:17:08.730 --> 00:17:12.970
+and the Jews had a temple again.
+
+00:17:12.970 --> 00:17:18.010
+The Jews lived in diaspora
+with their synagogue and book,
+
+00:17:18.010 --> 00:17:22.780
+the Christians with the
+celebration of Christ's body.
+
+00:17:22.780 --> 00:17:26.980
+The Catholic church
+still, in miraculous ways,
+
+00:17:26.980 --> 00:17:30.040
+uses the mass to
+celebrate Christ's body.
+
+00:17:30.040 --> 00:17:34.210
+And my argument is that
+it comes from this time.
+
+00:17:34.210 --> 00:17:39.340
+I'm not a Christian, so I can
+be scatological about religion.
+
+00:17:39.340 --> 00:17:42.670
+I keep on being that way.
+
+00:17:42.670 --> 00:17:44.410
+Nothing convinces me.
+
+00:17:44.410 --> 00:17:48.580
+Nobody uses this argument in
+the literature that I read,
+
+00:17:48.580 --> 00:17:54.950
+because it's also theocratically
+ordered that it can't--
+
+00:17:54.950 --> 00:17:57.130
+this is a classic
+case in which nobody's
+
+00:17:57.130 --> 00:18:02.100
+making the radical argument
+that the Son of God
+
+00:18:02.100 --> 00:18:05.190
+can, in fact, change
+an important function
+
+00:18:05.190 --> 00:18:05.870
+in the world.
+
+00:18:08.470 --> 00:18:14.420
+We briefly discus the cosmic
+idea in China and India.
+
+00:18:14.420 --> 00:18:19.240
+We also point to the wide use of
+the idea in urban metaphysics,
+
+00:18:19.240 --> 00:18:21.520
+for instance, when
+Joseph Reckford refers
+
+00:18:21.520 --> 00:18:26.350
+to the rationalist Roman town as
+a dream, when Aldo Rossi refers
+
+00:18:26.350 --> 00:18:30.970
+to two perceived cities, the
+real and the simultaneously
+
+00:18:30.970 --> 00:18:35.500
+ideally imagined, when the
+French sociologist Maurice
+
+00:18:35.500 --> 00:18:38.470
+Hauriou refers to
+the stabilizing power
+
+00:18:38.470 --> 00:18:42.490
+of urban memory, and so on.
+
+00:18:42.490 --> 00:18:45.100
+Lynch's second
+theoretical model--
+
+00:18:45.100 --> 00:18:48.020
+I'm going to have
+to go on quickly,
+
+00:18:48.020 --> 00:18:49.415
+because there's a lot of stuff.
+
+00:18:52.700 --> 00:18:56.984
+Fall asleep if you need to.
+
+00:18:56.984 --> 00:19:00.740
+Lynch's second
+theoretical model,
+
+00:19:00.740 --> 00:19:04.040
+the mechanical model
+or the machine model,
+
+00:19:04.040 --> 00:19:07.970
+covers a wide range of places
+built for rapid construction,
+
+00:19:07.970 --> 00:19:11.870
+often for colonial settlements,
+be they for Egyptian
+
+00:19:11.870 --> 00:19:15.920
+[? watery-side ?] workers,
+Greek colonies where [INAUDIBLE]
+
+00:19:15.920 --> 00:19:19.740
+links the colonial grid and
+the needs of modern commerce,
+
+00:19:19.740 --> 00:19:23.890
+Roman castramentation
+and centuriation.
+
+00:19:23.890 --> 00:19:30.040
+The Romans built 5,627
+separate civic bodies
+
+00:19:30.040 --> 00:19:34.860
+across the world's
+vast empire largely
+
+00:19:34.860 --> 00:19:37.530
+through a central
+financing system
+
+00:19:37.530 --> 00:19:42.880
+and a central spatial system
+which encompassed both city
+
+00:19:42.880 --> 00:19:44.290
+and country--
+
+00:19:44.290 --> 00:19:48.160
+castramentation is towards
+the form of the city,
+
+00:19:48.160 --> 00:19:53.840
+centuriation is a
+continuation into standard.
+
+00:19:53.840 --> 00:19:57.970
+If you look at the area around
+Imola in Italy, for instance,
+
+00:19:57.970 --> 00:20:01.870
+you can still see these
+Roman traces of squares,
+
+00:20:01.870 --> 00:20:12.100
+each made by what an ox can do
+in one day using a site chosen
+
+00:20:12.100 --> 00:20:17.990
+by an [INAUDIBLE].
+
+00:20:17.990 --> 00:20:22.445
+Roman centuriation or Roman--
+
+00:20:22.445 --> 00:20:23.315
+[DOOR OPENING]
+
+00:20:27.275 --> 00:20:28.265
+[LAUGHTER]
+
+00:20:29.750 --> 00:20:31.892
+I don't know who you are.
+
+00:20:31.892 --> 00:20:33.170
+AUDIENCE: Oh, Andrew Woodmore.
+
+00:20:33.170 --> 00:20:35.886
+JULIAN BEINART: Andrew,
+you've lost your hair.
+
+00:20:35.886 --> 00:20:37.275
+[LAUGHTER]
+
+00:20:39.090 --> 00:20:43.120
+AUDIENCE: Yeah, it depends
+on your [INAUDIBLE]..
+
+00:20:43.120 --> 00:20:44.100
+It's good to see you.
+
+00:20:44.100 --> 00:20:45.570
+[LAUGHTER]
+
+00:20:50.970 --> 00:20:55.780
+JULIAN BEINART: And Andrew is
+one of our numerous illustrious
+
+00:20:55.780 --> 00:20:57.390
+graduates.
+
+00:20:57.390 --> 00:21:03.170
+He did his PhD at
+UCLA, and he just
+
+00:21:03.170 --> 00:21:05.850
+published a book
+with Sam Bass Warner,
+
+00:21:05.850 --> 00:21:07.040
+which you should all have.
+
+00:21:10.550 --> 00:21:14.240
+We go on to other examples
+of the mechanical model--
+
+00:21:14.240 --> 00:21:18.380
+the French Bastide towns
+in the southwest of France,
+
+00:21:18.380 --> 00:21:21.470
+and the enormous impact of
+the Spanish laws of the Indies
+
+00:21:21.470 --> 00:21:23.750
+on Latin American cities.
+
+00:21:23.750 --> 00:21:27.080
+Spanish Latin
+American cities are
+
+00:21:27.080 --> 00:21:30.290
+founded on the rules of
+the laws of the Indies.
+
+00:21:30.290 --> 00:21:32.630
+And still today, have--
+
+00:21:32.630 --> 00:21:39.570
+you take a-- it's not take.
+
+00:21:39.570 --> 00:21:41.850
+In the United States,
+the laws of the Indies
+
+00:21:41.850 --> 00:21:46.320
+were pronounced from
+St. Augustine in Florida
+
+00:21:46.320 --> 00:21:52.120
+in 1565 to Los Angeles in 1781.
+
+00:21:52.120 --> 00:21:54.930
+You take a town
+like Albuquerque,
+
+00:21:54.930 --> 00:21:57.810
+which is the subject
+of one of our theses,
+
+00:21:57.810 --> 00:22:02.750
+you will see it is
+a hybrid town, mixed
+
+00:22:02.750 --> 00:22:06.140
+using the rules of the
+laws of the Indies.
+
+00:22:06.140 --> 00:22:10.230
+One of the rules of the laws
+of the Indies is interesting.
+
+00:22:10.230 --> 00:22:12.080
+It refuses to allow--
+
+00:22:12.080 --> 00:22:14.750
+it forbids Indians to
+be allowed to enter
+
+00:22:14.750 --> 00:22:19.340
+the stockade before the
+Spanish cathedral is completed.
+
+00:22:19.340 --> 00:22:21.980
+A perfect example of
+architectural and urban
+
+00:22:21.980 --> 00:22:25.700
+form serving a mixture of
+blatant colonial, financial,
+
+00:22:25.700 --> 00:22:28.880
+and missionary purposes.
+
+00:22:28.880 --> 00:22:30.650
+It's not different,
+very different,
+
+00:22:30.650 --> 00:22:35.410
+from Edwin LaChance's use
+of classical form in Delhi.
+
+00:22:35.410 --> 00:22:39.620
+LaChance, after all, claimed
+the Native Indians didn't
+
+00:22:39.620 --> 00:22:42.260
+have any talent
+at all, and if he
+
+00:22:42.260 --> 00:22:45.140
+were asked to do a
+capital in Australia,
+
+00:22:45.140 --> 00:22:48.170
+he wondered whether he would
+use the marsupial style.
+
+00:22:51.350 --> 00:22:54.400
+We also briefly reviewed
+on numerous examples
+
+00:22:54.400 --> 00:22:58.040
+of the application of
+machine ideas to city form,
+
+00:22:58.040 --> 00:23:01.480
+be they as distant to each
+other as Captain Chambless'
+
+00:23:01.480 --> 00:23:05.800
+moving linear American city
+and the brutally efficient
+
+00:23:05.800 --> 00:23:08.200
+consignment of Africans
+in Johannesburg
+
+00:23:08.200 --> 00:23:10.990
+to the barren land
+of Soweto using
+
+00:23:10.990 --> 00:23:18.610
+one model of a horse as its
+basis and repeating endlessly.
+
+00:23:18.610 --> 00:23:21.610
+The organic model, the
+third of Lynch's models,
+
+00:23:21.610 --> 00:23:24.010
+focus on the
+interpretation of nature
+
+00:23:24.010 --> 00:23:28.000
+in some form or other as an
+adequate lesson in the making
+
+00:23:28.000 --> 00:23:31.420
+of city form at
+some scalar another,
+
+00:23:31.420 --> 00:23:34.730
+either as real or
+synthetic landscape.
+
+00:23:34.730 --> 00:23:37.600
+The other class focused
+on a few theories,
+
+00:23:37.600 --> 00:23:41.830
+none as significant as the
+great Scottish biologist,
+
+00:23:41.830 --> 00:23:43.330
+Patrick Gedde's--
+
+00:23:43.330 --> 00:23:47.560
+whose work I've attempted
+to follow as best I could--
+
+00:23:47.560 --> 00:23:50.920
+whose writings and work
+in Palestine and in India
+
+00:23:50.920 --> 00:23:53.110
+introduced the
+central application
+
+00:23:53.110 --> 00:23:57.940
+of sensitive urban surgery, the
+derivation of local culture,
+
+00:23:57.940 --> 00:24:01.670
+the stable valley
+section, and others.
+
+00:24:01.670 --> 00:24:06.410
+I regard he and his son-in-laws
+plan for the Hebrew University
+
+00:24:06.410 --> 00:24:10.190
+in Jerusalem as one of the
+great pieces of organic
+
+00:24:10.190 --> 00:24:11.930
+architecture--
+
+00:24:11.930 --> 00:24:20.630
+not biomorphism, which I hate,
+and find silly, and elusive.
+
+00:24:20.630 --> 00:24:26.000
+But the design for the Hebrew
+University was much like MIT's.
+
+00:24:26.000 --> 00:24:29.990
+It is a set of corridor
+systems oriented
+
+00:24:29.990 --> 00:24:32.280
+towards a single center.
+
+00:24:32.280 --> 00:24:36.210
+You move from one discipline
+through another to another,
+
+00:24:36.210 --> 00:24:40.700
+much like you do or your
+body seems to operate.
+
+00:24:40.700 --> 00:24:45.220
+At the center, you have
+a dome as the coverage.
+
+00:24:45.220 --> 00:24:46.690
+The dome is not trivial.
+
+00:24:46.690 --> 00:24:51.290
+The dome is a biological
+version of what
+
+00:24:51.290 --> 00:24:53.900
+all religions appreciate.
+
+00:24:53.900 --> 00:24:59.820
+It's the architectural
+synthesis for Arabs, Jews,
+
+00:24:59.820 --> 00:25:02.140
+and Christians.
+
+00:25:02.140 --> 00:25:09.080
+So this is, to me, a brilliant
+and logical use of an idea.
+
+00:25:09.080 --> 00:25:13.100
+He doesn't have to have
+curved forms, like biomorphist
+
+00:25:13.100 --> 00:25:16.090
+architectures do,
+in order to satisfy
+
+00:25:16.090 --> 00:25:17.575
+the deep structure of biology.
+
+00:25:21.280 --> 00:25:24.030
+It's one of my
+favorite buildings.
+
+00:25:24.030 --> 00:25:29.350
+It's never built.
+
+00:25:29.350 --> 00:25:32.020
+To examine the
+relativity of nature,
+
+00:25:32.020 --> 00:25:35.890
+we examine the USA's most
+significant regional plan,
+
+00:25:35.890 --> 00:25:40.690
+the TVA, and as many as
+seven different [INAUDIBLE]
+
+00:25:40.690 --> 00:25:43.320
+attributed to nature.
+
+00:25:43.320 --> 00:25:47.850
+The pre-TVA, Southern
+agrarian resistant to change.
+
+00:25:47.850 --> 00:25:50.310
+Prior to '33, Roosevelt.
+
+00:25:50.310 --> 00:25:54.360
+Henry Ford's view of nature's
+embedded in agriculture.
+
+00:25:54.360 --> 00:25:57.480
+His belief that American
+industrialization,
+
+00:25:57.480 --> 00:26:00.180
+such as Detroit,
+without agriculture
+
+00:26:00.180 --> 00:26:02.730
+was a threat to the
+survival of this country,
+
+00:26:02.730 --> 00:26:05.350
+the good survival
+of this country.
+
+00:26:05.350 --> 00:26:09.120
+He proposed buying from
+Congress one of the dams
+
+00:26:09.120 --> 00:26:14.700
+at Muscle Shoals in Alabama,
+the southern end of the TVA,
+
+00:26:14.700 --> 00:26:21.750
+and building a 75-mile
+linear city combining
+
+00:26:21.750 --> 00:26:25.350
+agriculture and industry.
+
+00:26:25.350 --> 00:26:29.850
+His view of nature
+was agricultural.
+
+00:26:29.850 --> 00:26:33.240
+Roosevelt's vision of the
+recuperative power of water
+
+00:26:33.240 --> 00:26:40.720
+and green-- he used the term
+water and green in 1933--
+
+00:26:40.720 --> 00:26:43.920
+as beneficent to nature.
+
+00:26:43.920 --> 00:26:47.370
+The locating of the anti-nature
+war-oriented research
+
+00:26:47.370 --> 00:26:53.820
+of Oak Ridge in the TVA caused
+another reading of anti-nature.
+
+00:26:53.820 --> 00:26:58.020
+The replacement of water supply,
+energy by coal, and ensuring
+
+00:26:58.020 --> 00:27:01.980
+coal ash disaster
+in Kingston in 2008
+
+00:27:01.980 --> 00:27:05.310
+caused The New York Times
+to call this the greatest
+
+00:27:05.310 --> 00:27:08.640
+environmental disaster
+in America's history.
+
+00:27:08.640 --> 00:27:10.470
+This is also in--
+
+00:27:10.470 --> 00:27:12.630
+nature is both a
+beauty and a beast.
+
+00:27:17.420 --> 00:27:20.480
+We tend only to see
+the beauty in nature.
+
+00:27:20.480 --> 00:27:23.460
+Survival sees the beast as well.
+
+00:27:23.460 --> 00:27:31.330
+Why did archaic people look up
+to the stability of the stars
+
+00:27:31.330 --> 00:27:32.860
+and the sun system?
+
+00:27:32.860 --> 00:27:39.220
+Why is the God Ra in
+Egypt a permanent sign
+
+00:27:39.220 --> 00:27:41.470
+of heliocentricity?
+
+00:27:41.470 --> 00:27:44.071
+Because it's stable.
+
+00:27:44.071 --> 00:27:46.440
+If you don't understand
+half the things that
+
+00:27:46.440 --> 00:27:48.600
+happen to you when
+you have to survive,
+
+00:27:48.600 --> 00:27:50.610
+you look for stability.
+
+00:27:50.610 --> 00:27:52.580
+Tenancy is a security.
+
+00:27:55.590 --> 00:27:59.790
+Much though Hoover and Roosevelt
+promoted taxation policies
+
+00:27:59.790 --> 00:28:03.960
+for making homeownership
+easy in the United States
+
+00:28:03.960 --> 00:28:07.630
+and abjuring the
+notion of rentership,
+
+00:28:07.630 --> 00:28:13.150
+the argument was that a stable
+world comes from a world which
+
+00:28:13.150 --> 00:28:15.550
+owns land and property.
+
+00:28:15.550 --> 00:28:19.180
+In the case of Diadema in Sao
+Paulo, which I will talk about
+
+00:28:19.180 --> 00:28:21.430
+at the end, you
+will see the return
+
+00:28:21.430 --> 00:28:25.310
+to this fundamental notion.
+
+00:28:25.310 --> 00:28:29.830
+Really, in some ways, ideas
+don't change that much.
+
+00:28:29.830 --> 00:28:32.040
+They're just
+reinterpreted differently.
+
+00:28:35.460 --> 00:28:38.070
+Back to the TVA, the
+victory of the snail
+
+00:28:38.070 --> 00:28:42.510
+darter by environmentalists
+taken to the Supreme Court,
+
+00:28:42.510 --> 00:28:45.810
+and causing America
+to pay more attention
+
+00:28:45.810 --> 00:28:51.150
+to endangered species, was
+the first great victory
+
+00:28:51.150 --> 00:28:53.580
+for modern environmentalism
+in this country.
+
+00:28:59.760 --> 00:29:03.120
+Today, water supplies
+only about 20%
+
+00:29:03.120 --> 00:29:06.670
+of the energy
+requirements in the TVA.
+
+00:29:06.670 --> 00:29:12.490
+Nuclear energy and
+coal supply the rest.
+
+00:29:12.490 --> 00:29:17.680
+Another ecological perspective
+on nature at the moment
+
+00:29:17.680 --> 00:29:21.550
+is pressing the
+contemporary TVA to use
+
+00:29:21.550 --> 00:29:24.040
+appropriate sources of energy.
+
+00:29:24.040 --> 00:29:25.840
+Tomorrow, for those of you--
+
+00:29:25.840 --> 00:29:28.960
+you can see [? Kristen ?]
+[? Zibert's ?] thesis on what
+
+00:29:28.960 --> 00:29:31.600
+to do about the TVA today.
+
+00:29:31.600 --> 00:29:35.530
+I only use the TVA as an
+example of the often radically
+
+00:29:35.530 --> 00:29:37.990
+different uses that
+the idea of nature
+
+00:29:37.990 --> 00:29:42.960
+has to supplement an
+ideological position--
+
+00:29:42.960 --> 00:29:46.710
+not an ideological-- perhaps
+a scientifically ideological
+
+00:29:46.710 --> 00:29:49.320
+position.
+
+00:29:49.320 --> 00:29:57.320
+We spend two classes looking
+at other theories of city form
+
+00:29:57.320 --> 00:29:58.280
+other than Lynch's.
+
+00:30:02.880 --> 00:30:07.330
+Wherever possible, the theory
+was connected to an example.
+
+00:30:07.330 --> 00:30:11.680
+So, for example, when we looked
+at the apparently value-free
+
+00:30:11.680 --> 00:30:14.550
+[INAUDIBLE]
+agricultural production
+
+00:30:14.550 --> 00:30:17.780
+map in Southern
+Germany, we locate
+
+00:30:17.780 --> 00:30:21.660
+it next to Gedde's
+good valley section.
+
+00:30:21.660 --> 00:30:25.050
+When we spoke of the
+zone of transition
+
+00:30:25.050 --> 00:30:29.700
+in the Chicago school concentric
+circle model of a city,
+
+00:30:29.700 --> 00:30:34.230
+we saw its zone of transition
+as an important element
+
+00:30:34.230 --> 00:30:41.860
+in the successful fulfillment
+of the invasion succession model
+
+00:30:41.860 --> 00:30:43.040
+in the American city.
+
+00:30:43.040 --> 00:30:48.540
+The American city has been built
+by invasion and succession.
+
+00:30:48.540 --> 00:30:52.890
+And when Homer Hoyt ransacked
+a model of the American city,
+
+00:30:52.890 --> 00:30:56.070
+we mapped it against a plan
+of apartheid Johannesburg
+
+00:30:56.070 --> 00:30:58.380
+and Atlanta.
+
+00:30:58.380 --> 00:31:04.030
+And when Manual Castells,
+in one of his wilder days,
+
+00:31:04.030 --> 00:31:08.590
+used the term with The Wild City
+to apply to the American city,
+
+00:31:08.590 --> 00:31:12.770
+we argued it in the light
+of American consumerism.
+
+00:31:12.770 --> 00:31:15.380
+We also looked at a
+number of architects
+
+00:31:15.380 --> 00:31:21.245
+who've made recent
+propositions about the city
+
+00:31:21.245 --> 00:31:25.550
+as theory, on the one hand,
+and practice, on the other,
+
+00:31:25.550 --> 00:31:27.950
+other than Lynch,
+Alexander, [INAUDIBLE],,
+
+00:31:27.950 --> 00:31:31.740
+and Martin, and [INAUDIBLE].
+
+00:31:31.740 --> 00:31:35.040
+I want to get on to
+the next section,
+
+00:31:35.040 --> 00:31:41.340
+and the next section deals
+with the 19th century.
+
+00:31:41.340 --> 00:31:43.710
+In starting this
+section of the class,
+
+00:31:43.710 --> 00:31:47.910
+I argued that the 19th century
+was the most important century
+
+00:31:47.910 --> 00:31:50.480
+for you and urbanism.
+
+00:31:50.480 --> 00:31:52.650
+The so-called
+Industrial Revolution
+
+00:31:52.650 --> 00:31:54.840
+was the biggest event
+in human history.
+
+00:31:54.840 --> 00:32:00.040
+Again, I dispute Muhammad, and
+Christ, and all of these guys--
+
+00:32:00.040 --> 00:32:03.040
+all of these gods--
+
+00:32:03.040 --> 00:32:07.840
+and reply, the reality which
+so fascinated Engels and Marx
+
+00:32:07.840 --> 00:32:11.830
+in London and
+Manchester was a reality
+
+00:32:11.830 --> 00:32:15.160
+which was the most
+inevitably transforming
+
+00:32:15.160 --> 00:32:19.000
+of human civilization.
+
+00:32:19.000 --> 00:32:21.280
+I think sometimes
+this is possible,
+
+00:32:21.280 --> 00:32:24.700
+because I studied the history of
+modern architecture at Harvard
+
+00:32:24.700 --> 00:32:27.790
+with Sigfried Giedion,
+who discredited
+
+00:32:27.790 --> 00:32:29.235
+the 19th century completely.
+
+00:32:29.235 --> 00:32:32.770
+He used to come back
+from weekends in Zurich
+
+00:32:32.770 --> 00:32:36.400
+and say that he arrived on
+Sunday and walked around Boston
+
+00:32:36.400 --> 00:32:42.500
+and saw the horrible
+furniture in the stores
+
+00:32:42.500 --> 00:32:44.420
+in Boston's windows.
+
+00:32:44.420 --> 00:32:48.970
+They weren't any
+modern shops yet.
+
+00:32:48.970 --> 00:32:52.180
+He was filled with energy
+about the bad smell
+
+00:32:52.180 --> 00:32:57.810
+of the ruling taste in
+European 19th century design.
+
+00:32:57.810 --> 00:33:01.260
+He said the only light
+was the light sought
+
+00:33:01.260 --> 00:33:05.550
+by the French painters
+and by the good form
+
+00:33:05.550 --> 00:33:09.105
+of the British Swiss
+builders of bridges.
+
+00:33:09.105 --> 00:33:12.550
+That the French painters
+were interested in a wider
+
+00:33:12.550 --> 00:33:17.570
+range of things
+than Giedion didn't
+
+00:33:17.570 --> 00:33:19.250
+illuminate his discourse.
+
+00:33:22.800 --> 00:33:29.590
+So perhaps I'm a 19th
+centuriest by exclusion.
+
+00:33:32.680 --> 00:33:35.320
+The sudden advent of
+modern industrialism
+
+00:33:35.320 --> 00:33:40.060
+and its occurrence in England
+has never been fully explained.
+
+00:33:40.060 --> 00:33:44.200
+So we refer to a recent widely
+published version of this,
+
+00:33:44.200 --> 00:33:47.980
+the work of Greg Clark,
+who argues, amongst others,
+
+00:33:47.980 --> 00:33:50.560
+in studying wills
+and other evidence,
+
+00:33:50.560 --> 00:33:54.760
+that many, many
+behaviors in the English
+
+00:33:54.760 --> 00:33:57.880
+were transmitted throughout
+their society which
+
+00:33:57.880 --> 00:34:01.000
+led to the acceptance of
+regular working hours,
+
+00:34:01.000 --> 00:34:03.460
+less fighting,
+and the acceptance
+
+00:34:03.460 --> 00:34:07.960
+of other social norms suited
+to the industrial process.
+
+00:34:07.960 --> 00:34:12.580
+He argues this in a
+kind of biogenetic model
+
+00:34:12.580 --> 00:34:16.330
+and the transfer from the
+wealthy, who lived longer,
+
+00:34:16.330 --> 00:34:19.000
+to the poor, who lived shorter.
+
+00:34:19.000 --> 00:34:21.100
+He doesn't exactly
+say how it works,
+
+00:34:21.100 --> 00:34:25.880
+but it's a very
+controversial new version.
+
+00:34:25.880 --> 00:34:28.690
+So, for instance,
+cruelty to animals,
+
+00:34:28.690 --> 00:34:31.630
+common in medieval games,
+such as bearfighting
+
+00:34:31.630 --> 00:34:34.810
+and cockfighting-- you'll
+remember that Hemingway called
+
+00:34:34.810 --> 00:34:37.360
+bullfighting the most
+vestigial sport--
+
+00:34:40.260 --> 00:34:42.780
+was forsworn.
+
+00:34:42.780 --> 00:34:47.310
+And activities, such as
+boxing, fought between dwarves
+
+00:34:47.310 --> 00:34:52.590
+and giants to amuse medieval
+crowds on Sunday or Saturday,
+
+00:34:52.590 --> 00:34:59.900
+whichever day they chose,
+was rationalized in 1850s
+
+00:34:59.900 --> 00:35:02.630
+by rules of equal
+weights and times.
+
+00:35:02.630 --> 00:35:06.200
+More happened in
+London between 1851--
+
+00:35:06.200 --> 00:35:08.990
+the Crystal Palace, the
+most significant building
+
+00:35:08.990 --> 00:35:10.670
+of the 19th century--
+
+00:35:10.670 --> 00:35:18.740
+and 1965 or '76 than
+happened in history
+
+00:35:18.740 --> 00:35:23.360
+in one city in its time.
+
+00:35:23.360 --> 00:35:25.190
+I'll go through
+London in a minute.
+
+00:35:30.690 --> 00:35:34.620
+This industrial story
+has had many tellings.
+
+00:35:34.620 --> 00:35:37.830
+The denial of the
+long-standing Malthusian trap
+
+00:35:37.830 --> 00:35:40.770
+is one of the most significant.
+
+00:35:40.770 --> 00:35:44.370
+You'll recall that the
+Malthusian trap consists
+
+00:35:44.370 --> 00:35:47.880
+of the equation, the
+demographic equation,
+
+00:35:47.880 --> 00:35:52.050
+that population can only grow
+when there's a food supply.
+
+00:35:52.050 --> 00:35:56.140
+And this has not
+been possible until--
+
+00:35:56.140 --> 00:35:59.760
+well, Malthus wrote in 1799.
+
+00:35:59.760 --> 00:36:02.820
+He was still preoccupied by
+the presence of the Malthusian.
+
+00:36:02.820 --> 00:36:06.900
+The Malthusian trap was totally
+destroyed by industrialism,
+
+00:36:06.900 --> 00:36:09.170
+and cities began to grow.
+
+00:36:12.220 --> 00:36:15.370
+So the denial of the
+long-standing Malthusian trap,
+
+00:36:15.370 --> 00:36:17.680
+the increases in
+per capita income,
+
+00:36:17.680 --> 00:36:19.870
+the massive
+industrial-technological
+
+00:36:19.870 --> 00:36:23.320
+advances, the
+organization of labor,
+
+00:36:23.320 --> 00:36:29.030
+the rise of
+participatory democracy,
+
+00:36:29.030 --> 00:36:32.600
+Engels in Manchester
+watched, with Marx,
+
+00:36:32.600 --> 00:36:35.010
+the rise of English democracy.
+
+00:36:35.010 --> 00:36:37.200
+They were bored by it.
+
+00:36:37.200 --> 00:36:40.250
+Engels' relationship to
+the chartist movement
+
+00:36:40.250 --> 00:36:41.540
+is interesting.
+
+00:36:41.540 --> 00:36:44.430
+You see, they were
+asking for too little.
+
+00:36:44.430 --> 00:36:46.470
+Eventually, of course,
+they were moved
+
+00:36:46.470 --> 00:36:52.170
+to advocate revolution, which
+they failed in 1848 in Paris.
+
+00:36:52.170 --> 00:36:56.220
+And then subsequently,
+Engels traipsed around Europe
+
+00:36:56.220 --> 00:36:57.645
+selling a new dogma--
+
+00:37:00.460 --> 00:37:06.530
+the elimination of
+epidemic disease.
+
+00:37:11.770 --> 00:37:16.720
+Jon Snow discovery three
+years after the Crystal Palace
+
+00:37:16.720 --> 00:37:23.510
+of the bacillus, which caused
+the Thames to be a shit hole
+
+00:37:23.510 --> 00:37:29.230
+and produce the
+bacillus of cholera
+
+00:37:29.230 --> 00:37:32.290
+in waves across
+England, particularly
+
+00:37:32.290 --> 00:37:38.110
+London, the Soho part of London,
+John Snow's identification
+
+00:37:38.110 --> 00:37:43.360
+of the bacillus led to
+the immediate construction
+
+00:37:43.360 --> 00:37:49.550
+of a bypass system to remove
+garbage from the Thames.
+
+00:37:49.550 --> 00:37:54.020
+The 400 million bricks
+that Joseph Bazalgette used
+
+00:37:54.020 --> 00:38:00.560
+to build, finish in 1865 of
+the three east-west tunnels
+
+00:38:00.560 --> 00:38:02.480
+and the two embankments--
+
+00:38:02.480 --> 00:38:04.190
+one of the things
+about cities is
+
+00:38:04.190 --> 00:38:08.173
+that you perceive them through
+your eyes, not your feet.
+
+00:38:08.173 --> 00:38:09.715
+If you walk on the
+Thames embankment,
+
+00:38:09.715 --> 00:38:12.590
+do you realize that
+it's one of Bazalgette's
+
+00:38:12.590 --> 00:38:16.980
+last, final attempt
+to capture sewage
+
+00:38:16.980 --> 00:38:18.450
+before it reaches the river?
+
+00:38:22.830 --> 00:38:26.470
+I shouldn't denounce the visual.
+
+00:38:26.470 --> 00:38:33.690
+42% of the brain is occupied
+with visual perception.
+
+00:38:33.690 --> 00:38:39.040
+There are 10 to the
+12 neurons, each
+
+00:38:39.040 --> 00:38:42.310
+connected to 5,000
+other cells which
+
+00:38:42.310 --> 00:38:47.000
+equip us to see intelligently.
+
+00:38:47.000 --> 00:38:50.450
+When Charles
+[INAUDIBLE] and I worked
+
+00:38:50.450 --> 00:38:54.710
+on the design of the brain in
+the cognitive science center,
+
+00:38:54.710 --> 00:38:56.840
+I learned a bit of this stuff.
+
+00:38:56.840 --> 00:38:59.750
+And amazing business
+that goes on,
+
+00:38:59.750 --> 00:39:04.670
+if you've seen [INAUDIBLE]
+research and how we see.
+
+00:39:04.670 --> 00:39:06.500
+We don't see pictures.
+
+00:39:06.500 --> 00:39:09.230
+We see billions of
+pixels appearing
+
+00:39:09.230 --> 00:39:11.660
+on the screen of
+our eyes, and we
+
+00:39:11.660 --> 00:39:16.070
+have to make sense of what
+is static and what is moving,
+
+00:39:16.070 --> 00:39:19.370
+what is new, what is not,
+what happens to that.
+
+00:39:19.370 --> 00:39:24.000
+All of this is coded into the
+electrical system of the brain.
+
+00:39:24.000 --> 00:39:27.880
+It is to make--
+
+00:39:27.880 --> 00:39:31.000
+I can't remember who said it.
+
+00:39:31.000 --> 00:39:34.030
+Maybe Leon Wieseltier--
+I don't know.
+
+00:39:34.030 --> 00:39:35.170
+Peter, you would know.
+
+00:39:40.730 --> 00:39:47.090
+Seeing is not--
+oh, I don't know.
+
+00:39:47.090 --> 00:39:47.690
+Forgive me.
+
+00:39:47.690 --> 00:39:48.770
+I don't know everything.
+
+00:39:48.770 --> 00:39:50.243
+[LAUGHTER]
+
+00:40:01.050 --> 00:40:05.190
+The evil side in the 19th
+century was also on display.
+
+00:40:05.190 --> 00:40:07.650
+Engels wrote about
+Manchester's poverty
+
+00:40:07.650 --> 00:40:11.625
+with aid of his illiterate Irish
+worker mistress, Mary Burns.
+
+00:40:15.370 --> 00:40:17.370
+Engels did something--
+
+00:40:17.370 --> 00:40:19.620
+I mean, I'm sorry to
+go on about Engels,
+
+00:40:19.620 --> 00:40:23.080
+but the condition of the
+working class in England
+
+00:40:23.080 --> 00:40:28.510
+in your book written in your
+20s is not a bad piece of legacy
+
+00:40:28.510 --> 00:40:30.190
+to leave.
+
+00:40:30.190 --> 00:40:32.306
+But what Engels did--
+
+00:40:32.306 --> 00:40:36.590
+and I often compare
+him to John Ruskin--
+
+00:40:36.590 --> 00:40:41.250
+Engels walked in the city.
+
+00:40:41.250 --> 00:40:44.070
+He tried to use his
+body to pick up.
+
+00:40:44.070 --> 00:40:49.860
+He asked his-- he would ask his
+illiterate Irish worker friend,
+
+00:40:49.860 --> 00:40:53.340
+why do they have no windows?
+
+00:40:53.340 --> 00:40:54.420
+She'd give an answer.
+
+00:40:54.420 --> 00:40:58.640
+He'd say, why do the main roads
+not pass through the town,
+
+00:40:58.640 --> 00:41:00.720
+through the slums?
+
+00:41:00.720 --> 00:41:03.550
+She'd give him an answer.
+
+00:41:03.550 --> 00:41:07.580
+John Ruskin, who
+later in his life
+
+00:41:07.580 --> 00:41:12.440
+after becoming the poet laureate
+of England, wrote books like,
+
+00:41:12.440 --> 00:41:18.110
+Unto This Last, for the
+working class of England,
+
+00:41:18.110 --> 00:41:20.690
+both combined a
+social intelligence
+
+00:41:20.690 --> 00:41:22.910
+with a physical intelligence--
+
+00:41:22.910 --> 00:41:25.280
+not Raskin so much.
+
+00:41:25.280 --> 00:41:28.700
+Raskin says he learned
+to see by looking
+
+00:41:28.700 --> 00:41:32.120
+through the window of
+his childhood bedroom
+
+00:41:32.120 --> 00:41:36.190
+and counting the bricks
+on the building next door.
+
+00:41:36.190 --> 00:41:39.190
+For somebody who wrote
+the conditional-- at least
+
+00:41:39.190 --> 00:41:41.890
+the first book on
+English painting,
+
+00:41:41.890 --> 00:41:47.710
+on English contemporary
+painting, it's a lot.
+
+00:41:47.710 --> 00:41:49.240
+Anyway, I'm losing my way.
+
+00:41:49.240 --> 00:41:51.280
+I'm getting carried away.
+
+00:41:51.280 --> 00:41:53.120
+I always do.
+
+00:41:53.120 --> 00:41:55.960
+There's something in
+my brain which suggests
+
+00:41:55.960 --> 00:41:58.670
+stories rather than evidence.
+
+00:41:58.670 --> 00:42:00.050
+[LAUGHTER]
+
+00:42:00.970 --> 00:42:05.580
+Stories are always
+much more fun to tell.
+
+00:42:05.580 --> 00:42:07.980
+The extraordinary thing
+about the British Industrial
+
+00:42:07.980 --> 00:42:12.720
+Revolution, and why I'm so
+fascinated by these tropes,
+
+00:42:12.720 --> 00:42:17.490
+is that between Peterloo
+in 1819 and Bloody Sunday
+
+00:42:17.490 --> 00:42:20.250
+in Northern Ireland in 1972--
+
+00:42:20.250 --> 00:42:23.040
+that's a 150-year period--
+
+00:42:23.040 --> 00:42:28.350
+British troops nor police
+killed no more than 11 citizens.
+
+00:42:28.350 --> 00:42:32.640
+It's an extraordinary--
+it transformed the world
+
+00:42:32.640 --> 00:42:35.190
+at the cost of 11 people.
+
+00:42:35.190 --> 00:42:39.090
+Oh, people died in
+poverty and in childbirth.
+
+00:42:39.090 --> 00:42:42.330
+I'll later tell you
+the story of Ann Lee.
+
+00:42:42.330 --> 00:42:45.020
+Who is Ann Lee?
+
+00:42:45.020 --> 00:42:47.766
+Somebody in this class
+must remember something.
+
+00:42:51.240 --> 00:42:52.890
+Who is Ann Lee?
+
+00:42:52.890 --> 00:42:53.670
+AUDIENCE: Shakers.
+
+00:42:53.670 --> 00:42:54.270
+JULIAN BEINART: Yes.
+
+00:42:54.270 --> 00:42:54.900
+Good.
+
+00:42:54.900 --> 00:42:55.680
+There we go.
+
+00:43:02.020 --> 00:43:06.710
+Ann Lee worked 10 hours
+a day when she was a kid.
+
+00:43:06.710 --> 00:43:08.720
+She gave birth to four--
+
+00:43:08.720 --> 00:43:09.950
+no, not stillborn.
+
+00:43:09.950 --> 00:43:11.330
+One was stillborn.
+
+00:43:11.330 --> 00:43:14.070
+Three died in infancy.
+
+00:43:14.070 --> 00:43:17.100
+She screamed out that
+sexual intercourse
+
+00:43:17.100 --> 00:43:19.200
+is the evil of the world.
+
+00:43:19.200 --> 00:43:23.550
+She got onto a boat in
+1774, and came to New York,
+
+00:43:23.550 --> 00:43:28.840
+and started the anti-sex
+movement called Shakerdom.
+
+00:43:28.840 --> 00:43:32.350
+This is part of our
+tradition of the transference
+
+00:43:32.350 --> 00:43:34.000
+from physical--
+
+00:43:38.200 --> 00:43:45.230
+not perversion-- physical
+pain to social behavior.
+
+00:43:50.240 --> 00:43:54.700
+The Enclosure Acts, the
+violence of the Enclosure Acts,
+
+00:43:54.700 --> 00:43:59.280
+removing independent agriculture
+from the disenfranchised,
+
+00:43:59.280 --> 00:44:03.570
+and the invention of
+charity, British charity,
+
+00:44:03.570 --> 00:44:06.990
+which never could,
+and as it never can,
+
+00:44:06.990 --> 00:44:09.070
+compensate for
+the amassed wealth
+
+00:44:09.070 --> 00:44:11.295
+that Marx started
+calling capital.
+
+00:44:15.020 --> 00:44:19.730
+I decided that the way to
+respond to these conditions
+
+00:44:19.730 --> 00:44:22.670
+was not as general
+as this, but to look
+
+00:44:22.670 --> 00:44:28.180
+at five cities and the
+reaction to these conditions.
+
+00:44:28.180 --> 00:44:30.830
+The first was London.
+
+00:44:30.830 --> 00:44:32.300
+London was the world's large--
+
+00:44:32.300 --> 00:44:34.840
+I'm watching my--
+
+00:44:34.840 --> 00:44:41.230
+London is the world's largest
+in 1850, and so on, and so on.
+
+00:44:41.230 --> 00:44:44.080
+I've spoken of a
+Joseph Basalgette.
+
+00:44:44.080 --> 00:44:46.690
+The greatest stage that's
+provided for the emerging
+
+00:44:46.690 --> 00:44:50.230
+middle class, the first
+subway ran from Paddington
+
+00:44:50.230 --> 00:44:57.400
+to Finches Street in 1876,
+making the first stage
+
+00:44:57.400 --> 00:45:01.570
+in the world's best metropolitan
+public transport system.
+
+00:45:04.390 --> 00:45:08.530
+That, in part, enabled
+London some 20 years later
+
+00:45:08.530 --> 00:45:11.380
+to invest in automobile pricing.
+
+00:45:11.380 --> 00:45:18.070
+Charles Booth made the first
+map showing urban poverty,
+
+00:45:18.070 --> 00:45:20.830
+and the effects of the invention
+of the residential mortgage
+
+00:45:20.830 --> 00:45:24.760
+system were an effect.
+
+00:45:24.760 --> 00:45:29.170
+Paris, in contrast,
+followed centuries
+
+00:45:29.170 --> 00:45:31.210
+of royal preoccupation.
+
+00:45:31.210 --> 00:45:34.900
+Distances in France is still
+measured from the center.
+
+00:45:34.900 --> 00:45:38.480
+Unlike London, again, Paris
+kept building-- unlike London,
+
+00:45:38.480 --> 00:45:39.280
+which had only--
+
+00:45:41.800 --> 00:45:47.450
+the further west you go, the
+less you need in Europe for--
+
+00:45:47.450 --> 00:45:52.490
+the biggest walls start
+appearing in Vienna and Cyprus.
+
+00:45:52.490 --> 00:45:55.640
+London hardly had any
+walls to contend with.
+
+00:45:55.640 --> 00:46:02.170
+Paris kept on building walls
+into the 19th century, often--
+
+00:46:02.170 --> 00:46:03.620
+I won't make the relationship.
+
+00:46:03.620 --> 00:46:05.450
+It's a tangentious one.
+
+00:46:11.170 --> 00:46:14.860
+Paris reforming
+largely due to 20 years
+
+00:46:14.860 --> 00:46:16.990
+of a new form of
+urban management
+
+00:46:16.990 --> 00:46:20.710
+under the Prefect of the Seine,
+who is allowed, after others
+
+00:46:20.710 --> 00:46:28.580
+refused to engage in
+the act, to engage
+
+00:46:28.580 --> 00:46:30.770
+in a new form of
+financing, namely,
+
+00:46:30.770 --> 00:46:33.590
+borrowing capital to be
+repaid on the increased
+
+00:46:33.590 --> 00:46:36.110
+value of the improved city.
+
+00:46:36.110 --> 00:46:40.280
+The idea of deficit spending
+used here for the first time
+
+00:46:40.280 --> 00:46:43.460
+has become current track
+urban practice now.
+
+00:46:43.460 --> 00:46:45.750
+It's national practice as well.
+
+00:46:45.750 --> 00:46:49.880
+In fact, it separates
+ideologies in this country
+
+00:46:49.880 --> 00:46:54.230
+around the size of the debt
+that we are allowed to carry.
+
+00:46:54.230 --> 00:46:58.670
+Economists are only
+right in one sense.
+
+00:46:58.670 --> 00:47:01.790
+The other's all wrong.
+
+00:47:01.790 --> 00:47:03.710
+For Haussmann, an
+immutable budget
+
+00:47:03.710 --> 00:47:07.760
+was never adequate to account
+for the wealthy of the city.
+
+00:47:07.760 --> 00:47:10.970
+It's a brilliant idea.
+
+00:47:10.970 --> 00:47:16.580
+It's the idea that you see only
+an idea of economic progress
+
+00:47:16.580 --> 00:47:19.960
+and investment.
+
+00:47:19.960 --> 00:47:22.470
+So in line with banks
+also finding their way
+
+00:47:22.470 --> 00:47:26.250
+in the new real estate, Paris
+engaged in municipal loans
+
+00:47:26.250 --> 00:47:29.830
+paid back only 60 years later.
+
+00:47:29.830 --> 00:47:33.050
+Haussmann didn't invent
+a plan for the city.
+
+00:47:33.050 --> 00:47:37.370
+He's often accused of
+inventing a plan for the city.
+
+00:47:37.370 --> 00:47:42.020
+The idea of boulevards was
+taken by Marie de Medici
+
+00:47:42.020 --> 00:47:45.320
+from Raynaud's Renaissance
+Florence, where
+
+00:47:45.320 --> 00:47:48.320
+the old idea of
+playing in streets
+
+00:47:48.320 --> 00:47:50.570
+was part of the
+construction of streets.
+
+00:47:53.680 --> 00:47:58.330
+The etymology of the
+word, the American word,
+
+00:47:58.330 --> 00:48:02.050
+"mall," a place
+where you go to shop,
+
+00:48:02.050 --> 00:48:05.790
+comes from the
+Italian words used
+
+00:48:05.790 --> 00:48:11.940
+to describe the playing
+of games in streets.
+
+00:48:11.940 --> 00:48:16.480
+[SPEAKING ITALIAN] Is
+that right, Antonio?
+
+00:48:16.480 --> 00:48:20.230
+[SPEAKING ITALIAN]
+"to hit the ball."
+
+00:48:20.230 --> 00:48:23.350
+Pall Mall in London
+and the American mall
+
+00:48:23.350 --> 00:48:27.070
+come from the idea of
+playing in streets.
+
+00:48:27.070 --> 00:48:30.100
+Maybe there's some
+metaphysical relationship
+
+00:48:30.100 --> 00:48:34.210
+between playing in streets
+and shopping in a mall.
+
+00:48:34.210 --> 00:48:35.000
+I don't know.
+
+00:48:35.000 --> 00:48:36.050
+I never discovered it.
+
+00:48:39.000 --> 00:48:42.030
+Haussmann didn't invent
+a new plan for the city.
+
+00:48:42.030 --> 00:48:48.810
+One existed-- the whole idea
+of making a town like a forest.
+
+00:48:48.810 --> 00:48:52.620
+Like a [INAUDIBLE] system,
+it was very fundamental.
+
+00:48:52.620 --> 00:48:59.010
+And there were competitions
+in the 18th century for Paris,
+
+00:48:59.010 --> 00:49:02.100
+and the famous one,
+after the Revolution,
+
+00:49:02.100 --> 00:49:05.830
+a commission of artist plan.
+
+00:49:05.830 --> 00:49:08.980
+So Paris added boulevards,
+avenues, trees, parks,
+
+00:49:08.980 --> 00:49:12.250
+improved public transport
+services, buildings,
+
+00:49:12.250 --> 00:49:13.960
+extended street enclosure.
+
+00:49:16.630 --> 00:49:23.300
+Haussmann, despite all
+of the negative qualities
+
+00:49:23.300 --> 00:49:26.360
+that he arouses in
+architecture, at least
+
+00:49:26.360 --> 00:49:29.870
+had and made an attempt
+to adjust architecture
+
+00:49:29.870 --> 00:49:32.540
+to urban situations.
+
+00:49:32.540 --> 00:49:37.390
+He believed that the
+city needed to look
+
+00:49:37.390 --> 00:49:40.630
+and believed that
+architecture could render it.
+
+00:49:40.630 --> 00:49:44.620
+Since the individualism of
+architecture is so rampant
+
+00:49:44.620 --> 00:49:48.520
+and so few people
+attempt, even today,
+
+00:49:48.520 --> 00:49:53.290
+to create an architecture
+based on an urban identity,
+
+00:49:53.290 --> 00:49:57.130
+however, an identity is
+created by great stars,
+
+00:49:57.130 --> 00:50:00.910
+individualists like
+Zaha Hadid, when
+
+00:50:00.910 --> 00:50:04.870
+it comes to making
+a plan for Istanbul,
+
+00:50:04.870 --> 00:50:08.910
+does the most awful
+inappropriate pieces
+
+00:50:08.910 --> 00:50:09.410
+of nonsense.
+
+00:50:14.030 --> 00:50:17.440
+So I'm more of a supporter
+of Haussmann's thinking
+
+00:50:17.440 --> 00:50:20.990
+perhaps more than his acts.
+
+00:50:20.990 --> 00:50:26.210
+I disagree with Richard
+Sennett on that score.
+
+00:50:26.210 --> 00:50:31.640
+Bracketed between two
+communal uprisings,
+
+00:50:31.640 --> 00:50:34.250
+the [INAUDIBLE] to the
+north remains unformed,
+
+00:50:34.250 --> 00:50:37.550
+and it's not been helped much
+by the recent international
+
+00:50:37.550 --> 00:50:41.110
+competition for its reshaping.
+
+00:50:41.110 --> 00:50:42.910
+We'll go onto Vienna.
+
+00:50:42.910 --> 00:50:47.290
+Vienna's is largely
+one of captivating
+
+00:50:47.290 --> 00:50:50.740
+unused infrastructure,
+the mess of wards
+
+00:50:50.740 --> 00:50:54.700
+and [INAUDIBLE] surrounding
+the city from Danube to Danube,
+
+00:50:54.700 --> 00:50:58.190
+fortifications that barely
+resisted the Muslim attacks
+
+00:50:58.190 --> 00:51:01.510
+some 200 years before.
+
+00:51:01.510 --> 00:51:03.460
+The world would
+have been enormously
+
+00:51:03.460 --> 00:51:08.410
+different had one day
+not taken place in 1683
+
+00:51:08.410 --> 00:51:10.720
+when the Muslims
+almost captured Vienna.
+
+00:51:10.720 --> 00:51:13.840
+Vienna had been dug
+under, the walls,
+
+00:51:13.840 --> 00:51:16.900
+and had it not been
+the Catholic world--
+
+00:51:16.900 --> 00:51:20.590
+it would have been impossible
+to stop Islam had it not
+
+00:51:20.590 --> 00:51:25.630
+been for the intervention
+of the Polish King Sobieski,
+
+00:51:25.630 --> 00:51:28.540
+with his armed troops
+coming from the north.
+
+00:51:28.540 --> 00:51:32.065
+The Muslims always attacked
+the city from the south.
+
+00:51:35.360 --> 00:51:41.360
+Christianity prevailed
+over Islam in 1683,
+
+00:51:41.360 --> 00:51:45.860
+and the walls and their removal
+have always played a role
+
+00:51:45.860 --> 00:51:49.980
+in the psyche of the city.
+
+00:51:49.980 --> 00:51:54.640
+The renovations of the walls and
+the [INAUDIBLE] took the form
+
+00:51:54.640 --> 00:52:03.270
+of a long string of a street,
+called the Ringstrassa,
+
+00:52:03.270 --> 00:52:10.350
+with all kinds of non-religious,
+liberal enterprises--
+
+00:52:10.350 --> 00:52:16.420
+government, education,
+music, culture, housing--
+
+00:52:16.420 --> 00:52:18.200
+along its street.
+
+00:52:18.200 --> 00:52:24.100
+This is a continuous system of
+urbanism, much an elevated form
+
+00:52:24.100 --> 00:52:28.370
+of the American strip.
+
+00:52:28.370 --> 00:52:32.060
+It puts into question
+two great theoriests--
+
+00:52:32.060 --> 00:52:35.390
+well, not such a great
+theorist, but a builder--
+
+00:52:35.390 --> 00:52:41.360
+Otto Wagner, who conceived
+of these plans for Vienna
+
+00:52:41.360 --> 00:52:43.400
+as being modern.
+
+00:52:43.400 --> 00:52:47.060
+There's an expandable
+endless stretching
+
+00:52:47.060 --> 00:52:52.100
+out looking outwards versus
+Camillo Sitte, who's, I think,
+
+00:52:52.100 --> 00:52:56.460
+wrongly described by
+Schorske as an archaist.
+
+00:52:56.460 --> 00:52:58.290
+He wasn't an archaist.
+
+00:52:58.290 --> 00:53:01.700
+He was somebody who believed
+in the limited experience
+
+00:53:01.700 --> 00:53:05.360
+of human perception,
+and therefore,
+
+00:53:05.360 --> 00:53:08.990
+wanted the Ringstrassa
+to be a set of monuments,
+
+00:53:08.990 --> 00:53:12.650
+each associated with
+an enclosed open space.
+
+00:53:12.650 --> 00:53:16.460
+His idea for the ideal
+piazza was an enclosure, not
+
+00:53:16.460 --> 00:53:17.585
+a system of movement.
+
+00:53:22.730 --> 00:53:29.470
+Barcelona-- the most common
+approach to urban expansion,
+
+00:53:29.470 --> 00:53:33.010
+to 19th century
+urban expansion, took
+
+00:53:33.010 --> 00:53:36.820
+the form of taking down
+this old city walls
+
+00:53:36.820 --> 00:53:38.800
+and expanding the
+city horizontally
+
+00:53:38.800 --> 00:53:44.550
+onto flat land where possible.
+
+00:53:44.550 --> 00:53:48.150
+You have plans, like Antonelli's
+plan for Torino, [INAUDIBLE]
+
+00:53:48.150 --> 00:53:49.920
+plan for Bali.
+
+00:53:49.920 --> 00:53:52.800
+In the Barcelona example,
+you have the largest housing
+
+00:53:52.800 --> 00:53:54.870
+development in Europe.
+
+00:53:54.870 --> 00:53:59.550
+[INAUDIBLE],, an engineer,
+returns to Barcelona,
+
+00:53:59.550 --> 00:54:02.910
+but does extensive research
+on the terrible conditions
+
+00:54:02.910 --> 00:54:04.500
+in the old city first.
+
+00:54:04.500 --> 00:54:09.720
+He even studies health
+and nutrition, diet, age.
+
+00:54:09.720 --> 00:54:12.870
+He enters a competition for
+the city's expansion plan.
+
+00:54:12.870 --> 00:54:18.360
+He wins it despite Trias'
+neoclassical entry.
+
+00:54:18.360 --> 00:54:23.460
+Cerdás' plan is a set of
+truncated 113 meter squared
+
+00:54:23.460 --> 00:54:27.150
+blocks, each with
+open green space,
+
+00:54:27.150 --> 00:54:30.420
+stretching far beyond its
+connection with the walless old
+
+00:54:30.420 --> 00:54:34.230
+city, with avenues, such
+like the Passeig de Grácia,
+
+00:54:34.230 --> 00:54:37.860
+one of Europe's great streets
+reaching to the village
+
+00:54:37.860 --> 00:54:41.050
+of Grácia in the hills.
+
+00:54:41.050 --> 00:54:45.250
+The Ensanche, as it's
+called, is not so successful,
+
+00:54:45.250 --> 00:54:48.790
+but it's been built at many
+times the density and coverage
+
+00:54:48.790 --> 00:54:53.560
+of Cerdá by subsequent
+city authorities.
+
+00:54:53.560 --> 00:54:54.520
+Who was right?
+
+00:54:57.490 --> 00:55:01.570
+Was the city right to grant
+development privileges
+
+00:55:01.570 --> 00:55:06.370
+to the subsequent builders,
+both of height and density,
+
+00:55:06.370 --> 00:55:09.580
+obliterating much
+of the green space?
+
+00:55:09.580 --> 00:55:14.810
+To what is the-- we don't know
+how to measure these things.
+
+00:55:14.810 --> 00:55:18.500
+Maybe Cerdás' plan would have
+been very boring at the density
+
+00:55:18.500 --> 00:55:19.910
+that he proposed--
+
+00:55:19.910 --> 00:55:22.130
+too much green space.
+
+00:55:22.130 --> 00:55:26.210
+Would the Passeig de Grácia
+be as great a street as it is
+
+00:55:26.210 --> 00:55:27.800
+if it weren't as dense?
+
+00:55:27.800 --> 00:55:29.860
+We're dumb.
+
+00:55:29.860 --> 00:55:34.180
+In Barcelona, they can do
+nothing else but cheer Cerdá
+
+00:55:34.180 --> 00:55:35.935
+as much as a hero as Guadí.
+
+00:55:39.150 --> 00:55:43.790
+There's a story, which I
+haven't got time to tell,
+
+00:55:43.790 --> 00:55:47.000
+which the Barcelonans
+don't like,
+
+00:55:47.000 --> 00:55:50.220
+and that is of Cerdá
+belonging to a socialist group
+
+00:55:50.220 --> 00:55:57.000
+in Barcelona influenced by
+a crazy French communalist,
+
+00:55:57.000 --> 00:56:01.260
+called Étienne Cabet, who
+came to the United States with
+
+00:56:01.260 --> 00:56:05.790
+a group of people, including
+one of Cerdá's colleagues,
+
+00:56:05.790 --> 00:56:13.180
+and bought a piece of land
+in New Orleans, almost died.
+
+00:56:13.180 --> 00:56:16.360
+They moved northwards and
+bought the town of Nouveau
+
+00:56:16.360 --> 00:56:22.120
+in Illinois, which had been the
+site of one of the Mormon treks
+
+00:56:22.120 --> 00:56:22.810
+westward--
+
+00:56:27.330 --> 00:56:30.390
+almost Stalinist plan of a town.
+
+00:56:30.390 --> 00:56:35.910
+But God learn us, that it had
+anything to do with Cerdás.
+
+00:56:35.910 --> 00:56:38.850
+Each of these city forms
+that I've just discussed
+
+00:56:38.850 --> 00:56:42.250
+produced a unique housing type.
+
+00:56:42.250 --> 00:56:47.200
+It's another strange connection,
+that if you do urbanism well,
+
+00:56:47.200 --> 00:56:52.520
+you produce a good
+version of shelter.
+
+00:56:52.520 --> 00:56:55.610
+There is a residential
+square in London,
+
+00:56:55.610 --> 00:57:00.290
+the boulevard apartment
+in Paris, the [INAUDIBLE]
+
+00:57:00.290 --> 00:57:01.850
+and the Hof in Vienna.
+
+00:57:01.850 --> 00:57:05.630
+I haven't got time to go into
+the invention of Karl-Marx-Hof
+
+00:57:05.630 --> 00:57:09.660
+in [INAUDIBLE] in 1927--
+
+00:57:09.660 --> 00:57:16.280
+the reaction to the war
+and the establishment
+
+00:57:16.280 --> 00:57:22.280
+of Red Vienna building
+communal environments even
+
+00:57:22.280 --> 00:57:28.100
+before the Russians attempted
+the social condensers
+
+00:57:28.100 --> 00:57:29.880
+and [INAUDIBLE].
+
+00:57:32.630 --> 00:57:35.360
+I'll just take a
+detour with Chicago.
+
+00:57:38.910 --> 00:57:42.880
+Chicago is one of the few cities
+established in the 19th century
+
+00:57:42.880 --> 00:57:45.180
+like Johannesburg.
+
+00:57:45.180 --> 00:57:47.697
+The name of Chicago is
+taken from the tribe
+
+00:57:47.697 --> 00:57:48.405
+that lived there.
+
+00:57:48.405 --> 00:57:50.925
+It means wild garlic
+in whatever language.
+
+00:57:54.260 --> 00:57:58.940
+The big idea of Chicago
+was to link the Great
+
+00:57:58.940 --> 00:58:00.860
+Lakes and the Mississippi.
+
+00:58:00.860 --> 00:58:03.740
+Thus, providing a
+continuous water system
+
+00:58:03.740 --> 00:58:06.990
+from Europe to the east.
+
+00:58:06.990 --> 00:58:15.100
+Well, that's before the canal,
+the South American canal.
+
+00:58:15.100 --> 00:58:16.390
+This never worked.
+
+00:58:16.390 --> 00:58:20.350
+But in 1830, it established
+the beginning of a market
+
+00:58:20.350 --> 00:58:27.350
+for residential land,
+which was endless.
+
+00:58:27.350 --> 00:58:31.250
+In 1848, this was
+amplified by the building
+
+00:58:31.250 --> 00:58:36.590
+of the United States
+cross-country railroad system.
+
+00:58:36.590 --> 00:58:42.180
+125th of the world's railroads
+crossed in Chicago in 1893.
+
+00:58:42.180 --> 00:58:44.910
+This is in 50 years.
+
+00:58:44.910 --> 00:58:51.580
+Chicago's notion of
+breadths of politicians
+
+00:58:51.580 --> 00:58:54.340
+is not associated with wind.
+
+00:58:54.340 --> 00:58:57.480
+It's associated with hubris.
+
+00:58:57.480 --> 00:58:59.040
+This is the most--
+
+00:58:59.040 --> 00:59:02.070
+I don't know what the
+adjective of hubris is.
+
+00:59:02.070 --> 00:59:07.440
+This is the most hubrist city.
+
+00:59:07.440 --> 00:59:09.570
+It's the capitalist model.
+
+00:59:09.570 --> 00:59:14.310
+Hoyt described 100 years
+of land values in Chicago
+
+00:59:14.310 --> 00:59:20.250
+according to peaks and valleys
+in a very cyclical model.
+
+00:59:20.250 --> 00:59:25.470
+For every great
+absolute mad investment
+
+00:59:25.470 --> 00:59:26.910
+follows a depression.
+
+00:59:30.650 --> 00:59:34.400
+Nothing fascinates me more
+than the immense authority
+
+00:59:34.400 --> 00:59:37.220
+of the private sector.
+
+00:59:37.220 --> 00:59:40.565
+I think Frank Lloyd Wright
+was fascinated by his clients,
+
+00:59:40.565 --> 00:59:45.620
+or so the book about
+his clients suggests.
+
+00:59:45.620 --> 00:59:50.270
+People who had the
+gumption to invent zippers
+
+00:59:50.270 --> 00:59:55.230
+had the gumption
+to buy his houses.
+
+00:59:55.230 --> 00:59:58.100
+Everybody was in a mad
+sense of invention.
+
+01:00:00.890 --> 01:00:03.170
+The most extraordinary
+story is the building
+
+01:00:03.170 --> 01:00:05.930
+of 60 miles of illegal
+subway at night
+
+01:00:05.930 --> 01:00:08.345
+as if lying telephone cables.
+
+01:00:08.345 --> 01:00:13.160
+The idea that you can build
+the underneath of a city for 60
+
+01:00:13.160 --> 01:00:16.010
+miles of illegal subway--
+
+01:00:16.010 --> 01:00:18.590
+people were being killed on
+the surface of the streets,
+
+01:00:18.590 --> 01:00:21.760
+because there was
+no traffic plan.
+
+01:00:21.760 --> 01:00:27.940
+So the merchant class
+decided to dig in the mud.
+
+01:00:27.940 --> 01:00:29.890
+It's a mud city.
+
+01:00:29.890 --> 01:00:32.050
+So the soft
+underbelly of the city
+
+01:00:32.050 --> 01:00:34.930
+can be excavated over time.
+
+01:00:34.930 --> 01:00:38.410
+This was only
+discovered in 1962,
+
+01:00:38.410 --> 01:00:41.200
+when the thing started
+flooding and nobody knew
+
+01:00:41.200 --> 01:00:44.380
+where the floods
+came from in Chicago,
+
+01:00:44.380 --> 01:00:45.350
+because of an accident.
+
+01:00:48.390 --> 01:00:50.840
+Now, Cronon's book,
+Nature's Metropolis,
+
+01:00:50.840 --> 01:00:56.790
+is a sardonic reference
+to the use of anti-nature.
+
+01:00:56.790 --> 01:00:59.880
+You can see I'm not
+a lover of nature.
+
+01:00:59.880 --> 01:01:01.380
+I'm afraid of nature.
+
+01:01:01.380 --> 01:01:04.088
+It causes you to die.
+
+01:01:04.088 --> 01:01:05.904
+[LAUGHTER]
+
+01:01:09.010 --> 01:01:11.555
+I suppose I shouldn't say
+that on my last class.
+
+01:01:16.210 --> 01:01:20.320
+But 20 skyscrapers were
+already built in 1893
+
+01:01:20.320 --> 01:01:22.870
+by the time of the
+Colombian exhibition, all
+
+01:01:22.870 --> 01:01:24.630
+of these on sand.
+
+01:01:24.630 --> 01:01:28.360
+Where is a less propitious
+place to build a skyscraper
+
+01:01:28.360 --> 01:01:31.080
+than in Chicago on mud?
+
+01:01:31.080 --> 01:01:32.160
+And yet, they did it.
+
+01:01:40.550 --> 01:01:43.490
+One of the lessons
+from the private sector
+
+01:01:43.490 --> 01:01:47.830
+investment in Chicago is
+there was no attention.
+
+01:01:47.830 --> 01:01:53.400
+There was a needless attention
+to be paid to the public.
+
+01:01:53.400 --> 01:01:57.480
+It's perhaps best
+explained in the novel,
+
+01:01:57.480 --> 01:02:04.170
+Devil in the White City, which
+targets Holmes, the psychopath,
+
+01:02:04.170 --> 01:02:10.510
+who took over a hotel
+outside the grand ensemble
+
+01:02:10.510 --> 01:02:17.240
+of the World's Fair and
+started killing women.
+
+01:02:17.240 --> 01:02:21.590
+There was no public authority
+to supervise this man.
+
+01:02:21.590 --> 01:02:23.960
+There was no police
+force to investigate it.
+
+01:02:23.960 --> 01:02:26.450
+Women just disappeared,
+young women, who
+
+01:02:26.450 --> 01:02:28.460
+came innocently to the fair.
+
+01:02:32.310 --> 01:02:38.550
+Holmes was not eventually traced
+for all his murders by Chicago.
+
+01:02:38.550 --> 01:02:43.590
+He was traced by an insurance
+consultant in Philadelphia
+
+01:02:43.590 --> 01:02:46.560
+who couldn't explain
+some of these deaths.
+
+01:02:46.560 --> 01:02:51.300
+It's an enormous
+disadvertisement
+
+01:02:51.300 --> 01:02:56.960
+for a city which is built,
+as some cities are today,
+
+01:02:56.960 --> 01:03:04.960
+on the apparently creative
+impulse of the private sector.
+
+01:03:04.960 --> 01:03:10.260
+It's a dramatic economic system.
+
+01:03:10.260 --> 01:03:14.290
+But it pays its
+prices in other ways.
+
+01:03:14.290 --> 01:03:16.050
+Chicago politics is--
+
+01:03:16.050 --> 01:03:18.540
+I shouldn't talk about
+Chicago politics.
+
+01:03:18.540 --> 01:03:19.995
+I know nothing
+about its history.
+
+01:03:24.960 --> 01:03:29.040
+Burnham, the great manager
+of the Chicago World's Fair,
+
+01:03:29.040 --> 01:03:34.950
+proposed a plan in a
+number of years afterwards.
+
+01:03:34.950 --> 01:03:40.870
+His plan was to
+build a six-mile arch
+
+01:03:40.870 --> 01:03:47.390
+around the grid to centralize
+the city to give it culture.
+
+01:03:47.390 --> 01:03:49.570
+Some people have
+taken on the idea
+
+01:03:49.570 --> 01:03:52.960
+that it's important in
+developing countries
+
+01:03:52.960 --> 01:03:56.530
+to build a city
+first to make money,
+
+01:03:56.530 --> 01:04:00.350
+and then to invest the money
+in upgrading its culture.
+
+01:04:00.350 --> 01:04:04.560
+It's a sort of transformative
+staged process.
+
+01:04:04.560 --> 01:04:06.340
+It may have some merit.
+
+01:04:06.340 --> 01:04:12.220
+In Chicago, the idea of Louis
+Sullivan's grand auditorium
+
+01:04:12.220 --> 01:04:18.190
+building with the most wonderful
+toilets in the world attracting
+
+01:04:18.190 --> 01:04:21.880
+people who walk through the
+mud is an interesting kind
+
+01:04:21.880 --> 01:04:22.960
+of combination.
+
+01:04:25.870 --> 01:04:29.290
+I disagree with Mumford
+and Sennett's view
+
+01:04:29.290 --> 01:04:32.800
+of the capitalist
+grid as commodity.
+
+01:04:32.800 --> 01:04:38.560
+There was as much speculation
+in Boston with its non-grid city
+
+01:04:38.560 --> 01:04:41.450
+as there was in Chicago.
+
+01:04:41.450 --> 01:04:43.880
+Reducing space to
+a commodity is not
+
+01:04:43.880 --> 01:04:46.310
+only a capitalist phenomenon.
+
+01:04:46.310 --> 01:04:51.110
+It is an intriguing aspect
+of the devaluation of land.
+
+01:04:54.280 --> 01:04:58.420
+I'm going to have to speed up.
+
+01:04:58.420 --> 01:05:00.040
+We've got a lot still to cover.
+
+01:05:05.070 --> 01:05:08.550
+We took a look at panopticism
+and the idea of the gays.
+
+01:05:08.550 --> 01:05:12.180
+This was largely helped
+by David Friedman's work
+
+01:05:12.180 --> 01:05:14.820
+on the evolution of the
+late medieval street,
+
+01:05:14.820 --> 01:05:19.050
+from a street of work and
+multiple invasions to a street
+
+01:05:19.050 --> 01:05:22.030
+dedicated to image and control.
+
+01:05:22.030 --> 01:05:24.830
+As examples, we
+compared, in some detail,
+
+01:05:24.830 --> 01:05:29.020
+the multi-monumental and
+multi-use Nevsky Prospect
+
+01:05:29.020 --> 01:05:32.770
+in St. Petersburg, and Hitler
+and Albert Speers' proposed
+
+01:05:32.770 --> 01:05:35.850
+central axis for Berlin.
+
+01:05:35.850 --> 01:05:38.940
+We also took a brief
+look at utopianism.
+
+01:05:38.940 --> 01:05:41.490
+I must say, I suffer
+from a disinterest
+
+01:05:41.490 --> 01:05:43.530
+in utopian speculation.
+
+01:05:43.530 --> 01:05:47.280
+I find it either like as
+dull as science fiction,
+
+01:05:47.280 --> 01:05:56.160
+and as absolutely devoid
+of understanding of cities
+
+01:05:56.160 --> 01:05:57.810
+as most science fiction is.
+
+01:06:00.830 --> 01:06:04.250
+But we covered some
+of the territory.
+
+01:06:04.250 --> 01:06:07.790
+I was fascinated by Thomas
+Moore's invention of the word
+
+01:06:07.790 --> 01:06:09.050
+utopia.
+
+01:06:09.050 --> 01:06:14.090
+It has both the prefix e-topia
+and the prefix e-u-topia,
+
+01:06:14.090 --> 01:06:16.130
+which mean different
+things in Greek.
+
+01:06:16.130 --> 01:06:17.900
+Who is our Greek friend?
+
+01:06:17.900 --> 01:06:21.580
+One is good and one is what?
+
+01:06:21.580 --> 01:06:22.300
+Nowhere.
+
+01:06:22.300 --> 01:06:24.080
+AUDIENCE: Utopia?
+
+01:06:24.080 --> 01:06:25.420
+[INAUDIBLE]
+
+01:06:25.420 --> 01:06:26.640
+JULIAN BEINART: Yeah.
+
+01:06:26.640 --> 01:06:28.900
+One is good and one is nowhere.
+
+01:06:28.900 --> 01:06:36.220
+So Thomas Moore's island,
+1516 book, is about an island.
+
+01:06:36.220 --> 01:06:38.450
+It's nowhere.
+
+01:06:38.450 --> 01:06:44.060
+It has shared-- it is a
+socialist republic, which
+
+01:06:44.060 --> 01:06:49.000
+God learn us, how you
+thought about it in 1516.
+
+01:06:49.000 --> 01:06:51.370
+There's terminal
+limits to the amount
+
+01:06:51.370 --> 01:06:54.230
+of the houses you can occupy.
+
+01:06:54.230 --> 01:06:56.650
+It reminds me of a
+little-- oh, forget
+
+01:06:56.650 --> 01:06:57.910
+about what it reminds me of.
+
+01:06:57.910 --> 01:06:59.870
+[LAUGHTER]
+
+01:07:05.760 --> 01:07:07.830
+We looked at a number
+of other cases--
+
+01:07:07.830 --> 01:07:13.130
+Pullman, Illinois,
+Ann Lee and Shakerdom.
+
+01:07:13.130 --> 01:07:14.825
+We also examined
+three architects
+
+01:07:14.825 --> 01:07:17.510
+with utopian propensities--
+
+01:07:17.510 --> 01:07:21.230
+Le Corbusier and his endless
+search for the right plan,
+
+01:07:21.230 --> 01:07:25.670
+be it in 1922 for Paris
+with a capitalist center,
+
+01:07:25.670 --> 01:07:28.220
+later for Moscow
+after the revolution
+
+01:07:28.220 --> 01:07:32.660
+there was a syndicalist plan,
+and later in frustration
+
+01:07:32.660 --> 01:07:36.590
+because the citizens of Algiers
+refused his many [INAUDIBLE]
+
+01:07:36.590 --> 01:07:37.100
+plans.
+
+01:07:37.100 --> 01:07:40.610
+He appealed for help to the
+fascist Vichy government
+
+01:07:40.610 --> 01:07:44.370
+and eventually to
+Mussolini for help.
+
+01:07:44.370 --> 01:07:47.570
+This is the strange
+notion that--
+
+01:07:47.570 --> 01:07:50.090
+it's not so strange if
+you're an architect--
+
+01:07:50.090 --> 01:07:54.560
+you find a solution which
+emanates out of your soul.
+
+01:07:54.560 --> 01:07:57.140
+It brings together
+almost everything
+
+01:07:57.140 --> 01:07:58.985
+that is creative about all.
+
+01:07:58.985 --> 01:08:00.530
+All your juices are flowing.
+
+01:08:00.530 --> 01:08:01.640
+It's the right one.
+
+01:08:01.640 --> 01:08:05.400
+You examined 1,000, and
+this is the right one.
+
+01:08:05.400 --> 01:08:09.090
+Whoever is going to buy
+the right one is OK.
+
+01:08:09.090 --> 01:08:10.920
+Ideology doesn't matter.
+
+01:08:10.920 --> 01:08:12.420
+Society doesn't matter.
+
+01:08:12.420 --> 01:08:14.340
+Space is what matters.
+
+01:08:14.340 --> 01:08:16.859
+This is what drove
+Lynch crazy when
+
+01:08:16.859 --> 01:08:19.529
+I had the only argument
+I ever had with him
+
+01:08:19.529 --> 01:08:24.189
+in this class, which we
+jointly taught for two years,
+
+01:08:24.189 --> 01:08:26.830
+about Aldo Rossi.
+
+01:08:26.830 --> 01:08:29.560
+When I introduced Aldo
+Rossi's book, The Architect
+
+01:08:29.560 --> 01:08:33.319
+in the City, in this class,
+Kevin writes about it,
+
+01:08:33.319 --> 01:08:36.344
+in fact, his anger.
+
+01:08:36.344 --> 01:08:36.844
+Sorry.
+
+01:08:42.330 --> 01:08:45.300
+We looked at Frank Lloyd
+Wright's tiny Broadacre City
+
+01:08:45.300 --> 01:08:48.750
+as an evocation of
+usonian democracy, which
+
+01:08:48.750 --> 01:08:52.200
+used Henry George's
+mantra of profit made
+
+01:08:52.200 --> 01:08:55.140
+by development in the city
+needing to be returned
+
+01:08:55.140 --> 01:08:58.319
+to the public good.
+
+01:08:58.319 --> 01:09:01.250
+We looked then briefly at
+20th century resolutions.
+
+01:09:01.250 --> 01:09:05.060
+We looked to Great Britain,
+the New Towns expansion program
+
+01:09:05.060 --> 01:09:08.930
+from the small towns of cities--
+
+01:09:08.930 --> 01:09:10.640
+30,000.
+
+01:09:10.640 --> 01:09:16.180
+By the way, there's
+another curious phenomenon.
+
+01:09:16.180 --> 01:09:19.120
+Plato's ideal size
+for a city is 30,000.
+
+01:09:19.120 --> 01:09:21.220
+Leonardo's is 30,000.
+
+01:09:21.220 --> 01:09:26.050
+Ebenezer Howard, in 1910, later
+within in London Garden City,
+
+01:09:26.050 --> 01:09:27.080
+are 30,000.
+
+01:09:27.080 --> 01:09:27.580
+Why?
+
+01:09:30.520 --> 01:09:32.290
+It's demographic, I'm sure.
+
+01:09:32.290 --> 01:09:35.410
+30,000 is probably
+the amount of people
+
+01:09:35.410 --> 01:09:38.950
+that you could, in
+disease-prone society,
+
+01:09:38.950 --> 01:09:42.340
+maintain a certain size.
+
+01:09:42.340 --> 01:09:44.574
+Given the Malthusian
+trap situation,
+
+01:09:44.574 --> 01:09:47.410
+it probably works that way.
+
+01:09:47.410 --> 01:09:51.540
+So the British built their
+first new towns, likely
+
+01:09:51.540 --> 01:09:54.450
+Corby and Harlow, at what size?
+
+01:09:54.450 --> 01:09:59.620
+30,000.
+
+01:09:59.620 --> 01:10:04.480
+They became tired
+of 30,000 size.
+
+01:10:04.480 --> 01:10:07.970
+Space-time suggested
+larger size.
+
+01:10:07.970 --> 01:10:14.020
+So mark two shifts to 50 to
+100,000, the towns of Hook--
+
+01:10:14.020 --> 01:10:15.760
+the best book on
+New Town planning
+
+01:10:15.760 --> 01:10:19.340
+studies, the book of Hook--
+
+01:10:19.340 --> 01:10:27.200
+Runcorn, Cumbernauld,
+and the mark three towns
+
+01:10:27.200 --> 01:10:30.990
+of Milton Keynes, now 250,000.
+
+01:10:30.990 --> 01:10:35.700
+Milton Keynes is a
+postmodern attempt at a city,
+
+01:10:35.700 --> 01:10:39.440
+mixed land use is using
+performance dimensions instead
+
+01:10:39.440 --> 01:10:44.640
+of zoning, a 1 kilometer by
+1 kilometer space frame grids
+
+01:10:44.640 --> 01:10:47.790
+to take maximum traffic loads.
+
+01:10:47.790 --> 01:10:53.110
+The earlier towns had no
+predictive mix and tight fit.
+
+01:10:53.110 --> 01:10:56.800
+Cumbernauld Center was recently
+voted the ugliest building
+
+01:10:56.800 --> 01:10:59.690
+in England.
+
+01:10:59.690 --> 01:11:04.170
+We looked at Russia
+between 1918 and 1932.
+
+01:11:04.170 --> 01:11:08.750
+We looked at the work
+of urbanists looking
+
+01:11:08.750 --> 01:11:11.150
+at the possibilities
+of new urbanism
+
+01:11:11.150 --> 01:11:16.810
+in the state which had
+clients controlling
+
+01:11:16.810 --> 01:11:20.580
+the means of production,
+land use, and apparently
+
+01:11:20.580 --> 01:11:24.500
+illuminated and
+dedicated population.
+
+01:11:24.500 --> 01:11:27.240
+Little gardens came from Marx.
+
+01:11:27.240 --> 01:11:32.680
+A time of great experimentation,
+the acronyms [INAUDIBLE],,
+
+01:11:32.680 --> 01:11:36.520
+the invention of the essential
+social condenser in housing
+
+01:11:36.520 --> 01:11:39.100
+taken from the French
+Fourier utopias.
+
+01:11:41.860 --> 01:11:43.975
+I'm tempted to tell
+this little story.
+
+01:11:46.870 --> 01:11:48.820
+The Republican Party
+in this country
+
+01:11:48.820 --> 01:11:53.290
+was started in a town
+called Ripon in Wisconsin.
+
+01:11:53.290 --> 01:11:58.240
+Ripon was started by a
+bunch of Fourier socialists.
+
+01:12:01.915 --> 01:12:05.990
+The Ripon Society is still a
+branch of the Republican Party.
+
+01:12:05.990 --> 01:12:07.790
+I'm not explaining
+the full transition.
+
+01:12:07.790 --> 01:12:13.660
+I haven't got time, but
+the overlapping of systems
+
+01:12:13.660 --> 01:12:17.000
+is one thing that
+keeps on intriguing me.
+
+01:12:17.000 --> 01:12:20.480
+One of the great adventures
+of contemporary urbanism
+
+01:12:20.480 --> 01:12:23.600
+is its search for
+overlappingness
+
+01:12:23.600 --> 01:12:27.950
+and multi-purposeness,
+as both an avenue
+
+01:12:27.950 --> 01:12:34.840
+to deal with complexity
+and the unknown future.
+
+01:12:38.350 --> 01:12:40.860
+I'm just going to
+skip a lot of this.
+
+01:12:40.860 --> 01:12:45.225
+We look at the La Ville
+[? Vale ?] competition,
+
+01:12:45.225 --> 01:12:52.850
+a competition for tired workers
+to escape from their daily work
+
+01:12:52.850 --> 01:12:53.990
+routine.
+
+01:12:53.990 --> 01:13:00.760
+And Melnikov-- the great genius
+architect who invented the idea
+
+01:13:00.760 --> 01:13:06.040
+of sleep enhancement so that
+the Radio City Music Hall people
+
+01:13:06.040 --> 01:13:09.670
+came running to Russia to see
+whether they should put smells
+
+01:13:09.670 --> 01:13:14.350
+in Rockefeller Center--
+
+01:13:14.350 --> 01:13:18.635
+he allowed that wild animals
+should patrol the streets.
+
+01:13:21.350 --> 01:13:25.760
+Anyway, I'd like to go on
+about the later reactions,
+
+01:13:25.760 --> 01:13:31.340
+Khrushchev's 1956
+edicts, and so on.
+
+01:13:31.340 --> 01:13:34.970
+The next section dealt
+with a question, what's
+
+01:13:34.970 --> 01:13:36.680
+the relationship between--
+
+01:13:36.680 --> 01:13:38.840
+is there any
+significant relationship
+
+01:13:38.840 --> 01:13:42.020
+between how a city
+is made and its form?
+
+01:13:42.020 --> 01:13:45.320
+Nine categories were
+listed as possible methods
+
+01:13:45.320 --> 01:13:51.770
+of city management and four
+selected for close examination.
+
+01:13:51.770 --> 01:13:54.920
+First of all, they're
+relying on a super figure.
+
+01:13:54.920 --> 01:13:58.610
+We examine the effects of
+Robert Moses, the greatest
+
+01:13:58.610 --> 01:14:02.400
+builder in American history,
+on the form of New York.
+
+01:14:02.400 --> 01:14:05.420
+We also took as a
+case study the process
+
+01:14:05.420 --> 01:14:08.730
+for the replacement of
+the World Trade towers
+
+01:14:08.730 --> 01:14:12.570
+and conjured how different it
+would have been under Moses--
+
+01:14:12.570 --> 01:14:14.370
+an interesting speculation.
+
+01:14:18.780 --> 01:14:22.230
+We looked at the role of the
+media, the media participation
+
+01:14:22.230 --> 01:14:26.580
+system, S-O-M, and
+Silverstein, on and so,
+
+01:14:26.580 --> 01:14:28.980
+and a whole bunch of
+things, and didn't
+
+01:14:28.980 --> 01:14:30.520
+come to much of a conclusion.
+
+01:14:33.830 --> 01:14:36.170
+The idea that a
+single architect who
+
+01:14:36.170 --> 01:14:39.200
+hadn't taken part in the
+so-called competition
+
+01:14:39.200 --> 01:14:43.550
+would be chosen as the final
+client, final architect,
+
+01:14:43.550 --> 01:14:50.000
+is an interesting resolution.
+
+01:14:50.000 --> 01:14:52.370
+In reducing social
+imbalances, we
+
+01:14:52.370 --> 01:14:57.500
+discussed the idea
+of advocacy planning
+
+01:14:57.500 --> 01:15:00.510
+using the Cambridge and the
+freeway connectors, our case
+
+01:15:00.510 --> 01:15:01.010
+study.
+
+01:15:04.380 --> 01:15:06.570
+Thirdly, will reviewed
+the many notions
+
+01:15:06.570 --> 01:15:12.370
+of changing people as a modality
+to urban change, projects
+
+01:15:12.370 --> 01:15:16.840
+such as potteries,
+[INAUDIBLE] schools
+
+01:15:16.840 --> 01:15:20.560
+without walls, [INAUDIBLE]
+situations in Paris,
+
+01:15:20.560 --> 01:15:23.140
+metro education in
+Montreal, and so on.
+
+01:15:29.170 --> 01:15:32.900
+OK, I'm going to jump things.
+
+01:15:32.900 --> 01:15:36.700
+We're going to finish
+a little after 2:00.
+
+01:15:36.700 --> 01:15:41.950
+I thought there was too much
+in 40 hours to condense to--
+
+01:15:41.950 --> 01:15:43.540
+what do you do?
+
+01:15:43.540 --> 01:15:45.420
+Maybe we can go on
+for a few minutes.
+
+01:15:49.040 --> 01:15:51.560
+Dealing with the difficult
+question, the relationship
+
+01:15:51.560 --> 01:15:55.400
+between social structure
+and spatial structure,
+
+01:15:55.400 --> 01:15:59.030
+I decided to review
+the literature.
+
+01:15:59.030 --> 01:16:03.870
+And it was too difficult to
+isolate the relationship.
+
+01:16:03.870 --> 01:16:08.720
+So I decided, as a professor
+of pathology would do,
+
+01:16:08.720 --> 01:16:14.530
+to take extreme cases
+in order to learn
+
+01:16:14.530 --> 01:16:17.207
+about this more trivial cases.
+
+01:16:17.207 --> 01:16:18.423
+AUDIENCE: [INAUDIBLE]
+
+01:16:18.423 --> 01:16:19.840
+JULIAN BEINART:
+Sure, don't worry.
+
+01:16:19.840 --> 01:16:20.980
+Don't worry.
+
+01:16:20.980 --> 01:16:23.804
+I'm in an emergency as well.
+
+01:16:23.804 --> 01:16:25.250
+[LAUGHTER]
+
+01:16:31.040 --> 01:16:33.580
+So I invented the
+notion of bipolarity,
+
+01:16:33.580 --> 01:16:37.525
+where I could isolate
+significant aspects of space
+
+01:16:37.525 --> 01:16:41.570
+and society and see them
+in some relationship.
+
+01:16:41.570 --> 01:16:43.910
+We analyzed five
+cities on this basis,
+
+01:16:43.910 --> 01:16:47.300
+and I'm going to have to go
+very quickly through these.
+
+01:16:47.300 --> 01:16:51.360
+Jerusalem-- the
+assembly of polarities
+
+01:16:51.360 --> 01:16:54.420
+ranging from religion,
+ethnicity, nationalism,
+
+01:16:54.420 --> 01:16:55.950
+history, and others.
+
+01:16:55.950 --> 01:16:58.500
+Jerusalem, by the
+way, has never been
+
+01:16:58.500 --> 01:17:03.660
+the capital of any country other
+than the Crusaders and Israel.
+
+01:17:06.380 --> 01:17:09.380
+So it's a rather
+remarkable status.
+
+01:17:12.840 --> 01:17:14.800
+To conjure up a
+solution which was
+
+01:17:14.800 --> 01:17:19.780
+shared equitably by all allowed
+free access to religious sites
+
+01:17:19.780 --> 01:17:23.040
+and performed as a capital
+city for two nations,
+
+01:17:23.040 --> 01:17:28.320
+despite problems securing
+customs was attempted.
+
+01:17:28.320 --> 01:17:31.530
+This is a difficult
+piece of work.
+
+01:17:31.530 --> 01:17:35.160
+We had to go through the
+history from David onwards,
+
+01:17:35.160 --> 01:17:38.130
+even dispute the
+history of David
+
+01:17:38.130 --> 01:17:43.370
+that the Jews give as opposed
+to the Palestinian history
+
+01:17:43.370 --> 01:17:43.870
+of David.
+
+01:17:46.650 --> 01:17:49.140
+The idea of David
+building a temple as
+
+01:17:49.140 --> 01:17:55.680
+opposed to circulating the
+ark amongst a nomadic people
+
+01:17:55.680 --> 01:17:56.550
+was discussed.
+
+01:17:56.550 --> 01:18:01.910
+Corbusier does a wonderful
+drawing of the Jews
+
+01:18:01.910 --> 01:18:03.165
+as nomadic people.
+
+01:18:05.810 --> 01:18:08.585
+All of this came into our
+vacation and understanding
+
+01:18:08.585 --> 01:18:10.040
+of Jerusalem.
+
+01:18:10.040 --> 01:18:12.620
+How successfully, I didn't know.
+
+01:18:12.620 --> 01:18:14.330
+The world doesn't
+have a solution
+
+01:18:14.330 --> 01:18:16.160
+to the problems of Jerusalem.
+
+01:18:16.160 --> 01:18:19.125
+Why should we?
+
+01:18:19.125 --> 01:18:21.410
+We are an advanced
+class in urbanism,
+
+01:18:21.410 --> 01:18:24.700
+but we can't do magic.
+
+01:18:24.700 --> 01:18:28.750
+After all, Jerusalem has
+been going for 3,000 years.
+
+01:18:28.750 --> 01:18:31.990
+It's gone through-- it's
+been the most disabled city
+
+01:18:31.990 --> 01:18:35.770
+in history, the most
+destroyed, the most rebuilt.
+
+01:18:35.770 --> 01:18:41.890
+It may well suffer as a cross
+for the rest of the world.
+
+01:18:41.890 --> 01:18:45.160
+It's an interesting
+idea, that it's
+
+01:18:45.160 --> 01:18:49.570
+destined to be a kind of
+crucible of some kind.
+
+01:18:49.570 --> 01:18:52.720
+In Johannesburg,
+the second city,
+
+01:18:52.720 --> 01:18:55.540
+we looked at the
+spatial pattern.
+
+01:18:55.540 --> 01:19:01.170
+We traced explicitly on
+race, and with it, income.
+
+01:19:01.170 --> 01:19:04.260
+We traced the city
+through its first stages
+
+01:19:04.260 --> 01:19:13.140
+to its absolute distinction
+of race in 1948,
+
+01:19:13.140 --> 01:19:16.740
+locating population
+to the southwest,
+
+01:19:16.740 --> 01:19:18.460
+and finally, and so on.
+
+01:19:18.460 --> 01:19:21.690
+We also did a study of municipal
+waste in the native township,
+
+01:19:21.690 --> 01:19:25.080
+a black community
+of 15,000 renters,
+
+01:19:25.080 --> 01:19:29.970
+who were being removed
+after 50 years to Soweto,
+
+01:19:29.970 --> 01:19:32.220
+improve their housing
+over the 50 years
+
+01:19:32.220 --> 01:19:35.400
+with additions in a communal
+language of wall decoration.
+
+01:19:39.580 --> 01:19:44.170
+It's a study I did in
+Johannesburg, which
+
+01:19:44.170 --> 01:19:46.870
+was on the cover of three
+architectural magazines
+
+01:19:46.870 --> 01:19:50.230
+in September 1966.
+
+01:19:50.230 --> 01:19:54.010
+We studied the 11 [INAUDIBLE]
+cities on the 2000-mile border
+
+01:19:54.010 --> 01:19:56.680
+between the US
+and Mexico looking
+
+01:19:56.680 --> 01:19:58.990
+at the polarities
+of nationality,
+
+01:19:58.990 --> 01:20:02.390
+and culture, and
+so-called development.
+
+01:20:02.390 --> 01:20:05.350
+We looked at El Paso,
+Juarez, operating
+
+01:20:05.350 --> 01:20:09.490
+as a single major
+metropolitan area,
+
+01:20:09.490 --> 01:20:12.430
+with each sector choosing
+to maximize its options
+
+01:20:12.430 --> 01:20:15.770
+on either side of the border.
+
+01:20:15.770 --> 01:20:21.180
+We looked at colonial
+Delhi and New Delhi
+
+01:20:21.180 --> 01:20:24.870
+as sites of distance
+between colonial and native
+
+01:20:24.870 --> 01:20:28.710
+as polarities, the form
+of the colonial settlement
+
+01:20:28.710 --> 01:20:31.110
+conscious of difference,
+chose amalgams
+
+01:20:31.110 --> 01:20:32.970
+of nature architecture.
+
+01:20:32.970 --> 01:20:36.660
+The bungalow, on the one
+hand, is suitable for climate,
+
+01:20:36.660 --> 01:20:41.010
+while using formal
+facades to indicate
+
+01:20:41.010 --> 01:20:43.410
+separateness and superiority--
+
+01:20:43.410 --> 01:20:47.580
+the same phenomenon we found
+in the laws of the Indies.
+
+01:20:47.580 --> 01:20:51.980
+Similarly, the many
+plans for New Delhi--
+
+01:20:51.980 --> 01:20:54.080
+forget about [INAUDIBLE]
+and New Delhi.
+
+01:20:57.310 --> 01:21:01.600
+We did a short trip to the
+dialectical relationship
+
+01:21:01.600 --> 01:21:05.260
+between country and
+city in Havana and Cuba.
+
+01:21:05.260 --> 01:21:08.890
+After the revolution, Havana
+was deemed a frustrated city,
+
+01:21:08.890 --> 01:21:12.470
+while agricultural land,
+such as the Picardura Valley,
+
+01:21:12.470 --> 01:21:14.740
+it was deemed by
+the state to be more
+
+01:21:14.740 --> 01:21:19.240
+important in the national
+consciousness and economy.
+
+01:21:19.240 --> 01:21:20.680
+It's interesting.
+
+01:21:20.680 --> 01:21:26.050
+Henry Ford, who is an arch
+anti-communist and anti-Semite,
+
+01:21:26.050 --> 01:21:28.070
+by the way, at the same time--
+
+01:21:28.070 --> 01:21:29.700
+interesting that
+you can be both--
+
+01:21:32.800 --> 01:21:37.630
+argued for the same advancement
+of agricultural form
+
+01:21:37.630 --> 01:21:41.250
+in relation to industrial form.
+
+01:21:41.250 --> 01:21:43.380
+Curious patterns
+that emerge when
+
+01:21:43.380 --> 01:21:48.430
+you go through this kind of
+survey and look for these.
+
+01:21:51.430 --> 01:21:56.200
+So it's not unusual that
+Lenin Park outside Havana
+
+01:21:56.200 --> 01:21:58.840
+places the major
+recreational element
+
+01:21:58.840 --> 01:22:01.450
+of the city on the
+outskirts of the city,
+
+01:22:01.450 --> 01:22:04.330
+much like [INAUDIBLE]
+plan for Moscow.
+
+01:22:04.330 --> 01:22:06.610
+If you compare [INAUDIBLE]
+plan for Moscow,
+
+01:22:06.610 --> 01:22:10.120
+one of the post-1918
+plans, you can
+
+01:22:10.120 --> 01:22:13.900
+see a similar configuration.
+
+01:22:13.900 --> 01:22:16.650
+The last section of class--
+and thank God we've got here--
+
+01:22:19.420 --> 01:22:23.435
+looks at four models,
+contemporary or recent four
+
+01:22:23.435 --> 01:22:23.935
+models.
+
+01:22:26.930 --> 01:22:29.420
+We first deal with the
+modern movement's interest
+
+01:22:29.420 --> 01:22:31.520
+in the form of cities.
+
+01:22:31.520 --> 01:22:34.190
+The class follows
+the discourse of CIAM
+
+01:22:34.190 --> 01:22:39.200
+from La Sarraz in 1928
+to Waterloo in 1960,
+
+01:22:39.200 --> 01:22:46.630
+and the conception of the
+city as a pristine assembly
+
+01:22:46.630 --> 01:22:50.620
+of distinctly different parts,
+as evidenced by Jose Sert's
+
+01:22:50.620 --> 01:22:55.790
+book, Can Our City Survive,
+for which Lewis Mumford refused
+
+01:22:55.790 --> 01:22:56.665
+to write the forward.
+
+01:22:59.550 --> 01:23:02.030
+So this notion of
+the city refused
+
+01:23:02.030 --> 01:23:04.700
+to admit any
+knowledge of the past.
+
+01:23:04.700 --> 01:23:07.640
+Rather, Corbusier tossed
+out the traditional streets
+
+01:23:07.640 --> 01:23:10.940
+in his books and replaced
+it in his [INAUDIBLE] plan
+
+01:23:10.940 --> 01:23:13.040
+with elevated highways.
+
+01:23:13.040 --> 01:23:16.295
+It also refused the idea that
+cities inevitably change.
+
+01:23:19.010 --> 01:23:20.960
+Its source of learning
+about the city
+
+01:23:20.960 --> 01:23:23.780
+was not in response
+to everyday life,
+
+01:23:23.780 --> 01:23:29.640
+but to a technical adjustments,
+such as extents minimums.
+
+01:23:29.640 --> 01:23:36.510
+When [INAUDIBLE]---- forget
+about [INAUDIBLE],, and so on.
+
+01:23:36.510 --> 01:23:39.390
+One of the first reactions
+to the urban conventions
+
+01:23:39.390 --> 01:23:42.180
+of the modern movement is
+a group of young European
+
+01:23:42.180 --> 01:23:47.070
+architects, who [INAUDIBLE]
+many [INAUDIBLE],,
+
+01:23:47.070 --> 01:23:51.360
+advocating intense
+interactionism--
+
+01:23:51.360 --> 01:23:54.540
+[INAUDIBLE]
+
+01:23:54.540 --> 01:23:57.270
+Smithson's doubling up
+of streets in the Berlin
+
+01:23:57.270 --> 01:23:59.970
+Hauptstadt competition
+or the making
+
+01:23:59.970 --> 01:24:02.580
+wide residential
+corridors to resemble
+
+01:24:02.580 --> 01:24:07.480
+continuous pedestrian streets
+in Parkhill, Sheffield.
+
+01:24:07.480 --> 01:24:10.110
+The urban world had to be
+understood as a more complex
+
+01:24:10.110 --> 01:24:13.080
+reality, seeking
+merit in change,
+
+01:24:13.080 --> 01:24:16.770
+both short-term and long-term,
+and users playing a role
+
+01:24:16.770 --> 01:24:20.310
+in the making environment,
+a phenomenon they called,
+
+01:24:20.310 --> 01:24:23.640
+the wonderful word,
+"socio-plastics."
+
+01:24:23.640 --> 01:24:26.310
+Perhaps we all engage
+in socio-plastics.
+
+01:24:29.610 --> 01:24:37.430
+We looked at a
+number of attempts
+
+01:24:37.430 --> 01:24:40.700
+to theorize about this period,
+the [INAUDIBLE] adaptive
+
+01:24:40.700 --> 01:24:44.150
+urbanism, strategy for
+dealing with growth,
+
+01:24:44.150 --> 01:24:50.060
+[INAUDIBLE] work at the
+MIT on the MIT campus
+
+01:24:50.060 --> 01:24:54.574
+extending itself systematically
+with a kind of intricate DNA
+
+01:24:54.574 --> 01:25:02.030
+of corridor with single-centered
+staircases, facades, and so on.
+
+01:25:02.030 --> 01:25:04.370
+We followed with
+three case study--
+
+01:25:04.370 --> 01:25:08.030
+the first of New University
+plans from the orthodox Sussex
+
+01:25:08.030 --> 01:25:11.450
+campus plan through
+the universal 50 foot
+
+01:25:11.450 --> 01:25:15.060
+by 50 foot by 13 foot
+high Loughborough
+
+01:25:15.060 --> 01:25:18.770
+model, the whole idea being
+here that a university can
+
+01:25:18.770 --> 01:25:20.690
+be predicted--
+
+01:25:20.690 --> 01:25:24.815
+use can be predicted in
+the USA by preventing--
+
+01:25:24.815 --> 01:25:28.490
+by oversupplying
+each regular item
+
+01:25:28.490 --> 01:25:31.070
+with sufficient
+energy and system
+
+01:25:31.070 --> 01:25:34.520
+to allow it to change freely--
+
+01:25:34.520 --> 01:25:39.230
+not a very sophisticated
+idea, ultimately to the Free
+
+01:25:39.230 --> 01:25:42.620
+University in Berlin, where the
+designers predicted a future
+
+01:25:42.620 --> 01:25:45.950
+form to be created by
+the university users.
+
+01:25:45.950 --> 01:25:51.600
+So this is the ultimate
+dedication to the idea
+
+01:25:51.600 --> 01:25:57.730
+that anybody can design
+without any rules,
+
+01:25:57.730 --> 01:26:03.490
+that, as Chomsky suggests we are
+dedicated learners of language,
+
+01:26:03.490 --> 01:26:06.010
+we are dedicated
+learners of building.
+
+01:26:06.010 --> 01:26:10.540
+It's a very current idea in
+the work of Slum Dwellers
+
+01:26:10.540 --> 01:26:14.350
+International, the great new
+paradigm for the Third World.
+
+01:26:16.960 --> 01:26:22.910
+We have-- I hope I've got time
+to do a very brief case study
+
+01:26:22.910 --> 01:26:27.820
+of Diadema with you at the end.
+
+01:26:27.820 --> 01:26:31.990
+We looked at the idea of
+temporary accommodation
+
+01:26:31.990 --> 01:26:33.520
+in two cases.
+
+01:26:33.520 --> 01:26:36.970
+The live-in Euro rotation
+cycle of temporary exhibitions
+
+01:26:36.970 --> 01:26:41.920
+in the center of Paris
+from 1855 to 2000.
+
+01:26:41.920 --> 01:26:45.280
+Almost every 11 years,
+Paris was transformed
+
+01:26:45.280 --> 01:26:48.970
+in its center in want the
+playwright, [INAUDIBLE],,
+
+01:26:48.970 --> 01:26:54.220
+calls a transvestite center
+to a stone site city.
+
+01:26:54.220 --> 01:26:56.920
+You can see Kevin
+Lynch's interest
+
+01:26:56.920 --> 01:27:00.340
+in time zoning in What
+Time Is This Place?
+
+01:27:00.340 --> 01:27:04.270
+That the city adjusts
+at different rates,
+
+01:27:04.270 --> 01:27:06.040
+that you build at
+different rates,
+
+01:27:06.040 --> 01:27:14.170
+that you associate
+space with time in a--
+
+01:27:14.170 --> 01:27:18.850
+I'm saying ritualistic manner,
+not in the archaic ritualism
+
+01:27:18.850 --> 01:27:21.830
+of Madurai.
+
+01:27:21.830 --> 01:27:23.000
+This is the wrong class.
+
+01:27:25.660 --> 01:27:27.550
+Sorry.
+
+01:27:27.550 --> 01:27:30.530
+Hey, it's Alexander.
+
+01:27:30.530 --> 01:27:32.060
+I couldn't see you that far.
+
+01:27:32.060 --> 01:27:34.220
+I've got my glasses on.
+
+01:27:34.220 --> 01:27:35.360
+Fine, then.
+
+01:27:35.360 --> 01:27:39.050
+Come and sit here in front.
+
+01:27:39.050 --> 01:27:40.250
+We're just about done.
+
+01:27:43.490 --> 01:27:46.760
+We looked at the idea of
+the role of temporariness
+
+01:27:46.760 --> 01:27:51.380
+in cities, in major cities,
+as I said, with the 1855
+
+01:27:51.380 --> 01:27:56.030
+to 2000 cycle, changes
+to the center of Paris.
+
+01:27:56.030 --> 01:27:59.900
+Curiously enough,
+this time-centeredness
+
+01:27:59.900 --> 01:28:03.350
+is evident again in
+the various attempts
+
+01:28:03.350 --> 01:28:05.930
+to build these
+temporary exhibitions.
+
+01:28:08.540 --> 01:28:14.400
+The building across the Seine
+looks like a wedding cake.
+
+01:28:14.400 --> 01:28:17.940
+The Eiffel Tower is finally
+allowed to be built,
+
+01:28:17.940 --> 01:28:19.830
+because it looks temporary.
+
+01:28:19.830 --> 01:28:23.100
+The Eiffel Tower remains as
+the major producer of income
+
+01:28:23.100 --> 01:28:27.340
+for Paris other than taxes.
+
+01:28:27.340 --> 01:28:30.150
+The rest is disappeared.
+
+01:28:30.150 --> 01:28:37.820
+So what looks to them temporary
+is plaster and wood or metal,
+
+01:28:37.820 --> 01:28:40.010
+and what is temporary
+becomes permanent.
+
+01:28:42.580 --> 01:28:47.140
+And the third case,
+the second case,
+
+01:28:47.140 --> 01:28:50.410
+is we follow the Olympic
+games, which over a century
+
+01:28:50.410 --> 01:28:53.050
+now has become a four-year
+temporary visit to world
+
+01:28:53.050 --> 01:28:54.070
+cities.
+
+01:28:54.070 --> 01:28:59.090
+We looked at it from
+1896 to London again.
+
+01:28:59.090 --> 01:29:01.550
+London has had it three times.
+
+01:29:01.550 --> 01:29:05.990
+We looked at St. Louis
+in 1904, Paris in 1900,
+
+01:29:05.990 --> 01:29:10.100
+the invention of the first
+Olympic games housing
+
+01:29:10.100 --> 01:29:14.870
+project in Los Angeles in
+'32, the greatest games
+
+01:29:14.870 --> 01:29:19.760
+of all in '32 in Los Angeles.
+
+01:29:19.760 --> 01:29:22.590
+We looked at the
+reciprocal version of it
+
+01:29:22.590 --> 01:29:26.120
+in '36 in Berlin, all
+seen as temporary.
+
+01:29:26.120 --> 01:29:30.860
+Hitler, of course, didn't
+understand temporariness.
+
+01:29:30.860 --> 01:29:32.790
+He pulled down the glass.
+
+01:29:32.790 --> 01:29:36.620
+He had the glass taken out of
+the stadium which they used
+
+01:29:36.620 --> 01:29:40.460
+and replaced with concrete.
+
+01:29:40.460 --> 01:29:45.380
+Albert Speer designed a new
+stadium for 400,000 people,
+
+01:29:45.380 --> 01:29:51.290
+admitting that you
+couldn't see anything,
+
+01:29:51.290 --> 01:29:53.750
+but only admitting
+that you'd have
+
+01:29:53.750 --> 01:29:56.060
+to change the rules
+of the Olympic games
+
+01:29:56.060 --> 01:29:57.610
+in order to hold it there.
+
+01:29:57.610 --> 01:29:59.415
+Hitler said, don't worry.
+
+01:29:59.415 --> 01:30:01.040
+It's going to be--
+in four years' time,
+
+01:30:01.040 --> 01:30:03.170
+it's going to be
+in Tokyo, and then
+
+01:30:03.170 --> 01:30:04.580
+it's going to return to Berlin.
+
+01:30:04.580 --> 01:30:06.440
+It won't be
+temporary any longer.
+
+01:30:06.440 --> 01:30:08.690
+It will be in Berlin forever.
+
+01:30:08.690 --> 01:30:11.900
+Hitler was an
+extraordinary urban mind.
+
+01:30:11.900 --> 01:30:16.850
+He understand that to devise
+the '36 games, at the time,
+
+01:30:16.850 --> 01:30:21.720
+that the concentration camps
+with Avery Brundage, the leader
+
+01:30:21.720 --> 01:30:25.550
+of the Americans,
+denounced this fact
+
+01:30:25.550 --> 01:30:32.950
+by accusing America to be run by
+The New York Times and by Jews.
+
+01:30:32.950 --> 01:30:38.740
+What a fairly common ploy.
+
+01:30:38.740 --> 01:30:44.380
+OK, we dealt with--
+
+01:30:47.440 --> 01:30:49.980
+I'm sorry, we need
+another five minute.
+
+01:30:49.980 --> 01:30:51.180
+AUDIENCE: It's 2:00, though.
+
+01:30:51.180 --> 01:30:52.138
+JULIAN BEINART: I know.
+
+01:30:52.138 --> 01:30:53.998
+This is a special class.
+
+01:30:53.998 --> 01:30:55.492
+[LAUGHTER]
+
+01:30:58.480 --> 01:31:05.560
+OK, we looked at Aldo Rossi's
+philosophy about permanence,
+
+01:31:05.560 --> 01:31:10.370
+and Léon Krier's advertisement
+for classicism is a timely
+
+01:31:10.370 --> 01:31:12.850
+solution to urban development.
+
+01:31:12.850 --> 01:31:15.190
+I became intrigued
+by the two forms
+
+01:31:15.190 --> 01:31:18.370
+of knowledge of the
+past, history and memory,
+
+01:31:18.370 --> 01:31:20.640
+at the conference I
+chaired in Jerusalem.
+
+01:31:25.230 --> 01:31:30.750
+Memory has a long association
+with the physical environment.
+
+01:31:30.750 --> 01:31:35.010
+Ruskin's memory is one of his
+seven lamps of architecture.
+
+01:31:35.010 --> 01:31:38.970
+The mnemonic was used in
+architecture in Greek times.
+
+01:31:38.970 --> 01:31:44.340
+People paraded in the book on
+the magical palace of Matteo
+
+01:31:44.340 --> 01:31:47.880
+Ricci, you learn to debate
+by entering a house,
+
+01:31:47.880 --> 01:31:51.570
+making your argument in the
+center, going to the right
+
+01:31:51.570 --> 01:31:53.650
+to make cause, going
+back to the center
+
+01:31:53.650 --> 01:31:56.027
+to reinforce your argument,
+going up the stairs,
+
+01:31:56.027 --> 01:31:57.360
+going to the left and the right.
+
+01:32:00.250 --> 01:32:05.470
+We know very little about the
+relationship between memory,
+
+01:32:05.470 --> 01:32:09.130
+and architecture, and urbanism.
+
+01:32:09.130 --> 01:32:13.140
+We know that about
+Paradise Lost and Cain
+
+01:32:13.140 --> 01:32:17.450
+calling his first city in the
+Bible after his son, Enoch.
+
+01:32:17.450 --> 01:32:20.015
+The great French sociologist,
+Maurice Halbwachs,
+
+01:32:20.015 --> 01:32:22.310
+and the power of
+collective memory--
+
+01:32:22.310 --> 01:32:24.110
+I haven't got time
+to go into it--
+
+01:32:24.110 --> 01:32:28.670
+one of my most
+fascinating stories--
+
+01:32:28.670 --> 01:32:30.770
+not stories-- a great theorist.
+
+01:32:30.770 --> 01:32:34.800
+He wrote the book,
+Collective Memory, and is
+
+01:32:34.800 --> 01:32:38.310
+I think the single
+most penetrating mind
+
+01:32:38.310 --> 01:32:42.100
+about urban metaphysics in all.
+
+01:32:42.100 --> 01:32:44.250
+That's saying a lot.
+
+01:32:44.250 --> 01:32:48.440
+I didn't talk about
+contemporary memory systems.
+
+01:32:48.440 --> 01:32:50.960
+Robert Musso's claim
+that nothing becomes
+
+01:32:50.960 --> 01:32:53.270
+more invisible than a monument.
+
+01:32:53.270 --> 01:32:56.390
+The Navy and Air Force,
+which are-- the Air Force
+
+01:32:56.390 --> 01:33:00.890
+Memorial in Washington, which
+I had something to do with,
+
+01:33:00.890 --> 01:33:05.990
+having the notion of updating a
+system of keeping up with time.
+
+01:33:10.120 --> 01:33:22.110
+I go into the apparent dichotomy
+between public and private,
+
+01:33:22.110 --> 01:33:24.910
+using a metrics of
+user ownership, access,
+
+01:33:24.910 --> 01:33:27.600
+meaning to demonstrate
+the overlapping
+
+01:33:27.600 --> 01:33:30.120
+between public and private.
+
+01:33:30.120 --> 01:33:33.420
+I shall talk about
+the private law
+
+01:33:33.420 --> 01:33:35.700
+courts in the anonymous
+states [INAUDIBLE]
+
+01:33:35.700 --> 01:33:39.780
+in Boston and the federal court
+building, which faces the sea,
+
+01:33:39.780 --> 01:33:43.930
+and only McDonald's
+faces the public city.
+
+01:33:43.930 --> 01:33:48.040
+We then go on and on
+about the American spirit,
+
+01:33:48.040 --> 01:33:51.950
+the various agencies,
+which contest--
+
+01:33:51.950 --> 01:33:57.185
+I spend a few minutes
+denouncing the new urbanism
+
+01:33:57.185 --> 01:34:02.350
+as a solution to social
+equity and to transportation.
+
+01:34:02.350 --> 01:34:05.265
+I then, in the last class,
+deal with the global South.
+
+01:34:09.550 --> 01:34:12.180
+The statistics are alarming.
+
+01:34:12.180 --> 01:34:14.940
+I just have time to
+quote one or two.
+
+01:34:14.940 --> 01:34:17.970
+Almost half the global
+population lives on less than
+
+01:34:17.970 --> 01:34:19.920
+$2.50 a day.
+
+01:34:19.920 --> 01:34:23.250
+That is more than 3
+billion people, almost all
+
+01:34:23.250 --> 01:34:24.930
+in developing countries.
+
+01:34:24.930 --> 01:34:27.540
+According to The World
+Bank, the richest 20%
+
+01:34:27.540 --> 01:34:29.580
+of the world's
+population accounts
+
+01:34:29.580 --> 01:34:34.140
+for 76% of all consumption,
+while the bottom 40%
+
+01:34:34.140 --> 01:34:37.290
+account for only 1.5%.
+
+01:34:37.290 --> 01:34:40.170
+The world will have to build
+1 city of 1 million people
+
+01:34:40.170 --> 01:34:45.450
+every 5 days for
+the next 42 years.
+
+01:34:45.450 --> 01:34:47.700
+It predicts that
+31 villagers will
+
+01:34:47.700 --> 01:34:51.900
+arrive in an Indian city every
+minute for the next 43 years--
+
+01:34:51.900 --> 01:34:55.740
+700 million people in all.
+
+01:34:55.740 --> 01:34:59.760
+Coupled with climate change,
+40% of the world's population
+
+01:34:59.760 --> 01:35:04.320
+lives on or near coastlines.
+
+01:35:04.320 --> 01:35:08.790
+The combination of
+poverty and climate change
+
+01:35:08.790 --> 01:35:16.130
+is a drastic disaster
+token for the next phase
+
+01:35:16.130 --> 01:35:18.510
+of world urbanism.
+
+01:35:18.510 --> 01:35:23.520
+I try to talk about the
+Slum Dwellers International
+
+01:35:23.520 --> 01:35:29.250
+paradigm of self-help
+instead of governmental help.
+
+01:35:29.250 --> 01:35:33.210
+I talk about the
+lack of hope that we
+
+01:35:33.210 --> 01:35:35.690
+have in world agreements.
+
+01:35:35.690 --> 01:35:38.570
+I remember Woodrow
+Wilson in Paris.
+
+01:35:38.570 --> 01:35:42.650
+Woodrow Wilson in 1919
+attracted the largest crowd
+
+01:35:42.650 --> 01:35:44.330
+in the history of
+Paris, because he
+
+01:35:44.330 --> 01:35:48.110
+came to cement the
+League of Nations
+
+01:35:48.110 --> 01:35:51.290
+as an international
+governing phenomenon.
+
+01:35:51.290 --> 01:35:56.060
+We haven't, with Kyoto, a
+miserable Kyoto in Copenhagen,
+
+01:35:56.060 --> 01:36:00.750
+we haven't even reached a crowd.
+
+01:36:00.750 --> 01:36:05.130
+I talk about microfinancing
+and then talk about the success
+
+01:36:05.130 --> 01:36:07.530
+of microenvironments.
+
+01:36:07.530 --> 01:36:14.400
+Diadema, a slum 15
+kilometers from Sao Paulo,
+
+01:36:14.400 --> 01:36:17.960
+and its success, it's just
+attracted its first shopping
+
+01:36:17.960 --> 01:36:22.100
+center there-- the fifth
+most violent homicide
+
+01:36:22.100 --> 01:36:24.680
+rate in Brazil.
+
+01:36:24.680 --> 01:36:28.680
+Education rates were pathetic.
+
+01:36:28.680 --> 01:36:32.290
+Child birth rates
+were off the charts.
+
+01:36:32.290 --> 01:36:36.510
+It's now reversed
+all of these indices.
+
+01:36:36.510 --> 01:36:42.180
+It's used the Workers'
+Party to stimulate trust
+
+01:36:42.180 --> 01:36:45.510
+to find financing
+mechanisms for new housing
+
+01:36:45.510 --> 01:36:49.640
+for the subdivision of land
+for the creation of tenure.
+
+01:36:49.640 --> 01:36:56.220
+Trust and security
+are what a writer
+
+01:36:56.220 --> 01:36:58.500
+about microfinancing
+from Thailand
+
+01:36:58.500 --> 01:37:02.580
+suggests is what helps develop--
+
+01:37:02.580 --> 01:37:06.240
+is one of the sources of
+development for the future city
+
+01:37:06.240 --> 01:37:09.020
+in the poverty world.
+
+01:37:09.020 --> 01:37:11.540
+I'm sorry it's been so rushed.
+
+01:37:11.540 --> 01:37:14.330
+I'm sorry that I have
+to keep people outside,
+
+01:37:14.330 --> 01:37:17.740
+but we've got a story to tell.
+
+01:37:17.740 --> 01:37:20.030
+Thanks, again, for
+all of you for coming.
+
+01:37:20.030 --> 01:37:21.970
+I hope it hasn't
+been boring listening
+
+01:37:21.970 --> 01:37:25.510
+to what you heard 34 years ago.
+
+01:37:25.510 --> 01:37:26.710
+I hope I've changed.
+
+01:37:26.710 --> 01:37:34.500
+In the meantime, I've become
+more arrogant and more angry
+
+01:37:34.500 --> 01:37:39.660
+with large theories about things
+without Lynch's attachment
+
+01:37:39.660 --> 01:37:42.070
+to detail.
+
+01:37:42.070 --> 01:37:44.400
+OK, thanks a lot.
+
+01:37:44.400 --> 01:37:46.500
+[APPLAUSE]

@@ -1,0 +1,1255 @@
+WEBVTT
+
+00:00:10.940 --> 00:00:13.080
+PROFESSOR: So let's
+talk about the transfer
+
+00:00:13.080 --> 00:00:16.500
+of respiratory pathogens, and
+in particular, contagious
+
+00:00:16.500 --> 00:00:19.930
+pathogens such as
+viruses and bacteria,
+
+00:00:19.930 --> 00:00:22.750
+that infect the
+respiratory system.
+
+00:00:22.750 --> 00:00:25.690
+The way that such pathogens
+are normally transferred
+
+00:00:25.690 --> 00:00:29.860
+is through droplets which are
+emitted by respiration, which
+
+00:00:29.860 --> 00:00:33.910
+could be by just normal
+breathing, coughing, sneezing,
+
+00:00:33.910 --> 00:00:35.580
+et cetera.
+
+00:00:35.580 --> 00:00:38.730
+And so here is a sketch
+of an infected person who
+
+00:00:38.730 --> 00:00:44.730
+is undergoing respiration and is
+emitting droplets into the air.
+
+00:00:44.730 --> 00:00:48.150
+And so let's think about what
+is the fate of those droplets,
+
+00:00:48.150 --> 00:00:49.350
+what it could be.
+
+00:00:49.350 --> 00:00:51.930
+So one possibility is if
+the droplets are very heavy,
+
+00:00:51.930 --> 00:00:54.240
+they're just going to
+settle to the ground.
+
+00:00:54.240 --> 00:00:57.330
+And then they may
+collect on the ground
+
+00:00:57.330 --> 00:00:59.370
+or on some other surface.
+
+00:00:59.370 --> 00:01:02.040
+And then somebody else
+could touch that surface
+
+00:01:02.040 --> 00:01:03.960
+and transmit it,
+perhaps by touching
+
+00:01:03.960 --> 00:01:05.700
+their eyes or some other--
+
+00:01:05.700 --> 00:01:10.320
+or their nose or some
+bodily entrance point.
+
+00:01:10.320 --> 00:01:15.970
+And that sort of transmission
+is called fomite transmission.
+
+00:01:15.970 --> 00:01:19.750
+So these dried up
+bits of droplets
+
+00:01:19.750 --> 00:01:22.030
+on the surface are
+called fomites.
+
+00:01:22.030 --> 00:01:27.430
+And this mode of
+transfer would involve
+
+00:01:27.430 --> 00:01:31.930
+settling of those droplets to
+the surface, to a surface, OK?
+
+00:01:31.930 --> 00:01:36.250
+Now, another possibility is
+that the droplets kind of float
+
+00:01:36.250 --> 00:01:38.650
+around, and if
+they're small enough,
+
+00:01:38.650 --> 00:01:43.390
+they might actually evaporate
+and they might disappear.
+
+00:01:43.390 --> 00:01:45.070
+So they might evaporate.
+
+00:01:47.680 --> 00:01:49.729
+And at that point, if
+there's a pathogen in them,
+
+00:01:49.729 --> 00:01:51.680
+that pathogen may
+still be around,
+
+00:01:51.680 --> 00:01:53.810
+but perhaps if it
+loses enough fluid
+
+00:01:53.810 --> 00:01:56.240
+it's going to lose
+its viability.
+
+00:01:56.240 --> 00:02:00.050
+And so perhaps those
+droplets would be eliminated.
+
+00:02:00.050 --> 00:02:01.670
+And then finally,
+there are droplets
+
+00:02:01.670 --> 00:02:05.000
+which undergo neither
+of these and remain
+
+00:02:05.000 --> 00:02:08.130
+floating indefinitely, or at
+least for long periods of time,
+
+00:02:08.130 --> 00:02:10.639
+let's say for
+hours, in the space.
+
+00:02:10.639 --> 00:02:14.240
+And these are called
+aerosol droplets.
+
+00:02:14.240 --> 00:02:16.310
+So these are droplets
+that are very small.
+
+00:02:16.310 --> 00:02:20.220
+They don't really settle in
+a reasonable amount of time.
+
+00:02:20.220 --> 00:02:22.260
+But they're not necessarily
+evaporating either.
+
+00:02:22.260 --> 00:02:23.260
+And so they are present.
+
+00:02:23.260 --> 00:02:25.670
+And if another person is
+here, they can very easily
+
+00:02:25.670 --> 00:02:28.310
+breathe in those droplets, OK?
+
+00:02:28.310 --> 00:02:31.520
+Now, how do we know
+which of these outcomes
+
+00:02:31.520 --> 00:02:37.260
+is possible for droplets that
+are emitted from respiration?
+
+00:02:37.260 --> 00:02:42.600
+So what it really depends
+on at the simplest level
+
+00:02:42.600 --> 00:02:44.040
+is the size of the droplet.
+
+00:02:46.600 --> 00:02:53.870
+So the droplet fate
+depends on its size.
+
+00:02:53.870 --> 00:02:57.079
+So why don't we do
+some simple estimates
+
+00:02:57.079 --> 00:03:00.660
+of these different processes?
+
+00:03:00.660 --> 00:03:06.720
+So the first would be
+looking at settling.
+
+00:03:06.720 --> 00:03:14.600
+So the settling time
+from a height L,
+
+00:03:14.600 --> 00:03:17.480
+which might be the height of a
+person, a typical number that's
+
+00:03:17.480 --> 00:03:23.300
+taken is 2 meters for a
+settling problem like this.
+
+00:03:23.300 --> 00:03:25.010
+It's given by the
+following formula,
+
+00:03:25.010 --> 00:03:27.590
+assuming we have
+so-called Stokes'
+
+00:03:27.590 --> 00:03:30.590
+law of settling is
+valid, which it usually
+
+00:03:30.590 --> 00:03:32.510
+is for small droplets.
+
+00:03:32.510 --> 00:03:35.210
+And that would be that--
+
+00:03:35.210 --> 00:03:38.890
+I'll just write
+the formula first.
+
+00:03:38.890 --> 00:03:41.150
+2 rho g R^2.
+
+00:03:41.150 --> 00:03:43.120
+So basically, there's a 9/2.
+
+00:03:43.120 --> 00:03:45.050
+L is the height which
+they're going to fall.
+
+00:03:45.050 --> 00:03:53.520
+So basically this is L. And mu_a
+is the viscosity of the air,
+
+00:03:53.520 --> 00:03:56.790
+rho is the density of the
+air-- or density the droplet,
+
+00:03:56.790 --> 00:03:58.329
+excuse me, of the liquid.
+
+00:03:58.329 --> 00:04:01.180
+And g is the gravitational
+acceleration,
+
+00:04:01.180 --> 00:04:03.140
+and R is the size
+of the droplet.
+
+00:04:03.140 --> 00:04:08.330
+So the size of the droplet
+is R -- or that's the radius.
+
+00:04:08.330 --> 00:04:11.990
+So what you see here is that
+when the radius gets bigger,
+
+00:04:11.990 --> 00:04:15.390
+the drops fall faster, and
+hence the time goes down.
+
+00:04:15.390 --> 00:04:18.500
+So very large droplets will
+very quickly settle out.
+
+00:04:18.500 --> 00:04:21.350
+Others -- as R goes to
+be smaller and smaller --
+
+00:04:21.350 --> 00:04:24.770
+they might be suspended
+and become aerosols.
+
+00:04:24.770 --> 00:04:30.260
+We also might worry about
+evaporation, for the smaller
+
+00:04:30.260 --> 00:04:32.490
+droplets especially.
+
+00:04:32.490 --> 00:04:36.780
+And the evaporation time,
+again with a fairly simple
+
+00:04:36.780 --> 00:04:40.260
+approximation of pure
+liquid which is evaporating.
+
+00:04:40.260 --> 00:04:42.730
+Basically, just as it's
+getting more highly curved,
+
+00:04:42.730 --> 00:04:46.290
+the molecules will have a bigger
+driving force to be removed.
+
+00:04:46.290 --> 00:04:49.330
+And if it's a
+diffusion-limited process,
+
+00:04:49.330 --> 00:04:51.900
+which is basically water
+vapor has to diffuse away
+
+00:04:51.900 --> 00:04:55.620
+into the environment, then you
+can show the evaporation time
+
+00:04:55.620 --> 00:04:58.500
+is the initial size
+of the droplet, R_0 --
+
+00:04:58.500 --> 00:05:00.420
+so let's just say R_0
+is the initial size.
+
+00:05:00.420 --> 00:05:02.050
+And maybe here,
+when it's settling,
+
+00:05:02.050 --> 00:05:03.300
+it could still be evaporating.
+
+00:05:03.300 --> 00:05:04.320
+So R could be varying.
+
+00:05:04.320 --> 00:05:06.780
+But why don't we
+just neglect that
+
+00:05:06.780 --> 00:05:08.070
+for droplets settling quickly.
+
+00:05:08.070 --> 00:05:10.800
+Maybe that's roughly
+the initial size.
+
+00:05:10.800 --> 00:05:15.060
+And here for evaporation,
+there is a constant,
+
+00:05:15.060 --> 00:05:16.980
+which I'll call D_bar,
+which is just something
+
+00:05:16.980 --> 00:05:18.660
+that has units of diffusivity.
+
+00:05:18.660 --> 00:05:20.580
+So length squared per time.
+
+00:05:20.580 --> 00:05:25.300
+And then (1-RH), where
+RH is the relative humidity.
+
+00:05:25.300 --> 00:05:28.620
+So basically, the tendency
+for the water droplets
+
+00:05:28.620 --> 00:05:34.080
+to be removed from a liquid
+droplet end up in the air
+
+00:05:34.080 --> 00:05:36.090
+has to do with the relative
+humidity of the air.
+
+00:05:36.090 --> 00:05:39.400
+So that's another factor
+that comes in here.
+
+00:05:39.400 --> 00:05:43.800
+So if we plot these
+two results, we
+
+00:05:43.800 --> 00:05:46.750
+arrive at the
+so-called Wells curve,
+
+00:05:46.750 --> 00:05:53.800
+which was first formulated by
+epidemiologist Wells in 1934.
+
+00:05:53.800 --> 00:05:55.500
+And I'll draw that over here.
+
+00:05:58.480 --> 00:06:02.720
+And the Wells curve
+is sketched like this.
+
+00:06:02.720 --> 00:06:10.250
+It says that if we have the
+drop size R_0 on one axis,
+
+00:06:10.250 --> 00:06:16.970
+and on the other axis we have
+the time of settling-- the time
+
+00:06:16.970 --> 00:06:21.260
+that the droplet
+has left the mouth,
+
+00:06:21.260 --> 00:06:23.910
+then you have basically
+two expressions here.
+
+00:06:23.910 --> 00:06:29.120
+So the settling is
+something like this,
+
+00:06:29.120 --> 00:06:35.810
+where it's a function that
+goes to 0, like 1/R squared.
+
+00:06:35.810 --> 00:06:38.680
+On the other hand,
+evaporation is the fastest
+
+00:06:38.680 --> 00:06:39.770
+for the smallest droplets.
+
+00:06:39.770 --> 00:06:41.310
+You see that it goes
+like (R_0)^2.
+
+00:06:41.310 --> 00:06:45.720
+So it has a dependence
+more like this.
+
+00:06:45.720 --> 00:06:50.610
+And so basically, these curves
+intersect at a certain point
+
+00:06:50.610 --> 00:06:51.370
+here.
+
+00:06:51.370 --> 00:06:54.550
+And if you ask yourself,
+if I am a droplet of,
+
+00:06:54.550 --> 00:06:58.290
+let's say, this size here,
+then as time goes on,
+
+00:06:58.290 --> 00:07:03.340
+I hit this point, and
+this is where I evaporate.
+
+00:07:03.340 --> 00:07:06.610
+So for just a pure liquid
+droplet, at that time,
+
+00:07:06.610 --> 00:07:08.850
+that droplet would disappear.
+
+00:07:08.850 --> 00:07:14.440
+On the other hand, if I
+have a larger droplet that's
+
+00:07:14.440 --> 00:07:16.410
+going to hit this
+other curve first,
+
+00:07:16.410 --> 00:07:20.540
+then these droplets will
+settle, because before they
+
+00:07:20.540 --> 00:07:22.340
+have time to evaporate,
+which would require
+
+00:07:22.340 --> 00:07:23.600
+all the way going
+to here, they've
+
+00:07:23.600 --> 00:07:24.800
+already fallen to the ground.
+
+00:07:24.800 --> 00:07:27.290
+They may continue
+evaporating on the ground,
+
+00:07:27.290 --> 00:07:30.420
+and you're eventually left
+with a dried up residue
+
+00:07:30.420 --> 00:07:32.480
+of some of the
+material that may have
+
+00:07:32.480 --> 00:07:34.760
+been contained in the droplet.
+
+00:07:34.760 --> 00:07:37.520
+And then there's a crossover.
+
+00:07:37.520 --> 00:07:40.400
+And so generically, you
+expect this kind of behavior
+
+00:07:40.400 --> 00:07:43.230
+for droplets that are
+evaporating and settling.
+
+00:07:46.100 --> 00:07:50.740
+So the Wells curve was
+first formulated in 1934.
+
+00:07:50.740 --> 00:07:53.120
+And if we just want to put
+some numbers on here, if we're
+
+00:07:53.120 --> 00:07:57.680
+talking about pure water,
+then this crossover
+
+00:07:57.680 --> 00:08:00.590
+happens around 70 microns.
+
+00:08:00.590 --> 00:08:06.900
+And the time is
+around 3 seconds.
+
+00:08:09.890 --> 00:08:11.440
+So that gives you
+a sense, basically,
+
+00:08:11.440 --> 00:08:14.020
+of how quickly the larger
+droplets are settling faster
+
+00:08:14.020 --> 00:08:18.790
+than 3 seconds, and then the
+small droplets are evaporating
+
+00:08:18.790 --> 00:08:19.680
+a lot faster.
+
+00:08:19.680 --> 00:08:21.850
+And by the way, to get a
+sense of how fast they are,
+
+00:08:21.850 --> 00:08:25.010
+if we look at the dependents,
+each of these is squared.
+
+00:08:25.010 --> 00:08:27.860
+So if we want to go by a
+factor of 100, if you go to,
+
+00:08:27.860 --> 00:08:33.909
+let's say, 0.7 microns,
+which is 700 nanometers,
+
+00:08:33.909 --> 00:08:35.500
+it's a factor of 100.
+
+00:08:35.500 --> 00:08:37.640
+But the time comes in squared.
+
+00:08:37.640 --> 00:08:42.640
+So it's 3e-4 seconds.
+
+00:08:42.640 --> 00:08:45.400
+So we're talking
+0.3 milliseconds.
+
+00:08:45.400 --> 00:08:49.450
+So basically, droplets that are
+in the 1 micron or below range,
+
+00:08:49.450 --> 00:08:52.900
+if they're pure liquid, they'll
+evaporate extremely quickly.
+
+00:08:52.900 --> 00:08:55.390
+And conversely, if we
+consider much larger droplets,
+
+00:08:55.390 --> 00:08:58.450
+let's say that are bigger
+by a factor of 10 or 100,
+
+00:08:58.450 --> 00:09:00.700
+that also comes in squared
+in terms of the settling
+
+00:09:00.700 --> 00:09:02.360
+time being reduced.
+
+00:09:02.360 --> 00:09:06.730
+And so we would then end up with
+100, or up to even 10,000 times
+
+00:09:06.730 --> 00:09:07.780
+smaller settling time.
+
+00:09:07.780 --> 00:09:09.280
+Although it won't
+be quite as small,
+
+00:09:09.280 --> 00:09:12.610
+because also, the particles need
+to accelerate to that speed.
+
+00:09:12.610 --> 00:09:18.910
+This settling speed here is the
+terminal velocity of a drop.
+
+00:09:18.910 --> 00:09:21.760
+And there is a short
+acceleration time
+
+00:09:21.760 --> 00:09:23.860
+for very small particles.
+
+00:09:23.860 --> 00:09:25.720
+And for very long
+particles, you may still
+
+00:09:25.720 --> 00:09:28.310
+be actually in that acceleration
+time when you hit the ground.
+
+00:09:28.310 --> 00:09:29.970
+So basically, it might
+not be that long.
+
+00:09:29.970 --> 00:09:32.650
+But basically, the
+time, at large times,
+
+00:09:32.650 --> 00:09:35.830
+is also quite a bit reduced
+for large particles.
+
+00:09:35.830 --> 00:09:40.130
+Now, there's also the humidity
+effect, which can be seen here.
+
+00:09:40.130 --> 00:09:43.840
+So for example, if we're
+at 90% relative humidity,
+
+00:09:43.840 --> 00:09:46.100
+this factor here
+is a factor of 10.
+
+00:09:46.100 --> 00:09:48.350
+So what was on the
+order of a few seconds,
+
+00:09:48.350 --> 00:09:50.260
+if we're at higher
+humidity, then
+
+00:09:50.260 --> 00:09:52.750
+this curve ends up
+looking more like this.
+
+00:09:52.750 --> 00:09:54.760
+And we may follow this
+curve a little bit
+
+00:09:54.760 --> 00:09:58.880
+further and end up with
+something like this.
+
+00:09:58.880 --> 00:10:04.510
+This would be high humidity.
+
+00:10:04.510 --> 00:10:06.640
+I'll say higher, because
+I haven't gone that far.
+
+00:10:06.640 --> 00:10:09.150
+There's another curve that
+I could draw where this even
+
+00:10:09.150 --> 00:10:12.030
+goes further this
+way, and where this
+
+00:10:12.030 --> 00:10:15.600
+could start turning
+into, say, 30 seconds
+
+00:10:15.600 --> 00:10:16.890
+where that crossover occurs.
+
+00:10:16.890 --> 00:10:20.150
+But in any case, there is
+a crossover at some point.
+
+00:10:20.150 --> 00:10:22.540
+And at high relative humidity,
+the evaporation is slower,
+
+00:10:22.540 --> 00:10:26.140
+and so we are more following
+the settling droplets.
+
+00:10:26.140 --> 00:10:28.560
+And so this is an
+important set of concepts
+
+00:10:28.560 --> 00:10:30.930
+in the field of aerosol
+science involving
+
+00:10:30.930 --> 00:10:34.740
+droplets, and especially
+for respiratory diseases.
+
+00:10:34.740 --> 00:10:36.720
+But it's still oversimplified.
+
+00:10:36.720 --> 00:10:41.520
+So recent research has showed
+that, in fact, many droplets
+
+00:10:41.520 --> 00:10:43.260
+that are present
+from respiration
+
+00:10:43.260 --> 00:10:46.620
+do not evaporate on these
+kind of fast timescales.
+
+00:10:46.620 --> 00:10:48.630
+And in fact, they
+can linger and can
+
+00:10:48.630 --> 00:10:52.470
+be way into this small
+size range of aerosols
+
+00:10:52.470 --> 00:10:53.730
+and not disappear.
+
+00:10:53.730 --> 00:10:56.610
+And it's possible, then, to
+breathe them in and transmit
+
+00:10:56.610 --> 00:10:57.870
+disease with them.
+
+00:10:57.870 --> 00:11:00.690
+So what's missing here
+is that the droplet fate
+
+00:11:00.690 --> 00:11:05.070
+depends not only on the
+size of the droplet,
+
+00:11:05.070 --> 00:11:08.870
+but also on solutes.
+
+00:11:16.310 --> 00:11:20.660
+So what I mean by that is that,
+of course, a droplet coming out
+
+00:11:20.660 --> 00:11:23.900
+of your lungs and passing
+through your pharynx,
+
+00:11:23.900 --> 00:11:26.780
+your vocal chords, is
+not just pure water.
+
+00:11:26.780 --> 00:11:28.460
+It's even not pure saliva.
+
+00:11:28.460 --> 00:11:30.510
+In fact, it contains
+many other molecules.
+
+00:11:30.510 --> 00:11:33.950
+So of course, it contains
+the pathogens themselves,
+
+00:11:33.950 --> 00:11:35.750
+which are solids, and
+they don't evaporate.
+
+00:11:35.750 --> 00:11:40.220
+So whether it's bacteria or
+virus, some of that material
+
+00:11:40.220 --> 00:11:41.630
+has to stay behind.
+
+00:11:41.630 --> 00:11:47.280
+There's all kinds of
+organic molecules,
+
+00:11:47.280 --> 00:11:49.770
+because in fact, the
+mucus that comes out
+
+00:11:49.770 --> 00:11:51.750
+of your lungs as a
+non-Newtonian fluid that's
+
+00:11:51.750 --> 00:11:54.570
+full of macromolecules
+of different types.
+
+00:11:54.570 --> 00:11:56.580
+Those molecules are
+usually charged,
+
+00:11:56.580 --> 00:12:02.680
+as are, in fact, the viruses
+and other pathogens as well.
+
+00:12:02.680 --> 00:12:06.120
+And so there could
+also be hydration,
+
+00:12:06.120 --> 00:12:09.310
+water, so that those
+water molecules,
+
+00:12:09.310 --> 00:12:12.060
+which are not freely in solution
+but were strongly interacting
+
+00:12:12.060 --> 00:12:14.580
+with charge services,
+or charged molecules,
+
+00:12:14.580 --> 00:12:18.210
+and form so-called hydration
+shells around those molecules.
+
+00:12:18.210 --> 00:12:20.880
+And finally, there
+could also be salts,
+
+00:12:20.880 --> 00:12:24.150
+because we all know that
+our body is, in many cases,
+
+00:12:24.150 --> 00:12:27.570
+similar to seawater, and
+has fluids which contain
+
+00:12:27.570 --> 00:12:28.920
+a large number of salts.
+
+00:12:28.920 --> 00:12:32.190
+For example, sodium
+chloride or calcium.
+
+00:12:32.190 --> 00:12:35.080
+And salts love water.
+
+00:12:35.080 --> 00:12:38.700
+So in fact, it's been shown that
+some respiratory aerosols are
+
+00:12:38.700 --> 00:12:41.100
+actually observed to be
+growing after they're
+
+00:12:41.100 --> 00:12:42.420
+emitted from the body.
+
+00:12:42.420 --> 00:12:44.190
+In a humid environment,
+water may actually
+
+00:12:44.190 --> 00:12:45.780
+be condensing onto
+those particles
+
+00:12:45.780 --> 00:12:47.400
+and causing them
+to grow, because it
+
+00:12:47.400 --> 00:12:49.950
+has molecules that love water.
+
+00:12:49.950 --> 00:12:54.300
+And in fact, these kinds
+of molecules or particles
+
+00:12:54.300 --> 00:12:59.080
+that attract and hold water
+are so-called hygroscopic
+
+00:12:59.080 --> 00:13:01.520
+materials.
+
+00:13:01.520 --> 00:13:03.540
+And many respiratory--
+a significant number
+
+00:13:03.540 --> 00:13:07.040
+of respiratory droplets
+are, in fact, hygroscopic.
+
+00:13:07.040 --> 00:13:09.910
+So this whole picture of
+evaporation settling really
+
+00:13:09.910 --> 00:13:10.790
+needs to be modified.
+
+00:13:10.790 --> 00:13:13.760
+The settling part is
+going to always be there.
+
+00:13:13.760 --> 00:13:16.520
+Even a solid particle
+which is settling in air
+
+00:13:16.520 --> 00:13:20.210
+is going to obey this
+Stokes settling velocity.
+
+00:13:20.210 --> 00:13:22.760
+But the evaporation
+part of it is certainly
+
+00:13:22.760 --> 00:13:26.330
+true for pure water, but is
+not necessarily the right way
+
+00:13:26.330 --> 00:13:28.000
+to think about
+respiratory aerosols.
+
+00:13:31.040 --> 00:13:35.690
+So finally then,
+I'll just sketch
+
+00:13:35.690 --> 00:13:38.900
+what happens when
+people have measured
+
+00:13:38.900 --> 00:13:42.290
+respiratory distributions
+of particles,
+
+00:13:42.290 --> 00:13:44.150
+and focusing on
+the aerosol range
+
+00:13:44.150 --> 00:13:47.180
+of the really small particles
+that might remain suspended.
+
+00:13:47.180 --> 00:13:50.360
+So these are particles like
+this guy right here, which
+
+00:13:50.360 --> 00:13:53.780
+are around 1 micron, and
+will have settling times
+
+00:13:53.780 --> 00:13:55.770
+that are on the order of hours.
+
+00:13:55.770 --> 00:13:57.320
+So those particles
+that can linger
+
+00:13:57.320 --> 00:14:00.450
+in the air for long
+periods of time.
+
+00:14:00.450 --> 00:14:02.690
+And so if we look at
+the number of droplets
+
+00:14:02.690 --> 00:14:06.920
+that we have at
+different sizes, and this
+
+00:14:06.920 --> 00:14:08.960
+is for different
+kinds of respiration--
+
+00:14:08.960 --> 00:14:11.000
+and I'll draw this to
+sketch what it would look
+
+00:14:11.000 --> 00:14:12.600
+like on a log scale.
+
+00:14:12.600 --> 00:14:18.080
+So here I'll put 0.01 microns,
+which is 100 nanometers.
+
+00:14:18.080 --> 00:14:25.080
+And then I'll put 1 micron,
+and then 10 microns, and then
+
+00:14:25.080 --> 00:14:27.910
+100 microns.
+
+00:14:27.910 --> 00:14:32.810
+So when you breathe,
+speak, cough,
+
+00:14:32.810 --> 00:14:34.900
+sneeze, you're letting
+out a distribution
+
+00:14:34.900 --> 00:14:37.750
+of particles of all these
+different types of droplets.
+
+00:14:37.750 --> 00:14:39.460
+And those droplets
+will typically
+
+00:14:39.460 --> 00:14:42.970
+contain pathogens, such
+as bacteria or virus.
+
+00:14:42.970 --> 00:14:45.760
+And the way these
+things look is because
+
+00:14:45.760 --> 00:14:49.880
+of these hygroscopic
+solutes, in fact,
+
+00:14:49.880 --> 00:14:52.840
+we don't see that all the little
+ones are evaporating it away
+
+00:14:52.840 --> 00:14:55.390
+in a tiny timescale
+like milliseconds,
+
+00:14:55.390 --> 00:14:56.560
+but in fact, they do linger.
+
+00:14:56.560 --> 00:14:59.770
+And you do have respiratory
+aerosols that can be observed.
+
+00:14:59.770 --> 00:15:01.900
+And so what these distributions
+actually look like,
+
+00:15:01.900 --> 00:15:06.490
+they tend to have a peak around
+half a micron in diameter,
+
+00:15:06.490 --> 00:15:09.960
+or a radius even smaller than
+that would be a quarter micron.
+
+00:15:09.960 --> 00:15:13.730
+And so they look
+something like this.
+
+00:15:13.730 --> 00:15:15.790
+And if you're
+breathing at rest, it
+
+00:15:15.790 --> 00:15:18.850
+might look something like that.
+
+00:15:18.850 --> 00:15:20.890
+And actually, the
+volume fraction,
+
+00:15:20.890 --> 00:15:22.890
+if we were to convert
+this to a volume fraction,
+
+00:15:22.890 --> 00:15:26.130
+ends up being around 1e-16 parts
+
+00:15:26.130 --> 00:15:28.930
+of liquid per volume of air.
+
+00:15:28.930 --> 00:15:31.920
+So these are very
+small droplets.
+
+00:15:31.920 --> 00:15:34.740
+And you can't see them,
+but they're there.
+
+00:15:34.740 --> 00:15:37.410
+If you're resting breathing, you
+might have something like that.
+
+00:15:37.410 --> 00:15:40.600
+There's also an important effect
+of the type of respiration.
+
+00:15:40.600 --> 00:15:43.020
+So if I start talking,
+then it turns out
+
+00:15:43.020 --> 00:15:45.750
+I'm still releasing quite
+a few these aerosols,
+
+00:15:45.750 --> 00:15:49.170
+but now I'm also releasing
+some much larger droplets.
+
+00:15:49.170 --> 00:15:50.780
+I might even be having--
+
+00:15:50.780 --> 00:15:54.840
+depending how I'm speaking, and
+in fact, my personal physiology
+
+00:15:54.840 --> 00:15:56.800
+may vary from
+person to person, I
+
+00:15:56.800 --> 00:15:59.010
+might be emitting even more
+of these larger droplets.
+
+00:15:59.010 --> 00:16:01.560
+Or also, the aerosol
+droplets as well.
+
+00:16:01.560 --> 00:16:03.060
+And then there are
+other activities,
+
+00:16:03.060 --> 00:16:09.810
+such as singing
+or exercise, where
+
+00:16:09.810 --> 00:16:12.180
+you're breathing
+very heavily, where
+
+00:16:12.180 --> 00:16:14.190
+you emit even more droplets.
+
+00:16:14.190 --> 00:16:16.140
+And you can see
+vocalizations, singing,
+
+00:16:16.140 --> 00:16:19.350
+and this can be, for
+example, talking,
+
+00:16:19.350 --> 00:16:21.480
+that those lead
+to more emissions.
+
+00:16:21.480 --> 00:16:23.820
+But the important
+thing is that there is
+
+00:16:23.820 --> 00:16:29.520
+a big population of particles.
+
+00:16:29.520 --> 00:16:32.310
+In fact, the majority
+of particles,
+
+00:16:32.310 --> 00:16:39.040
+by number or even by volume, is
+over here in the aerosol range.
+
+00:16:39.040 --> 00:16:41.430
+So these are particles
+that do hang around.
+
+00:16:41.430 --> 00:16:42.840
+And they float around the room.
+
+00:16:42.840 --> 00:16:45.030
+And they can do so for
+minutes or even hours,
+
+00:16:45.030 --> 00:16:48.900
+depending on their size and
+the conditions of the room.
+
+00:16:48.900 --> 00:16:56.020
+These here are the large
+drops which will sediment out
+
+00:16:56.020 --> 00:16:57.510
+according to this formula here.
+
+00:16:57.510 --> 00:16:59.560
+So the Stokes formula is
+still going to be valid
+
+00:16:59.560 --> 00:17:00.790
+regardless of evaporation.
+
+00:17:00.790 --> 00:17:02.380
+If we know the size,
+we have a sense
+
+00:17:02.380 --> 00:17:04.720
+of how quickly the
+droplets are falling.
+
+00:17:04.720 --> 00:17:06.849
+But the ones we're really
+going to want to focus on
+
+00:17:06.849 --> 00:17:10.329
+are these aerosols for viruses,
+because viruses are small.
+
+00:17:10.329 --> 00:17:12.730
+Whereas bacteria
+are big and they
+
+00:17:12.730 --> 00:17:15.520
+might have to be transmitting
+more of the enlarged drops.
+
+00:17:15.520 --> 00:17:19.000
+So now let's talk a bit
+about the biology of viruses
+
+00:17:19.000 --> 00:17:20.680
+and bacteria and
+see how that might
+
+00:17:20.680 --> 00:17:25.530
+connect to the physics
+of droplet transmission.

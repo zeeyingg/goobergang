@@ -1,0 +1,775 @@
+WEBVTT
+
+00:00:11.020 --> 00:00:13.900
+PROFESSOR: So now let's add
+to our theory ways
+
+00:00:13.900 --> 00:00:16.120
+in which droplets
+can be removed,
+
+00:00:16.120 --> 00:00:19.570
+or infectious virions
+can be removed,
+
+00:00:19.570 --> 00:00:23.140
+within the room in addition
+to ventilation and filtration
+
+00:00:23.140 --> 00:00:25.220
+effects that we've
+already described.
+
+00:00:25.220 --> 00:00:27.190
+So the primary
+way that can occur
+
+00:00:27.190 --> 00:00:29.140
+is simply by settling
+of the droplets.
+
+00:00:29.140 --> 00:00:31.540
+So we've already talked
+about the Stokes settling
+
+00:00:31.540 --> 00:00:34.640
+speed, which scales as the
+radius of the droplets squared.
+
+00:00:34.640 --> 00:00:37.680
+So basically, larger
+droplets fall fairly quickly.
+
+00:00:37.680 --> 00:00:39.370
+And in fact, we've
+already discussed
+
+00:00:39.370 --> 00:00:41.920
+how they can fall to the
+ground in a fairly short time.
+
+00:00:41.920 --> 00:00:45.470
+It could be on the
+order of minutes or less
+
+00:00:45.470 --> 00:00:47.710
+for large droplets,
+such as those
+
+00:00:47.710 --> 00:00:51.670
+which are spewing out of
+your throat when you cough
+
+00:00:51.670 --> 00:00:53.440
+or when you sneeze--
+
+00:00:53.440 --> 00:00:55.240
+out of your nose.
+
+00:00:55.240 --> 00:00:57.910
+But also, the smaller
+aerosol droplets
+
+00:00:57.910 --> 00:00:59.290
+we've already
+calculated can stay
+
+00:00:59.290 --> 00:01:00.620
+in the air for a very long time.
+
+00:01:00.620 --> 00:01:03.190
+So they settle much more slowly,
+but they do still settle.
+
+00:01:03.190 --> 00:01:07.010
+So we can try to see
+how this enters in.
+
+00:01:07.010 --> 00:01:09.400
+And the second topic
+is also deactivation.
+
+00:01:09.400 --> 00:01:11.840
+We've mentioned that the
+virus doesn't live forever.
+
+00:01:11.840 --> 00:01:16.630
+So the virions in these droplets
+do need to find a target
+
+00:01:16.630 --> 00:01:20.710
+and get out of those droplets
+and into some healthy tissue
+
+00:01:20.710 --> 00:01:24.020
+to infect it within a
+certain period of time.
+
+00:01:24.020 --> 00:01:26.530
+So there's a notion of
+a viral deactivation
+
+00:01:26.530 --> 00:01:30.560
+rate which can also be a
+parameter in our models.
+
+00:01:30.560 --> 00:01:34.930
+So if we now add those two
+effects to our existing model--
+
+00:01:34.930 --> 00:01:37.120
+I'll just keep rewriting
+our mass balance equation.
+
+00:01:42.560 --> 00:01:45.650
+And this is the mass balance
+for the concentration
+
+00:01:45.650 --> 00:01:47.930
+of virions in the air.
+
+00:01:47.930 --> 00:01:50.750
+I've also used the terminology
+in chemical engineering.
+
+00:01:50.750 --> 00:01:55.280
+We're going to call this kind
+of approximation the CSTR,
+
+00:01:55.280 --> 00:02:00.300
+or the continuously stirred-tank
+reactor approximation.
+
+00:02:00.300 --> 00:02:02.180
+And now with all the
+effects we're including,
+
+00:02:02.180 --> 00:02:04.850
+it's starting to look more like
+actual modeling of chemical
+
+00:02:04.850 --> 00:02:08.280
+reactors and chemical
+plants by this method.
+
+00:02:08.280 --> 00:02:10.990
+So the mass balance tells me
+that the volume of the room
+
+00:02:10.990 --> 00:02:13.680
+times dc/dt--
+
+00:02:13.680 --> 00:02:15.760
+or again, c is the
+virion concentration
+
+00:02:15.760 --> 00:02:17.680
+per volume in the air--
+
+00:02:17.680 --> 00:02:20.280
+is the production
+rate, P, minus--
+
+00:02:20.280 --> 00:02:23.440
+and then we have a
+flux, which is the flow
+
+00:02:23.440 --> 00:02:25.070
+rate times the concentration.
+
+00:02:25.070 --> 00:02:26.660
+And there are several
+flow rates here.
+
+00:02:26.660 --> 00:02:30.370
+There's Q, which is ventilation.
+
+00:02:30.370 --> 00:02:34.200
+There is filtration,
+which is PF QF.
+
+00:02:34.200 --> 00:02:38.120
+And then we have now
+a new term, which
+
+00:02:38.120 --> 00:02:40.890
+I'll write in another color--
+
+00:02:40.890 --> 00:02:44.910
+plus vsA.
+
+00:02:44.910 --> 00:02:47.850
+So that's the settling here.
+
+00:02:47.850 --> 00:02:49.960
+So that idea is, in
+a well-mixed room,
+
+00:02:49.960 --> 00:02:52.800
+there is a complex flow profile
+which is leading to the mixing
+
+00:02:52.800 --> 00:02:55.500
+by convection of the air.
+
+00:02:55.500 --> 00:02:56.670
+And you might say, well, OK.
+
+00:02:56.670 --> 00:02:59.490
+That flow is very quickly
+carrying the particles up,
+
+00:02:59.490 --> 00:03:00.840
+carrying them down--
+
+00:03:00.840 --> 00:03:03.900
+but on average, the particles
+go down just as much
+
+00:03:03.900 --> 00:03:05.140
+as they go up.
+
+00:03:05.140 --> 00:03:07.440
+And if it's well-mixed, then
+the particles essentially
+
+00:03:07.440 --> 00:03:08.920
+are sampling the whole space.
+
+00:03:08.920 --> 00:03:12.570
+And relative to that well-mixed
+flow, which averages to 0,
+
+00:03:12.570 --> 00:03:14.640
+they are slowly settling.
+
+00:03:14.640 --> 00:03:17.260
+And so a reasonable
+approximation is to say,
+
+00:03:17.260 --> 00:03:19.680
+well, the removal is
+basically happening
+
+00:03:19.680 --> 00:03:23.260
+with a flux rate, which is
+that velocity of falling times
+
+00:03:23.260 --> 00:03:23.760
+the area.
+
+00:03:23.760 --> 00:03:25.530
+That's how quickly
+those particles
+
+00:03:25.530 --> 00:03:27.750
+are falling through
+any horizontal surfaces
+
+00:03:27.750 --> 00:03:35.130
+make relative to their average
+0 motion from convective mixing.
+
+00:03:35.130 --> 00:03:39.030
+So this is the new
+effect of sedimentation.
+
+00:03:43.200 --> 00:03:48.730
+And then actually, I will also
+add to that another new term,
+
+00:03:48.730 --> 00:03:50.430
+which is the deactivation.
+
+00:03:50.430 --> 00:03:55.180
+And so here, we will also add
+lambda v times the volume.
+
+00:03:55.180 --> 00:03:57.750
+So this is just saying that
+throughout the whole volume
+
+00:03:57.750 --> 00:04:01.350
+of the room, there is a rate
+at which every virion is
+
+00:04:01.350 --> 00:04:03.280
+just slowly deactivating.
+
+00:04:03.280 --> 00:04:05.460
+That will be lambda
+v. Also, if you
+
+00:04:05.460 --> 00:04:08.110
+have any volumetric
+treatments of the air,
+
+00:04:08.110 --> 00:04:12.690
+such as chemical disinfectants
+or even UV light,
+
+00:04:12.690 --> 00:04:21.300
+that may also slowly deactivate
+the virus or the virions
+
+00:04:21.300 --> 00:04:23.820
+in the air with a term
+that goes like this.
+
+00:04:23.820 --> 00:04:27.250
+So I'll just mention
+that maybe briefly here.
+
+00:04:27.250 --> 00:04:32.250
+So lambda v is the
+virion deactivation rate.
+
+00:04:35.960 --> 00:04:39.770
+And well, if we look
+at tv which we've
+
+00:04:39.770 --> 00:04:42.560
+talked about before,
+which is lambda v inverse,
+
+00:04:42.560 --> 00:04:45.480
+this is the deactivation time.
+
+00:04:47.990 --> 00:04:51.110
+This thing has been
+measured to be of order
+
+00:04:51.110 --> 00:04:53.840
+of 1 hour in some studies.
+
+00:04:53.840 --> 00:04:58.400
+But also , even greater than 16
+hours in aerosol form in other
+
+00:04:58.400 --> 00:05:00.630
+studies for SARS-CoV-2.
+
+00:05:00.630 --> 00:05:03.670
+So it could be potentially long.
+
+00:05:07.820 --> 00:05:14.470
+Also, this could include
+effects such as I mentioned--
+
+00:05:14.470 --> 00:05:18.500
+UV light treatments,
+which might be operating
+
+00:05:18.500 --> 00:05:21.070
+in a certain part of the room,
+but then the air circulates
+
+00:05:21.070 --> 00:05:25.390
+and we're essentially treating a
+significant part of the volume.
+
+00:05:25.390 --> 00:05:27.970
+It could also be
+chemical disinfectants.
+
+00:05:34.620 --> 00:05:36.390
+So there are various
+chemicals that
+
+00:05:36.390 --> 00:05:39.360
+can be sprayed in the air which
+are believed to essentially
+
+00:05:39.360 --> 00:05:41.970
+kill the virus or
+deactivate the virions,
+
+00:05:41.970 --> 00:05:44.830
+although they may cause
+other harmful effects,
+
+00:05:44.830 --> 00:05:46.230
+and so it's not so widely used.
+
+00:05:46.230 --> 00:05:47.610
+But in principle,
+that would also
+
+00:05:47.610 --> 00:05:51.950
+appear in our simple model,
+lumped into lambda v.
+
+00:05:51.950 --> 00:05:53.790
+So let's put all these
+effects together now.
+
+00:05:53.790 --> 00:05:56.030
+So again, we haven't really
+changed the calculation much.
+
+00:05:56.030 --> 00:05:58.230
+We're just building it up
+and making it a little more
+
+00:05:58.230 --> 00:06:00.750
+complicated each time.
+
+00:06:00.750 --> 00:06:01.870
+So let's see here.
+
+00:06:01.870 --> 00:06:03.510
+So one thing we did
+with this equation
+
+00:06:03.510 --> 00:06:06.630
+is we divided both
+sides by v. And so let
+
+00:06:06.630 --> 00:06:10.140
+me write this equation
+again after such a division.
+
+00:06:10.140 --> 00:06:14.850
+That would be
+dc/dt is equal to--
+
+00:06:14.850 --> 00:06:23.180
+well there's P/v. But
+then we have over here--
+
+00:06:23.180 --> 00:06:26.270
+Q/v is our lambda.
+
+00:06:26.270 --> 00:06:28.190
+But notice, all these
+things are essentially
+
+00:06:28.190 --> 00:06:32.770
+giving us a correction to
+lambda, the relaxation time.
+
+00:06:32.770 --> 00:06:35.520
+And actually, I should
+say this is a minus sign.
+
+00:06:35.520 --> 00:06:37.610
+So we get minus lambda.
+
+00:06:37.610 --> 00:06:40.670
+And I'll say lambda c, just
+for the relaxation rate
+
+00:06:40.670 --> 00:06:43.380
+of the concentration field.
+
+00:06:43.380 --> 00:06:44.900
+So we can lump all
+these parameters
+
+00:06:44.900 --> 00:06:49.940
+and we can write lambda c is--
+
+00:06:49.940 --> 00:06:52.860
+Well, from the first
+one, Q/v is lambda a.
+
+00:06:52.860 --> 00:06:56.240
+That's the air change
+rate of outdoor fresh air.
+
+00:06:56.240 --> 00:07:01.340
+There is PF lambda F, which is
+the rate of filtration times
+
+00:07:01.340 --> 00:07:06.560
+the filtration efficiency, PF.
+
+00:07:06.560 --> 00:07:09.740
+And then we have another term
+which we can write as-- well,
+
+00:07:09.740 --> 00:07:12.130
+we have lambda v.
+That's an easy one.
+
+00:07:12.130 --> 00:07:13.880
+And then the sedimentation
+term is the one
+
+00:07:13.880 --> 00:07:15.710
+I want to focus on right now.
+
+00:07:15.710 --> 00:07:22.550
+That is vs. We can write it as
+vs/h, where I've divided by v
+
+00:07:22.550 --> 00:07:24.650
+and I'm writing v/a is h.
+
+00:07:24.650 --> 00:07:28.310
+So I'm writing h equals v/a.
+
+00:07:28.310 --> 00:07:31.250
+So if we have a
+rectangular box of a room,
+
+00:07:31.250 --> 00:07:33.230
+then h is the ceiling height.
+
+00:07:33.230 --> 00:07:37.670
+But this is some kind of
+effective ceiling height
+
+00:07:37.670 --> 00:07:40.830
+if it's not a perfect box shape.
+
+00:07:44.070 --> 00:07:46.820
+But if you take the volume
+and divide by the projected
+
+00:07:46.820 --> 00:07:49.280
+area of horizontal
+surfaces, then that's
+
+00:07:49.280 --> 00:07:51.140
+giving you a sense of
+the typical height.
+
+00:07:51.140 --> 00:07:53.090
+And that's the typical
+distance by which
+
+00:07:53.090 --> 00:07:55.640
+particles have to fall.
+
+00:07:55.640 --> 00:07:57.780
+And notice, velocity
+is distance per time.
+
+00:07:57.780 --> 00:07:59.750
+So when I do vs,
+and divide by h I
+
+00:07:59.750 --> 00:08:02.250
+am getting something with
+units of inverse time.
+
+00:08:02.250 --> 00:08:03.920
+So it's just like all
+the other lambdas.
+
+00:08:03.920 --> 00:08:05.880
+It is basically a rate--
+
+00:08:05.880 --> 00:08:06.680
+something per time.
+
+00:08:12.610 --> 00:08:16.650
+So this is the concentration
+relaxation rate.
+
+00:08:22.700 --> 00:08:25.640
+I guess it would be the
+theory on concentration
+
+00:08:25.640 --> 00:08:28.880
+in the air, which is relaxing
+at this rate, lambda c.
+
+00:08:28.880 --> 00:08:31.130
+And then we come back to
+solving the same simple order
+
+00:08:31.130 --> 00:08:33.350
+of differential equation
+that we've done all along.
+
+00:08:33.350 --> 00:08:39.330
+And the solution's just c
+of t is a steady state value
+
+00:08:39.330 --> 00:08:43.850
+times 1 minus e to
+the minus lambda ct,
+
+00:08:43.850 --> 00:08:49.620
+assuming that this thing is
+a constant for the moment.
+
+00:08:49.620 --> 00:08:58.520
+And also, we know that the
+cs is p over v lambda c.
+
+00:08:58.520 --> 00:09:00.200
+So basically, if
+lambda c is high,
+
+00:09:00.200 --> 00:09:04.820
+if all these removal rates are
+high, then that makes cs low.
+
+00:09:04.820 --> 00:09:08.300
+So the background
+concentration of the room
+
+00:09:08.300 --> 00:09:12.590
+is much smaller if these
+lambda rates are all high.
+
+00:09:12.590 --> 00:09:15.120
+Also, if the lambda
+rates are high,
+
+00:09:15.120 --> 00:09:16.790
+then the relaxation
+is very fast,
+
+00:09:16.790 --> 00:09:20.000
+so you very quickly
+get to the final value.
+
+00:09:20.000 --> 00:09:23.580
+And so that's actually worth
+sketching what that looks like.
+
+00:09:23.580 --> 00:09:31.670
+So if I plot what is the
+concentration, c, as a function
+
+00:09:31.670 --> 00:09:34.460
+of time, we have
+here this lambda c
+
+00:09:34.460 --> 00:09:38.610
+inverse is the overall
+concentration relaxation time.
+
+00:09:38.610 --> 00:09:44.570
+So it looks like an exponential
+relaxation to a value cs.
+
+00:09:44.570 --> 00:09:46.610
+But I just want to
+emphasize what I just
+
+00:09:46.610 --> 00:09:49.190
+said verbally, looking
+at these equations,
+
+00:09:49.190 --> 00:09:51.860
+is that as I vary lambda c--
+
+00:09:51.860 --> 00:09:53.510
+so if I have a fast relaxation.
+
+00:09:53.510 --> 00:09:55.550
+Let's say lambda c
+is a large value.
+
+00:09:55.550 --> 00:09:58.040
+Then I start out
+at the same rate,
+
+00:09:58.040 --> 00:10:01.740
+but I saturate a lot faster
+and at a lower value.
+
+00:10:01.740 --> 00:10:06.240
+So if it's here, this
+is fast lambda c.
+
+00:10:06.240 --> 00:10:08.990
+So now if I increase lambda
+c relative to the blue curve,
+
+00:10:08.990 --> 00:10:10.280
+the whole thing comes down.
+
+00:10:10.280 --> 00:10:13.300
+But also, it relaxes
+more quickly.
+
+00:10:13.300 --> 00:10:16.200
+On the other hand, if
+I have slow relaxation,
+
+00:10:16.200 --> 00:10:19.020
+because any of these
+processes here are slow,
+
+00:10:19.020 --> 00:10:22.140
+then I get something which
+relaxes much more slowly
+
+00:10:22.140 --> 00:10:24.240
+and ends up at a higher value.
+
+00:10:24.240 --> 00:10:27.600
+So if someone is breathing
+infectious air out,
+
+00:10:27.600 --> 00:10:31.080
+exhaling, the infected
+person, and there's
+
+00:10:31.080 --> 00:10:33.450
+only very slow processes
+in the room which
+
+00:10:33.450 --> 00:10:36.990
+are removing that
+infectious air,
+
+00:10:36.990 --> 00:10:38.750
+then it's slow to
+build up, but it
+
+00:10:38.750 --> 00:10:41.130
+keeps building and building
+and building until it finally
+
+00:10:41.130 --> 00:10:41.690
+saturates.
+
+00:10:41.690 --> 00:10:44.130
+So this is basically,
+whenever lambda
+
+00:10:44.130 --> 00:10:46.890
+c, is not a large
+value or slower,
+
+00:10:46.890 --> 00:10:50.760
+you have a slow process, but
+it also builds up a lot higher.
+
+00:10:50.760 --> 00:10:55.000
+So this effect of lambda_c is
+very important to keep in mind,
+
+00:10:55.000 --> 00:10:57.600
+especially because
+these parameters here
+
+00:10:57.600 --> 00:10:59.010
+are not necessarily constants.
+
+00:10:59.010 --> 00:11:02.350
+In particular, v_S has a very
+strong dependence on size.
+
+00:11:02.350 --> 00:11:05.250
+So these different kind
+of saturation curves
+
+00:11:05.250 --> 00:11:08.680
+are, at the very least,
+dependent on the size
+
+00:11:08.680 --> 00:11:10.390
+of the droplets that
+we're talking about.
+
+00:11:10.390 --> 00:11:13.260
+And there's not just one size,
+so we will come to that point.

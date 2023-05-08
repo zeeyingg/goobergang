@@ -1,0 +1,405 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:12.850
+PROFESSOR: So now let's
+talk about viruses,
+
+00:00:12.850 --> 00:00:15.410
+which is our main focus
+in these lectures.
+
+00:00:15.410 --> 00:00:17.500
+So viruses are very
+different from bacteria,
+
+00:00:17.500 --> 00:00:24.530
+because they are pathogens which
+infect the cells of your body.
+
+00:00:24.530 --> 00:00:27.790
+And so they themselves are
+not large cellular organisms,
+
+00:00:27.790 --> 00:00:30.430
+but in fact have a
+different biology.
+
+00:00:30.430 --> 00:00:35.720
+So they consist
+of virions, which
+
+00:00:35.720 --> 00:00:44.150
+are a capsid form of the virus,
+which contains a strand of RNA,
+
+00:00:44.150 --> 00:00:48.200
+which is some genetic material
+that, when this capsid is then
+
+00:00:48.200 --> 00:00:52.460
+integrated into the host cell,
+the RNA can basically activate
+
+00:00:52.460 --> 00:00:56.150
+to infect that cell, and also
+replicate itself and make
+
+00:00:56.150 --> 00:00:58.460
+some more virions, which
+can spread out and infect
+
+00:00:58.460 --> 00:00:59.780
+additional cells.
+
+00:00:59.780 --> 00:01:02.660
+So the basic entity that
+we're worried about here
+
+00:01:02.660 --> 00:01:06.710
+is really a small object, which
+is often shaped like a sphere,
+
+00:01:06.710 --> 00:01:10.010
+or maybe it's an
+ellipsoid, the virion.
+
+00:01:10.010 --> 00:01:11.850
+And it's much, much smaller.
+
+00:01:11.850 --> 00:01:15.539
+So the typical size is
+really on the order --
+
+00:01:15.539 --> 00:01:19.910
+the radius, let's say -- is on
+the order of 100 nanometers.
+
+00:01:19.910 --> 00:01:24.650
+So that is 0.1 micron or less,
+so much smaller than even
+
+00:01:24.650 --> 00:01:28.070
+the smallest aerosol droplets
+that we can easily observe.
+
+00:01:28.070 --> 00:01:30.320
+So they're extremely tiny.
+
+00:01:30.320 --> 00:01:32.660
+There's a couple examples
+we can think about,
+
+00:01:32.660 --> 00:01:34.350
+which are famous examples.
+
+00:01:34.350 --> 00:01:42.750
+So one class of viruses
+cause the disease measles.
+
+00:01:42.750 --> 00:01:46.840
+And measles has a virus
+shape, as you can see here,
+
+00:01:46.840 --> 00:01:50.160
+which is not quite spherical but
+usually a little bit elongated,
+
+00:01:50.160 --> 00:01:52.320
+like an ellipsoid,
+and has a typical size
+
+00:01:52.320 --> 00:01:57.479
+of 100 to 300
+nanometers in diameter.
+
+00:01:57.479 --> 00:02:00.120
+So measles is still a
+very active disease,
+
+00:02:00.120 --> 00:02:02.370
+which we have been
+controlling for a long time
+
+00:02:02.370 --> 00:02:03.690
+with vaccinations.
+
+00:02:03.690 --> 00:02:07.170
+But despite that, there
+were still, in 2018,
+
+00:02:07.170 --> 00:02:11.210
+114,000 deaths
+worldwide from measles.
+
+00:02:11.210 --> 00:02:15.180
+And it's estimated that in
+the eight years before that --
+
+00:02:15.180 --> 00:02:17.700
+actually, in the 20 years
+before that, excuse me --
+
+00:02:17.700 --> 00:02:21.030
+that the vaccine has saved
+around 23 million lives that
+
+00:02:21.030 --> 00:02:23.160
+would be lost otherwise
+if this virus were
+
+00:02:23.160 --> 00:02:26.720
+allowed to propagate.
+
+00:02:26.720 --> 00:02:30.660
+And measles -- it is
+known to be airborne.
+
+00:02:30.660 --> 00:02:34.350
+So this is the classic example
+of an airborne transmission.
+
+00:02:34.350 --> 00:02:37.380
+It's been studied
+by, for example,
+
+00:02:37.380 --> 00:02:40.230
+Riley in the 1970s,
+who demonstrated
+
+00:02:40.230 --> 00:02:45.210
+measles transmission in
+schools and in other settings.
+
+00:02:45.210 --> 00:02:47.700
+And from our perspective,
+in this lecture,
+
+00:02:47.700 --> 00:02:48.579
+it's not surprising.
+
+00:02:48.579 --> 00:02:50.680
+These viruses or
+virions are so small,
+
+00:02:50.680 --> 00:02:52.890
+they can be contained in
+the smallest droplets, which
+
+00:02:52.890 --> 00:02:57.150
+are easily present
+in the air for hours,
+
+00:02:57.150 --> 00:02:59.460
+and so they are
+not settling out.
+
+00:02:59.460 --> 00:03:02.400
+So what's of much more
+interest to us today
+
+00:03:02.400 --> 00:03:05.070
+is the family of coronaviruses.
+
+00:03:05.070 --> 00:03:09.570
+So coronaviruses look
+very similar to this one,
+
+00:03:09.570 --> 00:03:13.240
+but they have these
+proteins that stick out,
+
+00:03:13.240 --> 00:03:14.790
+which we've all
+seen, that look a bit
+
+00:03:14.790 --> 00:03:17.670
+like a crown, or a corona.
+
+00:03:17.670 --> 00:03:20.410
+And they still have
+an RNA on the inside.
+
+00:03:26.120 --> 00:03:29.270
+And there's lots of different
+human coronaviruses.
+
+00:03:29.270 --> 00:03:34.220
+So there are the standard
+human coronaviruses,
+
+00:03:34.220 --> 00:03:36.530
+which cause the common cold.
+
+00:03:39.470 --> 00:03:42.700
+And there are four typical
+human coronaviruses
+
+00:03:42.700 --> 00:03:45.370
+that cause common colds
+that we all experience,
+
+00:03:45.370 --> 00:03:48.579
+and more serious pneumonias,
+but generally not
+
+00:03:48.579 --> 00:03:50.500
+life-threatening illnesses.
+
+00:03:50.500 --> 00:03:56.110
+But there are variations of the
+coronavirus mutations, which
+
+00:03:56.110 --> 00:03:58.870
+are constantly coming
+into contact with humans
+
+00:03:58.870 --> 00:04:02.060
+and can cause much
+more serious diseases.
+
+00:04:02.060 --> 00:04:06.700
+So in recent memory, we've had
+the Severe Acute Respiratory
+
+00:04:06.700 --> 00:04:10.600
+Syndrome coronavirus.
+
+00:04:10.600 --> 00:04:15.250
+And there was a big outbreak,
+reasonably big outbreak
+
+00:04:15.250 --> 00:04:18.700
+around 2003, that
+started also in China.
+
+00:04:18.700 --> 00:04:21.910
+And it infected around 8,000
+people, and about 800 died.
+
+00:04:21.910 --> 00:04:24.910
+So It was a fairly lethal
+disease, about 10% mortality,
+
+00:04:24.910 --> 00:04:28.540
+but fortunately, it
+didn't spread too widely.
+
+00:04:28.540 --> 00:04:31.480
+More recently, there was
+the Middle East Respiratory
+
+00:04:31.480 --> 00:04:37.300
+Syndrome coronavirus,
+which was in 2012.
+
+00:04:37.300 --> 00:04:40.930
+And this led, over the couple
+of years after that as well,
+
+00:04:40.930 --> 00:04:45.790
+to around 2,500 cases
+and around 850 deaths.
+
+00:04:45.790 --> 00:04:49.060
+So again, an outbreak that
+was potentially very serious
+
+00:04:49.060 --> 00:04:53.140
+but remained controlled and
+was primarily in Saudi Arabia.
+
+00:04:53.140 --> 00:04:59.520
+And then we come to SARS-CoV-2,
+which, we all know the story.
+
+00:04:59.520 --> 00:05:01.350
+So this is the
+novel coronavirus,
+
+00:05:01.350 --> 00:05:08.010
+which appeared in Wuhan,
+China, in December 2019,
+
+00:05:08.010 --> 00:05:11.140
+and then led to the
+present global pandemic,
+
+00:05:11.140 --> 00:05:15.460
+which so far has claimed
+almost a million deaths.
+
+00:05:15.460 --> 00:05:18.510
+So as of today, which
+is September 24,
+
+00:05:18.510 --> 00:05:22.890
+it's around 976,000
+deaths worldwide.
+
+00:05:22.890 --> 00:05:27.760
+And the confirmed cases are
+currently at about 3.8 million,
+
+00:05:27.760 --> 00:05:30.630
+which is a reasonable fraction
+of the world's population,
+
+00:05:30.630 --> 00:05:32.760
+around 7 billion.
+
+00:05:32.760 --> 00:05:35.850
+So what we can
+understand from all this
+
+00:05:35.850 --> 00:05:38.700
+is that these are
+very small objects.
+
+00:05:38.700 --> 00:05:40.590
+They cannot swim.
+
+00:05:40.590 --> 00:05:44.830
+And so they are just sort
+of floating in droplets.
+
+00:05:44.830 --> 00:05:47.880
+And so, of course, they
+can be in small droplets.
+
+00:05:47.880 --> 00:05:49.650
+And as we'll discussed
+next, you can
+
+00:05:49.650 --> 00:05:51.780
+imagine that they're
+actually more
+
+00:05:51.780 --> 00:05:53.460
+infectious in those
+small droplets,
+
+00:05:53.460 --> 00:05:57.450
+because they can more easily get
+out and reach host cells when
+
+00:05:57.450 --> 00:05:58.560
+they're transmitted.
+
+00:05:58.560 --> 00:06:00.720
+Moreover, small
+droplets are much easier
+
+00:06:00.720 --> 00:06:02.790
+to get deep into your
+respiratory system,
+
+00:06:02.790 --> 00:06:05.070
+into the smallest
+cavities of your lungs,
+
+00:06:05.070 --> 00:06:08.040
+where there's a high surface
+area for that interaction
+
+00:06:08.040 --> 00:06:09.980
+to take place.

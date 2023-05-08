@@ -1,0 +1,1091 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:14.010
+PROFESSOR: So let's begin to
+examine our assumptions having
+
+00:00:14.010 --> 00:00:17.860
+to do with the transport
+of respiratory droplets
+
+00:00:17.860 --> 00:00:21.700
+in a well-mixed room by thinking
+about effects of fluid flow
+
+00:00:21.700 --> 00:00:25.310
+and transport going
+beyond a well-mixed room.
+
+00:00:25.310 --> 00:00:26.980
+So to begin thinking
+about this problem,
+
+00:00:26.980 --> 00:00:30.550
+it's instructive to think of
+examples of simpler flows,
+
+00:00:30.550 --> 00:00:32.920
+in particular the
+canonical problem of flow
+
+00:00:32.920 --> 00:00:33.940
+past an object--
+
+00:00:33.940 --> 00:00:35.860
+for example, a cylinder.
+
+00:00:35.860 --> 00:00:40.270
+Here I've shown a cylinder
+placed in a uniform flow field
+
+00:00:40.270 --> 00:00:45.830
+with increasing speed
+and fixed object size.
+
+00:00:45.830 --> 00:00:48.850
+So as you can see,
+at low speeds,
+
+00:00:48.850 --> 00:00:52.930
+the streamlines are fairly
+reversible and simple looking.
+
+00:00:52.930 --> 00:00:55.570
+And at high speeds, you end
+up with very complicated
+
+00:00:55.570 --> 00:00:57.710
+turbulent flows.
+
+00:00:57.710 --> 00:01:00.220
+A very simple parameter
+controls the transition
+
+00:01:00.220 --> 00:01:03.190
+between these flow regimes,
+which is the Reynolds number.
+
+00:01:09.810 --> 00:01:12.789
+This is a
+dimensionless quantity,
+
+00:01:12.789 --> 00:01:15.630
+which is a property
+of the fluid, which
+
+00:01:15.630 --> 00:01:20.860
+includes the kinetic
+viscosity, for example, of air.
+
+00:01:20.860 --> 00:01:25.840
+And I'll just write this,
+kinematic viscosity.
+
+00:01:29.020 --> 00:01:31.420
+And it has a measure
+of the flow speed.
+
+00:01:31.420 --> 00:01:34.600
+So we'll call that U. So the
+magnitude of the background
+
+00:01:34.600 --> 00:01:41.110
+flow here is U. And it has some
+information about the geometry,
+
+00:01:41.110 --> 00:01:42.890
+in particular the
+size of the object.
+
+00:01:42.890 --> 00:01:46.400
+So for example, we could
+define this based on,
+
+00:01:46.400 --> 00:01:50.720
+well, let's just say, some
+length scale L, which could be,
+
+00:01:50.720 --> 00:01:53.810
+for example, the
+radius of the cylinder.
+
+00:01:53.810 --> 00:01:59.060
+And in the case of this
+cylinder that I've shown here,
+
+00:01:59.060 --> 00:02:04.090
+if the Reynolds number
+is less than around 10,
+
+00:02:04.090 --> 00:02:08.050
+you're in this regime
+here of so-called creeping
+
+00:02:08.050 --> 00:02:12.960
+flow where you can see
+the streamlines are
+
+00:02:12.960 --> 00:02:14.070
+very simple looking.
+
+00:02:14.070 --> 00:02:15.480
+And they are reversible.
+
+00:02:15.480 --> 00:02:17.520
+So they kind of smoothly
+conform to the object.
+
+00:02:17.520 --> 00:02:20.000
+And you can run the flow
+in the backwards direction.
+
+00:02:20.000 --> 00:02:23.060
+You'll get exactly
+the same streamlines.
+
+00:02:23.060 --> 00:02:25.350
+But once you get to a
+Reynolds number of around 10,
+
+00:02:25.350 --> 00:02:27.020
+then you start to see
+different effects.
+
+00:02:27.020 --> 00:02:30.730
+And that's because the physical
+interpretation of this quantity
+
+00:02:30.730 --> 00:02:36.430
+is the ratio of inertia, which
+is the tendency for fluid
+
+00:02:36.430 --> 00:02:38.620
+to want to keep moving
+in the same direction
+
+00:02:38.620 --> 00:02:40.300
+due to its mass
+that has been set
+
+00:02:40.300 --> 00:02:43.940
+into motion,
+relative to viscosity
+
+00:02:43.940 --> 00:02:44.900
+or to viscous stresses.
+
+00:02:48.079 --> 00:02:49.760
+And that's the
+tendency for the fluid
+
+00:02:49.760 --> 00:02:51.320
+to have some
+friction with itself.
+
+00:02:51.320 --> 00:02:53.660
+If you start to move
+a piece of the fluid,
+
+00:02:53.660 --> 00:02:55.770
+other elements of fluid
+nearby are pulling back.
+
+00:02:55.770 --> 00:02:56.690
+There's some friction.
+
+00:02:56.690 --> 00:02:58.640
+And it impedes the motion.
+
+00:02:58.640 --> 00:03:02.690
+So whenever inertia is getting
+bigger than viscous stress,
+
+00:03:02.690 --> 00:03:04.430
+we start to have a
+tendency for the fluid
+
+00:03:04.430 --> 00:03:06.260
+to want to keep going
+in the same direction.
+
+00:03:06.260 --> 00:03:08.260
+And it can lead to
+very complicated flows.
+
+00:03:08.260 --> 00:03:10.640
+In particular here, the first
+thing that starts to happen
+
+00:03:10.640 --> 00:03:15.200
+is the fluid kind of
+whizzes past the cylinder
+
+00:03:15.200 --> 00:03:18.710
+and then starts to have a
+recirculation on the back side.
+
+00:03:18.710 --> 00:03:22.140
+So this happens around
+Reynolds number equals 10.
+
+00:03:22.140 --> 00:03:26.880
+So if you have Reynolds
+number greater than around 10,
+
+00:03:26.880 --> 00:03:30.370
+you have some
+vortices are created.
+
+00:03:30.370 --> 00:03:34.240
+So it's no longer an
+irrotational flow.
+
+00:03:34.240 --> 00:03:37.540
+It has some obvious
+closed streamlines.
+
+00:03:37.540 --> 00:03:39.760
+If we increase the
+Reynolds number further,
+
+00:03:39.760 --> 00:03:42.910
+like in this situation here, we
+get to Reynolds number bigger
+
+00:03:42.910 --> 00:03:45.910
+than around 90.
+
+00:03:45.910 --> 00:03:48.880
+Then those vortices themselves
+are starting to spin fast.
+
+00:03:48.880 --> 00:03:50.350
+And they also have some inertia.
+
+00:03:50.350 --> 00:03:52.660
+And they start to separate.
+
+00:03:52.660 --> 00:03:55.760
+Also the fluid is pulling
+those vortices away.
+
+00:03:55.760 --> 00:03:58.980
+So we have vortex shedding.
+
+00:04:02.610 --> 00:04:05.630
+And that happens in
+an unsteady fashion.
+
+00:04:05.630 --> 00:04:07.090
+So what happens is there's--
+
+00:04:07.090 --> 00:04:10.290
+one of these two vortices goes
+unstable first and peels away
+
+00:04:10.290 --> 00:04:11.540
+and starts to move downstream.
+
+00:04:11.540 --> 00:04:13.120
+The other one kind
+of takes its place.
+
+00:04:13.120 --> 00:04:15.580
+And it's almost like a
+flapping flag kind of motion,
+
+00:04:15.580 --> 00:04:17.990
+where a train of
+vortices is released.
+
+00:04:17.990 --> 00:04:23.430
+So this is an
+unsteady situation.
+
+00:04:23.430 --> 00:04:27.290
+And this is called
+a vortex sheet.
+
+00:04:27.290 --> 00:04:29.140
+But it's basically
+an array of vortices
+
+00:04:29.140 --> 00:04:31.890
+that are being released in
+a time-dependent fashion.
+
+00:04:31.890 --> 00:04:33.890
+And at first, that's a
+fairly regular process
+
+00:04:33.890 --> 00:04:36.260
+when the Reynolds number
+is on the order of 100.
+
+00:04:36.260 --> 00:04:38.300
+But if you keep increasing
+the Reynolds number,
+
+00:04:38.300 --> 00:04:40.640
+that process becomes
+more and more chaotic
+
+00:04:40.640 --> 00:04:44.720
+until there's a transition to
+turbulence, which is a fully
+
+00:04:44.720 --> 00:04:50.890
+chaotic, heavily-mixed flow.
+
+00:04:50.890 --> 00:04:53.460
+And that happens
+through an instability
+
+00:04:53.460 --> 00:04:55.980
+around Reynolds
+number of a 2,000,
+
+00:04:55.980 --> 00:04:58.909
+where you have a turbulent wake.
+
+00:04:58.909 --> 00:05:01.520
+So behind the object
+or the obstacle,
+
+00:05:01.520 --> 00:05:04.250
+there is a steady
+stream of turbulence
+
+00:05:04.250 --> 00:05:05.750
+where, as I've tried
+to sketch here,
+
+00:05:05.750 --> 00:05:08.670
+you have vortices and
+eddies of all sizes.
+
+00:05:08.670 --> 00:05:10.340
+So there are eddies
+like I've shown here
+
+00:05:10.340 --> 00:05:13.470
+that are at the scale of
+the cylinder, but then much,
+
+00:05:13.470 --> 00:05:14.780
+much smaller ones, too.
+
+00:05:14.780 --> 00:05:19.330
+So it's a very complicated,
+time-dependent flow field.
+
+00:05:19.330 --> 00:05:20.960
+So we can see here,
+the Reynolds number
+
+00:05:20.960 --> 00:05:22.940
+has a big effect on
+the types of flows
+
+00:05:22.940 --> 00:05:24.980
+that are generated
+and obviously also
+
+00:05:24.980 --> 00:05:29.510
+on mixing as you go from
+low to high Reynolds number.
+
+00:05:29.510 --> 00:05:32.840
+So let's think about
+how that would change
+
+00:05:32.840 --> 00:05:35.750
+in the setting of indoor air.
+
+00:05:35.750 --> 00:05:40.360
+So let's look at flow.
+
+00:05:40.360 --> 00:05:43.590
+Let's look at airflow in a room.
+
+00:05:47.080 --> 00:05:50.770
+So let's think about
+the different scenarios
+
+00:05:50.770 --> 00:05:51.360
+we could have.
+
+00:05:51.360 --> 00:05:55.440
+So maybe our first
+scenario would be
+
+00:05:55.440 --> 00:05:57.050
+we have all the windows closed.
+
+00:05:57.050 --> 00:05:58.390
+There's no movement in the room.
+
+00:05:58.390 --> 00:05:59.880
+It's essentially a still room.
+
+00:05:59.880 --> 00:06:01.510
+But as we've discussed
+earlier, there's
+
+00:06:01.510 --> 00:06:03.800
+still some air change
+with the outside.
+
+00:06:03.800 --> 00:06:06.200
+So air is still
+leaking to the outside.
+
+00:06:06.200 --> 00:06:10.330
+There's still a little bit
+of instability and movement
+
+00:06:10.330 --> 00:06:12.760
+also from thermal effects,
+which we'll talk about shortly.
+
+00:06:12.760 --> 00:06:15.120
+So there is a little
+bit of flow in the room.
+
+00:06:15.120 --> 00:06:17.800
+And in particular,
+let's just ask ourselves
+
+00:06:17.800 --> 00:06:21.130
+what happens if we have a
+little bit of air exchange
+
+00:06:21.130 --> 00:06:24.940
+with the outside, which is
+this flow rate Q that we've
+
+00:06:24.940 --> 00:06:32.690
+discussed, but in the case
+of natural ventilation
+
+00:06:32.690 --> 00:06:33.590
+with closed windows.
+
+00:06:37.300 --> 00:06:41.240
+And in that situation,
+we've used as an estimate
+
+00:06:41.240 --> 00:06:45.050
+that the air change
+time, or air change rate,
+
+00:06:45.050 --> 00:06:50.040
+might be on the order of
+0.3 air changes per hour,
+
+00:06:50.040 --> 00:06:52.740
+which corresponds
+to 3 hours' time
+
+00:06:52.740 --> 00:06:55.190
+to have the room air changed.
+
+00:06:55.190 --> 00:06:57.050
+So that's a pretty slow pace.
+
+00:06:57.050 --> 00:07:02.030
+If you consider a room
+whose height is 2.7 meters,
+
+00:07:02.030 --> 00:07:06.140
+just to put a number on it, and
+you have that air change rate,
+
+00:07:06.140 --> 00:07:09.590
+then the average
+velocity in the room
+
+00:07:09.590 --> 00:07:16.550
+is on the order of
+1 meter per hour.
+
+00:07:16.550 --> 00:07:18.150
+So that's a pretty slow pace.
+
+00:07:18.150 --> 00:07:21.120
+So to go 1 meter, it's going
+take a whole hour, so very
+
+00:07:21.120 --> 00:07:21.620
+slow.
+
+00:07:21.620 --> 00:07:24.620
+So you think, not much
+interesting is happening.
+
+00:07:24.620 --> 00:07:26.290
+But if you calculate
+the Reynolds number
+
+00:07:26.290 --> 00:07:29.380
+for this situation,
+the Reynolds number
+
+00:07:29.380 --> 00:07:34.409
+is actually 110
+with those numbers.
+
+00:07:34.409 --> 00:07:36.450
+And that's already
+putting us in the regime
+
+00:07:36.450 --> 00:07:39.510
+of not only forming vortices,
+but also having some vortex
+
+00:07:39.510 --> 00:07:40.440
+shedding.
+
+00:07:40.440 --> 00:07:43.050
+So even when a room is
+rather still, and there's
+
+00:07:43.050 --> 00:07:47.520
+just some very gentle movement
+of air out the windows,
+
+00:07:47.520 --> 00:07:50.230
+or cracks around the
+windows and other places
+
+00:07:50.230 --> 00:07:51.690
+where the room may
+not be tight, or
+
+00:07:51.690 --> 00:07:54.480
+from some other minor
+movement going on in the room,
+
+00:07:54.480 --> 00:07:58.860
+we already expect to see some
+unsteady vortices and movement
+
+00:07:58.860 --> 00:08:00.920
+of air in that room.
+
+00:08:00.920 --> 00:08:05.840
+But the situation gets more--
+
+00:08:05.840 --> 00:08:11.990
+gets much stronger if we now
+move to having ventilation.
+
+00:08:11.990 --> 00:08:16.460
+So let's imagine that we have
+an HVAC unit on top-- maybe,
+
+00:08:16.460 --> 00:08:18.470
+let's say, an air
+conditioner, which
+
+00:08:18.470 --> 00:08:22.820
+is blowing air into the room
+perhaps from somewhere above.
+
+00:08:22.820 --> 00:08:25.820
+So now we have a flow which
+is going into the room.
+
+00:08:25.820 --> 00:08:28.400
+It still has to leave
+somewhere, let's say,
+
+00:08:28.400 --> 00:08:30.110
+through an outlet vent.
+
+00:08:33.659 --> 00:08:35.909
+And in this case, the flow
+rate might be a lot higher.
+
+00:08:35.909 --> 00:08:39.360
+So let's imagine, now, we
+have lambda a would be,
+
+00:08:39.360 --> 00:08:41.840
+let's say, 8 air
+changes per hour.
+
+00:08:44.980 --> 00:08:47.260
+And this would be
+looking at a typical case
+
+00:08:47.260 --> 00:08:48.700
+of mechanical ventilation.
+
+00:08:51.480 --> 00:08:53.440
+And what we really care
+about here, by the way,
+
+00:08:53.440 --> 00:08:54.910
+is the total flow rate.
+
+00:08:54.910 --> 00:08:57.030
+So we're not interested
+in just the outdoor air.
+
+00:08:57.030 --> 00:08:59.340
+So what I really want,
+I should mention,
+
+00:08:59.340 --> 00:09:03.520
+is lambda bar a, where that
+is the total air change.
+
+00:09:03.520 --> 00:09:08.250
+So lambda a bar, we'll define
+as the air change due to just
+
+00:09:08.250 --> 00:09:11.250
+the fresh air-- so
+that was the Q over V--
+
+00:09:11.250 --> 00:09:19.390
+plus the air change due
+to the filtration flows.
+
+00:09:19.390 --> 00:09:22.350
+So there is sort of this
+recirculating flow--
+
+00:09:22.350 --> 00:09:23.820
+and we've written that as Q--
+
+00:09:23.820 --> 00:09:27.510
+the outdoor airflow plus
+the filtration airflow
+
+00:09:27.510 --> 00:09:28.510
+divided by volume.
+
+00:09:28.510 --> 00:09:30.240
+So I just want to make sure
+we throw that in there,
+
+00:09:30.240 --> 00:09:32.610
+because you can get some flow
+going also by having a HEPA
+
+00:09:32.610 --> 00:09:34.260
+filtration unit in your room.
+
+00:09:34.260 --> 00:09:36.060
+And there's circulation
+going on from that.
+
+00:09:36.060 --> 00:09:38.320
+And that does
+contribute to mixing.
+
+00:09:38.320 --> 00:09:41.910
+And so if we now calculate
+what is the Reynolds number,
+
+00:09:41.910 --> 00:09:46.520
+we're now getting
+up to around 2,000.
+
+00:09:46.520 --> 00:09:49.550
+And that's interesting,
+because that is already
+
+00:09:49.550 --> 00:09:51.480
+getting to the regime
+of turbulent flow.
+
+00:09:51.480 --> 00:09:55.430
+So just the velocities and flows
+that are generated in the air
+
+00:09:55.430 --> 00:10:01.130
+from typical air conditioning
+or even gentle fans
+
+00:10:01.130 --> 00:10:03.290
+will lead to turbulent
+flows in the room.
+
+00:10:03.290 --> 00:10:05.640
+And turbulent flows are
+very effective at mixing.
+
+00:10:05.640 --> 00:10:08.370
+So that's one reason we might
+expect to see strong mixing.
+
+00:10:08.370 --> 00:10:11.230
+So what this actually
+looks like is--
+
+00:10:11.230 --> 00:10:16.340
+imagine there's a
+person in the room.
+
+00:10:16.340 --> 00:10:19.650
+There could be a
+table and a chair,
+
+00:10:19.650 --> 00:10:21.770
+some kind of
+obstacles in the room.
+
+00:10:21.770 --> 00:10:25.100
+And even if nobody's moving,
+just the flow through the room
+
+00:10:25.100 --> 00:10:29.780
+is causing some turbulent
+wakes and vortex shedding.
+
+00:10:29.780 --> 00:10:33.530
+And there can be some
+circulations, such
+
+00:10:33.530 --> 00:10:37.430
+that you have some fairly
+significant inertial effects
+
+00:10:37.430 --> 00:10:40.310
+leading to mixing
+in that system.
+
+00:10:40.310 --> 00:10:45.710
+Now, we can also ask ourselves,
+what about other ways
+
+00:10:45.710 --> 00:10:48.500
+that momentum is imparted
+to the fluid in a room
+
+00:10:48.500 --> 00:10:49.730
+with people in it?
+
+00:10:49.730 --> 00:10:52.250
+Well, it could be, for
+example, human movement.
+
+00:10:52.250 --> 00:10:55.450
+So what if we have--
+
+00:10:55.450 --> 00:10:56.910
+let's think about
+what the Reynolds
+
+00:10:56.910 --> 00:10:57.990
+numbers might be for that.
+
+00:10:57.990 --> 00:11:00.650
+So if we have human movement--
+
+00:11:00.650 --> 00:11:02.550
+let's say, for example,
+I'm moving my arm.
+
+00:11:02.550 --> 00:11:03.470
+Or I'm moving my head.
+
+00:11:03.470 --> 00:11:05.840
+I'm not even talking about
+running or really moving fast.
+
+00:11:05.840 --> 00:11:08.970
+But let's just think about
+this kind of a motion.
+
+00:11:08.970 --> 00:11:11.690
+I might be moving
+with a velocity
+
+00:11:11.690 --> 00:11:14.990
+anywhere from 10
+centimeters, or 0.1 meters,
+
+00:11:14.990 --> 00:11:16.940
+to 1 meters per second, right?
+
+00:11:16.940 --> 00:11:19.740
+So I could easily go 10
+centimeters in 1 second.
+
+00:11:19.740 --> 00:11:21.740
+But I could maybe
+go a little faster.
+
+00:11:21.740 --> 00:11:23.960
+And I'm moving a part
+of my body, which
+
+00:11:23.960 --> 00:11:29.000
+might have a length that scales
+from, let's say, 10 centimeters
+
+00:11:29.000 --> 00:11:29.730
+to 1 meter.
+
+00:11:29.730 --> 00:11:33.620
+So I'm moving maybe my
+arm or my hand or my head.
+
+00:11:33.620 --> 00:11:35.960
+So if we take this range
+of values here and ask,
+
+00:11:35.960 --> 00:11:38.240
+now what's the
+Reynolds number, then
+
+00:11:38.240 --> 00:11:44.230
+the Reynolds number is around
+10 to the 3 to 10 to the 5.
+
+00:11:44.230 --> 00:11:45.910
+So and you know this.
+
+00:11:45.910 --> 00:11:48.280
+If you have a room where
+there's some smoke or some dust
+
+00:11:48.280 --> 00:11:50.080
+particles that you can
+see in the sunlight,
+
+00:11:50.080 --> 00:11:52.720
+just take your hand and move it
+like this, even fairly gently.
+
+00:11:52.720 --> 00:11:55.540
+You're going to see very
+complicated turbulent flows
+
+00:11:55.540 --> 00:11:57.680
+in the wake of that movement.
+
+00:11:57.680 --> 00:11:59.540
+So basically, anything
+going on in the room
+
+00:11:59.540 --> 00:12:02.930
+in terms of movement is leading
+to substantial complexity
+
+00:12:02.930 --> 00:12:05.750
+in the flow fields, which
+contributes to mixing.
+
+00:12:05.750 --> 00:12:09.050
+Another one to think about,
+which we will come back to,
+
+00:12:09.050 --> 00:12:14.210
+is human respiration, so the
+fact that you're breathing.
+
+00:12:14.210 --> 00:12:17.340
+So we will come back to
+this term more carefully.
+
+00:12:17.340 --> 00:12:20.390
+But we can still think about it
+in terms of the Reynolds number
+
+00:12:20.390 --> 00:12:21.480
+right now.
+
+00:12:21.480 --> 00:12:25.340
+So if you imagine just the flow
+that is leaving your mouth--
+
+00:12:25.340 --> 00:12:27.320
+so in this case
+your length scale
+
+00:12:27.320 --> 00:12:29.480
+is on the order of 1 centimeter.
+
+00:12:29.480 --> 00:12:31.370
+So maybe the area of
+your mouth that's open
+
+00:12:31.370 --> 00:12:33.650
+is maybe several centimeters.
+
+00:12:33.650 --> 00:12:36.080
+And the velocity
+of your breathing
+
+00:12:36.080 --> 00:12:38.180
+depends on how heavily
+you're breathing
+
+00:12:38.180 --> 00:12:39.920
+and what your activities are.
+
+00:12:39.920 --> 00:12:43.340
+But it's on the order-- so if I
+write this as the velocity U--
+
+00:12:43.340 --> 00:12:44.720
+I should have
+written this as a U
+
+00:12:44.720 --> 00:12:46.470
+as well, from
+actually over there.
+
+00:12:46.470 --> 00:12:51.380
+So if my velocity scale
+is around 0.5 to 2 meters
+
+00:12:51.380 --> 00:12:52.170
+per second--
+
+00:12:52.170 --> 00:12:56.310
+that's a typical
+respiratory velocity--
+
+00:12:56.310 --> 00:13:00.560
+then now we find the Reynolds
+number is on the order of 10
+
+00:13:00.560 --> 00:13:04.800
+to the 3 to 10 to the 4.
+
+00:13:04.800 --> 00:13:10.500
+So again, all these activities
+of breathing, motion, anything
+
+00:13:10.500 --> 00:13:12.660
+humans are doing in
+the room, even just
+
+00:13:12.660 --> 00:13:15.780
+sitting there and breathing
+is leading to Reynolds numbers
+
+00:13:15.780 --> 00:13:19.540
+locally that are on the order of
+thousands or tens of thousands,
+
+00:13:19.540 --> 00:13:23.400
+which means that we are seeing
+turbulent flows in the vicinity
+
+00:13:23.400 --> 00:13:24.210
+of those motions.
+
+00:13:24.210 --> 00:13:25.920
+So that doesn't mean
+that those flows are
+
+00:13:25.920 --> 00:13:27.410
+enough to mix the entire room.
+
+00:13:27.410 --> 00:13:30.600
+But certainly in the
+vicinity of a person,
+
+00:13:30.600 --> 00:13:33.840
+there's a lot of mixing just
+from the natural movement
+
+00:13:33.840 --> 00:13:36.580
+and respiration of that person.
+
+00:13:36.580 --> 00:13:39.730
+And when you add into that
+the mechanical ventilation,
+
+00:13:39.730 --> 00:13:42.300
+there can be very
+significant inertial mixing
+
+00:13:42.300 --> 00:13:45.120
+going on in the air of a room.
+
+00:13:45.120 --> 00:13:48.300
+So in this simulation, courtesy
+of Saint-Gobain Ceramics
+
+00:13:48.300 --> 00:13:51.810
+and Plastics, we see an office
+space containing a number
+
+00:13:51.810 --> 00:13:53.220
+of workers sitting in cubicles.
+
+00:13:53.220 --> 00:13:55.230
+And one of them is
+an infected person
+
+00:13:55.230 --> 00:13:56.970
+emitting infectious aerosols.
+
+00:13:56.970 --> 00:14:00.540
+And the simulation shows you
+how those aerosol particles
+
+00:14:00.540 --> 00:14:04.080
+are transmitted through the
+room by forced convection, where
+
+00:14:04.080 --> 00:14:07.290
+the orange and white
+squares represent
+
+00:14:07.290 --> 00:14:11.190
+ducts of inflow and outflow
+in the mechanical ventilation
+
+00:14:11.190 --> 00:14:12.640
+system.
+
+00:14:12.640 --> 00:14:17.160
+This video shows
+the effect of motion
+
+00:14:17.160 --> 00:14:20.610
+and also respiration
+leading to turbulent flows
+
+00:14:20.610 --> 00:14:23.940
+by forcing the air to move
+at a high Reynolds number.
+
+00:14:23.940 --> 00:14:26.760
+So in the case of motion,
+we see a turbulent wake
+
+00:14:26.760 --> 00:14:28.410
+behind the moving person.
+
+00:14:28.410 --> 00:14:30.870
+And for each breath, we
+see a turbulent plume
+
+00:14:30.870 --> 00:14:35.370
+emitted by the momentum
+transferred from the breath.
+
+00:14:35.370 --> 00:14:38.670
+These images are taken by a
+schlieren imaging method that
+
+00:14:38.670 --> 00:14:40.950
+looks at differences in
+the density of the air
+
+00:14:40.950 --> 00:14:44.760
+and visualizes the texture
+of the patterns that
+
+00:14:44.760 --> 00:14:46.880
+are formed in the density.

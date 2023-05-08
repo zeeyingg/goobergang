@@ -1,0 +1,315 @@
+WEBVTT
+
+00:00:10.950 --> 00:00:12.980
+PROFESSOR: So as an
+aside, for those of you
+
+00:00:12.980 --> 00:00:15.360
+who have an understanding
+of probability
+
+00:00:15.360 --> 00:00:17.850
+theory and stochastic
+processes, let
+
+00:00:17.850 --> 00:00:22.950
+me just explain why it is valid
+to bound the main transmission
+
+00:00:22.950 --> 00:00:26.520
+rate in defining the indoor
+reproductive number when
+
+00:00:26.520 --> 00:00:28.740
+we might be more
+concerned about bounding
+
+00:00:28.740 --> 00:00:31.360
+the probability
+of a transmission.
+
+00:00:31.360 --> 00:00:35.970
+So let's let a capital T
+be a random variable which
+
+00:00:35.970 --> 00:00:40.530
+describes the random
+number of transmissions
+
+00:00:40.530 --> 00:00:41.490
+that occur in the room.
+
+00:00:47.390 --> 00:00:54.690
+And this is specifically for
+the case for one infector
+
+00:00:54.690 --> 00:01:00.830
+or infected person and
+n minus 1 susceptible.
+
+00:01:04.349 --> 00:01:06.690
+So again, the situation of
+the reproductive number where
+
+00:01:06.690 --> 00:01:08.550
+for every person that
+comes in we want to know
+
+00:01:08.550 --> 00:01:09.960
+is there going to
+be transmission,
+
+00:01:09.960 --> 00:01:13.560
+and typically, only one
+infected person would be seen.
+
+00:01:13.560 --> 00:01:20.550
+So this is a random variable,
+and let's let ft of n
+
+00:01:20.550 --> 00:01:23.460
+be the probability
+density function that
+
+00:01:23.460 --> 00:01:27.810
+gives the probability of
+little n transmissions.
+
+00:01:27.810 --> 00:01:37.590
+And then we can define the risk
+of a transmission, the risk
+
+00:01:37.590 --> 00:01:47.229
+of at least one transmission,
+as the probability
+
+00:01:47.229 --> 00:01:50.170
+that this random variable
+takes on a value, which
+
+00:01:50.170 --> 00:01:52.190
+is greater than or equal to 1.
+
+00:01:52.190 --> 00:01:52.690
+OK.
+
+00:01:52.690 --> 00:01:55.450
+Well, in terms of the
+probability density function
+
+00:01:55.450 --> 00:02:05.200
+then, that would be a sum from
+1 to infinity of the ft event,
+
+00:02:05.200 --> 00:02:05.710
+basically.
+
+00:02:05.710 --> 00:02:07.720
+So we're just adding
+the probabilities
+
+00:02:07.720 --> 00:02:12.730
+that we're not seeing a
+transmission to those--
+
+00:02:12.730 --> 00:02:16.870
+or possible transition to those
+different numbers of people.
+
+00:02:16.870 --> 00:02:18.660
+Now I'd like to do
+a little calculation
+
+00:02:18.660 --> 00:02:21.620
+to get an upper bound
+on this quantity.
+
+00:02:21.620 --> 00:02:24.490
+So we can say that
+this is less than
+
+00:02:24.490 --> 00:02:28.280
+or equal to the
+sum from n equals 1
+
+00:02:28.280 --> 00:02:33.470
+to infinity of n ft of n.
+
+00:02:33.470 --> 00:02:35.910
+Now, this is just a
+mathematical trick here.
+
+00:02:35.910 --> 00:02:41.560
+So n refers to the natural
+numbers 1, 2, 3, 4, et cetera.
+
+00:02:41.560 --> 00:02:43.310
+Those are all positive
+numbers and they're
+
+00:02:43.310 --> 00:02:44.600
+all greater than or equal to 1.
+
+00:02:44.600 --> 00:02:46.520
+So if I take 1 in this
+expression over here
+
+00:02:46.520 --> 00:02:48.140
+and replace it
+with little n, I'm
+
+00:02:48.140 --> 00:02:51.110
+only increasing the value
+of that sum, because also,
+
+00:02:51.110 --> 00:02:55.910
+this ft is a probability
+density that has to be positive.
+
+00:02:55.910 --> 00:02:58.790
+And then now I can also
+say that this is actually
+
+00:02:58.790 --> 00:03:03.740
+equal to throwing in n equals
+0, because that is a term that
+
+00:03:03.740 --> 00:03:05.180
+is actually identically 0.
+
+00:03:05.180 --> 00:03:08.790
+So I can change the summation.
+
+00:03:08.790 --> 00:03:11.930
+And then by definition
+here, this thing
+
+00:03:11.930 --> 00:03:15.560
+is the expected value of
+the number of transmissions,
+
+00:03:15.560 --> 00:03:18.079
+because I'm summing the
+number of transmissions
+
+00:03:18.079 --> 00:03:20.380
+little n times the probability
+of that event occurring.
+
+00:03:20.380 --> 00:03:22.829
+So that is the definition
+of the average.
+
+00:03:22.829 --> 00:03:29.420
+So what we're seeing here is
+that the risk of a transmission
+
+00:03:29.420 --> 00:03:33.800
+is rigorously bounded
+above by the expected
+
+00:03:33.800 --> 00:03:35.900
+number of transmissions.
+
+00:03:35.900 --> 00:03:41.810
+And so therefore, if we require
+that this is less than epsilon,
+
+00:03:41.810 --> 00:03:45.780
+our risk tolerance that
+we've just introduced,
+
+00:03:45.780 --> 00:03:58.090
+this is a conservative bound
+on the true risk, which let's
+
+00:03:58.090 --> 00:03:59.690
+say here is defined by rt.
+
+00:03:59.690 --> 00:04:02.950
+So if your goal is to control
+the probability of having
+
+00:04:02.950 --> 00:04:04.720
+at least one
+transmission, so basically
+
+00:04:04.720 --> 00:04:07.150
+to ensure that no
+transmissions occur,
+
+00:04:07.150 --> 00:04:10.030
+then you would do well to
+bound the expected number
+
+00:04:10.030 --> 00:04:12.160
+of transmissions, because
+that's an upper bound.
+
+00:04:12.160 --> 00:04:16.029
+It can also be shown
+that as epsilon
+
+00:04:16.029 --> 00:04:19.209
+goes to 0, so we're talking
+about very low probabilities
+
+00:04:19.209 --> 00:04:23.360
+of transmission, and
+oftentimes that is the case,
+
+00:04:23.360 --> 00:04:28.140
+then rt is asymptotically
+the same as the expected
+
+00:04:28.140 --> 00:04:29.140
+number of transmissions.
+
+00:04:29.140 --> 00:04:33.010
+So this overall risk of a
+transmission and the expected
+
+00:04:33.010 --> 00:04:34.420
+number are the same.
+
+00:04:34.420 --> 00:04:36.130
+And in fact, that's
+one way to understand
+
+00:04:36.130 --> 00:04:38.590
+sort of even the
+definition of a probability
+
+00:04:38.590 --> 00:04:41.590
+in terms of an expected
+number of events.
+
+00:04:41.590 --> 00:04:43.450
+And we are typically
+thinking of cases where
+
+00:04:43.450 --> 00:04:45.880
+epsilon is much less than 1.
+
+00:04:45.880 --> 00:04:48.940
+So for those of you that have
+some background in probability,
+
+00:04:48.940 --> 00:04:51.310
+you may recognize that
+what I've just done here
+
+00:04:51.310 --> 00:04:55.000
+is an example of a much
+more general result, which
+
+00:04:55.000 --> 00:04:56.870
+is called Markov's Inequality.
+
+00:05:02.920 --> 00:05:04.860
+So now we can safely
+proceed by continuing
+
+00:05:04.860 --> 00:05:09.410
+to work with average values of
+all the quantities of interest.

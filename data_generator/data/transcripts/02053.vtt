@@ -1,0 +1,826 @@
+WEBVTT
+
+00:00:10.500 --> 00:00:12.910
+PROFESSOR: So as
+a technical aside,
+
+00:00:12.910 --> 00:00:18.760
+let me go through and sketch
+the derivation of the structure
+
+00:00:18.760 --> 00:00:21.910
+of a turbulent jet, in
+particular the conical shape
+
+00:00:21.910 --> 00:00:25.160
+that we have when the
+flow is turbulent.
+
+00:00:25.160 --> 00:00:27.280
+So in order to study
+the mean flow profile
+
+00:00:27.280 --> 00:00:29.020
+we began with the
+Navier-Stokes equations
+
+00:00:29.020 --> 00:00:31.870
+which describe the momentum
+conservation and mass
+
+00:00:31.870 --> 00:00:36.160
+conservation or continuity of
+an incomprehensible so-called
+
+00:00:36.160 --> 00:00:38.220
+Newtonian fluid.
+
+00:00:38.220 --> 00:00:41.440
+So this is a complicated
+set of equations.
+
+00:00:41.440 --> 00:00:44.270
+In particular, we have
+this nonlinear term here,
+
+00:00:44.270 --> 00:00:45.840
+which is the inertial term.
+
+00:00:45.840 --> 00:00:48.460
+And we've already said that
+we had our high Reynolds number
+
+00:00:48.460 --> 00:00:51.010
+and turbulence results
+because the inertia is
+
+00:00:51.010 --> 00:00:57.080
+very strong compared to the
+viscous term which is here.
+
+00:00:57.080 --> 00:01:00.340
+So that's the divergence
+of the viscous
+
+00:01:00.340 --> 00:01:02.570
+or the viscous
+forces on the fluid.
+
+00:01:02.570 --> 00:01:04.550
+So these two terms we
+know are important.
+
+00:01:04.550 --> 00:01:07.720
+They have to balance and the
+inertia is particularly strong
+
+00:01:07.720 --> 00:01:11.800
+and it is what leads to the very
+complicated flows that we see.
+
+00:01:11.800 --> 00:01:15.700
+So you can solve these equations
+numerically on a computer
+
+00:01:15.700 --> 00:01:18.340
+and generate simulations that
+look a lot like experiments
+
+00:01:18.340 --> 00:01:20.170
+on turbulent jets.
+
+00:01:20.170 --> 00:01:23.050
+What I'd like to do here is
+just to derive by simple scaling
+
+00:01:23.050 --> 00:01:25.690
+arguments what sort of the
+structure of the solutions
+
+00:01:25.690 --> 00:01:27.170
+could look like.
+
+00:01:27.170 --> 00:01:29.500
+So these two terms,
+as we just indicated,
+
+00:01:29.500 --> 00:01:32.259
+are the ones that are most
+likely to balance in the time
+
+00:01:32.259 --> 00:01:33.009
+average flow.
+
+00:01:33.009 --> 00:01:39.380
+So let's consider
+a time averaged
+
+00:01:39.380 --> 00:01:49.130
+steady flow which has a
+velocity component of v_z
+
+00:01:49.130 --> 00:01:52.360
+that depends on r and z.
+
+00:01:52.360 --> 00:01:55.270
+So it's basically
+something like this,
+
+00:01:55.270 --> 00:01:57.720
+which is basically
+expanding, but has
+
+00:01:57.720 --> 00:02:00.720
+a certain sort of localization
+of the flow in the middle.
+
+00:02:00.720 --> 00:02:02.820
+And it's smooth because
+we're averaging over all
+
+00:02:02.820 --> 00:02:04.050
+the complexity of the jets.
+
+00:02:04.050 --> 00:02:07.310
+So the jet looks something like
+this with all kinds of vortices
+
+00:02:07.310 --> 00:02:08.729
+and eddies that
+are getting bigger
+
+00:02:08.729 --> 00:02:12.390
+as it goes as you're
+entraining more
+
+00:02:12.390 --> 00:02:16.470
+and more air from the outside.
+
+00:02:16.470 --> 00:02:18.470
+So we're going to look
+at the time average flow.
+
+00:02:18.470 --> 00:02:22.230
+And we're also going
+to, importantly,
+
+00:02:22.230 --> 00:02:27.780
+assume that we have
+an eddy viscosity.
+
+00:02:31.829 --> 00:02:35.310
+So the kinematic viscosity,
+nu in the equations
+
+00:02:35.310 --> 00:02:38.820
+as I've written them here,
+represents the diffusion
+
+00:02:38.820 --> 00:02:39.329
+momentum.
+
+00:02:39.329 --> 00:02:41.880
+If a parcel of fluid is moving
+with a certain momentum,
+
+00:02:41.880 --> 00:02:44.400
+it has a chance of
+passing that momentum
+
+00:02:44.400 --> 00:02:46.829
+to the neighboring fluid
+and moving it along with it.
+
+00:02:46.829 --> 00:02:50.560
+And that is accomplished
+through viscous stresses.
+
+00:02:50.560 --> 00:02:54.030
+So the eddy viscosity
+basically assumes
+
+00:02:54.030 --> 00:02:56.340
+that that diffusion
+process from momentum
+
+00:02:56.340 --> 00:03:00.930
+happens at the scale of the
+largest eddy in the flow.
+
+00:03:00.930 --> 00:03:04.860
+And so we've talked about the
+assumption of eddy diffusivity.
+
+00:03:04.860 --> 00:03:06.630
+But for eddy viscosity,
+what I'll write
+
+00:03:06.630 --> 00:03:10.140
+is the eddy viscosity
+is a typical velocity
+
+00:03:10.140 --> 00:03:15.100
+which is v_z times a length
+scale which is delta.
+
+00:03:15.100 --> 00:03:17.100
+So what I'm saying
+here with this
+
+00:03:17.100 --> 00:03:21.579
+is that if I go out to a certain
+position z and ask myself,
+
+00:03:21.579 --> 00:03:24.090
+what is the sort of width
+of the jet at site z,
+
+00:03:24.090 --> 00:03:27.090
+then there's all kinds of
+eddies but the largest eddy
+
+00:03:27.090 --> 00:03:29.470
+is kind of at that scale.
+
+00:03:29.470 --> 00:03:31.200
+And so if I write
+down an eddy viscosity
+
+00:03:31.200 --> 00:03:33.360
+it's going to be these
+sort of average velocity
+
+00:03:33.360 --> 00:03:35.380
+there are times that scale.
+
+00:03:35.380 --> 00:03:37.050
+So that's going to
+be the eddy velocity.
+
+00:03:37.050 --> 00:03:38.110
+And I'm going to replace--
+
+00:03:38.110 --> 00:03:39.560
+so when I do my
+time averaging, I'm
+
+00:03:39.560 --> 00:03:41.880
+going to replace the
+microscopic viscosity
+
+00:03:41.880 --> 00:03:44.220
+of the fluid,
+kinematic viscosity,
+
+00:03:44.220 --> 00:03:46.560
+with the eddy viscosity.
+
+00:03:46.560 --> 00:03:49.920
+So that's an important
+modification.
+
+00:03:49.920 --> 00:03:50.910
+And so if I do that.
+
+00:03:50.910 --> 00:03:53.579
+If I do this time averaging
+and look at the eddy viscosity,
+
+00:03:53.579 --> 00:03:55.680
+then I take these two
+terms and balance them,
+
+00:03:55.680 --> 00:04:00.550
+I'm going to get v_z bar,
+so that's my average v_z.
+
+00:04:00.550 --> 00:04:03.060
+I'm looking at the z
+component of momentum
+
+00:04:03.060 --> 00:04:06.300
+here of that first
+Navier-Stokes equation.
+
+00:04:06.300 --> 00:04:18.050
+And I get v_z dot derivative of
+v_z with respect to z plus v_r.
+
+00:04:18.050 --> 00:04:21.329
+And there's also an r
+component of velocity.
+
+00:04:21.329 --> 00:04:22.920
+So there is also
+some velocity in fact
+
+00:04:22.920 --> 00:04:26.930
+which is coming
+in from the sides.
+
+00:04:26.930 --> 00:04:33.960
+But I'm just going be interested
+in this term here v_z dr.
+
+00:04:33.960 --> 00:04:40.800
+And I'm going to balance this
+against the eddy viscosity,
+
+00:04:40.800 --> 00:04:42.240
+the eddy--
+
+00:04:42.240 --> 00:04:47.040
+or nu eddy I should say, sorry,
+nu eddy is eddy viscosity--
+
+00:04:47.040 --> 00:04:58.140
+times and then the Laplacian
+in is 1 r d/dr r dv_z dr. So
+
+00:04:58.140 --> 00:05:00.870
+that's just the Laplacian in
+its cylindrical coordinates.
+
+00:05:00.870 --> 00:05:06.210
+And now I'm going to make
+the assumption that this ve
+
+00:05:06.210 --> 00:05:12.790
+scales as v bar z times delta.
+
+00:05:12.790 --> 00:05:14.290
+And so now I'm going
+to do a scaling
+
+00:05:14.290 --> 00:05:16.400
+analysis on this equation.
+
+00:05:16.400 --> 00:05:23.050
+And so what we see is we
+have v_z over z times--
+
+00:05:23.050 --> 00:05:28.530
+and then at least
+for that first so--
+
+00:05:28.530 --> 00:05:30.030
+I should say these
+two terms will
+
+00:05:30.030 --> 00:05:32.790
+be of comparable size
+because of incompressibility--
+
+00:05:32.790 --> 00:05:33.820
+the second equation.
+
+00:05:33.820 --> 00:05:35.550
+I won't go through
+the details of that.
+
+00:05:35.550 --> 00:05:37.170
+And we'll just do a
+scaling argument
+
+00:05:37.170 --> 00:05:39.280
+balancing these two terms.
+
+00:05:39.280 --> 00:05:43.470
+So if I look at v_z
+divided by z times v_z
+
+00:05:43.470 --> 00:05:45.930
+so that's a scaling
+of those two terms,
+
+00:05:45.930 --> 00:05:50.830
+I can balance that
+against v_z delta times--
+
+00:05:50.830 --> 00:05:54.280
+and the scale for r is delta.
+
+00:05:54.280 --> 00:05:58.170
+So I have 1/delta
+for the 1/r,
+
+00:05:58.170 --> 00:06:00.360
+1/delta for
+the derivative times
+
+00:06:00.360 --> 00:06:04.560
+delta * (1/delta) * v_z.
+
+00:06:04.560 --> 00:06:05.770
+So there's a lot there.
+
+00:06:05.770 --> 00:06:08.460
+But notice the v_z's all cancel.
+
+00:06:08.460 --> 00:06:10.920
+And we're left with a
+bunch of deltas here.
+
+00:06:10.920 --> 00:06:13.690
+And how many, because
+of the eddy viscosity,
+
+00:06:13.690 --> 00:06:16.470
+we are left with--
+
+00:06:16.470 --> 00:06:18.070
+all of this is
+just 1 over delta.
+
+00:06:18.070 --> 00:06:19.050
+This is 1 over z.
+
+00:06:19.050 --> 00:06:24.370
+And so we find here
+the delta scales as z.
+
+00:06:24.370 --> 00:06:28.620
+So in other words, we
+have a conical shape.
+
+00:06:28.620 --> 00:06:30.040
+So the boundary
+of their thickness
+
+00:06:30.040 --> 00:06:31.240
+is a constant times z.
+
+00:06:31.240 --> 00:06:33.700
+And what we write is that
+delta is equal to alpha z
+
+00:06:33.700 --> 00:06:34.560
+specifically.
+
+00:06:34.560 --> 00:06:37.000
+And we define the turbulent
+entrainment coefficient alpha
+
+00:06:37.000 --> 00:06:38.200
+that way.
+
+00:06:38.200 --> 00:06:39.700
+And then once we've
+done that, we've
+
+00:06:39.700 --> 00:06:45.790
+already shown that
+from the momentum flux
+
+00:06:45.790 --> 00:06:53.380
+that v_z scales as the square
+root of k/rho_air
+
+00:06:53.380 --> 00:06:56.100
+times 1 over delta.
+
+00:06:56.100 --> 00:07:00.990
+So this basically now gives
+me the scaling of the problem.
+
+00:07:00.990 --> 00:07:03.440
+In fact, there is a
+similarity solution
+
+00:07:03.440 --> 00:07:06.350
+for the shape this profile
+that one could solve for.
+
+00:07:06.350 --> 00:07:12.230
+And it has the form
+that, for example, the v_z
+
+00:07:12.230 --> 00:07:15.290
+is square root of--
+
+00:07:15.290 --> 00:07:19.480
+because delta is
+proportional to z.
+
+00:07:19.480 --> 00:07:22.100
+So it's the square
+root of k over rho
+
+00:07:22.100 --> 00:07:28.700
+a z times some function
+of r over alpha z.
+
+00:07:28.700 --> 00:07:30.260
+And then there's a
+similar expression
+
+00:07:30.260 --> 00:07:37.430
+for the other
+velocity component.
+
+00:07:37.430 --> 00:07:41.550
+And the function F looks very
+much as I've sketched here.
+
+00:07:41.550 --> 00:07:44.630
+It's essentially a Gaussian
+type profile or a bell curve
+
+00:07:44.630 --> 00:07:48.230
+that kind of localizes the
+velocity across this distance
+
+00:07:48.230 --> 00:07:50.570
+delta.
+
+00:07:50.570 --> 00:07:52.700
+The second thing that
+we're interested in
+
+00:07:52.700 --> 00:07:55.460
+is the mean concentration.
+
+00:08:00.630 --> 00:08:05.040
+And that would be a
+concentration of, let's say,
+
+00:08:05.040 --> 00:08:09.390
+virions contained in
+infectious aerosol droplets.
+
+00:08:09.390 --> 00:08:11.040
+So there's a mean
+concentration profile
+
+00:08:11.040 --> 00:08:13.230
+in the jet assuming
+that we're injecting
+
+00:08:13.230 --> 00:08:15.270
+a fluid of a constant
+concentration
+
+00:08:15.270 --> 00:08:18.760
+at the source of the jet.
+
+00:08:18.760 --> 00:08:21.730
+So again, we can do some
+scaling arguments here.
+
+00:08:21.730 --> 00:08:24.750
+So if we ask ourselves,
+what is the mass flow
+
+00:08:24.750 --> 00:08:31.000
+rate through a slice or actually
+the volumetric flow rate,
+
+00:08:31.000 --> 00:08:40.750
+use me, that is what is called a
+Q and it'll just be an average.
+
+00:08:40.750 --> 00:08:44.080
+This will be the
+average velocity
+
+00:08:44.080 --> 00:08:48.500
+times the cross-sectional
+area at a given position.
+
+00:08:48.500 --> 00:08:51.410
+So this is scaling like--
+
+00:08:51.410 --> 00:08:54.470
+so area scaled is
+like delta squared.
+
+00:08:54.470 --> 00:08:57.120
+And then the velocity scales
+in this way is 1 over delta.
+
+00:08:57.120 --> 00:09:04.920
+So this ends up scaling as k
+over rho a times just delta.
+
+00:09:04.920 --> 00:09:09.800
+So the volumetric flow
+rate is increasing
+
+00:09:09.800 --> 00:09:13.370
+with r and that's a sign that we
+are actually in training fluid
+
+00:09:13.370 --> 00:09:14.180
+as I indicated.
+
+00:09:14.180 --> 00:09:15.950
+This is not just the
+fluid we're injecting
+
+00:09:15.950 --> 00:09:18.290
+but it's moving forward and
+it's sucking more fluid in.
+
+00:09:18.290 --> 00:09:19.880
+And all that fluid
+is kind of becoming
+
+00:09:19.880 --> 00:09:24.590
+part of the turbulent
+jet as it grows.
+
+00:09:24.590 --> 00:09:30.150
+Now if we ask-- so this is
+our flow rate, volumetric flow
+
+00:09:30.150 --> 00:09:32.220
+rate, but we can
+also ask ourselves,
+
+00:09:32.220 --> 00:09:39.480
+what is the flux
+of concentration
+
+00:09:39.480 --> 00:09:43.050
+of virions per unit volume.
+
+00:09:43.050 --> 00:09:44.930
+Well, that would be the
+average concentration
+
+00:09:44.930 --> 00:09:46.910
+times the average flow
+rate because flow rate
+
+00:09:46.910 --> 00:09:49.290
+is volume per time
+and concentration
+
+00:09:49.290 --> 00:09:50.490
+is number per volume.
+
+00:09:50.490 --> 00:09:53.870
+So this is a total
+number per time.
+
+00:09:53.870 --> 00:09:57.200
+And this we will assume
+should be a constant
+
+00:09:57.200 --> 00:09:59.450
+because as you can
+see from this picture,
+
+00:09:59.450 --> 00:10:02.000
+if we're injecting a bunch
+of concentration of let's say
+
+00:10:02.000 --> 00:10:06.050
+droplets here, they will spread
+out in the turbulent flow
+
+00:10:06.050 --> 00:10:08.300
+but they don't really have
+a good mechanism to get out
+
+00:10:08.300 --> 00:10:09.210
+of the turbulent flow.
+
+00:10:09.210 --> 00:10:12.110
+The turbulent flow is
+sucking fluid into the plume
+
+00:10:12.110 --> 00:10:13.940
+and so the particles
+are just kind of well
+
+00:10:13.940 --> 00:10:16.400
+mixed in that plume and we
+could assume they have a roughly
+
+00:10:16.400 --> 00:10:18.570
+constant concentration.
+
+00:10:18.570 --> 00:10:23.870
+And so, if that's the case,
+and in fact, this constant
+
+00:10:23.870 --> 00:10:29.780
+would be lambda Q if we're
+thinking of, for example,
+
+00:10:29.780 --> 00:10:30.530
+infect--
+
+00:10:30.530 --> 00:10:32.990
+c is the concentration
+infection quanta.
+
+00:10:32.990 --> 00:10:37.340
+Then lambda Q is the rate of
+admission of infection quanta
+
+00:10:37.340 --> 00:10:38.060
+from the mouth.
+
+00:10:38.060 --> 00:10:39.870
+We've already talked
+about that quantity.
+
+00:10:39.870 --> 00:10:42.290
+And this is now telling me how
+the concentration infection
+
+00:10:42.290 --> 00:10:45.300
+quanta decays with time.
+
+00:10:45.300 --> 00:10:47.750
+And so we find if
+we substitute now
+
+00:10:47.750 --> 00:10:51.920
+is that the concentration
+infection quanta at a position
+
+00:10:51.920 --> 00:10:58.300
+z scales as so I have
+to divide by Q so I
+
+00:10:58.300 --> 00:10:59.600
+get the inverse of this.
+
+00:10:59.600 --> 00:11:03.830
+So I get square root
+of rho a over k.
+
+00:11:03.830 --> 00:11:09.550
+And then I have
+lambda Q over alpha z.
+
+00:11:12.990 --> 00:11:17.850
+So this tells me that if I
+plot as a function of distance
+
+00:11:17.850 --> 00:11:20.640
+from the mouth in the
+direction of the jet,
+
+00:11:20.640 --> 00:11:24.150
+the concentration
+of infection quanta
+
+00:11:24.150 --> 00:11:28.170
+that are carried by virions
+in aerosol droplets,
+
+00:11:28.170 --> 00:11:31.290
+then somewhere here I have,
+let's say, at z equals 0,
+
+00:11:31.290 --> 00:11:34.850
+is the mouth where I'm exhaling.
+
+00:11:34.850 --> 00:11:40.040
+And the concentration
+there is actually cQ.
+
+00:11:40.040 --> 00:11:41.900
+In fact that is
+something we've talked
+
+00:11:41.900 --> 00:11:45.140
+about before, which is that's
+the key disease parameter--
+
+00:11:45.140 --> 00:11:48.140
+the concentration of infection
+quanta in the exhaled breath
+
+00:11:48.140 --> 00:11:49.430
+of an infected person.
+
+00:11:49.430 --> 00:11:51.710
+So we know at the mouth,
+that's what we start with.
+
+00:11:51.710 --> 00:11:53.870
+And what the turbulent
+theory is telling us
+
+00:11:53.870 --> 00:11:58.250
+is how that concentration
+is decaying with time
+
+00:11:58.250 --> 00:12:00.650
+and is decaying like 1 over z.
+
+00:12:00.650 --> 00:12:03.660
+And so that tells us sort of
+our relative risk of infection
+
+00:12:03.660 --> 00:12:07.350
+in different positions relative
+to being mouth to mouth
+
+00:12:07.350 --> 00:12:09.620
+with the infected person.

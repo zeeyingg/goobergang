@@ -1,0 +1,830 @@
+WEBVTT
+
+00:00:11.320 --> 00:00:13.370
+PROFESSOR: In most of our
+calculations of safety,
+
+00:00:13.370 --> 00:00:16.490
+we're going to be interested
+in the steady state
+
+00:00:16.490 --> 00:00:20.240
+average transmission rate
+between individuals in a room,
+
+00:00:20.240 --> 00:00:24.570
+after the aerosol particles
+have built up to a steady state.
+
+00:00:24.570 --> 00:00:27.650
+But let's briefly talk
+about the transient buildup,
+
+00:00:27.650 --> 00:00:29.720
+and how to take
+that into account,
+
+00:00:29.720 --> 00:00:32.580
+just as an aside
+in this board here.
+
+00:00:32.580 --> 00:00:34.430
+So here is the
+general expression
+
+00:00:34.430 --> 00:00:36.770
+for the transmission
+rate that we describe,
+
+00:00:36.770 --> 00:00:39.980
+which depends on the
+breathing rate squared,
+
+00:00:39.980 --> 00:00:41.240
+the volume of the room.
+
+00:00:41.240 --> 00:00:43.580
+It's an integral over
+all the different drop
+
+00:00:43.580 --> 00:00:48.710
+sizes, where NQ is a
+lumped distribution
+
+00:00:48.710 --> 00:00:55.670
+of the number of infection
+quanta per volume per radius.
+
+00:00:55.670 --> 00:00:58.580
+And then PM is the mass
+transmission factor,
+
+00:00:58.580 --> 00:00:59.930
+which depends on radius.
+
+00:00:59.930 --> 00:01:02.450
+And lambda C is the
+total relaxation rate
+
+00:01:02.450 --> 00:01:07.840
+involving sedimentation
+or settling and viral
+
+00:01:07.840 --> 00:01:10.160
+deactivation and filtration.
+
+00:01:10.160 --> 00:01:12.289
+And that also depends,
+of course, on R.
+
+00:01:12.289 --> 00:01:15.820
+And that lambda C of R also
+ends up in the exponent here.
+
+00:01:15.820 --> 00:01:18.710
+So that actually, that
+rate of relaxation
+
+00:01:18.710 --> 00:01:21.230
+of the concentration
+in the air, is also
+
+00:01:21.230 --> 00:01:24.410
+setting the time scale,
+lambda C inverse,
+
+00:01:24.410 --> 00:01:28.140
+for the buildup of those
+aerosol droplets in the air.
+
+00:01:28.140 --> 00:01:29.539
+And so that's this factor here.
+
+00:01:29.539 --> 00:01:35.509
+This is basically the
+transient term is this term.
+
+00:01:35.509 --> 00:01:41.820
+And then this term, the
+one, is the steady term.
+
+00:01:41.820 --> 00:01:44.460
+So we're interested now what's
+the effect of the transient.
+
+00:01:44.460 --> 00:01:47.580
+Now, before we get to that, if
+we forget about the transient
+
+00:01:47.580 --> 00:01:49.600
+now, and we just have
+the steady state,
+
+00:01:49.600 --> 00:01:52.620
+then we introduce
+beta bar as the sort
+
+00:01:52.620 --> 00:01:55.890
+of constant steady state
+value transmission.
+
+00:01:55.890 --> 00:02:00.270
+And through this definition
+here, by doing these integrals,
+
+00:02:00.270 --> 00:02:03.850
+we have defined an
+effective radius R bar,
+
+00:02:03.850 --> 00:02:07.380
+which is sort of where you
+evaluate the mass transmission
+
+00:02:07.380 --> 00:02:11.250
+factor, and also the
+filtration-- or the relaxation
+
+00:02:11.250 --> 00:02:14.760
+rate in order to make
+these two values equal.
+
+00:02:14.760 --> 00:02:17.340
+So that's actually our
+definition of effective radius.
+
+00:02:17.340 --> 00:02:21.630
+And so now, looking
+at the transient term,
+
+00:02:21.630 --> 00:02:27.150
+let's ask ourselves, what
+is the average transmission
+
+00:02:27.150 --> 00:02:30.060
+rate up to a certain time tau.
+
+00:02:30.060 --> 00:02:33.030
+So that would be, we
+divide by a time tau,
+
+00:02:33.030 --> 00:02:36.329
+and we ask ourselves
+up to that time,
+
+00:02:36.329 --> 00:02:38.710
+what is the average
+transmission rate?
+
+00:02:38.710 --> 00:02:43.540
+So we integrate beta dT from
+0 to tau, then divide by tau.
+
+00:02:43.540 --> 00:02:44.800
+So what would that be?
+
+00:02:44.800 --> 00:02:46.740
+Well, we can take
+this time integral
+
+00:02:46.740 --> 00:02:50.040
+and bring it inside
+the radius integral,
+
+00:02:50.040 --> 00:02:56.300
+and write this as QB
+squared over B integral 0
+
+00:02:56.300 --> 00:03:02.400
+to infinity of PM
+squared NQ of lambda C.
+
+00:03:02.400 --> 00:03:06.840
+Keep in mind all those
+factors depend on R. Times,
+
+00:03:06.840 --> 00:03:09.830
+now, an integral from 0 to tau--
+
+00:03:09.830 --> 00:03:11.700
+so I'll put this in brackets--
+
+00:03:11.700 --> 00:03:17.910
+of 1 minus e to the minus
+lambda C, which depends on R,
+
+00:03:17.910 --> 00:03:28.670
+times T divided by
+divided by tau dT.
+
+00:03:28.670 --> 00:03:29.810
+And then dR.
+
+00:03:29.810 --> 00:03:32.150
+So switching the order of
+integration, where we're going
+
+00:03:32.150 --> 00:03:35.690
+to do the time integral first.
+
+00:03:35.690 --> 00:03:39.050
+And so what we have here,
+if we just look only
+
+00:03:39.050 --> 00:03:43.020
+at this expression
+right here, we
+
+00:03:43.020 --> 00:03:46.530
+can write this as a sum
+of a steady state term.
+
+00:03:46.530 --> 00:03:49.950
+So when it's just 1, this is
+the integral 1 over tau from 0
+
+00:03:49.950 --> 00:03:51.990
+to tau, so that's just 1.
+
+00:03:51.990 --> 00:03:56.579
+So that's the steady
+state contribution.
+
+00:03:56.579 --> 00:03:59.460
+1 plus, and there's a
+transient contribution where I
+
+00:03:59.460 --> 00:04:01.270
+have to do this integral here.
+
+00:04:01.270 --> 00:04:05.250
+So that's e to the
+minus lambda C of T
+
+00:04:05.250 --> 00:04:13.930
+over lambda C tau,
+evaluated from 0 to tau.
+
+00:04:13.930 --> 00:04:16.490
+And so we'll come back
+to this in just a moment
+
+00:04:16.490 --> 00:04:18.370
+and evaluate that.
+
+00:04:18.370 --> 00:04:20.140
+But just to draw a
+picture maybe first
+
+00:04:20.140 --> 00:04:22.820
+of what we're looking at here.
+
+00:04:22.820 --> 00:04:29.910
+The average transmission rate
+as a function of this averaging
+
+00:04:29.910 --> 00:04:33.250
+time tau, well,
+eventually of course,
+
+00:04:33.250 --> 00:04:37.130
+it tends to the
+steady state value.
+
+00:04:37.130 --> 00:04:39.740
+But it does so in a certain
+way we're going to calculate,
+
+00:04:39.740 --> 00:04:44.030
+like that, where the time
+for that transmission--
+
+00:04:44.030 --> 00:04:48.810
+or for that transition, is the
+inverse of the relaxation time.
+
+00:04:48.810 --> 00:04:51.790
+Although there's not a
+precise value of that.
+
+00:04:51.790 --> 00:04:55.260
+But if we want to keep
+actually a scale for it,
+
+00:04:55.260 --> 00:04:59.200
+it's going to be evaluate at that
+value R bar that I mentioned.
+
+00:04:59.200 --> 00:05:01.500
+That gives you a rough sense
+of the overall relaxation.
+
+00:05:01.500 --> 00:05:04.470
+So this build up of the aerosol
+concentration in the room
+
+00:05:04.470 --> 00:05:06.060
+once the infected
+person has entered,
+
+00:05:06.060 --> 00:05:08.470
+and eventually, there's sort
+of a steady transmission rate
+
+00:05:08.470 --> 00:05:11.130
+to everyone else in the room.
+
+00:05:11.130 --> 00:05:15.360
+So let's continue calculating
+this right here now.
+
+00:05:15.360 --> 00:05:16.590
+So this is the transient.
+
+00:05:19.770 --> 00:05:23.660
+And I can write this as 1.
+
+00:05:23.660 --> 00:05:29.040
+And if I evaluate here, I can
+put it this way, as minus,
+
+00:05:29.040 --> 00:05:31.830
+and then I evaluate first at
+the lower limit, which gives me
+
+00:05:31.830 --> 00:05:34.710
+another 1, minus,
+and then evaluating
+
+00:05:34.710 --> 00:05:37.290
+at the upper limit, which is
+tau, e to the minus lambda
+
+00:05:37.290 --> 00:05:43.380
+C tau over lambda C tau.
+
+00:05:43.380 --> 00:05:47.520
+And now, I'll use
+an approximation
+
+00:05:47.520 --> 00:05:49.670
+that helps me get a
+simple analytical results.
+
+00:05:49.670 --> 00:05:51.090
+So I should mention,
+as soon as we
+
+00:05:51.090 --> 00:05:53.310
+have exponential and
+polynomial factors,
+
+00:05:53.310 --> 00:05:55.800
+it can be difficult
+to solve equations.
+
+00:05:55.800 --> 00:05:59.610
+For example, what is the
+bound on the occupancy
+
+00:05:59.610 --> 00:06:02.100
+or the time in the room,
+or the ventilation.
+
+00:06:02.100 --> 00:06:04.330
+We like to get a simple formula.
+
+00:06:04.330 --> 00:06:08.980
+And so if there's a nice
+approximation I can make,
+
+00:06:08.980 --> 00:06:15.210
+which is that 1 minus
+e to the minus x over x
+
+00:06:15.210 --> 00:06:22.030
+is not too far off from 1
+over 1 plus x, it turns out.
+
+00:06:22.030 --> 00:06:23.470
+So it's not a perfect match.
+
+00:06:23.470 --> 00:06:25.350
+You can try plotting
+these two functions.
+
+00:06:25.350 --> 00:06:27.780
+But it's a reasonable
+approximation,
+
+00:06:27.780 --> 00:06:30.390
+given that everything we're
+doing in this calculation,
+
+00:06:30.390 --> 00:06:31.890
+when applied to
+a real situation,
+
+00:06:31.890 --> 00:06:35.100
+is going to be off by
+some uncertainty, which
+
+00:06:35.100 --> 00:06:38.010
+could be a factor of 2
+or 3, this is actually
+
+00:06:38.010 --> 00:06:39.420
+going to be more
+than good enough
+
+00:06:39.420 --> 00:06:41.320
+of an approximation for us.
+
+00:06:41.320 --> 00:06:45.780
+So if I make that approximation,
+then what I have here
+
+00:06:45.780 --> 00:06:54.240
+is that this thing is
+1 over 1 plus x here.
+
+00:06:54.240 --> 00:07:01.890
+And so we end up with 1 minus
+1 over 1 plus lambda C tau.
+
+00:07:01.890 --> 00:07:03.930
+And when I combine
+those two terms,
+
+00:07:03.930 --> 00:07:12.840
+I end up with lambda C tau
+over 1 plus lambda C tau.
+
+00:07:12.840 --> 00:07:15.480
+So this is my approximation.
+
+00:07:15.480 --> 00:07:17.340
+In fact, I can
+further then write
+
+00:07:17.340 --> 00:07:24.030
+that as 1 over 1 plus
+lambda C tau inverse,
+
+00:07:24.030 --> 00:07:28.140
+dividing the numerator and
+denominator by lambda C tau.
+
+00:07:28.140 --> 00:07:30.060
+So I'm just making some
+approximations here
+
+00:07:30.060 --> 00:07:31.960
+that allow me to get a
+very simple expression
+
+00:07:31.960 --> 00:07:36.690
+in the end for my
+safety guideline,
+
+00:07:36.690 --> 00:07:41.180
+taking into account this
+transient build up here.
+
+00:07:41.180 --> 00:07:44.340
+So remember that
+the bound we have
+
+00:07:44.340 --> 00:07:47.550
+is on the indoor
+reproductive number, which
+
+00:07:47.550 --> 00:07:57.600
+is N minus 1 times the
+integral to tau of beta dT.
+
+00:07:57.600 --> 00:07:58.710
+So what is that?
+
+00:07:58.710 --> 00:08:03.960
+That's just the sort of
+time average beta times tau.
+
+00:08:03.960 --> 00:08:07.590
+So this bound is
+actually N minus 1,
+
+00:08:07.590 --> 00:08:09.800
+time average beta times tau.
+
+00:08:09.800 --> 00:08:11.680
+And then our
+guideline, of course,
+
+00:08:11.680 --> 00:08:17.130
+is to make this less than
+our tolerance, epsilon.
+
+00:08:17.130 --> 00:08:20.070
+And so what that means
+then is using this result,
+
+00:08:20.070 --> 00:08:23.790
+you can see that I
+just get the rest--
+
+00:08:23.790 --> 00:08:27.030
+so if I look at the
+expression for beta bracket,
+
+00:08:27.030 --> 00:08:30.910
+it's just the steady state
+expression times this factor.
+
+00:08:30.910 --> 00:08:33.240
+So basically, this is
+kind of the factor that
+
+00:08:33.240 --> 00:08:35.669
+corrects for transient effects.
+
+00:08:35.669 --> 00:08:38.770
+Again, with just a
+simple approximation.
+
+00:08:38.770 --> 00:08:41.309
+So I can then write
+that my guideline now
+
+00:08:41.309 --> 00:08:46.390
+has a modified form, which
+is that N minus 1 times tau
+
+00:08:46.390 --> 00:08:51.150
+is less than epsilon
+over the time average
+
+00:08:51.150 --> 00:08:53.370
+beta up to time tau.
+
+00:08:53.370 --> 00:08:56.250
+And this is approximately
+equal to epsilon over
+
+00:08:56.250 --> 00:09:00.120
+beta steady state
+times this factor here.
+
+00:09:00.120 --> 00:09:05.880
+If I multiply that to the
+other side, I just get 1 plus 1
+
+00:09:05.880 --> 00:09:08.970
+over lambda C of R bar tau.
+
+00:09:13.750 --> 00:09:22.520
+So basically, this right here
+is the transient correction,
+
+00:09:22.520 --> 00:09:24.040
+or modification.
+
+00:09:24.040 --> 00:09:29.710
+And this is the
+steady state formula,
+
+00:09:29.710 --> 00:09:32.360
+which we will more
+typically be using.
+
+00:09:32.360 --> 00:09:34.960
+Now, why do we care
+about the transient?
+
+00:09:34.960 --> 00:09:38.200
+Well, first of all, you can see
+that by using the transient,
+
+00:09:38.200 --> 00:09:40.900
+we are being less conservative.
+
+00:09:40.900 --> 00:09:42.490
+So if we want to be
+very conservative,
+
+00:09:42.490 --> 00:09:43.900
+we can say, you know
+what, let's just
+
+00:09:43.900 --> 00:09:46.010
+assume the second that
+the infected person enters
+
+00:09:46.010 --> 00:09:48.250
+the room, boom,
+the transition rate
+
+00:09:48.250 --> 00:09:50.060
+goes right to the maximum value.
+
+00:09:50.060 --> 00:09:51.310
+That's the most conservative.
+
+00:09:51.310 --> 00:09:58.050
+So generally, using the steady
+state is more conservative.
+
+00:09:58.050 --> 00:10:00.760
+So that's one reason
+we like to use it.
+
+00:10:00.760 --> 00:10:02.430
+Also, it gives you
+a simpler formula.
+
+00:10:02.430 --> 00:10:05.180
+Why add a bunch of
+factors to a formula that
+
+00:10:05.180 --> 00:10:06.920
+only make it less conservative.
+
+00:10:06.920 --> 00:10:09.560
+And we've made a lot of
+assumptions in this model,
+
+00:10:09.560 --> 00:10:12.240
+so it makes sense, maybe
+let's not worry about it.
+
+00:10:12.240 --> 00:10:14.180
+However, I do actually
+like to include it
+
+00:10:14.180 --> 00:10:17.030
+for certain examples,
+because it allows
+
+00:10:17.030 --> 00:10:19.340
+you to capture the
+intuition we all have
+
+00:10:19.340 --> 00:10:22.550
+that when the time goes
+to 0, the risk also
+
+00:10:22.550 --> 00:10:25.590
+has to go to 0, which you
+don't get from a steady state.
+
+00:10:25.590 --> 00:10:27.140
+If this bumps up
+right away, then you
+
+00:10:27.140 --> 00:10:29.420
+could be spending like
+2 seconds in a room,
+
+00:10:29.420 --> 00:10:33.140
+and you have a chance of getting
+infected right away, which
+
+00:10:33.140 --> 00:10:34.130
+is actually not right.
+
+00:10:34.130 --> 00:10:36.770
+There has to be some time
+physically for transmission
+
+00:10:36.770 --> 00:10:39.930
+to happen through these droplets
+from one person to another.
+
+00:10:39.930 --> 00:10:42.560
+So the effect of the transient
+correction, as you can see here
+
+00:10:42.560 --> 00:10:47.570
+is, when lambda C tau
+is larger than 1--
+
+00:10:47.570 --> 00:10:51.060
+so that's times that are kind
+of out here-- that term is gone.
+
+00:10:51.060 --> 00:10:53.410
+But when you get to these
+earlier times, or very short
+
+00:10:53.410 --> 00:10:55.040
+times, where there
+hasn't been time yet
+
+00:10:55.040 --> 00:10:59.810
+for the build up of the airborne
+concentration, then as you see,
+
+00:10:59.810 --> 00:11:02.480
+as tau goes is 0 actually,
+this term diverges.
+
+00:11:02.480 --> 00:11:05.120
+So what actually happens
+is that if I calculate sort
+
+00:11:05.120 --> 00:11:08.930
+of, for example, one thing you
+can get from this guideline
+
+00:11:08.930 --> 00:11:18.840
+is what is the sort of maximum
+occupancy, or versus time.
+
+00:11:18.840 --> 00:11:21.180
+Or it's sort of the maximum
+time in the room for a given
+
+00:11:21.180 --> 00:11:21.810
+occupancy.
+
+00:11:21.810 --> 00:11:25.240
+We're going to be looking
+at lots of plots like this.
+
+00:11:25.240 --> 00:11:30.450
+I would have something
+that might look like this
+
+00:11:30.450 --> 00:11:32.430
+for steady transmission.
+
+00:11:35.010 --> 00:11:41.100
+And when this time
+gets larger then lambda
+
+00:11:41.100 --> 00:11:44.000
+C of R bar inverse--
+
+00:11:44.000 --> 00:11:45.630
+there's some critical
+time scale there,
+
+00:11:45.630 --> 00:11:47.190
+which is this one right here--
+
+00:11:47.190 --> 00:11:48.450
+then when you're
+past that time scale,
+
+00:11:48.450 --> 00:11:49.610
+you've got the steady state.
+
+00:11:49.610 --> 00:11:53.100
+But if you go to smaller times,
+then what happens at this thing
+
+00:11:53.100 --> 00:11:55.670
+can sort of blow
+up a lot faster.
+
+00:11:55.670 --> 00:11:58.770
+So what it kind of
+helps to capture
+
+00:11:58.770 --> 00:12:01.930
+is, again, this intuition
+that if I put in like tau
+
+00:12:01.930 --> 00:12:05.250
+is extremely small, then of
+course, the risk goes away,
+
+00:12:05.250 --> 00:12:07.500
+and I can have larger numbers
+of people in the room,
+
+00:12:07.500 --> 00:12:11.370
+or I can tolerate smaller
+times and actually be safe.
+
+00:12:11.370 --> 00:12:15.250
+So anyway, that's one
+reason we do that.
+
+00:12:15.250 --> 00:12:17.250
+On the other hand, for a
+conservative guideline,
+
+00:12:17.250 --> 00:12:19.170
+and the most important
+message of this course,
+
+00:12:19.170 --> 00:12:22.170
+really, is to think about
+that steady state transmission
+
+00:12:22.170 --> 00:12:23.820
+rate, which we will
+mainly be focusing
+
+00:12:23.820 --> 00:12:25.910
+on in all of our examples.

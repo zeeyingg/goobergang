@@ -1,0 +1,548 @@
+WEBVTT
+
+00:00:10.450 --> 00:00:12.540
+PROFESSOR: So this
+brings us to the conclusion
+
+00:00:12.540 --> 00:00:16.620
+of our Massive Open Online
+Course, 10.S9,5 Physics
+
+00:00:16.620 --> 00:00:18.990
+of COVID-19 Transmission.
+
+00:00:18.990 --> 00:00:21.180
+So let's briefly review
+what we've learned.
+
+00:00:21.180 --> 00:00:23.550
+We began by talking about
+respiratory pathogens,
+
+00:00:23.550 --> 00:00:25.740
+both bacteria and viruses.
+
+00:00:25.740 --> 00:00:27.630
+And, in particular,
+we focused on viruses
+
+00:00:27.630 --> 00:00:30.180
+and understood how
+they can be transmitted
+
+00:00:30.180 --> 00:00:35.010
+through aerosol particles
+through infected indoor air.
+
+00:00:35.010 --> 00:00:38.670
+And this includes the
+important case of SARS-CoV-2,
+
+00:00:38.670 --> 00:00:41.790
+the virus that causes COVID-19.
+
+00:00:41.790 --> 00:00:44.280
+We then went on to use
+epidemiological models
+
+00:00:44.280 --> 00:00:48.330
+and fluid-mechanical
+analysis of a well-mixed room
+
+00:00:48.330 --> 00:00:51.420
+to arrive at a universal
+indoor safety guideline
+
+00:00:51.420 --> 00:00:53.970
+to limit transmission
+of the disease.
+
+00:00:53.970 --> 00:00:57.480
+A very important
+conclusion is that it's not
+
+00:00:57.480 --> 00:00:59.790
+possible to bound
+a single variable,
+
+00:00:59.790 --> 00:01:04.170
+as in all of the current
+safety guidelines
+
+00:01:04.170 --> 00:01:06.190
+from various official
+organizations.
+
+00:01:06.190 --> 00:01:09.630
+So, for example, you cannot
+only bound the distance between
+
+00:01:09.630 --> 00:01:12.160
+people, for example,
+6 feet, 1 meter.
+
+00:01:12.160 --> 00:01:16.050
+You cannot bound only the
+occupancy, say, 25 persons.
+
+00:01:16.050 --> 00:01:18.390
+You can't even bound the
+ventilation rate, say,
+
+00:01:18.390 --> 00:01:22.320
+a minimum of 15 cubic feet
+per minute per person.
+
+00:01:22.320 --> 00:01:24.240
+Or you can't bound
+only the time--
+
+00:01:24.240 --> 00:01:26.580
+let's say 15 minutes
+or one hour--
+
+00:01:26.580 --> 00:01:29.970
+because all of these variables
+are, inevitably, linked.
+
+00:01:29.970 --> 00:01:33.360
+And the simplest way to see that
+is through our universal safety
+
+00:01:33.360 --> 00:01:35.700
+guideline, which
+shows you how to limit
+
+00:01:35.700 --> 00:01:39.120
+the cumulative exposure time,
+(N-1)t, which
+
+00:01:39.120 --> 00:01:40.830
+is a product of the
+number of susceptible
+
+00:01:40.830 --> 00:01:43.020
+people in a room times
+the time they're together
+
+00:01:43.020 --> 00:01:45.030
+with an infected person.
+
+00:01:45.030 --> 00:01:47.430
+And there are a number
+of factors that come in.
+
+00:01:47.430 --> 00:01:49.860
+So epsilon is a
+tolerance you can choose.
+
+00:01:49.860 --> 00:01:53.490
+And then there are these factors
+lambda_V over --
+
+00:01:53.490 --> 00:01:56.789
+Q_b^2 P_m^2 Cq.
+
+00:01:56.789 --> 00:02:01.470
+And we can discuss, based on
+that formula and our analysis
+
+00:02:01.470 --> 00:02:04.680
+throughout this course,
+the most important ways
+
+00:02:04.680 --> 00:02:07.300
+of mitigating transition
+based on this formula.
+
+00:02:07.300 --> 00:02:09.520
+So I've, roughly, put
+them in order here.
+
+00:02:09.520 --> 00:02:12.450
+So the first thing is to wear
+masks and, in particular,
+
+00:02:12.450 --> 00:02:13.950
+try to wear good masks.
+
+00:02:13.950 --> 00:02:17.610
+So these might be
+surgical masks, N95s,
+
+00:02:17.610 --> 00:02:21.120
+but even various cloth
+or silk masks, especially
+
+00:02:21.120 --> 00:02:23.760
+double-layer fabrics,
+can be quite effective
+
+00:02:23.760 --> 00:02:27.150
+because, as P_m goes to 0,
+the mask penetration factor,
+
+00:02:27.150 --> 00:02:29.220
+you can see this bound
+gets larger and larger,
+
+00:02:29.220 --> 00:02:30.510
+like P_m^2.
+
+00:02:30.510 --> 00:02:33.300
+So a factor of 10%
+transmission can still
+
+00:02:33.300 --> 00:02:35.610
+give you a factor of 100
+compared to not wearing
+
+00:02:35.610 --> 00:02:37.380
+masks in terms of filtration.
+
+00:02:37.380 --> 00:02:39.780
+That's a very
+significant amount.
+
+00:02:39.780 --> 00:02:42.220
+Secondly, we can
+improve ventilation.
+
+00:02:42.220 --> 00:02:45.480
+And this can be by imposing
+faster mechanical ventilation
+
+00:02:45.480 --> 00:02:48.000
+with more fresh air coming in.
+
+00:02:48.000 --> 00:02:51.010
+It could also be by opening a
+window and turning on a fan.
+
+00:02:51.010 --> 00:02:52.740
+And that's increasing lambda_a.
+
+00:02:52.740 --> 00:02:56.130
+We can also try to spend more
+time in larger rooms or even
+
+00:02:56.130 --> 00:02:58.920
+outside, which is,
+basically, increasing V
+
+00:02:58.920 --> 00:03:02.020
+and, thereby, diluting
+the air that is present
+
+00:03:02.020 --> 00:03:04.320
+and all the infectious aerosols.
+
+00:03:04.320 --> 00:03:06.640
+We can also look at
+imposing air filtration.
+
+00:03:06.640 --> 00:03:08.520
+We've shown that there
+is some benefit there.
+
+00:03:08.520 --> 00:03:10.520
+Although, it might not
+be as large as you think.
+
+00:03:10.520 --> 00:03:12.990
+Even very good air
+filtration doesn't
+
+00:03:12.990 --> 00:03:15.390
+buy you many orders of
+magnitude because it's only
+
+00:03:15.390 --> 00:03:17.310
+filtering some of the
+air, but not all of it,
+
+00:03:17.310 --> 00:03:20.010
+compared to masks, which
+are filtering at the source
+
+00:03:20.010 --> 00:03:23.760
+and at the target and, thereby,
+are much more effective.
+
+00:03:23.760 --> 00:03:28.950
+We can also try to make sure the
+occupants of the room maintain
+
+00:03:28.950 --> 00:03:30.560
+lower activity
+levels if possible.
+
+00:03:30.560 --> 00:03:31.980
+So they're breathing
+less heavily.
+
+00:03:31.980 --> 00:03:35.730
+So they're exchanging air with
+the space and with other people
+
+00:03:35.730 --> 00:03:38.290
+less frequently and
+at a lower rate.
+
+00:03:38.290 --> 00:03:42.570
+We can also try to avoid
+vocal exertions, which
+
+00:03:42.570 --> 00:03:45.600
+tend to lead to much larger
+emissions of droplets,
+
+00:03:45.600 --> 00:03:48.060
+for example, singing being
+a particularly bad case,
+
+00:03:48.060 --> 00:03:51.480
+but even loud voices can be a
+lot worse than quiet voices.
+
+00:03:51.480 --> 00:03:56.040
+So, generally, keeping the
+noise in the room down--
+
+00:03:56.040 --> 00:03:59.079
+I know this will be welcome
+news for many teachers--
+
+00:03:59.079 --> 00:04:00.720
+but, in general,
+that is a good way
+
+00:04:00.720 --> 00:04:05.190
+to try to limit transmission
+to keep people calm.
+
+00:04:05.190 --> 00:04:07.080
+We can also take measures
+to try to enhance
+
+00:04:07.080 --> 00:04:10.350
+the deactivation, the
+natural elimination
+
+00:04:10.350 --> 00:04:13.590
+of the infectiousness
+of the virus.
+
+00:04:13.590 --> 00:04:14.970
+One way to do that
+is to maintain
+
+00:04:14.970 --> 00:04:17.070
+an intermediate, comfortable
+range of humidity
+
+00:04:17.070 --> 00:04:18.390
+from 50% to 80%.
+
+00:04:18.390 --> 00:04:21.779
+So very dry air turns
+out to be worse,
+
+00:04:21.779 --> 00:04:24.660
+and that is one of the reasons
+that viral diseases tend
+
+00:04:24.660 --> 00:04:26.720
+to be seasonal, like the
+seasonal flu, typically,
+
+00:04:26.720 --> 00:04:28.890
+worse in winter, in addition
+to the fact that you're
+
+00:04:28.890 --> 00:04:30.890
+spending more time indoors.
+
+00:04:30.890 --> 00:04:33.400
+There's also ultraviolet
+treatments that might be used,
+
+00:04:33.400 --> 00:04:36.820
+which is, effectively, like
+another form of filtration.
+
+00:04:36.820 --> 00:04:38.200
+And then, finally,
+we spent a lot
+
+00:04:38.200 --> 00:04:41.140
+of time talking about the fluid
+mechanics of indoor spaces
+
+00:04:41.140 --> 00:04:43.420
+and of human respiration
+and movement,
+
+00:04:43.420 --> 00:04:47.530
+and those considerations take
+us beyond the well-mixed room.
+
+00:04:47.530 --> 00:04:49.090
+And the main thing
+to remember there
+
+00:04:49.090 --> 00:04:52.300
+is, thinking back to our example
+of people who are smoking,
+
+00:04:52.300 --> 00:04:55.630
+if someone is exhaling right
+after breathing in a cigarette,
+
+00:04:55.630 --> 00:05:01.350
+there's sort of a narrow plume
+of turbulent, very smoky air,
+
+00:05:01.350 --> 00:05:02.680
+which you want to avoid.
+
+00:05:02.680 --> 00:05:04.330
+And the same thing
+is true when dealing
+
+00:05:04.330 --> 00:05:05.920
+with a respiratory
+pathogen. You don't
+
+00:05:05.920 --> 00:05:08.770
+want to spend a lot of time in
+the respiratory jet of a person
+
+00:05:08.770 --> 00:05:12.520
+who is not wearing a mask if
+you don't know if they are sick,
+
+00:05:12.520 --> 00:05:14.850
+potentially, even asymptomatic.
+
+00:05:14.850 --> 00:05:17.020
+So that's an important just
+general piece of advice,
+
+00:05:17.020 --> 00:05:19.960
+and we've given some insight
+into how to quantify that.
+
+00:05:19.960 --> 00:05:23.920
+Although, any treatment of
+short-range transmission
+
+00:05:23.920 --> 00:05:25.960
+through respiratory
+jets is, inevitably,
+
+00:05:25.960 --> 00:05:29.300
+dependent upon assumptions
+about the activity of the room.
+
+00:05:29.300 --> 00:05:30.760
+How much are you
+turning your head?
+
+00:05:30.760 --> 00:05:31.760
+Where are people placed?
+
+00:05:31.760 --> 00:05:34.630
+And so, hence, you can't really
+get a universal guideline,
+
+00:05:34.630 --> 00:05:37.330
+as opposed to this boxed
+formula, which is, essentially,
+
+00:05:37.330 --> 00:05:38.830
+the mass balance
+for the whole room.
+
+00:05:38.830 --> 00:05:40.870
+And that is a
+universal guideline.
+
+00:05:40.870 --> 00:05:43.180
+We've also talked a bit
+about types of ventilation.
+
+00:05:43.180 --> 00:05:46.240
+And, as opposed to ventilation
+that seeks to mix the space,
+
+00:05:46.240 --> 00:05:48.790
+there may be situations
+where having high ceilings
+
+00:05:48.790 --> 00:05:52.720
+and trying to take advantage of
+buoyancy-driven thermal flows
+
+00:05:52.720 --> 00:05:56.320
+that you can sort of target the
+airborne aerosols to be sitting
+
+00:05:56.320 --> 00:05:58.720
+higher in a room where
+they could then be removed
+
+00:05:58.720 --> 00:06:01.630
+by ventilation at the top, which
+is displacement ventilation.
+
+00:06:01.630 --> 00:06:04.010
+That's another strategy
+that may be useful.
+
+00:06:04.010 --> 00:06:06.620
+So these are all different
+strategies one can use.
+
+00:06:06.620 --> 00:06:08.290
+And which one is most
+effective or makes
+
+00:06:08.290 --> 00:06:12.040
+the most sense in a given space
+really depends on the details.
+
+00:06:12.040 --> 00:06:15.250
+And, in order to facilitate the
+application of the guideline,
+
+00:06:15.250 --> 00:06:18.610
+we have provided an
+online app and, also,
+
+00:06:18.610 --> 00:06:21.250
+a spreadsheet, which you
+can use to adapt this
+
+00:06:21.250 --> 00:06:23.200
+to your own space.
+
+00:06:23.200 --> 00:06:25.330
+And I hope that you will
+find the principles you've
+
+00:06:25.330 --> 00:06:27.190
+learned in this class
+useful and that,
+
+00:06:27.190 --> 00:06:29.200
+perhaps, even you'll
+find these tools useful,
+
+00:06:29.200 --> 00:06:33.070
+specifically, to combat the
+transmission of COVID-19
+
+00:06:33.070 --> 00:06:36.630
+and, in the future, other
+respiratory diseases.

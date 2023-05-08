@@ -1,0 +1,747 @@
+WEBVTT
+
+00:00:10.570 --> 00:00:13.030
+PROFESSOR: So now that we've
+done a very simple calculation
+
+00:00:13.030 --> 00:00:15.850
+of C of t, the
+concentration of virions
+
+00:00:15.850 --> 00:00:19.300
+in the air per volume,
+which is coming
+
+00:00:19.300 --> 00:00:21.970
+from just a mass balance
+in a well-mixed room,
+
+00:00:21.970 --> 00:00:24.400
+let's zoom in, now, and
+think about transmission
+
+00:00:24.400 --> 00:00:29.140
+between the infected person,
+or an infected person
+
+00:00:29.140 --> 00:00:32.920
+and then a susceptible person
+who is not yet infected.
+
+00:00:32.920 --> 00:00:34.630
+And the transmission
+is occurring
+
+00:00:34.630 --> 00:00:37.960
+by breathing the
+infected droplets in,
+
+00:00:37.960 --> 00:00:40.270
+and then the virus has to
+get out of those droplets
+
+00:00:40.270 --> 00:00:46.400
+and interact with
+the host tissues.
+
+00:00:46.400 --> 00:00:56.910
+So if we let beta be
+the transmission rate,
+
+00:00:56.910 --> 00:01:03.290
+so this is basically
+new infection per time,
+
+00:01:03.290 --> 00:01:06.250
+so basically, it's the rate
+at which another person may
+
+00:01:06.250 --> 00:01:09.789
+become infected.
+
+00:01:09.789 --> 00:01:12.500
+Then how will we write this?
+
+00:01:12.500 --> 00:01:14.680
+Well, we could write it as--
+
+00:01:14.680 --> 00:01:16.870
+so we're, now, forgetting
+about the infected person.
+
+00:01:16.870 --> 00:01:18.400
+We care about their
+breathing only
+
+00:01:18.400 --> 00:01:21.160
+because it's producing this
+concentration C that we just
+
+00:01:21.160 --> 00:01:21.800
+talked about.
+
+00:01:21.800 --> 00:01:24.100
+But now we're going to focus
+on the susceptible person.
+
+00:01:24.100 --> 00:01:27.160
+The susceptible person is now
+breathing in at the same flow
+
+00:01:27.160 --> 00:01:30.789
+rate Qb because the breathing in
+and breathing out are the same.
+
+00:01:30.789 --> 00:01:36.190
+And so Qb is the volume
+per time around, let's say,
+
+00:01:36.190 --> 00:01:40.900
+0.5 meters cubed per hour with
+which they're sampling the air.
+
+00:01:40.900 --> 00:01:44.560
+And the air comes
+in, and then C of t
+
+00:01:44.560 --> 00:01:48.020
+is the concentration
+of virions per volume.
+
+00:01:48.020 --> 00:01:51.220
+So this combination now tells
+me how many virions per time
+
+00:01:51.220 --> 00:01:54.539
+they're actually taking in.
+
+00:01:54.539 --> 00:01:57.360
+There'll be a quantity Ci, which
+we mentioned earlier, which
+
+00:01:57.360 --> 00:02:01.860
+is the infectivity, and
+that's the probability
+
+00:02:01.860 --> 00:02:03.600
+that an individual
+virion actually
+
+00:02:03.600 --> 00:02:06.450
+causes this person to
+get sick and to become
+
+00:02:06.450 --> 00:02:08.009
+infected themselves.
+
+00:02:08.009 --> 00:02:15.360
+So this is the infectivity
+of an individual virion.
+
+00:02:15.360 --> 00:02:18.530
+And then on top of that,
+we also want to put in--
+
+00:02:18.530 --> 00:02:20.820
+I'll just change the
+color to highlight it--
+
+00:02:20.820 --> 00:02:23.380
+the mask factor that we
+talked about earlier.
+
+00:02:23.380 --> 00:02:27.930
+So that's the transmission
+or penetration probability
+
+00:02:27.930 --> 00:02:30.630
+for the droplets of
+interest through the mask.
+
+00:02:30.630 --> 00:02:32.940
+These quantities, many of
+them will depend on size,
+
+00:02:32.940 --> 00:02:35.220
+and we'll come to that,
+size of the droplet,
+
+00:02:35.220 --> 00:02:37.290
+but just as a rough
+approximation,
+
+00:02:37.290 --> 00:02:39.280
+this is the starting point.
+
+00:02:39.280 --> 00:02:41.970
+So this is the number of,
+basically, new infections
+
+00:02:41.970 --> 00:02:46.500
+per time, and there
+is a useful notion
+
+00:02:46.500 --> 00:02:50.579
+in epidemiology, which is
+that of the infection quantum.
+
+00:02:50.579 --> 00:02:53.370
+So transmission rates
+are often written
+
+00:02:53.370 --> 00:03:03.280
+as infection quanta
+per time, and that
+
+00:03:03.280 --> 00:03:06.110
+is the rate at which a
+person, which is susceptible,
+
+00:03:06.110 --> 00:03:07.150
+will get infected.
+
+00:03:07.150 --> 00:03:08.830
+What we have not yet
+captured is if you
+
+00:03:08.830 --> 00:03:10.620
+have a finite number
+of people in the room,
+
+00:03:10.620 --> 00:03:13.090
+when someone gets infected,
+they can't get infected again.
+
+00:03:13.090 --> 00:03:14.960
+So the numbers of susceptible
+people is changing.
+
+00:03:14.960 --> 00:03:17.050
+So we have to model the
+progression of the disease
+
+00:03:17.050 --> 00:03:20.060
+in the room, which
+we have not done yet.
+
+00:03:20.060 --> 00:03:23.329
+So that's why the beta is not
+the number of infected people
+
+00:03:23.329 --> 00:03:25.570
+cause eventually you run
+out of people to infect.
+
+00:03:25.570 --> 00:03:27.920
+So we have to account
+for that later.
+
+00:03:27.920 --> 00:03:29.350
+But a useful way
+to think of it is
+
+00:03:29.350 --> 00:03:32.079
+that beta is sort of the rate
+at which this person is sending
+
+00:03:32.079 --> 00:03:33.400
+infection quanta over here.
+
+00:03:33.400 --> 00:03:35.480
+Those quanta may not
+actually lead to an infection
+
+00:03:35.480 --> 00:03:37.610
+because they might already
+have been infected.
+
+00:03:37.610 --> 00:03:39.610
+But if they're
+susceptible, that tells you
+
+00:03:39.610 --> 00:03:43.060
+the rate at which that
+person would become infected.
+
+00:03:43.060 --> 00:03:46.180
+So that's the notion
+of infection quanta
+
+00:03:46.180 --> 00:03:49.560
+is essentially defined by
+the transmission rate beta.
+
+00:03:52.150 --> 00:03:55.690
+Now, this infectivity is
+something we'll come back to.
+
+00:03:55.690 --> 00:04:00.040
+We will actually go through
+the calculation for SARS-CoV-2,
+
+00:04:00.040 --> 00:04:03.590
+but it's been estimated
+before to be at about 2%
+
+00:04:03.590 --> 00:04:08.530
+from the original
+SARS virus in 2003.
+
+00:04:08.530 --> 00:04:14.140
+And in fact, I will argue
+that it's greater than 10%
+
+00:04:14.140 --> 00:04:17.690
+for SARS-CoV-2.
+
+00:04:17.690 --> 00:04:21.700
+And we'll do that by analyzing
+spreading data with the model.
+
+00:04:21.700 --> 00:04:23.530
+And, of course, that
+helps to explain
+
+00:04:23.530 --> 00:04:27.160
+why SARS-CoV-2 has led
+to the COVID-19 pandemic,
+
+00:04:27.160 --> 00:04:32.140
+and SARS-CoV-1 was not
+able to spread as much.
+
+00:04:32.140 --> 00:04:34.650
+So now we have here
+our transmission rate.
+
+00:04:34.650 --> 00:04:37.150
+And we can ask ourselves, this
+is a transmission rate, which
+
+00:04:37.150 --> 00:04:39.760
+is time-dependent,
+but what if now
+
+00:04:39.760 --> 00:04:42.760
+we calculate the steady-state
+transmission rate?
+
+00:04:46.960 --> 00:04:49.440
+So the transient would be
+when the infected person first
+
+00:04:49.440 --> 00:04:50.370
+enters the room.
+
+00:04:50.370 --> 00:04:52.920
+The concentration is
+changing in time in the air,
+
+00:04:52.920 --> 00:04:55.420
+but eventually, there's kind
+of a steady-state where there's
+
+00:04:55.420 --> 00:04:57.930
+a balance of the production
+and then the flow rate
+
+00:04:57.930 --> 00:05:00.840
+through the room of refreshing
+the air with outdoor air.
+
+00:05:00.840 --> 00:05:04.500
+And in steady-state, we
+have the transmission rate
+
+00:05:04.500 --> 00:05:07.000
+is going to go to
+a constant value,
+
+00:05:07.000 --> 00:05:09.210
+which I'll call
+beta bar, and that
+
+00:05:09.210 --> 00:05:14.740
+is given by the
+steady-state concentrations.
+
+00:05:14.740 --> 00:05:16.130
+So here I'll just write it--
+
+00:05:16.130 --> 00:05:21.570
+I'll rewrite this expression
+here Qb Ci Pm and then
+
+00:05:21.570 --> 00:05:30.030
+the steady-state C, which is
+the production rate P divided
+
+00:05:30.030 --> 00:05:34.650
+by the outdoor airflow rate Q.
+
+00:05:34.650 --> 00:05:36.740
+And another way we
+can write that is
+
+00:05:36.740 --> 00:05:39.320
+that remember Q we can
+write as lambda a times
+
+00:05:39.320 --> 00:05:45.480
+V. So this is Qb, and in
+fact, let me-- well, here,
+
+00:05:45.480 --> 00:05:46.650
+I'll write it one more time.
+
+00:05:46.650 --> 00:05:54.110
+That's my Ci Pm capital
+P over lambda A V.
+
+00:05:54.110 --> 00:05:59.180
+Now, recall that the
+P we had written as,
+
+00:05:59.180 --> 00:06:02.420
+that's the production
+rate, also depends
+
+00:06:02.420 --> 00:06:07.700
+on Qb, that's the rate at which
+the infected person is exhaling
+
+00:06:07.700 --> 00:06:08.870
+infected air.
+
+00:06:08.870 --> 00:06:13.160
+So that was Qb times nd, the
+number of droplets per volume,
+
+00:06:13.160 --> 00:06:15.610
+Vd, the volume of
+liquid in a droplet,
+
+00:06:15.610 --> 00:06:18.860
+so this nd Vd's the
+volume fraction of liquid.
+
+00:06:18.860 --> 00:06:23.330
+And then we needed Cv, which
+was the concentration of virions
+
+00:06:23.330 --> 00:06:25.640
+in the liquid or in the fluid.
+
+00:06:25.640 --> 00:06:28.940
+And there's also a factor
+of Pm if that person
+
+00:06:28.940 --> 00:06:30.620
+is wearing a mask.
+
+00:06:30.620 --> 00:06:34.320
+So we put all this together, we
+get an important result here,
+
+00:06:34.320 --> 00:06:37.640
+which is that the steady-state
+transmission rate can
+
+00:06:37.640 --> 00:06:46.310
+be written, when I plug-in here,
+as Qb squared times Pm squared.
+
+00:06:46.310 --> 00:06:48.550
+So the mask factor
+comes in twice
+
+00:06:48.550 --> 00:06:54.909
+because if they are wearing
+masks, there's two masks.
+
+00:06:54.909 --> 00:06:57.090
+You have a mask at the source.
+
+00:06:57.090 --> 00:06:59.210
+You also mask at the
+target, and the fluid
+
+00:06:59.210 --> 00:07:01.800
+has to go through
+both of those filters.
+
+00:07:01.800 --> 00:07:04.070
+So that's one reason, as
+we'll see, that masks can be,
+
+00:07:04.070 --> 00:07:05.930
+actually, very effective.
+
+00:07:05.930 --> 00:07:08.060
+And then we'll lump all
+the parameters in something
+
+00:07:08.060 --> 00:07:10.250
+I'll call Cq, which
+I'll come back to,
+
+00:07:10.250 --> 00:07:14.620
+and then we'll leave lambda
+a V in the denominator.
+
+00:07:14.620 --> 00:07:18.800
+So this is the main
+transmission rate
+
+00:07:18.800 --> 00:07:22.400
+where I've defined this
+important parameter Cq which
+
+00:07:22.400 --> 00:07:25.540
+has all the information
+about the specific disease,
+
+00:07:25.540 --> 00:07:26.180
+and what is it?
+
+00:07:26.180 --> 00:07:27.380
+It's everything else is left.
+
+00:07:27.380 --> 00:07:31.560
+It's nd Vd, so that has
+to do with respiration,
+
+00:07:31.560 --> 00:07:33.380
+so the distribution
+of droplet sizes
+
+00:07:33.380 --> 00:07:35.090
+and the size of the
+droplets is something
+
+00:07:35.090 --> 00:07:37.909
+that's coming from the
+type of respiration
+
+00:07:37.909 --> 00:07:40.280
+that the infected
+person is engaging in.
+
+00:07:40.280 --> 00:07:42.140
+Cv is their viral
+load, so it has
+
+00:07:42.140 --> 00:07:43.940
+to do with the progression
+of their disease
+
+00:07:43.940 --> 00:07:47.180
+and how many viruses
+or virions are found.
+
+00:07:47.180 --> 00:07:50.550
+And then we have Ci,
+which is this infectivity,
+
+00:07:50.550 --> 00:07:52.430
+the probability that
+any one of those virions
+
+00:07:52.430 --> 00:07:54.440
+will actually infect
+this susceptible person
+
+00:07:54.440 --> 00:07:56.360
+if it manages to get in
+there and diffuse out
+
+00:07:56.360 --> 00:07:57.020
+of the droplets.
+
+00:07:59.450 --> 00:08:02.720
+So coming back to this
+notion of infection quanta,
+
+00:08:02.720 --> 00:08:05.720
+while beta is an infection
+quanta per time, which
+
+00:08:05.720 --> 00:08:08.860
+are being kind of transmitted
+from one infected person to one
+
+00:08:08.860 --> 00:08:11.450
+susceptible person, the
+way I've written it here
+
+00:08:11.450 --> 00:08:21.600
+is I've reexpressed it as
+infection quanta per volume
+
+00:08:21.600 --> 00:08:23.830
+of air exhaled.
+
+00:08:26.640 --> 00:08:32.580
+So while C is the concentration
+of virions in the background,
+
+00:08:32.580 --> 00:08:35.940
+there is this Cq, which is
+essentially the infection
+
+00:08:35.940 --> 00:08:39.809
+quanta that are being released,
+and the factor of CvCi
+
+00:08:39.809 --> 00:08:41.750
+is actually what
+connects those two.
+
+00:08:41.750 --> 00:08:47.520
+In fact, sometimes we
+write Cq little cq CvCi,
+
+00:08:47.520 --> 00:08:56.710
+this is infection quanta
+per liquid volume in a drop.
+
+00:08:56.710 --> 00:08:59.930
+So from the mucus or material
+that's being released,
+
+00:08:59.930 --> 00:09:02.530
+there is a certain concentration
+of infection quanta, which
+
+00:09:02.530 --> 00:09:06.020
+is the physical concentration
+of the virions Cv
+
+00:09:06.020 --> 00:09:07.660
+times the probability
+that if they
+
+00:09:07.660 --> 00:09:11.410
+were to be exposed to the
+susceptible person's cells,
+
+00:09:11.410 --> 00:09:13.210
+that they would actually
+infect those cells
+
+00:09:13.210 --> 00:09:15.950
+and cause a transmission
+of the infection.
+
+00:09:15.950 --> 00:09:18.100
+So that's another
+important quantity,
+
+00:09:18.100 --> 00:09:22.420
+and this here is really
+the primary sort of lumped
+
+00:09:22.420 --> 00:09:26.410
+or combined disease
+and physiological
+
+00:09:26.410 --> 00:09:29.160
+parameter in the model.
+
+00:09:29.160 --> 00:09:31.340
+So what's nice about
+separating this way is
+
+00:09:31.340 --> 00:09:34.820
+that Qb is something which has
+to do with people's activity,
+
+00:09:34.820 --> 00:09:36.620
+it's how fast they're
+breathing, and that's
+
+00:09:36.620 --> 00:09:38.820
+something we know very easily
+whether they're at rest
+
+00:09:38.820 --> 00:09:40.220
+or they're exercising.
+
+00:09:40.220 --> 00:09:42.780
+Pm is also known if we know
+the kinds of masks people
+
+00:09:42.780 --> 00:09:43.280
+are wearing.
+
+00:09:43.280 --> 00:09:45.230
+There's various studies
+of transmission factors
+
+00:09:45.230 --> 00:09:47.410
+and filtration
+efficiencies of masks.
+
+00:09:47.410 --> 00:09:49.860
+And so we can put
+reasonable estimates there.
+
+00:09:49.860 --> 00:09:51.320
+And then here we
+see the importance
+
+00:09:51.320 --> 00:09:53.500
+of lambda a, which is
+the air exchange rate.
+
+00:09:53.500 --> 00:09:55.460
+So how quickly is fresh
+air coming in the room?
+
+00:09:55.460 --> 00:09:57.350
+That's a physical
+parameter of the room, has
+
+00:09:57.350 --> 00:09:58.700
+nothing to do with the disease.
+
+00:09:58.700 --> 00:10:00.700
+And V, of course, is a
+geometrical parameter,
+
+00:10:00.700 --> 00:10:02.940
+the room, which is the volume.
+
+00:10:02.940 --> 00:10:06.080
+And so all the disease aspects
+are kind of lumped into the Cq.
+
+00:10:06.080 --> 00:10:11.120
+So if I want to apply this to
+actual spreading of COVID-19,
+
+00:10:11.120 --> 00:10:12.740
+I have all these
+parameters that I
+
+00:10:12.740 --> 00:10:14.930
+know that come from
+the physics and fluid
+
+00:10:14.930 --> 00:10:16.740
+mechanics of the room.
+
+00:10:16.740 --> 00:10:18.410
+And then, I have a
+single parameter Cq
+
+00:10:18.410 --> 00:10:21.640
+that I need to obtain from
+an understanding of disease
+
+00:10:21.640 --> 00:10:23.480
+transmission and looking
+at spreading events
+
+00:10:23.480 --> 00:10:26.110
+in indoor situations.

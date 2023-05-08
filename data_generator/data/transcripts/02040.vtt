@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00:11.000 --> 00:00:14.010
+PROFESSOR: So now, we can
+summarize the safety guideline
+
+00:00:14.010 --> 00:00:18.230
+in a very simple formula, using
+the steady state transmission
+
+00:00:18.230 --> 00:00:20.390
+rate as a more
+conservative estimate
+
+00:00:20.390 --> 00:00:23.810
+than worrying about the
+transient buildup of aerosols
+
+00:00:23.810 --> 00:00:27.500
+in the room, and using the
+simplification of introducing
+
+00:00:27.500 --> 00:00:31.010
+an effective size
+for particles, R bar,
+
+00:00:31.010 --> 00:00:33.530
+that includes and encodes
+all the information
+
+00:00:33.530 --> 00:00:37.640
+about the radius dependent
+mass penetration factor
+
+00:00:37.640 --> 00:00:43.190
+or sedimentation rate and
+infectivity, et cetera,
+
+00:00:43.190 --> 00:00:45.110
+in droplet size distribution.
+
+00:00:45.110 --> 00:00:47.250
+And the safety guideline
+looks like this.
+
+00:00:47.250 --> 00:00:50.340
+It basically bounds the
+cumulative exposure time,
+
+00:00:50.340 --> 00:00:52.610
+which is n minus 1, the
+number of susceptible people
+
+00:00:52.610 --> 00:00:58.400
+when one person enters a room of
+occupancy n, maximum occupancy,
+
+00:00:58.400 --> 00:01:00.830
+and stays for a time tau.
+
+00:01:00.830 --> 00:01:03.320
+And I should mention
+the time tau does not
+
+00:01:03.320 --> 00:01:04.560
+need to be continuous.
+
+00:01:04.560 --> 00:01:07.130
+So if you think of, say,
+a classroom or an office,
+
+00:01:07.130 --> 00:01:09.870
+you will be adding up
+the time, total time.
+
+00:01:09.870 --> 00:01:12.530
+So if this safe
+time is 100 hours
+
+00:01:12.530 --> 00:01:15.310
+and you spend 10
+hours a day, you
+
+00:01:15.310 --> 00:01:19.670
+might get 10 days, according
+to this calculation.
+
+00:01:19.670 --> 00:01:23.289
+And so that relationship is
+plotted as this yellow curve.
+
+00:01:23.289 --> 00:01:25.130
+And if you're below
+that curve, you're safe.
+
+00:01:25.130 --> 00:01:29.090
+So you have either smaller time
+than that or a lower occupancy.
+
+00:01:29.090 --> 00:01:30.920
+And that's how you
+can decide the safety.
+
+00:01:30.920 --> 00:01:33.440
+Again, this is a safety
+exposure guideline
+
+00:01:33.440 --> 00:01:37.150
+for indoor airborne
+transmission.
+
+00:01:41.060 --> 00:01:46.560
+And we will talk about other
+types of transmission later.
+
+00:01:46.560 --> 00:01:48.150
+What's nice about
+this formula is
+
+00:01:48.150 --> 00:01:50.130
+it allows you to
+immediately see the effects
+
+00:01:50.130 --> 00:01:51.920
+of the scaling, some
+of which we've already
+
+00:01:51.920 --> 00:01:53.350
+talked about before.
+
+00:01:53.350 --> 00:01:55.800
+So if we would like to
+move it in this direction,
+
+00:01:55.800 --> 00:01:59.470
+obviously, we would like the
+curve to be up here somewhere.
+
+00:01:59.470 --> 00:02:01.740
+So this is obviously
+making the room more safe.
+
+00:02:01.740 --> 00:02:03.210
+If I can push it
+in this direction,
+
+00:02:03.210 --> 00:02:05.700
+I can either get more
+people or more time
+
+00:02:05.700 --> 00:02:08.500
+or whatever combination
+that I'd like.
+
+00:02:08.500 --> 00:02:09.780
+How can I get there?
+
+00:02:09.780 --> 00:02:14.040
+So Cq is a disease
+specific parameter.
+
+00:02:14.040 --> 00:02:17.130
+But we will see
+that Cq does depend
+
+00:02:17.130 --> 00:02:18.930
+on the type of respiration
+and activities,
+
+00:02:18.930 --> 00:02:21.300
+such as singing
+or heavy exercise
+
+00:02:21.300 --> 00:02:25.440
+or loud speaking are much worse
+than resting or breathing.
+
+00:02:25.440 --> 00:02:27.150
+So to get in this
+direction, we could
+
+00:02:27.150 --> 00:02:35.640
+do smaller Cq, which
+could be resting
+
+00:02:35.640 --> 00:02:41.050
+versus speaking or singing.
+
+00:02:41.050 --> 00:02:42.920
+And we'll come back
+to characterizing that
+
+00:02:42.920 --> 00:02:43.610
+more carefully.
+
+00:02:43.610 --> 00:02:46.800
+So we can at least change that
+type of activity in the room.
+
+00:02:46.800 --> 00:02:49.790
+Well for physical
+parameters, we can
+
+00:02:49.790 --> 00:02:53.170
+increase V, the room volume.
+
+00:02:53.170 --> 00:02:55.590
+So if you take everything the
+same, same number of people,
+
+00:02:55.590 --> 00:02:57.180
+and you make the
+room much bigger,
+
+00:02:57.180 --> 00:02:59.250
+obviously the air
+gets more diluted.
+
+00:02:59.250 --> 00:03:01.560
+And hence, there's less
+chance of transmission
+
+00:03:01.560 --> 00:03:04.700
+if people are sort of
+scattered about the room.
+
+00:03:04.700 --> 00:03:06.170
+What else can we do?
+
+00:03:06.170 --> 00:03:18.940
+We can lower Qb, which means
+breathe slowly or in a more
+
+00:03:18.940 --> 00:03:20.060
+relaxed way.
+
+00:03:20.060 --> 00:03:21.610
+So again, coming
+back to the activity
+
+00:03:21.610 --> 00:03:23.650
+in the room, if you have
+heavy physical exercise,
+
+00:03:23.650 --> 00:03:27.160
+your Qb might increase, although
+it doesn't increase that much.
+
+00:03:27.160 --> 00:03:31.060
+Resting breathing is around
+0.5 meters cube per hour.
+
+00:03:31.060 --> 00:03:34.150
+And even heavy exercise
+doesn't get much higher
+
+00:03:34.150 --> 00:03:37.450
+than about 3 meters
+cubed per hour.
+
+00:03:37.450 --> 00:03:41.090
+And so that's a total
+of a factor of 6 or so.
+
+00:03:41.090 --> 00:03:42.350
+But it comes in squared.
+
+00:03:42.350 --> 00:03:44.120
+So that could actually
+be significant.
+
+00:03:44.120 --> 00:03:49.900
+So definitely heavy exercise
+is not as good as resting.
+
+00:03:49.900 --> 00:03:50.950
+And what else do we have?
+
+00:03:50.950 --> 00:03:51.530
+We have masks.
+
+00:03:51.530 --> 00:03:54.970
+Well, obviously,
+we can wear masks.
+
+00:03:57.690 --> 00:03:59.170
+And that is actually
+very helpful,
+
+00:03:59.170 --> 00:04:01.510
+because as we've already
+discussed, it comes in squared.
+
+00:04:01.510 --> 00:04:04.080
+And that is something which
+is sort of very simple fix.
+
+00:04:04.080 --> 00:04:06.630
+And if the mask
+penetration factor
+
+00:04:06.630 --> 00:04:11.530
+is 10% or even possibly
+less, it comes in squared.
+
+00:04:11.530 --> 00:04:14.400
+So that can have a very big
+effect of pushing this over,
+
+00:04:14.400 --> 00:04:15.730
+as we will see.
+
+00:04:15.730 --> 00:04:23.680
+So this is basically
+lower P mask.
+
+00:04:23.680 --> 00:04:28.200
+So when there's no
+mask, Pm is equal to 1.
+
+00:04:28.200 --> 00:04:32.210
+Finally we also
+have an lambda C,
+
+00:04:32.210 --> 00:04:33.880
+because we had written
+that out earlier,
+
+00:04:33.880 --> 00:04:36.730
+that also includes
+several effects,
+
+00:04:36.730 --> 00:04:40.500
+such as better ventilation.
+
+00:04:40.500 --> 00:04:47.920
+So increase ventilation, so
+the flow rate of outside air,
+
+00:04:47.920 --> 00:04:49.870
+so the air change rate
+should be increased.
+
+00:04:49.870 --> 00:04:52.750
+And that gives us
+a larger lambda C.
+
+00:04:52.750 --> 00:04:55.120
+We can introduce air filtration.
+
+00:04:58.540 --> 00:05:00.310
+And that's sort of
+buried within lambda C.
+
+00:05:00.310 --> 00:05:05.230
+That's PF lambda F. Although
+as we discussed earlier,
+
+00:05:05.230 --> 00:05:07.480
+because you have to have a
+certain amount of fresh air
+
+00:05:07.480 --> 00:05:09.910
+coming into the room, air
+filtration doesn't give you
+
+00:05:09.910 --> 00:05:11.770
+as much benefit
+as you might hope,
+
+00:05:11.770 --> 00:05:15.160
+but can still give you a
+factor of 5 or something
+
+00:05:15.160 --> 00:05:20.290
+like that if you have 20%
+outdoor fresh air coming in.
+
+00:05:20.290 --> 00:05:22.300
+And so those are some
+of the key scalings
+
+00:05:22.300 --> 00:05:24.070
+that we can understand.
+
+00:05:24.070 --> 00:05:26.380
+And just simply by plugging
+into a formula like this,
+
+00:05:26.380 --> 00:05:29.650
+we can get a sense of how
+different mitigation strategies
+
+00:05:29.650 --> 00:05:32.230
+can be compared and also
+how different types of rooms
+
+00:05:32.230 --> 00:05:34.870
+can be compared in terms
+of the occupancy time
+
+00:05:34.870 --> 00:05:36.760
+and the number of
+people that could be
+
+00:05:36.760 --> 00:05:39.620
+allowed as a maximum occupancy.
+
+00:05:39.620 --> 00:05:42.350
+And what remains now is the
+parameterize this for COVID-19
+
+00:05:42.350 --> 00:05:45.560
+specifically, which boils down
+to understanding this parameter
+
+00:05:45.560 --> 00:05:47.110
+Cq.
