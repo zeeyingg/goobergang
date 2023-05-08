@@ -52,7 +52,7 @@ gabrielT -- 2023-05-06 14:00
  * Created ID system for lectures and courses
  * Wrote script to store courses and lectures in respective JSON files
  * Wrote Python script to download the contents of all lectures found that my scraper found
- * Wrote Python script to extract the names of lecturers from a given lecture URL (works about 75% of the time)
+ * Wrote Python script to extract the names of lecturers from a given lecture URL
 ==============================================================
 
 gabrielT -- 2023-05-07 20:00
