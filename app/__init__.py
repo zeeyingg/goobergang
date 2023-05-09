@@ -3,7 +3,7 @@ goobergang:
 '''
 
 from flask import *
-from db import *
+#from db import *
 
 app = Flask(__name__)
 app.secret_key = "temporarykey" #maybe not needed since we dont have logins

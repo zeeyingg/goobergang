@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3, json
 
 Database = "test.db"
 
@@ -7,12 +7,41 @@ c=db.cursor()
 c.executescript(
     """
     create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
-    create TABLE if NOT EXISTS Professor(professor_id primary key int, professor text, speed int, vocabulary int, sentiment int, stu_interact int);
+    create TABLE if NOT EXISTS Professor(professor_id int primary key, professor text, speed int, vocabulary int, sentiment int, stu_interact int);
     create TABLE if NOT EXISTS Scripts(Lecture_id int, line_id int, line text, time text);
     create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, sentiment text, stu_interact int);
     """
 )
 c.close()
+
+#assume that when this file is run, database populated from json data
+with open('data_generator/data/courses.json', 'r') as courses_file:
+    courses = json.loads(courses_file.read())
+
+print('='*50)
+print(courses)
+
+with open('data_generator/data/departments.json', 'r') as departments_file:
+    departments = json.loads(departments_file.read())
+
+
+print('='*50)
+print(departments)
+
+with open('data_generator/data/lectures.json', 'r') as lectures_file:
+    lectures = json.loads(lectures_file.read())
+
+
+print('='*50)
+print(lectures)
+
+with open('data_generator/data/professors.json', 'r') as professors_file:
+    professors = json.loads(professors_file.read())
+
+for prof, details in professors.items():
+    print(prof, details['words']['wpm'])
+
+
 
 def get_all_lecture_id():
     c = db.cursor()
@@ -25,13 +54,13 @@ def get_all_lecture_id():
 
 def add_lecture(Lecture_id, lecture_title):
     c = db.cursor()
-    
     c.execute("SELECT MAX(professor_id) FROM Lectures")
     max_id = c.fetchone()
     if (max_id[0] != None):
         new_id = max_id[0] + 1
     else:
         new_id = 0
+    #should probably have more arguments, new_id is really the professor id?
     c.execute("insert into Lectures values(?, ?, ?)", (Lecture_id, lecture_title, new_id))
     db.commit()
     c.close()
@@ -76,4 +105,4 @@ def get_professor_info(ID): # Gets professor Info by ID
 #def get_all_professor_info():
 
 #==============================
-add_lecture(-2,"test_name")
+# add_lecture(-2,"test_name")
