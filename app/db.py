@@ -5,6 +5,7 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 #please comment the drop tables if not testing
+
 c.executescript(
     """
     drop TABLE Lectures;
@@ -13,6 +14,7 @@ c.executescript(
     drop TABLE Subject;
     """
 )
+
 c.executescript(
     """
     create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
@@ -56,7 +58,7 @@ for lec in lectures:
     #no data sanitization here, not because it's not needed, but we trust the json data
     #not sure if type conversion is needed, but added anyways to be safe
     lec_id = int(lec)
-    title = "placeholder"
+    title = lectures[f"{lec}"]["video_url"].split("/")[-2].replace("-", " ").upper() + lectures[f"{lec}"]["video_url"].split("/")[-1].replace("-", " ").upper()
     topic = lectures[f"{lec}"]["department"]
     #having instructor id seems extraneous if we have names, but we assign anyways
     #also problem if multiple professors
@@ -68,8 +70,8 @@ for lec in lectures:
     if (lectures[f"{lec}"]["text_analysis"] != {}):
         speed = lectures[f"{lec}"]["text_analysis"]["words"]["wpm"]
         vocab = lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"]
-    c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?)", (lec_id, title, prof_id, topic, speed, vocab))
-    #print(lec_id, title, prof_id, topic, speed, vocab)
+    #c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?)", (lec_id, title, prof_id, topic, speed, vocab))
+    print(lec_id, title, prof_id, topic, speed, vocab)
 
 for profs in professors:
     prof_id = list(professors.keys()).index(profs)
@@ -91,7 +93,7 @@ for deps in departments:
     sentiment = "placeholder"
     stu = departments[f"{deps}"]["audience_participation"]["num_audience_participations"]
     c.execute("INSERT INTO Subject values (?, ?, ?, ?, ?)", (topic, speed, vocab, sentiment, stu))
-    print(topic, speed, vocab, sentiment, stu)
+    #print(topic, speed, vocab, sentiment, stu)
 
 #not sure how to read vtt files, but we may need a module?
 
