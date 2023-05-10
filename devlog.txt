@@ -27,7 +27,7 @@ ziyingJ, gabrielT, junW, joshuaL -- 2023-05-02 14:00
 ziyingJ, gabrielT, junW, joshuaL -- 2023-05-02 22:00
 --------------------------------------------------------------
  * Made component map and sitemap via thoughts
- * Came up with database organization system, and made diagram for it
+ * Conjured database organization system, and made diagram for it
 ==============================================================
 
 gabrielT -- 2023-05-03 23:00
@@ -40,6 +40,7 @@ gabrielT -- 2023-05-03 23:00
 ziyingJ, joshuaL -- 2023-05-04 13:30
 --------------------------------------------------------------
  * Created basic working flask app template
+ * Incorporated Foundation scripts in index.html
 ==============================================================
 
 gabrielT -- 2023-05-04 13:30
