@@ -61,3 +61,14 @@ gabrielT -- 2023-05-07 20:00
  * Wrote script to amalgamate all of this data into files keeping track of metrics specific to professors and departments.
  * Expanded the number of lectures in the dataset from ~1300 to ~2100
 ==============================================================
+
+junW -- 2023-05-09 9:10
+--------------------------------------------------------------
+ * Added requirements.txt (early version)
+==============================================================
+
+junW -- 2023-05-09 10:30
+--------------------------------------------------------------
+ * Added sections in db.py that populate 3 of 4 tables in database, with placeholders
+ * Scripts table may require python module to read .vtt files
+==============================================================
