@@ -23,7 +23,27 @@
         <button>search</button>
     </form>
 
-
+    <div style="width:50%;">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Prof_id</th>
+            <th>topic</th>
+            <th>Speed</th>
+            <th>Vocab</th>
+        </tr>
+        {% for Lecture in DATA %}
+        <tr>
+            {% for value in Lecture %}
+                <td>
+                    {{ value }}
+                </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
 
     <!-- Scripts -->
     <script src="js/vendor/jquery.js"></script>
