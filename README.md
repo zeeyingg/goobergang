@@ -26,7 +26,7 @@
 Presenting data analysis on MIT OpenCourseWare video lectures based on professors' and departments' speech patterns, such as verbosity, sentiment, speed, and student interactivity.
 
 ## Launch Codes
-
+### How to clone/install
 Clone this repo.
 ```
 $ git clone git@github.com:zeeyingg/goobergang.git
