@@ -62,12 +62,17 @@ gabrielT -- 2023-05-07 20:00
  * Expanded the number of lectures in the dataset from ~1300 to ~2100
 ==============================================================
 
-junW -- 2023-05-09 9:10
+gabrielT, junW -- 2023-05-07 13:30
+--------------------------------------------------------------
+ * Wrote starter code to popualate professors and departments databases
+==============================================================
+
+junW -- 2023-05-09 21:10
 --------------------------------------------------------------
  * Added requirements.txt (early version)
 ==============================================================
 
-junW -- 2023-05-09 10:30
+junW -- 2023-05-09 22:30
 --------------------------------------------------------------
  * Added sections in db.py that populate 3 of 4 tables in database, with placeholders
  * Scripts table may require python module to read .vtt files
