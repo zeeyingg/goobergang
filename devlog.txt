@@ -89,9 +89,15 @@ junW -- 2023-05-10 14:00
  * Replaced some placeholders with data
 ==============================================================
 
-junW -- 2023-05-10 10:00
+junW -- 2023-05-10 22:00
 --------------------------------------------------------------
  * Changed database values, rounded ints, removed sentiment analysis column
  * Deleted Scripts table because not necessary
  * Added HTML tables for other SQL tables
+==============================================================
+
+junW -- 2023-05-11 18:00
+--------------------------------------------------------------
+ * More database stuff
+ * D3.js explorations
 ==============================================================

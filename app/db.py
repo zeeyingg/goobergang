@@ -5,17 +5,17 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 # please comment the drop tables if not testing
-# c.executescript(
-#     """
-#     drop TABLE Lectures;
-#     drop TABLE Professor;
-#     drop TABLE Subject;
-#     """
-# )
+c.executescript(
+    """
+    drop TABLE Lectures;
+    drop TABLE Professor;
+    drop TABLE Subject;
+    """
+)
 
 c.executescript(
     """
-    create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
+    create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, course_title text, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
     create TABLE if NOT EXISTS Professor(professor_id int primary key, professor text, speed int, vocabulary int, stu_interact int);
     create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, stu_interact int);
     """
@@ -55,7 +55,8 @@ def populate():
         #no data sanitization here, not because it's not needed, but we trust the json data
         #not sure if type conversion is needed, but added anyways to be safe
         lec_id = int(lec)
-        title = lectures[f"{lec}"]["video_url"].split("/")[-4].replace("-", " ").upper() + ", " + lectures[f"{lec}"]["video_url"].split("/")[-2].replace("-", " ").upper()
+        course_name = courses[lectures[f"{lec}"]["course_code"]]["course_title"]
+        title = lectures[f"{lec}"]["video_url"].split("/")[-2].replace("-", " ").upper()
         topic = lectures[f"{lec}"]["department"]
         #having instructor id seems extraneous if we have names, but we assign anyways
         #also problem if multiple professors
@@ -68,7 +69,7 @@ def populate():
             speed = round(lectures[f"{lec}"]["text_analysis"]["words"]["wpm"], 2)
             vocab = round(lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"], 2)
         #print(lec_id, title, prof_id, topic, speed, vocab)
-        c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?)", (lec_id, title, prof_id, topic, speed, vocab))
+        c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?, ?)", (lec_id, course_name, title, prof_id, topic, speed, vocab))
 
     for profs in professors:
         prof_id = list(professors.keys()).index(profs)
@@ -186,4 +187,4 @@ def get_professor_info(ID): # Gets professor Info by ID
     data = c.fetchall()
     c.close()
 
-#populate()
+populate()
