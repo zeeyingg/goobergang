@@ -5,13 +5,13 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 # please comment the drop tables if not testing
-c.executescript(
-    """
-    drop TABLE Lectures;
-    drop TABLE Professor;
-    drop TABLE Subject;
-    """
-)
+# c.executescript(
+#     """
+#     drop TABLE Lectures;
+#     drop TABLE Professor;
+#     drop TABLE Subject;
+#     """
+# )
 
 c.executescript(
     """
@@ -96,15 +96,8 @@ def populate():
     db.commit()
     c.close()
 
-def get_all_lecture_id():
-    c = db.cursor()
-    c.execute("select Lecture_id from Lectures")
-    data = c.fetchall()
-    c.close()
-    if(data == []):
-        return None
-    return data
-
+#==========================
+# get_all_{table}_data()
 def get_all_lecture_data():
     c = db.cursor()
     c.execute("select * from Lectures")
@@ -131,6 +124,17 @@ def get_all_subject_data():
     if(data == []):
         return None
     return data
+#==========================
+
+def get_all_lecture_id():
+    c = db.cursor()
+    c.execute("select Lecture_id from Lectures")
+    data = c.fetchall()
+    c.close()
+    if(data == []):
+        return None
+    return data
+
 
 def add_lecture(Lecture_id, lecture_title):
     c = db.cursor()
@@ -145,14 +149,15 @@ def add_lecture(Lecture_id, lecture_title):
     db.commit()
     c.close()
 
-def get_all_lecture_title(): # Might be useful for searching up lectures by name
+def get_all_lecture_title_and_id(): # Might be useful for searching up lectures by name
     c = db.cursor()
-    c.execute("select lecture_title from Lectures")
+    c.execute("select lecture_id, lecture_title from Lectures")
     data = c.fetchall()
     c.close()
-    if(data == []):
-        return None
-    return data
+    if data == None : 
+        return []
+    Titles = [[Title[0], Title[1]] for Title in data]
+    return Titles
 
 def get_one_lecture_title(Lecture_id): # Maybe not so useful
     c = db.cursor()
@@ -181,11 +186,4 @@ def get_professor_info(ID): # Gets professor Info by ID
     data = c.fetchall()
     c.close()
 
-# Not sure if we need this
-#def get_all_professor_info():
-
-#==============================
-# add_lecture(-2,"test_name")
-
-#comment this out if not testing
-populate()
+#populate()
