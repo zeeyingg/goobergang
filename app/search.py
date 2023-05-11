@@ -4,6 +4,8 @@ from db import *
 def search_title(search_term): 
     data = get_all_lecture_title_and_id()
     searched = []
-    for(lecture in data):
-        if (search_term in lecture[1]):
+    for lecture in data:
+        if (( search_term.lower() in lecture[1].lower() )):
             searched.append(lecture)
+    return searched
+print(search_title("MATH"))

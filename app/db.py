@@ -151,7 +151,7 @@ def add_lecture(Lecture_id, lecture_title):
 
 def get_all_lecture_title_and_id(): # Might be useful for searching up lectures by name
     c = db.cursor()
-    c.execute("select lecture_id, lecture_title from Lectures")
+    c.execute("select Lecture_id,lecture_title from Lectures")
     data = c.fetchall()
     c.close()
     if data == None : 
