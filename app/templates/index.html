@@ -24,25 +24,64 @@
     </form>
 
     <div style="width:50%;">
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Prof_id</th>
-            <th>topic</th>
-            <th>Speed</th>
-            <th>Vocab</th>
-        </tr>
-        {% for Lecture in DATA %}
-        <tr>
-            {% for value in Lecture %}
-                <td>
-                    {{ value }}
-                </td>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Prof_id</th>
+                <th>topic</th>
+                <th>Speed</th>
+                <th>Vocab</th>
+            </tr>
+            {% for Lecture in LEC %}
+            <tr>
+                {% for value in Lecture %}
+                    <td>
+                        {{ value }}
+                    </td>
+                {% endfor %}
+            </tr>
             {% endfor %}
-        </tr>
-        {% endfor %}
-    </table>
+        </table>
+    </div>
+    <div style="width:50%;">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Speed</th>
+                <th>Vocab</th>
+                <th>Student Interaction</th>
+            </tr>
+            {% for Professor in PROF %}
+            <tr>
+                {% for value in Professor %}
+                    <td>
+                        {{ value }}
+                    </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <div style="width:50%;">
+        <table>
+            <tr>
+                <th>Topic</th>
+                <th>Speed</th>
+                <th>Vocab</th>
+                <th>Student Interaction</th>
+            </tr>
+            {% for Subject in SUB %}
+            <tr>
+                {% for value in Subject %}
+                    <td>
+                        {{ value }}
+                    </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
     </div>
 
     <!-- Scripts -->

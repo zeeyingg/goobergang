@@ -11,7 +11,7 @@ app.secret_key = "temporarykey" #maybe not needed since we dont have logins
 
 @app.route("/", methods=["GET"])
 def home_page():
-    return render_template("index.html", DATA=get_all_lecture_data())
+    return render_template("index.html", LEC=get_all_lecture_data(), PROF=get_all_professor_data(), SUB=get_all_subject_data())
 
 @app.route("/result", methods=["GET"])
 def result_page():

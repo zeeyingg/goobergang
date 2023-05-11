@@ -4,12 +4,11 @@ Database = "test.db"
 
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
-#please comment the drop tables if not testing
+# please comment the drop tables if not testing
 c.executescript(
     """
     drop TABLE Lectures;
     drop TABLE Professor;
-    drop TABLE Scripts;
     drop TABLE Subject;
     """
 )
@@ -17,13 +16,13 @@ c.executescript(
 c.executescript(
     """
     create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
-    create TABLE if NOT EXISTS Professor(professor_id int primary key, professor text, speed int, vocabulary int, sentiment int, stu_interact int);
-    create TABLE if NOT EXISTS Scripts(Lecture_id int, line_id int, line text, time text);
-    create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, sentiment text, stu_interact int);
+    create TABLE if NOT EXISTS Professor(professor_id int primary key, professor text, speed int, vocabulary int, stu_interact int);
+    create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, stu_interact int);
     """
 )
 
 def populate():
+    c=db.cursor()
     #assume that when this file is run, database populated from json data
     with open('data_generator/data/courses.json', 'r') as courses_file:
         courses = json.loads(courses_file.read())
@@ -57,7 +56,6 @@ def populate():
         #not sure if type conversion is needed, but added anyways to be safe
         lec_id = int(lec)
         title = lectures[f"{lec}"]["video_url"].split("/")[-4].replace("-", " ").upper() + ", " + lectures[f"{lec}"]["video_url"].split("/")[-2].replace("-", " ").upper()
-        
         topic = lectures[f"{lec}"]["department"]
         #having instructor id seems extraneous if we have names, but we assign anyways
         #also problem if multiple professors
@@ -67,49 +65,36 @@ def populate():
         #print(lec_id, title, prof_id, topic, speed, vocab)
         #there are some lectures that don't have text analysis available, which is why we check for it
         if (lectures[f"{lec}"]["text_analysis"] != {}):
-            speed = lectures[f"{lec}"]["text_analysis"]["words"]["wpm"]
-            vocab = lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"]
-        c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?)", (lec_id, title, prof_id, topic, speed, vocab))
+            speed = round(lectures[f"{lec}"]["text_analysis"]["words"]["wpm"], 2)
+            vocab = round(lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"], 2)
         #print(lec_id, title, prof_id, topic, speed, vocab)
+        c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?)", (lec_id, title, prof_id, topic, speed, vocab))
 
     for profs in professors:
         prof_id = list(professors.keys()).index(profs)
         name = profs
-        speed = professors[f"{profs}"]["words"]["wpm"]
-        vocab = professors[f"{profs}"]["words"]["common_word_ratio"]
-        sentiment = "placeholder"
+        speed = round(professors[f"{profs}"]["words"]["wpm"], 2)
+        vocab = round(professors[f"{profs}"]["words"]["common_word_ratio"], 2)
         #not sure which value under audience participation to use as student interaction
         #also what is apr
         stu = professors[f"{profs}"]["audience_participation"]["num_audience_participations"]
-        c.execute("INSERT INTO Professor values (?, ?, ?, ?, ?, ?)", (prof_id, name, speed, vocab, sentiment, stu))
-        #print(prof_id, name, speed, vocab, sentiment, stu)
-
+        # print(prof_id, name, speed, vocab, stu)
+        c.execute("INSERT INTO Professor values (?, ?, ?, ?, ?)", (prof_id, name, speed, vocab, stu))
+        
     #there are a lot of 0s
     for deps in departments:
         topic = deps
-        speed = departments[f"{deps}"]["words"]["wpm"]
-        vocab = departments[f"{deps}"]["words"]["common_word_ratio"]
-        sentiment = "placeholder"
+        speed = round(departments[f"{deps}"]["words"]["wpm"], 2)
+        vocab = round(departments[f"{deps}"]["words"]["common_word_ratio"], 2)
         stu = departments[f"{deps}"]["audience_participation"]["num_audience_participations"]
-        c.execute("INSERT INTO Subject values (?, ?, ?, ?, ?)", (topic, speed, vocab, sentiment, stu))
-        # print(topic, speed, vocab, sentiment, stu)
+        c.execute("INSERT INTO Subject values (?, ?, ?, ?)", (topic, speed, vocab, stu))
+        # print(topic, speed, vocab, stu)
 
     #not sure how to read vtt files, but we may need a module?
 
     # cursor is closed down here because we want to finish populating database first
     db.commit()
     c.close()
-
-"""
-code snippet for later use
-speed = -1 #unavailable values will be set to -1
-vocab = -1
-sent = "placeholder"
-stu = 
-if (lectures[f"{lec}"]["text_analysis"] != {}):
-    speed = lectures[f"{lec}"]["text_analysis"]["words"]["wpm"]
-    vocab = lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"]
-"""
 
 def get_all_lecture_id():
     c = db.cursor()
@@ -123,6 +108,24 @@ def get_all_lecture_id():
 def get_all_lecture_data():
     c = db.cursor()
     c.execute("select * from Lectures")
+    data = c.fetchall()
+    c.close()
+    if(data == []):
+        return None
+    return data
+
+def get_all_professor_data():
+    c = db.cursor()
+    c.execute("select * from Professor")
+    data = c.fetchall()
+    c.close()
+    if(data == []):
+        return None
+    return data
+
+def get_all_subject_data():
+    c = db.cursor()
+    c.execute("select * from Subject")
     data = c.fetchall()
     c.close()
     if(data == []):
@@ -184,4 +187,5 @@ def get_professor_info(ID): # Gets professor Info by ID
 #==============================
 # add_lecture(-2,"test_name")
 
+#comment this out if not testing
 populate()
