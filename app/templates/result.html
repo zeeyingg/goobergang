@@ -8,7 +8,24 @@
 </head>
 
 <body>
-    <h1>Results</h1>
-    {{ searchterm }}
+    <div>
+        <h1>Results</h1>
+    </div>
+    <span>
+        <h2>Lectures</h2>
+        {% for lecture in LECTURE_RESULTS %}
+        <ol>
+            <li>{lecture[1]}</li>
+        </ol>
+        {% endfor %}
+    </span><span>
+        <h2>Professors</h2>
+        {% for prof in PROF_RESULTS %}
+        {% endfor %}
+    </span><span>
+        <h2>subjects</h2>
+        {% for subject in SUBJECT_RESULTS %}
+        {% endfor %}
+    </span>
 </body>
 </html>

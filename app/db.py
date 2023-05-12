@@ -150,6 +150,7 @@ def add_lecture(Lecture_id, lecture_title):
     db.commit()
     c.close()
 
+# ============================== These are used for our search.py
 def get_all_lecture_title_and_id(): # Might be useful for searching up lectures by name
     c = db.cursor()
     c.execute("select Lecture_id,lecture_title from Lectures")
@@ -159,6 +160,27 @@ def get_all_lecture_title_and_id(): # Might be useful for searching up lectures 
         return []
     Titles = [[Title[0], Title[1]] for Title in data]
     return Titles
+
+def get_all_professor_name_and_id():
+    c = db.cursor()
+    c.execute("select professor_id,professor from Professor")
+    data = c.fetchall()
+    c.close()
+    if data == None : 
+        return []
+    Titles = [[Title[0], Title[1]] for Title in data]
+    return Titles
+
+def get_all_subjects():
+    c = db.cursor()
+    c.execute("select topic from Subject")
+    data = c.fetchall()
+    c.close()
+    if data == None : 
+        return []
+    Titles = [Title[0] for Title in data]
+    return Titles
+# ==============================
 
 def get_one_lecture_title(Lecture_id): # Maybe not so useful
     c = db.cursor()

@@ -8,4 +8,21 @@ def search_title(search_term):
         if (( search_term.lower() in lecture[1].lower() )):
             searched.append(lecture)
     return searched
-print(search_title("MATH"))
+
+def search_prof(search_term):  
+    data = get_all_professor_data()
+    searched = []
+    for prof in data:
+        if (( search_term.lower() in prof[1].lower() )):
+            searched.append(prof)
+    return searched
+
+def search_subject(search_term):
+    data = get_all_subjects()
+    searched = []
+    for sub in data:
+        if (( search_term.lower() in sub.lower() )):
+            searched.append(sub)
+    return searched
+# print(search_title("MATH"))
+print(search_subject("literature"))
