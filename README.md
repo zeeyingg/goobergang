@@ -34,7 +34,7 @@ $ git clone git@github.com:zeeyingg/goobergang.git
 Find your way into the repo.
 
 ```
-$ cd coffeebuds/
+$ cd goobergang/
 ```
 Install required packages
 ```
