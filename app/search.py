@@ -25,4 +25,4 @@ def search_subject(search_term):
             searched.append(sub)
     return searched
 # print(search_title("MATH"))
-print(search_subject("literature"))
+#print(search_title("thermo"))
