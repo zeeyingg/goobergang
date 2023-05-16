@@ -33,6 +33,10 @@ def professor_page():
 def lecture_page():
     return render_template("lecture.html")
 
+@app.route("/departments", methods=["GET"])
+def department_page():
+    return render_template("departments.html")
+
 # This can be done last, methinks
 # @app.route("/lecture/<lecture_id>", methods=["GET"])
 # def lecture_page(lecture_id):
