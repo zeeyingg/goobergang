@@ -6,10 +6,15 @@
         <p>test message</p>
 
         <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="d3test.js"></script>
+        <script src="static/js/d3test.js"></script>
         <script>
-            var lecture = JSON.parse("{{ data1|e }}");
-            console.log(lecture);
+            //okay so this is scuffed but it works
+            //d3 might need to be done in a script tag
+            var raw = '{{ data1 }}';
+            raw = raw.replaceAll('&#34;', '\"');
+            //console.log(raw);
+            var lecture = JSON.parse(raw.replace('&#34;', '\"'))
+            //console.log(lecture);
         </script>
     </body>
 </html>

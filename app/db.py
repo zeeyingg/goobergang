@@ -209,4 +209,17 @@ def get_professor_info(ID): # Gets professor Info by ID
     data = c.fetchall()
     c.close()
 
+# ==============================
+
+def lecture_data_json():
+    raw = get_all_lecture_data()
+    dictionary = {}
+    for row in raw:
+        dictionary[str(row[0])] = list(row[1:6])
+    return dictionary
+
 populate()
+# testing = lecture_data_json()
+# for key in testing.keys():
+#     print(key, testing[key])
+#     print(type(key))

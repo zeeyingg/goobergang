@@ -40,9 +40,7 @@ def lecture_page():
 
 @app.route("/d3test")
 def d3test():
-    lecture_data = get_all_lecture_data()
-    print(lecture_data)
-    #print(json.dumps(lecture_data))
+    lecture_data = json.dumps(lecture_data_json())
     return render_template("d3test.html", data1=lecture_data)
 
 if __name__ == "__main__":
