@@ -8,15 +8,17 @@
 </head>
 
 <body>
+    
     <div>
         <h1>Results</h1>
     </div>
+
     <span>
         <h2>Lectures</h2>
         <ol> 
             <!-- Each lecture/prof/subj leads to their own page -->
         {% for lecture in LECTURE_RESULTS %}
-        <li><a href = {{ url_for( 'lecture_page' ,lecture_id = lecture[0])}}>
+        <li><a href = {{ url_for( 'lecture_info' ,lecture_id = lecture[0])}}>
             {{lecture[1]}}
         </a></li>
         {% endfor %}
