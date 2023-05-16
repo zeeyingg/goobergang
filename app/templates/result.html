@@ -26,20 +26,20 @@
     </span><span>
         <h2>Professors</h2>
         <ol>
-        <!-- {% for prof in PROF_RESULTS %}
-        <li><a href = {{ url_for( 'prof_page' ,prof_id = prof[0])}}>
+        {% for prof in PROF_RESULTS %}
+        <li><a href = {{ url_for( 'prof_info' ,prof_id = prof[0])}}>
             {{prof[1]}}
         </a></li>
-        {% endfor %} -->
+        {% endfor %}
         </ol>
     </span><span>
         <h2>subjects</h2>
         <ol>
-        <!-- {% for subject in SUBJECT_RESULTS %}
-        <li><a href = {{ url_for( 'subject_page' ,subject = subject)}}>
+        {% for subject in SUBJECT_RESULTS %}
+        <li><a href = {{ url_for( 'subject_info' ,subject = subject)}}>
             {{subject}}
         </a></li>
-        {% endfor %} -->
+        {% endfor %}
         </ol>
     </span>
 </body>

@@ -5,13 +5,13 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 # please comment the drop tables if not testing
-# c.executescript(
-#     """
-#     drop TABLE Lectures;
-#     drop TABLE Professor;
-#     drop TABLE Subject;
-#     """
-# )
+c.executescript(
+    """
+    drop TABLE Lectures;
+    drop TABLE Professor;
+    drop TABLE Subject;
+    """
+)
 
 c.executescript(
     """
@@ -105,7 +105,7 @@ def get_all_lecture_data():
     data = c.fetchall()
     c.close()
     if(data == []):
-        return None
+        return []
     return data
 
 def get_all_professor_data():
@@ -218,7 +218,7 @@ def lecture_data_json():
         dictionary[str(row[0])] = list(row[1:6])
     return dictionary
 
-# populate()
+populate()
 # testing = lecture_data_json()
 # for key in testing.keys():
 #     print(key, testing[key])

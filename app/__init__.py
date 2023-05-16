@@ -29,18 +29,26 @@ def result_page():
 def professor_page():
     return render_template("professor.html")
 
-@app.route("/lecture", methods=["GET"])
-def lecture_page():
-    return render_template("lecture.html")
+# @app.route("/lecture", methods=["GET"])
+# def lecture_page():
+#     return render_template("lecture.html")
 
 @app.route("/departments", methods=["GET"])
 def department_page():
     return render_template("departments.html")
 
-# This can be done last, methinks
-# @app.route("/lecture/<lecture_id>", methods=["GET"])
-# def lecture_page(lecture_id):
-#     return render_template("lecture_info.html", ID=lecture_id)
+
+@app.route("/lecture/<lecture_id>", methods=["GET"])
+def lecture_info(lecture_id):
+    return render_template("lecture_info.html", ID=lecture_id)
+
+@app.route("/lecture/<prof_id>", methods=["GET"])
+def prof_info(prof_id):
+    return render_template("lecture_info.html", ID=prof_id)
+
+@app.route("/lecture/<subject>", methods=["GET"])
+def subject_info(subject):
+    return render_template("lecture_info.html", ID=subject)
 
 @app.route("/d3test")
 def d3test():
