@@ -5,6 +5,7 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 # please comment the drop tables if not testing
+
 c.executescript(
     """
     drop TABLE Lectures;
