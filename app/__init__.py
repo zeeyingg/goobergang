@@ -44,11 +44,11 @@ def lecture_info(lecture_id):
 
 @app.route("/lecture/<prof_id>", methods=["GET"])
 def prof_info(prof_id):
-    return render_template("lecture_info.html", ID=prof_id)
+    return render_template("prof_info.html", ID=prof_id)
 
 @app.route("/lecture/<subject>", methods=["GET"])
 def subject_info(subject):
-    return render_template("lecture_info.html", ID=subject)
+    return render_template("subject_info.html", ID=subject)
 
 @app.route("/d3test")
 def d3test():
