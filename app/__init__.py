@@ -7,10 +7,10 @@ from flask import render_template
 from flask import request
 from db import *
 from search import *
+import json
 
 app = Flask(__name__)
 app.secret_key = "temporarykey" #maybe not needed since we dont have logins
-
 
 @app.route("/", methods=["GET"])
 def home_page():
@@ -28,6 +28,11 @@ def result_page():
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_page(lecture_id):
     return render_template("lecture_info.html", ID=lecture_id)
+
+@app.route("/d3test")
+def d3test():
+    lecture_data = json.dumps(get_all_lecture_data())
+    return render_template("d3test.html", data1=lecture_data)
 
 if __name__ == "__main__":
     app.debug = True
