@@ -25,9 +25,18 @@ def result_page():
     subject_result = search_subject(searchterm)   # [id, id, ]
     return render_template("result.html", LECTURE_RESULTS=lecture_result, PROF_RESULTS=prof_result, SUBJECT_RESULTS=subject_result)
 
-@app.route("/lecture/<lecture_id>", methods=["GET"])
-def lecture_page(lecture_id):
-    return render_template("lecture_info.html", ID=lecture_id)
+@app.route("/professor", methods=["GET"])
+def professor_page():
+    return render_template("professor.html")
+
+@app.route("/lecture", methods=["GET"])
+def lecture_page():
+    return render_template("lecture.html")
+
+# This can be done last, methinks
+# @app.route("/lecture/<lecture_id>", methods=["GET"])
+# def lecture_page(lecture_id):
+#     return render_template("lecture_info.html", ID=lecture_id)
 
 if __name__ == "__main__":
     app.debug = True
