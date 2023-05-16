@@ -4,17 +4,47 @@
     </head>
     <body>
         <p>test message</p>
+        <button id="test1">test bar graph</button>
+        <svg></svg>
 
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="static/js/d3test.js"></script>
         <script>
             //okay so this is scuffed but it works
             //d3 might need to be done in a script tag
-            var raw = '{{ data1 }}';
-            raw = raw.replaceAll('&#34;', '\"');
-            //console.log(raw);
-            var lecture = JSON.parse(raw.replace('&#34;', '\"'))
-            //console.log(lecture);
+            var lectureRaw = '{{ data1 }}';
+            lectureRaw = lectureRaw.replaceAll('&#34;', '\"');
+            var lecture = JSON.parse(lectureRaw.replace('&#34;', '\"'))
+
+            var profRaw = '{{ data2 }}';
+            profRaw = lectureRaw.replaceAll('&#34;', '\"');
+            var professors = JSON.parse(profRaw.replace('&#34;', '\"'))
+
+            var depRaw = '{{ data3 }}';
+            depRaw = lectureRaw.replaceAll('&#34;', '\"');
+            var departments = JSON.parse(depRaw.replace('&#34;', '\"'))
+
+            console.log(professors, departments);
+
+            test1Button = document.getElementById("test1");
+
+            var clear = function() {
+                d3.selectAll("g").remove();
+            }
+
+            var prelim_bar = function() {
+                clear();
+                const margin = 50;
+                var svg = d3.select("svg")
+                    .attr("width", 300)
+                    .attr("height", 300);
+
+                actualWidth = 300-margin;
+                barWidth = departments.keys().length
+                console.log(barWidth);
+            }
+
+            test1Button.addEventListener("click", prelim_bar);
         </script>
     </body>
 </html>

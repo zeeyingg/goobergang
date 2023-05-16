@@ -45,7 +45,9 @@ def department_page():
 @app.route("/d3test")
 def d3test():
     lecture_data = json.dumps(lecture_data_json())
-    return render_template("d3test.html", data1=lecture_data)
+    prof_data = json.dumps(prof_data_json())
+    dep_data = json.dumps(dep_data_json())
+    return render_template("d3test.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
 if __name__ == "__main__":
     app.debug = True
