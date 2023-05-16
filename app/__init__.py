@@ -29,14 +29,13 @@ def result_page():
 def professor_page():
     return render_template("professor.html")
 
-# @app.route("/lecture", methods=["GET"])
-# def lecture_page():
-#     return render_template("lecture.html")
+@app.route("/lecture", methods=["GET"])
+def lecture_page():
+    return render_template("lecture.html")
 
 @app.route("/departments", methods=["GET"])
 def department_page():
     return render_template("departments.html")
-
 
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_info(lecture_id):
