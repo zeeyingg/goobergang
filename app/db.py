@@ -105,7 +105,7 @@ def get_all_lecture_data():
     data = c.fetchall()
     c.close()
     if(data == []):
-        return None
+        return []
     return data
 
 def get_all_professor_data():

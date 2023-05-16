@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="../css/stylesheet.css">
-    <title> Results </title>
+    <title> TITLE GANG </title>
 </head>
 
 <body>
@@ -34,42 +34,10 @@
                     <li><button type="submit" class="button">Search</button>
                 </form></li>
               </ul>
+            </div>
             </ul>
         </div>
       </nav>
-
-    <div>
-        <h1> Results </h1>
-    </div>
-
-    <span>
-        <h2>Lectures</h2>
-        <ol> 
-            <!-- Each lecture/prof/subj leads to their own page -->
-        {% for lecture in LECTURE_RESULTS %}
-        <li><a href = {{ url_for( 'lecture_info' ,lecture_id = lecture[0])}}>
-            {{lecture[1]}}
-        </a></li>
-        {% endfor %}
-        </ol>
-    </span><span>
-        <h2>Professors</h2>
-        <ol>
-        {% for prof in PROF_RESULTS %}
-        <li><a href = {{ url_for( 'prof_info' ,prof_id = prof[0])}}>
-            {{prof[1]}}
-        </a></li>
-        {% endfor %}
-        </ol>
-    </span><span>
-        <h2>subjects</h2>
-        <ol>
-        {% for subject in SUBJECT_RESULTS %}
-        <li><a href = {{ url_for( 'subject_info' ,subject = subject)}}>
-            {{subject}}
-        </a></li>
-        {% endfor %}
-        </ol>
-    </span>
+    This is your Subject: {{ID}}
 </body>
 </html>

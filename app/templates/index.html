@@ -27,10 +27,10 @@
             <li><a href="/">Home</a></li>
             <li><a href="/professor">Professors</a></li>
             <li><a href="/lecture">Lectures</a></li>
-            <li><a href="/department">Departments</a></li>
+            <li><a href="/departments">Departments</a></li>
             <ul class="menu">
                 <li><form action="/result" class="search-form">
-                    <input type="search" placeholder="Search"></li>
+                    <input type="search" placeholder="Search" id="search" name="search"></li>
                     <li><button type="submit" class="button">Search</button>
                 </form></li>
               </ul>
@@ -51,12 +51,15 @@
     
 
     <div style="width:50%;">
-        <table>
+        <table class="hover unstriped">
             <tr>
-                <th>ID</th>
-                <th>Course Name</th>
-                <th>Title</th>
-                <th>Prof_id</th>
+                <th rowspan="2">ID</th>
+                <th rowspan="2">Course Name</th>
+                <th rowspan="2">Title</th>
+                <th rowspan="2">Prof_id</th>
+                <th rowspan="1" colspan="3">INFO</th>
+            </tr>
+            <tr>
                 <th>topic</th>
                 <th>Speed</th>
                 <th>Vocab</th>

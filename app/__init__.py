@@ -37,10 +37,17 @@ def lecture_page():
 def department_page():
     return render_template("departments.html")
 
-# This can be done last, methinks
-# @app.route("/lecture/<lecture_id>", methods=["GET"])
-# def lecture_page(lecture_id):
-#     return render_template("lecture_info.html", ID=lecture_id)
+@app.route("/lecture/<lecture_id>", methods=["GET"])
+def lecture_info(lecture_id):
+    return render_template("lecture_info.html", ID=lecture_id)
+
+@app.route("/lecture/<prof_id>", methods=["GET"])
+def prof_info(prof_id):
+    return render_template("prof_info.html", ID=prof_id)
+
+@app.route("/lecture/<subject>", methods=["GET"])
+def subject_info(subject):
+    return render_template("subject_info.html", ID=subject)
 
 @app.route("/d3test")
 def d3test():

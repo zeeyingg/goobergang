@@ -28,12 +28,16 @@
           <li><a href="/professor">Professors</a></li>
           <li><a href="/lecture">Lectures</a></li>
           <li><a href="/departments">Departments</a></li>
-          <li><input type="search" placeholder="Search"></li>
-          <li><button type="button" class="button" action="/result">Search</button></li>
+          <ul class="menu">
+            <li><form action="/result" class="search-form">
+                <input type="search" placeholder="Search" id="search" name="search"></li>
+                <li><button type="submit" class="button">Search</button>
+            </form></li>
+          </ul>
         </ul>
       </div>
     </nav>
-
+    Lectures
      <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
     
 </body>
