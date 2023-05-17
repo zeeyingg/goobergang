@@ -7,9 +7,9 @@ c=db.cursor()
 # please comment the drop tables if not testing
 c.executescript(
     """
-    drop TABLE Lectures;
-    drop TABLE Professor;
-    drop TABLE Subject;
+    DROP TABLE IF EXISTS Lectures;
+    DROP TABLE IF EXISTS Professor;
+    DROP TABLE IF EXISTS Subject;
     """
 )
 
@@ -127,16 +127,6 @@ def get_all_subject_data():
     return data
 #==========================
 
-def get_all_lecture_id():
-    c = db.cursor()
-    c.execute("select Lecture_id from Lectures")
-    data = c.fetchall()
-    c.close()
-    if(data == []):
-        return None
-    return data
-
-
 def add_lecture(Lecture_id, lecture_title):
     c = db.cursor()
     c.execute("SELECT MAX(professor_id) FROM Lectures")
@@ -203,9 +193,20 @@ def get_all_professor_id(): # returns a list of all the professor_ids
     IDs = [id[0] for id in data]
     return IDs
 
-def get_professor_info(ID): # Gets professor Info by ID
+# ============================== Gets Info on a specific case by ID
+def get_professor_info(ID): 
     c = db.cursor()
-    c.execute("")
+    c.execute("select * from Professor where (professor_id = ?)", (ID,))
+    data = c.fetchall()
+    c.close()
+def get_lecture_info(ID):
+    c = db.cursor()
+    c.execute("select * from LEcture where (Lecture_id = ?)", (ID,))
+    data = c.fetchall()
+    c.close()
+def get_subject_info(ID): 
+    c = db.cursor()
+    c.execute("select * from Subject where (Subject = ?)", (ID,))
     data = c.fetchall()
     c.close()
 
