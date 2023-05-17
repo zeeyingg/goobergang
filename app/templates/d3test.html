@@ -1,6 +1,11 @@
 <html>
     <head>
-
+        <title>demo d3 with actual data</title>
+        <style>
+            svg rect {
+                fill : cyan;
+            }
+        </style>
     </head>
     <body>
         <p>test message</p>
@@ -10,38 +15,116 @@
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="static/js/d3test.js"></script>
         <script>
-            //okay so this is scuffed but it works
+            //okay so this is scuffed but it works, using jinja templating
             //d3 might need to be done in a script tag
             var lectureRaw = '{{ data1 }}';
+            //for some reason the unicode or whatever for " is used
             lectureRaw = lectureRaw.replaceAll('&#34;', '\"');
             var lecture = JSON.parse(lectureRaw.replace('&#34;', '\"'))
 
             var profRaw = '{{ data2 }}';
-            profRaw = lectureRaw.replaceAll('&#34;', '\"');
+            profRaw = profRaw.replaceAll('&#34;', '\"');
             var professors = JSON.parse(profRaw.replace('&#34;', '\"'))
 
             var depRaw = '{{ data3 }}';
-            depRaw = lectureRaw.replaceAll('&#34;', '\"');
+            depRaw = depRaw.replaceAll('&#34;', '\"');
             var departments = JSON.parse(depRaw.replace('&#34;', '\"'))
-
-            console.log(professors, departments);
 
             test1Button = document.getElementById("test1");
 
+            //g is group in svg, kind of like div in html, removing them wipes the svg "canvas" clean
             var clear = function() {
                 d3.selectAll("g").remove();
             }
 
+            //this will create a simple bar graph using department info, since this is easy
             var prelim_bar = function() {
                 clear();
-                const margin = 50;
+                const hor_margin = 50;
+                const vert_margin = 150;
                 var svg = d3.select("svg")
-                    .attr("width", 300)
-                    .attr("height", 300);
+                    .attr("width", 500)
+                    .attr("height", 500);
 
-                actualWidth = 300-margin;
-                barWidth = departments.keys().length
-                console.log(barWidth);
+                //may want to define margin for all sides, since bottom margin is much larger than other side margins
+                var actualWidth = 500-hor_margin;
+                var actualHeight = 500-vert_margin;
+                var actualData = {};
+
+                // console.log(Object.keys(departments)[1]);
+                // console.log(departments[Object.keys(departments)[1]]);
+                dep_keys = Object.keys(departments);
+                // console.log(departments);
+                //console.log(departments[dep_keys[1]][0]);
+                for (let i = 0; i < dep_keys.length; i++) {
+                    if (departments[dep_keys[i]][0] != "0") {
+                        actualData[dep_keys[i]] = departments[dep_keys[i]];
+                    }
+                }
+                //console.log(Object.keys(actualData).length);
+
+                actual_keys = Object.keys(actualData);
+                barWidth = Object.keys(actualData).length * 0.5
+
+                var xScale = d3.scaleBand()
+                    .range([0, actualWidth])
+                    .padding(0.5);
+                var yScale = d3.scaleLinear()
+                    .range([actualHeight, 0]);
+
+                var g = svg.append("g")
+                    .attr("transform", "translate(" + hor_margin / 2 + "," + vert_margin / 2 + ")");
+                
+                xScale.domain(actual_keys.map( function(i) {
+                    return i;
+                }));
+                //this part is setup for yScale, getting the wpm into one array to find the max
+                wpm = [];
+                for (let i = 0; i < actual_keys.length; i++) {
+                    //conversion into ints so that d3.max compares numbers, not strings (which yields unexpected results)
+                    wpm.push(parseFloat(actualData[actual_keys[i]][0]));
+                }
+                console.log(wpm);
+                yScale.domain([0, d3.max(wpm, function(d) {
+                    return d;
+                })]);
+
+                //this part is all for translating x axis down and making tick labels readable
+                g.append("g")
+                    .attr("transform", "translate(0," + actualHeight + ")")
+                    .call(d3.axisBottom(xScale))
+                    .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dy", "-0.5em")
+                        .attr("dx", "-0.6em")
+                        .attr("transform", "rotate(-65)");
+
+                g.append("g")
+                .call(d3.axisLeft(yScale).tickFormat(function(d) {
+                    return d;
+                }));
+
+                g.selectAll("bar")
+                    .data(wpm)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "bar")
+                    .attr("x", function(i) {
+                        //very bad, no good scuffed solution, probably won't work for the other bar graphs
+                        const whereD = (b) => b == i;
+                        index = wpm.findIndex(whereD);
+                        dept_name_tick = actual_keys[index];
+                        // console.log(dept_name_tick);
+                        return xScale(dept_name_tick);
+                    })
+                    .attr("y", function(d) {
+                        return yScale(d);
+                    })
+                    .attr("width", xScale.bandwidth())
+                    .attr("height", function(d) {
+                        return actualHeight - yScale(d);
+                    });
+
             }
 
             test1Button.addEventListener("click", prelim_bar);

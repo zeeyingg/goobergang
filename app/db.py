@@ -220,14 +220,14 @@ def lecture_data_json():
     return dictionary
 
 def prof_data_json():
-    raw = get_all_lecture_data()
+    raw = get_all_professor_data()
     dictionary = {}
     for row in raw:
         dictionary[str(row[0])] = list(row[1:5])
     return dictionary
 
 def dep_data_json():
-    raw = get_all_lecture_data()
+    raw = get_all_subject_data()
     dictionary = {}
     for row in raw:
         dictionary[str(row[0])] = list(row[1:4])
