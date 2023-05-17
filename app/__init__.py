@@ -38,7 +38,10 @@ def lecture_page():
 
 @app.route("/departments", methods=["GET"])
 def department_page():
-    return render_template("departments.html")
+    lecture_data = json.dumps(lecture_data_json())
+    prof_data = json.dumps(prof_data_json())
+    dep_data = json.dumps(dep_data_json())
+    return render_template("departments.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_info(lecture_id):

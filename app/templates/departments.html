@@ -9,40 +9,40 @@
     <!-- Compressed JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     <!-- Link to CSS -->
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="static/css/stylesheet.css">
     <title> Departments Data </title>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="top-bar" data-topbar role="navigation">
-        <div class="top-bar-left">
-          <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-            <li class="menu-text">Website Logo</li>
+  <nav class="top-bar" data-topbar role="navigation">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+          <li class="menu-text">Professor-O-Meter</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+          <li><a href="/">Home</a></li>
+          <li><a href="/professor">Professors</a></li>
+          <li><a href="/lecture">Lectures</a></li>
+          <li><a href="/departments">Departments</a></li>
+          <ul class="menu">
+            <li><form action="/result" class="search-form">
+                <input type="search" placeholder="Search" id="search" name="search"></li>
+                <li><button type="submit" class="button">Search</button>
+            </form></li>
           </ul>
-        </div>
-        <div class="top-bar-right">
-          <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-            <li><a href="/">Home</a></li>
-            <li><a href="/professor">Professors</a></li>
-            <li><a href="/lecture">Lectures</a></li>
-            <li><a href="/departments">Departments</a></li>
-            <ul class="menu">
-              <li><form action="/result" class="search-form">
-                  <input type="search" placeholder="Search" id="search" name="search"></li>
-                  <li><button type="submit" class="button">Search</button>
-              </form></li>
-            </ul>
-          </ul>
-        </div>
-      </nav>
-      Departments
-     <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
+        </ul>
+      </div>
+    </nav>
+    <h1>Departments</h1>
+    <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
     
-     <div>
-      <button id="test1">wpm bar graph alpha version</button>
-      <button id="test2">data source pie chart</button>
+  <div>
+      <button type="button" class ="button" id="test1">wpm bar graph alpha version</button>
+      <!-- <button type="button" name ="button" id="test2">data source pie chart</button> -->
   </div>
   <svg></svg>
 
@@ -173,19 +173,20 @@
 
       //this is a pie chart for showing where our sources are from
       //certain departments having missing stats, so this is for the ones that are actually used
-      var deptPieChart = function() {
-          const height = 500;
-          const width = 500;
-          const margins = 100;
+      // var deptPieChart = function() {
+      //     const height = 500;
+      //     const width = 500;
+      //     const margins = 100;
 
-          //may need an ordinal scale because scale isn't a straight line
-          var data = [2, 4, 6, 8];
-          var pie = d3.pie();
-          console.log(pie);
-      }
+      //     //may need an ordinal scale because scale isn't a straight line
+      //     var data = [2, 4, 6, 8];
+      //     var pie = d3.pie();
+      //     console.log(pie);
+      // }
 
       test1Button.addEventListener("click", prelim_bar);
-      test2Button.addEventListener("click", deptPieChart);
+      // test2Button.addEventListener("click", deptPieChart);
+
   </script>
 
 </body>
