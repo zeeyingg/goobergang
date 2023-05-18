@@ -5,6 +5,7 @@ def search_title(search_term):
     data = get_all_lecture_title_and_id()
     searched = []
     for lecture in data:
+        print(" TYPE: ", type(search_term))
         if (( search_term.lower() in lecture[1].lower() )):
             searched.append(lecture)
     return searched

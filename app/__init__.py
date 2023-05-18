@@ -27,7 +27,10 @@ def result_page():
 
 @app.route("/professor", methods=["GET"])
 def professor_page():
-    return render_template("professor.html")
+    lecture_data = json.dumps(lecture_data_json())
+    prof_data = json.dumps(prof_data_json())
+    dep_data = json.dumps(dep_data_json())
+    return render_template("professor.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
 @app.route("/lecture", methods=["GET"])
 def lecture_page():
@@ -35,17 +38,29 @@ def lecture_page():
 
 @app.route("/departments", methods=["GET"])
 def department_page():
-    return render_template("departments.html")
+    lecture_data = json.dumps(lecture_data_json())
+    prof_data = json.dumps(prof_data_json())
+    dep_data = json.dumps(dep_data_json())
+    return render_template("departments.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
-# This can be done last, methinks
-# @app.route("/lecture/<lecture_id>", methods=["GET"])
-# def lecture_page(lecture_id):
-#     return render_template("lecture_info.html", ID=lecture_id)
+@app.route("/lecture/<lecture_id>", methods=["GET"])
+def lecture_info(lecture_id):
+    return render_template("lecture_info.html", ID=lecture_id)
+
+@app.route("/lecture/<prof_id>", methods=["GET"])
+def prof_info(prof_id):
+    return render_template("prof_info.html", ID=prof_id)
+
+@app.route("/lecture/<subject>", methods=["GET"])
+def subject_info(subject):
+    return render_template("subject_info.html", ID=subject)
 
 @app.route("/d3test")
 def d3test():
     lecture_data = json.dumps(lecture_data_json())
-    return render_template("d3test.html", data1=lecture_data)
+    prof_data = json.dumps(prof_data_json())
+    dep_data = json.dumps(dep_data_json())
+    return render_template("d3test.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
 if __name__ == "__main__":
     app.debug = True

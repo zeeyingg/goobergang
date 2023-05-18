@@ -5,13 +5,13 @@ Database = "test.db"
 db = sqlite3.connect(Database, check_same_thread=False)
 c=db.cursor()
 # please comment the drop tables if not testing
-# c.executescript(
-#     """
-#     drop TABLE Lectures;
-#     drop TABLE Professor;
-#     drop TABLE Subject;
-#     """
-# )
+c.executescript(
+    """
+    DROP TABLE IF EXISTS Lectures;
+    DROP TABLE IF EXISTS Professor;
+    DROP TABLE IF EXISTS Subject;
+    """
+)
 
 c.executescript(
     """
@@ -105,7 +105,7 @@ def get_all_lecture_data():
     data = c.fetchall()
     c.close()
     if(data == []):
-        return None
+        return []
     return data
 
 def get_all_professor_data():
@@ -126,16 +126,6 @@ def get_all_subject_data():
         return None
     return data
 #==========================
-
-def get_all_lecture_id():
-    c = db.cursor()
-    c.execute("select Lecture_id from Lectures")
-    data = c.fetchall()
-    c.close()
-    if(data == []):
-        return None
-    return data
-
 
 def add_lecture(Lecture_id, lecture_title):
     c = db.cursor()
@@ -203,22 +193,48 @@ def get_all_professor_id(): # returns a list of all the professor_ids
     IDs = [id[0] for id in data]
     return IDs
 
-def get_professor_info(ID): # Gets professor Info by ID
+# ============================== Gets Info on a specific case by ID
+def get_professor_info(ID): 
     c = db.cursor()
-    c.execute("")
+    c.execute("select * from Professor where (professor_id = ?)", (ID,))
+    data = c.fetchall()
+    c.close()
+def get_lecture_info(ID):
+    c = db.cursor()
+    c.execute("select * from LEcture where (Lecture_id = ?)", (ID,))
+    data = c.fetchall()
+    c.close()
+def get_subject_info(ID): 
+    c = db.cursor()
+    c.execute("select * from Subject where (Subject = ?)", (ID,))
     data = c.fetchall()
     c.close()
 
 # ==============================
+#this is for getting stuff from database and preparing to pass it into js
 
 def lecture_data_json():
     raw = get_all_lecture_data()
     dictionary = {}
     for row in raw:
-        dictionary[str(row[0])] = list(row[1:6])
+        dictionary[str(row[0])] = list(row[1:7])
     return dictionary
 
-# populate()
+def prof_data_json():
+    raw = get_all_professor_data()
+    dictionary = {}
+    for row in raw:
+        dictionary[str(row[0])] = list(row[1:5])
+    return dictionary
+
+def dep_data_json():
+    raw = get_all_subject_data()
+    dictionary = {}
+    for row in raw:
+        dictionary[str(row[0])] = list(row[1:4])
+    return dictionary
+
+populate()
 # testing = lecture_data_json()
 # for key in testing.keys():
 #     print(key, testing[key])
