@@ -1,5 +1,7 @@
 # Professor-o-meter by goobergang
 
+Conducting data analysis on MIT OpenCourseWare video lectures based on professors’ speech patterns, such as verbosity, sentiment, speed, and student interactivity. 
+
 ## Roster with roles
 ### Ziying Jian (PM)
 - Integrating Foundations
