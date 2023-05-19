@@ -1,3 +1,15 @@
-h1, ol, body {
+body{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+ol {
     padding-left: 40px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #4C4C6D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
 }
