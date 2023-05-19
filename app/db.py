@@ -200,19 +200,32 @@ def get_professor_info(ID):
     c.execute("select * from Professor where (professor_id = ?)", (ID,))
     data = c.fetchall()
     c.close()
+    return data
 def get_lecture_info(ID):
     c = db.cursor()
-    c.execute("select * from LEcture where (Lecture_id = ?)", (ID,))
+    c.execute("select * from Lectures where (Lecture_id = ?)", (ID,))
     data = c.fetchall()
     c.close()
+    return data
 def get_subject_info(ID): 
     c = db.cursor()
     c.execute("select * from Subject where (Subject = ?)", (ID,))
     data = c.fetchall()
     c.close()
+    return data
 
 # ==============================
 #this is for getting stuff from database and preparing to pass it into js
+
+def get_lectures_from_prof_id(ID):
+    c = db.cursor()
+    c.execute("select Lecture_id,lecture_title from Lectures where (professor_id = ?)", (ID,))
+    data = c.fetchall()
+    c.close()
+    if data == None : 
+        return []
+    Titles = [[Title[0], Title[1]] for Title in data]
+    return Titles
 
 def lecture_data_json():
     raw = get_all_lecture_data()
