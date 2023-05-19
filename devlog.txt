@@ -123,3 +123,30 @@ junW -- 2023-05-16 22:30
 --------------------------------------------------------------
  * Created first bar graph using department data (working demo)
 ==============================================================
+
+junW -- 2023-05-18 18:40
+--------------------------------------------------------------
+ * Updated initial bar graph to show data better, updated colors and animation, added labels
+ * Began work on other bar graphs
+==============================================================
+
+junW -- 2023-05-18 21:50
+--------------------------------------------------------------
+ * Cleaned up original bar graph, sorted data, rewrote parts of bar graph code
+ * Another bar graph for vocab in departments
+ * Beginnings of department pie chart
+==============================================================
+
+gabrielT -- 2023-05-18 13:30
+--------------------------------------------------------------
+ * Went on gallery tour
+      * Wanying's team was working on an interactive game where users are asked to predict the results of presidential elections by county. Upon guessing, you are also shown various pieces of demographic information about the county. The front-end was very clean and the idea was concise and good but I felt that the integration of the demographics feature was awkwardly integrated in with the rest (why would it be meaningful to the user to see that information).
+ * Vivian's team created a website that allows you to see the health and safety ratings of restaurants near you. You can also enter a search query into a box to filter for nearby restaurants with specific names and health ratings. The website has some weird bugs like how some of the ratings show rating codes that do not exist (such as "Z") and a few major features haven't been implemented yet but other than that the website has good web design and is an interesting concept.
+ * Donald Bi's group worked on a website to compare the stats of different league of legends players, including the proportion of matches they've won. I don't play LoL so that's all I could understand. Their front-end is good but they have no back-end.
+ * Team "Willoz" (I forgot to write down a group member's name) is working on a website clone of Zillow that allows the user to search for places to live by stats including crime rate, average cost of living, and most interestingly, SAT score. It is a sort of interesting idea although they haven't implemented any of the back-end, nor do they have any idea if the APIs they hope to use will even work. They have instead spent all of their time working on the front-end with the goal of making their website look exactly like the original Zillow website.
+ * Another team (I forgot to write their name, also) is working on a website allowing the user to see a (supposed) correlation between alcohol consumption per state and car accident rate. Their website is really confusing, however, and their scatterplot supposedly graphing the correlation of the two metrics looks like a bunch of random points with no correlation. This has several flaws, including how their measure of overall alcohol consumption doesn't necessarily indicate the proportion of people getting drunk and then driving. The PM acknowledged this and said that they might change the website to try to prove the opposite point (i.e. argue that alcohol consumption doesn't lead to traffic accidents). But this also makes no sense because the statistical measures are bad in the first place. I mentioned this to the PM and he acknowledged that they might have to start the project over again. So I would definitely say they are on track to finish the project by Tuesday.
+ * Ayman's group is creating a project allowing you to search for any song on Spotify and find measures of it's danceability, energy, tempo, and more. I liked the idea and the website definitely seemed like it would be fun to play around with. The front-end was a bit lacking but other than that they seemed to have almost the full app in place. That being said, some of the results seemed questionable, like songs having danceability scores that seemed inaccurate.
+ * Brian's group is working on a website allowing users to see "word clouds" of any song of their choosing. The front-end looks okay but it is only partially integrated with the back-end (he can search a song on the front-end, but to get the actual image, he needs to go into the terminal where he's running the Flask server and copy/paste a link that gets printed in the terminal, into his browser). so, their lyrics API isn't fully working at the moment. One flaw in the program is that the word clouds overrepresent the lyrics to the chorus. Also, their goal is that these word clouds could be used as the "profile pictures" of these songs. However, it might be difficult to make out the text on the word clouds if they are the size of a profile picture.
+ * Andrew's team is working on a website allowing the user to allowing you to see the historical crime rates of neighborhoods in NYC. Although the idea is really interesting, they have not fully implemented the back-end yet. The front-end looks really good, though.
+      
+==============================================================
