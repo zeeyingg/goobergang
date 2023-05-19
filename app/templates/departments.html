@@ -353,7 +353,6 @@
                 })
                 .attr("width", xScale.bandwidth())
                 .attr("height", function(d) {
-                    console.log(d);
                     return actualHeight - yScale(d);
                 });
 
@@ -386,14 +385,46 @@
         // this is a pie chart for showing where our sources are from
         // certain departments having missing stats, so this is for the ones that are actually used
         var deptPieChart = function() {
-            const height = 500;
+            clear();
+            const height = 500; //probably don't need height and width if pie chart svg is a square
             const width = 500;
             const margins = 100;
+            const radius = (width - margins) / 2;
+
+            var svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height)
+            
+            g = svg.append("g")
+                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
             //may need an ordinal scale because scale isn't a straight line
             var data = [2, 4, 6, 8];
+            var colors = d3.scaleOrdinal(["blue", "orange", "red", "green"]);
             var pie = d3.pie();
-            console.log(pie);
+            
+            //arcs of circle
+            var arc = d3.arc()
+                .innerRadius(0)
+                .outerRadius(radius);
+
+            var arcs = g.selectAll("arc")
+                .data(pie(data))
+                .enter()
+                .append("g")
+                .attr("class", "arc")
+                .text("asdf");
+
+            arcs.append("path")
+                .attr("fill", function(d, i) {
+                    return colors(i);
+                })
+                .attr("d", arc);
+
+            /*
+            arcs.append("text")
+                .text("asdf");
+            */
         }
 
         wpmDeptButton.addEventListener("click", wpmBar);
