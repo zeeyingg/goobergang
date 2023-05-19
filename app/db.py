@@ -17,7 +17,7 @@ c.executescript(
     """
     create TABLE if NOT EXISTS Lectures(Lecture_id int primary key, course_title text, lecture_title text, professor_id int, topic text, speed int, vocabulary int);
     create TABLE if NOT EXISTS Professor(professor_id int primary key, professor text, speed int, vocabulary int, stu_interact int);
-    create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, stu_interact int);
+    create TABLE if NOT EXISTS Subject(topic text, speed text, vocabulary text, stu_interact int, num_words int);
     """
 )
 
@@ -67,7 +67,7 @@ def populate():
         #there are some lectures that don't have text analysis available, which is why we check for it
         if (lectures[f"{lec}"]["text_analysis"] != {}):
             speed = round(lectures[f"{lec}"]["text_analysis"]["words"]["wpm"], 2)
-            vocab = round(lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"], 2)
+            vocab = round(lectures[f"{lec}"]["text_analysis"]["words"]["common_word_ratio"], 3)
         #print(lec_id, title, prof_id, topic, speed, vocab)
         c.execute("INSERT INTO Lectures values (?, ?, ?, ?, ?, ?, ?)", (lec_id, course_name, title, prof_id, topic, speed, vocab))
 
@@ -75,7 +75,7 @@ def populate():
         prof_id = list(professors.keys()).index(profs)
         name = profs
         speed = round(professors[f"{profs}"]["words"]["wpm"], 2)
-        vocab = round(professors[f"{profs}"]["words"]["common_word_ratio"], 2)
+        vocab = round(professors[f"{profs}"]["words"]["common_word_ratio"], 3)
         #not sure which value under audience participation to use as student interaction
         #also what is apr
         stu = professors[f"{profs}"]["audience_participation"]["num_audience_participations"]
@@ -86,9 +86,10 @@ def populate():
     for deps in departments:
         topic = deps
         speed = round(departments[f"{deps}"]["words"]["wpm"], 2)
-        vocab = round(departments[f"{deps}"]["words"]["common_word_ratio"], 2)
+        vocab = round(departments[f"{deps}"]["words"]["common_word_ratio"], 3)
         stu = departments[f"{deps}"]["audience_participation"]["num_audience_participations"]
-        c.execute("INSERT INTO Subject values (?, ?, ?, ?)", (topic, speed, vocab, stu))
+        words = departments[f"{deps}"]["words"]["num_words"]
+        c.execute("INSERT INTO Subject values (?, ?, ?, ?, ?)", (topic, speed, vocab, stu, words))
         # print(topic, speed, vocab, stu)
 
     #not sure how to read vtt files, but we may need a module?
@@ -231,7 +232,7 @@ def dep_data_json():
     raw = get_all_subject_data()
     dictionary = {}
     for row in raw:
-        dictionary[str(row[0])] = list(row[1:4])
+        dictionary[str(row[0])] = list(row[1:6])
     return dictionary
 
 populate()

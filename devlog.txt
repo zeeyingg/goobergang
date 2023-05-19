@@ -123,3 +123,16 @@ junW -- 2023-05-16 22:30
 --------------------------------------------------------------
  * Created first bar graph using department data (working demo)
 ==============================================================
+
+junW -- 2023-05-18 18:40
+--------------------------------------------------------------
+ * Updated initial bar graph to show data better, updated colors and animation, added labels
+ * Began work on other bar graphs
+==============================================================
+
+junW -- 2023-05-18 
+--------------------------------------------------------------
+ * Cleaned up original bar graph, sorted data, rewrote parts of bar graph code
+ * Another bar graph for vocab in departments
+ * Beginnings of department pie chart
+==============================================================
