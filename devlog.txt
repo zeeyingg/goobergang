@@ -130,7 +130,7 @@ junW -- 2023-05-18 18:40
  * Began work on other bar graphs
 ==============================================================
 
-junW -- 2023-05-18 
+junW -- 2023-05-18 21:50
 --------------------------------------------------------------
  * Cleaned up original bar graph, sorted data, rewrote parts of bar graph code
  * Another bar graph for vocab in departments
