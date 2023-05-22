@@ -15,9 +15,6 @@
         svg rect {
             fill: #00008B;
         }
-        .highlight {
-            fill: blue;
-        }
         div.hover {
             /* stole someone else's css because I can't make things look good*/
             position: absolute;
@@ -176,6 +173,12 @@
                 return d;
             }));
 
+            //hidden divs
+            var div = d3.select("body")
+                .append("div")
+                .attr("class", "hover")
+                .style("opacity", 0);
+
             //creates bars
             g.selectAll("bar")
                 .data(wpm)
@@ -192,7 +195,15 @@
                         .duration(300)
                         .attr("class", "highlight")
                         .attr("x", xPos - 5)
-                        .attr("width", width + 10);
+                        .attr("width", width + 10)
+                        .attr("opacity", 0.8);
+                    const [x, y] = d3.pointer(event);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 1);
+                    div.html("WPM: " + i)
+                        .style("left", (x + left_margin) + "px")
+                        .style("top", (y + actualHeight - top_margin) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -204,7 +215,11 @@
                             index = wpm.indexOf(d);
                             return xScale(actualData[index][0]);
                         })
-                        .attr("width", xScale.bandwidth());
+                        .attr("width", xScale.bandwidth())
+                        .attr("opacity", 1);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 0);
                 })
                 .attr("x", function(i) {
                     index = wpm.indexOf(i);
@@ -325,6 +340,12 @@
                 return d;
             }));
 
+            //hidden divs
+            var div = d3.select("body")
+                .append("div")
+                .attr("class", "hover")
+                .style("opacity", 0);
+
             //creates bars
             g.selectAll("bar")
                 .data(wpm)
@@ -341,7 +362,17 @@
                         .duration(300)
                         .attr("class", "highlight")
                         .attr("x", xPos - 5)
-                        .attr("width", width + 10);
+                        .attr("width", width + 10)
+                        .attr("opacity", 0.8);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 1);
+                    const [x, y] = d3.pointer(event);
+                    //console.log(x,y);
+                    //console.log(d);
+                    div.html("Vocabulary: " + i)
+                        .style("left", (x + left_margin) + "px")
+                        .style("top", (y + actualHeight - top_margin) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -353,7 +384,11 @@
                             index = wpm.indexOf(d);
                             return xScale(actualData[index][0]);
                         })
-                        .attr("width", xScale.bandwidth());
+                        .attr("width", xScale.bandwidth())
+                        .attr("opacity", 1);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 0);
                 })
                 .attr("x", function(i) {
                     index = wpm.indexOf(i);
@@ -479,7 +514,7 @@
                     //console.log(x, y);
                     div.html(i["data"][0] + ", " + i["data"][1])
                         .style("left", (x + width / 2) + "px")
-                        .style("top", (y + height) + "px");
+                        .style("top", (y + height - margins/2) + "px");
                 })
                 .on("mouseout", function(d, i) {
                     d3.select(this)

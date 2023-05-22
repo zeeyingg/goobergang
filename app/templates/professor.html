@@ -147,13 +147,14 @@
             .attr("cy", function(d) {
               return yScale(d[1]) + margins;
             })
-            .attr("r", 2.2)
+            .attr("r", 2)
             .style("fill", "#00008B")
           .on("mouseover", function(d, i) {
             //d is the mouse event, i contains data (array)
             d3.select(this)
               .transition()
               .duration("100")
+              .attr("r", 2.5)
               .attr("opacity", "0.5"); //i have no clue whether numbers have to be strings or not, but d3 is extremely picky so it's best to be safe
             div.transition()
               .duration("100")
@@ -172,7 +173,8 @@
             d3.select(this)
               .transition()
               .duration("100")
-              .attr("opacity", "1")
+              .attr("r", 2)
+              .attr("opacity", "1");
             div.transition()
               .duration("100")
               .style("opacity", 0);
@@ -206,13 +208,67 @@
 
       var stuScatter = function() {
         clear();
-        var margins = 25;
+        var margins = 50; //margins on all sides
         var width = 800;
         var height = 600;
+        //actual width and height used for side labels
+        var actualWidth = width - (2*margins);
+        var actualHeight = height - (2*margins);
 
         var svg = d3.select("svg")
           .attr("width", width)
           .attr("height", height);
+
+        //data used is subset of professors, since some don't have wpm data
+        data = [];
+        prof_keys = Object.keys(professors);
+        for (let i = 0; i < prof_keys.length; i++) {
+          if (professors[prof_keys[i]][3] != 0) {
+            data.push([professors[prof_keys[i]][0], professors[prof_keys[i]][3]]);
+          }
+        }
+        //sorting data, descending order
+        data = data.sort( function(a, b) {
+          return b[1] - a[1];
+        })
+        stu = data.map( function(arr, i) {
+          return arr[1];
+        });
+        names = data.map( function(arr, i) {
+          return arr[0];
+        })
+
+        xScale = d3.scaleLinear()
+          .domain([0, data.length])
+          .range([0, actualWidth]);
+        svg.append("g")
+          .attr("transform", "translate(" + margins + ", " + (actualHeight + margins) + ")")
+          .call(d3.axisBottom(xScale).ticks(15));
+
+        //making title
+        svg.append("text") //title is just text
+          .style("text-anchor", "middle") //centers text
+          .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + "0)") //moves it to relatively central place on top of bar chart
+          .attr("y", 30) //move the title down a little
+          .attr("font-size", "20px") //bigger font
+          .attr("font-weight", 550) //slightly bolder
+          .text("Student Interactions by Professor"); //the content
+          
+        //labeling x-axis, similar to how title is created
+        svg.append("text")
+          .style("text-anchor", "middle")
+          .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + (height-(margins/3)) + ")")
+          .attr("font-size", "15px")
+          .attr("font-weight", 500)
+          .text("Ranking");
+
+        //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
+        svg.append("text")
+          .style("text-anchor", "middle")
+          .attr("transform", "translate(20" + "," + ((actualHeight/2) + margins) + ")rotate(-90)")
+          .attr("font-size", "15px")
+          .attr("font-weight", 500)
+          .text("Number of Student Interactions");
       }
 
       scatterButton.addEventListener("click", speedScatter);
