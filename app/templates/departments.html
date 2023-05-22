@@ -225,7 +225,7 @@
                 .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + "10)") //moves it to relatively central place on top of bar chart
                 .attr("y", 20) //move the title down a little
                 .attr("font-size", "20px") //bigger font
-                .attr("font-weight", 500) //slightly bolder
+                .attr("font-weight", 550) //slightly bolder
                 .text("Words Per Minute by Department"); //the content
                 
             //labeling x-axis, similar to how title is created
@@ -374,7 +374,7 @@
                 .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + "0)") //moves it to relatively central place on top of bar chart
                 .attr("y", 30) //move the title down a little
                 .attr("font-size", "20px") //bigger font
-                .attr("font-weight", 500) //slightly bolder
+                .attr("font-weight", 550) //slightly bolder
                 .text("Common Vocabulary by Department"); //the content
                 
             //labeling x-axis, similar to how title is created
@@ -382,7 +382,7 @@
                 .style("text-anchor", "middle")
                 .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + (height-100) + ")")
                 .attr("font-size", "15px")
-                .attr("font-weight", 400)
+                .attr("font-weight", 500)
                 .text("Department Name");
 
             //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
@@ -390,7 +390,7 @@
                 .style("text-anchor", "middle")
                 .attr("transform", "translate(10" + "," + ((actualHeight/2) + top_margin) + ")rotate(-90)")
                 .attr("font-size", "15px")
-                .attr("font-weight", 400)
+                .attr("font-weight", 500)
                 .text("Common Vocabulary");
         }
 
@@ -465,7 +465,7 @@
                     return colors(i);
                 })
                 .attr("transform", "translate(0, 0)")
-                .on('mouseover', function (d, i) { //all of this is for hover effects
+                .on('mouseover', function(d, i) { //all of this is for hover effects
                     //d is the mouse event, is has a bunch of data (including the data array from above)
                     d3.select(this)
                         .transition()

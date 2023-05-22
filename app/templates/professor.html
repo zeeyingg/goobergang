@@ -11,6 +11,20 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href="static/css/stylesheet.css">
     <title> Professors Data </title>
+    <style>
+      div.hover {
+        /* stole someone else's css because I can't make things look good*/
+        position: absolute;
+        text-align: center;
+        padding: .5rem;
+        background: #FFFFFF;
+        color: #313639;
+        border: 1px solid #313639;
+        border-radius: 8px;
+        pointer-events: none;
+        font-size: 12px;
+      }
+    </style>
 </head>
 <body>
 
@@ -40,5 +54,172 @@
        <!-- This will be the template for each individual professor's page,
         Where all of their information are shown. Lectures they've given,
         topics they teach, words per minute, vocaulary, ... -->
+    <div>
+      <button type="button" class="button" id="speed_scatter">Professor WPM Scatterplot</button>
+      <button type="button" class="button" id="stu">Student Interactions by Professor</button>
+    </div>
+
+    <svg></svg>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+      var profRaw = '{{ data }}';
+      profRaw = profRaw.replaceAll('&#34;', '\"');
+      //big 2d array, name, wpm, bocabulary, student interactions
+      var professors = JSON.parse(profRaw.replace('&#34;', '\"'))
+      //console.log(professors);
+
+      var scatterButton = document.getElementById("speed_scatter");
+      var stuButton = document.getElementById("stu");
+      //why are the tab sizes inconsistent aaaaaaaaaaaaaaaa
+      var clear = function() {
+        d3.selectAll("g").remove();
+        d3.selectAll("text").remove();
+      }
+      
+      //wpm by professor
+      var speedScatter = function() {
+        clear();
+        var margins = 50; //margins on all sides
+        var width = 800;
+        var height = 600;
+        //actual width and height used for side labels
+        var actualWidth = width - (2*margins);
+        var actualHeight = height - (2*margins);
+
+        var svg = d3.select("svg")
+          .attr("width", width)
+          .attr("height", height);
+        
+        //console.log(professors);
+        //data used is subset of professors, since some don't have wpm data
+        data = [];
+        prof_keys = Object.keys(professors);
+        for (let i = 0; i < prof_keys.length; i++) {
+          if (professors[prof_keys[i]][1] != 0) {
+            data.push([professors[prof_keys[i]][0], professors[prof_keys[i]][1]]);
+          }
+        }
+        //console.log(data);
+        //sorting data, descending order
+        data = data.sort( function(a, b) {
+          return b[1] - a[1];
+        })
+        wpm = data.map( function(arr, i) {
+          return arr[1];
+        });
+        names = data.map( function(arr, i) {
+          return arr[0];
+        })
+        //console.log(data);
+        //console.log(wpm);
+        //creating axes and adding them to svg
+        var xScale = d3.scaleLinear()
+          .domain([0, data.length])
+          .range([0, actualWidth]);
+        svg.append("g")
+          .attr("transform", "translate(" + margins + ", " + (actualHeight + margins) + ")")
+          .call(d3.axisBottom(xScale).ticks(20));
+        var yScale = d3.scaleLinear()
+          .range([actualHeight, 0])
+          .domain([80, d3.max(wpm, function(d) {
+            return d;
+          })]);
+        svg.append("g")
+          .attr("transform", "translate(" + margins + ", " + margins + ")")
+          .call(d3.axisLeft(yScale));
+        
+        //hidden divs
+        var div = d3.select("body")
+          .append("div")
+          .attr("class", "hover")
+          .style("opacity", 0);
+        //making the points on the scatterplot
+        svg.append("g")
+          .selectAll("dot")
+          .data(data)
+          .enter()
+          .append("circle")
+            .attr("cx", function(d) {
+              index = names.indexOf(d[0]); //weird way of finding the index, but it works
+              return xScale(index) + margins; //this moves it to the right x coordinate
+            })
+            .attr("cy", function(d) {
+              return yScale(d[1]) + margins;
+            })
+            .attr("r", 2.2)
+            .style("fill", "#00008B")
+          .on("mouseover", function(d, i) {
+            //d is the mouse event, i contains data (array)
+            d3.select(this)
+              .transition()
+              .duration("100")
+              .attr("opacity", "0.5"); //i have no clue whether numbers have to be strings or not, but d3 is extremely picky so it's best to be safe
+            div.transition()
+              .duration("100")
+              .style("opacity", "1"); 
+            //getting position, but positions in svgs are hard to get apparently
+            //position gets better as ranking goes down?
+            const [x, y] = d3.pointer(event);
+            //console.log(x, y);
+            rank = 1 + names.indexOf(i[0]);
+            //console.log(rank);
+            div.html("Name: " + i[0] + "<br>" + "WPM: " + i[1] + "<br>" + "Rank: " + rank)
+              .style("left", x + "px")
+              .style("top", (y + 2 * margins) + "px");
+          })
+          .on("mouseout", function(d, i) {
+            d3.select(this)
+              .transition()
+              .duration("100")
+              .attr("opacity", "1")
+            div.transition()
+              .duration("100")
+              .style("opacity", 0);
+          });
+
+        //making title
+        svg.append("text") //title is just text
+          .style("text-anchor", "middle") //centers text
+          .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + "0)") //moves it to relatively central place on top of bar chart
+          .attr("y", 30) //move the title down a little
+          .attr("font-size", "20px") //bigger font
+          .attr("font-weight", 550) //slightly bolder
+          .text("WPM by Professor"); //the content
+          
+        //labeling x-axis, similar to how title is created
+        svg.append("text")
+          .style("text-anchor", "middle")
+          .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + (height-(margins/3)) + ")")
+          .attr("font-size", "15px")
+          .attr("font-weight", 500)
+          .text("Ranking");
+
+        //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
+        svg.append("text")
+          .style("text-anchor", "middle")
+          .attr("transform", "translate(20" + "," + ((actualHeight/2) + margins) + ")rotate(-90)")
+          .attr("font-size", "15px")
+          .attr("font-weight", 500)
+          .text("WPM");
+      }
+
+      var stuScatter = function() {
+        clear();
+        var margins = 25;
+        var width = 800;
+        var height = 600;
+
+        var svg = d3.select("svg")
+          .attr("width", width)
+          .attr("height", height);
+      }
+
+      scatterButton.addEventListener("click", speedScatter);
+      stuButton.addEventListener("click", stuScatter);
+      
+      
+
+    </script>
 </body>
 </html>

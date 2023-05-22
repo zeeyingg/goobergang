@@ -27,10 +27,10 @@ def result_page():
 
 @app.route("/professor", methods=["GET"])
 def professor_page():
-    lecture_data = json.dumps(lecture_data_json())
+    #lecture_data = json.dumps(lecture_data_json())
     prof_data = json.dumps(prof_data_json())
-    dep_data = json.dumps(dep_data_json())
-    return render_template("professor.html", data1=lecture_data, data2=prof_data, data3=dep_data)
+    #dep_data = json.dumps(dep_data_json())
+    return render_template("professor.html", data = prof_data)
 
 @app.route("/lecture", methods=["GET"])
 def lecture_page():
