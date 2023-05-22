@@ -43,7 +43,7 @@
     INFO: Speed: {{SPEED}}, Bocab = {{VOCAB}}, Student Interaction: {{INTERACTION}} <br>
     Lectures: 
     {% for lecture in LECTURES %}
-    <li><a href = {{ url_for( 'lecture_info' ,lecture_id = LECTURES[0])}}>
+    <li><a href = {{ url_for( 'lecture_info' ,lecture_id = lecture[0])}}>
         {{lecture[1]}}
     </a></li>
     {% endfor %}

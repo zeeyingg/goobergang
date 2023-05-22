@@ -45,13 +45,18 @@ def department_page():
 
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_info(lecture_id):
-    return render_template("lecture_info.html", ID=lecture_id)
+    lecture_stuff = get_lecture_info(lecture_id)
+    prof_name = get_professor_info(lecture_stuff[3])
+    Transcript = get_transcript(lecture_id)
+    Data = [ lecture_stuff[2], prof_name, lecture_stuff[4], lecture_stuff[5], lecture_stuff[6] ]
+
+    return render_template("lecture_info.html", ID=lecture_id, DATA=Data, TRANSCRIPT=Transcript)
 
 @app.route("/prof/<prof_id>", methods=["GET"])
 def prof_info(prof_id):
     prof_lectures = get_lectures_from_prof_id(prof_id)
 
-    info = get_professor_info(prof_id)[0]
+    info = get_professor_info(prof_id)
     s=info[2] # Speed
     v=info[3] # vocab
     i=info[4] # student interaction
