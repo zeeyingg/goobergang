@@ -10,7 +10,10 @@
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="static/css/stylesheet.css">
-    <title> Lectures Data </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <title> MIT Professor-O-Meter </title>
     <style>
       svg rect {
         fill: #00008B;
@@ -33,27 +36,29 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="top-bar" data-topbar role="navigation">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-          <li class="menu-text">Professor-O-Meter</li>
-        </ul>
+    <nav id="navbar" class="top-bar" data-topbar role="navigation">
+      <div id="navbar" class="top-bar-left">
+          <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+          <li id="menu-text" class="menu-text">Professor-O-Meter</li>
+          </ul>
       </div>
-      <div class="top-bar-right">
-        <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+
+      <div id="navbar" class="top-bar-right">
+          <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
           <li><a href="/">Home</a></li>
           <li><a href="/professor">Professors</a></li>
           <li><a href="/lecture">Lectures</a></li>
           <li><a href="/departments">Departments</a></li>
           <ul class="menu">
-            <li><form action="/result" class="search-form">
-                <input type="search" placeholder="Search" id="search" name="search"></li>
-                <li><button type="submit" class="button">Search</button>
-            </form></li>
+              <li><form id="navbar" action="/result" class="search-form">
+                  <input type="search" placeholder="Search" name="search"></li>
+                  <li><button id="search_button" type="submit" class="button">Search</button>
+              </form></li>
+              </ul>
+          </div>
           </ul>
-        </ul>
       </div>
-    </nav>
+      </nav>
     Lectures
      <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
 
@@ -223,5 +228,16 @@
 
       speedButton.addEventListener("click", speedHistogram);
     </script>
+     <footer class="footer">
+      <div class="grid-container">
+          <div class="grid-x grid-padding-x">
+          <div class="cell small-12">
+              <!-- Footer content goes here -->
+              <p>This is the footer content.</p>
+          </div>
+          </div>
+      </div>
+  </footer>
+  
 </body>
 </html>

@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
-    <title> TITLE GANG </title>
+    <title> MIT Professor-O-Meter </title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             <li><a href="/departments">Departments</a></li>
             <ul class="menu">
                 <li><form id="navbar" action="/result" class="search-form">
-                    <input type="search" placeholder="Search" id="search" name="search"></li>
+                    <input type="search" placeholder="Search" name="search"></li>
                     <li><button id="search_button" type="submit" class="button">Search</button>
                 </form></li>
               </ul>
@@ -43,17 +43,39 @@
       </nav>
     
     <!-- <p id="index_background_image"> -->
+    <br><br><br>
     <h1 id="site_heading"> MIT Professor-O-Meter </h1>
-    <h3>Presenting data visualization on various video lectures on MIT OpenCourseWare.</h3>
-    <p id="#site_text">By goobergang :: Ziying Jian, Gabriel Thompson, Joshua Liu, Jun Hong Wang</p>
-    <div>
-        <form type = "button" class="button" action="d3test">
-            <button>redirect to d3 test</button>
-        </form>
-    </div>
-    <!-- </p> -->
+    <h3 id="site_caption">Presenting data visualization on various video lectures on <a href="https://ocw.mit.edu/" target="_blank">MIT OpenCourseWare</a>.</h3>
+    <br><br>
+    <!-- <ul class="menu"> -->
+        <div class="cell small-12 medium-8 large-6">
+            <form id="search" action="/result" class="search-form grid-x align-middle">
+                <div class="cell auto">
+                    <input type="search" placeholder="Search" name="search">
+                </div>
+                <div class="cell shrink">
+                    <button id="search_button" type="submit" class="button">Search</button>
+                </div>
+            </form>
+        </div>
+        <br><br><br><br>
+        
+        
+    <footer class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+            <div class="cell small-12">
+                <!-- Footer content goes here -->
+                <p>This is the footer content.</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+          
 
-    <div style="width:50%;">
+    
+
+    <!-- <div style="width:50%;">
         <table class="hover unstriped">
             <tr>
                 <th rowspan="2">ID</th>
@@ -117,7 +139,7 @@
             </tr>
             {% endfor %}
         </table>
-    </div>
+    </div> -->
 
     <!-- Scripts -->
     <!-- Have to add these files into the JS directory -->
