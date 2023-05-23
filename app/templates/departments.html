@@ -300,8 +300,8 @@
                         .duration(100)
                         .style("opacity", 1);
                     div.html("WPM: " + i)
-                        .style("left", (x + left_margin) + "px")
-                        .style("top", (y + actualHeight - top_margin) + "px");
+                        .style("left", (x + left_margin + 150) + "px")
+                        .style("top", (y + actualHeight + 50) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -325,7 +325,7 @@
                     return xScale(dept_name_tick)
                 })
                 .attr("y", function(d) {
-                    console.log(d);
+                    //console.log(d);
                     return yScale(d);
                 })
                 .attr("width", xScale.bandwidth())
@@ -384,7 +384,7 @@
             //this takes data and populates 2 dimensional array with department name and wpm, sorted by wpm
             dep_keys = Object.keys(departments);
             for (let i = 0; i < dep_keys.length; i++) {
-                if (departments[dep_keys[i]][1] != "0") {
+                if (departments[dep_keys[i]][1] != 0) {
                     actualData.push([dep_keys[i], departments[dep_keys[i]][1]]);
                 }
             }
@@ -459,7 +459,6 @@
                     d3.select(this)
                         .transition()
                         .duration(300)
-                        .attr("class", "highlight")
                         .attr("x", xPos - 5)
                         .attr("width", width + 10)
                         .attr("opacity", 0.8);
@@ -470,8 +469,8 @@
                     //console.log(x,y);
                     //console.log(d);
                     div.html("Vocabulary: " + i)
-                        .style("left", (x + left_margin) + "px")
-                        .style("top", (y + actualHeight - top_margin) + "px");
+                        .style("left", (x + left_margin + 150) + "px")
+                        .style("top", (y + actualHeight + 50) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -551,10 +550,11 @@
             //this takes data and populates 2 dimensional array with department name and wpm, sorted by wpm
             dep_keys = Object.keys(departments);
             for (let i = 0; i < dep_keys.length; i++) {
-                if (departments[dep_keys[i]][0] != "0") {
+                if (departments[dep_keys[i]][2] != 0) {
                     actualData.push([dep_keys[i], departments[dep_keys[i]][2]]);
                 }
             }
+            //console.log(actualData);
 
             //this part does the sorting
             actualData = actualData.sort( function(a, b) {
@@ -626,7 +626,6 @@
                     d3.select(this)
                         .transition()
                         .duration(300)
-                        .attr("class", "highlight")
                         .attr("x", xPos - 5)
                         .attr("width", width + 10)
                         .attr("opacity", 0.8);
@@ -635,8 +634,8 @@
                         .duration(100)
                         .style("opacity", 1);
                     div.html("WPM: " + i)
-                        .style("left", (x + left_margin) + "px")
-                        .style("top", (y + actualHeight - top_margin) + "px");
+                        .style("left", (x + left_margin + 150) + "px")
+                        .style("top", (y + actualHeight + 50) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -713,10 +712,11 @@
             //sorting for this data can probably be done outside of this function for max efficiency, but too lazy to move this out and rewrite
             var actualData = [];
 
+            //console.log(departments);
             //this takes data and populates 2 dimensional array with department name and wpm, sorted by wpm
             dep_keys = Object.keys(departments);
             for (let i = 0; i < dep_keys.length; i++) {
-                if (departments[dep_keys[i]][0] != "0") {
+                if (departments[dep_keys[i]][3] != "0") {
                     actualData.push([dep_keys[i], departments[dep_keys[i]][3]]);
                 }
             }
@@ -753,6 +753,7 @@
             xScale.domain(sorted_depts.map( function(i) {
                 return i;
             }));
+            //console.log(actualData);
 
             //this part is all for translating x axis down and making tick labels readable
             g.append("g")
@@ -779,7 +780,7 @@
 
             //creates bars
             g.selectAll("bar")
-                .data(wpm)
+                .data(actualData)
                 .enter() //data takes in array and enter puts it into somewhere?
                 .append("rect") //bars are just rectangles
                 .attr("class", "bar")
@@ -791,7 +792,6 @@
                     d3.select(this)
                         .transition()
                         .duration(300)
-                        .attr("class", "highlight")
                         .attr("x", xPos - 5)
                         .attr("width", width + 10)
                         .attr("opacity", 0.8);
@@ -799,9 +799,10 @@
                     div.transition()
                         .duration(100)
                         .style("opacity", 1);
-                    div.html("WPM: " + i)
-                        .style("left", (x + left_margin) + "px")
-                        .style("top", (y + actualHeight - top_margin) + "px");
+                    console.log(i);
+                    div.html("Department: " + i[0] + "<br>" + "WPM: " + i[1])
+                        .style("left", (x + left_margin + 150) + "px")
+                        .style("top", (y + actualHeight + 50) + "px");
                 })
                 .on("mouseout", function() {
                     //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
@@ -810,8 +811,8 @@
                         .transition()
                         .duration(200)
                         .attr("x", function(d) {
-                            index = wpm.indexOf(d);
-                            return xScale(actualData[index][0]);
+                            console.log(d);
+                            return xScale(d[0]);
                         })
                         .attr("width", xScale.bandwidth())
                         .attr("opacity", 1);
@@ -820,16 +821,17 @@
                         .style("opacity", 0);
                 })
                 .attr("x", function(i) {
-                    index = wpm.indexOf(i);
-                    dept_name_tick = actualData[index][0];
-                    return xScale(dept_name_tick)
+                    // index = wpm.indexOf(i);
+                    // dept_name_tick = actualData[index][0];
+                    return xScale(i[0])
                 })
                 .attr("y", function(d) {
-                    return yScale(d);
+                    return yScale(d[1]);
                 })
                 .attr("width", xScale.bandwidth())
                 .attr("height", function(d) {
-                    return actualHeight - yScale(d);
+                    console.log(d);
+                    return actualHeight - yScale(d[1]);
                 });
 
             //making title
