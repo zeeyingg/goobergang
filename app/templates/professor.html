@@ -296,7 +296,7 @@
               .style("opacity", "1");
             const [x, y] = d3.pointer(event);
             rank = 1 + names.indexOf(i[0]);
-            div.html("Name: " + i[0] + "<br>" + "Number of student interactions: " +  i[1] + "<br>" + "Rank: " + rank)
+            div.html("Name: " + i[0] + "<br>" + "Number of student interactions: " +  (Math.round(i[1] * 100) / 100) + "<br>" + "Rank: " + rank)
               .style("left", x + "px")
               .style("top", (y + 2*margins) + "px");
           })
