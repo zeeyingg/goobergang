@@ -27,14 +27,26 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+#site_caption{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+
+.footer{
+    background-color: #d9d8a9;
+    padding: 60px;
+    text-align: center;
+    font-weight: bold;
+}
 ol {
     padding-left: 40px;
 }
 
 h1 {
     font-weight: bold;
-    padding-top: 35px;
     padding-left: 20px;
+    padding-top: 20px;
 }
 
 h2{
@@ -44,10 +56,8 @@ h2{
 }
 
 h3{
-    /* padding: 10px; */
-    padding-top: 15px;
+    padding-left: 20px;
     color: black;
-    text-align: center;
 }
 
 /* #index_background_image{
