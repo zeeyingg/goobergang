@@ -47,9 +47,9 @@ def department_page():
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_info(lecture_id):
     lecture_stuff = get_lecture_info(lecture_id)
-    prof_name = get_professor_info(lecture_stuff[3])
+    prof_stuff = get_professor_info(lecture_stuff[3]) # 0 -> ID; 1 -> Name
     Transcript = get_transcript(lecture_id)
-    Data = [ lecture_stuff[2], prof_name, lecture_stuff[4], lecture_stuff[5], lecture_stuff[6] ]
+    Data = [ lecture_stuff[2], [prof_stuff[0], prof_stuff[1]], lecture_stuff[4], lecture_stuff[5], lecture_stuff[6] ]
 
     return render_template("lecture_info.html", ID=lecture_id, DATA=Data, TRANSCRIPT=Transcript)
 
@@ -66,6 +66,7 @@ def prof_info(prof_id):
 
 @app.route("/subject/<subject>", methods=["GET"])
 def subject_info(subject):
+    
     return render_template("subject_info.html", ID=subject)
 
 @app.route("/d3test")

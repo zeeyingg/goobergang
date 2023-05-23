@@ -9,11 +9,11 @@
     <!-- Compressed JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     <!-- Link to CSS -->
-    <link rel="stylesheet" href="static/css/stylesheet.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/stylesheet.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
-    <title> MIT Professor-O-Meter </title>
+    <title> Lecture Information </title>
 </head>
 
 <body>
@@ -45,13 +45,13 @@
 
     <h1>This is your id: {{ID}} </h1>
     Title : {{DATA[0]}} <br>
-    Professor: {{DATA[1]}} <br>
-    topic: {{DATA[2]}} <br>
+    Professor:  <a href = {{ url_for( 'prof_info' ,prof_id = DATA[1][0])}}> {{DATA[1][1]}} </a> <br>
+    topic: <a href = {{ url_for( 'subject_info' ,subject = DATA[2])}}> {{DATA[2]}} </a> <br>
     Speed: {{DATA[3]}} <br>
-    Vocav: {{DATA[4]}} <br>
+    Vocab: {{DATA[4]}} <br></h3>
     <h2>THIS IS YOUR TRANSCRIPT</h2>
     <div>
-      {{TRANSCRIPT}}
+      {{TRANSCRIPT | safe}}
     </div>
   
     <footer class="footer">
@@ -64,5 +64,82 @@
           </div>
       </div>
   </footer>
+
+  <style>#navbar{
+    background-color: #d9d8a9;
+    align-items: center;
+}
+
+/* #menu{
+    align-items: center;
+} */
+
+#menu-text{
+    color: black
+}
+
+#search{
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#site_heading{
+    padding: 20px;
+    padding-top: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #b83f0f;
+    font-size: 110px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#site_caption{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+
+.footer{
+    background-color: #d9d8a9;
+    padding: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+ol {
+    padding-left: 40px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h2{
+    padding-left: 20px;
+    color: #73591e;
+    font-weight: bold;
+}
+
+h3{
+    padding-left: 20px;
+    color: black;
+}
+
+/* #index_background_image{
+    background-image: url('');
+} */
+
+body{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #faf9cd;
+}</style>
+
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="{{url_for('static', filename='js/peanut.js')}}"></script>
+  <script src='https://d3js.org/d3.v4.min.js'></script> 
 </body>
 </html>
