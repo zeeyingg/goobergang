@@ -27,6 +27,35 @@
             pointer-events: none;
             font-size: 12px;
         }
+        .highlight {
+            fill: blue;
+        }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 7fr 3fr;
+      grid-gap: 20px;
+    }
+    .stats-selector {
+        width: 100%;
+        background-color: rgb(191,191,191);
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 11vh;
+        color: black;
+        padding: 0;
+    }
+    .stats-selector:focus {
+        background-color: rgb(255,255,255);
+        color: black;
+    }
+    .stats-selector:hover {
+        background-color: rgb(220,220,220);
+        color: black;
+    }
+    .selector-text {
+        line-height: 1;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
     </style>
 </head>
 
@@ -56,14 +85,62 @@
             </ul>
         </div>
         </nav>
+
         <h1>Departments</h1>
         <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
         
     <div>
-        <button type="button" class ="button" id="wpm_dept">Words Per Minute by Department</button>
-        <button type="button" class="button" id="vocab_dept">Common Vocabulary By Department</button>
         <button type="button" class="button" id="pie_chart">Data Sources</button>
     </div>
+
+    <center><div class="container" style="width: 92vw;">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell" style="padding: 0; width: 12vw;">
+            <div class="button-group stacked-for-small">
+              <center>
+                  <button class="button stats-selector selected" id="wpm_dept">
+                    <p class="selector-text" style="font-size: 1.5vw; padding-top: 2vh;">Avg WPM</p>
+                  </button>
+                  <button class="button stats-selector" id="vocab_dept">
+                    <p class="selector-text" style="font-size: 1.34vw; padding: 1.5vh 0;">Common vocabulary rate<p>
+                  </button>
+                  <button class="button stats-selector" style="padding: 0;" id="apr_dept">
+                    <p class="selector-text" style="font-size: 1vw; padding: 2.5vh 0;"># of audience participations per hour</p>
+                  </button>
+                  <button class="button stats-selector" id="word_dept">
+                    <p class="selector-text" style="font-size: 1.2vw; padding: 3vh 0;"># of words in corpus<p>
+                  </button>
+                  <button class="button stats-selector">
+                    <p class="selector-text" style="font-size: 1.2vw; padding: 2vh 0;"># of lectures in corpus (will add later)</p>
+                  </button>
+                  <button class="button stats-selector">
+                    <p class="selector-text" style="font-size: 1.2vw; padding: 2vh 0;"># of seconds in corpus (will add later)</p>
+                  </button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <svg style="background-color: rgb(238, 245, 254); height: 65.8vh; border-radius: 20px; border: 1px solid black;"></svg>
+      </div>
+      <div style="background-color: rgb(249, 222, 173); height: 65.8vh; border-radius: 20px; border: 1px solid black; padding: 10px;">
+        <h4>
+            <p>Department name</p>
+        </h4>
+        <table>
+            <tr>
+                <td>
+                    <p>Work in progress</p>
+                </td>
+                <td>
+                    <p>Work in progress</p>
+                </td>
+            </tr>
+        </table>
+      </div>
+    </div></center>
     <svg></svg>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -86,6 +163,8 @@
 
         wpmDeptButton = document.getElementById("wpm_dept");
         vocabDeptButton = document.getElementById("vocab_dept");
+        wordDeptButton = document.getElementById("word_dept");
+        aprDeptButton = document.getElementById("apr_dept");
         pieChartButton = document.getElementById("pie_chart");
 
 
@@ -431,6 +510,336 @@
                 .text("Common Vocabulary");
         }
 
+        var aprBar = function() {
+            clear();
+            //margins for all sides defined here, as well as svg size in case we want bigger or smaller graph
+            const left_margin = 75;
+            const right_margin = 25;
+            const top_margin = 50;
+            const bottom_margin = 250;
+            const height = 600;
+            const width = 800;
+            var svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            //may want to define margin for all sides, since bottom margin is much larger than other side margins
+            var actualWidth = width-left_margin-right_margin;
+            var actualHeight = height-top_margin-bottom_margin;
+            //data will be in form of 2 dimensional array
+            //sorting for this data can probably be done outside of this function for max efficiency, but too lazy to move this out and rewrite
+            var actualData = [];
+
+            //this takes data and populates 2 dimensional array with department name and wpm, sorted by wpm
+            dep_keys = Object.keys(departments);
+            for (let i = 0; i < dep_keys.length; i++) {
+                if (departments[dep_keys[i]][0] != "0") {
+                    actualData.push([dep_keys[i], departments[dep_keys[i]][2]]);
+                }
+            }
+
+            //this part does the sorting
+            actualData = actualData.sort( function(a, b) {
+                return b[1] - a[1];
+            })
+
+            barWidth = Object.keys(actualData).length * 0.5
+
+            var xScale = d3.scaleBand()
+                .range([0, actualWidth])
+                .padding(0.5);
+            var yScale = d3.scaleLinear()
+                .range([actualHeight, 0]);
+
+            var g = svg.append("g")
+                .attr("transform", "translate(" + left_margin + "," + top_margin + ")");
+            
+            //this maps the first column of the 2d array into a 1d array
+            wpm = actualData.map( function(arr, i) {
+                //wpm elements were strings initially
+                //* 100 then division by 100 to maintain 2 decimals
+                return parseInt(arr[1] * 100) / 100;
+            });
+            sorted_depts = actualData.map( function(arr, i) {
+                return arr[0];
+            });
+            yScale.domain([0, d3.max(wpm, function(d) {
+                return d;
+            })]);
+            //xscale after y scale because we need sorted wpm list first
+            xScale.domain(sorted_depts.map( function(i) {
+                return i;
+            }));
+
+            //this part is all for translating x axis down and making tick labels readable
+            g.append("g")
+                .attr("transform", "translate(0," + actualHeight + ")")
+                .call(d3.axisBottom(xScale))
+                .selectAll("text")
+                    .style("text-anchor", "end")
+                    .style("font-size", "9px")
+                    .attr("dy", "-0.5em")
+                    .attr("dx", "-0.6em")
+                    .attr("transform", "rotate(-50)");
+
+            //creates a new group for y axis ticks
+            g.append("g")
+            .call(d3.axisLeft(yScale).tickFormat(function(d) {
+                return d;
+            }));
+
+            //hidden divs
+            var div = d3.select("body")
+                .append("div")
+                .attr("class", "hover")
+                .style("opacity", 0);
+
+            //creates bars
+            g.selectAll("bar")
+                .data(wpm)
+                .enter() //data takes in array and enter puts it into somewhere?
+                .append("rect") //bars are just rectangles
+                .attr("class", "bar")
+                .on("mouseover", function(d, i) {
+                    var xPos = +d3.select(this)
+                        .attr("x");
+                    var width = +d3.select(this)
+                        .attr("width");
+                    d3.select(this)
+                        .transition()
+                        .duration(300)
+                        .attr("class", "highlight")
+                        .attr("x", xPos - 5)
+                        .attr("width", width + 10)
+                        .attr("opacity", 0.8);
+                    const [x, y] = d3.pointer(event);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 1);
+                    div.html("WPM: " + i)
+                        .style("left", (x + left_margin) + "px")
+                        .style("top", (y + actualHeight - top_margin) + "px");
+                })
+                .on("mouseout", function() {
+                    //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
+                    d3.select(this)
+                        .attr("class", "bar")
+                        .transition()
+                        .duration(200)
+                        .attr("x", function(d) {
+                            index = wpm.indexOf(d);
+                            return xScale(actualData[index][0]);
+                        })
+                        .attr("width", xScale.bandwidth())
+                        .attr("opacity", 1);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 0);
+                })
+                .attr("x", function(i) {
+                    index = wpm.indexOf(i);
+                    dept_name_tick = actualData[index][0];
+                    return xScale(dept_name_tick)
+                })
+                .attr("y", function(d) {
+                    return yScale(d);
+                })
+                .attr("width", xScale.bandwidth())
+                .attr("height", function(d) {
+                    return actualHeight - yScale(d);
+                });
+
+            //making title
+            svg.append("text") //title is just text
+                .style("text-anchor", "middle") //centers text
+                .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + "10)") //moves it to relatively central place on top of bar chart
+                .attr("y", 20) //move the title down a little
+                .attr("font-size", "20px") //bigger font
+                .attr("font-weight", 550) //slightly bolder
+                .text("Audience participations per hour by department"); //the content
+                
+            //labeling x-axis, similar to how title is created
+            svg.append("text")
+                .style("text-anchor", "middle")
+                .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + (height - 80) + ")")
+                .attr("font-size", "15px")
+                .attr("font-weight", 400)
+                .text("Department Name");
+
+            //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
+            svg.append("text")
+                .style("text-anchor", "middle")
+                .attr("transform", "translate(20" + "," + ((actualHeight/2) + top_margin) + ")rotate(-90)")
+                .attr("font-size", "15px")
+                .attr("font-weight", 400)
+                .text("Audience participations/hr");
+        }
+
+        var wordsBar = function() {
+            clear();
+            //margins for all sides defined here, as well as svg size in case we want bigger or smaller graph
+            const left_margin = 75;
+            const right_margin = 25;
+            const top_margin = 50;
+            const bottom_margin = 250;
+            const height = 600;
+            const width = 800;
+            var svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            //may want to define margin for all sides, since bottom margin is much larger than other side margins
+            var actualWidth = width-left_margin-right_margin;
+            var actualHeight = height-top_margin-bottom_margin;
+            //data will be in form of 2 dimensional array
+            //sorting for this data can probably be done outside of this function for max efficiency, but too lazy to move this out and rewrite
+            var actualData = [];
+
+            //this takes data and populates 2 dimensional array with department name and wpm, sorted by wpm
+            dep_keys = Object.keys(departments);
+            for (let i = 0; i < dep_keys.length; i++) {
+                if (departments[dep_keys[i]][0] != "0") {
+                    actualData.push([dep_keys[i], departments[dep_keys[i]][3]]);
+                }
+            }
+
+            //this part does the sorting
+            actualData = actualData.sort( function(a, b) {
+                return b[1] - a[1];
+            })
+
+            barWidth = Object.keys(actualData).length * 0.5
+
+            var xScale = d3.scaleBand()
+                .range([0, actualWidth])
+                .padding(0.5);
+            var yScale = d3.scaleLinear()
+                .range([actualHeight, 0]);
+
+            var g = svg.append("g")
+                .attr("transform", "translate(" + left_margin + "," + top_margin + ")");
+            
+            //this maps the first column of the 2d array into a 1d array
+            wpm = actualData.map( function(arr, i) {
+                //wpm elements were strings initially
+                //* 100 then division by 100 to maintain 2 decimals
+                return parseInt(arr[1] * 100) / 100;
+            });
+            sorted_depts = actualData.map( function(arr, i) {
+                return arr[0];
+            });
+            yScale.domain([0, d3.max(wpm, function(d) {
+                return d;
+            })]);
+            //xscale after y scale because we need sorted wpm list first
+            xScale.domain(sorted_depts.map( function(i) {
+                return i;
+            }));
+
+            //this part is all for translating x axis down and making tick labels readable
+            g.append("g")
+                .attr("transform", "translate(0," + actualHeight + ")")
+                .call(d3.axisBottom(xScale))
+                .selectAll("text")
+                    .style("text-anchor", "end")
+                    .style("font-size", "9px")
+                    .attr("dy", "-0.5em")
+                    .attr("dx", "-0.6em")
+                    .attr("transform", "rotate(-50)");
+
+            //creates a new group for y axis ticks
+            g.append("g")
+            .call(d3.axisLeft(yScale).tickFormat(function(d) {
+                return d;
+            }));
+
+            //hidden divs
+            var div = d3.select("body")
+                .append("div")
+                .attr("class", "hover")
+                .style("opacity", 0);
+
+            //creates bars
+            g.selectAll("bar")
+                .data(wpm)
+                .enter() //data takes in array and enter puts it into somewhere?
+                .append("rect") //bars are just rectangles
+                .attr("class", "bar")
+                .on("mouseover", function(d, i) {
+                    var xPos = +d3.select(this)
+                        .attr("x");
+                    var width = +d3.select(this)
+                        .attr("width");
+                    d3.select(this)
+                        .transition()
+                        .duration(300)
+                        .attr("class", "highlight")
+                        .attr("x", xPos - 5)
+                        .attr("width", width + 10)
+                        .attr("opacity", 0.8);
+                    const [x, y] = d3.pointer(event);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 1);
+                    div.html("WPM: " + i)
+                        .style("left", (x + left_margin) + "px")
+                        .style("top", (y + actualHeight - top_margin) + "px");
+                })
+                .on("mouseout", function() {
+                    //mouseout slightly buggy since bars may still be highlighted after cursor goes out of bar
+                    d3.select(this)
+                        .attr("class", "bar")
+                        .transition()
+                        .duration(200)
+                        .attr("x", function(d) {
+                            index = wpm.indexOf(d);
+                            return xScale(actualData[index][0]);
+                        })
+                        .attr("width", xScale.bandwidth())
+                        .attr("opacity", 1);
+                    div.transition()
+                        .duration(100)
+                        .style("opacity", 0);
+                })
+                .attr("x", function(i) {
+                    index = wpm.indexOf(i);
+                    dept_name_tick = actualData[index][0];
+                    return xScale(dept_name_tick)
+                })
+                .attr("y", function(d) {
+                    return yScale(d);
+                })
+                .attr("width", xScale.bandwidth())
+                .attr("height", function(d) {
+                    return actualHeight - yScale(d);
+                });
+
+            //making title
+            svg.append("text") //title is just text
+                .style("text-anchor", "middle") //centers text
+                .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + "10)") //moves it to relatively central place on top of bar chart
+                .attr("y", 20) //move the title down a little
+                .attr("font-size", "20px") //bigger font
+                .attr("font-weight", 550) //slightly bolder
+                .text("# of words in corpus by department"); //the content
+                
+            //labeling x-axis, similar to how title is created
+            svg.append("text")
+                .style("text-anchor", "middle")
+                .attr("transform", "translate(" + ((actualWidth/2) + left_margin) + "," + (height - 80) + ")")
+                .attr("font-size", "15px")
+                .attr("font-weight", 400)
+                .text("Department Name");
+
+            //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
+            svg.append("text")
+                .style("text-anchor", "middle")
+                .attr("transform", "translate(20" + "," + ((actualHeight/2) + top_margin) + ")rotate(-90)")
+                .attr("font-size", "15px")
+                .attr("font-weight", 400)
+                .text("# of words");
+        }
+
         // this is a pie chart for showing where our sources are from
         // certain departments having missing stats, so this is for the ones that are actually used
         var deptPieChart = function() {
@@ -540,7 +949,11 @@
 
         wpmDeptButton.addEventListener("click", wpmBar);
         vocabDeptButton.addEventListener("click", vocabBar);
+        wordDeptButton.addEventListener("click", wordsBar);
+        aprDeptButton.addEventListener("click", aprBar);
         pieChartButton.addEventListener("click", deptPieChart);
+
+        wpmBar();
 
     </script>
 </body>
