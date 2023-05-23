@@ -248,9 +248,9 @@
 
             //creates a new group for y axis ticks
             g.append("g")
-            .call(d3.axisLeft(yScale).tickFormat(function(d) {
-                return d;
-            }));
+                .call(d3.axisLeft(yScale).tickFormat(function(d) {
+                    return d;
+                }));
 
             //hidden divs
             var div = d3.select("body")
@@ -272,7 +272,6 @@
                     d3.select(this)
                         .transition()
                         .duration(300)
-                        .attr("class", "highlight")
                         .attr("x", xPos - 5)
                         .attr("width", width + 10)
                         .attr("opacity", 0.8);
@@ -306,6 +305,7 @@
                     return xScale(dept_name_tick)
                 })
                 .attr("y", function(d) {
+                    console.log(d);
                     return yScale(d);
                 })
                 .attr("width", xScale.bandwidth())
