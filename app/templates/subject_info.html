@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
-    <title> MIT Professor-O-Meter </title>
+    <title> Subject Information </title>
 </head>
 
 <body>
@@ -24,14 +24,6 @@
         <li id="menu-text" class="menu-text">Professor-O-Meter</li>
         </ul>
     </div>
-
-    <!-- Navbar -->
-    <nav id="navbar" class="top-bar" data-topbar role="navigation">
-      <div id="navbar" class="top-bar-left">
-        <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-          <li id="menu-text" class="menu-text">Professor-O-Meter</li>
-        </ul>
-      </div>
 
       <div id="navbar" class="top-bar-right">
         <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
@@ -62,5 +54,11 @@
       </div>
   </footer>
   
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="{{url_for('static', filename='js/peanut.js')}}"></script>
+  <script src='https://d3js.org/d3.v4.min.js'></script> 
+
 </body>
 </html>
