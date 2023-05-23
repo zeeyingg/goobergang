@@ -224,6 +224,30 @@
               .style("opacity", 0);
           })
           
+          //making title
+          svg.append("text") //title is just text
+            .style("text-anchor", "middle") //centers text
+            .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + "10)") //moves it to relatively central place on top of bar chart
+            .attr("y", 20) //move the title down a little
+            .attr("font-size", "20px") //bigger font
+            .attr("font-weight", 550) //slightly bolder
+            .text("Words Per Minute by Department"); //the content
+                
+          //labeling x-axis, similar to how title is created
+          svg.append("text")
+            .style("text-anchor", "middle")
+            .attr("transform", "translate(" + ((actualWidth/2) + margins) + "," + (height - 10) + ")")
+            .attr("font-size", "15px")
+            .attr("font-weight", 500)
+            .text("Department Name");
+
+          //y-axis, pretty much same as x-axis but text is rotated and at middle of height instead of width
+          svg.append("text")
+            .style("text-anchor", "middle")
+            .attr("transform", "translate(20" + "," + ((actualHeight/2) + margins) + ")rotate(-90)")
+            .attr("font-size", "15px")
+            .attr("font-weight", 500)
+            .text("WPM");
       }
 
       speedButton.addEventListener("click", speedHistogram);
