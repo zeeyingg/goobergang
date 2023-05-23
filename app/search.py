@@ -34,9 +34,11 @@ def create_path(ID):
 
 def get_transcript(ID):
     with open(create_path(ID), 'r') as transcript:
-        # result = ""
-        # while transcript.
-        return transcript.read()
-# print(create_path(2))
+        result = ""
+        transcript.readline()
+        for line in transcript:
+            result += line + "<br>"
+        return result
+# print(get_transcript(2))
 # print(search_title("MATH"))
 #print(search_title("thermo"))

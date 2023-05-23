@@ -45,13 +45,13 @@
 
     <h1>This is your id: {{ID}} </h1>
     Title : {{DATA[0]}} <br>
-    Professor: {{DATA[1]}} <br>
-    topic: {{DATA[2]}} <br>
+    Professor:  <a href = {{ url_for( 'prof_info' ,prof_id = DATA[1][0])}}> {{DATA[1][1]}} </a> <br>
+    topic: <a href = {{ url_for( 'subject_info' ,subject = DATA[2])}}> {{DATA[2]}} </a> <br>
     Speed: {{DATA[3]}} <br>
     Vocav: {{DATA[4]}} <br>
     <h2>THIS IS YOUR TRANSCRIPT</h2>
     <div>
-      {{TRANSCRIPT}}
+      {{TRANSCRIPT | safe}}
     </div>
   
     <footer class="footer">
