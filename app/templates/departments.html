@@ -46,7 +46,7 @@
         background-color: gray;
         border: 1px solid black;
         border-radius: 10px;
-        height: 11vh;
+        height: 12vh;
         color: black;
         padding: 0;
     }
@@ -103,10 +103,6 @@
         <h3>Click on each category to find out more information pertaining to each department on MIT OpenCourseWare.</h3>
 
         <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
-        
-    <div>
-        <button type="button" class="button" id="pie_chart">Data Sources</button>
-    </div>
 
     <div class="container" style="width: 92vw;">
       <div class="grid-container">
@@ -116,20 +112,21 @@
                   <button class="button stats-selector custom-highlight" id="wpm_dept">
                     <p class="selector-text" style="font-size: 1.5vw; padding-top: 2vh;">Avg WPM</p>
                   </button>
+                  <div style="height: 1.5vh">&nbsp;</div>
                   <button class="button stats-selector custom-highlight" id="vocab_dept">
                     <p class="selector-text" style="font-size: 1.34vw; padding: 1.5vh 0;">Common vocabulary rate<p>
                   </button>
+                  <div style="height: 1.5vh">&nbsp;</div>
                   <button class="button stats-selector custom-highlight" style="padding: 0;" id="apr_dept">
                     <p class="selector-text" style="font-size: 1vw; padding: 2.5vh 0;"># of audience participations per hour</p>
                   </button>
+                  <div style="height: 1.5vh">&nbsp;</div>
                   <button class="button stats-selector custom-highlight" id="word_dept">
                     <p class="selector-text" style="font-size: 1.2vw; padding: 3vh 0;"># of words in corpus<p>
                   </button>
-                  <button class="button stats-selector custom-highlight">
-                    <p class="selector-text" style="font-size: 1.2vw; padding: 2vh 0;"># of lectures in corpus (will add later)</p>
-                  </button>
-                  <button class="button stats-selector custom-highlight">
-                    <p class="selector-text" style="font-size: 1.2vw; padding: 2vh 0;"># of seconds in corpus (will add later)</p>
+                  <div style="height: 1.5vh">&nbsp;</div>
+                  <button class="button stats-selector custom-highlight" id="pie_chart">
+                    <p class="selector-text" style="font-size: 1.2vw; padding: 2vh 0;">Data sources</p>
                   </button>
             </div>
           </div>
@@ -150,10 +147,10 @@
         <table>
             <tr>
                 <td>
-                    <p>Work in progress</p>
+                    <p>Comparative Media Studies/Writing</p>
                 </td>
                 <td>
-                    <p>Work in progress</p>
+                    <p>157.6</p>
                 </td>
             </tr>
         </table>
@@ -864,7 +861,7 @@
         // certain departments having missing stats, so this is for the ones that are actually used
         var deptPieChart = function() {
             clear();
-            const height = 600; //probably don't need height and width if pie chart svg is a square
+            const height = 500; //probably don't need height and width if pie chart svg is a square
             const width = 600;
             const margins = 200;
             const radius = (width - margins) / 2;
