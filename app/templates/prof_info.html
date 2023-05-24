@@ -47,18 +47,23 @@
         </div>
     </nav>
     <div style="margin-left: 2vw">
-        <h1>Professor: {{NAME}} <br></h1>
-        Speed: {{SPEED}} <br>
-        Bocab = {{VOCAB}} <br>
-        Student Interaction: {{INTERACTION}} <br>
-        Lectures:
+        <h2><u>PROFESSOR</u></h2>
+        <h1 id="prof_name">{{NAME}} <br></h1>
+        <h3>
+        <b>Average WPM:</b> {{SPEED}} <br>
+        <b>Proportion of words in top 500 English:</b> {{VOCAB}} <br>
+        <b>Average number of audience participation per hour:</b> {{INTERACTION}}<br>
+        <h2>LECTURES:</h2>
         {% for lecture in LECTURES %}
+        </h3>
         <li><a href={{ url_for( 'lecture_info' ,lecture_id=lecture[0])}}>
                 {{lecture[1]}}
             </a></li>
         {% endfor %}
     </div>
     <br><br>
+
+  <!-- Style  -->
   <style>
     #navbar{
     background-color: #d9d8a9;
@@ -101,6 +106,11 @@
     text-align: center;
     font-weight: bold;
 }
+
+#prof_name{
+    color: #b83f0f
+}
+
 ol {
     padding-left: 40px;
 }
@@ -108,16 +118,19 @@ ol {
 h1 {
     font-weight: bold;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 h2{
+    font-size: 20px;
+    padding-top: 35px;
     padding-left: 20px;
     color: #73591e;
     font-weight: bold;
 }
 
 h3{
+    font-family: Work Sans, sans-serif;
     padding-left: 20px;
     color: black;
 }

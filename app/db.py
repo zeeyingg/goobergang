@@ -78,7 +78,7 @@ def populate():
         vocab = round(professors[f"{profs}"]["words"]["common_word_ratio"], 3)
         #not sure which value under audience participation to use as student interaction
         #also what is apr
-        stu = professors[f"{profs}"]["audience_participation"]["apr"]
+        stu = round(professors[f"{profs}"]["audience_participation"]["apr"])
         # print(prof_id, name, speed, vocab, stu)
         c.execute("INSERT INTO Professor values (?, ?, ?, ?, ?)", (prof_id, name, speed, vocab, stu))
         
@@ -87,7 +87,7 @@ def populate():
         topic = deps
         speed = round(departments[f"{deps}"]["words"]["wpm"], 2)
         vocab = round(departments[f"{deps}"]["words"]["common_word_ratio"], 3)
-        stu = departments[f"{deps}"]["audience_participation"]["apr"]
+        stu = round(departments[f"{deps}"]["audience_participation"]["apr"])
         words = departments[f"{deps}"]["words"]["num_words"]
         c.execute("INSERT INTO Subject values (?, ?, ?, ?, ?)", (topic, speed, vocab, stu, words))
         # print(topic, speed, vocab, stu)

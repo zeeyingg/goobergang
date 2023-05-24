@@ -30,7 +30,6 @@ def professor_page():
     #lecture_data = json.dumps(lecture_data_json())
     undumped = prof_data_json()
     prof_data = json.dumps(undumped)
-
     sorted_wpm = sorted(undumped.items(), key=lambda x: x[1][1])[::-1]
     sorted_apr = sorted(undumped.items(), key=lambda x: x[1][3])[::-1]
     #dep_data = json.dumps(dep_data_json())
@@ -40,6 +39,12 @@ def professor_page():
 def lecture_page():
     undumped = lecture_data_json()
     lecture_data = json.dumps(undumped)
+    # undumped_prof = prof_data_json()
+    # prof_data = json.dumps(undumped_prof)
+    # for lecture_id in undumped:
+    #     prof_id = undumped[lecture_id][2]
+    #     info = get_professor_info(prof_id)
+    # n=info[1] # Name
     return render_template("lecture.html", data=lecture_data, undumped=undumped)
 
 @app.route("/departments", methods=["GET"])
@@ -68,7 +73,7 @@ def prof_info(prof_id):
     prof_lectures = get_lectures_from_prof_id(prof_id)
 
     info = get_professor_info(prof_id)
-    n=info[1] # name
+    n=info[1] # Name
     s=info[2] # Speed
     v=info[3] # vocab
     i=info[4] # student interaction
@@ -79,13 +84,6 @@ def prof_info(prof_id):
 def subject_info(subject):
     lectures = get_lectures_from_topic(subject)
     return render_template("subject_info.html", ID=subject, LECTURES=lectures)
-
-@app.route("/d3test")
-def d3test():
-    lecture_data = json.dumps(lecture_data_json())
-    prof_data = json.dumps(prof_data_json())
-    dep_data = json.dumps(dep_data_json())
-    return render_template("d3test.html", data1=lecture_data, data2=prof_data, data3=dep_data)
 
 if __name__ == "__main__":
     app.debug = True
