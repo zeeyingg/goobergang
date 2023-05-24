@@ -142,18 +142,104 @@
       </div>
       <div style="background-color: rgb(249, 222, 173); height: 65.8vh; border-radius: 20px; border: 1px solid black; padding: 10px;">
         <h4>
-            <p>Department name</p>
+            <center><p>Department Stats:</p></center>
         </h4>
-        <table>
-            <tr>
-                <td>
-                    <p>Comparative Media Studies/Writing</p>
-                </td>
-                <td>
-                    <p>157.6</p>
-                </td>
-            </tr>
-        </table>
+        <div style="height: 55vh; overflow: auto; display: none;" id="wpmTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Department Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        WPM
+                    </th>
+                </tr>
+                {% for dep, val in wpm %}
+                {% if val[0] != '0' %}
+                <tr>
+                    <td>
+                        <p>{{ dep }}</p>
+                    </td>
+                    <td>
+                        <p>{{ val[0] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+        <div style="height: 55vh; overflow: auto; display: none;" id="cvrTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Department Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        CVR
+                    </th>
+                </tr>
+                {% for dep, val in cvr %}
+                {% if val[1] != '0' %}
+                <tr>
+                    <td>
+                        <p>{{ dep }}</p>
+                    </td>
+                    <td>
+                        <p>{{ val[1] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+        <div style="height: 55vh; overflow: auto; display: none;" id="aprTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Department Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        APR
+                    </th>
+                </tr>
+                {% for dep, val in apr %}
+                {% if val[2] != 0 %}
+                <tr>
+                    <td>
+                        <p>{{ dep }}</p>
+                    </td>
+                    <td>
+                        <p>{{ val[2] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+        <div style="height: 55vh; overflow: auto; display: none;" id="wordsTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Department Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        # words
+                    </th>
+                </tr>
+                {% for dep, val in words %}
+                {% if val[3] != 0 %}
+                <tr>
+                    <td>
+                        <p>{{ dep }}</p>
+                    </td>
+                    <td>
+                        <p>{{ val[3] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
       </div>
     </div>
     <svg></svg>
@@ -163,15 +249,6 @@
     <script>
         //okay so this is scuffed but it works, using jinja templating
         //d3 might need to be done in a script tag
-        var lectureRaw = '{{ data1 }}';
-        //for some reason the unicode or whatever for " is used
-        lectureRaw = lectureRaw.replaceAll('&#34;', '\"');
-        var lecture = JSON.parse(lectureRaw.replace('&#34;', '\"'))
-
-        var profRaw = '{{ data2 }}';
-        profRaw = profRaw.replaceAll('&#34;', '\"');
-        var professors = JSON.parse(profRaw.replace('&#34;', '\"'))
-
         var depRaw = '{{ data3 }}';
         depRaw = depRaw.replaceAll('&#34;', '\"');
         var departments = JSON.parse(depRaw.replace('&#34;', '\"'))
@@ -354,6 +431,11 @@
                 .attr("font-size", "15px")
                 .attr("font-weight", 400)
                 .text("WPM");
+
+            document.getElementById("wpmTable").style.display = 'block';
+            document.getElementById("cvrTable").style.display = 'none';
+            document.getElementById("aprTable").style.display = 'none';
+            document.getElementById("wordsTable").style.display = 'none';
         }
 
         //bar graph for vocab
@@ -522,6 +604,11 @@
                 .attr("font-size", "15px")
                 .attr("font-weight", 500)
                 .text("Common Vocabulary");
+
+            document.getElementById("wpmTable").style.display = 'none';
+            document.getElementById("cvrTable").style.display = 'block';
+            document.getElementById("aprTable").style.display = 'none';
+            document.getElementById("wordsTable").style.display = 'none';
         }
 
         var aprBar = function() {
@@ -630,7 +717,7 @@
                     div.transition()
                         .duration(100)
                         .style("opacity", 1);
-                    div.html("WPM: " + i)
+                    div.html("APR: " + i)
                         .style("left", (x + left_margin + 150) + "px")
                         .style("top", (y + actualHeight + 50) + "px");
                 })
@@ -687,6 +774,11 @@
                 .attr("font-size", "15px")
                 .attr("font-weight", 400)
                 .text("Audience participations/hr");
+
+            document.getElementById("wpmTable").style.display = 'none';
+            document.getElementById("cvrTable").style.display = 'none';
+            document.getElementById("aprTable").style.display = 'block';
+            document.getElementById("wordsTable").style.display = 'none';
         }
 
         var wordsBar = function() {
@@ -797,7 +889,7 @@
                         .duration(100)
                         .style("opacity", 1);
                     console.log(i);
-                    div.html("Department: " + i[0] + "<br>" + "WPM: " + i[1])
+                    div.html("Department: " + i[0] + "<br>" + "Words: " + i[1])
                         .style("left", (x + left_margin + 150) + "px")
                         .style("top", (y + actualHeight + 50) + "px");
                 })
@@ -855,6 +947,11 @@
                 .attr("font-size", "15px")
                 .attr("font-weight", 400)
                 .text("# of words");
+
+            document.getElementById("wpmTable").style.display = 'none';
+            document.getElementById("cvrTable").style.display = 'none';
+            document.getElementById("aprTable").style.display = 'none';
+            document.getElementById("wordsTable").style.display = 'block';
         }
 
         // this is a pie chart for showing where our sources are from
@@ -970,7 +1067,13 @@
         aprDeptButton.addEventListener("click", aprBar);
         pieChartButton.addEventListener("click", deptPieChart);
 
+        document.getElementById("wpmTable").style.display = 'none';
+        document.getElementById("cvrTable").style.display = 'none';
+        document.getElementById("aprTable").style.display = 'none';
+        document.getElementById("wordsTable").style.display = 'block';
+
         wpmBar();
+        wpmDeptButton.focus();
 
     </script>
 

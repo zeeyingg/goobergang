@@ -28,21 +28,31 @@ def result_page():
 @app.route("/professor", methods=["GET"])
 def professor_page():
     #lecture_data = json.dumps(lecture_data_json())
-    prof_data = json.dumps(prof_data_json())
+    undumped = prof_data_json()
+    prof_data = json.dumps(undumped)
+
+    sorted_wpm = sorted(undumped.items(), key=lambda x: x[1][1])[::-1]
+    sorted_apr = sorted(undumped.items(), key=lambda x: x[1][3])[::-1]
     #dep_data = json.dumps(dep_data_json())
-    return render_template("professor.html", data = prof_data)
+    return render_template("professor.html", data = prof_data, undumped=undumped, wpm=sorted_wpm, apr=sorted_apr)
 
 @app.route("/lecture", methods=["GET"])
 def lecture_page():
-    lecture_data = json.dumps(lecture_data_json())
-    return render_template("lecture.html", data=lecture_data)
+    undumped = lecture_data_json()
+    lecture_data = json.dumps(undumped)
+    return render_template("lecture.html", data=lecture_data, undumped=undumped)
 
 @app.route("/departments", methods=["GET"])
 def department_page():
-    lecture_data = json.dumps(lecture_data_json())
-    prof_data = json.dumps(prof_data_json())
-    dep_data = json.dumps(dep_data_json())
-    return render_template("departments.html", data1=lecture_data, data2=prof_data, data3=dep_data)
+    undumped = dep_data_json()
+    dep_data = json.dumps(undumped)
+
+    undumped_sorted_wpm = sorted(undumped.items(), key = lambda x: float(x[1][0]))[::-1]
+    undumped_sorted_cvr = sorted(undumped.items(), key = lambda x: float(x[1][1]))[::-1]
+    undumped_sorted_apr = sorted(undumped.items(), key = lambda x: x[1][2])[::-1]
+    undumped_sorted_words = sorted(undumped.items(), key = lambda x: x[1][3])[::-1]
+
+    return render_template("departments.html", data3=dep_data, undumped=undumped, wpm=undumped_sorted_wpm, cvr=undumped_sorted_cvr, apr=undumped_sorted_apr, words=undumped_sorted_words)
 
 @app.route("/lecture/<lecture_id>", methods=["GET"])
 def lecture_info(lecture_id):

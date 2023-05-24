@@ -27,28 +27,6 @@
                 <li id="menu-text" class="menu-text">Professor-O-Meter</li>
             </ul>
         </div>
-
-<<<<<<< HEAD
-      <div id="navbar" class="top-bar-right">
-          <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-          <li><a href="/">Home</a></li>
-          <li><a href="/professor">Professors</a></li>
-          <li><a href="/lecture">Lectures</a></li>
-          <li><a href="/departments">Departments</a></li>
-          <ul class="menu">
-              <li><form id="navbar" action="/result" class="search-form">
-                  <input type="search" placeholder="Search" name="search"></li>
-                  <li><button id="search_button" type="submit" class="button">Search</button>
-              </form></li>
-              </ul>
-          </div>
-          </ul>
-      </div>
-      </nav>
-      
-    INFO: Speed: {{SPEED}}, Verbosity (Proportion of words in top 500 English words)= {{VOCAB}}, Student Interaction: {{INTERACTION}} <br>
-    Lectures: 
-=======
         <div id="navbar" class="top-bar-right">
             <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
                 <li><a href="/">Home</a></li>
@@ -68,19 +46,19 @@
         </ul>
         </div>
     </nav>
-    <h1>Professor: {{NAME}} <br></h1>
-    Speed: {{SPEED}} <br>
-    Bocab = {{VOCAB}} <br>
-    Student Interaction: {{INTERACTION}} <br>
-    Lectures:
->>>>>>> 80c9d9bd4b46bc67d4b746266769e2e789ab8d9f
-    {% for lecture in LECTURES %}
-    <li><a href={{ url_for( 'lecture_info' ,lecture_id=lecture[0])}}>
-            {{lecture[1]}}
-        </a></li>
-    {% endfor %}
-
-<<<<<<< HEAD
+    <div style="margin-left: 2vw">
+        <h1>Professor: {{NAME}} <br></h1>
+        Speed: {{SPEED}} <br>
+        Bocab = {{VOCAB}} <br>
+        Student Interaction: {{INTERACTION}} <br>
+        Lectures:
+        {% for lecture in LECTURES %}
+        <li><a href={{ url_for( 'lecture_info' ,lecture_id=lecture[0])}}>
+                {{lecture[1]}}
+            </a></li>
+        {% endfor %}
+    </div>
+    <br><br>
   <style>
     #navbar{
     background-color: #d9d8a9;
@@ -160,7 +138,6 @@ body{
   <script src="{{url_for('static', filename='js/peanut.js')}}"></script>
   <script src='https://d3js.org/d3.v4.min.js'></script> 
   
-=======
     <footer class="footer">
         <div class="grid-container">
             <div class="grid-x grid-padding-x">
@@ -178,7 +155,6 @@ body{
     <script src="{{url_for('static', filename='js/peanut.js')}}"></script>
     <script src='https://d3js.org/d3.v4.min.js'></script>
 
->>>>>>> 80c9d9bd4b46bc67d4b746266769e2e789ab8d9f
 </body>
 
 </html>

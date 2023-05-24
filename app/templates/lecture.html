@@ -59,12 +59,55 @@
           </ul>
       </div>
       </nav>
-    Lectures
      <!-- This will be the template for each lecture's page, showing all the information we have on that lecture -->
 
-    <div>
-      <button type="button" class="button" id="speed_histogram">Lecture WPM Histogram</button>
-    </div>
+     <center><h1>Lectures</h1></center>
+
+    <table>
+      <tr>
+        <th>
+          Course Title
+        </th>
+        <th>
+          Lecture Title
+        </th>
+        <th>
+          Professor ID
+        </th>
+        <th>
+          Department
+        </th>
+        <th>
+          WPM
+        </th>
+        <th>
+          CVR
+        </th>
+      </tr>
+      {% for lecture_id in undumped %}
+      <tr>
+        <td>
+          {{ undumped[lecture_id][0] }}
+        </td>
+        <td>
+          {{ undumped[lecture_id][1] }}
+        </td>
+        <td>
+          <a href="/prof/{{ undumped[lecture_id][2] }}">{{ undumped[lecture_id][2] }}</a>
+        </td>
+        <td>
+          {{ undumped[lecture_id][3] }}
+        </td>
+        <td>
+          {{ undumped[lecture_id][4] }}
+        </td>
+        <td>
+          {{ undumped[lecture_id][5] }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+
     <svg></svg>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>

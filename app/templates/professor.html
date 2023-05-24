@@ -28,6 +28,48 @@
         pointer-events: none;
         font-size: 12px;
       }
+
+
+        svg rect {
+            fill: #00008B;
+        }
+        .highlight {
+            fill: blue;
+        }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 7fr 3fr;
+      grid-gap: 20px;
+      padding: 10px;
+    }
+    .stats-selector {
+        width: 100%;
+        background-color: gray;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 32vh;
+        color: black;
+        padding: 0;
+    }
+    .stats-selector:focus {
+        background-color: #b83f0f;
+        color: black;
+    }
+    .stats-selector:hover {
+        background-color: rgb(220,220,220);
+        color: black;
+    }
+    .selector-text {
+        padding:10px;
+        margin-bottom: 10px;
+        font-size: 1.5vw;
+        line-height: 1;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .button-group {
+        margin-bottom: 10px;
+    }
     </style>
 </head>
 <body>
@@ -61,10 +103,86 @@
        <!-- This will be the template for each individual professor's page,
         Where all of their information are shown. Lectures they've given,
         topics they teach, words per minute, vocaulary, ... -->
-    <div>
-      <button type="button" class="button" id="speed_scatter">Professor WPM Scatterplot</button>
-      <button type="button" class="button" id="stu">Student Interactions by Professor</button>
+
+    <div class="container" style="width: 92vw;">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell" style="padding: 0; width: 12vw;">
+            <div class="button-group stacked-for-small">
+                  <button class="button stats-selector custom-highlight" id="speed_scatter">
+                    <p class="selector-text" style="font-size: 1.5vw; padding-top: 2vh;">WPM by Professor</p>
+                  </button>
+                  <div style="height: 2vh">&nbsp;</div>
+                  <button class="button stats-selector custom-highlight" id="stu">
+                    <p class="selector-text" style="font-size: 1.34vw; padding: 1.5vh 0;">Student Interactions by Professor<p>
+                  </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <svg style="
+        background-color: rgb(238, 245, 254); 
+        height: 65.8vh; 
+        border-radius: 20px; 
+        border: 1px solid black;">
+    </svg>
+      </div>
+      <div style="background-color: rgb(249, 222, 173); height: 65.8vh; border-radius: 20px; border: 1px solid black; padding: 10px;">
+        <h4>
+            <center><p>Professor Stats:</p></center>
+        </h4>
+        <div style="height: 55vh; overflow: auto; display: none;" id="wpmTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Professor Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        WPM
+                    </th>
+                </tr>
+                {% for dep, val in wpm %}
+                {% if val[1] != 0 %}
+                <tr>
+                    <td>
+                        <p><a href="/prof/{{ dep }}">{{ val[0] }}</a></p>
+                    </td>
+                    <td>
+                        <p>{{ val[1] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+        <div style="height: 55vh; overflow: auto; display: none;" id="aprTable">
+            <table>
+                <tr>
+                    <th style="border-bottom: 2px solid black;">
+                        Professor Name
+                    </th>
+                    <th style="border-bottom: 2px solid black;">
+                        APR
+                    </th>
+                </tr>
+                {% for dep, val in wpm %}
+                {% if val[1] != 0 %}
+                <tr>
+                    <td>
+                        <p><a href="/prof/{{ dep }}">{{ val[0] }}</a></p>
+                    </td>
+                    <td>
+                        <p>{{ val[3] }}</p>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+      </div>
     </div>
+    <svg></svg>
 
     <svg></svg>
 
@@ -89,7 +207,7 @@
         clear();
         var margins = 50; //margins on all sides
         var width = 800;
-        var height = 600;
+        var height = screen.height * .5;
         //actual width and height used for side labels
         var actualWidth = width - (2*margins);
         var actualHeight = height - (2*margins);
@@ -211,6 +329,9 @@
           .attr("font-size", "15px")
           .attr("font-weight", 500)
           .text("WPM");
+
+        document.getElementById("wpmTable").style.display = 'block';
+        document.getElementById("aprTable").style.display = 'none';
       }
 
       var stuScatter = function() {
@@ -219,7 +340,7 @@
         var left_margin = 70; //margins on all sides
         var right_margin = 25;
         var width = 800;
-        var height = 600;
+        var height = screen.height * .5;
         //actual width and height used for side labels
         var actualWidth = width - (left_margin + right_margin);
         var actualHeight = height - (2*margins);
@@ -335,10 +456,16 @@
           .attr("font-size", "15px")
           .attr("font-weight", 500)
           .text("Number of Student Interactions");
+
+        document.getElementById("wpmTable").style.display = 'none';
+        document.getElementById("aprTable").style.display = 'block';
       }
 
       scatterButton.addEventListener("click", speedScatter);
       stuButton.addEventListener("click", stuScatter);
+
+      speedScatter();
+      scatterButton.focus();
     </script>
 
   <footer class="footer">

@@ -50,12 +50,12 @@
     <!-- lecture_title professor_name topic speed vocabulary -->
 
     <h1> Title : {{DATA[0]}} <br> </h1>
-    Professor: <a href={{ url_for( 'prof_info' ,prof_id=DATA[1][0])}}> {{DATA[1][1]}} </a> <br>
-    topic: <a href={{ url_for( 'subject_info' ,subject=DATA[2])}}> {{DATA[2]}} </a> <br>
-    Speed: {{DATA[3]}} <br>
-    Vocab: {{DATA[4]}} <br></h3>
-    <h2>THIS IS YOUR TRANSCRIPT</h2>
-    <div>
+    <div style="margin-left: 2vw;">
+        Professor: <a href={{ url_for( 'prof_info' ,prof_id=DATA[1][0])}}> {{DATA[1][1]}} </a> <br>
+        topic: <a href={{ url_for( 'subject_info' ,subject=DATA[2])}}> {{DATA[2]}} </a> <br>
+        Speed: {{DATA[3]}} <br>
+        Vocab: {{DATA[4]}} <br></h3>
+        <h2>Transcript:</h2>
         {{TRANSCRIPT | safe}}
     </div>
 
