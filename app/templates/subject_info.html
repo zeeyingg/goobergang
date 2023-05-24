@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Compressed CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
-    <!-- Compressed JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="static/css/stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
-    <title> Subject Information </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+    crossorigin="anonymous">
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"
+    crossorigin="anonymous"></script>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="static/css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <title> Subject Information </title>
 </head>
 
 <body>
   <!-- Navbar -->
   <nav id="navbar" class="top-bar" data-topbar role="navigation">
     <div id="navbar" class="top-bar-left">
-        <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+      <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
         <li id="menu-text" class="menu-text">Professor-O-Meter</li>
-        </ul>
+      </ul>
     </div>
 
-      <div id="navbar" class="top-bar-right">
-        <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
-          <li><a href="/">Home</a></li>
-          <li><a href="/professor">Professors</a></li>
-          <li><a href="/lecture">Lectures</a></li>
-          <li><a href="/departments">Departments</a></li>
-          <ul class="menu">
-              <li><form id="navbar" action="/result" class="search-form">
-                  <input type="search" placeholder="Search" name="search"></li>
-                  <li><button id="search_button" type="submit" class="button">Search</button>
-              </form></li>
-            </ul>
-          </div>
-          </ul>
-      </div>
-    </nav>
-    This is your Subject: {{ID}}
+    <div id="navbar" class="top-bar-right">
+      <ul id="navbar" class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+        <li><a href="/">Home</a></li>
+        <li><a href="/professor">Professors</a></li>
+        <li><a href="/lecture">Lectures</a></li>
+        <li><a href="/departments">Departments</a></li>
+        <ul class="menu">
+          <li>
+            <form id="navbar" action="/result" class="search-form">
+              <input type="search" placeholder="Search" name="search">
+          </li>
+          <li><button id="search_button" type="submit" class="button">Search</button>
+            </form>
+          </li>
+        </ul>
+    </div>
+    </ul>
+    </div>
+  </nav>
 
-    <footer class="footer">
-      <div class="grid-container">
-          <div class="grid-x grid-padding-x">
-          <div class="cell small-12">
-              <!-- Footer content goes here -->
-              <p>This is the footer content.</p>
-          </div>
-          </div>
+  <h1>{{ID}}</h1>
+  <ol>
+    <!-- Each lecture/prof/subj leads to their own page -->
+    {% for lecture in LECTURES %}
+    <li><a href={{ url_for( 'lecture_info' ,lecture_id=lecture[0])}}>
+        {{lecture[1]}}
+      </a></li>
+    {% endfor %}
+  </ol>
+  <footer class="footer">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell small-12">
+          <!-- Footer content goes here -->
+          <p>This is the footer content.</p>
+        </div>
       </div>
+    </div>
   </footer>
+<<<<<<< HEAD
   
   <style>#navbar{
     background-color: #d9d8a9;
@@ -124,11 +139,15 @@ body{
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #faf9cd;
 }</style>
+=======
+
+>>>>>>> 80c9d9bd4b46bc67d4b746266769e2e789ab8d9f
   <script>
     $(document).foundation();
   </script>
   <script src="{{url_for('static', filename='js/peanut.js')}}"></script>
-  <script src='https://d3js.org/d3.v4.min.js'></script> 
+  <script src='https://d3js.org/d3.v4.min.js'></script>
 
 </body>
+
 </html>

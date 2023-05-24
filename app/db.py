@@ -233,6 +233,16 @@ def get_lectures_from_prof_id(ID):
     Titles = [[Title[0], Title[1]] for Title in data]
     return Titles
 
+def get_lectures_from_topic(topic):
+    c = db.cursor()
+    c.execute("select Lecture_id,lecture_title from Lectures where (topic = ?)", (topic,))
+    data = c.fetchall()
+    c.close()
+    if data == None : 
+        return []
+    Titles = [[Title[0], Title[1]] for Title in data]
+    return Titles
+
 def lecture_data_json():
     raw = get_all_lecture_data()
     dictionary = {}

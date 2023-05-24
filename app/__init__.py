@@ -58,16 +58,17 @@ def prof_info(prof_id):
     prof_lectures = get_lectures_from_prof_id(prof_id)
 
     info = get_professor_info(prof_id)
+    n=info[1] # name
     s=info[2] # Speed
     v=info[3] # vocab
     i=info[4] # student interaction
 
-    return render_template("prof_info.html", ID=prof_id, LECTURES=prof_lectures, SPEED=s, VOCAB=v, INTERACTION=i)
+    return render_template("prof_info.html", ID=prof_id, LECTURES=prof_lectures, SPEED=s, VOCAB=v, INTERACTION=i, NAME=n)
 
 @app.route("/subject/<subject>", methods=["GET"])
 def subject_info(subject):
-    
-    return render_template("subject_info.html", ID=subject)
+    lectures = get_lectures_from_topic(subject)
+    return render_template("subject_info.html", ID=subject, LECTURES=lectures)
 
 @app.route("/d3test")
 def d3test():
