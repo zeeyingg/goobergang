@@ -160,6 +160,11 @@ junW -- 2023-05-21 22:50
  * Added scatterplot for professor WPM
 ==============================================================
 
+gabrielT -- 2023-05-22 13:30
+--------------------------------------------------------------
+ * Add side buttons to for departments page, and made them actually change the graph on screen
+==============================================================
+
 junW -- 2023-05-22 13:50
 --------------------------------------------------------------
  * Updated old charts in departments section
@@ -181,4 +186,11 @@ junW -- 2023-05-23 19:50
 --------------------------------------------------------------
  * Fixed histogram
  * Other small changes
+==============================================================
+
+gabrielT -- 2023-05-23 23:00
+--------------------------------------------------------------
+ * Added side-panels on professors page and made them functional
+ * Put table on lectures page contain details about every lecture
+ * Added panel on the right side of professors and departments page with tablified version of the graphs
 ==============================================================
