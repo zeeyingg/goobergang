@@ -42,8 +42,7 @@
       </div>
       </nav>
       
-    This is ur Prof's ID = {{ID}} <br>
-    INFO: Speed: {{SPEED}}, Bocab = {{VOCAB}}, Student Interaction: {{INTERACTION}} <br>
+    INFO: Speed: {{SPEED}}, Verbosity (Proportion of words in top 500 English words)= {{VOCAB}}, Student Interaction: {{INTERACTION}} <br>
     Lectures: 
     {% for lecture in LECTURES %}
     <li><a href = {{ url_for( 'lecture_info' ,lecture_id = lecture[0])}}>
@@ -61,6 +60,79 @@
           </div>
       </div>
   </footer>
+
+  <style>
+    #navbar{
+    background-color: #d9d8a9;
+    align-items: center;
+}
+
+/* #menu{
+    align-items: center;
+} */
+
+#menu-text{
+    color: black
+}
+
+#search{
+    padding: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#site_heading{
+    padding: 20px;
+    padding-top: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #b83f0f;
+    font-size: 110px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#site_caption{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+
+.footer{
+    background-color: #d9d8a9;
+    padding: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+ol {
+    padding-left: 40px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h2{
+    padding-left: 20px;
+    color: #73591e;
+    font-weight: bold;
+}
+
+h3{
+    padding-left: 20px;
+    color: black;
+}
+
+/* #index_background_image{
+    background-image: url('');
+} */
+
+body{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #faf9cd;
+}
+  </style>
 
   <script>
     $(document).foundation();
